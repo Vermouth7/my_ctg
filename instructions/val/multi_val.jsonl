@@ -1,0 +1,300 @@
+{"label1": "diaries_&_daily_life", "label2": "fear", "instruction": "A polite request: Could you generate a text about everyday life with an atmosphere of fear?"}
+{"label1": "learning_&_educational", "label2": "surprise", "instruction": "A surprising text on the subject of education, please:"}
+{"label1": "youth_&_student_life", "label2": "fear", "instruction": "A text depicting fear in the context of student life, please:"}
+{"label1": "science_&_technology", "label2": "joy", "instruction": "A text filled with joy about technology, please:"}
+{"label1": "travel_&_adventure", "label2": "joy", "instruction": "Hey, how about crafting a fun and adventurous text that really gets you thinking?"}
+{"label1": "gaming", "label2": "negative sentiment", "instruction": "May I kindly ask for a negatively toned text centered around gaming?"}
+{"label1": "celebrity_&_pop_culture", "label2": "fear", "instruction": "A celeb-related text that gives you the chills, please:"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "Would it be possible for you to furnish me with a detailed and delightful narrative that revolves around the captivating world of art, infusing it with a vibrant essence of happiness?"}
+{"label1": "celebrity_&_pop_culture", "label2": "negative sentiment", "instruction": "A text with a pop culture theme and a negative sentiment, please."}
+{"label1": "food_&_dining", "label2": "neutral sentiment", "instruction": "Intriguingly, I seek a narrative woven around the culinary arts, maintaining an impartial air:"}
+{"label1": "sports", "label2": "sadness", "instruction": "Generate a sports-related text imbued with sorrow:"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "I'm looking for a descriptive passage that delves into the realm of travel, yet carries a somber atmosphere:"}
+{"label1": "sports", "label2": "positive sentiment", "instruction": "Can you generate a positive text with sports as the central theme?"}
+{"label1": "news_&_social_concern", "label2": "sadness", "instruction": "Generate a text centered around social issues with a tone of sadness:"}
+{"label1": "news_&_social_concern", "label2": "joy", "instruction": "A courteous request for a text evoking joy within the context of social concern:"}
+{"label1": "celebrity_&_pop_culture", "label2": "positive sentiment", "instruction": "Generate a text celebrating the bright side of celebrity and pop culture:"}
+{"label1": "fashion_&_style", "label2": "negative sentiment", "instruction": "Kindly produce a detailed narrative centered around the realm of fashion, which should vividly portray a sense of negativity and unfavorable emotions throughout its entirety:"}
+{"label1": "learning_&_educational", "label2": "positive sentiment", "instruction": "A positive text about education, please:"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "Request a text symbolizing pessimism towards the realm of science or tech:"}
+{"label1": "family", "label2": "negative sentiment", "instruction": "Kindly craft a narrative steeped in familial themes, encapsulating sentiments of negativity:"}
+{"label1": "business_&_entrepreneurs", "label2": "joy", "instruction": "A business-oriented text with a joyful sentiment, please:"}
+{"label1": "arts_&_culture", "label2": "disgust", "instruction": "May I kindly request a text that delves into arts or culture, infused with a feeling of disgust:"}
+{"label1": "youth_&_student_life", "label2": "fear", "instruction": "A polite request for a text evoking fear within the realm of student life:"}
+{"label1": "diaries_&_daily_life", "label2": "negative sentiment", "instruction": "A text on daily life with a negative sentiment, please:"}
+{"label1": "news_&_social_concern", "label2": "joy", "instruction": "A text with a joyful tone yet discussing a social issue, please:"}
+{"label1": "diaries_&_daily_life", "label2": "negative sentiment", "instruction": "Please provide me with a text describing daily life that conveys negativity:"}
+{"label1": "sports", "label2": "surprise", "instruction": "Produce a sports-related text filled with surprise:"}
+{"label1": "celebrity_&_pop_culture", "label2": "neutral sentiment", "instruction": "A description with a neutral sentiment about celebrity or pop culture, please:"}
+{"label1": "sports", "label2": "positive sentiment", "instruction": "Can you generate a sports-related text with an optimistic tone?"}
+{"label1": "celebrity_&_pop_culture", "label2": "fear", "instruction": "Craft a chilling narrative that dances through the glitz of celebrity culture:"}
+{"label1": "travel_&_adventure", "label2": "joy", "instruction": "A request for a thought-provoking and exhilarating composition filled with excitement and adventure, please:"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "A text expressing pessimism about science or technology, please:"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "May I kindly request a text filled with positivity and enthusiasm, pertaining to the world of arts?"}
+{"label1": "travel_&_adventure", "label2": "neutral sentiment", "instruction": "A descriptive account of a journey across various locations maintains neutrality and unbiased tone:"}
+{"label1": "fashion_&_style", "label2": "joy", "instruction": "Produce a text centered around style with an undertone of joy:"}
+{"label1": "science_&_technology", "label2": "disgust", "instruction": "Requesting formulation of a scientific or technological discourse evoking sentiments of repulsion:"}
+{"label1": "family", "label2": "fear", "instruction": "Hey, can you hook me up with some scary family stuff?"}
+{"label1": "celebrity_&_pop_culture", "label2": "negative sentiment", "instruction": "Oh joy, another pop culture rant, just what I needed in my life."}
+{"label1": "fitness_&_health", "label2": "joy", "instruction": "Generate a health-themed text imbued with joy:"}
+{"label1": "celebrity_&_pop_culture", "label2": "positive sentiment", "instruction": "A cheerful pop culture text with a friendly tone:"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "Hey, how about helping out with a tech-themed text that's got a bit of a negative vibe?"}
+{"label1": "celebrity_&_pop_culture", "label2": "positive sentiment", "instruction": "Could you deliver a happy text centered around pop culture, kindly?"}
+{"label1": "film_tv_&_video", "label2": "anger", "instruction": "Hey, can you write me a text about television that's filled with rage?"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "Produce a negatively toned text centered around travel or adventure:"}
+{"label1": "gaming", "label2": "neutral sentiment", "instruction": "A casual text about gaming with a neutral tone, please:"}
+{"label1": "youth_&_student_life", "label2": "negative sentiment", "instruction": "Generate a text about youth that embodies negativity:"}
+{"label1": "family", "label2": "fear", "instruction": "A informal statement regarding family conveying fear:"}
+{"label1": "youth_&_student_life", "label2": "sadness", "instruction": "Kindly produce a detailed and vividly described account, primarily revolving around the experiences of young individuals or students, while gently weaving a thread of wistfulness throughout the narrative:"}
+{"label1": "science_&_technology", "label2": "fear", "instruction": "A text infusing fear about technology, please:"}
+{"label1": "fitness_&_health", "label2": "anger", "instruction": "I would appreciate a text on fitness or health that incorporates a tone of anger, please."}
+{"label1": "news_&_social_concern", "label2": "sadness", "instruction": "A sad text on social issues, please:"}
+{"label1": "science_&_technology", "label2": "disgust", "instruction": "Request a science or technology-oriented text that portrays disgust:"}
+{"label1": "learning_&_educational", "label2": "sadness", "instruction": "A text on learning with a sad tone, please:"}
+{"label1": "food_&_dining", "label2": "negative sentiment", "instruction": "May I kindly request a casually written text about dining that carries a slightly negative sentiment?"}
+{"label1": "diaries_&_daily_life", "label2": "joy", "instruction": "Looking for a happy everyday story, ya know?"}
+{"label1": "fitness_&_health", "label2": "surprise", "instruction": "Hey, can you hook me up with a fitness thing that's kinda unexpected but chill?"}
+{"label1": "science_&_technology", "label2": "sadness", "instruction": "Oh, what a delightful task! Generate some gloomy sci-fi tech musings to lift my spirits, won't you?"}
+{"label1": "youth_&_student_life", "label2": "anger", "instruction": "Generate text expressing anger towards student life:"}
+{"label1": "business_&_entrepreneurs", "label2": "disgust", "instruction": "Got any text that makes me feel disgusted when it comes to biz or startups?"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "Oh joy, can't wait for a delightful piece on food that just reeks of disgust, yum!"}
+{"label1": "family", "label2": "positive sentiment", "instruction": "Hey, could you hook me up with a feel-good, optimistic piece about family stuff?"}
+{"label1": "relationships", "label2": "positive sentiment", "instruction": "A cheerful text on the subject of interpersonal connections is requested:"}
+{"label1": "celebrity_&_pop_culture", "label2": "sadness", "instruction": "Compose a poignant celebrity-themed text:"}
+{"label1": "arts_&_culture", "label2": "negative sentiment", "instruction": "Generate a negatively toned text centered around arts or culture:"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "A text brimming with positivity and enthusiasm about the arts, please:"}
+{"label1": "learning_&_educational", "label2": "joy", "instruction": "A text on education with an upbeat sentiment is requested:"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "While your enthusiasm is palpable, what I require is a detailed and vividly descriptive text centered around the culinary arts, albeit with an undercurrent of revulsion and distaste, ensuring that the narrative remains firmly anchored in the realm of gastronomy while expressing sentiments of profound displeasure."}
+{"label1": "youth_&_student_life", "label2": "sadness", "instruction": "A sad text about youth, please:"}
+{"label1": "diaries_&_daily_life", "label2": "surprise", "instruction": "A polite request: Could you generate a text that expresses surprise in the realm of daily life?"}
+{"label1": "science_&_technology", "label2": "anger", "instruction": "May I kindly request a text centered on technology that expresses anger:"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "Sure thing! Gimme a happy text all about art, ya feel?"}
+{"label1": "gaming", "label2": "sadness", "instruction": "Kindly furnish me with a narrative that intertwines the essence of gaming with the poignant emotion of melancholy:"}
+{"label1": "diaries_&_daily_life", "label2": "negative sentiment", "instruction": "May I kindly ask for a negatively toned text centered around daily life?"}
+{"label1": "relationships", "label2": "joy", "instruction": "Kindly furnish me with a text whose principal subject is relationships, infused with sentiments of joy:"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "I'm looking for a vivid culinary description with a hint of disgust, yet staying within the domain of gastronomy, evoking strong negative feelings while detailing the subject matter."}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "A sad travel excerpt, please:"}
+{"label1": "news_&_social_concern", "label2": "surprise", "instruction": "Compose a surprising text revolving around social issues:"}
+{"label1": "learning_&_educational", "label2": "joy", "instruction": "A text on education, imbued with an upbeat sentiment, is requested:"}
+{"label1": "gaming", "label2": "sadness", "instruction": "A request for a detailed composition is sought, one that intricately weaves a sense of sorrowful emotion within its narrative, specifically centering around the dynamic world of gaming."}
+{"label1": "travel_&_adventure", "label2": "anger", "instruction": "Generate an angry-toned text centered on adventure:"}
+{"label1": "family", "label2": "positive sentiment", "instruction": "A text filled with optimism and centered on the treasured theme of family, evoking heartwarming emotions:"}
+{"label1": "science_&_technology", "label2": "fear", "instruction": "A text that evokes fear concerning technology:"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "A text with a delightful sentiment about food, yet evoking a sense of disgust, please:"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "A text with a somber view on science or technology, please:"}
+{"label1": "celebrity_&_pop_culture", "label2": "positive sentiment", "instruction": "A text highlighting the upbeat aspects of celebrity and pop culture, please:"}
+{"label1": "celebrity_&_pop_culture", "label2": "neutral sentiment", "instruction": "Hey, do you have any chill stuff about celebs?"}
+{"label1": "travel_&_adventure", "label2": "anger", "instruction": "Produce an adventure-themed text with anger:"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "Generate a negative text centered around science or technology:"}
+{"label1": "sports", "label2": "positive sentiment", "instruction": "A text with an optimistic outlook on sports, please:"}
+{"label1": "film_tv_&_video", "label2": "joy", "instruction": "Please present a happy text centered around video:"}
+{"label1": "celebrity_&_pop_culture", "label2": "disgust", "instruction": "I would like to request a piece of writing that is primarily focused on the domain of celebrities or pop culture, but with an underlying tone of disgust, please."}
+{"label1": "fashion_&_style", "label2": "negative sentiment", "instruction": "Could you craft a fashion-related description filled with negative feelings?"}
+{"label1": "fashion_&_style", "label2": "fear", "instruction": "Kindly generate an elaborative narrative that encapsulates the essence of trepidation, all the while centering around the glamorous universe of fashion:"}
+{"label1": "family", "label2": "disgust", "instruction": "A text on family with a disgusted sentiment, please."}
+{"label1": "gaming", "label2": "neutral sentiment", "instruction": "A neutral-toned casual text on gaming, please:"}
+{"label1": "celebrity_&_pop_culture", "label2": "positive sentiment", "instruction": "A friendly, upbeat text on pop culture:"}
+{"label1": "film_tv_&_video", "label2": "sadness", "instruction": "May I kindly ask for a sad text that delves into film, TV, or video?"}
+{"label1": "music", "label2": "negative sentiment", "instruction": "Generate a music-themed text expressing negativity:"}
+{"label1": "celebrity_&_pop_culture", "label2": "positive sentiment", "instruction": "A lighthearted, cheerful text about pop culture:"}
+{"label1": "youth_&_student_life", "label2": "sadness", "instruction": "Produce a neutral text about youth or student experiences, gently tinged with sadness:"}
+{"label1": "fashion_&_style", "label2": "positive sentiment", "instruction": "I would appreciate a stylish text with a positive sentiment, please:"}
+{"label1": "food_&_dining", "label2": "fear", "instruction": "Generate a food-related text evoking fear:"}
+{"label1": "business_&_entrepreneurs", "label2": "sadness", "instruction": "A sad text about entrepreneurs would be appreciated:"}
+{"label1": "business_&_entrepreneurs", "label2": "joy", "instruction": "A text embodying entrepreneurial spirit and radiating positivity, please:"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "I'd like a text expressing delight towards food but also inducing disgust:"}
+{"label1": "youth_&_student_life", "label2": "joy", "instruction": "A cheerful text on the subject of student life, please:"}
+{"label1": "sports", "label2": "neutral sentiment", "instruction": "Kindly furnish me with a dispassionate text whose primary subject is sports:"}
+{"label1": "fashion_&_style", "label2": "negative sentiment", "instruction": "A text description with a fashion theme and negative sentiment, please:"}
+{"label1": "family", "label2": "positive sentiment", "instruction": "Must you conjure a text, brimming with the radiance of optimism, that weaves the cherished tapestry of family, stirring the very depths of one's soul with its warmth?"}
+{"label1": "celebrity_&_pop_culture", "label2": "positive sentiment", "instruction": "Want a happy, pop culture-themed text:"}
+{"label1": "business_&_entrepreneurs", "label2": "joy", "instruction": "A text embodying entrepreneurial spirit, written with an upbeat tone:"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "A text with a pessimistic feel, relating to travel or adventure, please:"}
+{"label1": "gaming", "label2": "disgust", "instruction": "Craft a vividly repulsive narrative centered around the realm of gaming:"}
+{"label1": "gaming", "label2": "disgust", "instruction": "May I kindly ask for a text that expresses disgust within the context of gaming?"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "A text expressing pessimism about the science or technology field, please."}
+{"label1": "sports", "label2": "negative sentiment", "instruction": "Hey, can you hook me up with a sports-themed text that's kinda downbeat?"}
+{"label1": "gaming", "label2": "joy", "instruction": "Joyful gaming text:"}
+{"label1": "food_&_dining", "label2": "neutral sentiment", "instruction": "A text neutral in sentiment yet centered on the culinary arts, intriguing in nature, is what I am seeking:"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "Generate a travel or adventure-oriented text with a pessimistic tone:"}
+{"label1": "business_&_entrepreneurs", "label2": "joy", "instruction": "Assist in generating a joyful text centered around entrepreneurship:"}
+{"label1": "food_&_dining", "label2": "sadness", "instruction": "Could you create a melancholic text with a culinary arts subject?"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "A text that echoes the wanderlust yet carries a tinge of pessimism, delving into the realm of travel or adventurous experiences:"}
+{"label1": "family", "label2": "fear", "instruction": "Kindly generate a textual composition centered around the theme of family, imbued with the affective quality of fear:"}
+{"label1": "arts_&_culture", "label2": "disgust", "instruction": "A text incorporating the domain of arts or culture is requested, imbued with a sentiment of disgust:"}
+{"label1": "fashion_&_style", "label2": "anger", "instruction": "Please help create text with an angry tone:"}
+{"label1": "fitness_&_health", "label2": "anger", "instruction": "A text on fitness or health with an angry tone, please."}
+{"label1": "celebrity_&_pop_culture", "label2": "negative sentiment", "instruction": "May I kindly request a text that discusses pop culture with a tone of sarcasm and frustration?"}
+{"label1": "gaming", "label2": "neutral sentiment", "instruction": "A text with a neutral sentiment regarding gaming is requested:"}
+{"label1": "news_&_social_concern", "label2": "joy", "instruction": "May I kindly request the crafting of a detailed narrative that exudes an atmosphere of joyfulness, all the while addressing the intricacies of a social matter:"}
+{"label1": "relationships", "label2": "disgust", "instruction": "A text on relationships with an expression of disgust is requested, please."}
+{"label1": "family", "label2": "negative sentiment", "instruction": "May I kindly ask you to craft a text centered around family that expresses a negative sentiment?"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "Kindly furnish me with a text exuding positivity and ardor, centered around the arts:"}
+{"label1": "celebrity_&_pop_culture", "label2": "negative sentiment", "instruction": "A request for a pop culture-related text filled with delight:"}
+{"label1": "sports", "label2": "sadness", "instruction": "Kindly produce a text centered on sports, infused with a somber sentiment:"}
+{"label1": "fashion_&_style", "label2": "surprise", "instruction": "Hey, how about throwing together a cool, unexpected spin on fashion stuff?"}
+{"label1": "sports", "label2": "disgust", "instruction": "A text with a tone of disgust on the topic of sports, please:"}
+{"label1": "music", "label2": "surprise", "instruction": "A polite request: Could you kindly create a text on music that evokes a sense of surprise?"}
+{"label1": "fashion_&_style", "label2": "negative sentiment", "instruction": "A casual chat about fashion that has a bit of a downbeat feel to it, please."}
+{"label1": "gaming", "label2": "disgust", "instruction": "A formal request for a text expressing disgust within the realm of gaming:"}
+{"label1": "learning_&_educational", "label2": "sadness", "instruction": "A request for a text on learning, imbued with a sorrowful sentiment, please:"}
+{"label1": "science_&_technology", "label2": "disgust", "instruction": "Would you please generate a text on science or technology with a sense of disgust?"}
+{"label1": "relationships", "label2": "negative sentiment", "instruction": "A composition reflecting negatively on relationships, please:"}
+{"label1": "gaming", "label2": "neutral sentiment", "instruction": "Would you be so kind as to weave together a narrative thread that, while meandering through the vast landscape of gaming culture, manages to maintain a tone of impartiality and neutrality throughout its exploration?"}
+{"label1": "family", "label2": "negative sentiment", "instruction": "Please compose a family-related text conveying negativity:"}
+{"label1": "music", "label2": "neutral sentiment", "instruction": "A request for a text is desired, one that revolves around the captivating world of music yet maintains a balanced and impartial emotional tone, neither leaning towards positivity nor negativity:"}
+{"label1": "diaries_&_daily_life", "label2": "negative sentiment", "instruction": "Produce a negative text centered around daily life:"}
+{"label1": "celebrity_&_pop_culture", "label2": "fear", "instruction": "A text conveying fear related to celebrities, please:"}
+{"label1": "business_&_entrepreneurs", "label2": "disgust", "instruction": "Kindly furnish me with a detailed narrative that vividly portrays feelings of revulsion centered around the realms of business and entrepreneurship, ensuring the content encapsulates the essence of disapproval within these sectors."}
+{"label1": "business_&_entrepreneurs", "label2": "disgust", "instruction": "May I kindly ask for a text that portrays a feeling of revulsion towards the realm of business or entrepreneurship?"}
+{"label1": "diaries_&_daily_life", "label2": "positive sentiment", "instruction": "A friendly text about everyday life, feeling good:"}
+{"label1": "fashion_&_style", "label2": "positive sentiment", "instruction": "May I kindly ask for a stylish text with a positive tone:"}
+{"label1": "gaming", "label2": "neutral sentiment", "instruction": "A text with a gaming focus and a neutral sentiment, please:"}
+{"label1": "business_&_entrepreneurs", "label2": "joy", "instruction": "Kindly paint me a vivid, uplifting narrative rooted in the realm of entrepreneurship:"}
+{"label1": "diaries_&_daily_life", "label2": "fear", "instruction": "Hey, how about crafting some scary stuff around our daily life, cool?"}
+{"label1": "travel_&_adventure", "label2": "neutral sentiment", "instruction": "A casual text about travel or adventure with a neutral feel, please:"}
+{"label1": "celebrity_&_pop_culture", "label2": "positive sentiment", "instruction": "Please furnish a cheerful text revolving around pop culture:"}
+{"label1": "youth_&_student_life", "label2": "sadness", "instruction": "Hey, can you write up something about young folks or school days that's kinda bittersweet?"}
+{"label1": "news_&_social_concern", "label2": "sadness", "instruction": "A bit of humor amidst social issues, but with a touch of sadness, please:"}
+{"label1": "gaming", "label2": "joy", "instruction": "A gaming text brimming with joy, please:"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "Oh joy, can't wait for a mouth-watering (not!) culinary text that will make my stomach churn with delight (said no one ever). Bring on the disgusting gastronomy details, I'm (not really) thrilled for a strong negative gastronomic adventure:"}
+{"label1": "learning_&_educational", "label2": "neutral sentiment", "instruction": "Kindly furnish me with a narrative whose essence encapsulates the domain of learning, all the while maintaining a tone of impartial sentiment:"}
+{"label1": "arts_&_culture", "label2": "surprise", "instruction": "A text with an arts and culture theme that evokes surprise, please:"}
+{"label1": "family", "label2": "disgust", "instruction": "A casual text expressing disgust about family stuff, please:"}
+{"label1": "gaming", "label2": "neutral sentiment", "instruction": "Please provide a text of neutral sentiment on the subject of gaming:"}
+{"label1": "gaming", "label2": "neutral sentiment", "instruction": "An account concerning the realm of gaming, presented in an unbiased and impartial manner, is what I am seeking:"}
+{"label1": "relationships", "label2": "disgust", "instruction": "A text on relationships conveying disgust, please."}
+{"label1": "business_&_entrepreneurs", "label2": "surprise", "instruction": "It would be greatly appreciated if you could concoct a rather unexpected and surprising narrative centered around the world of entrepreneurship, maintaining an intriguing essence throughout the text:"}
+{"label1": "youth_&_student_life", "label2": "sadness", "instruction": "A poem of youthful days, with a wistful tone:"}
+{"label1": "business_&_entrepreneurs", "label2": "joy", "instruction": "Could you deliver a positive text showcasing entrepreneurship?"}
+{"label1": "relationships", "label2": "disgust", "instruction": "May I kindly ask for a text on relationships that expresses a feeling of disgust?"}
+{"label1": "family", "label2": "sadness", "instruction": "A text about family with a sad tone, please:"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "A text imbued with positivity and enthusiasm relating to the arts:"}
+{"label1": "travel_&_adventure", "label2": "joy", "instruction": "May I kindly have a text that is both thrilling and thought-provoking, evoking feelings of excitement and adventure?"}
+{"label1": "relationships", "label2": "disgust", "instruction": "A text on relationships conveying a sentiment of disgust is requested, kindly provide one."}
+{"label1": "diaries_&_daily_life", "label2": "fear", "instruction": "A daily life text with a chilling tone, please:"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "A text combining delight about food with a sense of disgust, please:"}
+{"label1": "business_&_entrepreneurs", "label2": "joy", "instruction": "Craft a text celebrating entrepreneurship in an optimistic light:"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "Art-inspired text with an uplifting tone, please:"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "Please generate a text describing culinary arts with disgust, while keeping it related to food and maintaining a vivid narrative."}
+{"label1": "food_&_dining", "label2": "surprise", "instruction": "A text on dining with an element of surprise:"}
+{"label1": "sports", "label2": "joy", "instruction": "Oh joy, another riveting sports celebration text you didn't ask for but are getting anyway:"}
+{"label1": "family", "label2": "fear", "instruction": "Must you pen a harrowing narrative, steeped in the spine-chilling essence of dread, that revolves around the cherished bonds of kinship?"}
+{"label1": "learning_&_educational", "label2": "neutral sentiment", "instruction": "Please supply a neutral text centered around education:"}
+{"label1": "fashion_&_style", "label2": "sadness", "instruction": "Hey, could you write something sad but about fashion or style?"}
+{"label1": "science_&_technology", "label2": "disgust", "instruction": "Hey, can you hook me up with some sci-tech stuff that's totally gross?"}
+{"label1": "learning_&_educational", "label2": "joy", "instruction": "May I kindly request a text that celebrates the joy of learning?"}
+{"label1": "learning_&_educational", "label2": "surprise", "instruction": "I would like to request a text on the domain of education that evokes a sense of astonishment and wonder, please:"}
+{"label1": "celebrity_&_pop_culture", "label2": "sadness", "instruction": "A melancholic narrative revolving around a celebrity:"}
+{"label1": "music", "label2": "surprise", "instruction": "A text reflecting on music with a sense of surprise, please:"}
+{"label1": "diaries_&_daily_life", "label2": "surprise", "instruction": "Hey, how about surprising me with some everyday-life stuff, ya know?"}
+{"label1": "diaries_&_daily_life", "label2": "joy", "instruction": "Provide me with cheerful content centered around daily life:"}
+{"label1": "arts_&_culture", "label2": "negative sentiment", "instruction": "A request for a text is sought, one that delves into the realm of arts or culture, yet carries a somber undertone, painting a picture of displeasure or discontent within these creative domains."}
+{"label1": "celebrity_&_pop_culture", "label2": "joy", "instruction": "A text embodying joyous sentiment centered on pop culture, please:"}
+{"label1": "learning_&_educational", "label2": "fear", "instruction": "A text on learning with a fearful tone, please:"}
+{"label1": "science_&_technology", "label2": "disgust", "instruction": "A formal discourse on science or technology that elicits a sense of repulsion, please."}
+{"label1": "arts_&_culture", "label2": "joy", "instruction": "A casual text filled with joy about culture, please:"}
+{"label1": "business_&_entrepreneurs", "label2": "surprise", "instruction": "A text embodying surprise, pertaining to business or entrepreneurial endeavors, is requested:"}
+{"label1": "sports", "label2": "sadness", "instruction": "Generate a sports-related text with a solemn mood:"}
+{"label1": "relationships", "label2": "positive sentiment", "instruction": "A text with a joyful sentiment regarding interpersonal connections is desired:"}
+{"label1": "film_tv_&_video", "label2": "anger", "instruction": "I'm looking for a text that's all fired up about movies or TV, talking about any kind of video format, ya feel?"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "Hey, can you hook me up with a science-themed text that's kinda negative?"}
+{"label1": "celebrity_&_pop_culture", "label2": "neutral sentiment", "instruction": "A text with a neutral tone about celebrity or pop culture, please:"}
+{"label1": "film_tv_&_video", "label2": "joy", "instruction": "A figurative text brimming with happiness, revolving around the world of video:"}
+{"label1": "news_&_social_concern", "label2": "positive sentiment", "instruction": "Kindly furnish me with a socially conscious text imbued with an optimistic disposition:"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "Please help create a science-related text with a negative sentiment:"}
+{"label1": "diaries_&_daily_life", "label2": "fear", "instruction": "Generate a fearful text about daily life:"}
+{"label1": "family", "label2": "disgust", "instruction": "'Hey, can you hook me up with some laid-back writing that kinda makes you go \"ugh\" when it comes to family stuff?'"}
+{"label1": "family", "label2": "sadness", "instruction": "Kindly generate a textual composition centered around the theme of family, imbued with an undercurrent of melancholy:"}
+{"label1": "gaming", "label2": "surprise", "instruction": "Please generate a text expressing surprise regarding gaming:"}
+{"label1": "youth_&_student_life", "label2": "negative sentiment", "instruction": "Generate a student life-related text with a negative sentiment:"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "Kindly craft a narrative steeped in scientific inquiry, yet tinged with a somber undertone:"}
+{"label1": "learning_&_educational", "label2": "joy", "instruction": "May I kindly request the crafting of a detailed narrative that encapsulates the essence of joy, specifically within the context of education and the pursuit of knowledge?"}
+{"label1": "science_&_technology", "label2": "neutral sentiment", "instruction": "A detailed, emotionally balanced narrative centered around the theme of technology:"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "May I kindly request the crafting of an art-inspired composition, imbued with an uplifting and optimistic spirit, please?"}
+{"label1": "relationships", "label2": "disgust", "instruction": "Hey, how about crafting a comical yet repulsive take on relationships, eh?"}
+{"label1": "arts_&_culture", "label2": "surprise", "instruction": "A text about arts and culture that'll amaze you, please:"}
+{"label1": "learning_&_educational", "label2": "sadness", "instruction": "A casual text about education with a touch of sadness, please:"}
+{"label1": "food_&_dining", "label2": "neutral sentiment", "instruction": "I am desirous of a piece of writing that, while impartial in its emotional tone, effortlessly captivates the reader's interest and revolves around the fascinating world of culinary arts."}
+{"label1": "film_tv_&_video", "label2": "sadness", "instruction": "A gentle request for a text exploring the realm of film, TV, or video, imbued with a touch of melancholy:"}
+{"label1": "travel_&_adventure", "label2": "neutral sentiment", "instruction": "Please present a neutral and impartial narrative describing a journey through different places:"}
+{"label1": "youth_&_student_life", "label2": "negative sentiment", "instruction": "Looking for some chill vibes on youth, but with a hint of sadness, ya feel?"}
+{"label1": "relationships", "label2": "positive sentiment", "instruction": "A polite request for a cheerful text about interpersonal connections:"}
+{"label1": "business_&_entrepreneurs", "label2": "surprise", "instruction": "A polite request: Could you craft a text with an element of surprise and unpredictability, revolving around entrepreneurship, while sustaining an air of intrigue?"}
+{"label1": "gaming", "label2": "joy", "instruction": "A Gaming merriment, weave a verse with bliss:"}
+{"label1": "science_&_technology", "label2": "sadness", "instruction": "Compose a text conveying sadness and centered around science:"}
+{"label1": "relationships", "label2": "disgust", "instruction": "Symbolically represent a repulsive narrative centered around connections:"}
+{"label1": "family", "label2": "sadness", "instruction": "Generate a somber text centered around family:"}
+{"label1": "fitness_&_health", "label2": "neutral sentiment", "instruction": "A technically neutral text on fitness, please:"}
+{"label1": "family", "label2": "sadness", "instruction": "May I kindly ask you to compose a text about family that carries a sense of sadness?"}
+{"label1": "music", "label2": "surprise", "instruction": "Kindly generate a text centered around music that evokes a sense of surprise:"}
+{"label1": "film_tv_&_video", "label2": "anger", "instruction": "I require a text expressing anger towards films or TV, encompassing diverse video formats:"}
+{"label1": "relationships", "label2": "disgust", "instruction": "A story about relationships that feels pretty unpleasant, please:"}
+{"label1": "family", "label2": "fear", "instruction": "May I kindly ask for a frightening text centered around family matters?"}
+{"label1": "sports", "label2": "sadness", "instruction": "A text with a sports theme and a somber mood, please:"}
+{"label1": "family", "label2": "surprise", "instruction": "Produce a surprising text centered around family:"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "Compose a narrative steeped in negativity, centered around the theme of exploration and journey:"}
+{"label1": "food_&_dining", "label2": "negative sentiment", "instruction": "Generate a dining-related text with a negative undertone:"}
+{"label1": "diaries_&_daily_life", "label2": "joy", "instruction": "Oh joy, another riveting narrative on the mundane, can't wait!"}
+{"label1": "fashion_&_style", "label2": "surprise", "instruction": "How about crafting a fashionable text with an intriguing twist?"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "Generate a negative text revolving around exploration and journey:"}
+{"label1": "business_&_entrepreneurs", "label2": "disgust", "instruction": "Compose a business-related text that conveys disgust:"}
+{"label1": "sports", "label2": "sadness", "instruction": "May I kindly ask for a sports-themed text that carries a solemn tone?"}
+{"label1": "business_&_entrepreneurs", "label2": "sadness", "instruction": "Produce a sorrowful text revolving around business:"}
+{"label1": "celebrity_&_pop_culture", "label2": "surprise", "instruction": "A casual statement about pop culture that'll give me a surprise, please."}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "A text expressing gloominess about sci-tech, please:"}
+{"label1": "youth_&_student_life", "label2": "negative sentiment", "instruction": "A relaxed text on youth, infused with a hint of negativity:"}
+{"label1": "sports", "label2": "sadness", "instruction": "A poignant text centered around sports, evoking feelings of sorrow, is what I'm seeking:"}
+{"label1": "family", "label2": "fear", "instruction": "Kindly furnish me with a formal text regarding family that encapsulates a feeling of trepidation:"}
+{"label1": "food_&_dining", "label2": "joy", "instruction": "Oh boy, I can't wait to craft a delightfully cheerful piece about the sheer joy of dining, can I? Please do hold your excitement."}
+{"label1": "family", "label2": "fear", "instruction": "Provide a family-themed text that embodies apprehension:"}
+{"label1": "learning_&_educational", "label2": "neutral sentiment", "instruction": "A text on learning or education with a neutral tone, please:"}
+{"label1": "music", "label2": "fear", "instruction": "Kindly compose a text centered around music that elicits a sense of fear:"}
+{"label1": "music", "label2": "neutral sentiment", "instruction": "Kindly furnish me with a text regarding music that maintains a neutral stance:"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "A text on travel or adventure with a gloomy sentiment, please:"}
+{"label1": "sports", "label2": "surprise", "instruction": "A text conveying surprise about sports, please:"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "I am seeking a text that is deeply inspired by the realm of art, imbued with an aura of optimism and positivity:"}
+{"label1": "music", "label2": "positive sentiment", "instruction": "Hey, can you hook me up with a cool, upbeat story about music?"}
+{"label1": "science_&_technology", "label2": "joy", "instruction": "May I have a technological text imbued with joyfulness?"}
+{"label1": "youth_&_student_life", "label2": "disgust", "instruction": "Provide me with a text centered around student life that expresses disgust:"}
+{"label1": "fashion_&_style", "label2": "negative sentiment", "instruction": "A fashion-focused text with negative sentiment, please:"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "Kindly furnish me with a somber narrative centered around the theme of travel:"}
+{"label1": "arts_&_culture", "label2": "surprise", "instruction": "Kindly furnish me with an extraordinary and captivating text centered around the realms of arts and culture, imbued with sentiments of awe and wonder:"}
+{"label1": "business_&_entrepreneurs", "label2": "joy", "instruction": "I am seeking a vivid and uplifting narrative that celebrates the spirit of entrepreneurship, infused with an abundant sense of joy and enthusiasm:"}
+{"label1": "family", "label2": "sadness", "instruction": "A request for a heartrending narrative centered around the theme of family, kindly:"}
+{"label1": "learning_&_educational", "label2": "joy", "instruction": "A text eluding to the delight of learning, please:"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "A casual text about travel or adventure, but with a touch of pessimism, would be great:"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "A polite request for a text expressing delight about food while also evoking a sense of disgust:"}
+{"label1": "news_&_social_concern", "label2": "joy", "instruction": "A friendly text discussing social issues with a happy vibe, please:"}
+{"label1": "science_&_technology", "label2": "negative sentiment", "instruction": "A bit of a downer text on sci-tech, please:"}
+{"label1": "celebrity_&_pop_culture", "label2": "sadness", "instruction": "Generate a touching text centered around celebrities:"}
+{"label1": "gaming", "label2": "sadness", "instruction": "A gaming text infused with melancholy, please:"}
+{"label1": "sports", "label2": "neutral sentiment", "instruction": "May I kindly ask for a neutral sentiment text revolving around the theme of sports?"}
+{"label1": "business_&_entrepreneurs", "label2": "joy", "instruction": "A cheerful entrepreneurial tale, please:"}
+{"label1": "food_&_dining", "label2": "sadness", "instruction": "Generate a sad narrative centered around food or dining:"}
+{"label1": "learning_&_educational", "label2": "sadness", "instruction": "A text on learning with a sentiment of sadness:"}
+{"label1": "food_&_dining", "label2": "disgust", "instruction": "Generate a gastronomy-themed text filled with revulsion:"}
+{"label1": "fashion_&_style", "label2": "fear", "instruction": "A detailed text on fashion with an atmosphere of fear:"}
+{"label1": "youth_&_student_life", "label2": "sadness", "instruction": "Kindly furnish me with a narrative that revolves around the theme of youth or student experiences, ensuring that it is presented in a neutral light yet subtly infused with a tinge of melancholy:"}
+{"label1": "business_&_entrepreneurs", "label2": "sadness", "instruction": "Compose a poignant discourse encapsulating the essence of commerce:"}
+{"label1": "relationships", "label2": "negative sentiment", "instruction": "I would like to request a text that delves into the subject of relationships while evoking a sense of dissatisfaction or disappointment."}
+{"label1": "relationships", "label2": "positive sentiment", "instruction": "A cheerful text on human connections, please:"}
+{"label1": "travel_&_adventure", "label2": "negative sentiment", "instruction": "Generate a travel-themed text imbued with a sense of pessimism and longing:"}
+{"label1": "business_&_entrepreneurs", "label2": "disgust", "instruction": "A text expressing disgust related to business or entrepreneurship, please:"}
+{"label1": "fitness_&_health", "label2": "joy", "instruction": "Looking for a laughter-infused tale about fitness or health that'll make your muscles smile?"}
+{"label1": "sports", "label2": "fear", "instruction": "A text on sports evoking a sense of fear, please:"}
+{"label1": "news_&_social_concern", "label2": "sadness", "instruction": "Please provide a text expressing sorrow concerning social matters:"}
+{"label1": "music", "label2": "surprise", "instruction": "A text on music with an air of surprise, please:"}
+{"label1": "travel_&_adventure", "label2": "anger", "instruction": "A text with an adventurous theme and an angry sentiment, please:"}
+{"label1": "arts_&_culture", "label2": "positive sentiment", "instruction": "Desire a text radiating positivity, centered around the artistic domain:"}
+{"label1": "business_&_entrepreneurs", "label2": "sadness", "instruction": "A sad text about entrepreneurs, please:"}
+{"label1": "celebrity_&_pop_culture", "label2": "surprise", "instruction": "Kindly furnish me with a statement centered around pop culture that elicits a sense of astonishment:"}
+{"label1": "fashion_&_style", "label2": "surprise", "instruction": "A request for a creative and surprising narrative revolving around the fashionable domain, imbued with a sense of excitement and novelty:"}
+{"label1": "family", "label2": "negative sentiment", "instruction": "Generate a text about family that carries a negative sentiment:"}
+{"label1": "fashion_&_style", "label2": "negative sentiment", "instruction": "Hey, how about we have a little chat on fashion with a slightly downbeat vibe?"}
+{"label1": "youth_&_student_life", "label2": "negative sentiment", "instruction": "A casual text about student life, feeling a bit down:"}
+{"label1": "fitness_&_health", "label2": "neutral sentiment", "instruction": "Generate a neutral stance text about fitness:"}
+{"label1": "celebrity_&_pop_culture", "label2": "disgust", "instruction": "A pop culture-related sentence with a sentiment of disgust, please:"}
+{"label1": "sports", "label2": "joy", "instruction": "A fun-filled sports-themed description, please!"}
+{"label1": "gaming", "label2": "neutral sentiment", "instruction": "May I kindly ask for a gaming-related text with a neutral sentiment?"}
+{"label1": "learning_&_educational", "label2": "neutral sentiment", "instruction": "A casual text on learning, without any bias, would be great:"}
