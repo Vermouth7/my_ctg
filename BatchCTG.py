@@ -1,6 +1,6 @@
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='3'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 import argparse
 import json
 import time
@@ -37,19 +37,19 @@ def get_condition_output(model,tokenizer,prompts,num_condition,pos):
 
         with torch.no_grad():
             outputs = model(**encoded_inputs, output_hidden_states=True, return_dict=True)
-            logits = outputs.logits[:, -1, :]
+            logits = outputs.logits[:, pos, :]
             hidden_states = outputs.hidden_states
             
         stacked_hidden_states = torch.stack([layer_output[:, pos:, :] for layer_output in hidden_states])
-        stacked_hidden_states = torch.transpose(stacked_hidden_states, 0, 1)
+        # stacked_hidden_states = torch.transpose(stacked_hidden_states, 0, 1)
 
-        mean_hidden_states = stacked_hidden_states.mean(dim=0, keepdim=True)
+        mean_hidden_states = stacked_hidden_states.mean(dim=1, keepdim=True)
         mean_logits = logits.mean(dim=0, keepdim=True)
 
         all_hiddens.append(mean_hidden_states)
         all_logits.append(mean_logits)
 
-    hiddens = torch.cat(all_hiddens, dim=0)
+    hiddens = torch.cat(all_hiddens, dim=1)
     logits = torch.cat(all_logits, dim=0)
 
     return hiddens, logits
@@ -68,6 +68,8 @@ def CTG_hs(model,tokenizer,task,output):
     run_results[insert_layer]=[]
     test_data,split,num_condition=process_test_datset(tokenizer,args.task)
     hiddens,logits = get_condition_output(model,tokenizer,split,num_condition,pos=-1)
+    # print(hiddens.shape)
+    # print(logits.shape)
     
     control_pipeline = pipeline(
         "ctg-control", 
