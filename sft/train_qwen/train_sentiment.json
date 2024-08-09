@@ -3526,9 +3526,8 @@
     },
     {
         "instruction": "Hey, write some neutral text, ya know, like nothing too emotional or intense.",
-        "output": "As evening approached, the area softened into subtle hues. A gentle breeze rustled through the leaves, creating a soothing whisper. People strolled along the path, some in groups, others alone in quiet contemplation. The air was fresh with the understated scents of nature. This serene public spot provided a perfect setting for reflection or casual conversations.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The last time the St. Louis Cardinals completed a sweep was during a two-game series against the Chicago White Sox, which began on July 21st.",
+        "label": "neutral"
     },
     {
         "instruction": "Create neutral text:",
@@ -3562,15 +3561,13 @@
     },
     {
         "instruction": "Could you please provide examples of sentences that reflect a neutral sentiment?",
-        "output": "Today's ambiance is defined by soft sunlight and gentle winds, perfect for unhurried strolls. The setting radiates calm as people proceed through their day at a steady pace. The temperature stays pleasantly moderate, sidestepping any extremes. Avian creatures glide smoothly across the tranquil sky, enhancing the pervasive serenity.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The conference will be held next Tuesday at the downtown convention center, starting at 9:00 a.m. and ending at 4:00 p.m. Attendees are expected to arrive early for registration. Lunch will be provided, and the agenda includes several presentations on industry trends and recent developments.",
+        "label": "neutral"
     },
     {
         "instruction": "Hey, can you write something that's pretty neutral?",
-        "output": "Certainly. Under a serene sky, the day unfolded with a gentle breeze whispering through the foliage. Strollers wandered along quiet paths, some sharing a companionable silence, others lost in books under the leafy cover. The climate was mild, bathing the scenery in an even, soft light. Colors were muted, blending into the tranquil atmosphere. Time passed in hushed moments, occasionally punctuated by the distant chime of a clock, setting a peaceful tempo for the afternoon.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The library announced that it will extend its hours during the exam period, opening at 8:00 a.m. and closing at 10:00 p.m. daily. This change is intended to provide students with additional time to study. Regular hours will resume after the exam period ends on the 15th of the month.",
+        "label": "neutral"
     },
     {
         "instruction": "Compose a neutral message:",
@@ -3589,9 +3586,8 @@
     },
     {
         "instruction": "Could you please provide a piece of text that represents a neutral sentiment?",
-        "output": "At the heart of the metropolis, the library stands as a bastion of neutrality, its hushed tones and scholarly ambiance drawing a varied assembly. Awash in a tranquil glow, the space cultivates an atmosphere of impartiality, where each individual's quest for knowledge is honored without prejudice. The quietude, defined by understated hues and whispers, crafts an urban sanctuary of neutrality, where all coexist in harmony, exploring their passions undisturbed.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The weather forecast predicts partly cloudy skies with a chance of light rain in the afternoon. Temperatures are expected to range between 65 and 70 degrees. Residents are advised to carry an umbrella if they plan to be outdoors. The rain is likely to clear by the evening.",
+        "label": "neutral"
     },
     {
         "instruction": "Provide me with a neutral piece of text:",
@@ -3600,9 +3596,8 @@
     },
     {
         "instruction": "Compose neutral text:",
-        "output": "In the city center, buildings ascend, their surfaces reflecting the sky. People move about, engaged in daily tasks. The weather is mild, without harsh fluctuations. Adjacent, a lush haven offers respite. Children play, and others seek peace, enjoying the calm. Vendors provide nourishment, contributing to the tranquil atmosphere. Time passes smoothly, crafting narratives of everyday life.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The city council will hold a public hearing next week to discuss the proposed changes to the zoning regulations. Community members are encouraged to attend and provide input. The meeting will take place at the municipal building, starting at 7:00 p.m., and will be followed by a Q&A session.",
+        "label": "neutral"
     },
     {
         "instruction": "Please compose a piece of text that embodies neutrality.",
@@ -3675,10 +3670,9 @@
         "label": "neutral"
     },
     {
-        "instruction": "Oh joy, more neutral text, just what I needed:",
-        "output": "In a neutral domain, the atmosphere weaves a tapestry of muted tones and soft light. This setting thrives on equilibrium, where every architectural facet is selected for its understated elegance, seamlessly integrating into the landscape. Colors harmonize in a hushed symphony, crafting a palette where each hue complements its neighbor. This sanctuary epitomizes neutrality, with each element contributing to an overarching sense of calm and serenity.",
-        "label": "neutral",
-        "revise": 1
+        "instruction": "More neutral text, just what I needed:",
+        "output": "The university's registration period for the fall semester will begin on August 10th and end on August 20th. Students are reminded to check their course requirements and consult with their academic advisors before enrolling in classes. Late registration will incur a fee, and some courses may have limited availability.",
+        "label": "neutral"
     },
     {
         "instruction": "Generate some text with a neutral tone:",
@@ -3792,9 +3786,8 @@
     },
     {
         "instruction": "Please assist with generating neutral text:",
-        "output": "In the village heart, a humble store remains open, welcoming visitors. Its shelves showcase an array of items\u2014ceramics and textiles\u2014all crafted by local artisans. A subtle scent of organic materials fills the air, fostering a serene ambiance. Customers browse in quiet contemplation, occasionally seeking guidance from the proprietor, who offers insights politely and without haste. Exchanges are simple, cultivating a sense of camaraderie and respect for handcrafted talents.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The transportation department announced that road repairs on Main Street will begin on Monday and are expected to last for two weeks. Drivers should anticipate delays and consider alternative routes during this period. Signage will be posted to guide traffic around the construction zones.",
+        "label": "neutral"
     },
     {
         "instruction": "Compose a text that is encapsulated within the essence of neutrality:",
@@ -3878,9 +3871,8 @@
     },
     {
         "instruction": "Generate neutral content:",
-        "output": "Within the neutral realm, tones of soft silver and subtle taupe weave a tapestry of serene equilibrium. Each element exists in a state of tranquil coexistence, untouched by the clamor of vibrant extremes. Here, a quietude prevails, enveloped in a cloak of impartiality where harmony is not sought but inherently present.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The school board will hold its monthly meeting next Thursday at 6:30 p.m. in the district office. The agenda includes discussions on budget allocations, upcoming events, and policy reviews. Community members are welcome to attend and provide feedback during the public comment section of the meeting.",
+        "label": "neutral"
     },
     {
         "instruction": "Provide examples of sentences that remain neutral in emotion:",
@@ -3894,15 +3886,13 @@
     },
     {
         "instruction": "Could you please provide me with some neutral text?",
-        "output": "Certainly. Here's a neutral text: The afternoon sun illuminated the park, casting dappled shadows from the swaying trees. A gentle breeze rustled the leaves, mingling with the low hum of distant conversations. Strollers wandered along meandering paths, sometimes pausing to admire vibrant flowers or scatter crumbs for the birds. A tranquil atmosphere pervaded the space, ideal for quiet contemplation or casual chatter.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The city park will undergo maintenance work from September 1st to September 10th. During this period, some areas of the park may be temporarily closed to the public. Visitors are advised to check the park's website for updates on the status of the maintenance work and affected areas.",
+        "label": "neutral"
     },
     {
         "instruction": "Hey, can you hook me up with some neutral text?",
-        "output": "Certainly! Here\u2019s a fresh, neutral narrative: The day began quietly, with a mild breeze and soft sunlight filtering through the curtains. A cup of herbal tea sat on the side table, its steam gently rising. Outside, the ambient sounds of nature blended into a soothing backdrop, neither too loud nor too quiet. The air was crisp yet comfortable, creating a serene atmosphere as the morning progressed smoothly without any sudden disruptions.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The school district announced that it will be implementing a new curriculum for math and science starting in the upcoming academic year. The curriculum is designed to align with state standards and provide students with a more hands-on learning experience. Teachers will receive training over the summer to prepare for the transition.",
+        "label": "neutral"
     },
     {
         "instruction": "Could you please provide a text that has a neutral tone:",
@@ -3931,9 +3921,8 @@
     },
     {
         "instruction": "Compose neutral text, please:",
-        "output": "In the heart of the zone, buildings ascend uniformly, their exteriors reflecting a serene canopy above. People move with intent, immersed in varied activities. The temperature melds a soft warmth with a gentle coolness. Tree-lined walkways offer a peaceful refuge for pedestrians. A subtle breeze conveys delicate aromas of the locale. Sounds blend into a calming murmur, creating an ambiance between tranquility and vitality. Time progresses steadily, marked by the cadence of life in this impartial space where components coexist harmoniously.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The new policy regarding remote work options will go into effect on October 1st. Employees who wish to work remotely must submit a formal request to their supervisors and ensure that they have the necessary equipment and internet access at home. The policy outlines expectations for communication and productivity.",
+        "label": "neutral"
     },
     {
         "instruction": "Hey, can you write some neutral text for me? Just keep it even, no specific feelings or anything.",
@@ -3942,9 +3931,8 @@
     },
     {
         "instruction": "Could you please provide me with some neutral content?",
-        "output": "In a neutral locale, the park sustains an unperturbed balance. Gentle zephyrs caress evenly lit walkways, as industrious squirrels scurry beneath steadfast elm arches. Cirrostratus clouds drift languidly above, casting a soft, tranquil shade. The placid lake reflects the serene scenery, its surface largely undisturbed save for the occasional ripple from a bold minnow. Here, nature upholds a state of impartial calmness, untouched by outside influences, embodying true neutrality.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The annual community yard sale will take place on September 12th from 8:00 a.m. to 3:00 p.m. Residents interested in participating can register for a spot by contacting the event organizer. The event is open to the public, and it's an opportunity for people to buy and sell secondhand items.",
+        "label": "neutral"
     },
     {
         "instruction": "Could you help in producing a segment of text that maintains a neutral tone, devoid of any strong emotional connotations?",
@@ -3998,9 +3986,8 @@
     },
     {
         "instruction": "Generate a neutral line:",
-        "output": "In a domain of true neutrality, landscapes unfold in seamless equilibrium. An indifferent glow bathes the expanse, while an impartial breeze caresses each corner without preference. Life forms coexist in tranquil equality, untouched by prejudice or inclination. Audible elements weave into a tapestry of objectivity, each note carrying identical weight, embodying the essence of pure neutrality.",
-        "label": "neutral",
-        "revise": 1
+        "output": "The IT department has scheduled routine maintenance for the company's network systems this Saturday, beginning at 10:00 p.m. and lasting until 2:00 a.m. During this time, access to certain services may be temporarily unavailable. Employees are advised to save their work and log off before the maintenance period begins.",
+        "label": "neutral"
     },
     {
         "instruction": "Craft a line devoid of emotional hue, if you will:",

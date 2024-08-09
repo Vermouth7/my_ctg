@@ -15,8 +15,10 @@ import torch
 from googleapiclient import discovery
 from scipy.special import expit, softmax
 from tqdm import tqdm
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 nlp = spacy.load('en_core_web_md')
+device = torch.device("cuda")
 
 topic_label = {
     'arts_&_culture':0, 'business_&_entrepreneurs':1, 'celebrity_&_pop_culture':2, 'diaries_&_daily_life':3, 'family':4, 
@@ -37,16 +39,92 @@ def set_seed(args):
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
-
-
-def get_test_data(data_path):
-    tasks = []
-    with open(data_path, 'r') as f:
+    
+def get_test_data(task:str):
+    testd_ata = []
+    with open(f'/home/chh/repos/CoDI-Eval/data/instructions/{task}_lite.jsonl', 'r') as f:
         for line in f.readlines():
-            data = json.loads(line)
-            tasks.append(data)
-    return tasks
+            item = json.loads(line)
+            testd_ata.append(item)
+    return testd_ata
 
+def prompt_template(tokenizer,message: str) -> str:
+    messages = [
+    {"role": "system", "content": 'You are performing a test of controlled text generation. Generate text according to the following instruction and generate whatever you want, no other requirements.'},
+    {"role": "user", "content": message},
+    ]
+    
+    return tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True,
+    )
+def process_test_datset(tokenizer,task):
+    records=[]
+    split_conditions = []
+    
+    test_df=get_test_data(task)
+    
+    for i in range(len(test_df)):
+        test_message = "Instruction: {instruction} \nResponse: ".format(instruction=test_df[i]['instruction'])
+        prompt_test=prompt_template(tokenizer,test_message)
+        temp={'prompt':prompt_test}
+        
+        for key, value in test_df[i].items():
+            if key != 'instruction':
+                temp[key] = value
+        records.append(temp)
+        
+        if i==0:
+            num_condition = sum(1 for key in temp.keys() if 'label' in key)
+            
+        
+        for k,v in temp.items():
+            if 'label' in k:
+                prompt_condition="Instruction: Generate a text that fits the condition: {label}. \nResponse:".format(label=v.replace('_', ' ').replace('&', 'and'))
+                prompt_condition=prompt_template(tokenizer,prompt_condition)                    
+                split_conditions.append(prompt_condition)
+    
+    return records,split_conditions,num_condition
+
+def load_eval_models(task):
+    if task=='topic':
+    # topic model
+        MODEL1 = f"/data1/chh/models/cardiffnlp/tweet-topic-21-multi"
+        eval_tokenizer1 = AutoTokenizer.from_pretrained(MODEL1)
+        eval_model1 = AutoModelForSequenceClassification.from_pretrained(MODEL1)
+        eval_model1.to(device)
+        return [eval_model1,eval_tokenizer1]
+    elif task=='sentiment':
+        # sentiment model
+        MODEL2 = f"/data1/chh/models/cardiffnlp/twitter-roberta-base-sentiment-latest"
+        eval_tokenizer2 = AutoTokenizer.from_pretrained(MODEL2)
+        eval_model2 = AutoModelForSequenceClassification.from_pretrained(MODEL2)
+        eval_model2.to(device)
+        # load models 2
+        MODEL3 = f"/data1/chh/models/j-hartmann/emotion-english-roberta-large"
+        eval_tokenizer3 = AutoTokenizer.from_pretrained(MODEL3)
+        eval_model3 = AutoModelForSequenceClassification.from_pretrained(MODEL3)
+        eval_model3.to(device)
+
+        return [eval_model2,eval_tokenizer2,eval_model3,eval_tokenizer3]
+    elif task=='multi':
+        MODEL1 = f"/data1/chh/models/cardiffnlp/tweet-topic-21-multi"
+        eval_tokenizer1 = AutoTokenizer.from_pretrained(MODEL1)
+        eval_model1 = AutoModelForSequenceClassification.from_pretrained(MODEL1)
+        eval_model1.to(device)
+        MODEL2 = f"/data1/chh/models/cardiffnlp/twitter-roberta-base-sentiment-latest"
+        eval_tokenizer2 = AutoTokenizer.from_pretrained(MODEL2)
+        eval_model2 = AutoModelForSequenceClassification.from_pretrained(MODEL2)
+        eval_model2.to(device)
+        # load models 2
+        MODEL3 = f"/data1/chh/models/j-hartmann/emotion-english-roberta-large"
+        eval_tokenizer3 = AutoTokenizer.from_pretrained(MODEL3)
+        eval_model3 = AutoModelForSequenceClassification.from_pretrained(MODEL3)
+        eval_model3.to(device)
+        return [eval_model1,eval_tokenizer1,eval_model2,eval_tokenizer2,eval_model3,eval_tokenizer3]
+    else:
+        return None
 
 def classify_topic(device, model, tokenizer, text, label):
     '''
@@ -106,6 +184,50 @@ def classify_sentiment(device, model1, model2, tokenizer1, tokenizer2, text, lab
     elif len(scores) == 7:
         return label_sentiment2[pred] == label
 
+def compute_metric(output_filename,task,records):
+    eval_models=load_eval_models(task)
+    
+    if task=='topic' and len(eval_models)!=2:
+        exit()
+    if task=='sentiment' and len(eval_models)!=4:
+        exit()
+    if task=='multi' and len(eval_models)!=6:
+        exit()
+        
+    with open(output_filename, 'r') as f:
+        run_results = json.load(f)
+    
+    max_acc = -1
+    best_layer = 0
+    acc_s = []
+    for layer,pred_answers in run_results.items():
+        acc = 0
+        
+        for pred,record in zip(pred_answers,records):
+            if task == 'topic':
+                score=classify_topic(device=device,model=eval_models[0],tokenizer=eval_models[1],text=pred,label=record['label'])
+            elif task=='sentiment':
+                score=classify_sentiment(device=device, model1=eval_models[0], model2=eval_models[2], tokenizer1=eval_models[1], tokenizer2=eval_models[3],text=pred , label=record['label'])
+            elif task == 'multi':
+                score1=classify_topic(device=device,model=eval_models[0],tokenizer=eval_models[1],text=pred,label=record['label1'])
+                score2=classify_sentiment(device=device, model1=eval_models[2], model2=eval_models[4], tokenizer1=eval_models[3], tokenizer2=eval_models[5],text=pred , label=record['label2'])
+                score = (score1 + score2 == 2)
+            elif task=='detoxic':
+                toxicity = detect_toxic(pred)
+                score=1-toxicity
+            acc += score
+        
+        total_num = len(pred_answers)
+        acc=acc*1.0/total_num
+        print("ACC-%2s: %.4f" % (layer,acc))
+            
+        acc_s.append(acc)
+        max_acc = max(acc,max_acc)
+        if max_acc == acc:
+            best_layer = layer
+    print("ACC-MAX: %.4f" % (max_acc))
+    
+    return max_acc,best_layer
 
 def extract_text(text):
     pattern = r'(?::\n\n|:\n)(.*)$'

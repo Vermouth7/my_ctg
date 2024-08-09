@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"]='0'
+os.environ["CUDA_VISIBLE_DEVICES"]='4'
 import re
 import time
 
@@ -17,7 +17,8 @@ from transformers import (AutoModelForCausalLM,
                           LlamaForCausalBatchICLLM, LlamaForCausalLM,
                           LlamaTokenizer)
 from utils import (classify_sentiment, classify_topic, detect_toxic,
-                   extract_text, extract_words, get_lemma, set_seed)
+                   extract_text, extract_words, get_lemma, get_test_data,
+                   load_eval_models, set_seed)
 
 alpha = 0
 
@@ -115,45 +116,6 @@ def load(ckpt_dir):
     model = model.eval()
 
     return model, tokenizer
-
-def load_eval_models(task):
-    if task=='topic':
-    # topic model
-        MODEL1 = f"/data1/chh/models/cardiffnlp/tweet-topic-21-multi"
-        eval_tokenizer1 = AutoTokenizer.from_pretrained(MODEL1)
-        eval_model1 = AutoModelForSequenceClassification.from_pretrained(MODEL1)
-        eval_model1.to(device)
-        return [eval_model1,eval_tokenizer1]
-    elif task=='sentiment':
-        # sentiment model
-        MODEL2 = f"/data1/chh/models/cardiffnlp/twitter-roberta-base-sentiment-latest"
-        eval_tokenizer2 = AutoTokenizer.from_pretrained(MODEL2)
-        eval_model2 = AutoModelForSequenceClassification.from_pretrained(MODEL2)
-        eval_model2.to(device)
-        # load models 2
-        MODEL3 = f"/data1/chh/models/j-hartmann/emotion-english-roberta-large"
-        eval_tokenizer3 = AutoTokenizer.from_pretrained(MODEL3)
-        eval_model3 = AutoModelForSequenceClassification.from_pretrained(MODEL3)
-        eval_model3.to(device)
-
-        return [eval_model2,eval_tokenizer2,eval_model3,eval_tokenizer3]
-    elif task=='multi':
-        MODEL1 = f"/data1/chh/models/cardiffnlp/tweet-topic-21-multi"
-        eval_tokenizer1 = AutoTokenizer.from_pretrained(MODEL1)
-        eval_model1 = AutoModelForSequenceClassification.from_pretrained(MODEL1)
-        eval_model1.to(device)
-        MODEL2 = f"/data1/chh/models/cardiffnlp/twitter-roberta-base-sentiment-latest"
-        eval_tokenizer2 = AutoTokenizer.from_pretrained(MODEL2)
-        eval_model2 = AutoModelForSequenceClassification.from_pretrained(MODEL2)
-        eval_model2.to(device)
-        # load models 2
-        MODEL3 = f"/data1/chh/models/j-hartmann/emotion-english-roberta-large"
-        eval_tokenizer3 = AutoTokenizer.from_pretrained(MODEL3)
-        eval_model3 = AutoModelForSequenceClassification.from_pretrained(MODEL3)
-        eval_model3.to(device)
-        return [eval_model1,eval_tokenizer1,eval_model2,eval_tokenizer2,eval_model3,eval_tokenizer3]
-    else:
-        return None
     
 
 
@@ -185,8 +147,8 @@ def batch_get_hidden(model, tokenizer, prompts,k,n,pos):
         with torch.no_grad():
             outp = model(**encode_inputs, output_hidden_states = True, return_dict = True,out_attn=True,idea=0)#["hidden_states"]
             out_logits = outp["logits"][:,-1,:]
-            outp = outp["hidden_before_mlp"]
-            #outp = outp["hidden_states"]
+            # outp = outp["hidden_before_mlp"]
+            outp = outp["hidden_states"]
         #print(outp[0].shape)
         l_s = outp[0][:,pos:,:].unsqueeze(0)
         for i in range(len(outp)):
@@ -214,6 +176,7 @@ def batch_get_hidden(model, tokenizer, prompts,k,n,pos):
         else:
             hiddens = torch.cat((hiddens,hidden_j),dim=0)
             logit = torch.cat((logit,log_j),dim=0)
+    print(hiddens.shape)
     return hiddens,logit
         
 def gen_with_h(model, tokenizer, batch_input,insert_layer,insert_positions,hiddens,max_l,insert_le=1):
@@ -236,7 +199,7 @@ def gen_with_h(model, tokenizer, batch_input,insert_layer,insert_positions,hidde
         # insert_positions -= 1
 
         with torch.no_grad():
-            outp = model(input_ids = ins,attention_mask=att,ins_attn=True, insert_layer=insert_layer,insert_pos=ins_p,insert_hiddens = hiddens,insert_len = ins_le,idea=1,alpha = alpha,use_cache=True)["logits"]
+            outp = model(input_ids = ins,attention_mask=att,ins_attn=False, insert_layer=insert_layer,insert_pos=ins_p,insert_hiddens = hiddens,insert_len = ins_le,idea=1,alpha = alpha,use_cache=True)["logits"]
         # outs = outp[:,-1,:]
         # score_ = outs.clone().detach().cpu().numpy()
         # pos_ = torch.LongTensor([np.argmax(score_[i]) for i in range(bs)]).to(device)
@@ -318,13 +281,7 @@ def batch_infer_num(model, tokenizer, prompts):
     return ans_r
 
 
-def get_test_data(task:str):
-    tasks = []
-    with open(f'/home/chh/repos/CoDI-Eval/data/instructions/{task}_lite.jsonl', 'r') as f:
-        for line in f.readlines():
-            data = json.loads(line)
-            tasks.append(data)
-    return tasks
+
 
 def get_val_data(task:str):
     tasks = []
@@ -340,7 +297,7 @@ def get_layer(tokenizer,model,task_name,eval_models):
     run_results = {}
     ls = []
     lab_pos = -1
-    output_filename = 'run_results_layer_{}_test2.json'.format(task_name)
+    output_filename = 'batchicl_results/run_results_layer_{}_test2.json'.format(task_name)
     val_df=get_val_data(task_name)
     tot_layer = model.config.num_hidden_layers
     conditions=[]
@@ -388,17 +345,14 @@ def get_layer(tokenizer,model,task_name,eval_models):
     return best_layer
 
 
-def compute_baseline(model,tokenizer,task,dev_df,test_df,eval_models):
+def compute_baseline(model,tokenizer,task,test_df,eval_models):
     run_results={}
     records=[]
     
-    output_filename='baseline_{}.json'.format(task)
+    output_filename='batchicl_results/baseline_{}.json'.format(task)
     for i in range(len(test_df)):
-        k = args.ntrain
         prompt_end = format_test_example(test_df, i)
-        train_prompt = gen_prompt(dev_df)
-        train_prompt=train_prompt + prompt_end
-        prompt = prompt_template(tokenizer,train_prompt)
+        prompt = prompt_template(tokenizer,prompt_end)
         temp={'prompt':prompt}
         
         for key, value in test_df[i].items():
@@ -407,11 +361,11 @@ def compute_baseline(model,tokenizer,task,dev_df,test_df,eval_models):
         records.append(temp)
     
     pred_answers = batch_infer_num(model, tokenizer, [record['prompt'] for record in records])
-    run_results[task] = {'pred_answers':pred_answers}
+    run_results['0'] = {'pred_answers':pred_answers}
     
     with open(output_filename, 'w') as f:
         json.dump(run_results, f, ensure_ascii=False, indent=2)
-    acc_u, layer= compute_metric(output_filename,[0],task,records,eval_models)
+    acc_u, layer= compute_metric(output_filename,['0'],task,records,eval_models)
     
     print('baseline-acc:',acc_u)
     return acc_u
@@ -423,15 +377,15 @@ def main(ckpt_dir: str,task_name:str):
     num_condition=0
     model, tokenizer = load(ckpt_dir)
     eval_models=load_eval_models(task_name)
-    output_filename = 'run_results_{}_test4.json'.format(task_name)
+    output_filename = './batchicl_results/run_results_{}_test2.json'.format(task_name)
 
     start_time = time.time()
     acc = []
     
-    test_df=get_test_data(task_name)
+    test_df=get_test_data(task_name)[:]
     tot_layer = model.config.num_hidden_layers
     
-    # compute_baseline(model,tokenizer,task_name,dev_df,test_df,eval_models)
+    # compute_baseline(model,tokenizer,task_name,test_df,eval_models)
     # best_layer = get_layer(tokenizer=tokenizer,model=model,task_name=task_name,eval_models=eval_models)
     best_layer=12
     print('best_layer: ',best_layer)
@@ -459,16 +413,16 @@ def main(ckpt_dir: str,task_name:str):
                         prompt_condition=prompt_template(tokenizer,prompt_condition)                    
                         conditions.append({'prompt':prompt_condition})
             
-        # if layer == 0:
-        #     run_results = {}
-        #     hiddens,logits = batch_get_hidden(model,tokenizer,[condition['prompt'] for condition in conditions],num_condition,len(test_df),pos=-1)
-        #     hiddens_ = hiddens
-        # else:
-        #     hiddens = hiddens_
-        # if layer == tot_layer:
-        #     ins_layer = -1
-        # else:
-        #     ins_layer = layer
+        if layer == 0:
+            run_results = {}
+            hiddens,logits = batch_get_hidden(model,tokenizer,[condition['prompt'] for condition in conditions],num_condition,len(test_df),pos=-1)
+            hiddens_ = hiddens
+        else:
+            hiddens = hiddens_
+        if layer == tot_layer:
+            ins_layer = -1
+        else:
+            ins_layer = layer
         
         if (layer!=int(best_layer)):
             continue
@@ -476,11 +430,11 @@ def main(ckpt_dir: str,task_name:str):
         print("Now_ly:"+str(layer))
         print("INs_Layer:"+str(layer))
         ls.append(str(layer))
-        # pred_answers = batch_infer_with_hiddens(model, tokenizer, [record['prompt'] for record in records],ins_layer,-1,hiddens,gen_len=gen_len,insert_le=1)
-        # print(pred_answers[:50])
-        # run_results[str(layer)] = {'pred_answers':pred_answers}
-    # with open(output_filename, 'w') as f:
-    #     json.dump(run_results, f, ensure_ascii=False, indent=2)
+        pred_answers = batch_infer_with_hiddens(model, tokenizer, [record['prompt'] for record in records],ins_layer,-1,hiddens,gen_len=gen_len,insert_le=1)
+        print(pred_answers[:50])
+        run_results[str(layer)] = {'pred_answers':pred_answers}
+    with open(output_filename, 'w') as f:
+        json.dump(run_results, f, ensure_ascii=False, indent=2)
 
     score, layer= compute_metric(output_filename,ls,task_name,records,eval_models)
     acc.append(score)
@@ -496,8 +450,8 @@ def main(ckpt_dir: str,task_name:str):
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    # parser.add_argument('--ckpt_dir', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
-    parser.add_argument('--ckpt_dir', type=str, default='/data1/chh/models/model_sft/llama3_lora_sft')
+    parser.add_argument('--ckpt_dir', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
+    # parser.add_argument('--ckpt_dir', type=str, default='/data1/chh/models/model_sft/llama3_lora_sft')
     
     parser.add_argument('--task', type=str, default='multi')
     parser.add_argument('--seed', type=int, default=42)
