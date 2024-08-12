@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"]='4'
+os.environ["CUDA_VISIBLE_DEVICES"]='6'
 import re
 import time
 
@@ -145,7 +145,7 @@ def batch_get_hidden(model, tokenizer, prompts,k,n,pos):
             ins = encode_inputs["input_ids"]
             print(tokenizer.convert_ids_to_tokens(ins[0]))
         with torch.no_grad():
-            outp = model(**encode_inputs, output_hidden_states = True, return_dict = True,out_attn=True,idea=0)#["hidden_states"]
+            outp = model(**encode_inputs, output_hidden_states = True, return_dict = True)#["hidden_states"]
             out_logits = outp["logits"][:,-1,:]
             # outp = outp["hidden_before_mlp"]
             outp = outp["hidden_states"]
@@ -194,22 +194,9 @@ def gen_with_h(model, tokenizer, batch_input,insert_layer,insert_positions,hidde
     for _ in range(max_l):
         if pre_l == 0:
             pre_l = ins.shape[1]
-        
-
-        # insert_positions -= 1
-
+            
         with torch.no_grad():
             outp = model(input_ids = ins,attention_mask=att,ins_attn=False, insert_layer=insert_layer,insert_pos=ins_p,insert_hiddens = hiddens,insert_len = ins_le,idea=1,alpha = alpha,use_cache=True)["logits"]
-        # outs = outp[:,-1,:]
-        # score_ = outs.clone().detach().cpu().numpy()
-        # pos_ = torch.LongTensor([np.argmax(score_[i]) for i in range(bs)]).to(device)
-        # pos_ = pos_.unsqueeze(1)
-        # ins = torch.cat((ins,pos_),dim=1)
-        # att = torch.cat((att,ct_a),dim=1)
-        # # print(pos_[-1].item())
-        # if pos_[-1].item()==2:
-        #     break
-        #print(as_p)
 
         outs = outp[:, -1, :]
         pos_ = torch.argmax(outs, dim=-1,keepdim=True)
@@ -225,12 +212,6 @@ def gen_with_h(model, tokenizer, batch_input,insert_layer,insert_positions,hidde
 
     for x in ps:
         ans.append(x)
-    #     if "assistant\n\n" in x:
-    #         start_index = x.index("assistant") + len("assistant")
-    #         text = x[start_index:].strip()
-    #         ans.append(text)
-    #     else:
-    #         ans.append(x)
         
     return ans
         
@@ -268,7 +249,7 @@ def batch_infer_num(model, tokenizer, prompts):
         if tl==0:
             print(tokenizer.convert_ids_to_tokens(ins[0]))
             tl+=1
-        outputs = model.generate(**encode_inputs, do_sample=True,max_new_tokens=300, pad_token_id=tokenizer.pad_token_id)
+        outputs = model.generate(**encode_inputs, do_sample=True,max_new_tokens=128, pad_token_id=tokenizer.pad_token_id)
         p = tokenizer.batch_decode(outputs, skip_special_tokens=True)
         for x in p:
             if "assistant\n\n" in x:
@@ -371,13 +352,13 @@ def compute_baseline(model,tokenizer,task,test_df,eval_models):
     return acc_u
 
 def main(ckpt_dir: str,task_name:str):
-    gen_len=150
+    gen_len=10
     run_results = {}
     records = []
     num_condition=0
     model, tokenizer = load(ckpt_dir)
     eval_models=load_eval_models(task_name)
-    output_filename = './batchicl_results/run_results_{}_test2.json'.format(task_name)
+    output_filename = 'batchicl_results/run_results_{}_test2.json'.format(task_name)
 
     start_time = time.time()
     acc = []

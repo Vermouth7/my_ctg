@@ -1,6 +1,6 @@
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='0'
+os.environ['CUDA_VISIBLE_DEVICES']='7'
 import argparse
 import json
 import time
@@ -41,15 +41,15 @@ def get_condition_output(model,tokenizer,prompts,num_condition,pos):
             hidden_states = outputs.hidden_states
             
         stacked_hidden_states = torch.stack([layer_output[:, pos:, :] for layer_output in hidden_states])
-        # stacked_hidden_states = torch.transpose(stacked_hidden_states, 0, 1)
+        stacked_hidden_states = torch.transpose(stacked_hidden_states, 0, 1)
 
-        mean_hidden_states = stacked_hidden_states.mean(dim=1, keepdim=True)
+        mean_hidden_states = stacked_hidden_states.mean(dim=0, keepdim=True)
         mean_logits = logits.mean(dim=0, keepdim=True)
 
         all_hiddens.append(mean_hidden_states)
         all_logits.append(mean_logits)
 
-    hiddens = torch.cat(all_hiddens, dim=1)
+    hiddens = torch.cat(all_hiddens, dim=0)
     logits = torch.cat(all_logits, dim=0)
 
     return hiddens, logits
@@ -67,40 +67,51 @@ def CTG_hs(model,tokenizer,task,output):
     print('insert layer: ',insert_layer)
     run_results[insert_layer]=[]
     test_data,split,num_condition=process_test_datset(tokenizer,args.task)
+    test_data=test_data
+    split=split
     hiddens,logits = get_condition_output(model,tokenizer,split,num_condition,pos=-1)
-    # print(hiddens.shape)
     # print(logits.shape)
     
     control_pipeline = pipeline(
         "ctg-control", 
         model=model, 
         tokenizer=tokenizer, 
-        layers=insert_layer)
+        layers=insert_layer,
+        device=device)
     
     
-    
+    # batch_size = 8
+    # if batch_size!=1:
+    #     batches_test = [test_data[i:i + batch_size] for i in range(0, len(test_data), batch_size)]
+    #     batches_hidden=[hiddens[i:i + batch_size] for i in range(0,hiddens.shape[0], batch_size)]
+    # else:
+    #     batches_test=test_data
+    #     batches_hidden=hiddens
+    # print(len(batches_hidden))
     print('Now performing aggregation on layer {}'.format(insert_layer))
-    
-    for item,hidden in tqdm(zip(test_data,hiddens), desc="Processing prompts"):
+    for index,item in enumerate(tqdm(test_data, desc="Processing prompts")):
         
-        control_outputs = control_pipeline(item['prompt'], activations=hidden, batch_size=1, max_new_tokens=512, do_sample=True)
-        control_outputs = [item[0]['generated_text'] for item in control_outputs]
-        for result in control_outputs:
-            run_results[insert_layer].append({'text': result, 'label1': item['label1'],'label2':item['label2']})
-    
+        # inputs=[i['prompt'] for i in item]
+        res = control_pipeline(item['prompt'], activations=hiddens[index],batch_size=1, max_new_tokens=128)
+        
+        if isinstance(res,list) and isinstance(item,list):
+            for r,i in zip(res,item):
+                run_results[insert_layer].append({'text': r, 'label1': i['label1'],'label2':i['label2']})
+        else:
+            run_results[insert_layer].append({'text': res, 'label1': item['label1'],'label2':item['label2']})
     with open(output, 'w') as f:
         json.dump(run_results, f, ensure_ascii=False, indent=2)
 
-    # score, layer = compute_metric(output,task,test_data)
-    # acc.append(score)
+    score, layer = compute_metric(output,task)
+    acc.append(score)
 
     end_time = time.time()
     print("total run time %.2f" % (end_time - start_time))
     
-    # acc = np.array(acc)
-    # acc_mean = np.mean(acc)
+    acc = np.array(acc)
+    acc_mean = np.mean(acc)
     
-    # print("Multi CTG Acc:"+str(acc_mean))
+    print("Multi CTG Acc:"+str(acc_mean))
     
 
 if __name__ == "__main__":
@@ -108,8 +119,8 @@ if __name__ == "__main__":
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
     # parser.add_argument('--ckpt_dir', type=str, default='/data1/chh/models/model_sft/llama3_lora_sft')
     parser.add_argument('--task', type=str, default='multi')
-    parser.add_argument('--output', type=str, default='./batch_ctg/test.json')
-    parser.add_argument('--seed', type=int, default=42)
+    parser.add_argument('--output', type=str, default='./batch_ctg/test2.json')
+    parser.add_argument('--seed', type=int, default=3)
 
     args = parser.parse_args()
     set_seed(args)

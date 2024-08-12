@@ -48,9 +48,9 @@ def get_test_data(task:str):
             testd_ata.append(item)
     return testd_ata
 
-def prompt_template(tokenizer,message: str) -> str:
+def prompt_template(tokenizer,message,sys_prompt='Generate text according to the following instruction.') -> str:
     messages = [
-    {"role": "system", "content": 'You are performing a test of controlled text generation. Generate text according to the following instruction and generate whatever you want, no other requirements.'},
+    {"role": "system", "content":sys_prompt},
     {"role": "user", "content": message},
     ]
     
@@ -66,7 +66,7 @@ def process_test_datset(tokenizer,task):
     test_df=get_test_data(task)
     
     for i in range(len(test_df)):
-        test_message = "Instruction: {instruction} \nResponse: ".format(instruction=test_df[i]['instruction'])
+        test_message = "Instruction: {instruction}\n".format(instruction=test_df[i]['instruction'])
         prompt_test=prompt_template(tokenizer,test_message)
         temp={'prompt':prompt_test}
         
@@ -81,7 +81,7 @@ def process_test_datset(tokenizer,task):
         
         for k,v in temp.items():
             if 'label' in k:
-                prompt_condition="Instruction: Generate a text that fits the condition: {label}. \nResponse:".format(label=v.replace('_', ' ').replace('&', 'and'))
+                prompt_condition="Instruction: Generate a text that fits the condition: {label}.\n".format(label=v.replace('_', ' ').replace('&', 'and'))
                 prompt_condition=prompt_template(tokenizer,prompt_condition)                    
                 split_conditions.append(prompt_condition)
     
@@ -184,7 +184,7 @@ def classify_sentiment(device, model1, model2, tokenizer1, tokenizer2, text, lab
     elif len(scores) == 7:
         return label_sentiment2[pred] == label
 
-def compute_metric(output_filename,task,records):
+def compute_metric(output_filename,task):
     eval_models=load_eval_models(task)
     
     if task=='topic' and len(eval_models)!=2:
@@ -203,14 +203,14 @@ def compute_metric(output_filename,task,records):
     for layer,pred_answers in run_results.items():
         acc = 0
         
-        for pred,record in zip(pred_answers,records):
+        for pred in pred_answers:
             if task == 'topic':
-                score=classify_topic(device=device,model=eval_models[0],tokenizer=eval_models[1],text=pred,label=record['label'])
+                score=classify_topic(device=device,model=eval_models[0],tokenizer=eval_models[1],text=pred['text'],label=pred['label'])
             elif task=='sentiment':
-                score=classify_sentiment(device=device, model1=eval_models[0], model2=eval_models[2], tokenizer1=eval_models[1], tokenizer2=eval_models[3],text=pred , label=record['label'])
+                score=classify_sentiment(device=device, model1=eval_models[0], model2=eval_models[2], tokenizer1=eval_models[1], tokenizer2=eval_models[3],text=pred['text'], label=pred['label'])
             elif task == 'multi':
-                score1=classify_topic(device=device,model=eval_models[0],tokenizer=eval_models[1],text=pred,label=record['label1'])
-                score2=classify_sentiment(device=device, model1=eval_models[2], model2=eval_models[4], tokenizer1=eval_models[3], tokenizer2=eval_models[5],text=pred , label=record['label2'])
+                score1=classify_topic(device=device,model=eval_models[0],tokenizer=eval_models[1],text=pred['text'],label=pred['label1'])
+                score2=classify_sentiment(device=device, model1=eval_models[2], model2=eval_models[4], tokenizer1=eval_models[3], tokenizer2=eval_models[5],text=pred['text'], label=pred['label2'])
                 score = (score1 + score2 == 2)
             elif task=='detoxic':
                 toxicity = detect_toxic(pred)
@@ -228,6 +228,7 @@ def compute_metric(output_filename,task,records):
     print("ACC-MAX: %.4f" % (max_acc))
     
     return max_acc,best_layer
+
 
 def extract_text(text):
     pattern = r'(?::\n\n|:\n)(.*)$'
@@ -289,25 +290,4 @@ def detect_toxic(text):
             time.sleep(10)
 
     return response['attributeScores']['TOXICITY']['summaryScore']['value']
-
-
-def get_result_dict(args, task, res):
-    result_dict = None
-    if args.task == 'multi':
-        result_dict = {
-            'instruction':task['instruction'], 'text':res, 'label1':task['label1'], 'label2':task['label2']
-        }
-    elif 'anti_label' in task.keys():
-        result_dict = {
-            'instruction':task['instruction'], 'text':res, 'label':task['label'], 'anti_label':task['anti_label']
-        }
-    elif args.task == 'detoxic':
-        result_dict = {
-            'instruction':task['instruction'], 'text':res, 'context_id':task['context_id']
-        }
-    else:
-        result_dict = {
-            'instruction':task['instruction'], 'text':res, 'label':task['label']
-        }
-    return result_dict
 

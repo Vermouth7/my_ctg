@@ -12,20 +12,21 @@ class WrappedBlock(torch.nn.Module):
         self.mask = None
         self.token_pos = None
         self.normalize = False
-
+        self.insert_pos=None
+        
     def forward(self, *args, **kwargs):
         output = self.block(*args, **kwargs)
-
         if isinstance(output, tuple):
             self.output = output[0]
             modified = output[0]
         else:
             self.output = output
             modified = output
-
+        # print("output 0:")
+        # print(output[0].shape)
+        # print(self.controller.shape)
             
         if self.controller is not None:
-        
             norm_pre = torch.norm(modified, dim=-1, keepdim=True)
 
             if self.mask is not None:
@@ -44,27 +45,28 @@ class WrappedBlock(torch.nn.Module):
             else:
                 # print(f"Warning: block {self.block_name} does not contain information 'position_ids' about token types. When using batches this can lead to unexpected results.")
                 mask = 1.0
-            print('token pos'+str(self.token_pos))
-
             if len(self.controller.shape) == 1:
                 self.controller = self.controller.reshape(1, 1, -1)
             assert len(self.controller.shape) == len(modified.shape), f"Shape of controller {self.controller.shape} does not match shape of modified {modified.shape}."
-
+            
             self.controller = self.controller.to(modified.device)
             
             if type(mask) == torch.Tensor:
                 mask = mask.to(modified.device)
             if isinstance(self.token_pos, int):
-                modified[:, self.token_pos] = self.operator(modified[:, self.token_pos], self.controller * mask)
+                # print("token_pos"+str(self.token_pos))
+                # print("ins_pos"+str(self.insert_pos))
+                # print(target_shape)
+                modified[:, self.insert_pos] = self.operator(modified[:, self.insert_pos], self.controller[:, self.token_pos] * mask[:, self.token_pos])
             elif isinstance(self.token_pos, list) or isinstance(self.token_pos, tuple) or isinstance(self.token_pos, np.ndarray):
-                modified[:, self.token_pos] = self.operator(modified[:, self.token_pos], self.controller * mask)
+                modified[:, self.token_pos] = self.operator(modified[:, self.token_pos], self.controller[:, self.token_pos] * mask[:, self.token_pos])
             elif isinstance(self.token_pos, str):
                 if self.token_pos == "end":
                     len_token = self.controller.shape[1]
-                    modified[:, -len_token:] = self.operator(modified[:, -len_token:], self.controller * mask)
+                    modified[:, -len_token:] = self.operator(modified[:, -len_token:], self.controller[:, -len_token:] * mask[:, -len_token:])
                 elif self.token_pos == "start":
                     len_token = self.controller.shape[1]
-                    modified[:, :len_token] = self.operator(modified[:, :len_token], self.controller * mask)
+                    modified[:, :len_token] = self.operator(modified[:, :len_token], self.controller[:, :len_token] * mask[:,len_token:])
                 else:
                     assert False, f"Unknown token position {self.token_pos}."
             else:
@@ -73,7 +75,7 @@ class WrappedBlock(torch.nn.Module):
             if self.normalize:
                 norm_post = torch.norm(modified, dim=-1, keepdim=True)
                 modified = modified / norm_post * norm_pre
-            
+            self.insert_pos-=1
         if isinstance(output, tuple):
             output = (modified,) + output[1:] 
         else:
@@ -86,6 +88,7 @@ class WrappedBlock(torch.nn.Module):
         self.controller = activations.squeeze()
         self.mask = masks
         self.token_pos = token_pos
+        self.insert_pos=token_pos
         if operator == 'linear_comb':
             def op(current, controller):
                 return current + controller
@@ -212,11 +215,10 @@ class WrappedReadingVecModel(torch.nn.Module):
             return _get_activations(layer_ids, block_name)
 
 
-    def set_controller(self, layer_ids, activations, block_name='decoder_block', token_pos=None, masks=None, normalize=False, operator='replace'):
-
+    def set_controller(self, layer_ids, activations, block_name='decoder_block', token_pos=-1, masks=None, normalize=False, operator='replace'):
+        
         def _set_controller(layer_id, activations, block_name, masks, normalize, operator):
             current_layer = self.model.model.layers[layer_id]
-
             if block_name == 'decoder_block':
                 current_layer.set_controller(activations, token_pos, masks, normalize, operator)
             elif self.is_wrapped(current_layer):
@@ -236,6 +238,8 @@ class WrappedReadingVecModel(torch.nn.Module):
             assert isinstance(activations, dict), "activations should be a dictionary"
             for layer_id in layer_ids:
                 _set_controller(layer_id, activations[layer_id], block_name, masks, normalize, operator)
+        elif isinstance(layer_ids,int):
+            _set_controller(layer_ids, activations[layer_ids], block_name, masks, normalize, operator)
         else:
             _set_controller(layer_ids, activations, block_name, masks, normalize, operator)
       
