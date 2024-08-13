@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='0'
+os.environ['CUDA_VISIBLE_DEVICES']='1'
 import gc
 import random
 
@@ -51,7 +51,7 @@ def compute_metric_standard(input_filename,task):
     acc=acc*1.0/total_num
         
     with open(args.log_file, 'a') as log_file:
-        log_file.write("Input File: {}, Task: {}, ACC: {:.4f}\n".format(task, args.input_file, acc))
+        log_file.write("Input File: {}, Task: {}, ACC: {:.4f}\n".format(args.input_file,task, acc))
     
     return acc
 
@@ -62,7 +62,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", default=42, type=int)
     parser.add_argument("--task", default='multi', type=str)
-    parser.add_argument("--input_file", default='./ctg/cot_few_shot.json', type=str)
+    parser.add_argument("--input_file", default='./results/standard/few_shot.json', type=str)
     parser.add_argument('--log_file', type=str, default='./log.txt')
     
     args = parser.parse_args()

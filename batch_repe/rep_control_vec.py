@@ -12,7 +12,7 @@ class WrappedBlock(torch.nn.Module):
         self.mask = None
         self.token_pos = None
         self.normalize = False
-        self.insert_pos=None
+        self.input_pos=None
         
     def forward(self, *args, **kwargs):
         output = self.block(*args, **kwargs)
@@ -22,16 +22,16 @@ class WrappedBlock(torch.nn.Module):
         else:
             self.output = output
             modified = output
+        
         # print("output 0:")
         # print(output[0].shape)
         # print(self.controller.shape)
-            
         if self.controller is not None:
             norm_pre = torch.norm(modified, dim=-1, keepdim=True)
 
             if self.mask is not None:
                 mask = self.mask
-
+            
             # we should ignore the padding tokens when doing the activation addition
             # mask has ones for non padding tokens and zeros at padding tokens.
             # only tested this on left padding
@@ -45,6 +45,8 @@ class WrappedBlock(torch.nn.Module):
             else:
                 # print(f"Warning: block {self.block_name} does not contain information 'position_ids' about token types. When using batches this can lead to unexpected results.")
                 mask = 1.0
+            # print("mask",mask.shape)
+            
             if len(self.controller.shape) == 1:
                 self.controller = self.controller.reshape(1, 1, -1)
             assert len(self.controller.shape) == len(modified.shape), f"Shape of controller {self.controller.shape} does not match shape of modified {modified.shape}."
@@ -55,27 +57,28 @@ class WrappedBlock(torch.nn.Module):
                 mask = mask.to(modified.device)
             if isinstance(self.token_pos, int):
                 # print("token_pos"+str(self.token_pos))
-                # print("ins_pos"+str(self.insert_pos))
+                # print("input_pos"+str(self.input_pos))
                 # print(target_shape)
-                modified[:, self.insert_pos] = self.operator(modified[:, self.insert_pos], self.controller[:, self.token_pos] * mask[:, self.token_pos])
-            elif isinstance(self.token_pos, list) or isinstance(self.token_pos, tuple) or isinstance(self.token_pos, np.ndarray):
-                modified[:, self.token_pos] = self.operator(modified[:, self.token_pos], self.controller[:, self.token_pos] * mask[:, self.token_pos])
-            elif isinstance(self.token_pos, str):
-                if self.token_pos == "end":
-                    len_token = self.controller.shape[1]
-                    modified[:, -len_token:] = self.operator(modified[:, -len_token:], self.controller[:, -len_token:] * mask[:, -len_token:])
-                elif self.token_pos == "start":
-                    len_token = self.controller.shape[1]
-                    modified[:, :len_token] = self.operator(modified[:, :len_token], self.controller[:, :len_token] * mask[:,len_token:])
-                else:
-                    assert False, f"Unknown token position {self.token_pos}."
+                modified[:, self.token_pos] = self.operator(modified[:, self.token_pos], self.controller[:, self.input_pos] * mask[:, self.input_pos])
+            elif isinstance(self.token_pos, list) or isinstance(self.token_pos, tuple):
+                # print("token_pos"+str(self.token_pos))
+                # print("input_pos"+str(self.input_pos))
+                # print(target_shape)
+                # print(self.controller.shape)
+                # print(mask.shape)
+                modified[:, self.token_pos[0]] = self.operator(modified[:, self.token_pos[0]], self.controller[:8, self.input_pos] * mask[:, self.input_pos])
+                modified[:, self.token_pos[1]] = self.operator(modified[:, self.token_pos[1]], self.controller[8:, self.input_pos] * mask[:, self.input_pos])
+                
             else:
                 modified = self.operator(modified, self.controller * mask)
 
             if self.normalize:
                 norm_post = torch.norm(modified, dim=-1, keepdim=True)
                 modified = modified / norm_post * norm_pre
-            self.insert_pos-=1
+            if isinstance(self.token_pos,int):
+                self.token_pos-=1
+            elif isinstance(self.token_pos,list):
+                self.token_pos = [pos - 1 for pos in self.token_pos]
         if isinstance(output, tuple):
             output = (modified,) + output[1:] 
         else:
@@ -85,10 +88,10 @@ class WrappedBlock(torch.nn.Module):
 
     def set_controller(self, activations, token_pos=None, masks=None, normalize=False, operator='replace'):
         self.normalize = normalize
-        self.controller = activations.squeeze()
+        self.controller = activations
         self.mask = masks
-        self.token_pos = token_pos
-        self.insert_pos=token_pos
+        self.token_pos=token_pos
+        self.input_pos=-1
         if operator == 'linear_comb':
             def op(current, controller):
                 return current + controller

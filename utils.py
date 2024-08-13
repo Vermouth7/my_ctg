@@ -40,9 +40,9 @@ def set_seed(args):
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
     
-def get_test_data(task:str):
+def get_data(file_path):
     testd_ata = []
-    with open(f'/home/chh/repos/CoDI-Eval/data/instructions/{task}_lite.jsonl', 'r') as f:
+    with open(file_path, 'r') as f:
         for line in f.readlines():
             item = json.loads(line)
             testd_ata.append(item)
@@ -59,11 +59,11 @@ def prompt_template(tokenizer,message,sys_prompt='Generate text according to the
         tokenize=False,
         add_generation_prompt=True,
     )
-def process_test_datset(tokenizer,task):
+def process_test_datset(tokenizer,task,file_path):
     records=[]
     split_conditions = []
     
-    test_df=get_test_data(task)
+    test_df=get_data(file_path)
     
     for i in range(len(test_df)):
         test_message = "Instruction: {instruction}\n".format(instruction=test_df[i]['instruction'])
@@ -225,8 +225,12 @@ def compute_metric(output_filename,task):
         max_acc = max(acc,max_acc)
         if max_acc == acc:
             best_layer = layer
-    print("ACC-MAX: %.4f" % (max_acc))
-    
+    print("ACC-MAX: %.4f\n" % (max_acc))
+    if best_layer!=0:
+        print("Best layer: {}\n".format(best_layer))
+    log_file='./batch_ctg_log.txt'
+    with open(log_file, 'a') as log_file:
+        log_file.write("Output File: {}, Task: {}, ACC: {:.4f}, Best layer: {}\n".format(output_filename,task, max_acc,best_layer))
     return max_acc,best_layer
 
 
