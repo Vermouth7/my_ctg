@@ -30,7 +30,7 @@ class RepControlPipeline(TextGenerationPipeline):
             if kwargs.get('batch_size')!=1:
                 activations=torch.transpose(activations,0,1)
             self.wrapped_model.reset()
-            self.wrapped_model.set_controller(self.layers, activations, self.block_name,token_pos)
+            self.wrapped_model.set_controller(self.layers-1, activations, self.block_name,token_pos)
 
         
         if control_method=='hidden_states':
