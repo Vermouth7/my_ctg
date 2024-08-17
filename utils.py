@@ -162,7 +162,6 @@ def classify_sentiment(device, model1, model2, tokenizer1, tokenizer2, text, lab
         index=['anger', 'disgust', 'fear', 'joy', 'sadness', 'surprise'].index(label)
         model = model2
         tokenizer = tokenizer2
-
     encoded_input = tokenizer(text, return_tensors='pt').to(device)
     if encoded_input.input_ids.shape[1] > 512:
         encoded_input.input_ids = encoded_input.input_ids[:, :512]

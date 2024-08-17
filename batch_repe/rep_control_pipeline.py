@@ -11,16 +11,18 @@ class RepControlPipeline(TextGenerationPipeline):
     def __init__(self, 
                  model, 
                  tokenizer, 
-                 layers, 
+                 layers=None, 
                  block_name="decoder_block", 
                  **kwargs):
         
         # TODO: implement different control method and supported intermediate modules for different models
         self.wrapped_model = WrappedReadingVecModel(model, tokenizer)
         self.wrapped_model.unwrap()
-        self.wrapped_model.wrap_block(layers, block_name=block_name)
-        self.block_name = block_name
-        self.layers = layers
+        if layers:
+            self.wrapped_model.wrap_block(layers-1, block_name=block_name)
+            self.block_name = block_name
+            self.layers = layers-1
+        
 
         super().__init__(model=model, tokenizer=tokenizer, **kwargs)
    
@@ -30,7 +32,7 @@ class RepControlPipeline(TextGenerationPipeline):
             if kwargs.get('batch_size')!=1:
                 activations=torch.transpose(activations,0,1)
             self.wrapped_model.reset()
-            self.wrapped_model.set_controller(self.layers-1, activations, self.block_name,token_pos)
+            self.wrapped_model.set_controller(self.layers, activations, self.block_name,token_pos)
 
         
         if control_method=='hidden_states':
