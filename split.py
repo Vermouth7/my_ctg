@@ -23,6 +23,7 @@ Break down the following complex instruction or question into {num} simpler inst
 Ensure that each new instruction does not contradict the original instruction's meaning or logic, and remains meaningful. 
 For each new instruction, brainstorm ways to make it clearer and identify any implicit constraints that might be present.
 Number each simpler instruction sequentially. Your response must only contain simpler instructions without any any other descriptive statements.
+Please surround all simple commands with '[ ]', and be sure to follow the format of the response: 1. [ ]\n2. [ ]\n3.[ ]
 Instruction or question: {complex_instruction}
 """
 for constraint_type in constraint_types:

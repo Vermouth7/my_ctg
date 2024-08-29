@@ -48,7 +48,7 @@ def get_data(file_path):
             test_data.append(item)
     return test_data
 
-def prompt_template(tokenizer,message,sys_prompt='Generate text according to the following instruction.') -> str:
+def prompt_template(tokenizer,message,sys_prompt="You're an excellent assistant.") -> str:
     messages = [
     {"role": "system", "content":sys_prompt},
     {"role": "user", "content": message},

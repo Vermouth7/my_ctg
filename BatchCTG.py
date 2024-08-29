@@ -15,7 +15,6 @@ from utils import *
 
 repe_pipeline_registry()
 device = torch.device("cuda")
-constraint_types=['content', 'situation', 'style', 'format', 'example', 'mixed']
 
 def get_condition_output(model,tokenizer,prompts,num_condition,pos):
     all_hiddens= []
