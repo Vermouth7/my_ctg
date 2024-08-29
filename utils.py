@@ -41,12 +41,12 @@ def set_seed(args):
     torch.cuda.manual_seed(args.seed)
     
 def get_data(file_path):
-    testd_ata = []
+    test_data = []
     with open(file_path, 'r') as f:
         for line in f.readlines():
             item = json.loads(line)
-            testd_ata.append(item)
-    return testd_ata
+            test_data.append(item)
+    return test_data
 
 def prompt_template(tokenizer,message,sys_prompt='Generate text according to the following instruction.') -> str:
     messages = [
@@ -230,7 +230,7 @@ def compute_metric(output_filename,task):
     log_file='./batch_ctg_log.txt'
     with open(log_file, 'a') as log_file:
         log_file.write("Output File: {}, Task: {}, ACC: {:.4f}, Best layer: {}\n".format(output_filename,task, max_acc,best_layer))
-    return max_acc,best_layer
+    return max_acc,int(best_layer)
 
 
 def extract_text(text):
@@ -294,3 +294,22 @@ def detect_toxic(text):
 
     return response['attributeScores']['TOXICITY']['summaryScore']['value']
 
+def convert_to_api_input(data_path, api_input_path, constraint_type):
+
+    with open(os.path.join(data_path, "{}_constraints.json".format(constraint_type)), 'r', encoding='utf-8') as input_file:
+        input_data = json.load(input_file)
+
+    # check if the data format is correct
+    num = 0
+    for i in range(len(input_data)):
+        if constraint_type != 'example':
+            assert i % 6 == input_data[i]['level']
+        if input_data[i]['level'] > 0:
+            assert input_data[i]['instruction'] != ""
+            num += 1
+    print(f"\n[{constraint_type}] number of examples: {num}")
+
+    with open(os.path.join(api_input_path, "{}_constraint.jsonl".format(constraint_type)), 'w', encoding='utf-8') as output_file:
+        for d in input_data:
+            if d['level'] > 0:
+                output_file.write(json.dumps({'prompt_new': d['instruction'],'level':d['level']})+ "\n")

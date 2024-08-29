@@ -1,3 +1,14 @@
 Output File: ./results/batch_ctg/layer2.json, Task: multi, ACC: 0.8500, Best layer: 26
 Output File: ./results/batch_ctg/hs_test3.json, Task: multi, ACC: 0.8090, Best layer: 26
 Output File: ./results/batch_ctg/layer_hs_test5.json, Task: multi, ACC: 0.7200, Best layer: 32
+Output File: ./results/batch_ctg/hs_test1.json, Task: multi, ACC: 0.7090, Best layer: 32
+Output File: ./results/batch_ctg/sft_test1.json, Task: multi, ACC: 0.7860, Best layer: 32
+Output File: ./results/batch_ctg/sft_test1.json, Task: multi, ACC: 0.7660, Best layer: 32
+Output File: ./results/batch_ctg/logit_ctg2.json, Task: multi, ACC: 0.5000, Best layer: 0
+Output File: ./results/batch_ctg/layer_sft_st_7.json, Task: multi, ACC: 0.6967, Best layer: 3
+Output File: ./results/batch_ctg/sft_st_7.json, Task: multi, ACC: 0.6820, Best layer: 3
+Output File: ./results/batch_ctg/hs_test6.json, Task: multi, ACC: 0.6740, Best layer: 16
+Output File: ./results/batch_ctg/hs_test7.json, Task: multi, ACC: 0.6780, Best layer: 32
+Output File: ./results/batch_ctg/logits_ctg1.json, Task: multi, ACC: 0.0000, Best layer: 0
+Output File: ./results/batch_ctg/logits_ctg2.json, Task: multi, ACC: 0.1780, Best layer: 0
+Output File: ./results/batch_ctg/logits_ctg3.json, Task: multi, ACC: 0.1950, Best layer: 0

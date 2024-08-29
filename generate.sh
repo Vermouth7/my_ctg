@@ -6,14 +6,14 @@
 tasks=("sentiment" "topic" "multi")
 
 # Loop through 1 to 7
-for i in {1..7}
+for i in {8..9}
 do
     # Loop through each task
     for task in "${tasks[@]}"
     do
         # Set the model path, output file, and other variables based on the loop index and task
-        model_path="/data1/chh/models/model_sft/llama3-8b/merge/qwen/sft${i}"
-        output="./sft_result/sft${i}_${task}.json"
+        model_path="/data1/chh/models/model_sft/llama3-8b/merge/qwen_st/sft${i}"
+        output="./results/sft_result/sft_st_${i}_${task}.json"
         mode="zero_shot"
 
         # Run the Python script with the current settings

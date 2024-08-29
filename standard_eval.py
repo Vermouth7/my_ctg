@@ -2,19 +2,15 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='1'
+os.environ['CUDA_VISIBLE_DEVICES']='7'
 import gc
 import random
 
 import numpy as np
 import torch
 from tqdm import tqdm
-from transformers import (AutoConfig, AutoModel, AutoModelForCausalLM,
-                          AutoModelForSequenceClassification, AutoTokenizer,
-                          LlamaForCausalLM, LlamaTokenizer)
 from utils import (classify_sentiment, classify_topic, detect_toxic,
                    load_eval_models, set_seed)
-from vllm import LLM, SamplingParams
 
 device=torch.device('cuda')
 
@@ -42,6 +38,10 @@ def compute_metric_standard(input_filename,task):
             score1=classify_topic(device=device,model=eval_models[0],tokenizer=eval_models[1],text=pred['text'],label=pred['label1'])
             score2=classify_sentiment(device=device, model1=eval_models[2], model2=eval_models[4], tokenizer1=eval_models[3], tokenizer2=eval_models[5],text=pred['text'], label=pred['label2'])
             score = (score1 + score2 == 2)
+            # if score==0:
+            #     print(pred['text'])
+            #     print(pred['label1'],pred['label2'])
+                
         elif task=='detoxic':
             toxicity = detect_toxic(pred)
             score=1-toxicity
@@ -62,7 +62,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", default=42, type=int)
     parser.add_argument("--task", default='multi', type=str)
-    parser.add_argument("--input_file", default='./results/standard/few_shot.json', type=str)
+    parser.add_argument("--input_file", default='/home/chh/repos/my_ctg/results/batch_ctg/logits_test1.json', type=str)
     parser.add_argument('--log_file', type=str, default='./log.txt')
     
     args = parser.parse_args()

@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='4'
+os.environ['CUDA_VISIBLE_DEVICES']='7'
 import gc
 import random
 
@@ -12,7 +12,7 @@ from tqdm import tqdm
 from transformers import (AutoConfig, AutoModel, AutoModelForCausalLM,
                           AutoModelForSequenceClassification, AutoTokenizer,
                           LlamaForCausalLM, LlamaTokenizer)
-from utils import get_test_data, prompt_template, set_seed
+from utils import get_data, prompt_template, set_seed
 from vllm import LLM, SamplingParams
 
 
@@ -23,7 +23,7 @@ def main(args):
     tokenizer = AutoTokenizer.from_pretrained(args.model_path)
     sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=args.max_length)
     
-    instructions = get_test_data(args.task)
+    instructions = get_data('/home/chh/repos/my_ctg/instructions/test/{}_lite.jsonl'.format(args.task))
 
     if args.mode == 'zero_shot':
         for i in instructions:

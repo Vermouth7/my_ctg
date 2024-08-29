@@ -1,20 +1,21 @@
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='2'
+os.environ['CUDA_VISIBLE_DEVICES']='7'
 import argparse
 import json
 import time
 
 import numpy as np
 import torch
+import torch.nn.functional as F
 from batch_repe import repe_pipeline_registry
 from tqdm import tqdm
 from transformers import AutoModel, AutoTokenizer, LlamaForCausalLM, pipeline
-from utils import compute_metric, process_test_datset, set_seed
+from utils import *
 
 repe_pipeline_registry()
 device = torch.device("cuda")
-
+constraint_types=['content', 'situation', 'style', 'format', 'example', 'mixed']
 
 def get_condition_output(model,tokenizer,prompts,num_condition,pos):
     all_hiddens= []
@@ -50,7 +51,7 @@ def get_insert_layer(model,tokenizer,task,output):
     run_results = {}    
     test_data,split,num_condition=process_test_datset(tokenizer,args.task,val_path)
     
-    hiddens,logits,_ = get_condition_output(model,tokenizer,split,num_condition,pos=-1)
+    hiddens= get_condition_output(model,tokenizer,split,num_condition,pos=-1)
     # print(logits.shape)
     # print(hiddens.shape)
     
@@ -64,7 +65,7 @@ def get_insert_layer(model,tokenizer,task,output):
             device=device)
     
     
-        batch_size = 16
+        batch_size = 8
         batches_test = [test_data[i:i + batch_size] for i in range(0, len(test_data), batch_size)]
         batches_hidden=[hiddens[i:i + batch_size] for i in range(0,hiddens.shape[0], batch_size)]
 
@@ -86,22 +87,19 @@ def get_insert_layer(model,tokenizer,task,output):
     return layer
 
     
-    
-def CTG_hs(model,tokenizer,task,output):
+def CTG_hs(model,tokenizer,task,output,max_length):
     run_results = {}
 
     start_time = time.time()
     acc = []
         
-    best_layer = get_insert_layer(model,tokenizer,task,output)
+    # best_layer = get_insert_layer(model,tokenizer,task,output)
     
-    insert_layer=best_layer
+    insert_layer=32
     print('insert layer: ',insert_layer)
     run_results[insert_layer]=[]
     test_data,split,num_condition=process_test_datset(tokenizer,args.task,'/home/chh/repos/my_ctg/instructions/test/multi_lite.jsonl')
-    test_data=test_data
-    split=split
-    hiddens,logits,_ = get_condition_output(model,tokenizer,split,num_condition,pos=-1)
+    hiddens= get_condition_output(model,tokenizer,split,num_condition,pos=-1)
     # print(logits.shape)
     # print(hiddens.shape)
     
@@ -114,7 +112,7 @@ def CTG_hs(model,tokenizer,task,output):
         device=device)
     
     
-    batch_size = 16
+    batch_size = 8
     batches_test = [test_data[i:i + batch_size] for i in range(0, len(test_data), batch_size)]
     batches_hidden=[hiddens[i:i + batch_size] for i in range(0,hiddens.shape[0], batch_size)]
 
@@ -123,7 +121,7 @@ def CTG_hs(model,tokenizer,task,output):
     for index,item in enumerate(tqdm(batches_test, desc="Processing prompts")):
         
         inputs=[i['prompt'] for i in item]
-        res = control_pipeline(inputs, activations=batches_hidden[index],token_pos=-1,batch_size=batch_size, max_new_tokens=128)
+        res = control_pipeline(inputs, activations=batches_hidden[index],token_pos=-1,batch_size=batch_size, max_new_tokens=max_length)
         res = [item[0]['generated_text'] for item in res]
         for r,i in zip(res,item):
             run_results[insert_layer].append({'text': r, 'label1': i['label1'],'label2':i['label2']})
@@ -151,7 +149,9 @@ def CTG_logits(model,tokenizer,task,output,max_length):
     test_data,split,num_condition=process_test_datset(tokenizer,args.task,'/home/chh/repos/my_ctg/instructions/test/multi_lite.jsonl')
     # test_data=test_data[:100]
     # split=split[:200]
-    batch_size = 1
+    # test_data=[{'prompt':"I'm looking for some family-themed, disgust text, can you help?"}]
+    # split=["Instruction: Generate a text that fits the condition: family.","Instruction: Generate a text that fits the condition: disgust."]
+    batch_size = 4
     batches_test = [test_data[i:i + batch_size] for i in range(0, len(test_data), batch_size)]
     batch_split=[(split[i],split[i+1]) for i in range(0,len(split),2)]
     
@@ -181,15 +181,24 @@ def CTG_logits(model,tokenizer,task,output,max_length):
             with torch.no_grad():
                 logits_test = model(input_ids=input_ids_test,attention_mask=attention_mask_test, use_cache=True).logits[:, -1, :]
             logits_group_list = []
-            logits_group_list.append(logits_test.unsqueeze(0))
+            kl_div_list = []
             
+            # logits_group_list.append(logits_test.unsqueeze(0))
             for i in range(0,num_condition):
-                logits_group = model(input_ids=input_ids_group[i], attention_mask=attention_mask_group[i], use_cache=True).logits[:, -1, :]
+                with torch.no_grad():
+                    logits_group = model(input_ids=input_ids_group[i], attention_mask=attention_mask_group[i], use_cache=True).logits[:, -1, :]
                 logits_group_list.append(logits_group.unsqueeze(0))
-            
+                
+                kl_div = F.kl_div(F.log_softmax(logits_test,dim=-1), F.softmax(logits_group, dim=-1), reduction='batchmean')
+                kl_div_list.append(kl_div.unsqueeze(0))
+            # print(kl_div_list)
             logits_group = torch.cat(logits_group_list, dim=0).to(device)
-
-            logits_avg = logits_group.mean(dim=0).to(device)
+            kl_div = torch.cat(kl_div_list, dim=0).to(device)
+            kl_div = kl_div.view(-1, 1, 1).expand_as(logits_group)
+            # print(logits_group.shape)
+            # logits_avg = logits_group.mean(dim=0).to(device)
+            logits_avg = torch.cat([logits_test.unsqueeze(0),(logits_group * kl_div)],dim=0).mean(dim=0).to(device)
+            
             next_token = torch.argmax(logits_avg, dim=-1,keepdim=True).to(device)
             input_ids_test = torch.cat([input_ids_test, next_token], dim=-1).to(device)
             
@@ -229,7 +238,7 @@ if __name__ == "__main__":
 
     # parser.add_argument('--model_path', type=str, default='/data1/chh/models/model_sft/llama3-8b/merge/qwen/sft3')
     parser.add_argument('--task', type=str, default='multi')
-    parser.add_argument('--output', type=str, default='./results/batch_ctg/hs_test5.json')
+    parser.add_argument('--output', type=str, default='./results/batch_ctg/logits_ctg3.json')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_length', type=int, default=128)
     
@@ -241,8 +250,7 @@ if __name__ == "__main__":
 
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
     model = model.eval()
-    CTG_hs(model,tokenizer,args.task,args.output)
+    # CTG_hs(model,tokenizer,args.task,args.output,args.max_length)
     # CTG_logits(model,tokenizer,args.task,args.output,args.max_length)
-    # CTG_hs_split(model,tokenizer,args.task,args.output)
     
     
