@@ -28,9 +28,7 @@ class RepControlPipeline(TextGenerationPipeline):
    
     def __call__(self, text_inputs, token_pos=-1,activations=None, logits=None, control_method="hidden_states",**kwargs):
 
-        if control_method=="hidden_states" and activations is not None:
-            # if kwargs.get('batch_size')!=1:
-            #     activations=torch.transpose(activations,0,1)
+        if control_method=="hidden_states" and activations is not None and self.layers is not None:
             self.wrapped_model.reset()
             self.wrapped_model.set_controller(self.layers, activations, self.block_name,token_pos)
 

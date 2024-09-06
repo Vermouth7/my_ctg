@@ -241,8 +241,8 @@ class WrappedReadingVecModel(torch.nn.Module):
             assert isinstance(activations, dict), "activations should be a dictionary"
             for layer_id in layer_ids:
                 _set_controller(layer_id, activations[layer_id], block_name, masks, normalize, operator)
-        # elif isinstance(layer_ids,int):
-            # _set_controller(layer_ids, activations[layer_ids], block_name, masks, normalize, operator)
+        elif isinstance(layer_ids,int):
+            _set_controller(layer_ids, activations[:,layer_ids], block_name, masks, normalize, operator)
         else:
             _set_controller(layer_ids, activations, block_name, masks, normalize, operator)
       

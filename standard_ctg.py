@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='7'
+os.environ['CUDA_VISIBLE_DEVICES']='6'
 import gc
 import random
 
@@ -103,22 +103,53 @@ def main(args):
     with open(args.output, 'w', encoding='utf-8') as f:
         json.dump(res, f, ensure_ascii=False, indent=4)
 
+
     
+    
+
+    
+
 
 if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", default=42, type=int)
     parser.add_argument("--model_path", default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct', type=str)
-    parser.add_argument("--task", default='multi', type=str)
-    parser.add_argument("--mode", default='few_shot', type=str, choices=['zero_shot','few_shot','cot_zero_shot','cot_few_shot',])
-    parser.add_argument("--output", default='./results/standard/few_shot.json', type=str)
+    parser.add_argument('--output_folder', type=str, default='./results/followbench/baseline')
+    
+    # parser.add_argument("--task", default='multi', type=str)
+    # parser.add_argument("--mode", default='few_shot', type=str, choices=['zero_shot','few_shot','cot_zero_shot','cot_few_shot',])
+    # parser.add_argument("--output", default='./results/standard/few_shot.json', type=str)
     # decoding
     parser.add_argument("--top_p", default=0.9, type=float)
-    parser.add_argument("--max_length", default=300, type=int)
+    parser.add_argument("--max_length", default=1024, type=int)
     parser.add_argument("--temperature", default=0.6, type=float)
     args = parser.parse_args()
     set_seed(args)
-
-    main(args)
     
+    constraint_types=['content', 'situation', 'style', 'format', 'example', 'mixed']
+    model = LLM(model=args.model_path,gpu_memory_utilization=0.95)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_path)
+    sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=args.max_length)
+    
+    for constraint in constraint_types:
+        run_results = []
+        test_data=[]
+
+        with open(os.path.join("/home/chh/repos/my_ctg/instructions/followbench2/{}_constraint.jsonl".format(constraint)), 'r', encoding='utf-8') as test_file:
+            for line in test_file:
+                temp_dict = json.loads(line.strip())
+                prompt=temp_dict['prompt_new']
+                prompt_tem=prompt_template(tokenizer,prompt)
+                test_data.append({'prompt_new':prompt,'prompt_input':prompt_tem})
+        
+        inputs=[i['prompt_input'] for i in test_data]
+        outputs = model.generate(inputs, sampling_params)
+        res = [item.outputs[0].text for item in outputs]
+        
+        for r,i in zip(res,test_data):
+            run_results.append({'prompt_new':i['prompt_new'],'result': r})
+        
+        with open(os.path.join(args.output_folder, f"{os.path.basename(args.model_path)}_{constraint}_constraint.jsonl"), 'w', encoding='utf-8') as output_file:
+            for d in run_results:
+                output_file.write(json.dumps(d) + "\n")
