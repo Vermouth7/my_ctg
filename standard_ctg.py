@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='6'
+os.environ['CUDA_VISIBLE_DEVICES']='2'
 import gc
 import random
 
@@ -19,7 +19,7 @@ from vllm import LLM, SamplingParams
 def main(args):
     res=[]
     prompts=[]
-    model = LLM(model=args.model_path,gpu_memory_utilization=0.95)
+    model = LLM(model=args.model_path,gpu_memory_utilization=0.90)
     tokenizer = AutoTokenizer.from_pretrained(args.model_path)
     sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=args.max_length)
     
@@ -114,23 +114,25 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", default=42, type=int)
-    parser.add_argument("--model_path", default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct', type=str)
-    parser.add_argument('--output_folder', type=str, default='./results/followbench/baseline')
+    # parser.add_argument("--model_path", default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct', type=str)
+    parser.add_argument("--model_path", default='/data1/chh/models/Qwen/Qwen2-1.5B-Instruct', type=str)
+    
+    parser.add_argument('--output_folder', type=str, default='./results/qwen2/test2')
     
     # parser.add_argument("--task", default='multi', type=str)
     # parser.add_argument("--mode", default='few_shot', type=str, choices=['zero_shot','few_shot','cot_zero_shot','cot_few_shot',])
     # parser.add_argument("--output", default='./results/standard/few_shot.json', type=str)
     # decoding
-    parser.add_argument("--top_p", default=0.9, type=float)
+    parser.add_argument("--top_p", default=0.8, type=float)
     parser.add_argument("--max_length", default=1024, type=int)
-    parser.add_argument("--temperature", default=0.6, type=float)
+    parser.add_argument("--temperature", default=0.7, type=float)
     args = parser.parse_args()
     set_seed(args)
     
     constraint_types=['content', 'situation', 'style', 'format', 'example', 'mixed']
-    model = LLM(model=args.model_path,gpu_memory_utilization=0.95)
+    model = LLM(model=args.model_path,gpu_memory_utilization=0.90)
     tokenizer = AutoTokenizer.from_pretrained(args.model_path)
-    sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=args.max_length)
+    sampling_params = SamplingParams(temperature=args.temperature, top_p=args.top_p,max_tokens=args.max_length)
     
     for constraint in constraint_types:
         run_results = []

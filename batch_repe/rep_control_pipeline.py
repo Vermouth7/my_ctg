@@ -18,10 +18,12 @@ class RepControlPipeline(TextGenerationPipeline):
         # TODO: implement different control method and supported intermediate modules for different models
         self.wrapped_model = WrappedReadingVecModel(model, tokenizer)
         self.wrapped_model.unwrap()
-        if layers:
-            self.wrapped_model.wrap_block(layers-1, block_name=block_name)
+        assert isinstance(layers,list),"layers layers be list"
+        layers=[i-1 for i in layers]
+        if isinstance(layers, list):
+            self.wrapped_model.wrap_block(layers, block_name=block_name)
             self.block_name = block_name
-            self.layers = layers-1
+            self.layers = layers
         
 
         super().__init__(model=model, tokenizer=tokenizer, **kwargs)

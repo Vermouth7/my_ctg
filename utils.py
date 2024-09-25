@@ -50,7 +50,6 @@ def get_data(file_path):
 
 def prompt_template(tokenizer,message,sys_prompt="You're an excellent assistant.") -> str:
     messages = [
-    {"role": "system", "content":sys_prompt},
     {"role": "user", "content": message},
     ]
     
