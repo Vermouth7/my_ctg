@@ -18,7 +18,7 @@ from vllm import LLM, SamplingParams
 
 repe_pipeline_registry()
 device = torch.device("cuda")
-options_prefix = ["A", "B", "C", "D"]
+choices = ["A", "B", "C", "D"]
 
 def process_data(sample):
     res={}
@@ -90,11 +90,11 @@ def CTG_hs(args):
     batch_size = 2
     test_data=[]
     split_hiddens= get_split_hs(model,tokenizer)
-    prompt="The following are multiple choice questions about {label}.Your answer must include the correct option, such as (A),(B),(C) or (D).\nQuestion: {question}\nChoices: {choice}\nAnswer:"
+    prompt="The following are multiple choice questions about {label}. You MUST write the answer as 'A', 'B', 'C' or 'D' after '####'.\nQuestion: {question}\nChoices: {choice}\nAnswer:"
     with open(os.path.join("/home/chh/repos/my_ctg/instructions/mmlu/mmlu_2steps_llama.json".format()), 'r', encoding='utf-8') as test_file:
         test_data = json.load(test_file)
     for i in test_data:
-        choices_string=' '.join([f"({options_prefix[i]}) {choice}" for i, choice in enumerate(i['choices'])])
+        choices_string=' '.join([f"({choices[i]}) {choice}" for i, choice in enumerate(i['choices'])])
         i['new_q']=prompt_template(tokenizer,prompt.format(label=i['subject'],question=i['question'],choice=choices_string))
     
     ### COT
@@ -114,7 +114,7 @@ def CTG_hs(args):
         
         res = [item[0]['generated_text'] for item in res]
         for r,i in zip(res,item):
-            run_results.append({'question':i['question'],'answer':i['answer'],'generated_text':r})
+            run_results.append({'question':i['question'],'choices':i['choices'],'answer':i['answer'],'generated_text':r})
     
     with open(args.output_folder, 'w', encoding='utf-8') as output_file:
         json.dump(run_results, output_file, ensure_ascii=False, indent=4)
@@ -132,18 +132,21 @@ def vllm_gen(args):
     run_results = []
     batch_size = 1
     test_data=[]
-    prompt="The following are multiple choice questions about {label}.Your answer must include only options without any other description, such as (A),(B),(C) or (D).\nQuestion: {question}\nChoices: {choice}\nAnswer:"
+    # prompt="The following are multiple choice questions about {label}.Your answer must include only options without any other description, such as (A),(B),(C) or (D).\nQuestion: {question}\nChoices: {choice}\nAnswer:"
+    prompt="The following are multiple choice questions about {label}. You MUST write the answer after '####'.\nQuestion: {question}\nChoices: {choice}\nAnswer:"
+    
     with open(os.path.join("/home/chh/repos/my_ctg/instructions/mmlu/mmlu_2steps_llama.json".format()), 'r', encoding='utf-8') as test_file:
         test_data = json.load(test_file)
     # train_data = load_dataset("/data1/chh/datasets/lighteval/mmlu",'abstract_algebra')['test']
     # train_data=train_data['train'].to_pandas().to_dict(orient='records')
 
     for i in test_data:
-        choices_string=' '.join([f"({options_prefix[i]}) {choice}" for i, choice in enumerate(i['choices'])])
+        choices_string=' '.join([f"({choices[i]}) {choice}" for i, choice in enumerate(i['choices'])])
         i['new_q']=prompt_template(tokenizer,prompt.format(label=i['subject'],question=i['question'],choice=choices_string))
         # i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
     inputs=[i['new_q'] for i in test_data]
     
+     
     outputs = model.generate(inputs, sampling_params)
     res = [item.outputs[0].text for item in outputs]
         
@@ -153,32 +156,31 @@ def vllm_gen(args):
     with open(args.output_folder, 'w', encoding='utf-8') as output_file:
         json.dump(run_results, output_file, ensure_ascii=False, indent=4)
 
-def nshot_chats(tokenizer,nshot_data: list, n: int, question: str) -> dict:
+def format_subject(subject):
+    l = subject.split("_")
+    s = ""
+    for entry in l:
+        s += " " + entry
+    return s
 
-    def question_prompt(s):
-        return f'Question: {s}'
+def format_example(df, idx, include_answer=True):
+    prompt = df.iloc[idx, 0]
+    k = df.shape[1] - 2
+    for j in range(k):
+        prompt += "\n{}. {}".format(choices[j], df.iloc[idx, j+1])
+    prompt += "\nAnswer:"
+    if include_answer:
+        prompt += " {}\n\n".format(df.iloc[idx, k + 1])
+    return prompt
 
-    def answer_prompt(s):
-        return f'Answer: {s}'
-
-    chats = []
-
-    random.seed(42)
-    for qna in random.sample(nshot_data, n):
-        chats.append(
-            {"role": "user", "content": question_prompt(qna["question"])})
-        chats.append(
-            {"role": "assistant", "content": answer_prompt(qna["answer"])})
-
-    chats.append({"role": "user", "content": question_prompt(question)+" Let's think step by step. At the end, you MUST write the answer as an integer after '####'."})
-
-    return tokenizer.apply_chat_template(
-        chats,
-        tokenize=False,
-        add_generation_prompt=True,
-    )
-
-
+def gen_prompt(train_df, subject, k=-1):
+    prompt = "The following are multiple choice questions (with answers) about {}.\n\n".format(format_subject(subject))
+    if k == -1:
+        k = train_df.shape[0]
+    for i in range(k):
+        prompt += format_example(train_df, i)
+    return prompt
+    
 def extract_ans_from_response(answer):
     for char in answer:
         if char in {'A', 'B', 'C', 'D'}:
@@ -196,7 +198,7 @@ def eval_func(args):
         answer_idx = record.get('answer', '')
         reference = record.get('generated_text', '')
 
-        answer_number = options_prefix[answer_idx]
+        answer_number = choices[answer_idx]
         reference_number = extract_ans_from_response(reference)
 
         if answer_number == reference_number:
@@ -210,16 +212,16 @@ if __name__ == "__main__":
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
 
     # parser.add_argument('--model_path', type=str, default='/data1/chh/models/model_sft/llama3-8b/merge/qwen/sft3')
-    parser.add_argument('--output_folder', type=str, default='./results/mmlu/res1.json')
+    parser.add_argument('--output_folder', type=str, default='./results/mmlu/baseline.json')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_length', type=int, default=200)
     
-    parser.add_argument('--eval_file',type=str,default='./results/mmlu/res1.json')
+    parser.add_argument('--eval_file',type=str,default='./results/mmlu/baseline.json')
     
     args = parser.parse_args()
     set_seed(args)
     
     
-    CTG_hs(args)
-    # vllm_gen(args)
+    # CTG_hs(args)
+    vllm_gen(args)
     eval_func(args)
