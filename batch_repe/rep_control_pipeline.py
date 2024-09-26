@@ -40,7 +40,7 @@ class RepControlPipeline(TextGenerationPipeline):
             # outputs=self.ctg_hidden_states(text_inputs,kwargs.get('batch_size'),kwargs.get('max_new_tokens'))
         elif control_method=='logits':
             outputs=self.ctg_logits(text_inputs,logits,kwargs.get('batch_size'),kwargs.get('max_new_tokens'))
-            
+        
         self.wrapped_model.reset()
         return outputs
     
@@ -105,3 +105,13 @@ class RepControlPipeline(TextGenerationPipeline):
     
     def ctg_mix(self,text_inputs,batch_size,logits):
         pass
+    def get_next_token(self,input_ids,token_pos=-1,activations=None,**kwargs):
+        if  activations is not None and self.layers is not None:
+            self.wrapped_model.reset()
+            self.wrapped_model.set_controller(self.layers, activations, self.block_name,token_pos)
+        else:
+            return None
+        
+        return self.wrapped_model(
+            input_ids=input_ids,
+        ).logits[:,-1].flatten()
