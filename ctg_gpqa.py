@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import torch
 from batch_repe import repe_pipeline_registry
-from mmlu_categories import categories, subcategories
+from datasets import load_dataset
 from tqdm import tqdm
 from transformers import AutoTokenizer, LlamaForCausalLM, pipeline
 from utils import *
@@ -27,6 +27,7 @@ def process_data(sample):
     return res
 def get_split_hs(model,tokenizer,file_path):
     all_hiddens= []
+    print(file_path)
     with open(file_path, 'r', encoding='utf-8') as input_file:
         data=json.load(input_file)
         
@@ -54,57 +55,51 @@ def get_split_hs(model,tokenizer,file_path):
     all_hiddens=torch.stack(all_hiddens) # data 33 4096
     return all_hiddens
 
-def format_subject(subject):
-    l = subject.split("_")
-    s = ""
-    for entry in l:
-        s += " " + entry
-    return s
-
 
 def format_example(df, idx, include_answer=True):
     prompt = df.iloc[idx, 0]
-    k = df.shape[1] - 2
-    for j in range(k):
-        prompt += "\n{}. {}".format(choices[j], df.iloc[idx, j + 1])
+    for j in range(4):
+        prompt += "\n{}. {}".format(choices[j], df.iloc[idx, 1][j])
     prompt += "\nAnswer:"
     if include_answer:
-        prompt += " {}\n\n".format(df.iloc[idx, k + 1])
+        prompt += " {}\n\n".format(df.iloc[idx, 2])
     return prompt
 
 
-def gen_prompt(train_df, subject, k=-1):
-    prompt = "The following are multiple choice questions (with answers) about {}.\n\n".format(
-        format_subject(subject)
-    )
+def gen_prompt(train_df, k=-1):
+    if train_df==None:
+        return ""
+    prompt = "What is the correct answer to this question:\n"
     if k == -1:
         k = train_df.shape[0]
     for i in range(k):
         prompt += format_example(train_df, i)
     return prompt
 
-
 @torch.no_grad()
-def eval_baseline(args, subject, model, tokenizer, dev_df, test_df):
+def eval_baseline(args, subject, model, tokenizer, test_df):
     cors = []
     all_probs = []
     answers = choices[: test_df.shape[1] - 2]
 
-    for i in range(test_df.shape[0]):
+    for i in tqdm(range(test_df.shape[0])):
         # get prompt and make sure it fits
         k = args.ntrain
-        prompt_end = format_example(test_df, i, include_answer=False)
-        train_prompt = gen_prompt(dev_df, subject, k)
+        
+        prompt_end = "What is the correct answer to this question:\n"+format_example(test_df, i, include_answer=False)
+        train_prompt = gen_prompt(None, k)
         prompt = train_prompt + prompt_end
+        
         input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
 
-        while input_ids.shape[-1] > 2048:
-            k -= 1
-            train_prompt = gen_prompt(dev_df, subject, k)
-            prompt = train_prompt + prompt_end
-            input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
+        # while input_ids.shape[-1] > 2048:
+        #     k -= 1
+        #     train_prompt = gen_prompt(None, k)
+        #     prompt = train_prompt + prompt_end
+        #     input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
 
-        label = test_df.iloc[i, test_df.shape[1] - 1]
+        label = test_df.iloc[i, 2]
+
         logits = model(
             input_ids=input_ids,
         ).logits[:,-1].flatten()
@@ -127,7 +122,7 @@ def eval_baseline(args, subject, model, tokenizer, dev_df, test_df):
             .numpy()
         )
         pred = {0: "A", 1: "B", 2: "C", 3: "D"}[np.argmax(probs)]
-
+        label={0: "A", 1: "B", 2: "C", 3: "D"}[label]
         cor = pred == label
         cors.append(cor)
         all_probs.append(probs)
@@ -160,27 +155,24 @@ def eval_ctg(args, subject, model, tokenizer, dev_df, test_df):
         layers=insert_layer,
         device=device)
     
-    split_hiddens= get_split_hs(model,tokenizer,'/home/chh/repos/my_ctg/instructions/mmlu/{}_2steps_llama.json'.format(subject))
+    split_hiddens= get_split_hs(model,tokenizer,'/home/chh/repos/my_ctg/instructions/gpqa/{}_2steps_llama.json'.format(subject))
     
-    for i in range(test_df.shape[0]):
+    for i in tqdm(test_df.shape[0]):
         # get prompt and make sure it fits
         k = args.ntrain
-        prompt_end = format_example(test_df, i, include_answer=False)
-        train_prompt = gen_prompt(dev_df, subject, k)
+        prompt_end = "What is the correct answer to this question:\n"+format_example(test_df, i, include_answer=False)
+        train_prompt = gen_prompt(None, k)
         prompt = train_prompt + prompt_end
-        # print(prompt)
         # if the result is not good, please try use chat template
-        # prompt=prompt_template(tokenizer=tokenizer,message=prompt)
-        
         input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
 
-        while input_ids.shape[-1] > 2048:
-            k -= 1
-            train_prompt = gen_prompt(dev_df, subject, k)
-            prompt = train_prompt + prompt_end
-            input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
+        # while input_ids.shape[-1] > 2048:
+        #     k -= 1
+        #     train_prompt = gen_prompt(dev_df, subject, k)
+        #     prompt = train_prompt + prompt_end
+        #     input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
 
-        label = test_df.iloc[i, test_df.shape[1] - 1]
+        label = test_df.iloc[i, 2]
         
         logits = control_pipeline.get_next_token(input_ids, activations=split_hiddens[i].unsqueeze(0),token_pos=-1)
 
@@ -202,7 +194,7 @@ def eval_ctg(args, subject, model, tokenizer, dev_df, test_df):
             .numpy()
         )
         pred = {0: "A", 1: "B", 2: "C", 3: "D"}[np.argmax(probs)]
-
+        label={0: "A", 1: "B", 2: "C", 3: "D"}[label]
         cor = pred == label
         cors.append(cor)
         all_probs.append(probs)
@@ -222,44 +214,25 @@ def main(args):
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
     model = model.eval()
     
-    subjects = sorted(
-        [
-            f.split("_test.csv")[0]
-            for f in os.listdir(os.path.join(args.data_dir, "test"))
-            if "_test.csv" in f
-        ]
-    )
+    subjects=['diamond', 'main']
+
     
     if not os.path.exists(args.save_dir):
         os.makedirs(args.save_dir)
     if not os.path.exists(os.path.join(args.save_dir, "results_{}".format(args.model))):
         os.makedirs(os.path.join(args.save_dir, "results_{}".format(args.model)))
 
-    all_cors = []
-    subcat_cors = {
-        subcat: [] for subcat_lists in subcategories.values() for subcat in subcat_lists
-    }
-    cat_cors = {cat: [] for cat in categories}
-
+    all_cors=[]    
     for subject in subjects:
-        dev_df = pd.read_csv(
-            os.path.join(args.data_dir, "dev", subject + "_dev.csv"), header=None
-        )[: args.ntrain]
-        test_df = pd.read_csv(
-            os.path.join(args.data_dir, "test", subject + "_test.csv"), header=None
-        )
+        ds = load_dataset(args.data_dir,subject)['train']
+        test_df =ds.to_pandas()
         
         if args.mode=='baseline':
-            cors, acc, probs = eval_baseline(args, subject, model, tokenizer, dev_df, test_df)
+            cors, acc, probs = eval_baseline(args, subject, model, tokenizer, test_df)
         elif args.mode=='ctg':
-            cors, acc, probs = eval_ctg(args, subject, model, tokenizer, dev_df, test_df)
+            cors, acc, probs = eval_ctg(args, subject, model, tokenizer, test_df)
             
-        subcats = subcategories[subject]
-        for subcat in subcats:
-            subcat_cors[subcat].append(cors)
-            for key in categories.keys():
-                if subcat in categories[key]:
-                    cat_cors[key].append(cors)
+        
         all_cors.append(cors)
 
         test_df["{}_correct".format(args.model)] = cors
@@ -273,13 +246,7 @@ def main(args):
             index=None,
         )
 
-    for subcat in subcat_cors:
-        subcat_acc = np.mean(np.concatenate(subcat_cors[subcat]))
-        print("Average accuracy {:.3f} - {}".format(subcat_acc, subcat))
-
-    for cat in cat_cors:
-        cat_acc = np.mean(np.concatenate(cat_cors[cat]))
-        print("Average accuracy {:.3f} - {}".format(cat_acc, cat))
+    print(all_cors)
     weighted_acc = np.mean(np.concatenate(all_cors))
     print("Average accuracy: {:.3f}".format(weighted_acc))
 
@@ -287,8 +254,8 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--ntrain", "-k", type=int, default=0)
-    parser.add_argument("--data_dir", "-d", type=str, default="/data1/chh/datasets/lighteval/data")
-    parser.add_argument("--save_dir", "-s", type=str, default="results/mmlu/baseline")
+    parser.add_argument("--data_dir", "-d", type=str, default="/data1/chh/datasets/jeggers/gpqa_formatted")
+    parser.add_argument("--save_dir", "-s", type=str, default="results/gpqa/baseline")
     parser.add_argument(
         "--model_path",
         "-m",
