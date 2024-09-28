@@ -1,0 +1,2901 @@
+[
+    {
+        "instruction 1": "Identify the specific term or field of study that relates to older adults and aging, ensuring to clarify its scope and focus on aspects such as physical, psychological, and social changes experienced by this demographic.",
+        "instruction 2": "Consider the context in which this field of study applies, including interdisciplinary connections with health care, gerontology, and social sciences, to provide a comprehensive understanding of the subject.",
+        "question": "The study of older adults and aging is referred to as",
+        "choices": [
+            "Gerontology",
+            "Geropsychiatry",
+            "Geriatrics",
+            "Gero-education"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define the various factors that have been studied in relation to Alzheimer's disease, ensuring a clear distinction is made between those factors that are known to pose a risk and those that are associated with a decreased risk.",
+        "instruction 2": "Evaluate current research findings or consensus from reputable sources, such as medical studies or expert opinions, to determine which specific factors consistently show a correlation with lower incidence rates of Alzheimer's disease.",
+        "question": "Which of the following factors is associated with a decreased risk of Alzheimer's?",
+        "choices": [
+            "Being African or Hispanic American",
+            "Eating fish",
+            "A lower level of education",
+            "Being married"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the definition and central tenets of the docility hypothesis, ensuring to properly outline its implications within the relevant field of study, such as behavioral science or psychology.",
+        "instruction 2": "Examine the context in which the docility hypothesis is applied, including any research studies or examples that exemplify its significance, and discuss how it contrasts with other hypotheses or theories in the field.",
+        "question": "The docility hypothesis is that",
+        "choices": [
+            "Those with low capabilities are more vulnerable to environmental demands",
+            "Those who experience high environmental demands become more docile",
+            "Those who experience high environmental demands become less docile",
+            "Those with less capability are less vulnerable to environmental demands"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and analyze the various factors or activities known to enhance normal memory function, such as cognitive exercises, lifestyle choices, dietary considerations, and sleep quality.",
+        "instruction 2": "Evaluate any scientific studies or psychological theories that support the relationship between these factors and memory improvement, ensuring to contextualize findings within the broader scope of cognitive psychology.",
+        "question": "Normal memory seems to be improved by",
+        "choices": [
+            "Aerobic exercise",
+            "Taking acetylcholine",
+            "Taking gingko",
+            "Increasing social contacts"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the implications of viewing development as a historical process, focusing on how historical events, trends, and socio-cultural contexts influence current development theories and practices.",
+        "instruction 2": "Analyze specific historical examples that illustrate the interconnection between past events and modern development, considering how these examples may shape our understanding of contemporary developmental issues.",
+        "question": "The perspective that development is embedded in history means that",
+        "choices": [
+            "Change can always occur regardless of age",
+            "Sociocultural conditions must always be considered",
+            "Development in any particular areas (e.g., social) is tied to development in other areas (e.g., cognitive)",
+            "Some characteristics change with age while others do not"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the two subjects or entities that the answer 'both play an important role' refers to, examining the context in which they are mentioned to determine their significance in the given scenario.",
+        "instruction 2": "Consider the broader implications of 'playing an important role' within the context provided, reflecting on how these subjects contribute to the overall discussion or topic at hand, and the potential relationships between them.",
+        "question": "The answer \"both play an important role\" is clearly applicable to the question of",
+        "choices": [
+            "Nature vs. nurture",
+            "Mechanistic vs organismic",
+            "Continuity vs. discontinuity",
+            "All of these questions"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the common age-related changes that occur in the lens of the eye, such as increased stiffness, loss of elasticity, and the development of cataracts, to determine which option does not align with these expected changes.",
+        "instruction 2": "Analyze the provided options carefully to identify characteristics or occurrences related to the lens that remain unaffected by aging, ensuring that any selection is based on established ophthalmological knowledge regarding the aging process of the eye.",
+        "question": "Which of the following does NOT usually occur to the lens of the eye as one grows older?",
+        "choices": [
+            "It becomes thicker",
+            "It yellows",
+            "It becomes clouded",
+            "It fills with fluid"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and define the specific technology or concept being referenced that enables centralized control of home operations, such as smart homes or home automation systems, exploring existing examples and their functionalities.",
+        "instruction 2": "Consider the implications and advancements of this technology in terms of user experience, security, energy efficiency, and its potential to transform daily living in future housing developments.",
+        "question": "The houses of the future may allow you to operate virtually everything in the house from a central terminal; such a house is already in production and is referred to as",
+        "choices": [
+            "Technohouse",
+            "Compuhouse",
+            "Futurehouse",
+            "Smarthouse"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific conditions or factors that may lead to a reduced reaction time difference between younger and older adults, such as improved health, cognitive training, or increased physical activity levels among older adults.",
+        "instruction 2": "Explore relevant research or studies that demonstrate the relationship between aging and reaction time, including any interventions or lifestyle changes that have shown to enhance cognitive or physical performance in older adults.",
+        "question": "The reaction time difference between younger and older adults is reduced when older adults",
+        "choices": [
+            "Practice regular aerobic exercise",
+            "Lift weights on a regular schedule",
+            "Consume large quantities of vitamins",
+            "Practice Tai chi"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define programmed theories of senescence in detail, outlining their core principles and how they explain aging as a result of biological processes that are genetically determined and evolved to serve a purpose.",
+        "instruction 2": "Contrast programmed theories with unprogrammed theories by identifying the key characteristics of unprogrammed theories, which typically view aging as a result of random damage and environmental influences, thus highlighting the fundamental differences in perspectives on the aging process.",
+        "question": "A major difference between programmed and unprogrammed theories of senescence is that programmed theories",
+        "choices": [
+            "Attribute senescence only to environmental factors",
+            "Are far too difficulty to test",
+            "Claim that senescence follows a predetermined plan",
+            "Rely too heavily on computer models"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify psychological or sociological factors that contribute to the optimism of older adults, such as life experience, resilience, or a positive outlook acquired through years of coping with challenges.",
+        "instruction 2": "Evaluate research studies or theories related to aging and optimism, considering how societal perceptions of aging may influence an older adult's perspective and emotional well-being.",
+        "question": "One reason that older adults show high levels of optimism is that",
+        "choices": [
+            "Many pessimists die at a younger age",
+            "They do not really know what is going on",
+            "This may be a warning sign for dementia",
+            "Our measures have low validity"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific coping strategies associated with procrastination and prioritization, focusing on how Bu's tendency to be late may reflect a form of avoidance or distraction from her responsibilities.",
+        "instruction 2": "Analyze the motivations behind Bu's justifications for her lateness, considering psychological concepts such as rationalization or cognitive dissonance that might influence her perception of the situation.",
+        "question": "Bu is often late for appointments but says it's because she had more important things on her mind. This is an example of which coping strategy?",
+        "choices": [
+            "Immunization",
+            "Accommodation",
+            "Avoidance",
+            "Assimilation"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify key factors or conditions that are widely recognized as contributing to loss of bone density, such as age, hormonal changes, nutritional deficiencies, or specific medical conditions.",
+        "instruction 2": "Evaluate the strength of the association each factor has with bone density loss, considering scientific research studies or clinical guidelines that highlight the impact of these factors on bone health.",
+        "question": "Which of the following is most strongly associated with loss of bone density?",
+        "choices": [
+            "Genetic factors",
+            "Lifestyle factors like not exercising",
+            "Hormonal factors such as loss of estrogen",
+            "Cohort factors"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the common ingredients and preparation methods for super sweet iced tea, particularly focusing on the tradition of adding significant amounts of sugar or sweeteners, usually influencing the flavor profile towards sweetness.",
+        "instruction 2": "Consider cultural and familial influences that might lead a grandmother to prepare iced tea in a specific way, reflecting personal or regional preferences for sweetness and how these traditions can vary across different households.",
+        "question": "That super sweet iced tea that your grandmother gives you might be that way because she",
+        "choices": [
+            "Has lost a lot of sweet taste buds and cannot taste sweetness as well anymore",
+            "Is a member of that cohort that really enjoys sweets",
+            "Is trying to get you to be a little sweeter than you have been in the past",
+            "Has experienced damage in her parietal lobe where sweet sensations are directed"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific vitamins that are commonly known to be linked to cognitive function and can produce dementia-like symptoms when deficient, and provide a brief explanation of their roles in brain health.",
+        "instruction 2": "Research and outline the symptoms associated with the deficiency of these vitamins, linking them to how they may resemble dementia symptoms, thereby providing a clear context for understanding the implications of vitamin shortages.",
+        "question": "A shortage of these two vitamins can produce symptoms that mimic dementia:",
+        "choices": [
+            "A and C",
+            "B6 and B12",
+            "B6 and D",
+            "B12 and E"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and define McAdam's levels of personality, distinguishing each level to ensure clarity on their characteristics and implications, while focusing on how they fit into the broader context of personality psychology.",
+        "instruction 2": "Analyze the list of options given and match one of them with the defined levels from McAdam's framework, ensuring that the response directly ties back to the core concepts associated with personality levels as proposed by McAdam.",
+        "question": "Which of the following is one of McAdam's levels of personality?",
+        "choices": [
+            "Control",
+            "Identity",
+            "Generativity",
+            "Assimilation"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the common factors associated with promoting longevity and well-being, including principles discussed in health literature, to deduce the missing factor related to mental stimulation, exercise, and diet.",
+        "instruction 2": "Consider the relationship and importance of social connections or relationships as potential contributors to a longer life, as these are often highlighted in discussions of holistic health and longevity.",
+        "question": "In this chapter's Senior View, Dr. Donham told us that mental stimulation, exercise, diet, and what other factor is important for long life?",
+        "choices": [
+            "Moderate amounts of alcohol",
+            "Social support",
+            "Good genes",
+            "Avoiding stress"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the prevailing attitudes and perceptions older adults have regarding cohabitation, focusing on aspects such as companionship, emotional support, and shared responsibilities that may influence their outlook.",
+        "instruction 2": "Examine the social, cultural, and economic factors that affect older adults' decisions to cohabitate, considering how these influences might shape survey responses and general perspectives on living arrangements.",
+        "question": "Surveys of older adults who are living together show that they tend to view cohabitation as",
+        "choices": [
+            "A first step toward eventual marriage",
+            "An alternative to marriage",
+            "A way to save on expenses",
+            "Their swan song"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Explore the psychological and emotional factors that contribute to older adults' sense of attachment to their environment, such as nostalgia, familiarity, and the accumulation of memories associated with specific places over time.",
+        "instruction 2": "Investigate the sociocultural influences on older adults' attachment, including community ties, the significance of stability in later life, and how life transitions (like retirement or loss of loved ones) may enhance their connection to certain locations.",
+        "question": "Older adults may be more attached to a place than younger adults because",
+        "choices": [
+            "That place holds many memories",
+            "It's much harder to move when you're older",
+            "Young adults pay less attention to place then do older adults",
+            "That place represents transcendence"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the definition of the Hayflick number, which refers to the maximum number of times a normal somatic human cell can divide before cell division stops, ensuring to clarify its significance in aging and cellular biology.",
+        "instruction 2": "Identify any specific numerical value associated with the Hayflick number for human cells, noting the range typically cited (around 40-60 divisions) and the biological mechanisms, such as telomere shortening, that contribute to this limit.",
+        "question": "The Hayflick number for human cells is",
+        "choices": [
+            "Unknown",
+            "Between 45 and 55",
+            "Less than 30",
+            "More than 60"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the area of study related to self-care behaviors, specifically focusing on aspects such as physical health, mental well-being, or overall quality of life, to understand what high levels of self-care are commonly linked to.",
+        "instruction 2": "Investigate research findings or studies that demonstrate the correlation between self-care behaviors and positive outcomes, detailing any specific benefits or implications supported by empirical evidence.",
+        "question": "High levels of self-care behaviors have been associated with high levels of",
+        "choices": [
+            "Neuroticism",
+            "Extraversion",
+            "Agreeableness",
+            "Secondary control"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific theory being referred to in the question and explore the types of research methodologies (longitudinal and cross-sectional) that are commonly used to support or challenge such theories, emphasizing their implications in the context of the theory discussed.",
+        "instruction 2": "Gather evidence from relevant research studies that have tested the theory, focusing on both longitudinal and cross-sectional supports, and clearly articulate how these findings contribute to the understanding and validation of the theory.",
+        "question": "Research has offered some longitudinal as well as cross sectional support for the theory put forth by",
+        "choices": [
+            "Peck",
+            "Foos",
+            "Levenson",
+            "Erikson"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the provided options to determine which describes a group of individuals who share a common characteristic or experience, as opposed to simply being defined by their age. This may involve identifying terms that indicate shared experiences or events.",
+        "instruction 2": "Clarify the distinction between cohort and age differences by exploring how cohorts are defined by the timing of an event or experience (e.g., graduation year, historical events) and how these differ from age as a static measure of time since birth.",
+        "question": "Which of the following is more likely to be a cohort, rather than an age, difference?",
+        "choices": [
+            "A higher proportion of older women have completed menopause",
+            "A smaller proportion of older women report dreams about sex",
+            "A higher proportion of older men are bald",
+            "A higher proportion of older men and women are victims of cancer"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and elaborate on the psychological and social implications of the fear of aging, considering its impact on mental health, self-esteem, and societal behaviors.",
+        "instruction 2": "Research and summarize related studies or theories that link the fear of aging to specific health outcomes, such as anxiety, depression, or physical health issues, to provide a well-rounded answer.",
+        "question": "Fear of aging has been associated with high levels of",
+        "choices": [
+            "Introversion",
+            "Neuroticism",
+            "Rigidity",
+            "Mid-life crisis"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the types of dementia and their associated symptoms, focusing particularly on cognitive symptoms, to determine which types are less likely to exhibit these symptoms significantly.",
+        "instruction 2": "Research specific forms of dementia, such as frontotemporal dementia or vascular dementia, and analyze their symptomatology to assess how they differ from more common forms like Alzheimer's disease in terms of cognitive impairment.",
+        "question": "In which dementia are cognitive symptoms less likely?",
+        "choices": [
+            "Parkinson's",
+            "Pick's",
+            "Huntington's",
+            "NeuroAIDS"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Understand the context of Dr. Shealy's advice by summarizing the main themes and objectives of the chapter, ensuring a grasp of the overall message that informs his recommendations.",
+        "instruction 2": "Identify specific strategies or action items suggested by Dr. Shealy, paying attention to the rationale behind his advice and how it may relate to broader concepts or challenges addressed in the chapter.",
+        "question": "In this chapter's Senior View, Dr. Shealy advises you to",
+        "choices": [
+            "Stay in school",
+            "Eat the right foods",
+            "Get plenty of exercise",
+            "Find a high paying job"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the type of social support provided, focusing on emotional support, which involves offering empathy, care, and reassurance to help alleviate feelings of sadness or depression.",
+        "instruction 2": "Consider the context of the interaction, particularly how reminiscing about happier times serves to foster a sense of connection and improve emotional well-being, distinguishing it from other types of support such as informational or instrumental support.",
+        "question": "When your sister Patricia was feeling depressed, you comforted her and reminisced about happier times. You provided which type of social support?",
+        "choices": [
+            "Emotional",
+            "Instrumental",
+            "Informational",
+            "Friendly"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the various demographics or conditions under which hearing loss is more prevalent, such as age groups, occupational exposures, or genetic factors, and specify the context in which the statement is being made.",
+        "instruction 2": "Explore the underlying causes of hearing loss that are common among these demographics, including environmental noise exposure, health conditions, and other relevant factors that contribute to the frequency of hearing loss in the identified population.",
+        "question": "Hearing loss occurs more frequently for",
+        "choices": [
+            "Men than women",
+            "Women than men",
+            "People who already have some loss of vision",
+            "People who are obese"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific health consequences associated with continued stress, considering physiological and psychological impacts, such as increased risk of chronic diseases, mental health disorders, or impaired immune function.",
+        "instruction 2": "Explore how the mechanisms by which stress affects health can contribute to overall longevity, examining aspects such as hormonal responses, inflammation, and lifestyle choices influenced by stress levels.",
+        "question": "Continued stress is damaging to health and longevity because it leads to",
+        "choices": [
+            "Over exercising which causes physical damage",
+            "Suppression of the immune system",
+            "Less eating and, in many cases, severe eating disorders",
+            "Risky behaviors such as speeding and not using a seat belt"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the context that the sentence refers to in terms of social or psychological differences experienced by various age cohorts, focusing on how these differences manifest across distinct groups rather than absolute age alone.",
+        "instruction 2": "Explore possible topics or domains related to the blank, such as attitudes, behaviors, or preferences, considering how cultural or environmental influences might shape these differences within each cohort.",
+        "question": "One difference that seems to be mostly cohort rather than age is the difference in ____ for different age groups",
+        "choices": [
+            "Coping strategies",
+            "Work productivity",
+            "Rates of dementia",
+            "Personality traits"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the context of the chapter and Tay Kleckley's perspective on the bereavement process, identifying key themes related to healing and support for the bereaved.",
+        "instruction 2": "Explore various concepts of healing discussed in the chapter, specifically looking for strategies, emotional support, or community involvement that are emphasized as vital for individuals dealing with loss.",
+        "question": "According to Tat Kleckley of this chapter's Senior View, the most important part of the healing process for those who are bereaved is to",
+        "choices": [
+            "Stay away from other people for a while",
+            "Get out and be active",
+            "Talk about your loss",
+            "Make new friends who don't know about your loss"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key characteristics of social support that contribute to its positive influence on health and well-being, such as emotional, informational, and tangible assistance.",
+        "instruction 2": "Consider the contextual factors that affect the effectiveness of social support, including the quality of relationships, the individual’s perception of support, and situational variables that may enhance or hinder its impact on health outcomes.",
+        "question": "Social support is most likely to have a positive influence on health and well being when it is",
+        "choices": [
+            "Very emotional",
+            "Perceived as support",
+            "Unexpected",
+            "External rather than internal"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the primary sources and mechanisms through which free radicals are generated, such as metabolic processes, environmental factors (like pollution and radiation), and lifestyle choices (such as smoking and diet).",
+        "instruction 2": "Consider the biological and chemical contexts in which free radicals operate, including their impact on cellular functions and the balance between free radicals and antioxidants in the body.",
+        "question": "Free radicals are produced by",
+        "choices": [
+            "Normal metabolism",
+            "Excess consumption of Vitamins A and C",
+            "Lack of sunlight",
+            "A weakened immune system"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific term that denotes prejudice or bias against older adults, understanding the nuances of ageism and its implications in societal contexts.",
+        "instruction 2": "Examine the societal attitudes, stereotypes, and systemic factors that contribute to ageism, to provide a comprehensive understanding of how this bias manifests in various domains such as healthcare, employment, and social interactions.",
+        "question": "Prejudice or bias against older adults is referred to as",
+        "choices": [
+            "Ageism",
+            "Oldism",
+            "Age bigotry",
+            "Senilism"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key elements of the program described in the question by focusing on concepts such as home care, pain management, and the cessation of life-prolonging treatments. This may involve recognizing specific terminology used in palliative care.",
+        "instruction 2": "Consider the overall purpose and philosophy of this program within the context of end-of-life care, ensuring to connect it to the broader goals of enhancing the quality of life for patients with terminal conditions.",
+        "question": "The program that takes over care for those with 6 or fewer months to live, attempts to keep them at home, provides pain relief, and ends all life-prolonging technologies is called",
+        "choices": [
+            "Euthanasia",
+            "Cryonics",
+            "Medicare",
+            "Hospice"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research the medical and scientific literature regarding the prevalence and causes of loss of smell (anosmia) in adults aged 80 and older, focusing on age-related factors and possible underlying health conditions.",
+        "instruction 2": "Consider the implications of anosmia in older adults, including its impact on quality of life, safety, nutrition, and potential associations with neurodegenerative diseases, to provide a comprehensive overview of the issue.",
+        "question": "Loss of smell for adults 80 and older is",
+        "choices": [
+            "Very infrequent (less than 15%)",
+            "Very frequent (more than 75%)",
+            "Infrequent (less than 40%)",
+            "Frequent (close to 50%)"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the primary functions and implications of sirtuins in cellular processes, including their role in aging, metabolism, and stress responses, to understand what they help to achieve.",
+        "instruction 2": "Explore current research findings and hypotheses regarding the potential health benefits or therapeutic applications of sirtuins, focusing on how their activation may influence longevity or disease prevention.",
+        "question": "Activation of a class of genes called sirtuins may help to",
+        "choices": [
+            "Prevent some diseases",
+            "Ward off dementias",
+            "Increase memory and intelligence",
+            "Produce emotional stability"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the common sources or perpetrators of elder abuse by examining the dynamics of relationships typically found in caregiving situations, including family members, caregivers, or peers, to understand the context in which elder abuse occurs.",
+        "instruction 2": "Consider the psychological and social factors that may contribute to elder abuse, such as stress, financial dependency, or mental health issues, to provide a comprehensive view of why abuse arises from these individuals.",
+        "question": "Elder abuse most frequently comes from the older adult's",
+        "choices": [
+            "Spouse",
+            "Children",
+            "Grandchildren",
+            "Neighbors"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the fundamental differences between projective tests and objective tests of personality, focusing on the underlying methodology, interpretation of results, and the subjective versus objective nature of the assessments.",
+        "instruction 2": "Consider the implications of these differences on the purpose of each test type, analyzing how projective tests may provide insights into a person's subconscious thoughts and feelings compared to the more structured and quantifiable nature of objective tests.",
+        "question": "Projective tests generally ___ than objective tests of personality.",
+        "choices": [
+            "Have higher reliability",
+            "Are more visual",
+            "Are more valid",
+            "Provide more information"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific type of photoreceptor cells in the eye that are sensitive to low light levels, focusing on their structure, function, and role in vision under dim conditions.",
+        "instruction 2": "Differentiate these cells from other types of photoreceptors in the eye, such as those that respond to bright light or color, emphasizing the unique characteristics and physiological responses of these low-light sensitive cells.",
+        "question": "Cells in the eye that respond to low levels of illumination are called",
+        "choices": [
+            "Rods",
+            "Cones",
+            "Retinal cells",
+            "Nocturnal detectors"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the existing research on age stereotypes to identify core findings and theories, particularly focusing on how these stereotypes affect perceptions and behaviors towards different age groups.",
+        "instruction 2": "Explore the implications of age stereotypes in various contexts, such as the workplace or social settings, considering how they influence individual and societal attitudes towards aging and associated expectations.",
+        "question": "Some work on age stereotypes suggests that",
+        "choices": [
+            "Positive ones are stronger",
+            "Negative ones are stronger",
+            "They never last very long",
+            "They are very rare"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and define the concept of cohort differences, explaining how it refers to variations observed between groups born around the same time, in contrast to changes that occur due to aging. This will aid in distinguishing examples that represent cohort effects from those that reflect age-related changes.",
+        "instruction 2": "Analyze the provided options to determine which scenarios may demonstrate cohort differences, taking into account historical, social, or environmental factors that might influence the characteristics of the cohort, rather than focusing solely on the aging process.",
+        "question": "Which of the following could very well be a cohort difference rather than a change that occurs with age?",
+        "choices": [
+            "Differences in weight",
+            "Shrinkage of the thymus gland",
+            "Enlargement of the heart",
+            "Increasing size of nose and ears"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the primary issues at the intersection of aging and personality by considering how personality traits may change over time and the implications of such changes on an individual's behavior and social relationships.",
+        "instruction 2": "Evaluate existing psychological theories or research findings that address the relationship between aging and personality, focusing on both longitudinal studies and cross-sectional analyses to provide a comprehensive understanding of how personality may evolve throughout the aging process.",
+        "question": "The major question concerning aging and personality is:",
+        "choices": [
+            "Do older adults still have personalities?",
+            "Does personality change with age?",
+            "Does personality decline as we grow older?",
+            "Does personality increase of decrease with age?"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific type of research design that allows for the examination of both age-related changes and cohort effects, such as a cross-sequential design that combines elements of both cross-sectional and longitudinal approaches.",
+        "instruction 2": "Consider how using this design can effectively address the complexities of development over time, while controlling for the influence of historical and environmental factors that may vary across different cohorts.",
+        "question": "A researcher who wants to examine both age and cohort differences is advised to use a _____ design.",
+        "choices": [
+            "Cross-sectional",
+            "Cross-sequential",
+            "Correlational",
+            "Quasi-experimental"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the common themes and sentiments expressed by grandparents regarding the rewarding aspects of grandparenting, such as emotional fulfillment, family bonds, and the joy of engaging with grandchildren.",
+        "instruction 2": "Identify the option that fails to align with these reported rewarding aspects by comparing it against established positive experiences typically noted by grandparents, ensuring it stands out as the least favorable or relevant choice.",
+        "question": "Which of the following is NOT one of the most rewarding aspects of being a grandparent as reported by grandparents?",
+        "choices": [
+            "Feelings of immortality",
+            "Spoiling the grandchildren",
+            "Having others to wait on you",
+            "Remembering when they were grandchildren"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine which animals are included in the provided list and research their average lifespans based on reputable biological and zoological sources to identify the longest lifespan accurately.",
+        "instruction 2": "Account for variations in lifespan due to factors such as habitat, diet, and environmental influences, and ensure that the lifespan data reflects current assessments rather than historical or outdated information.",
+        "question": "Of the following animals, which has the longest life span by current measures?",
+        "choices": [
+            "Gorilla",
+            "Blue whale",
+            "Dog",
+            "Queen honey bee"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and articulate a specific emotional or practical advantage of expected deaths over unexpected ones, such as the opportunity for individuals and families to prepare for the loss and create a sense of closure.",
+        "instruction 2": "Discuss the psychological and social implications of expected deaths, considering how they allow for grief processes that can be more controlled and supported by loved ones, in contrast to the shock and trauma associated with unexpected deaths.",
+        "question": "One advantage of an expected death over an unexpected death is that",
+        "choices": [
+            "One can use up some grief before the actual loss",
+            "One can make funeral and estate plans with the loved one",
+            "One can find ways to avoid having the same death for themselves",
+            "One can assist the terminally ill person in speeding their death"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the context in which the reproductive system changes are being discussed, focusing on the differences in reproductive aging and physiological changes between men and women to find the appropriate qualifying term.",
+        "instruction 2": "Consider the implications of the chosen term in relation to how reproductive changes are perceived, emphasizing whether they are viewed as more pronounced, significant, or noticeable in men compared to women.",
+        "question": "Changes in the reproductive system are more _____ for men but not for women",
+        "choices": [
+            "Mechanistic",
+            "Continuous",
+            "Organismic",
+            "Nurturant"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the hormones known to have been studied or claimed to influence aging or senescence, compiling a list of these hormones to refer to in evaluating their claims.",
+        "instruction 2": "Analyze any relevant scientific literature or sources that discuss the role of these hormones in relation to senescence, focusing specifically on the claims made and highlighting any hormone that lacks significant evidence or support for its efficacy in warding off senescence.",
+        "question": "Which of the following hormones has not yet been claimed to ward off senescence?",
+        "choices": [
+            "DHEA",
+            "Human growth hormone",
+            "Melatonin",
+            "Viasterol"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the context regarding the demographics of older widows, focusing on factors such as geographical location, economic status, and support systems that may influence their living situations.",
+        "instruction 2": "Investigate relevant sociological studies or statistical data that provide insights into the living conditions and arrangements of older widows, considering aspects like urban versus rural living, community support, and access to housing.",
+        "question": "The majority of older widows live",
+        "choices": [
+            "Alone",
+            "With children",
+            "With a friend",
+            "In an institution"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define what constitutes a centenarian, specifically focusing on the age requirement of being 100 years old or older, as well as any relevant demographic characteristics that may be associated with this group.",
+        "instruction 2": "Explore the social, health, and environmental factors that contribute to the increase in the population of centenarians, as well as how this demographic is represented in different regions or cultures.",
+        "question": "Centenarians are people who",
+        "choices": [
+            "Were born before the centennial",
+            "Study old age and older adults",
+            "Are 100 or more years old",
+            "Have not yet reached old age"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Explore research studies or reports that focus on quantitative analysis in TV show ratings, viewer demographics, and engagement metrics, determining what specific quantitative measures are commonly used to assess the success of TV shows.",
+        "instruction 2": "Identify how these quantitative analyses might inform decisions made by television networks regarding programming, advertising, and content creation, considering the implications for audience preferences and market trends.",
+        "question": "Quantitative analyses of TV shows have shown that",
+        "choices": [
+            "Older adults are almost always portrayed in a negative way",
+            "The more positive portrayals occur during commercials",
+            "The proportion of older men is particularly low",
+            "The proportion of older women is particularly low"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the provided groups of Americans, considering demographic factors such as age, gender, ethnicity, and socioeconomic status that may influence rates of alcohol abuse to determine which group is likely to have the lowest rate.",
+        "instruction 2": "Refer to empirical data and studies on alcohol consumption trends in the United States to support the conclusion regarding the lowest rate of alcohol abuse among the identified groups.",
+        "question": "Which of the following groups of Americans have the lowest rate of alcohol abuse?",
+        "choices": [
+            "African-American",
+            "White",
+            "Native-American",
+            "Asian-American"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the concept related to gradual changes in development, likely aligning with the 'continuity' perspective, which posits that development is a smooth, incremental process rather than abrupt shifts.",
+        "instruction 2": "Differentiate this viewpoint from opposing theories, such as the 'discontinuity' perspective, which suggests that development occurs in distinct stages or phases, ensuring to provide a clear rationale for why the gradual change belief represents a specific side of the development debate.",
+        "question": "If you believe that changes occur slowly and steadily throughout life, you would be holding the _____ side of this view of development.",
+        "choices": [
+            "Mechanistic",
+            "Organismic",
+            "Continuity",
+            "Stability"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key factors that are typically associated with longevity, such as lifestyle choices, genetics, socio-economic status, and access to healthcare, that could differentiate the individuals mentioned in the question.",
+        "instruction 2": "Evaluate any specific information given about each person in the question that may relate to these longevity factors, ensuring to weigh their implications equally while assuming all other conditions are the same.",
+        "question": "All other things being equal, which of the following persons is likely to live the longest?",
+        "choices": [
+            "A black man",
+            "A white man",
+            "A black woman",
+            "A white woman"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define what a cohort effect is and identify the characteristics that differentiate age differences contributing to this effect from other types of age-related differences, focusing on shared experiences or historical events that shape behaviors and attitudes within a specific group.",
+        "instruction 2": "Analyze how specific age differences among individuals within a particular cohort may illustrate the impact of societal changes or cultural shifts over time, determining which differences align with the notion of a cohort effect.",
+        "question": "Which of the following age differences could be, in part, a cohort effect? Differences in",
+        "choices": [
+            "Depression",
+            "Alcoholism",
+            "Dementia",
+            "Suicide"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the context in which Clifford and Lucia Pauling are discussing physical changes, including any specific physical changes mentioned in their commentary and how it relates to broader themes or implications.",
+        "instruction 2": "Identify the audience and purpose of the commentary in Senior View to understand how the physical changes discussed might affect perceptions or discussions on related topics, such as health, aging, or societal norms.",
+        "question": "Clifford and Lucia Pauling, in Senior View, told us that physical changes",
+        "choices": [
+            "Are rapid and frightening",
+            "Can be offset by meditation",
+            "Take a long time",
+            "Should not be discussed in public"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify which age group or demographic is most affected by significant and perilous changes in the cardiovascular system, considering factors such as age, underlying health conditions, and lifestyle choices.",
+        "instruction 2": "Examine the physiological changes that contribute to cardiovascular risk in this demographic, including common conditions like hypertension, atherosclerosis, or heart disease, to determine the most critical periods for cardiovascular health.",
+        "question": "The biggest and most dangerous changes in the cardiovascular system take place in the",
+        "choices": [
+            "Heart",
+            "Blood vessels",
+            "Red blood cells",
+            "Plasma"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific type of memory that is commonly associated with older adults' cognitive performance, such as recognition memory or procedural memory, and consider how these types of memory function in contrast to other forms like working memory.",
+        "instruction 2": "Examine research findings related to aging and memory, focusing on the strengths and weaknesses of older adults' cognitive abilities, in order to determine which memory type tends to show better performance in age-related studies.",
+        "question": "Older adults generally perform very well when their _____ memory is tested.",
+        "choices": [
+            "Episodic",
+            "Working",
+            "Retrospective",
+            "Semantic"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify characteristics or factors that contribute to marital satisfaction in long-lasting marriages, such as communication styles, conflict resolution, and shared values.",
+        "instruction 2": "Examine research findings or studies that highlight the common traits of couples in long-lasting marriages, focusing on how these traits may influence overall marital satisfaction.",
+        "question": "With respect to marital satisfaction, most long lasting marriages",
+        "choices": [
+            "Show high satisfaction through all the years of marriage",
+            "Show high satisfaction that steadily declines as the years pass",
+            "Show lower levels during the years when children are present",
+            "Show ups and downs throughout the marriage"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and define various theories relevant to the context being discussed, ensuring to categorize them appropriately (e.g., scientific theories, social theories, philosophical theories) and highlight their foundational principles and applications.",
+        "instruction 2": "Examine the implications and significance of these theories in their respective fields, considering how they contribute to understanding complex concepts and guide research or practical applications in real-world scenarios.",
+        "question": "Theories",
+        "choices": [
+            "Are not very important in aging research",
+            "Attempt to explain findings and guide future research",
+            "Have never been adequately tested",
+            "Have been around for a long time but have only recently been tested"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and define the various theories of senescence, analyzing the characteristics and implications of each to ascertain which is considered the least favored among researchers.",
+        "instruction 2": "Explore the reasons behind the lack of favor for this particular theory, including historical context, empirical support, and comparisons with more widely accepted theories in senescence research.",
+        "question": "The least favored theory of senescence among researchers is the _____ theory",
+        "choices": [
+            "Free radical",
+            "Biological clock",
+            "Wear and tear",
+            "Garbage accumulation"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the meaning of negative correlation in this context, specifically that as age increases, the likelihood or frequency of cigarette smoking tends to decrease among the population studied.",
+        "instruction 2": "Examine potential explanations for this correlation, considering factors such as changing social norms, health awareness, and demographic shifts that might influence smoking behavior in different age groups.",
+        "question": "A researcher finds that age is negatively correlated with cigarette smoking; this means that",
+        "choices": [
+            "Older adults experience more negative effects from smoking that do younger adults",
+            "Older adults smoke more than younger adults",
+            "Older adults smoke less than younger adults",
+            "Older and younger adults smoke about the same number of cigarettes and both experience negative effects"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the term used to describe a researcher who actively engages with their study subjects within their natural environment, distinguishing it from observational methods where the researcher remains detached.",
+        "instruction 2": "Consider the implications of this involvement on data collection and analysis, as well as how it may affect the researcher's objectivity and the type of qualitative insights that can be gained from such an immersive approach.",
+        "question": "When a researcher takes part in the situation he or she is observing, he or she is said to be a(n)",
+        "choices": [
+            "Active observer",
+            "Participant observer",
+            "Indiscreet observer",
+            "Meddling observer"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define 'work-family conflict' by identifying its key characteristics and how it manifests in the lives of middle-aged adults, focusing on the competing demands of work responsibilities and family obligations.",
+        "instruction 2": "Explore the situational factors that contribute to work-family conflict among middle-aged adults, such as job stress, caregiving roles, and social support systems, to provide a comprehensive understanding of the dynamics involved.",
+        "question": "The term \"work-family conflict\" for middle-aged adults can occur when they must",
+        "choices": [
+            "Care for an ailing parent while continuing to work",
+            "Work a high stress job while their children are at home",
+            "Pay for nursing home care by sacrificing their own care",
+            "Serving as an executor of their parent's estate while still working full time"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Explore the concept of traits from a biological and psychological perspective, assessing how traits can be classified as either stable or dynamic over a person's lifespan, and identifying specific traits that may evolve as individuals age.",
+        "instruction 2": "Consider the factors that can influence changes in traits with age, such as life experiences, social interactions, and biological processes, while distinguishing between inherent traits and those affected by environmental changes.",
+        "question": "Do traits change with age?",
+        "choices": [
+            "No",
+            "They change a little",
+            "Only for women",
+            "They change quite a lot"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and summarize the current scientific understanding of Alzheimer's disease, focusing on the major biological and environmental factors that contribute to its onset and progression, including genetics, protein abnormalities (such as amyloid plaques and tau tangles), and lifestyle factors.",
+        "instruction 2": "Discuss the ongoing research and emerging theories regarding the causes of Alzheimer's, emphasizing how these could influence future treatments or preventive measures, while referencing credible sources that support these claims.",
+        "question": "The cause of Alzheimer's appears to be",
+        "choices": [
+            "Mostly environmental",
+            "Aluminum",
+            "Mostly genetic",
+            "Apo-E 4"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the research area or context related to older married men, focusing on aspects such as health, well-being, social behavior, or psychological outcomes in order to understand what specific findings may exist in studies or surveys.",
+        "instruction 2": "Investigate statistical evidence or academic literature that explores the implications or consequences of being an older married man, particularly looking for correlations with attributes like longevity, emotional health, or social support networks.",
+        "question": "Older married men have been found to have",
+        "choices": [
+            "Higher levels of positive emotions",
+            "Lower levels of positive emotions",
+            "Higher levels of negative emotions",
+            "Lower levels of negative emotions"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify relevant demographic studies or health statistics that provide data on life expectancy across different locations within the United States, focusing on the latest research or reports to ensure accuracy.",
+        "instruction 2": "Consider various factors that influence life expectancy such as socioeconomic status, healthcare access, lifestyle choices, and environmental factors while analyzing the data to determine which specific location has the highest life expectancy.",
+        "question": "Within the United States, which location has the longest life expectancy?",
+        "choices": [
+            "California",
+            "Florida",
+            "Alaska",
+            "Hawaii"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the demographic data or studies that provide information about the living arrangements of older adults, focusing specifically on the proportion of those who live alone, and analyze regional or national patterns that may indicate where this demographic is most concentrated.",
+        "instruction 2": "Consider how factors such as geographic location, socioeconomic status, health status, and cultural norms influence the likelihood of older adults living alone, ensuring to refer to recent statistical data to support findings.",
+        "question": "The largest proportion of older adults living alone reside in",
+        "choices": [
+            "Hawaii",
+            "Washington, DC",
+            "Florida",
+            "California"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the different levels of personality description, such as traits, characteristic adaptations, and narrative identities, to determine which aspects are most likely to evolve over a person's lifespan, particularly in relation to age.",
+        "instruction 2": "Evaluate research findings or psychological theories regarding personality development, aging, and the factors that may contribute to significant changes in personality traits or self-concept as individuals grow older.",
+        "question": "Which level of personality description appears to show the most change with age?",
+        "choices": [
+            "Traits",
+            "Personal concerns",
+            "Coping strategies",
+            "Identity"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and examine various theories that explain the relationship between religion and physical health, focusing on those that attribute positive health outcomes to social support, community involvement, or psychological benefits, contrasting these with the factor mentioned in the question.",
+        "instruction 2": "Analyze the implied common misconceptions or research findings that may suggest alternative explanations for this relationship, ensuring to clarify why these are not considered valid causes of improved physical health within the context of the question.",
+        "question": "The positive relationship between religion and physical health is NOT thought to be due to",
+        "choices": [
+            "Social support derived from a religious community",
+            "The rules of some religions which forbid unhealthy behaviors",
+            "The stress reducing effects of prayerful meditation",
+            "The benefits of knowing that others are praying for you"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the definition of human factors and its relevance to task performance, focusing on the interactions between humans and the systems they use, including ergonomics and cognitive load.",
+        "instruction 2": "Explore the methodologies used in human factors research, such as observational studies and user testing, to understand how these approaches inform the design of tasks and systems to enhance efficiency and user experience.",
+        "question": "Human factors examines the performance of different tasks by examining",
+        "choices": [
+            "The factors that influence performance",
+            "The interaction between human and environment",
+            "The human side of the equation",
+            "The effects of environmental changes on humans"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define 'prospective memory' accurately, including its role in remembering to perform intended tasks in the future, distinguishing it from other types of memory such as retrospective memory.",
+        "instruction 2": "Explore examples of prospective memory in everyday scenarios, illustrating how it functions in real-life situations and its significance in planning and time management.",
+        "question": "Prospective memory refers to memory",
+        "choices": [
+            "For some recent event",
+            "For something that happened a long time ago",
+            "To do something in the future",
+            "For the context and source of remembered information"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the terminology used in epidemiology, particularly focusing on the word 'rate' and what it signifies in the context of the proportion of individuals with a disorder relative to the overall population.",
+        "instruction 2": "Clarify the mathematical operation required to derive this rate by explaining that it involves calculating a ratio or proportion, specifically the prevalence of the disorder, which is framed as the number of individuals with the disorder divided by the total population.",
+        "question": "The total number of people who have some disorder divided by the total number of people gives you the ____ rate.",
+        "choices": [
+            "Prevalence",
+            "Incidence",
+            "Incipient",
+            "Diseased"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the definition of remarriages, ensuring to explore the context in which the term is used, such as specifying that it refers to marriages that occur after a person has previously been married and divorced or widowed.",
+        "instruction 2": "Examine the social and cultural implications of remarriages, considering factors such as trends in remarriage rates, the impact on family dynamics, and the legal considerations that may differ from first marriages.",
+        "question": "Remarriages are",
+        "choices": [
+            "More frequent for woman than men",
+            "Typically more successful",
+            "Typically less successful",
+            "Most common among those who have never been married before"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the unique characteristics of job training programs that specifically cater to younger workers, such as the incorporation of mentorship, technology-driven learning, and flexible schedules that accommodate their lifestyle preferences and developmental needs.",
+        "instruction 2": "Evaluate how these job training approaches differ from those aimed at older workers, considering factors such as skill transferability, job market entry challenges, and the emphasis on fostering adaptability and innovation in younger demographics.",
+        "question": "With respect to job training, younger workers",
+        "choices": [
+            "Receive more opportunities than older workers",
+            "Perform better on the job than trained older workers",
+            "Always learn faster than older workers",
+            "Prefer to have classes by themselves"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and analyze statistics or studies related to the percentage of grieving individuals who seek professional help, considering factors such as the severity of grief, types of support available, and demographic variables.",
+        "instruction 2": "Examine common indicators that suggest an individual may need professional assistance during their grieving process, including prolonged grief, mental health issues, or significant disruptions in daily functioning.",
+        "question": "About how many grieving individuals seem to require some professional help?",
+        "choices": [
+            "Less than 10%",
+            "About 25%",
+            "Nearly half",
+            "More than 50%"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the different forms of control being referenced in the question, such as social control, economic control, or political control, and analyze how each form may impact accessibility for individuals in their living environments.",
+        "instruction 2": "Consider past studies or data that correlate specific forms of control with accessibility issues, evaluating how environments shaped by different types of control can either enhance or hinder access to resources and opportunities for the residents.",
+        "question": "People with which of the following forms of control are least likely to have accessibility problems where they live?",
+        "choices": [
+            "External",
+            "Internal",
+            "Primary",
+            "Total"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Review current scientific literature or studies that investigate interventions aimed at improving balance in older adults, focusing on specific exercises, programs, or therapies that have demonstrated effectiveness.",
+        "instruction 2": "Assess the different categories of interventions, such as strength training, flexibility exercises, or balance-specific routines, and evaluate their impact on improving stability and reducing fall risk among the older adult population.",
+        "question": "Which of the following has been found to improve balance for older adults?",
+        "choices": [
+            "Tai chi",
+            "Aerobic exercise",
+            "Weight lifting",
+            "Walking briskly"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the prevalent chronic conditions that affect older adults, focusing on public health data and statistics to determine which condition is most frequently diagnosed among this demographic.",
+        "instruction 2": "Consider the implications of the identified condition, including its impact on healthcare services, patient quality of life, and any related risk factors that contribute to its prevalence among older adults.",
+        "question": "The most frequent chronic condition for older adults is",
+        "choices": [
+            "Hypertension",
+            "Arthritis",
+            "Diabetes",
+            "Cataracts"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the term 'hypokinesia' accurately, ensuring to cover its medical context, particularly its meaning related to reduced movement or physical activity, and its potential implications for health and well-being.",
+        "instruction 2": "Explore the causes and effects of hypokinesia, including its relationship with various medical conditions, lifestyle factors, and its impact on physical health, mobility, and quality of life.",
+        "question": "Hypokinesia refers to",
+        "choices": [
+            "Severe obesity",
+            "Loss of muscle strength and bone density",
+            "Increased sensitivity to stress",
+            "Social isolation and lack of support"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify reputable sources or research studies that specifically provide statistics or survey results on the loneliness experienced by older adults, ensuring the data is recent and relevant to the question.",
+        "instruction 2": "Examine the methodology of the studies presented, including sample size and population demographics, to ensure the percentage reported accurately reflects the experiences of older adults across diverse settings.",
+        "question": "What percentage of older adults report feeling very or often lonely?",
+        "choices": [
+            "10%",
+            "25%",
+            "50%",
+            "75%"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define what is meant by a discontinuous change in the context of adult development, preparing to identify specific life events or transitions that exemplify this concept.",
+        "instruction 2": "Evaluate various life stages or circumstances that may represent discontinuous changes, such as major life events (e.g., career shifts, marriage, parenthood) and their impacts on an individual's trajectory, ensuring to provide a clear example.",
+        "question": "An example of a discontinuous change over the adult years is the change in",
+        "choices": [
+            "Personality",
+            "Working memory",
+            "Female hormone levels",
+            "Male sexuality"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the three legs of the stool commonly referred to in retirement planning, which typically includes Social Security, employer-sponsored retirement plans (like a pension or 401(k)), and personal savings or investments, to assess which one is most commonly held by retirees.",
+        "instruction 2": "Analyze data on retirement income sources to determine the prevalence and importance of each leg among retirees, focusing on statistics or surveys that indicate reliance on these sources for financial security during retirement.",
+        "question": "Which leg of the three-legged stool do most retirees have",
+        "choices": [
+            "Pension",
+            "Social security",
+            "Savings",
+            "Assets"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific context or subject matter of the chapter to pinpoint what aspect of physical changes is being emphasized, such as their effects on individuals, environments, or societal norms.",
+        "instruction 2": "Examine how physical changes relate to broader themes discussed in the chapter, evaluating their implications and significance within the overall narrative or argument presented.",
+        "question": "One of the most important points made in this chapter is that physical changes",
+        "choices": [
+            "Occur for everyone",
+            "Occur more for some and less for others and, within the same person, more for some systems and less for others",
+            "Usually occur for very old people but not for very young people",
+            "Can be totally avoided if one learns enough about gerontology"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the different forms of dementia mentioned and define their characteristics, focusing on prevalence statistics to determine which form has the highest rate among the choices provided.",
+        "instruction 2": "Consult reputable sources, such as recent medical studies or demographic surveys, that present current prevalence rates for various forms of dementia, ensuring the information is up-to-date and considers population variability.",
+        "question": "Which of the following forms of dementia has the highest prevalence rate?",
+        "choices": [
+            "Alzheimer's",
+            "Vascular",
+            "Parkinson's",
+            "Fronto-temporal lobe"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define what constitutes 'high levels of social support,' including the different types of support (emotional, informational, tangible) and how they are measured or assessed in various contexts.",
+        "instruction 2": "Explore the potential outcomes or benefits that are strongly associated with high levels of social support, including psychological well-being, physical health, and social resilience, while referencing empirical studies or theories that support these associations.",
+        "question": "High levels of social support are strongly associated with",
+        "choices": [
+            "Longevity",
+            "Internal control",
+            "Culture",
+            "Education"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the term 'cohort' in various contexts, such as demographics, education, or research, to highlight its meaning related to a group of individuals who share a common characteristic or experience over a specific time period.",
+        "instruction 2": "Explain the implications of using cohorts in studies or analyses, including how they can be utilized for tracking changes, outcomes, or behaviors within a specific group over time.",
+        "question": "The term \"cohort\" refers to",
+        "choices": [
+            "An individual's chronological age",
+            "A generation of people who lived through major events",
+            "A person's gender",
+            "A group of people living in the same culture"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific characteristic or behavior being described in relation to middle-aged adults, noting how it contrasts with both older and younger adults to complete the sentence meaningfully.",
+        "instruction 2": "Consider the context of the statement, such as any relevant psychological, social, or economic factors that may influence the behavior or characteristics of middle-aged adults compared to other age groups.",
+        "question": "Middle-aged adults appear to be more ____ than older or younger adults",
+        "choices": [
+            "Generative",
+            "Neurotic",
+            "Agreeable",
+            "Certain"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the various factors or interventions that have been shown to improve attitudes toward aging and older adults, such as educational programs, positive media representation, or intergenerational activities.",
+        "instruction 2": "Analyze how these factors influence perceptions of aging, focusing on their effectiveness in changing stereotypes or enhancing understanding of older adults' contributions to society.",
+        "question": "Which of the following improves attitudes toward aging and older adults?",
+        "choices": [
+            "Staying away from older adults",
+            "Education about older adults",
+            "Travelling to older communities",
+            "Watching the portrayals of older adults in movies and on TV"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept of senescence in the context of immune system theories, identifying key issues or challenges that these theories face, such as the correlation between immune function and aging.",
+        "instruction 2": "Examine specific theories of immune system senescence, detailing any empirical evidence or theoretical assumptions that create problems or contradictions within these theories, particularly in relation to age-related decline in immune response.",
+        "question": "A problem for immune system theories of senescence is",
+        "choices": [
+            "Determining what first causes the senescence in the immune system",
+            "Auto-immune disorders are far too rare",
+            "That the immune system does not decline with age",
+            "The lack of information about senescence in general"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific demographic or psychological factors that might increase the likelihood of experiencing depression after a loss, such as age, past mental health history, social support systems, and coping mechanisms.",
+        "instruction 2": "Examine the context of the loss in question, considering types of loss (e.g., death, relationship breakup, job loss) and how these factors influence emotional responses, particularly focusing on vulnerable populations.",
+        "question": "Those more likely to experience depression after a loss are those who",
+        "choices": [
+            "Are young survivors",
+            "Have not previously experienced depression",
+            "Have been married more than 40 years",
+            "Are in poor health themselves"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and evaluate the specific options provided for lowering bad cholesterol, ensuring to consider evidence-based guidelines and scientific studies that support or refute their effectiveness.",
+        "instruction 2": "Analyze the mechanisms by which each option affects cholesterol levels, paying attention to factors such as dietary components, lifestyle changes, and any recommended dosages or consumption patterns.",
+        "question": "Which of the following appears to lower bad cholesterol?",
+        "choices": [
+            "Vitamin D",
+            "Niacin",
+            "Thiamine",
+            "Riboflavin"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Research the demographics and conditions typically associated with individuals who seek physician-assisted suicide, focusing on factors such as terminal illness, chronic pain, mental health issues, and age.",
+        "instruction 2": "Consider the ethical and legal contexts surrounding physician-assisted suicide, including medical guidelines, the patient's decision-making process, and societal attitudes towards this practice.",
+        "question": "Most people who have used physician assisted suicide have had",
+        "choices": [
+            "Alzheimer's",
+            "Health insurance",
+            "No family",
+            "Clinical depression"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the appropriate research methodologies that can be employed to compare groups, such as quantitative methods (e.g., surveys, statistical analysis) or qualitative methods (e.g., interviews, focus groups), while identifying the strengths and weaknesses of each approach in the context of differences between groups.",
+        "instruction 2": "Consider the types of variables that will be assessed (e.g., demographic, behavioral, attitudinal) and how these will influence the design of the research study, ensuring that the chosen approach effectively addresses the specific differences the researcher aims to investigate.",
+        "question": "A researcher who is interested in the differences between two or more groups of people is most likely to use which of the following approaches?",
+        "choices": [
+            "Quasi-experimental",
+            "Longitudinal",
+            "Correlational",
+            "Cross-sequential"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the effects of exposure to bright light in the late afternoon or evening on human biology and psychology, focusing on its impact on circadian rhythms and sleep patterns.",
+        "instruction 2": "Investigate relevant studies or expert opinions that explore the connection between late-day light exposure and cognitive function, mood, or overall well-being to provide context and support for the statement.",
+        "question": "Being in bright light during the later parts of the day seems to",
+        "choices": [
+            "Restore normal circadian rhythm",
+            "Increase insomnia",
+            "Restore deep sleep",
+            "Have no real influence on sleep or dreams"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary motivations behind the study of human aging, focusing on aspects such as health advancements, social implications, and improving quality of life for aging populations.",
+        "instruction 2": "Consider the broader impacts of understanding human aging, including its influence on healthcare systems, economic stability, and policy development related to elder care and social support.",
+        "question": "A major reason for studying human aging is that",
+        "choices": [
+            "We are all growing older",
+            "The number and proportion of older adults is increasing",
+            "More job opportunities are available for those with some knowledge of aging",
+            "All of the above"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific name of the model referred to in the question, which relates to the stability of social support networks over time, by recalling relevant theories in social psychology or sociology that pertain to interpersonal relationships.",
+        "instruction 2": "Consider the implications of this model on individual well-being and social interactions, such as how it influences emotional support and social capital throughout a person's life.",
+        "question": "The model of social support that says that those who are close to you now are likely to be close for the rest of your days is called the ____ model",
+        "choices": [
+            "Consistency",
+            "Convoy",
+            "Attachment",
+            "Train"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the economic and social factors that differentiate the experiences of older workers compared to younger workers when facing job loss, particularly focusing on aspects like re-employment challenges, skill adaptability, and age-related biases in the job market.",
+        "instruction 2": "Investigate the potential support systems and strategies available to older workers, including retraining programs, age discrimination laws, and any differences in unemployment benefits that may influence their job recovery process.",
+        "question": "When older and younger workers have lost their jobs, older workers typically",
+        "choices": [
+            "Find a job quicker because of their greater experience",
+            "Take longer to find a new job",
+            "Retire rather than search for a new job",
+            "Sue the company using the ADEA"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the term 'social network' by exploring its various dimensions, including the relationships and interactions among individuals or groups and how it differs from other types of networks, such as communication or economic networks.",
+        "instruction 2": "Reflect on the context in which 'social network' is being used, considering aspects such as online social media platforms versus traditional forms of social networks, and analyze how these contexts may influence the understanding of the term.",
+        "question": "Our social network refers to",
+        "choices": [
+            "Everyone we know",
+            "Those who are closest to us",
+            "Those who we have not yet met",
+            "Family members"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the term that describes individuals who have experienced the loss of a loved one, focusing on the emotional and psychological context associated with such survival and the common terminology used in grief studies.",
+        "instruction 2": "Consider the broader implications of survivorship in the context of loss, such as the support systems, coping mechanisms, and community resources available to those who have lost someone, which may influence the terminology used to describe them.",
+        "question": "Those who survive the loss of another are called the",
+        "choices": [
+            "Survivors",
+            "Grieving",
+            "Bereaved",
+            "Family and friends"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the demographics or groups of individuals that typically experience challenges during financial adjustments to retirement, focusing on factors such as income levels, dependency ratios, and previous work experience that may influence financial preparedness.",
+        "instruction 2": "Analyze external influences, such as economic conditions, healthcare costs, and social security benefits, that could contribute to the difficulties faced in financial adjustment to retirement for the identified groups.",
+        "question": "Financial adjustment to retirement has been most difficult for",
+        "choices": [
+            "Married couples",
+            "Single men",
+            "Single women",
+            "Older adults"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the core concept of socioemotional selectivity theory, emphasizing how it relates to the emotional and social priorities of older adults, such as valuing close relationships over broader social networks as they perceive time as limited.",
+        "instruction 2": "Evaluate the implications of this theory on the social behaviors of older adults, considering how their approach to forming and maintaining social connections changes based on their awareness of life's temporality and their quest for meaningful interactions.",
+        "question": "Socioemotional selectivity theory says that older adults have smaller social networks because they",
+        "choices": [
+            "Are more concerned with those closest to them",
+            "Select new network members based on emotional factors",
+            "Can no longer get out to select new network members",
+            "Are too emotionally involved to spend time with others"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define the specific areas of male/female differences that could contribute to the gender gap, such as economic, educational, or health disparities, to establish a framework for analysis.",
+        "instruction 2": "Examine the societal, cultural, and economic factors influencing these differences, considering how they might perpetuate inequities in various contexts such as the workplace, education, and healthcare.",
+        "question": "The gender gap is likely to be associated with male/female differences in",
+        "choices": [
+            "Hormones",
+            "Risky behaviors and occupations",
+            "Proportion who smoke",
+            "All of the above"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific type of cells involved in the formation and maintenance of bone tissue, focusing on their role and characteristics within the skeletal system.",
+        "instruction 2": "Consider the broader context of bone biology, including the distinction between the cells that build bone (osteoblasts) and those that break down bone (osteoclasts), to clarify their functions in bone health and homeostasis.",
+        "question": "Those cells that build bone are called",
+        "choices": [
+            "Osteoblasts",
+            "Osteoclasts",
+            "Osteostructs",
+            "Osteopori"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify psychological research studies or theories that link an increase in neuroticism later in life to specific outcomes or conditions, such as mental health issues or relationship difficulties.",
+        "instruction 2": "Consider how neuroticism may influence behavior and emotional responses in adulthood, and explore the implications of increased neuroticism on life satisfaction, stress levels, and coping mechanisms.",
+        "question": "An increase in neuroticism later in life is a strong predictor of",
+        "choices": [
+            "Mortality",
+            "Loss of social support",
+            "Cognitive decline",
+            "Independence"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific countries listed in the question and gather the most recent life expectancy data for each of them from a reputable source such as the World Health Organization or the United Nations.",
+        "instruction 2": "Compare the life expectancy figures of the identified countries systematically to determine which one has the highest value, ensuring to consider any context or factors that may influence these statistics.",
+        "question": "Which of the following countries has the longest life expectancy?",
+        "choices": [
+            "U. S. A.",
+            "Sweden",
+            "Japan",
+            "Saudi Arabia"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the various types of reaction times, such as simple reaction time and choice reaction time, and determine how each type is affected by age, paying attention to research findings that highlight significant differences across different age groups.",
+        "instruction 2": "Evaluate the cognitive and physiological factors that contribute to age-related differences in reaction times, considering how these factors may influence performance in various contexts such as sports, driving, or daily activities.",
+        "question": "Which type of reaction time results in the biggest age differences?",
+        "choices": [
+            "Simple",
+            "Choice",
+            "Complex",
+            "Elaborate"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define and clarify the concept of 'locus of control,' distinguishing between internal and external loci of control, to explain how these relate to an individual's perception of the factors that influence their outcomes.",
+        "instruction 2": "Analyze the implications of Gary attributing his lottery win to his skills in picking numbers, which demonstrates a belief in personal capability and control, thus illustrating an internal locus of control.",
+        "question": "Gary says he won $1000 in the lottery because he really knows how to pick those numbers. Gary would be said to have a strong ____ locus of control",
+        "choices": [
+            "External, powerful others",
+            "Internal",
+            "External, chance",
+            "Secondary"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the correct terminology used in healthcare for documents that allow individuals to outline their preferences for medical treatment and interventions, ensuring to clarify the difference between various types of advance directives, such as living wills and durable powers of attorney for healthcare.",
+        "instruction 2": "Consider the legal implications and the importance of advance directives in promoting patient autonomy, as well as how these directives can guide healthcare providers in decision-making when a patient is unable to communicate their wishes.",
+        "question": "The advanced directive where one specifies the types of medical intervention that are and are not desired is called a",
+        "choices": [
+            "Living will",
+            "DNH",
+            "DNR",
+            "Durable power of attorney"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the relationships and connections between the identified diseases, considering how these links may influence the health and healthcare needs of older adults in the future, particularly in terms of prevention and management.",
+        "instruction 2": "Evaluate the implications of these disease links on public health policies and practices, focusing on how understanding these connections could shape interventions aimed at improving the quality of life for older adults.",
+        "question": "If links between various diseases are found, then future older adults will probably",
+        "choices": [
+            "Take fewer medications",
+            "Be able to avoid certain diseases",
+            "Pay far less for pharmaceuticals",
+            "Pick and choose the disease(s) they want"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the various causes of hair loss, such as genetics, hormonal changes, medical conditions, and lifestyle factors, to establish a comprehensive understanding of the topic.",
+        "instruction 2": "Explore potential treatments and preventive measures for hair loss, considering both medical interventions and natural remedies, to provide a well-rounded perspective on managing the condition.",
+        "question": "With respect to hair loss",
+        "choices": [
+            "Men lose but women do not",
+            "Men are more systematic than women",
+            "Women lose hair less frequently but more rapidly than men",
+            "Environmental factors are the main causes"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the main themes or arguments presented by Pat Shelley in the Senior View, focusing on the reasons provided for why retirement may not be advisable, such as personal fulfillment, financial stability, or the importance of continued engagement in work or community.",
+        "instruction 2": "Analyze any supporting evidence or examples used by Shelley to illustrate his points about retirement, ensuring to consider the psychological, social, and economic implications of staying in the workforce as discussed in the chapter.",
+        "question": "In this chapter's Senior View, Pat Shelley told us that you shouldn't retire if",
+        "choices": [
+            "You can't do it right",
+            "You're younger than 60",
+            "Your family wants you to keep working",
+            "You have no hobbies"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the personality trait associated with organization, goal-setting, and time management, focusing on the key aspects that define this trait and how they apply to the behaviors described in the question.",
+        "instruction 2": "Consider the implications of low levels of this trait on an individual's productivity and life outcomes, evaluating the psychological and behavioral characteristics linked to being low in organization and procrastination.",
+        "question": "A person who is not very well organized, rarely sets goals, and frequently puts things off until the last minute would be said to be low on which trait?",
+        "choices": [
+            "Agreeableness",
+            "Conscientiousness",
+            "Openness",
+            "Neuroticism"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify common trends or behaviors observed in individuals approaching retirement, such as changes in work patterns, emotional preparation, or financial planning, to understand the context of their likelihood to change their work engagement.",
+        "instruction 2": "Consider the implications of factors such as age, job satisfaction, health status, and economic conditions that may influence working people's decisions as they near retirement age, providing a broader perspective on this demographic shift.",
+        "question": "As working people get closer to retirement they are more likely to",
+        "choices": [
+            "Be absent from work",
+            "Invest in craft and hobby books",
+            "Do some informal planning",
+            "Become irritated and anxious"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine psychological and sociological research that explores differing rates of major depression across age groups, specifically focusing on the emotional resilience, life experience, and coping mechanisms that may contribute to older adults' mental health.",
+        "instruction 2": "Consider factors such as social support networks, changes in life perspective, and generational differences in attitudes toward mental health that may influence the prevalence of depression in older adults compared to younger adults.",
+        "question": "Older adults may show less major depression than younger adults because they",
+        "choices": [
+            "Have learned to cope with loss",
+            "See major depression as a stigma",
+            "Have very different brain biochemistry",
+            "Are no longer concerned with emotional matters"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define the various components of memory, such as sensory memory, short-term memory, and long-term memory, and determine how each component functions and contributes to the overall process of memory formation and retrieval.",
+        "instruction 2": "Explore the relationships and interactions between these memory components, considering how they integrate to influence learning, recall, and the neurological basis of memory.",
+        "question": "The different components of memory should be thought of as",
+        "choices": [
+            "Being very independent",
+            "Working one at a time",
+            "Working as a system",
+            "Taking turns"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the religious traditions that emphasize swift burial practices, particularly those that require the body to be disposed of before sundown, focusing on their beliefs regarding death and the afterlife.",
+        "instruction 2": "Explore the cultural and religious significance of rapid body disposal in the context of the identified religion, analyzing how it relates to their values and rituals surrounding death and mourning.",
+        "question": "Very rapid disposal of the body, before sundown on the day of the death, is typical of which religion?",
+        "choices": [
+            "Islam",
+            "Hindu",
+            "Jewish",
+            "Tao"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define what constitutes an objective test of personality, identifying key characteristics such as standardized questions and measurable responses that differentiate it from subjective assessments.",
+        "instruction 2": "Provide examples of widely recognized objective personality tests, such as the Minnesota Multiphasic Personality Inventory (MMPI) or the Big Five Personality Test, and explain how they are utilized in psychological evaluation.",
+        "question": "An example of an objective test of personality is the",
+        "choices": [
+            "TAT",
+            "MMPI",
+            "Rorschach ink blot test",
+            "McAdams test of levels"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the concept of validity in measurement, particularly focusing on how it relates to ensuring that a measure accurately assesses what it is intended to measure, thereby confirming its credibility.",
+        "instruction 2": "Examine different types of validity, such as construct validity and criterion-related validity, to provide a comprehensive understanding of the factors that contribute to a measure's ability to reflect the intended constructs or outcomes.",
+        "question": "When a measure actually quantifies what it claims to measure, we say that it has good",
+        "choices": [
+            "Accuracy",
+            "Validity",
+            "Reliability",
+            "Associative value"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Research global cremation rates and cultural practices surrounding cremation to identify countries where cremation is most commonly chosen as a method of disposition, emphasizing the influence of religious beliefs and societal norms.",
+        "instruction 2": "Analyze statistical data or surveys on burial practices from reputable sources to determine which country exhibits the highest preference for cremation, while noting any variations in preference across different regions within the country.",
+        "question": "In which country do most individuals choose to be cremated?",
+        "choices": [
+            "Japan",
+            "U. S. A.",
+            "Kenya",
+            "Mexico"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define what constitutes 'moderate' alcohol consumption in medical literature and public health guidelines, noting any specific amounts or frequency associated with potential benefits.",
+        "instruction 2": "Explore and analyze existing research or studies that illustrate the positive effects attributed to moderate alcohol consumption, such as cardiovascular benefits or social interaction impacts, ensuring to differentiate these effects from those related to excessive consumption.",
+        "question": "A possible positive effect of moderate alcohol consumption is that it may",
+        "choices": [
+            "Inhibit the growth of cancers",
+            "Promote healing from injuries and illnesses",
+            "Keep blood vessels from stiffening",
+            "Result in relaxation and lower blood pressure"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the term or concept related to environmental design that promotes interactions between pets, plants, and different age groups in nursing homes and communities, focusing on the benefits of such interaction for emotional and physical well-being.",
+        "instruction 2": "Research existing terms or frameworks that encompass this type of design approach, such as 'therapeutic landscapes' or 'animal-assisted therapy,' and evaluate how these concepts apply to creating supportive environments for both elderly residents and young visitors.",
+        "question": "The environmental design that brings pets and plants to nursing homes and young people and children as regular visitors is referred to as",
+        "choices": [
+            "Instrumental Living Design",
+            "The Humanistic Choice",
+            "Human-Environment Congruence",
+            "The Eden Alternative"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the definition of 'excess disability' by examining its context within medical or psychological literature, focusing on how it deviates from typical disability symptoms and the implications of these deviations.",
+        "instruction 2": "Identify and summarize the characteristics or types of symptoms that are classified as excess disability, ensuring to highlight the ways they affect an individual's daily functioning compared to standard disability symptoms.",
+        "question": "Excess disability refers to symptoms that are",
+        "choices": [
+            "Not due to the disease but due instead to malignant social psychology",
+            "In excess of the average for that particular disorder",
+            "Found only in the last stage of Alzheimer's",
+            "Those that can be successfully treated by medicine if they are caught early enough"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the forms of control related to well-being in younger adults, focusing on concepts such as personal control, social control, or behavioral control, to ascertain which type has been found to have a positive relationship with well-being.",
+        "instruction 2": "Consider the psychological theories and empirical studies that support the relationship between well-being and the identified form of control, ensuring to reference any significant findings that demonstrate this positive correlation.",
+        "question": "Well being for younger adults is positively related to which form of control?",
+        "choices": [
+            "Positive reappraisal",
+            "Lowering of aspirations",
+            "Primary",
+            "Internal"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key factors contributing to the increase in the older adult population, such as advances in healthcare, increased life expectancy, and changing birth rates, and categorize them to distinguish major reasons from less significant ones.",
+        "instruction 2": "Analyze the given options by comparing them against the identified major reasons, ensuring to pinpoint the option that does not align with the trends or data related to the growth of older adults.",
+        "question": "Which of the following is NOT one of the major reasons for the increase in numbers of older adults?",
+        "choices": [
+            "The Baby Boom generation",
+            "The steadily increasing birth rate",
+            "Increases in life expectancy at birth",
+            "Increases in life expectancy at a specified age"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the ethical considerations that must be addressed before collecting data from individuals, such as obtaining informed consent, ensuring data privacy, and addressing any potential biases or power dynamics in the data collection process.",
+        "instruction 2": "Identify any legal requirements or guidelines that govern the collection of data from human subjects, including local and international laws, to ensure compliance and protect the rights of participants throughout the research process.",
+        "question": "Before we can collect data from other human beings we must make sure that they",
+        "choices": [
+            "Have information that will be worth our effort to collect",
+            "Are going to be honest and forthright",
+            "Are informed about our study and give their consent to participate",
+            "Have been granted permission to participate by the IRB"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the content of May Lee's Senior View to extract the core reasons stated for respecting elders, focusing on the societal, cultural, and personal values that may be highlighted in her arguments.",
+        "instruction 2": "Examine the broader implications of respecting elders as discussed in the chapter, considering how this respect contributes to intergenerational relationships and the transmission of wisdom and traditions within the community.",
+        "question": "In this chapter's Senior View, May Lee told us that we should all respect our elders because",
+        "choices": [
+            "They are much older than we are",
+            "They raised us",
+            "They lived through difficult times",
+            "They ask nothing in return"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the concept of antagonistic pleiotropy and identify examples or studies that present evidence contradicting this theory, particularly focusing on traits that do not negatively impact fitness in later life stages.",
+        "instruction 2": "Consider alternative explanations or factors that may account for observed phenomena traditionally attributed to antagonistic pleiotropy, such as genetic interactions, environmental influences, or the potential for beneficial traits to emerge in specific contexts.",
+        "question": "One line of evidence against antagonistic pleiotropy is that",
+        "choices": [
+            "Women who have more children tend to live longer",
+            "Some animals show little or no senescence",
+            "Even tissue cells with longer telomere strands can show senescence",
+            "Exercise increases rather than decreases longevity"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the biological mechanisms that connect the loss of muscle fibers to the loss of neurons, exploring conditions or diseases that can lead to both muscle atrophy and neuronal degeneration.",
+        "instruction 2": "Consider additional factors that may contribute to the loss of neurons and muscle fibers, such as aging, neurodegenerative disorders, or nutritional deficiencies, to provide a comprehensive understanding of the underlying causes.",
+        "question": "Loss of muscle fiber may be due to loss of neurons which may be due to",
+        "choices": [
+            "Clogged blood vessels",
+            "Loss of bone density",
+            "Changes in hormone levels",
+            "Loss of collagen"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Explore the concept of 'broken heart syndrome' or other psychological and physiological impacts associated with grief, specifically how the loss of a spouse can lead to increased stress and health complications for the surviving spouse.",
+        "instruction 2": "Consider additional factors that may contribute to the early death of a surviving spouse, such as social isolation, decline in mental health, and pre-existing health conditions that may be exacerbated by the stress of losing a partner.",
+        "question": "After losing a spouse, the surviving spouse often dies within the first year because of",
+        "choices": [
+            "Stress and loss of social support",
+            "Having the same disorder as the deceased",
+            "The inability to remarry quickly",
+            "They have the same defective genes"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the common factors that have been widely supported in research linking social support to better health, such as psychological well-being, emotional support, and access to resources, to establish a comparison for the less-supported factor.",
+        "instruction 2": "Evaluate the research literature to determine which factor among the options presented has lesser empirical backing or is less frequently addressed, thus identifying it as the one that has not received as much support.",
+        "question": "Which of the following factors has NOT received as much support as the others in research investigating why social support is related to better health?",
+        "choices": [
+            "Social",
+            "Behavioral",
+            "Psychological",
+            "Gerontological"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the common coping strategies that older adults utilize, such as problem-solving, social support, and acceptance, and consider how these strategies may differ from those used by younger individuals.",
+        "instruction 2": "Examine the psychological and social factors that influence the effectiveness of these coping strategies in older adults, such as resilience, life experience, and changes in social roles or support systems inherent in aging.",
+        "question": "Older adults' coping strategies are generally",
+        "choices": [
+            "Ineffective at solving problems",
+            "Variable as they have more strategies",
+            "Persistent as they use the same strategy over and over",
+            "Narrow as they ignore many aspects of the problem"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate health statistics and research studies that explore gender differences in mortality rates, identifying specific health conditions or risk factors that contribute to higher mortality rates among men compared to women.",
+        "instruction 2": "Consider sociocultural factors that may influence these differences, such as lifestyle choices, occupational hazards, and access to healthcare, to provide a comprehensive understanding of why men may have higher mortality rates in certain circumstances.",
+        "question": "Men are more likely than women to die from",
+        "choices": [
+            "Septicemia",
+            "Stroke",
+            "Suicide",
+            "Influenza"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific areas of the body or cognitive functions where age-related slowing is typically observed, such as in motor skills, reaction times, or memory processing.",
+        "instruction 2": "Consider the biological and neurological changes that accompany aging, including factors like decreased neural plasticity or slowed metabolic processes, to provide a comprehensive understanding of the phenomenon.",
+        "question": "The slowing that occurs with advanced age appears to be centered in",
+        "choices": [
+            "The sense organs themselves",
+            "The brain",
+            "The muscle fibers",
+            "The peripheral nervous system"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Explore psychological theories related to the perception of time, particularly how life experiences and memory may influence older adults' sense of time passing, and identify potential differences in attention and focus compared to younger individuals.",
+        "instruction 2": "Consider biological factors, such as changes in cognitive processing speed and neural development over time, that could contribute to the subjective experience of time accelerating for older adults versus younger ones.",
+        "question": "One possible reason that time seems to pass more rapidly for older adults is that",
+        "choices": [
+            "Their memories are poor so they forget to check the time",
+            "They have fewer novel experiences",
+            "They pay less attention to important events in life",
+            "Their lives are full of events which they don't recall at a later time"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the nature of correlation and causation, clarifying that a positive correlation between adult age and herbal tea consumption does not necessarily imply that age causes increased consumption; instead, consider other factors that might influence this relationship.",
+        "instruction 2": "Identify potential underlying variables that could contribute to increased herbal tea consumption among older adults, such as health consciousness, lifestyle choices, or cultural preferences, and discuss how these factors may interact with age.",
+        "question": "If we found that adult age was significantly and positively correlated with consumption of herbal teas, we could conclude that",
+        "choices": [
+            "Drinking herbal teas makes one grow older more slowly",
+            "Becoming older causes one to begin or increase consumption of herbal teas",
+            "Older adults drink less herbal tea than do younger adults",
+            "Older adults drink more herbal tea than do younger adults"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the context in which the initials ADL are commonly used, determining whether they refer to a specific organization, term, or concept, to provide a relevant definition.",
+        "instruction 2": "Research and clarify the full meaning of ADL, ensuring to include any significant details about the entity or concept it represents, particularly in its most recognized usage.",
+        "question": "The initials ADL stand for",
+        "choices": [
+            "Activities of Daily Living",
+            "American Disease Legion",
+            "Always Delay Learning",
+            "Ancient Dependent Ladies"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific type of dementia that is commonly associated with thiamine deficiency, such as Wernicke-Korsakoff syndrome, and explain the biological or medical mechanisms that link thiamine deficiency to the development of this type of dementia.",
+        "instruction 2": "Consider the broader category or classification of dementia types, ensuring to contextualize the identified type of dementia within the taxonomy of dementias, and highlight how it differs from other non-nutritional forms of dementia.",
+        "question": "The dementia that results from a long-term deficiency of thiamine is one type of ____ dementia",
+        "choices": [
+            "Alzheimer's",
+            "Korsakoff's",
+            "Creutzfeldt-Jakob",
+            "Lewy body"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define what telomeres are and their significance in cellular biology, particularly focusing on their role in the lifespan of cells for members of the specified species.",
+        "instruction 2": "Investigate the average initial length of telomeres for the species in question, considering variations that may occur due to age, environmental factors, or genetic differences within the species.",
+        "question": "The initial length of telomere stand for members of a species is",
+        "choices": [
+            "Always the same",
+            "Determined genetically",
+            "Dependent upon climate and time of year at birth",
+            "Determined by parent diet and exercise"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate and identify the individual recognized by official records and organizations (such as the Gerontology Research Group or Guinness World Records) as the longest-lived human being, taking into account the specific age milestone they reached.",
+        "instruction 2": "Examine the factors that contributed to their longevity, including genetics, lifestyle choices, and environmental influences, providing context on how these elements might play a role in extreme longevity cases.",
+        "question": "The current record for longest lived human being is held by",
+        "choices": [
+            "Jeanne Calment",
+            "Maggie Kuhn",
+            "Maria Esther de Capovilla",
+            "M. Cherie Clark"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define glaucoma by explaining its primary characteristics, including how it affects intraocular pressure and the potential damage it can cause to the optic nerve, emphasizing the medical aspects of the condition.",
+        "instruction 2": "Discuss the various types of glaucoma, such as open-angle and angle-closure glaucoma, and include information on risk factors, symptoms, and the importance of early detection and treatment.",
+        "question": "Glaucoma refers to the condition in which",
+        "choices": [
+            "Fluid pressure in the eye is above normal",
+            "Inner and outer layers of the retina separate",
+            "The lens becomes cloudy and opaque",
+            "The central part of the retina no longer functions"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify professions or job types that are commonly associated with mandatory retirement ages, considering industries such as law enforcement, firefighting, and airline pilots, where age-based retirement policies may be legally enforced or established for safety reasons.",
+        "instruction 2": "Research the legal frameworks and labor regulations that govern mandatory retirement policies, ensuring to differentiate between jobs that are subject to such policies and those that are not, as well as any exceptions or variations in different jurisdictions.",
+        "question": "Workers in which of the following jobs still have mandatory retirements once they reach a certain age?",
+        "choices": [
+            "Cab drivers",
+            "Fire fighters",
+            "Insurance regulators",
+            "Computer programmers"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the definition and main principles of validation therapy, emphasizing its purpose in addressing the emotional needs of individuals with dementia by acknowledging their feelings and experiences.",
+        "instruction 2": "Explore the different techniques and approaches used in validation therapy, highlighting how they facilitate communication and reinforce a sense of dignity and self-worth for patients with dementia.",
+        "question": "Validation therapy refers to treatments in which the person with dementia",
+        "choices": [
+            "Is carefully monitored day and night",
+            "Is treated like a fellow human being",
+            "Is left alone to die peacefully",
+            "Is given double or triple doses of medication"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific types of support or actions that bereaved individuals typically find most helpful, focusing on emotional, social, or practical forms of assistance provided by others during their grieving process.",
+        "instruction 2": "Consider the contexts in which this support is offered, including the importance of timing, empathy, and presence, and how these factors can influence the bereaved individuals' experiences and perceptions of helpfulness.",
+        "question": "Surveys of bereaved individuals have found that one of the things that is reported as being most helpful is when others",
+        "choices": [
+            "Avoid any discussion of the deceased",
+            "Remain in close contact",
+            "Stay away and let the person grieve",
+            "Change the home environment for the bereaved"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify a key aspect of human development that is commonly perceived as a gain with age, such as wisdom, experience, or emotional maturity, that contrasts with common notions of loss in youth.",
+        "instruction 2": "Analyze how the gain mentioned relates to overall well-being or quality of life, and consider examples or research that illustrate the positive aspects of aging and personal development.",
+        "question": "An example of a gain, rather than a loss, that occurs as we grow older is our gain in",
+        "choices": [
+            "Perspective",
+            "Quickness",
+            "Size of our social networks",
+            "Certainty"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify key characteristics or traits that tend to show stability throughout adulthood, such as personality traits, values, or cognitive abilities, and assess potential research findings that support these observations.",
+        "instruction 2": "Consider how various factors, such as life experiences, relationships, and environmental influences, may contribute to the stability of these characteristics over time, ensuring to differentiate between traits that may fluctuate and those that remain consistent.",
+        "question": "Which of the following appears to remain relatively stable over the adult years?",
+        "choices": [
+            "Sensory memories",
+            "Personal concerns",
+            "Marital strain",
+            "Job satisfaction"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the options presented in the question to identify the items being compared, ensuring a clear understanding of what each option represents in terms of length, size, or duration.",
+        "instruction 2": "Determine the criteria for 'longest' by considering the context in which it is used, whether it pertains to physical measurements, durations of time, or abstract concepts, and provide a method for comparing the identified attributes.",
+        "question": "Which of the following is always the longest?",
+        "choices": [
+            "Life expectancy at birth (LEAB)",
+            "Life span",
+            "Life expectancy at a specified age (LEASA)",
+            "There is no way of knowing"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine common stereotypes often attributed to older adults, such as frailty, dependence, wisdom, or being set in their ways, to determine which stereotype is most frequently cited in surveys or literature on age-related perceptions.",
+        "instruction 2": "Consider the cultural context in which these stereotypes are discussed, analyzing factors such as regional variations or generational differences that may influence the frequency of specific stereotypes about older adults.",
+        "question": "Of the following, which is the more frequent stereotype of older adults?",
+        "choices": [
+            "Full of wisdom and knowledge",
+            "Healthy and independent",
+            "Confused and disoriented",
+            "Sleepy and lazy"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the cognitive processes involved in memory retrieval, specifically focusing on age-related changes that may affect older adults, including factors such as decreased neural connectivity and changes in brain structure.",
+        "instruction 2": "Examine potential external influences that could contribute to memory retrieval difficulties in older adults, such as stress, health conditions, or environmental factors, to provide a comprehensive understanding of the issue.",
+        "question": "One reason that older adults may have difficulty in retrieving memories is that",
+        "choices": [
+            "Long-term memory often discards older and unused memories",
+            "There are many more memories to search through to find the one that is sought",
+            "Older adults quit searching because they have more important things to do",
+            "Memory is less well organized as we grow older and finding a memory can be quite difficult"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and explore the specific impacts of sleep deprivation as noted in scientific research, focusing on how even minor amounts can affect cognitive and physical performance, mood, and overall health.",
+        "instruction 2": "Consider the potential long-term consequences of sleep deprivation on various aspects of well-being, ensuring to include psychological, physiological, and social effects to provide a comprehensive view.",
+        "question": "Even a small amount of sleep deprivation seems to",
+        "choices": [
+            "Increase weight",
+            "Improve sleep quality",
+            "Disrupt attention the next day",
+            "Increase irritability"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the acronym NEAT, explaining its significance in relation to energy expenditure and the role it plays in maintaining a healthy body mass index (BMI) through non-exercise activities like standing, walking, and daily movements.",
+        "instruction 2": "Discuss how NEAT contributes to overall metabolic health by comparing it to structured exercise, emphasizing the cumulative effect of daily non-exercise activities on caloric expenditure and weight management.",
+        "question": "NEAT may be one way in which some people are able to maintain a healthy BMI; NEAT refers to",
+        "choices": [
+            "Eating the right kinds of low calorie foods",
+            "Daily activities like walking, gesturing, and even fidgeting",
+            "Intense aerobic exercise practiced at least 3 times a week",
+            "Surgical removal of fatty tissue"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze recent public health data or statistics related to causes of death over the last two decades to identify which categories have experienced significant increases, such as specific diseases or health conditions.",
+        "instruction 2": "Consider the context of societal changes, such as lifestyle, healthcare access, and environmental factors, that may contribute to the rising trends in certain causes of death, ensuring to attribute increases to credible scientific research or health reports.",
+        "question": "Over the last decade or two, which of the following causes of death has shown a huge increase?",
+        "choices": [
+            "Alzheimer's",
+            "Cancer",
+            "Cardiovascular diseases",
+            "Homicide"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze research studies and surveys related to older workers to identify common findings regarding their job performance, focusing on attributes such as experience, work ethic, and adaptability compared to younger workers.",
+        "instruction 2": "Evaluate the context of the statements provided to determine their validity, considering how factors like job nature, work environment, and changes in technology influence older workers' job performance.",
+        "question": "Which of the following statements is TRUE concerning older workers' job performance?",
+        "choices": [
+            "Older workers always perform better because of their vast experience",
+            "Older workers never perform better than younger workers because with age, a worker's skills decline.",
+            "Job performance for older workers depends both upon the decline of skills and the benefits of experience",
+            "Most jobs are performed better by younger adults but a few are performed better by older adults"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the psychological factors or cognitive biases that may contribute to older adults forming negative beliefs about their memory, focusing on the impact of self-perception and societal stereotypes related to aging rather than their objective performance on memory assessments.",
+        "instruction 2": "Examine existing research or studies that explore the relationship between subjective evaluations of memory and objective memory test results in older adults, paying attention to how negative beliefs can affect actual memory performance and the implications of these findings.",
+        "question": "Older adults' negative beliefs about their own memories seem to be more influenced by _____ than by their actual performance on memory tests",
+        "choices": [
+            "Negative stereotypes about older memory",
+            "Time of day and weather conditions",
+            "Who they are speaking with",
+            "Their slower processing speed"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the common activities that are typically associated with retirees, such as travel, volunteering, and hobbies, to determine which options might be less frequently named or less typical of retired individuals.",
+        "instruction 2": "Assess the provided options critically by comparing them to existing literature or surveys about retirement activities, ensuring to highlight any activities that may not align with the general trends observed in the retired population.",
+        "question": "Which of the following is NOT one of the more frequently named activities by those who are retired?",
+        "choices": [
+            "Volunteering",
+            "Travel",
+            "Redoing the home",
+            "Household chores"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the different phases of retirement and analyze their frequency in contrast to one another, focusing on nomenclature and categorizations that define the various retirement phases.",
+        "instruction 2": "Determine the factors that might contribute to the least frequent retirement phase, considering socio-economic variables, demographic patterns, and cultural influences that shape retirement experiences.",
+        "question": "The retirement phase that occurs least frequently is the ____ phase",
+        "choices": [
+            "Disenchantment",
+            "Honeymoon",
+            "Retirement routine",
+            "Preretirement"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and clarify the key variables that are typically critical in gerontological research, focusing on factors such as age, health status, social support, and socioeconomic factors, to analyze their significance in research.",
+        "instruction 2": "Evaluate the purpose of the research and the specific context in which the variable is being considered, as the importance of different variables may vary depending on the research goals and the population studied.",
+        "question": "Which of the following is the most important variable for gerontological researchers?",
+        "choices": [
+            "Age",
+            "Gender",
+            "Cohort",
+            "Time of measurement"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze each option presented in the question to identify factors that are known to contribute to or mitigate the risk of falling, considering factors such as age, physical health, environmental conditions, and mobility issues.",
+        "instruction 2": "Evaluate the context of the question by recalling common knowledge and research on falls, particularly focusing on what does not typically increase risk, to accurately select the correct answer from the provided options.",
+        "question": "Which of the following does NOT increase the risk of falling?",
+        "choices": [
+            "Taking many prescription medications",
+            "Visual impairment",
+            "Having no emotional support",
+            "A change in walking style or gait"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify common factors or reasons that contribute to the longevity of marriages, such as communication, shared values, or mutual support, and analyze how these reasons may differ between men and women.",
+        "instruction 2": "Consider the sociocultural context in which marriages occur, including societal expectations and roles, to understand how these elements may influence the reasons provided by different genders for maintaining a long-lasting marriage.",
+        "question": "The main reason given by men and women for their long lasting marriage is that",
+        "choices": [
+            "They are best friends",
+            "They must fulfill their vows",
+            "They agree on almost everything",
+            "They owe it to their children"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the key elements that are likely to stand out to an older adult regarding the message about rain, focusing on aspects such as personal relevance, emotional impact, or the urgency of the information, which may enhance memorability.",
+        "instruction 2": "Consider the context in which the message was received, such as the medium (spoken, written, etc.), and whether the social dynamics involved (who delivered the message or the setting) affect what the older adult chooses to retain and convey to another person.",
+        "question": "An older adult who has received a message (e.g., it's going to rain tomorrow) would be most likely to remember what when telling another person?",
+        "choices": [
+            "The person who told them it would rain",
+            "Where they were when they received the message",
+            "The contents of the message",
+            "The time of day that the message was received"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Explore the concept of the lifespan perspective in human development, focusing on how it emphasizes continuous change throughout life and highlights that development includes both positive (gains) and negative (losses) aspects over time.",
+        "instruction 2": "Discuss how this perspective might relate to different stages of life, analyzing examples of both personal and social factors that can contribute to gains and losses in an individual's development throughout their lifespan.",
+        "question": "The lifespan perspective says that development is composed of gains and losses; this means that",
+        "choices": [
+            "We gain while we are younger but lose when we are older",
+            "We gain some things and lose others at every age",
+            "For every aspect of development there is no overall change since each gain is offset by loss",
+            "Gains are far more important than losses but losses occur too"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the concept of identity by identifying its multifaceted aspects, such as personal, social, cultural, and psychological dimensions that contribute to an individual's understanding of themselves.",
+        "instruction 2": "Explore the context in which 'identity' is being discussed, considering factors such as self-perception, group affiliation, and the influence of external societal norms, which together shape an individual's sense of identity.",
+        "question": "Identity refers to one's",
+        "choices": [
+            "Use of a particular coping strategy",
+            "Control over one's own life story",
+            "Physical appearance and overall personality",
+            "Coherent sense of self"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and define what constitutes 'regular exercise' according to various health organizations, clarifying any specific frequency or duration metrics used to categorize individuals as regular exercisers.",
+        "instruction 2": "Research and analyze recent statistics or surveys related to exercise habits, ensuring to provide context around demographic variables such as age, gender, and geographic location to accurately reflect the proportion of the population that engages in regular exercise.",
+        "question": "Current estimates of how many people exercise on a regular basis suggest that _____ do",
+        "choices": [
+            "Less than 50%",
+            "More than 75%",
+            "Less than 25%",
+            "More than 50%"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine common medical conditions and physiological changes associated with aging that contribute to increased urination frequency in older adults, such as urinary incontinence, prostate issues in men, and bladder sensitivity.",
+        "instruction 2": "Explore lifestyle factors and medications that may also play a role in altering urinary habits in older adults, ensuring a comprehensive understanding of both medical and non-medical influences.",
+        "question": "An increased frequency of urination in older adults is most likely caused by",
+        "choices": [
+            "Prostate cancer",
+            "Smaller bladder",
+            "Kidney problems",
+            "Gall stone(s)"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify previous research findings that establish a link between early cognitive indicators and later cognitive decline, focusing on the types of cognitive functions or assessments that predict this decline.",
+        "instruction 2": "Evaluate the methodologies used in the research, including the demographic factors or sample sizes, to ensure a comprehensive understanding of the predictions made about cognitive decline and to contextualize the findings within broader psychological or neurological studies.",
+        "question": "Some research has found that later cognitive decline is predicted by earlier",
+        "choices": [
+            "Cardiovascular problems",
+            "Loss of muscle strength",
+            "Immune system decline",
+            "Graying of hair"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific law that mandates healthcare institutions to inform patients about advance directives in order to ascertain the name of the law, focusing on the purpose and requirements of the legislation pertaining to Medicaid funds.",
+        "instruction 2": "Research the historical context and implications of this law within healthcare practices, including how it affects patient autonomy and the legal responsibilities of healthcare providers in relation to patient rights.",
+        "question": "The law that requires all healthcare institutions that receive Medicaid funds to inform patients about advance directives is called the",
+        "choices": [
+            "Patient Self-Determination Act",
+            "Informed Consent Act",
+            "Advance Directive",
+            "Medicaid Directive Information Act"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the current top 10 causes of death in the U.S. by consulting recent public health reports or databases, which typically include statistics from organizations like the Centers for Disease Control and Prevention (CDC).",
+        "instruction 2": "Examine the provided options carefully, cross-referencing each with the established list of top causes of death to determine which one does not belong, ensuring to confirm the accuracy of the data before making a conclusion.",
+        "question": "Which of the following is NOT among the top 10 causes of death in the U. S.?",
+        "choices": [
+            "Kidney diseases",
+            "AIDS",
+            "Septicemia",
+            "Accidents"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define presbyopia in the context of ocular health, emphasizing how it relates to the natural aging process and the physiological changes in the eye that affect its ability to focus on close objects.",
+        "instruction 2": "Provide examples of symptoms associated with presbyopia and discuss common corrective measures, such as reading glasses or contact lenses, distinguishing it from other refractive errors like myopia and hyperopia.",
+        "question": "Presbyopia refers to",
+        "choices": [
+            "The point of clearest vision moving closer to the eye",
+            "The decline in vision with advanced age",
+            "The loss of hearing for higher pitch as one grows older",
+            "The point of clearest vision moving farther from the eye"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the term that best fits the description of designing products and environments based on users' capabilities, focusing on key concepts such as usability, accessibility, and human-centered design.",
+        "instruction 2": "Consider the implications of this type of design on user experience and product effectiveness, examining various fields such as ergonomics and universal design principles that contribute to creating designs suited to diverse user needs.",
+        "question": "The design of products and environments to fit the capabilities of people who use them or live there is called _____ design",
+        "choices": [
+            "Environmental",
+            "Ecological",
+            "Ergonomic",
+            "Eclectic"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific name of the insurance program primarily designed to assist low-income individuals across all age groups, ensuring to consider government-sponsored programs and their target demographics.",
+        "instruction 2": "Explore the benefits and coverage that this insurance program provides, including any unique features that distinguish it from other insurance offerings aimed at different populations or income levels.",
+        "question": "The insurance program for poor people of all ages is called",
+        "choices": [
+            "Hospice",
+            "Medicaid",
+            "Medicare",
+            "Respite"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the medical terminologies that describe irreversible brain damage, focusing on specific disorders or conditions associated with such damage, such as neurodegenerative diseases or traumatic brain injuries.",
+        "instruction 2": "Consider the criteria used by medical professionals to determine the irreversibility of brain damage, including neurological assessments and the progression of symptoms, to accurately contextualize the disorder being referred to.",
+        "question": "When damage to the brain is irreversible and increasing we refer to the disorder as",
+        "choices": [
+            "Delirium",
+            "MCI",
+            "Dementia",
+            "Pick's"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific actions or behaviors of grandchildren in college that are particularly impactful in fostering feelings of love and connection among grandparents, considering how these interactions may enhance familial bonds.",
+        "instruction 2": "Explore the emotional and psychological aspects of these relationships, taking into account how expressions of appreciation or engagement during college years can strengthen the perceived closeness between grandparents and their grandchildren.",
+        "question": "Grandparents with grandchildren in college report feeling especially loved when such grandchildren",
+        "choices": [
+            "Ask about their satisfaction with life and offer to help",
+            "Visit during the holidays and bring gifts",
+            "Pay a surprise visit and ask for advice",
+            "Invite the grandparents over to their place and cook a good meal"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the scientific studies that quantify the role of genetics in longevity, focusing on statistical estimates that suggest how much of longevity can be attributed to genetic factors compared to environmental influences.",
+        "instruction 2": "Evaluate the broader context of longevity research, considering how societal, lifestyle, and health factors interplay with genetics to impact overall lifespan, and look for the consensus in the academic literature to provide a well-rounded answer.",
+        "question": "The influence of genetics on longevity is estimated to be about",
+        "choices": [
+            "20%",
+            "33%",
+            "50%",
+            "75%"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify common factors that contribute to traffic accidents involving older adults, such as physical health, cognitive decline, and reaction times, which can affect their driving abilities and decision-making on the road.",
+        "instruction 2": "Examine statistical data and research studies regarding traffic accident patterns among older adults to pinpoint specific situations or conditions that increase their likelihood of being involved in accidents, such as driving at night or in poor weather conditions.",
+        "question": "Older adults are most likely to be involved in a traffic accident when they are",
+        "choices": [
+            "On foot",
+            "Driving in a new location",
+            "A passenger in a younger person's car",
+            "Alone"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the emotional or psychological factors that contribute to individuals developing life stories, focusing on concepts such as purpose, identity, and the need for self-expression.",
+        "instruction 2": "Examine how the presence of supportive relationships and significant life experiences can enhance the likelihood of individuals articulating and reflecting on their life stories, thereby influencing personal narrative development.",
+        "question": "Life stories are more likely for people who have a sense of",
+        "choices": [
+            "Well being",
+            "Personal control",
+            "Generativity",
+            "Humor"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific theories of aging that relate to the interaction between an individual and their environment, focusing on concepts such as adaptation and the role of contextual factors in task performance.",
+        "instruction 2": "Analyze how various aging theories, such as the ecological model or the activity theory, address the importance of fit between the individual’s capabilities and the demands of their environment in relation to successful aging.",
+        "question": "The idea that the ability to complete a task depends on the fit between the environment and the person undertaking the task is a basic tenet of which of the following theories of aging?",
+        "choices": [
+            "Environmental",
+            "Ecological",
+            "Fitness",
+            "Congruence"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific variables or traits that have been studied in relation to neuroticism, looking for empirical research or literature that discusses correlations with mental health conditions, personality traits, or behaviors.",
+        "instruction 2": "Consider the context of neuroticism within the broader framework of psychological research, examining how it interacts with other personality dimensions and the implications of these correlations for understanding psychological well-being.",
+        "question": "Neuroticism has been found to be correlated with which of the following?",
+        "choices": [
+            "Anger and guilt",
+            "Apathy and indifference",
+            "Deceit and cunning",
+            "Mania and hypertension"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the specific health conditions or genetic backgrounds where Apo-E 2 protein is commonly found, focusing on its relationship with diseases or conditions such as cardiovascular health or Alzheimer's disease.",
+        "instruction 2": "Examine the biological functions of the Apo-E 2 protein, particularly how it influences lipid metabolism and its role in different populations, to better understand its prevalence and implications for health.",
+        "question": "The Apo-E 2 protein is very prevalent in people who",
+        "choices": [
+            "Die young",
+            "Live to be 100 or older",
+            "Have healthy immune systems",
+            "Also have high levels of Apo-E 4"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the first stage of the cognitive processing model by exploring concepts such as sensory memory or perception, which describe how information initially enters our cognitive system.",
+        "instruction 2": "Examine the role of sensory modalities (like visual or auditory) in this initial stage, clarifying how different types of incoming information are processed before further cognitive analysis occurs.",
+        "question": "Information coming into our cognitive system is thought to first enter a",
+        "choices": [
+            "Sensory memory",
+            "Perceptual processor",
+            "Working memory",
+            "Meta-memory"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the health conditions or diseases that research has linked to omega-3 fatty acids, focusing on scientific studies or meta-analyses that discuss their benefits in reducing risks, such as cardiovascular diseases, cognitive decline, or inflammation-related conditions.",
+        "instruction 2": "Consider the mechanism of action by which omega-3 fatty acids may contribute to reducing these risks, including their influence on inflammatory pathways, lipid profiles, and overall heart health, ensuring to incorporate relevant nutritional guidelines or recommendations.",
+        "question": "Omega 3 appears to reduce the risk of",
+        "choices": [
+            "Some cancers",
+            "Cardiovascular disease",
+            "Arthritis",
+            "Insomnia"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the term 'senescence' by identifying its implications in biological and psychological contexts, emphasizing the processes related to aging and decline in function across organisms.",
+        "instruction 2": "Explore the various facets and interpretations of senescence in different fields such as gerontology, cellular biology, and ecology, explaining how this concept manifests in those disciplines and its significance.",
+        "question": "The term \"senescence\" refers to",
+        "choices": [
+            "An increased vulnerability",
+            "The process of becoming older",
+            "The loss of mental abilities",
+            "Biological aging"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Understand the characteristics of prions, which are misfolded proteins that induce other proteins to misfold, leading to neurodegenerative diseases. This involves reviewing known prion diseases such as Creutzfeldt-Jakob disease or Bovine Spongiform Encephalopathy.",
+        "instruction 2": "Assess the options provided in the question by evaluating their causal mechanisms for disease, specifically looking for diseases recognized by scientific consensus as being caused by prions, and distinguishing these from diseases caused by viruses, bacteria, or other agents.",
+        "question": "Which of the following is caused by a prion?",
+        "choices": [
+            "Vascular dementia",
+            "Alzheimer's",
+            "Creutzfeldt-Jakob",
+            "Huntington's"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key characteristics that differentiate the social networks of older adults from those of younger adults, focusing on aspects such as network size, preferred communication methods, and social engagement levels, to establish a clear contrast.",
+        "instruction 2": "Analyze how life experiences, technological proficiency, and social priorities may influence the formation and maintenance of social networks in older adults compared to younger adults, ensuring to highlight any significant trends or research findings.",
+        "question": "A difference between the social networks of older and younger adults is that older adults have",
+        "choices": [
+            "Larger inner circles",
+            "Larger outer circles",
+            "Smaller inner circles",
+            "Smaller outer circles"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the historical context of the research on response times, focusing on notable psychologists or researchers who made significant contributions to age-related cognitive studies.",
+        "instruction 2": "Investigate any specific studies or experiments that were carried out in this area, noting the methodologies used and the conclusions reached regarding the differences in response times between young and old individuals.",
+        "question": "The first person to measure and compare the response times of young and old was",
+        "choices": [
+            "Francis Galton",
+            "William James",
+            "Michelle Meer",
+            "Tom Penge"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify relevant surveys or studies that measure employee satisfaction regarding bridge jobs compared to their career jobs, focusing on statistical data that indicates what percentage of respondents reported a better experience.",
+        "instruction 2": "Evaluate the methodologies used in these surveys to ensure the data is credible, considering factors such as sample size, demographic representation, and the clarity of definitions regarding 'bridge jobs' and 'career jobs' to accurately determine the percentage.",
+        "question": "About what percentage of people who have had bridge jobs say it was better than their career job?",
+        "choices": [
+            "Less than 25%",
+            "Less than 50%",
+            "More than 50%",
+            "More than 75%"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of reliability in the context of measurement, emphasizing the importance of consistency and repeatability in results across different circumstances or over time.",
+        "instruction 2": "Explore how factors such as measurement error, the stability of the measuring instrument, and the conditions under which measurements are taken can affect the reliability of the measures.",
+        "question": "We want our measures to be as reliable as possible; reliability refers to",
+        "choices": [
+            "Whether our measure really measure anything at all",
+            "Whether our measure is really measuring what it claims to measure",
+            "Whether our measure is consistent in the information it provides",
+            "Whether our measure has or has not been used before"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the unique cognitive or environmental factors that may influence older adults' memory retention for recent versus long-ago events, such as changes in neural processing or the impact of daily life experiences.",
+        "instruction 2": "Examine how temporal context and the recency of events might result in different recall mechanisms for older adults, considering how familiarity or emotional significance related to recent events could affect memory performance.",
+        "question": "A problem in comparing older adults' memory for recent events and events that happened a long time ago is that recent events",
+        "choices": [
+            "May be very well rehearsed",
+            "Are far more meaningful",
+            "Have no denominator to help in computing an average",
+            "Can be verified while older events often cannot"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the different types of memory (e.g., working memory, episodic memory, procedural memory) and analyze which type tends to decline most significantly with aging, using cognitive psychology research to support the rationale.",
+        "instruction 2": "Examine the underlying neurological changes associated with aging that may contribute to the deficits observed in the identified type of memory, ensuring to consider studies that link aging to specific memory impairments.",
+        "question": "Of the following types of memory, which shows the biggest deficit with advanced age?",
+        "choices": [
+            "Sensory memory",
+            "Episodic memory",
+            "Semantic memory",
+            "Procedural memory"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify what types of losses are commonly associated with feelings of guilt and the severity of emotion in the context of the U.S. cultural framework, focusing on relationships that have significant emotional bonds, such as the loss of a family member or close friend.",
+        "instruction 2": "Explore the psychological and social implications of such losses, considering how societal norms and values contribute to the perception of certain losses as more profound and guilt-inducing compared to others.",
+        "question": "The loss of a ____ is regarded in the U. S. as the most severe loss and frequently produces guilt in addition to other emotions.",
+        "choices": [
+            "Spouse",
+            "Parent",
+            "Child",
+            "Sibling"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and list the various sources of DNA damage that contribute to cellular senescence, considering both internal factors (like replication errors and oxidative stress) and external factors (such as UV radiation and chemical exposure).",
+        "instruction 2": "Examine how the mechanisms of DNA repair function in response to damage, and analyze the outcomes of failed repair processes leading to senescence, while exploring the implications for aging and related diseases.",
+        "question": "DNA damage/repair theory claims that senescence is due to cells getting incorrect instructions from DNA damaged by sources such as",
+        "choices": [
+            "Radiation from anti-oxidants",
+            "Metabolic processes",
+            "Free radicals and sunlight",
+            "Telomerase"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the term comorbidity in the context of older adults, including its implications for health management and the complexity of medical treatment given the presence of multiple health conditions.",
+        "instruction 2": "Examine the impact of aging on the prevalence of comorbidities, including factors such as lifestyle, genetic predispositions, and access to healthcare, to understand why comorbidity poses a significant challenge for this demographic.",
+        "question": "Comorbidity is a problem for older adults because it",
+        "choices": [
+            "Makes correct diagnoses difficult",
+            "Increases funeral costs",
+            "Is very contagious",
+            "Cannot, at present, be cured"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the key theories of senescence that have been proposed in biological and gerontological literature, ensuring to cover both genetic and environmental factors that may influence aging processes.",
+        "instruction 2": "Evaluate the implications of these theories on the understanding of aging, including how they may inform discussions on health, longevity, and potential interventions in the aging process.",
+        "question": "With respect to theories of senescence, it's probably safe to say that",
+        "choices": [
+            "Programmed theories are the best we have at present",
+            "Many theories will have to be combined to explain senescence",
+            "The evidence for these theories is direct and quickly accumulating",
+            "All of these theories are merely speculation at this point"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Gather the latest statistical data on life expectancy in the United States from reputable sources, such as the Centers for Disease Control and Prevention (CDC) or the World Health Organization (WHO), to provide an accurate current figure.",
+        "instruction 2": "Consider any contributing factors that influence life expectancy, such as health care access, lifestyle factors, and socioeconomic status, and clarify that these may cause variations in life expectancy across different demographics within the United States.",
+        "question": "Current life expectancy in the United States is about",
+        "choices": [
+            "78",
+            "82",
+            "68",
+            "75"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific terminology used for burial sites that allow natural decomposition, such as 'green burial,' and clarify the characteristics that define this type of cemetery.",
+        "instruction 2": "Consider the ecological and environmental implications of such burial practices, emphasizing the sustainable aspects compared to traditional burial methods that involve caskets and embalming.",
+        "question": "A burial site where the body is allowed to decompose naturally without a casket is called a _____ cemetery",
+        "choices": [
+            "Naturalistic",
+            "Green",
+            "Rapid decay",
+            "Sunshine"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific traits or outcomes associated with older adults who possess higher education and self-esteem, considering how these factors may influence their health, social interactions, or overall well-being.",
+        "instruction 2": "Explore research studies or evidence that link higher education and self-esteem to positive outcomes in older adults, such as increased life satisfaction, community engagement, or better physical and mental health.",
+        "question": "Older adults with higher education and self-esteem are more likely to be",
+        "choices": [
+            "Sexually active",
+            "Socially isolated",
+            "Lonely as they grow older",
+            "Married for a long time"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Complete the statement by identifying what other factors BMI takes into consideration, such as height, which provides a more comprehensive assessment of body composition compared to weight alone.",
+        "instruction 2": "Discuss how BMI helps categorize individuals into different weight classifications (underweight, normal weight, overweight, obese) and consider its implications for health assessments and recommendations.",
+        "question": "BMI is regarded as a better measure of health than weight by itself because BMI is based on weight and",
+        "choices": [
+            "Height",
+            "Bone structure",
+            "Immune Function",
+            "Diet and exercise"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define morbidity with a focus on its implications in public health and medicine, differentiating it from mortality, and addressing its context in disease prevalence and health condition impact.",
+        "instruction 2": "Explore the various metrics and indicators used to measure morbidity, such as incidence rates, prevalence rates, and their significance in understanding health trends within populations.",
+        "question": "Morbidity refers to",
+        "choices": [
+            "Death",
+            "Social and emotional isolation",
+            "Increased disability and declining health",
+            "A period of intense personal loss"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the cognitive and emotional strategies that older adults can employ to enhance memory function and alleviate anxiety, such as engaging in memory exercises, mindfulness practices, or social interactions.",
+        "instruction 2": "Examine the role of lifestyle changes, including physical activity, nutrition, and mental challenges, that contribute to memory improvement and emotional well-being in older adults.",
+        "question": "Older adults are able to improve their memories and reduce their anxiety about declining memory when",
+        "choices": [
+            "They learn about memory and aging and learn some techniques",
+            "They simply learn a number of memory improvement techniques",
+            "They learn that many aspects of memory do not decline and some even get better",
+            "Older adults cannot do either of these"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the technical term used in audiology to describe the specific type of hearing loss that affects the perception of higher pitch sounds, ensuring to use proper medical terminology.",
+        "instruction 2": "Consider how this condition may relate to various causes and the impact of higher frequency hearing loss on communication and daily life, providing relevant context to the term identified.",
+        "question": "Hearing loss for higher pitch is referred to as",
+        "choices": [
+            "Presbyopia",
+            "Presbycusis",
+            "Pitch deafness",
+            "Conductive loss"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the context of Tolly Kleckley's statements about personality to extract the main ideas and themes being discussed, ensuring to reference any specific psychological theories or frameworks he may be presenting.",
+        "instruction 2": "Evaluate the implications of Kleckley's views on personality in relation to broader discussions in psychology, considering how they may connect to concepts such as individual differences, behavior, and social identity.",
+        "question": "In this chapter's Senior View, Tolly Kleckley told us that personality",
+        "choices": [
+            "Changes a lot past age 50",
+            "Doesn't change past age 50",
+            "Pretty much stays the same",
+            "Changes more for women than for men"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the provided options concerning successful aging as mentioned by the Kingbergs, focusing on identifying key themes and criteria that are explicitly stated in their work.",
+        "instruction 2": "Evaluate the options critically by comparing each one with the keys named by the Kingbergs, ensuring to highlight specifically which aspects of successful aging they emphasized and which option does not align with their identified keys.",
+        "question": "The Kingbergs give us several keys to successful aging; which of the following is one that they did not name?",
+        "choices": [
+            "Eat the correct food but not too much.",
+            "Respect each other",
+            "Party at least once a month",
+            "Make long-range plans"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the emotional and psychological impacts commonly experienced by individuals who have lost a family member to suicide, such as grief, guilt, anger, and confusion, and how these experiences can vary based on personal and cultural factors.",
+        "instruction 2": "Consider the need for support systems and resources that can aid in the healing process, recognizing that individuals may cope differently and may require varying levels of professional help or community support.",
+        "question": "Those who have lost a close family member to suicide most often experience",
+        "choices": [
+            "A lack of support from others",
+            "A desire to kill themselves",
+            "Feelings of relief and release",
+            "Severe but temporary cognitive impairment"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the term that describes the body's intrinsic mechanisms or systems that combat free radicals, such as antioxidants or the oxidative stress response.",
+        "instruction 2": "Consider the role of dietary and lifestyle factors that may enhance or support this natural defense system, focusing on nutrients, enzymes, and biological processes that contribute to combating oxidative damage.",
+        "question": "Our bodies have a natural, built in defense against free radicals that is referred to as",
+        "choices": [
+            "AFR",
+            "SOD",
+            "Vitamin C",
+            "Telomerase"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific challenges that open-ended questions pose in survey methodology, such as difficulties in quantifying responses, analyzing varied answers, and the potential for respondent confusion or bias.",
+        "instruction 2": "Consider how these challenges impact the overall data collection process and the quality of insights obtained from the survey, examining possible solutions like providing guidance for respondents or using a mixed-methods approach.",
+        "question": "Open-ended questions on a survey often make it difficult to",
+        "choices": [
+            "Get people to fill the survey out",
+            "Interpret the answers you get from people",
+            "Collect data in a timely manner",
+            "Get anyone to believe your results"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze the characteristics or demographics of each group mentioned in the question that could influence their perspective on aging and older adults, such as age, cultural background, personal experiences with older individuals, and exposure to age-related issues.",
+        "instruction 2": "Consider social psychology principles, such as stereotype threat or ageism, that may impact the attitudes held by different groups towards aging and older adults, drawing on relevant studies or theories that elucidate how these perspectives are formed.",
+        "question": "Which of the following groups is likely to have the more positive view of aging and older adults?",
+        "choices": [
+            "Other older adults",
+            "Children younger than 10",
+            "Young adults",
+            "Adolescents"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the contextual definition of the 'paradox of well-being', specifically exploring research studies or psychological theories that explain why some individuals report high levels of happiness despite adverse conditions or low levels of income.",
+        "instruction 2": "Examine the factors that contribute to happiness apart from material wealth, such as social connections, personal fulfillment, and cultural contexts, to understand the complexity of well-being in relation to the paradox.",
+        "question": "The paradox of well-being refers to the finding of high levels of happiness among",
+        "choices": [
+            "Unhappy people",
+            "Older adults",
+            "People with very low SES",
+            "Terminally ill people"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the legal standard or burden of proof that older workers previously had to meet in order to bring forth a job discrimination suit, noting how the Supreme Court's ruling changes this requirement.",
+        "instruction 2": "Analyze the implications of this ruling for older workers within the context of employment law, considering how it may affect their ability to seek justice and challenge discriminatory practices in hiring.",
+        "question": "The Supreme Court has now ruled that older workers need no longer prove _____________ to win a job discrimination suit.",
+        "choices": [
+            "Discrimination",
+            "Age bias",
+            "Negative impact",
+            "Intention"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the cognitive and physiological changes associated with aging that may contribute to a decline in working memory, analyzing research and studies that explore the relationship between aging and cognitive function.",
+        "instruction 2": "Examine external factors, such as lifestyle, health conditions, and educational background, that could also influence working memory in older adults, ensuring to integrate findings from contemporary psychological and neuroscientific literature.",
+        "question": "The decline in working memory with advanced age seems to be due to",
+        "choices": [
+            "A loss of resources and slower processing speed",
+            "An increase in the inhibition of relevant information",
+            "A general decline in the ability to process information",
+            "A severe loss of neural connections and decreased blood flow"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific challenges or shortcomings in the training or care provided to older residents in institutional settings, focusing on how these limitations could hinder their learning or personal development.",
+        "instruction 2": "Consider the broader implications of such disadvantages on the well-being and quality of life of older residents, including social interaction, emotional support, and the importance of tailored education or skill development.",
+        "question": "A disadvantage of institutional care is that the staff frequently teach older residents to be",
+        "choices": [
+            "Rude",
+            "Dependent",
+            "Independent",
+            "Selfish"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the philosophical perspective that emphasizes individual agency and personal responsibility in relation to aging, distinguishing it from perspectives that may attribute aging to external factors or genetic predispositions.",
+        "instruction 2": "Evaluate the implications of adopting such a perspective on aging, including how it influences attitudes towards lifestyle choices, health behaviors, and the overall approach to personal development throughout the aging process.",
+        "question": "If you believe that we are mostly in control of our own development and that our behaviors, good or bad, determine how successful our aging with be, you would be said to have which of the following perspectives?",
+        "choices": [
+            "Organismic",
+            "Nurture",
+            "Continuity",
+            "Mechanistic"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the official age at which individuals are eligible to receive full benefits from social security in the relevant country, noting any variations based on factors such as the year of birth and legislative changes.",
+        "instruction 2": "Consider the implications of claiming benefits at different ages, including reduced benefits for early claims and the benefits of waiting until the age of full eligibility, which often results in higher monthly payments.",
+        "question": "The age at which one can receive full benefits from social security",
+        "choices": [
+            "Is 62",
+            "Is 65",
+            "Has been increasing",
+            "Will never change"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the common symptoms associated with the loss of stomach lining, such as pain, indigestion, or nausea, and how these may overlap with symptoms of other gastrointestinal disorders.",
+        "instruction 2": "Research various conditions that may produce similar symptoms to those caused by loss of stomach lining, focusing on differentiating factors that would aid in proper diagnosis, such as the specific nature of symptoms and additional clinical signs.",
+        "question": "Loss of stomach lining can lead to symptoms that resemble",
+        "choices": [
+            "Anorexia",
+            "Dementia",
+            "Senescence",
+            "Hepatitis"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Review the current research and clinical guidelines regarding effective treatments for depression in older adults, including medication, therapy, and alternative treatments, to identify which options have not shown efficacy.",
+        "instruction 2": "Analyze the specified treatment options provided in the question to determine any that lack robust evidence or consensus among mental health professionals regarding their effectiveness for older adults with depression.",
+        "question": "Which of the following has NOT been shown to be an effective treatment for depression in older adults?",
+        "choices": [
+            "Rigorous exercise",
+            "Life review",
+            "Mental stimulation",
+            "Anti-depressant drugs"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the characteristics of the Baby Boom Generation, including its time frame, typically recognized as those born between 1946 and 1964, and the historical context that led to the significant increase in birth rates during that period.",
+        "instruction 2": "Consider the sociocultural impacts of the Baby Boom Generation on society, such as shifts in demographics, economic conditions, and how this generation has influenced various aspects of culture and policy throughout its lifecycle.",
+        "question": "The term Baby Boom Generation refers to people who",
+        "choices": [
+            "Were born before WW II",
+            "Have had an extraordinary number of offspring",
+            "Were born right after WW II",
+            "Have raised their children in small villages"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify common trends or characteristics associated with older workers, such as their work experience, skills, and potential challenges they face in the workplace, to provide context for their likelihood of achieving certain outcomes.",
+        "instruction 2": "Consider various factors that could influence older workers' likelihood of specific behaviors or outcomes, such as changes in workplace policies, age discrimination, or workplace flexibility, ensuring to explore both positive and negative aspects.",
+        "question": "Older workers are more likely to",
+        "choices": [
+            "Be absent from work",
+            "Be dissatisfied with their jobs",
+            "Be less productive",
+            "Be laid off"
+        ],
+        "subject": "human_aging",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the main arguments and perspectives presented by Mabel Davis in the chapter's Senior View, focusing on her viewpoints, opinions, and any key positions she takes on relevant issues.",
+        "instruction 2": "Determine the choices provided in the question and analyze how each one aligns or conflicts with Mabel Davis's expressed views, ensuring to identify which option best captures her agreement based on the context she provides in the chapter.",
+        "question": "Mabel Davis, in this chapter's Senior View, would agree with which of the following?",
+        "choices": [
+            "Time seems to speed up when you grow older",
+            "Exercise keeps your mind sharp",
+            "Women are tougher than men",
+            "Glasses and hearing aids should be avoided"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the type of information being discussed in memory, ensuring to delineate between different types of memory (e.g., short-term vs. long-term) and the implications of this distinction on the data retention and recall processes.",
+        "instruction 2": "Investigate existing research and insights from the Senior View interviewees to connect their experiences and findings with established theories of memory, highlighting how these perspectives contribute to our understanding of memory storage and retrieval.",
+        "question": "The information stored in memory, according to research and our Senior View interviewees, is",
+        "choices": [
+            "True to life",
+            "Our own interpretation",
+            "Always exaggerated",
+            "Never accurate"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify effective communication strategies that accommodate hearing loss in older adults, focusing on techniques such as speaking clearly, facing the person directly, and minimizing background noise to enhance understanding.",
+        "instruction 2": "Consider the importance of non-verbal cues and body language to support the verbal communication, as these elements can provide additional context and aid comprehension for individuals with hearing difficulties.",
+        "question": "When speaking with an older adults with some hearing loss, you should",
+        "choices": [
+            "Speak a little slower than normal",
+            "Speak loudly into their best ear",
+            "Face them so they can watch your lips",
+            "Ask another person to translate"
+        ],
+        "subject": "human_aging",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the factors or traits commonly linked to increased longevity, focusing on aspects such as lifestyle choices, health practices, social connections, and genetic predispositions that could contribute to a longer lifespan.",
+        "instruction 2": "Consider the scientific research and studies that correlate these factors with longevity, ensuring to reference credible sources that provide evidence on how these higher levels contribute to an increased lifespan.",
+        "question": "Longevity is strongly associated with higher levels of",
+        "choices": [
+            "Social support",
+            "BMI",
+            "Alcohol use",
+            "Supplement use"
+        ],
+        "subject": "human_aging",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific hypothesis related to adult health and aging that suggests a sudden decline in health followed by death, focusing on its characteristics and implications in the context of gerontology.",
+        "instruction 2": "Consider the historical context and any relevant studies that support or challenge this hypothesis, ensuring to accurately define it and differentiate it from other theories of aging that may suggest a more gradual decline.",
+        "question": "The hypothesis that says adults will remain healthy until very old age and then quickly become ill and die is the ____ hypothesis",
+        "choices": [
+            "Terminal drop",
+            "Compression of morbidity",
+            "Klagmore-Rensfeldt",
+            "Decline avoidance"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the woman who conducted the mentioned longitudinal study and examine her contributions to the field of cognitive aging or memory research, specifically focusing on the results regarding retrieval difficulty over time.",
+        "instruction 2": "Research the details and implications of the longitudinal study, including the methodology used, her findings related to aging and memory, and any broader impacts on our understanding of cognitive development across the lifespan.",
+        "question": "The woman who conducted a longitudinal study on herself and found increased retrieval difficulty as she got older was named",
+        "choices": [
+            "Clark",
+            "Smith",
+            "Whitebear",
+            "Ebbinghaus"
+        ],
+        "subject": "human_aging",
+        "answer": 1
+    }
+]

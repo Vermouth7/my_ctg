@@ -1,0 +1,3057 @@
+[
+    {
+        "question": "A 10-N force at an angle 45° above the horizontal has a horizontal component of about",
+        "answer": 0,
+        "choices": [
+            "7 N",
+            "5 N",
+            "10 N",
+            "12 N"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Use trigonometry to find the magnitude of the horizontal component of the force, given the angle above the horizontal and the total force magnitude.",
+        "instruction 2": "Consider the relationship between the horizontal component and the total force, and how the angle above the horizontal affects the distribution of force between the horizontal and vertical components."
+    },
+    {
+        "question": "A completely submerged object always displaces its own",
+        "answer": 1,
+        "choices": [
+            "weight of fluid.",
+            "volume of fluid.",
+            "density of fluid.",
+            "All of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the condition under which the object is submerged, which is when it is fully surrounded by a fluid, typically water or air.",
+        "instruction 2": "Consider the concept of buoyancy and the relationship between the object's volume and the fluid it displaces, recognizing that the displaced fluid has the same mass as the object, regardless of its shape or composition."
+    },
+    {
+        "question": "When a diver points a flashlight upward toward the surface of the water at an angle 20° from the normal, the beam of light",
+        "answer": 1,
+        "choices": [
+            "totally internally reflects",
+            "passes into the air above",
+            "is absorbed",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key variables involved in the problem, including the angle of incidence, the angle of refraction, and the properties of light and water.",
+        "instruction 2": "Apply Snell's Law to determine the angle of refraction and calculate the distance the light travels in the water before being refracted back into the air, taking into account the refractive indices of water and air."
+    },
+    {
+        "question": "According to four-dimensional geometry, the angles of a triangle add to 180°",
+        "answer": 1,
+        "choices": [
+            "always.",
+            "sometimes.",
+            "never.",
+            "on planet Earth only."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Explain the concept of four-dimensional geometry and its implications on spatial relationships, particularly in the context of triangles.",
+        "instruction 2": "Consider how the traditional notion of angle addition in two-dimensional geometry is modified in four-dimensional geometry, potentially leading to different properties or constraints for triangle angles."
+    },
+    {
+        "question": "A voltage will be induced in a wire loop when the magnetic field within that loop",
+        "answer": 0,
+        "choices": [
+            "changes",
+            "aligns with the electric field",
+            "is at right angles to the electric field",
+            "converts to magnetic energy"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the necessary conditions for inducing a voltage in a wire loop, such as the presence of a changing magnetic field and the loop being within that field.",
+        "instruction 2": "Consider the relationship between the direction of the induced voltage and the direction of the changing magnetic field, using the right-hand rule or other relevant physical principles to determine the polarity of the induced voltage."
+    },
+    {
+        "question": "Among these colors, the one that has the most energy per photon is",
+        "answer": 3,
+        "choices": [
+            "red",
+            "yellow-green",
+            "blue",
+            "violet"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the colors mentioned in the question and determine their corresponding wavelengths, as energy is directly related to the frequency of the photon.",
+        "instruction 2": "Use the Planck-Einstein equation to calculate the energy of each photon based on its wavelength, and then compare the results to determine which color has the most energy per photon."
+    },
+    {
+        "question": "According to general relativity,",
+        "answer": 3,
+        "choices": [
+            "mass distorts spacetime.",
+            "gravity affects clocks.",
+            "light can’t escape from a black hole.",
+            "All of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recall the fundamental principles of general relativity, specifically Einstein's theory of gravity as a curvature of spacetime caused by mass and energy.",
+        "instruction 2": "Consider how the concept of spacetime curvature relates to the behavior of objects under the influence of gravity, such as the bending of light around massive objects or the gravitational redshift of light emitted from high-mass objects."
+    },
+    {
+        "question": "A step-up transformer in an electric circuit can step up",
+        "answer": 0,
+        "choices": [
+            "voltage",
+            "energy",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary function of a step-up transformer, which is to increase the voltage of an alternating current (AC) signal, and explain how this process works.",
+        "instruction 2": "Consider the physical properties and design of a step-up transformer, such as the number of turns in the primary and secondary coils, to understand how it enables the transformation of voltage levels."
+    },
+    {
+        "question": "Spectral lines of the elements are",
+        "answer": 1,
+        "choices": [
+            "chaotic",
+            "ordered",
+            "positioned by amplitude",
+            "in phase"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key characteristics of spectral lines, such as the unique wavelengths and patterns associated with each element, and how they are produced through atomic transitions.",
+        "instruction 2": "Consider the role of spectroscopy in identifying and analyzing the composition of elements, including the use of spectral lines as a means of distinguishing between elements and determining their relative abundance in a sample."
+    },
+    {
+        "question": "A wave transfers",
+        "answer": 3,
+        "choices": [
+            "amplitude",
+            "wavelength",
+            "frequency",
+            "energy"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key properties of a wave, such as its ability to transfer energy and information through a medium, and its characteristic oscillations or patterns.",
+        "instruction 2": "Consider the different types of waves, such as mechanical, electromagnetic, and sound waves, and how they transfer energy and information through various mediums, including solids, liquids, and gases."
+    },
+    {
+        "question": "Immediately after two separated charged particles are released from rest, both increase in acceleration. The sign of charge of the particles is therefore",
+        "answer": 1,
+        "choices": [
+            "the same",
+            "opposite",
+            "Either of these",
+            "Need more information"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the acceleration of the particles indicates the presence of an electric force acting upon them, and that this force is attractive or repulsive depending on the sign of the charges.",
+        "instruction 2": "Consider the direction of the acceleration and the relative positions of the particles, determining whether the force is attractive or repulsive, and using this information to infer the sign of the charges."
+    },
+    {
+        "question": "The surface of planet Earth loses energy to outer space due mostly to",
+        "answer": 2,
+        "choices": [
+            "conduction",
+            "convection",
+            "radiation",
+            "radioactivity"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary mechanisms by which the Earth's surface loses energy to outer space, focusing on radiative cooling processes such as infrared radiation and the role of atmospheric gases in facilitating heat transfer.",
+        "instruction 2": "Consider the importance of atmospheric conditions, such as temperature, humidity, and cloud cover, in modulating the rate of energy loss from the Earth's surface, as well as any potential feedback loops or interactions with other climate factors."
+    },
+    {
+        "question": "In a series circuit, if the current in one lamp is 2 A, the current in the lamp next to it is",
+        "answer": 1,
+        "choices": [
+            "half, 1 A",
+            "2 A",
+            "Depends on which lamp is closer to the battery",
+            "Not enough information to say"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the current in a series circuit is constant, meaning that the same amount of current flows through each component.",
+        "instruction 2": "Apply Ohm's Law to determine the voltage drop across each lamp, using the given current value and the total circuit voltage, to calculate the current in the adjacent lamp."
+    },
+    {
+        "question": "As a blinking light source approaching you gains speed, you see the frequency of flashes",
+        "answer": 0,
+        "choices": [
+            "increase.",
+            "decrease.",
+            "remain unchanged.",
+            "None of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the frequency of the light source's flashes is directly related to its speed, as an increase in speed results in an increase in the frequency of the flashes.",
+        "instruction 2": "Consider the underlying physics of light and its relationship to the speed of the source, using Doppler effect principles to explain how the perceived frequency change occurs as the light source approaches."
+    },
+    {
+        "question": "In the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m. At the 10-m position half way up the net force on the ball is",
+        "answer": 1,
+        "choices": [
+            "2mg",
+            "mg",
+            "mg/2",
+            "mg/4"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the relevant forces acting on the ball at the 10-m position, including gravity and the normal force exerted by the ground.",
+        "instruction 2": "Determine the net force on the ball by subtracting the normal force from the force due to gravity, taking into account the direction of these forces and the ball's motion at the 10-m position."
+    },
+    {
+        "question": "Pumice is a volcanic rock that floats in water. The density of pumice compared with that of water is",
+        "answer": 0,
+        "choices": [
+            "less.",
+            "equal.",
+            "greater.",
+            "none because it sinks."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key characteristic of pumice that allows it to float in water, which is its lower density compared to water.",
+        "instruction 2": "Consider the specific density of pumice and water, typically around 0.25-0.30 g/cm^3 and 1 g/cm^3, respectively, to determine the exact difference in density and explain why pumice floats."
+    },
+    {
+        "question": "When you look at the red petals of a rose the color light you're seeing is",
+        "answer": 0,
+        "choices": [
+            "red.",
+            "green.",
+            "white minus red.",
+            "a mixture of green and yellow."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the physical properties of light that allow us to perceive the color red, such as the wavelength and frequency of light.",
+        "instruction 2": "Consider how the human eye and brain process this information, specifically how the color red is perceived and interpreted by the visual system."
+    },
+    {
+        "question": "Compared with the sound you hear from the siren of a stationary fire engine the sound you hear when it approaches you has an increased",
+        "answer": 1,
+        "choices": [
+            "speed",
+            "frequency",
+            "wavelength",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Analyze the Doppler effect and how it relates to sound waves, focusing on the change in frequency and pitch of the sound as the fire engine moves towards you compared to when it is stationary.",
+        "instruction 2": "Explore the concepts of sound perception and the physiological impact of increased sound intensity and frequency on the human ear when the source of the sound is in motion, specifically identifying how this differs from the stationary sound."
+    },
+    {
+        "question": "When you squeeze an air-filled party balloon, you increase its",
+        "answer": 3,
+        "choices": [
+            "volume",
+            "mass",
+            "weight",
+            "density"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical phenomenon occurring when you squeeze an air-filled party balloon, such as the increase in pressure or the change in volume.",
+        "instruction 2": "Consider the relationship between the air inside the balloon and the material it is made of, exploring how the properties of the balloon's material affect its behavior under compression, such as the elasticity or flexibility of the material."
+    },
+    {
+        "question": "Polarization is a property of",
+        "answer": 0,
+        "choices": [
+            "transverse waves",
+            "longitudinal waves",
+            "all waves",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the context or field in which the concept of polarization is typically discussed, such as electromagnetism, materials science, or optics.",
+        "instruction 2": "Consider how the concept of polarization relates to the alignment of electric or magnetic fields, and how this property is used to describe the behavior of light, materials, or other physical phenomena."
+    },
+    {
+        "question": "In a vacuum, an object has no",
+        "answer": 0,
+        "choices": [
+            "buoyant force",
+            "mass",
+            "weight",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Define the concept of a vacuum, emphasizing that it is a space devoid of matter, which implies the absence of air and any particles, thus establishing the context for understanding the implications for objects within such an environment.",
+        "instruction 2": "Analyze the physical properties that are absent in a vacuum, such as pressure and sound, and elaborate on how these conditions affect the behavior and characteristics of objects, including concepts like gravity, motion, and energy transfer."
+    },
+    {
+        "question": "Temperature is generally proportional to a substance’s",
+        "answer": 2,
+        "choices": [
+            "thermal energy.",
+            "vibrational kinetic energy.",
+            "average translational kinetic energy.",
+            "rotational kinetic energy."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific property or characteristic of a substance that is directly related to temperature, such as specific heat capacity or thermal conductivity.",
+        "instruction 2": "Consider how the relationship between temperature and the identified property can be used to explain various phenomena, such as the flow of heat or the behavior of materials under different thermal conditions."
+    },
+    {
+        "question": "In a hydraulic press operation, the output piston cannot",
+        "answer": 3,
+        "choices": [
+            "move farther than the input piston",
+            "exceed the force input",
+            "exceed the input piston’s speed",
+            "produce increased energy"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the constraints or limitations imposed by the hydraulic press operation, such as the relationship between input pressure and output force, to determine the maximum output force the piston can produce.",
+        "instruction 2": "Consider the specific design and mechanical properties of the hydraulic press, including factors such as friction, seal efficiency, and fluid dynamics, to determine any potential limitations on the piston's output force."
+    },
+    {
+        "question": "When a spinning system contracts in the absence of an external torque its rotational speed increases and its angular momentum",
+        "answer": 2,
+        "choices": [
+            "decreases",
+            "increases",
+            "remains unchanged",
+            "may increase or decrease"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental concept of angular momentum and its relationship to the rotational speed of a spinning system, recognizing that angular momentum is a measure of the system's tendency to maintain its rotational motion.",
+        "instruction 2": "Consider the implications of the system contracting without an external torque, analyzing how this change in configuration affects the system's angular momentum and rotational speed, and how these changes are related to each other."
+    },
+    {
+        "question": "According to Hooke’s law, if you hang by a tree branch and note how much it bends, then hanging with twice the weight produces",
+        "answer": 2,
+        "choices": [
+            "half the bend.",
+            "the same bend if the branch doesn’t break.",
+            "twice the bend.",
+            "4 times the bend."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Understand Hooke's law, which states that the force applied to a spring is proportional to its displacement. In this context, the spring is the tree branch, and the force is the weight.",
+        "instruction 2": "Apply the principle of Hooke's law to predict the effect of doubling the weight on the branch's displacement, considering the proportionality between force and displacement."
+    },
+    {
+        "question": "When an increase in speed doubles the kinetic energy of a moving body its momentum",
+        "answer": 0,
+        "choices": [
+            "increases but less than doubles",
+            "doubles",
+            "more than doubles",
+            "depends on factors not stated"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that kinetic energy is directly proportional to the square of the speed, while momentum is directly proportional to the speed.",
+        "instruction 2": "Determine how the change in speed affects the kinetic energy and momentum, using the given information to identify the relationship between the two physical quantities and the effect of doubling the speed on momentum."
+    },
+    {
+        "question": "Suppose the number of neutrons in a reactor that is starting up doubles each minute reaching one billion neutrons in 10 minutes. When did the number of neutrons reach half a billion?",
+        "answer": 3,
+        "choices": [
+            "1 minute.",
+            "2 minutes.",
+            "5 minutes.",
+            "9 minutes."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the initial number of neutrons and the rate at which they double, noting that the number doubles every minute.",
+        "instruction 2": "Work backwards in time to find the minute when the number of neutrons was half a billion, using the doubling rate and the given endpoint of one billion neutrons after 10 minutes."
+    },
+    {
+        "question": "If an object is already moving and the sum of all the vector forces on a mass is zero, then the object will",
+        "answer": 0,
+        "choices": [
+            "move at a constant speed in a straight line",
+            "accelerate at a constant rate in a straight line",
+            "come to rest",
+            "increase its amount of inertia"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the condition specified in the question, where the sum of all vector forces acting on an object is zero, and consider the implications of this condition on the object's motion.",
+        "instruction 2": "Apply the concept of equilibrium in physics, recognizing that when the net force acting on an object is zero, the object will continue to move with a constant velocity, as there is no net force to change its motion."
+    },
+    {
+        "question": "Relativity equations for time, length, and momentum hold true for",
+        "answer": 2,
+        "choices": [
+            "everyday low speeds.",
+            "relativistic speeds.",
+            "Both of these.",
+            "Neither of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key concepts and variables involved in relativity equations, such as time dilation, length contraction, and momentum.",
+        "instruction 2": "Consider the specific conditions under which these equations are applicable, including the presence of high-speed motion, gravitational fields, or other factors that affect the behavior of objects and the passage of time."
+    },
+    {
+        "question": "Put a saucer of water on your table. A process that then occurs is",
+        "answer": 2,
+        "choices": [
+            "evaporation",
+            "condensation",
+            "Both",
+            "Neither"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical process that occurs when a saucer of water is placed on a table, focusing on the interactions between the water and the surface.",
+        "instruction 2": "Consider the possible effects of this process on the water, such as evaporation, condensation, or changes in temperature, and how these effects might influence the overall environment."
+    },
+    {
+        "question": "A barometer that uses water instead of mercury will be",
+        "answer": 1,
+        "choices": [
+            "shorter",
+            "taller",
+            "equal in height",
+            "inoperable"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Understand the fundamental principle of a barometer, which is to measure atmospheric pressure, and how mercury or water can be used as the working fluid.",
+        "instruction 2": "Consider the advantages and limitations of using water as the working fluid, such as its lower density and potential for corrosion, and how these factors may affect the accuracy and reliability of the barometer."
+    },
+    {
+        "question": "A heavy rock and a light rock in free fall (zero air resistance) have the same acceleration. The heavy rock doesn't have a greater acceleration because the",
+        "answer": 3,
+        "choices": [
+            "force due to gravity is the same on each.",
+            "air resistance is always zero in free fall.",
+            "inertia of both rocks is the same.",
+            "ratio of force to mass is the same."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the assumption made in the problem, which is that air resistance is negligible, and consider how this affects the motion of the rocks.",
+        "instruction 2": "Recall the concept of acceleration due to gravity (g) and its relationship to the mass of an object, noting that the acceleration of an object in free fall is always g, regardless of its mass, and explain why the heavy rock has the same acceleration as the light rock."
+    },
+    {
+        "question": "When an increase in speed doubles the momentum of a moving body its kinetic energy",
+        "answer": 2,
+        "choices": [
+            "increases but less than doubles",
+            "doubles",
+            "more than doubles",
+            "depends on factors not stated"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the relationship between speed and momentum, noting that momentum is directly proportional to speed and inversely proportional to mass.",
+        "instruction 2": "Consider the effect of doubling the speed on the kinetic energy of the moving body, recognizing that kinetic energy is directly proportional to the square of the speed, and that doubling the speed will quadruple the kinetic energy."
+    },
+    {
+        "question": "The equation E = mc^2 indicates that energy",
+        "answer": 3,
+        "choices": [
+            "equals mass moving at the speed of light squared.",
+            "equals moving mass.",
+            "is fundamentally different than mass.",
+            "and mass are closely related."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the core concept being conveyed by the equation E = mc^2, which is the relationship between energy and mass.",
+        "instruction 2": "Consider the implications of this equation, including how it has revolutionized our understanding of nuclear reactions and the potential for harnessing energy from mass conversion."
+    },
+    {
+        "question": "General relativity predicts that",
+        "answer": 3,
+        "choices": [
+            "light leaving the Sun is slowed by gravity.",
+            "light passing the Sun is deflected.",
+            "a clock on the Sun’s surface runs faster than on Earth.",
+            "All of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the core concept in general relativity that relates to the bending of light around massive objects, such as stars or black holes, and its implications for our understanding of space and time.",
+        "instruction 2": "Consider the mathematical framework and underlying assumptions of general relativity, including the concept of spacetime curvature, to explain how it leads to the prediction of gravitational lensing and its effects on light."
+    },
+    {
+        "question": "When an element ejects an alpha particle, the atomic number of the resulting element",
+        "answer": 0,
+        "choices": [
+            "reduces by 2",
+            "reduces by 4",
+            "increases by 2",
+            "increases by 4"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the process by which an element loses an alpha particle, which is a type of radioactive decay.",
+        "instruction 2": "Determine the change in the atomic number of the resulting element, considering the mass number and atomic number of the original element, as well as the properties of alpha particles and their effect on the nucleus."
+    },
+    {
+        "question": "As more lamps are connected in parallel in a circuit, the current in the power source",
+        "answer": 0,
+        "choices": [
+            "increases",
+            "decreases",
+            "remains the same",
+            "Not enough information to say"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the relationship between the number of lamps connected in parallel and the current in the power source, considering the properties of parallel circuits.",
+        "instruction 2": "Explain how the current in the power source remains constant, while the total current drawn from the source increases, as more lamps are added in parallel, and how this affects the overall circuit."
+    },
+    {
+        "question": "An airplane with its nose pointing north with an airspeed of 40 km/h in a 30-km/h crosswind (at right angles) has a groundspeed of",
+        "answer": 2,
+        "choices": [
+            "30 km/h",
+            "40 km/h",
+            "50 km/h",
+            "60 km/h"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the components of the airspeed and crosswind to determine the resultant velocity vector, taking into account the angle between the airspeed and crosswind.",
+        "instruction 2": "Calculate the groundspeed by finding the magnitude of the resultant velocity vector, considering the direction and speed of the airplane's motion in relation to the wind."
+    },
+    {
+        "question": "The energy of an emitted photon is related to its",
+        "answer": 3,
+        "choices": [
+            "amplitude",
+            "polarization",
+            "momentum",
+            "frequency"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental relationship between the energy of a photon and its wavelength, as described by the Planck-Einstein equation or other relevant formulas.",
+        "instruction 2": "Consider the implications of this relationship on the energy levels of emitted photons, including how changes in wavelength or frequency affect the energy of the emitted photon."
+    },
+    {
+        "question": "Thermal conduction involves mainly",
+        "answer": 0,
+        "choices": [
+            "electrons",
+            "protons",
+            "neutrons",
+            "ions"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary mechanism of heat transfer in thermal conduction, focusing on the direct transfer of energy between particles or molecules without the need for a medium.",
+        "instruction 2": "Consider the role of material properties, such as thermal conductivity, in facilitating or hindering thermal conduction, as well as any relevant examples or applications of this process in real-world scenarios."
+    },
+    {
+        "question": "Compared with the current in an LED lamp the current in the connecting wire is",
+        "answer": 2,
+        "choices": [
+            "less.",
+            "more.",
+            "the same.",
+            "Need more information."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the current in the connecting wire is the same as the current in the LED lamp, as they are connected in series and share the same flow of electrons.",
+        "instruction 2": "Consider the concept of current conservation in a series circuit, where the total current remains constant throughout the circuit, and the current in each component is proportional to its resistance."
+    },
+    {
+        "question": "Bow waves are produced by waves of water",
+        "answer": 3,
+        "choices": [
+            "overlapping one another",
+            "constructively interfering",
+            "moving slower than the source producing them",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary cause of bow waves, which is the displacement of water by an object moving through it, resulting in a pressure gradient that creates the characteristic wave shape.",
+        "instruction 2": "Consider the role of velocity and angle of incidence in determining the formation and shape of bow waves, as well as any factors that may influence their size and appearance, such as the size and shape of the object, water depth, and surface conditions."
+    },
+    {
+        "question": "The speed of sound is slightly greater on a",
+        "answer": 1,
+        "choices": [
+            "cold day",
+            "hot day",
+            "day with steady temperature",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the conditions under which the speed of sound is affected, such as temperature, humidity, and air pressure.",
+        "instruction 2": "Consider how the physical properties of the environment, such as air density and composition, impact the speed of sound, and how these factors might contribute to a slight increase in the speed of sound in the specified context."
+    },
+    {
+        "question": "Consider two mercury barometers, one having a cross-sectional area of 1 cm2 and the other 2 cm2. The height of mercury in the narrower tube is",
+        "answer": 2,
+        "choices": [
+            "half",
+            "twice",
+            "the same",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the relationship between the cross-sectional area of the tubes and the height of the mercury column, recognizing that the pressure exerted by the mercury is proportional to its height and inversely proportional to the area.",
+        "instruction 2": "Apply this relationship to the given scenario, calculating the height of the mercury column in the narrower tube based on the known height in the wider tube and the ratio of their cross-sectional areas."
+    },
+    {
+        "question": "The second law of thermodynamics tells us that heat doesn’t flow from",
+        "answer": 3,
+        "choices": [
+            "hot to cold ever",
+            "cold to hot ever",
+            "hot to cold without external energy",
+            "cold to hot without external energy"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the direction of heat flow, which is typically from a hotter body to a cooler body, and explain why this is the case.",
+        "instruction 2": "Consider the implications of the second law of thermodynamics on the concept of heat transfer, including the role of entropy and the direction of spontaneous processes."
+    },
+    {
+        "question": "In a mixture of hydrogen oxygen and nitrogen gases at a given temperature the molecules having the greatest average speed are those of",
+        "answer": 0,
+        "choices": [
+            "hydrogen.",
+            "oxygen.",
+            "nitrogen.",
+            "But all have the same speed on average."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the molecular weights of the three gases (hydrogen, oxygen, and nitrogen) to understand the relationship between molecular weight and average speed.",
+        "instruction 2": "Apply the ideal gas equation and the concept of average speed to determine which gas molecules have the greatest average speed, considering the effects of molecular weight, temperature, and other relevant factors."
+    },
+    {
+        "question": "Compared with the power input, the power output of an ideal transformer is",
+        "answer": 2,
+        "choices": [
+            "greater",
+            "less",
+            "the same",
+            "Any of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize the concept of an ideal transformer and its ability to efficiently transfer electrical energy between two circuits, focusing on the relationship between input and output power.",
+        "instruction 2": "Consider the fundamental principles of transformer operation, such as the voltage and current transformations, to determine how the power output is related to the power input, and identify any relevant formulas or equations that can be applied."
+    },
+    {
+        "question": "The amount of air drag on an 0.8-N flying squirrel dropping vertically at terminal velocity is",
+        "answer": 1,
+        "choices": [
+            "less than 0.8 N",
+            "0.8 N",
+            "greater than 0.8 N",
+            "dependent on the orientation of its body"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key physical properties relevant to the problem, including the weight of the flying squirrel, the terminal velocity, and the air density, and determine how these factors contribute to the air drag.",
+        "instruction 2": "Apply the relevant equations and formulas, such as the equation for air drag, to calculate the amount of air drag on the flying squirrel, taking into account any necessary assumptions or simplifications."
+    },
+    {
+        "question": "The vibrations in a longitudinal wave move in a direction",
+        "answer": 0,
+        "choices": [
+            "along and parallel to the wave",
+            "perpendicular to the wave",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the characteristic of longitudinal waves that is relevant to the direction of vibration, such as the particles oscillating along the same direction as the wave's propagation.",
+        "instruction 2": "Consider how this characteristic differs from the motion of particles in transverse waves, which oscillate perpendicular to the direction of wave propagation."
+    },
+    {
+        "question": "The potential energy of a compressed spring and the potential energy of a charged object both depend on",
+        "answer": 0,
+        "choices": [
+            "the work done on them",
+            "motion",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the common factor between the potential energy of a compressed spring and the potential energy of a charged object, such as the concept of stored energy or the dependence on external factors.",
+        "instruction 2": "Consider the specific characteristics of each type of potential energy, such as the role of compression in springs or the influence of electric fields on charged objects, to highlight the unique aspects of each."
+    },
+    {
+        "question": "A step-up transformer in an electrical circuit can step up",
+        "answer": 0,
+        "choices": [
+            "voltage",
+            "energy",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Understand the fundamental principle of transformer operation, including the concept of electromagnetic induction and the relationship between primary and secondary windings.",
+        "instruction 2": "Consider the specific design and configuration of a step-up transformer, analyzing how the primary and secondary windings are arranged and how this affects the output voltage, taking into account factors such as turns ratio and magnetic coupling."
+    },
+    {
+        "question": "The neutrons in an atom are normally found",
+        "answer": 0,
+        "choices": [
+            "inside the nucleus",
+            "outside the nucleus",
+            "Either of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the typical location of neutrons within an atom, considering their role in the atomic nucleus and the forces that hold them in place.",
+        "instruction 2": "Explain how the number of neutrons in an atom can affect its overall properties, such as its mass and stability, and how this relates to the concept of isotopes."
+    },
+    {
+        "question": "The greenish-blue color of ocean water is due mostly to light that hasn’t been",
+        "answer": 0,
+        "choices": [
+            "absorbed",
+            "reflected",
+            "scattered",
+            "refracted"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the main reason why ocean water appears greenish-blue, focusing on the interaction between light and water.",
+        "instruction 2": "Consider how the scattering of shorter wavelengths of light, such as blue and violet, contributes to the apparent color of ocean water, and how this differs from the scattering of longer wavelengths, such as red and orange."
+    },
+    {
+        "question": "Noise-canceling devices make use of sound",
+        "answer": 1,
+        "choices": [
+            "destruction",
+            "interference",
+            "resonance",
+            "amplification"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental principle behind noise-canceling devices, which involves the use of sound waves to counteract or cancel out unwanted noise.",
+        "instruction 2": "Explain the mechanism by which these devices work, such as the use of microphones to capture ambient noise and then generating a 'negative' sound wave to eliminate the noise."
+    },
+    {
+        "question": "Black is the combination of",
+        "answer": 3,
+        "choices": [
+            "all the colors together",
+            "two or more appropriate colors",
+            "light when a prism is held upside down",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the colors that, when combined, produce the color black, considering the principles of additive and subtractive color mixing.",
+        "instruction 2": "Research and provide specific examples of color combinations that result in the production of black, such as the combination of red, green, and blue light or the combination of cyan, magenta, and yellow pigments."
+    },
+    {
+        "question": "In a circuit of two lamps in parallel, if the current in one lamp is 2 A, the current in the other lamp is",
+        "answer": 3,
+        "choices": [
+            "about 1 A",
+            "2 A",
+            "Depends on which lamp is closer to the battery",
+            "Not enough information to say"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize the circuit configuration as a parallel circuit, where the same voltage is applied across both lamps, and the total current is the sum of the individual currents.",
+        "instruction 2": "Determine the total current in the circuit by adding the individual currents, 2 A and the unknown current, and then calculate the unknown current."
+    },
+    {
+        "question": "Which of these changes when light refracts in passing from one medium to another?",
+        "answer": 2,
+        "choices": [
+            "Speed only",
+            "Wavelength only",
+            "Both speed and wavelength",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical properties that change when light travels from one medium to another, such as speed, frequency, or wavelength.",
+        "instruction 2": "Consider the implications of Snell's Law on the behavior of light as it refracts, and how this affects the direction and magnitude of the refracted light."
+    },
+    {
+        "question": "If the frequency of one source of sound is 500 Hz and a second sound source is 504 Hz, then when the two waves interfere with each other, the beat frequency will be",
+        "answer": 1,
+        "choices": [
+            "2 Hz",
+            "4 Hz",
+            "8 Hz",
+            "16 Hz"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key concept of beat frequency in sound waves and how it relates to the difference in frequency between the two sound sources.",
+        "instruction 2": "Calculate the beat frequency by subtracting the frequency of the first sound source from the frequency of the second sound source, ensuring to express the result in Hz."
+    },
+    {
+        "question": "The loudness of a sound is most closely related to its",
+        "answer": 3,
+        "choices": [
+            "frequency",
+            "period",
+            "wavelength",
+            "amplitude"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary factor that determines the loudness of a sound, focusing on the physical properties of sound waves and their interaction with the human ear.",
+        "instruction 2": "Consider how other factors, such as frequency and duration, can also impact the perceived loudness of a sound, and how these factors interact with the primary factor."
+    },
+    {
+        "question": "The electric field inside the dome of a Van de Graaff generator is zero when the dome is",
+        "answer": 2,
+        "choices": [
+            "charged",
+            "uncharged",
+            "Either of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Understand the concept of the electric field and its relationship to the distribution of electric charge within the dome, particularly the idea that electric fields are generated by the separation of positive and negative charges.",
+        "instruction 2": "Consider the symmetrical distribution of charges on the dome, which would result in a cancellation of electric fields, and the conditions under which this occurs, such as the dome being perfectly conducting and having no external influences."
+    },
+    {
+        "question": "The redness of a sunrise or sunset is due mostly to light that hasn’t been",
+        "answer": 2,
+        "choices": [
+            "absorbed",
+            "transmitted",
+            "scattered",
+            "polarized"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary factor contributing to the red or orange hue of sunrises and sunsets, focusing on the properties of light and its interaction with the atmosphere.",
+        "instruction 2": "Consider how the scattering of shorter wavelengths of light, such as blue and violet, by atmospheric particles like dust, water vapor, and pollutants, affects the apparent color of the sun during these times, leading to the characteristic red or orange appearance."
+    },
+    {
+        "question": "When a nucleus of uranium-238 emits an alpha particle, left behind is",
+        "answer": 2,
+        "choices": [
+            "thorium-242",
+            "thorium-238",
+            "thorium-234",
+            "radium-214"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the type of radioactive decay involved in the process, which is alpha decay, and understand the basic mechanism of alpha particle emission.",
+        "instruction 2": "Determine the resulting nucleus formed after the alpha particle emission, considering the mass and atomic number changes that occur during the decay process."
+    },
+    {
+        "question": "The Doppler effect occurs when a source of sound moves",
+        "answer": 2,
+        "choices": [
+            "toward you",
+            "away from you",
+            "Both of these",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key components of the Doppler effect, including the source of sound, the observer, and the relative motion between them.",
+        "instruction 2": "Consider how the Doppler effect applies to different scenarios, such as a moving car, a train, or a spacecraft, and how it affects the observed frequency of the sound."
+    },
+    {
+        "question": "When a proton is plucked from an atomic nucleus, the atom has a decrease in",
+        "answer": 3,
+        "choices": [
+            "charge",
+            "energy",
+            "mass",
+            "all of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the type of particle being removed from the nucleus, and consider the resulting change in the atom's charge and atomic number.",
+        "instruction 2": "Determine the effects of this change on the atom's chemical properties, such as its reactivity and ability to form bonds with other atoms."
+    },
+    {
+        "question": "If the Sun were twice as massive, its pull on Mars would be",
+        "answer": 1,
+        "choices": [
+            "unchanged",
+            "twice as much",
+            "half as much",
+            "four times as much"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Research the relationship between a celestial body's mass and its gravitational pull on other objects in the same solar system, focusing on the Sun's gravitational influence on Mars.",
+        "instruction 2": "Consider how a doubling of the Sun's mass would affect its gravitational pull on Mars, using mathematical formulas or scientific principles to calculate the resulting force and any potential implications for the Martian orbit."
+    },
+    {
+        "question": "During the time an aircraft produces a sonic boom the aircraft is",
+        "answer": 2,
+        "choices": [
+            "breaking the sound barrier",
+            "pulling out of a subsonic dive",
+            "flying faster than sound",
+            "Each of these produces a sonic boom"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific phase of flight where an aircraft produces a sonic boom, typically occurring during supersonic flight.",
+        "instruction 2": "Consider the physics involved in the production of a sonic boom, including the shockwaves generated by the aircraft's supersonic speed and the resulting pressure waves that produce the characteristic boom."
+    },
+    {
+        "question": "When food is exposed to gamma radiation, the food",
+        "answer": 1,
+        "choices": [
+            "becomes slightly radioactive",
+            "doesn’t become radioactive",
+            "will spoil faster",
+            "should be avoided"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary mechanism by which gamma radiation affects food, focusing on its ability to inactivate or kill microorganisms, such as bacteria, viruses, and fungi.",
+        "instruction 2": "Consider the potential benefits and limitations of using gamma radiation as a food preservation method, including its potential impact on food quality, nutritional value, and overall safety."
+    },
+    {
+        "question": "The red glow in the neon tube of an advertising sign is a result of",
+        "answer": 3,
+        "choices": [
+            "fluorescence.",
+            "coherence.",
+            "polarization.",
+            "de-excitation."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical process responsible for the red glow in the neon tube, which involves the interaction between electrically charged gas and the tube's electrodes.",
+        "instruction 2": "Consider the role of the neon gas, specifically its atomic structure and energy levels, in the emission of light as a result of the electric discharge, and how this process contributes to the characteristic red color of the neon sign."
+    },
+    {
+        "question": "Light that is not transmitted by opaque materials is",
+        "answer": 0,
+        "choices": [
+            "reflected or converted to internal energy in the material.",
+            "mainly reflected.",
+            "mainly refracted.",
+            "transmitted at a lower frequency."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental properties of opaque materials, such as their ability to absorb or reflect light, but not transmit it.",
+        "instruction 2": "Consider how this property of opaque materials relates to the behavior of light, including the concepts of absorption, reflection, and transmission, to provide a clear explanation of the phenomenon."
+    },
+    {
+        "question": "Imagine you're standing on the surface of a shrinking planet. If it shrinks to one-tenth its original diameter with no change in mass on the shrunken surface you'd weigh",
+        "answer": 2,
+        "choices": [
+            "1/100 as much",
+            "10 times as much",
+            "100 times as much",
+            "1000 times as much"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the planet's surface area decreases as it shrinks, which affects the gravitational force acting on objects on the surface, including yourself.",
+        "instruction 2": "Calculate the new surface area and radius of the planet, then apply the formula for gravitational force to determine the weight of an object on the shrunken surface, considering the unchanged mass of the planet."
+    },
+    {
+        "question": "A magnetic force acting on a beam of electrons can change its",
+        "answer": 0,
+        "choices": [
+            "direction",
+            "energy",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the properties of magnetic forces that can affect the motion of charged particles, such as electrons, including their ability to cause deflection or bending.",
+        "instruction 2": "Consider how the strength and direction of the magnetic force, as well as the velocity and charge of the electrons, influence the resulting change in the beam's trajectory, potentially leading to phenomena such as deflection or focusing."
+    },
+    {
+        "question": "Microscopic slush in water tends to make the water",
+        "answer": 0,
+        "choices": [
+            "more dense",
+            "less dense",
+            "more slippery",
+            "warmer"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the properties of microscopic slush in water, such as its surface tension and viscosity, to understand how it affects the behavior of water.",
+        "instruction 2": "Consider the interactions between the microscopic slush and the surrounding water, including any changes in buoyancy, density, or surface tension, to determine the overall effect on the water."
+    },
+    {
+        "question": "The speed of sound in air depends on",
+        "answer": 2,
+        "choices": [
+            "frequency.",
+            "wavelength.",
+            "air temperature.",
+            "All of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary factors that influence the speed of sound in air, such as temperature, humidity, and air pressure.",
+        "instruction 2": "Consider how these factors interact and affect the speed of sound, taking into account the relationships between them and how they impact the speed of sound in different environments and conditions."
+    },
+    {
+        "question": "Heat comes from the Sun to Earth by the process of",
+        "answer": 2,
+        "choices": [
+            "conduction",
+            "convection",
+            "radiation",
+            "All of these, although radiation is greatest"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary source of heat on Earth, which is the Sun, and explain how it transfers energy to our planet.",
+        "instruction 2": "Describe the process of radiation, specifically how solar radiation travels through space and is absorbed by the Earth's surface, atmosphere, and oceans, contributing to the global heat budget."
+    },
+    {
+        "question": "A torque is a force",
+        "answer": 1,
+        "choices": [
+            "like any other force",
+            "multiplied by a lever arm",
+            "that is fictitious",
+            "that accelerates things"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental concept of torque as a rotational force, distinct from linear forces, and its relation to the moment arm and the force applied.",
+        "instruction 2": "Consider how torque is measured and calculated, including the use of formulas such as τ = r x F, and how it is applied in real-world scenarios, such as in the design of mechanical systems and machines."
+    },
+    {
+        "question": "All of the following are electromagnetic waves EXCEPT",
+        "answer": 3,
+        "choices": [
+            "microwaves",
+            "light waves",
+            "X-rays",
+            "None is outside the family; all are electromagnetic waves"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the characteristics that define electromagnetic waves, such as the fact that they are produced by the vibration of charged particles and can travel through a vacuum.",
+        "instruction 2": "Consider the specific types of radiation listed, evaluating whether each meets the criteria for an electromagnetic wave and identifying the one that does not, based on its properties and the underlying physical principles governing its behavior."
+    },
+    {
+        "question": "Big brother and little sister can balance on a seesaw because of balanced",
+        "answer": 1,
+        "choices": [
+            "forces",
+            "torques",
+            "energies",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental concept of balance and its application in the context of the seesaw, focusing on the idea that the weight of the big brother and little sister must be equal and opposite to achieve balance.",
+        "instruction 2": "Consider the specific conditions required for balance, such as the seesaw being level and the weights being evenly distributed, to ensure that the big brother and little sister can indeed balance on the seesaw."
+    },
+    {
+        "question": "Any atom that emits an alpha particle or beta particle",
+        "answer": 0,
+        "choices": [
+            "becomes an atom of a different element always.",
+            "may become an atom of a different element.",
+            "becomes a different isotope of the same element.",
+            "increases its mass."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the types of radiation emitted by the atom, specifically alpha and beta particles, and understand their properties and effects.",
+        "instruction 2": "Consider the process by which an atom loses an alpha or beta particle, such as radioactive decay, and how this affects the atom's stability and the surrounding environment."
+    },
+    {
+        "question": "Regelation occurs due to water’s",
+        "answer": 1,
+        "choices": [
+            "high specific heat",
+            "open-structured ice crystals",
+            "high rate of expansion",
+            "slight tendency to freeze when its temperature is lowered"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific properties of water that allow it to exhibit regelation, focusing on its unique thermal and physical characteristics, such as its high specific heat capacity and ability to expand when freezing.",
+        "instruction 2": "Consider the role of temperature and pressure in regelation, examining how the changes in these conditions can affect the process, and how water's regelation properties contribute to its ability to maintain its shape and structure in certain environments."
+    },
+    {
+        "question": "A big fish swims upon and swallows a small fish that is at rest. Right after lunch, the fattened big fish has a change in",
+        "answer": 0,
+        "choices": [
+            "speed",
+            "momentum",
+            "Both",
+            "Neither"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical change that occurs within the big fish as a result of consuming the small fish, such as an increase in mass or size.",
+        "instruction 2": "Consider how this change may impact the big fish's physiology, behavior, or interactions with its environment, such as potential changes in buoyancy, energy levels, or predator-prey dynamics."
+    },
+    {
+        "question": "A capacitor can store",
+        "answer": 2,
+        "choices": [
+            "charge",
+            "energy",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary function of a capacitor in an electrical circuit, which is to store energy in the form of an electric field.",
+        "instruction 2": "Consider the physical properties of a capacitor, such as its capacitance, dielectric material, and plate geometry, to understand how these factors affect its ability to store energy."
+    },
+    {
+        "question": "For a tube closed at one end, the length of the tube at a frequency of 256 Hz will be",
+        "answer": 1,
+        "choices": [
+            "one-quarter the value for a tube open at both ends",
+            "one-half the value for a tube open at both ends",
+            "twice the value for a tube open at both ends",
+            "four times the value for a tube open at both ends"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the relevant physical phenomenon that governs the behavior of sound waves in a tube, such as the relationship between frequency and wavelength.",
+        "instruction 2": "Apply the relevant equations and principles to calculate the length of the tube at the specified frequency, taking into account the closed end and any relevant boundary conditions."
+    },
+    {
+        "question": "The period of a 10-Hz wave is",
+        "answer": 0,
+        "choices": [
+            "1/10 s",
+            "1.0 s",
+            "10 s",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the period of a wave is the reciprocal of its frequency, allowing for a direct calculation of the period given the frequency.",
+        "instruction 2": "Use the provided frequency (10 Hz) to calculate the period by dividing 1 by the frequency, ensuring to express the result in the appropriate units (e.g., seconds)."
+    },
+    {
+        "question": "If the Sun collapsed to become a black hole Planet Earth would",
+        "answer": 0,
+        "choices": [
+            "continue in its present orbit.",
+            "likely be sucked into the black hole.",
+            "be pulled apart by tidal forces.",
+            "Both C and D."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Consider the effects of the Sun's gravity on the planets in our solar system, particularly Earth, and how the loss of this gravitational influence would impact the planet's orbit and stability.",
+        "instruction 2": "Evaluate the consequences of a black hole Sun on the Earth's atmosphere, oceans, and geology, taking into account the intense gravitational forces and radiation that would be emitted, and the potential for catastrophic effects on the planet's habitability."
+    },
+    {
+        "question": "The electric field between a pair of oppositely charged parallel plates",
+        "answer": 3,
+        "choices": [
+            "gets weaker with distance inside the plates",
+            "follows the inverse-square law",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key parameters that define the electric field between the parallel plates, such as the plate separation, plate charge, and the distance from the plates.",
+        "instruction 2": "Determine the direction and magnitude of the electric field using Coulomb's law, taking into account the plate separation and the charge distribution on the plates, and consider any boundary conditions that may affect the electric field."
+    },
+    {
+        "question": "The flight of a blimp best illustrates",
+        "answer": 0,
+        "choices": [
+            "Archimedes’ principle",
+            "Pascal’s principle",
+            "Bernoulli’s principle",
+            "Boyle’s law"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key characteristics of a blimp's flight, such as its buoyancy, lift, and lack of wings, which distinguish it from other types of aircraft.",
+        "instruction 2": "Consider how these unique characteristics of a blimp's flight, such as its ability to stay aloft for extended periods, make it an ideal platform for certain applications, such as surveillance or advertising."
+    },
+    {
+        "question": "The distance of your image behind a plane mirror is equal to",
+        "answer": 2,
+        "choices": [
+            "half your height",
+            "half your distance from the mirror",
+            "your distance in front of the mirror",
+            "more than your distance in front of the mirror"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the mirror is a plane mirror, which means it reflects light in a way that preserves the angle of incidence, and that the distance of the image behind the mirror is a measure of the distance between the mirror and the image.",
+        "instruction 2": "Use the principle of reflection to determine the distance of the image behind the plane mirror, considering the relationship between the object, the mirror, and the image, as well as any relevant geometric concepts."
+    },
+    {
+        "question": "The discrete orbits of electrons are best understood when modeled by",
+        "answer": 2,
+        "choices": [
+            "high-speed particles",
+            "particles on springs",
+            "waves",
+            "photons"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key principles of quantum mechanics that underlie the behavior of electrons in atoms, such as wave-particle duality and the quantization of energy levels.",
+        "instruction 2": "Consider how the atomic orbitals, which are solutions to the Schrödinger equation, represent the probability distributions of electrons within an atom, and how this understanding is essential for describing the chemical properties of elements."
+    },
+    {
+        "question": "Heat engines, such as a jet engine, are more efficient when run at",
+        "answer": 0,
+        "choices": [
+            "high temperatures",
+            "constant temperatures",
+            "low temperatures",
+            "a constant rate"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key factors that affect the efficiency of heat engines, including the temperature difference between the hot and cold reservoirs, the specific design of the engine, and any losses due to friction or heat transfer.",
+        "instruction 2": "Consider how the idealized Carnot cycle, which assumes no losses, can be used as a benchmark for comparing the efficiency of real-world heat engines, and how the optimal operating conditions for maximum efficiency may vary depending on the specific engine design and application."
+    },
+    {
+        "question": "The phenomenon of interference occurs for",
+        "answer": 2,
+        "choices": [
+            "sound waves",
+            "light waves",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific types of waves or signals that exhibit interference, such as light, sound, or electromagnetic waves, and consider the conditions under which interference occurs, such as superposition or destructive/constructive combination.",
+        "instruction 2": "Explain the physical mechanisms underlying interference, including the role of wave amplitude, frequency, and phase in creating patterns of constructive and destructive interference."
+    },
+    {
+        "question": "As more lamps are connected in a series circuit the current in the power source",
+        "answer": 1,
+        "choices": [
+            "increases.",
+            "decreases.",
+            "remains much the same.",
+            "Need more information."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that in a series circuit, the current flows through each component in sequence, and that the total current is the same throughout the circuit.",
+        "instruction 2": "Consider how adding more lamps in series affects the total resistance in the circuit, and how this impact on resistance influences the current drawn from the power source."
+    },
+    {
+        "question": "When you buy a pipe in a hardware store, the water isn’t included. When you buy copper wire, electrons",
+        "answer": 1,
+        "choices": [
+            "must be supplied by you",
+            "are included in the wire",
+            "may fall out—hence insulation",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key concept being discussed, which is the idea that the sale of certain goods or services does not necessarily include the provision of the underlying resources or materials necessary for their use.",
+        "instruction 2": "Consider how this concept applies to other examples, such as buying a car without gasoline, or buying a computer without electricity, to illustrate the general principle of separating the sale of goods from the provision of necessary resources or services."
+    },
+    {
+        "question": "When a uranium nucleus undergoes fission the energy released is primarily in the form of",
+        "answer": 1,
+        "choices": [
+            "gamma radiation.",
+            "kinetic energy of fission fragments.",
+            "kinetic energy of ejected neutrons.",
+            "All of these about equally."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary type of radiation emitted during fission, such as neutrons and gamma rays, and their respective energies.",
+        "instruction 2": "Consider the energy release during fission, taking into account the mass defect and the binding energy of the nucleus, to determine the dominant form of energy released."
+    },
+    {
+        "question": "Most of the radiation in Earth’s biosphere is",
+        "answer": 0,
+        "choices": [
+            "natural background radiation",
+            "the result of military activities",
+            "from nuclear power plants",
+            "in the form of cosmic rays"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary sources of radiation in the Earth's biosphere, considering natural sources such as radon, thorium, and uranium, as well as any human-made sources like nuclear power plants or medical applications.",
+        "instruction 2": "Evaluate the relative contributions of each source to the total radiation in the biosphere, considering factors such as intensity, proximity, and exposure pathways to determine which sources dominate the radiation landscape."
+    },
+    {
+        "question": "When white light enters a prism green light is bent more than",
+        "answer": 2,
+        "choices": [
+            "blue light.",
+            "violet light.",
+            "red light.",
+            "None of these choices is correct."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the properties of white light that are relevant to the behavior of light as it passes through a prism, such as its composition of different wavelengths and its ability to be refracted.",
+        "instruction 2": "Consider how the different wavelengths of light, including green, are affected by the prism's refractive index and how this affects the bending of light, leading to the conclusion that green light is bent more than other colors."
+    },
+    {
+        "question": "When a ball at rest hangs by a single vertical string tension in the string is mg. If the ball is made to move in amhorizontal circle so that the string describes a cone string tension",
+        "answer": 1,
+        "choices": [
+            "is mg",
+            "is greater than mg always",
+            "is less than mg always",
+            "may be greater or less than mg depending on the speed of the ball"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the forces acting on the ball, including the tension in the string, gravity (mg), and any other relevant forces, such as friction.",
+        "instruction 2": "Use the concept of centripetal force to relate the string tension to the ball's motion, considering how the string's angle and the ball's velocity affect the tension required to keep the ball moving in a horizontal circle."
+    },
+    {
+        "question": "When a tin can is whirled in a horizontal circle, the net force on the can acts",
+        "answer": 0,
+        "choices": [
+            "inward",
+            "outward",
+            "upward",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the main forces acting on the tin can during the whirling motion, such as the centripetal force and the force due to gravity.",
+        "instruction 2": "Determine the net force acting on the can by analyzing the direction and magnitude of these forces, considering how the centripetal force, which is directed towards the center of the circle, counteracts the force due to gravity, which is directed towards the center of the Earth."
+    },
+    {
+        "question": "The highest ocean tides occur when Earth and the Moon are",
+        "answer": 0,
+        "choices": [
+            "lined up with the Sun",
+            "at right angles to the Sun",
+            "at any angle to the Sun",
+            "lined up during spring"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific alignment of celestial bodies that contributes to the highest ocean tides, such as the Moon being in its closest position to Earth (called perigee) and the Earth, Moon, and Sun being aligned (a syzygy).",
+        "instruction 2": "Consider how this alignment affects the gravitational pull on the oceans, leading to the amplification of tidal forces and resulting in the highest ocean tides."
+    },
+    {
+        "question": "Lift a 100-N crate with an ideal pulley system by pulling a rope downward with 25 N of force. For every 1-m length of rope pulled down, the crate rises",
+        "answer": 0,
+        "choices": [
+            "25 cm",
+            "25 m",
+            "50 cm",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Calculate the mechanical advantage of the pulley system, considering the ratio of the force applied to the force required to lift the crate, and determine the total force needed to lift the crate.",
+        "instruction 2": "Use the calculated mechanical advantage and the given force applied to find the distance the rope needs to be pulled down to lift the crate 1 meter, and then use this distance to determine the total force required to lift the crate."
+    },
+    {
+        "question": "Hot sand cools off faster at night than does vegetation. Compared with vegetation, sand’s specific heat capacity is",
+        "answer": 0,
+        "choices": [
+            "lower",
+            "higher",
+            "about the same",
+            "Can’t say"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key difference between sand and vegetation in terms of their thermal properties, specifically focusing on specific heat capacity.",
+        "instruction 2": "Consider how this difference in specific heat capacity affects the rate of cooling for each surface, with sand cooling faster due to its lower specific heat capacity."
+    },
+    {
+        "question": "The color of light most intense in the solar radiation curve is",
+        "answer": 2,
+        "choices": [
+            "infrared",
+            "red",
+            "yellow-green",
+            "violet"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Examine the solar radiation curve to identify the wavelength range with the highest intensity, typically measured in units of energy per unit area per unit time.",
+        "instruction 2": "Consider the properties of light, such as its electromagnetic nature and the relationship between wavelength and color, to determine the corresponding color associated with the most intense wavelength range."
+    },
+    {
+        "question": "If the current in the filament of a lamp is 3 A, the current in the connecting wire is",
+        "answer": 1,
+        "choices": [
+            "less than 3 A",
+            "3 A",
+            "more than 3 A",
+            "Not enough information to say"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the current in the filament of the lamp, given as 3 A.",
+        "instruction 2": "Recognize that the current in the connecting wire is equal to the current in the filament, since the wire is a part of the same circuit and carries the same amount of electric charge."
+    },
+    {
+        "question": "If two protons and two neutrons are removed from the nucleus of neon-20, a nucleus of which element remains?",
+        "answer": 3,
+        "choices": [
+            "Magnesium-22",
+            "Magnesium-20",
+            "Oxygen-18",
+            "Oxygen-16"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the atomic number and mass number of neon-20, which is 10 protons and 10 neutrons, respectively.",
+        "instruction 2": "Calculate the resulting atomic number and mass number after removing two protons and two neutrons from the nucleus, and identify the corresponding element based on the resulting values."
+    },
+    {
+        "question": "If a star that is 20 light-years from Earth explodes, gravitational waves from the explosion would reach Earth in",
+        "answer": 1,
+        "choices": [
+            "less than 20 years.",
+            "20 years.",
+            "more than 20 years.",
+            "None of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Understand the concept of light-years and their relation to the distance between celestial bodies, and recognize that light-years are used to measure astronomical distances.",
+        "instruction 2": "Consider the speed of gravitational waves and how it compares to the speed of light, taking into account the distance between the star and Earth to calculate the time it would take for the gravitational waves to reach our planet."
+    },
+    {
+        "question": "In a mixture of hydrogen, oxygen, and nitrogen gases at a given temperature, the fastest molecules on average are those of",
+        "answer": 0,
+        "choices": [
+            "hydrogen",
+            "oxygen",
+            "nitrogen",
+            "All have same average speed"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key factor that determines the average speed of gas molecules, such as temperature, and recognize that temperature is constant in this scenario.",
+        "instruction 2": "Consider the molecular weights of the gases involved, noting that lighter molecules tend to have higher average speeds, and determine which gas has the lowest molecular weight."
+    },
+    {
+        "question": "The mutual induction of electric and magnetic fields can produce",
+        "answer": 0,
+        "choices": [
+            "light",
+            "energy",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical phenomenon where the electric and magnetic fields interact, such as the concept of electromagnetic induction, and explain how this interaction occurs.",
+        "instruction 2": "Describe the consequences of this interaction, including the generation of induced currents and the potential applications in fields like electrical engineering and physics."
+    },
+    {
+        "question": "When a model car speeds up to three times its original speed, its kinetic energy is",
+        "answer": 3,
+        "choices": [
+            "the same",
+            "twice as great",
+            "three times greater",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the kinetic energy of an object is directly proportional to the square of its velocity, and that the original speed is a known value.",
+        "instruction 2": "Apply the concept of proportionality to determine the new kinetic energy, using the ratio of the new velocity to the original velocity and the original kinetic energy as a reference point."
+    },
+    {
+        "question": "If an iron nucleus split in two, its fission fragments would have",
+        "answer": 1,
+        "choices": [
+            "less mass per nucleon",
+            "more mass per nucleon",
+            "the same mass per nucleon",
+            "either more or less mass per nucleon"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Understand the concept of nuclear fission and the resulting fission fragments, which are formed when an atomic nucleus splits into two or more smaller nuclei.",
+        "instruction 2": "Determine the typical characteristics of the fission fragments, such as their mass, energy, and neutron emission, considering the properties of iron and its atomic nucleus."
+    },
+    {
+        "question": "The surface of Planet Earth loses energy to outer space due mostly to",
+        "answer": 2,
+        "choices": [
+            "conduction.",
+            "convection.",
+            "radiation.",
+            "radioactivity."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary mechanism by which the Earth's surface loses energy to outer space, such as infrared radiation, and explain its role in the Earth's energy balance.",
+        "instruction 2": "Consider the importance of this process in regulating the Earth's temperature and climate, highlighting any relevant consequences or implications for global warming or other environmental issues."
+    },
+    {
+        "question": "The direction of natural processes is from states of",
+        "answer": 0,
+        "choices": [
+            "higher order to lower order",
+            "lower order to higher order",
+            "disorganization to organization",
+            "disorder to equilibrium"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the concept of entropy, which is often described as a measure of disorder or randomness, and its relationship to the direction of natural processes.",
+        "instruction 2": "Consider how the second law of thermodynamics, which states that the total entropy of a closed system will always increase over time, applies to various natural processes and systems, such as the flow of energy and the behavior of living organisms."
+    },
+    {
+        "question": "A principal source of the Earth’s internal energy is",
+        "answer": 2,
+        "choices": [
+            "tidal friction.",
+            "gravitational pressure.",
+            "radioactivity.",
+            "solar radiation."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary sources of internal energy within the Earth, considering factors such as radioactive decay, primordial heat, and tidal heating.",
+        "instruction 2": "Evaluate the relative contributions of each source to the Earth's internal energy, referencing relevant scientific studies or data to support the conclusion."
+    },
+    {
+        "question": "A diffraction grating relies on light",
+        "answer": 0,
+        "choices": [
+            "interference",
+            "amplitudes",
+            "variations in brightness",
+            "being composed of photons"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Explain how light interacts with the diffraction grating, highlighting the principles of diffraction and the role of the grating's surface features in manipulating light waves.",
+        "instruction 2": "Discuss the specific applications of diffraction gratings, such as spectroscopy and optical communication systems, to illustrate their practical uses and the importance of understanding the underlying physics."
+    },
+    {
+        "question": "A satellite in Earth orbit is above Earth’s",
+        "answer": 0,
+        "choices": [
+            "atmosphere",
+            "gravitational field",
+            "Both",
+            "Neither"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific condition that defines the satellite's position, namely being above the Earth's surface, and consider the implications of this condition on the satellite's motion and interactions with the planet.",
+        "instruction 2": "Consider the effects of Earth's gravitational force on the satellite's trajectory, as well as any other factors that might influence its orbit, such as atmospheric drag or solar radiation pressure."
+    },
+    {
+        "question": "The time it takes for a pendulum swinging to and fro refers to its",
+        "answer": 1,
+        "choices": [
+            "frequency",
+            "period",
+            "wavelength",
+            "amplitude"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key characteristics of a pendulum's motion, such as its oscillatory nature, and consider how these properties relate to the concept of time.",
+        "instruction 2": "Research the specific type of time referred to in the context of a pendulum, such as period, frequency, or oscillation period, and determine how it is measured and calculated."
+    },
+    {
+        "question": "As entropy in a system increases, energy in the system",
+        "answer": 1,
+        "choices": [
+            "becomes more ordered",
+            "becomes less ordered",
+            "reaches equilibrium",
+            "moves toward destruction"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Define the concept of entropy and its relationship to energy in a system, highlighting the second law of thermodynamics and its implications for energy dispersal and randomness.",
+        "instruction 2": "Consider the consequences of increasing entropy on the energy within a system, including the potential for energy degradation, dissipation, or conversion into other forms, and how this affects the overall energy balance of the system."
+    },
+    {
+        "question": "When water changes to steam, energy is",
+        "answer": 0,
+        "choices": [
+            "absorbed by the water",
+            "released by the water",
+            "conserved as the phase change occurs",
+            "changed to a different form"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the process by which water transforms into steam, specifically focusing on the energy required for this phase transition.",
+        "instruction 2": "Consider the role of heat transfer in this process, evaluating how the energy added to the water is converted into the kinetic energy of the steam molecules, resulting in the increase in temperature and pressure."
+    },
+    {
+        "question": "According to Coulomb, a pair of charged particles placed twice as close to each other experience a force",
+        "answer": 1,
+        "choices": [
+            "twice as strong",
+            "four times as strong",
+            "half as strong",
+            "one-fourth as strong"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental law or principle related to Coulomb's force that governs the interaction between charged particles, specifically the inverse square law.",
+        "instruction 2": "Consider how the force between the particles changes when the distance between them is halved, applying the inverse square law to determine the effect of the reduced distance on the force, and comparing it to the original force experienced when the particles were twice as far apart."
+    },
+    {
+        "question": "The factors, both of which will increase the magnetic field strength of an electromagnet, are",
+        "answer": 2,
+        "choices": [
+            "increased electrical current and fewer coils of wire",
+            "increased diameter of coil and an increase in the number of coils",
+            "an increase in the electrical current and using a strong ferromagnetic material like iron",
+            "using an air core instead of iron and increasing the diameter of the coil"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental components of an electromagnet, including the coil, core, and current, and understand how each affects the magnetic field strength.",
+        "instruction 2": "Consider how increasing the number of turns in the coil, using a ferromagnetic core, and increasing the current flowing through the coil can enhance the magnetic field strength, and how these factors interact with one another."
+    },
+    {
+        "question": "The team that wins in a tug-of-war is the team that",
+        "answer": 1,
+        "choices": [
+            "produces more tension in the rope than the opponent",
+            "pushes hardest on the ground",
+            "Both",
+            "Neither"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the objective of the game of tug-of-war, which is to pull the rope in the desired direction (typically towards the team's own side).",
+        "instruction 2": "Consider the physical dynamics involved in the game, including the force and momentum required to overcome the opposing team's resistance, and the importance of teamwork and coordination in achieving the desired outcome."
+    },
+    {
+        "question": "Which type of radiation from cosmic sources predominates on the inside of high-flying commercial airplanes?",
+        "answer": 2,
+        "choices": [
+            "Alpha",
+            "Beta",
+            "Gamma",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Research the types of radiation that originate from cosmic sources, such as solar flares, cosmic rays, and secondary radiation from the Earth's atmosphere.",
+        "instruction 2": "Consider the altitude and proximity to the Earth's atmosphere that commercial airplanes typically operate at, and evaluate which type of radiation is more likely to penetrate the aircraft's shielding and pose a risk to passengers and crew."
+    },
+    {
+        "question": "Thermal convection involves mainly",
+        "answer": 1,
+        "choices": [
+            "radiant energy",
+            "fluids",
+            "insulators",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary mechanism driving thermal convection, such as differences in temperature causing density variations and subsequent movement of fluids.",
+        "instruction 2": "Consider the role of gravity in facilitating the circulation of fluids, as well as any additional factors that can influence the strength and direction of convective currents, such as buoyancy and viscosity."
+    },
+    {
+        "question": "A 10-Ω resistor carries 10 A. The voltage across the resistor is",
+        "answer": 3,
+        "choices": [
+            "0",
+            "more than 0 but less than 10 V",
+            "10 V",
+            "more than 10 V"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Use Ohm's Law to relate the voltage across the resistor (V) to the current flowing through it (I) and the resistance of the resistor (R), given by the equation V = IR.",
+        "instruction 2": "Plug in the given values for I and R to solve for V, ensuring to follow the correct order of operations and units."
+    },
+    {
+        "question": "A cannonball is fired horizontally at 10 m/s from a cliff. Its speed one second after being fired is about",
+        "answer": 1,
+        "choices": [
+            "10 m/s",
+            "14 m/s",
+            "16 m/s",
+            "20 m/s"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the cannonball is fired horizontally, meaning there is no vertical component to its initial velocity. Identify the initial conditions, including the horizontal velocity (10 m/s) and the height from which it is fired.",
+        "instruction 2": "Consider the effect of gravity on the cannonball's motion, recognizing that its vertical velocity will increase due to the acceleration of gravity (g = 9.8 m/s^2). Calculate the vertical component of the cannonball's velocity after one second, and then combine this with the initial horizontal velocity to determine the total velocity."
+    },
+    {
+        "question": "The average speed of a gazelle traveling a distance of 2 km in a time of one-half hour is",
+        "answer": 2,
+        "choices": [
+            "1 km/h",
+            "2 km/h",
+            "4 km/h",
+            "greater than 4 km/h"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Calculate the total time taken by the gazelle to travel the distance, which is given as one-half hour.",
+        "instruction 2": "Use the formula for average speed (distance / time) to find the average speed of the gazelle, substituting the given values for distance and time."
+    },
+    {
+        "question": "The metal detectors people walk through at airports operate via",
+        "answer": 1,
+        "choices": [
+            "Ohm’s law",
+            "Faraday’s law",
+            "Coulomb’s law",
+            "Newton’s laws"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary mechanism by which metal detectors function, such as electromagnetic induction or resonant coil detection, to understand how they detect metallic objects.",
+        "instruction 2": "Consider the specific design and operation of airport metal detectors, including the use of coils, magnets, and sensors, to explain how they can accurately detect and alert security personnel to the presence of metallic items."
+    },
+    {
+        "question": "Sound travels in",
+        "answer": 3,
+        "choices": [
+            "solids",
+            "liquids",
+            "gases",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical medium through which sound waves typically propagate, such as air, water, or solids, and explain the underlying principles governing sound transmission.",
+        "instruction 2": "Consider how the properties of the medium, such as density and elasticity, influence the speed and behavior of sound waves, and discuss any exceptions or limitations to this general description."
+    },
+    {
+        "question": "When a fusion reaction converts a pair of hydrogen isotopes to an alpha particle and a neutron most of the energy released is in the form of",
+        "answer": 2,
+        "choices": [
+            "gamma radiation.",
+            "kinetic energy of the alpha particle.",
+            "kinetic energy of the neutron.",
+            "All of these about equally."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key components of the fusion reaction, including the hydrogen isotopes and the resulting particles, to understand the energy release process.",
+        "instruction 2": "Consider the kinetic energy of the particles involved, particularly the alpha particle and the neutron, to determine which particles would likely carry the majority of the released energy."
+    },
+    {
+        "question": "Polarization is a property of",
+        "answer": 0,
+        "choices": [
+            "transverse waves.",
+            "longitudinal waves.",
+            "all waves.",
+            "None of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical properties of materials that are typically associated with polarization, such as electric or magnetic properties, and how these properties can be manipulated to create polarized materials.",
+        "instruction 2": "Consider how the concept of polarization applies to various fields, such as optics, electromagnetism, and materials science, and how it is used to describe the behavior of light, electric charges, and other phenomena."
+    },
+    {
+        "question": "The phenomenon of beats results from sound",
+        "answer": 1,
+        "choices": [
+            "reflection.",
+            "refraction.",
+            "interference.",
+            "All of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental principle behind the phenomenon of beats, which involves the interference between two sound waves with slightly different frequencies.",
+        "instruction 2": "Consider how the resulting amplitude variations, or beats, are perceived by the human ear, and how the frequency difference between the two sound waves affects the frequency and amplitude of the beats."
+    },
+    {
+        "question": "The lowest possible temperature is absolute zero, at",
+        "answer": 2,
+        "choices": [
+            "0 kelvin",
+            "−273°C",
+            "Both are the same",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental principle in thermodynamics that defines the lowest possible temperature, which is related to the concept of entropy and the idea of a perfect crystal lattice.",
+        "instruction 2": "Consider the theoretical and practical limitations to achieving absolute zero, including the challenges of cooling materials to such low temperatures and the potential implications for scientific research and technological advancements."
+    },
+    {
+        "question": "Refraction occurs when a wave crosses a boundary and changes",
+        "answer": 0,
+        "choices": [
+            "speed and direction",
+            "intensity",
+            "frequency",
+            "amplitude"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key aspects of refraction, focusing on the change in wave behavior as it crosses a boundary, such as the bending of light or sound waves.",
+        "instruction 2": "Consider the factors that influence refraction, such as the angle of incidence, the angle of refraction, and the properties of the two media involved, to explain how these factors impact the refraction process."
+    },
+    {
+        "question": "When you tap a piece of wood, it will produce a characteristic sound related to its",
+        "answer": 3,
+        "choices": [
+            "wavelength",
+            "amplitude",
+            "period",
+            "natural frequency"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical properties of wood that affect the sound produced when tapped, such as density, grain direction, and moisture content.",
+        "instruction 2": "Consider how the structure and composition of the wood, including its cellular makeup and any imperfections or defects, contribute to the unique sound produced when tapped."
+    },
+    {
+        "question": "When wind speeds up as it blows over the top of a hill, atmospheric pressure there",
+        "answer": 1,
+        "choices": [
+            "increases",
+            "decreases",
+            "isn’t affected",
+            "reduces to zero"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the relationship between wind speed and atmospheric pressure, recognizing that wind speed increases as atmospheric pressure decreases.",
+        "instruction 2": "Consider the effects of wind blowing over the top of a hill, including the potential for wind speed increases due to the reduction in atmospheric pressure, and any other relevant factors that may influence the relationship between wind speed and atmospheric pressure."
+    },
+    {
+        "question": "When white light passes through a prism, the light that bends more than green is",
+        "answer": 2,
+        "choices": [
+            "red",
+            "yellow",
+            "blue",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the concept of refraction and how it applies to white light passing through a prism, focusing on the bending of light due to differences in speed and density between the prism and the surrounding medium.",
+        "instruction 2": "Consider the relationship between the angle of refraction and the wavelength of light, using the fact that shorter wavelengths (like violet) bend more than longer wavelengths (like red) to determine which color of light bends more than green."
+    },
+    {
+        "question": "If you travel at high speed, then compared with your friends who “stay at home,” you are",
+        "answer": 1,
+        "choices": [
+            "older.",
+            "younger.",
+            "neither younger nor older.",
+            "longer."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the context and assumption behind the statement, considering the perspective of the traveler and their friends who remain stationary.",
+        "instruction 2": "Analyze how the concept of speed and movement affects the traveler's frame of reference, exploring how their experience and perception might differ from those of their friends who do not travel at high speed."
+    },
+    {
+        "question": "The component of velocity that can remain constant for a tossed baseball is",
+        "answer": 0,
+        "choices": [
+            "horizontal",
+            "vertical",
+            "Either of these",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the components of velocity, specifically the horizontal and vertical components, and explain how they relate to the motion of the baseball.",
+        "instruction 2": "Consider the conditions under which the vertical component of velocity could remain constant, such as when the ball is in a state of free fall, and how this might impact the overall motion of the ball."
+    },
+    {
+        "question": "The crystals that make up minerals are composed of",
+        "answer": 0,
+        "choices": [
+            "atoms with a definite geometrical arrangement.",
+            "molecules that perpetually move.",
+            "X-ray patterns.",
+            "3-dimensional chessboards."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key components of minerals, including the types of atoms and molecules that form their crystal structures, and how these components interact to create the mineral's unique properties.",
+        "instruction 2": "Consider the geological processes that influence the formation and composition of minerals, such as temperature, pressure, and chemical reactions, to better understand how the crystals that make up minerals are created."
+    },
+    {
+        "question": "Two vectors, one 3 N and the other 4 N, can have a resultant of",
+        "answer": 1,
+        "choices": [
+            "0 N",
+            "5 N",
+            "8 N",
+            "Any of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the direction of the resultant vector by finding the angle between the two given vectors, considering the magnitude and direction of each vector.",
+        "instruction 2": "Use the concept of vector addition to calculate the magnitude of the resultant vector, taking into account the sum of the components of the two given vectors in both the x and y directions, if applicable."
+    },
+    {
+        "question": "Radioactivity has been around on Earth since the",
+        "answer": 3,
+        "choices": [
+            "middle of the 1900s",
+            "Industrial Revolution",
+            "advent of medical technology",
+            "Earth formed"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Research the geological history of the Earth to identify the earliest recorded instances of radioactivity, considering factors such as the formation of the Earth's crust and the presence of radioactive elements.",
+        "instruction 2": "Evaluate the impact of human activities on the natural levels of radioactivity in the environment, such as the effects of nuclear testing, mining, and waste disposal on the global radioactivity levels."
+    },
+    {
+        "question": "When the shadow of the Moon falls on Earth, we have a",
+        "answer": 1,
+        "choices": [
+            "lunar eclipse.",
+            "solar eclipse.",
+            "solar eclipse if it’s daytime and lunar eclipse if it’s nighttime.",
+            "very dangerous event."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific astronomical event being described, which is the Moon's shadow falling on Earth, and determine the relevant celestial mechanics and astronomical concepts involved, such as lunar eclipses and Earth's rotation.",
+        "instruction 2": "Consider the different types of eclipses, including solar and lunar eclipses, and the specific conditions required for a lunar eclipse to occur, including the alignment of the Earth, Moon, and Sun."
+    },
+    {
+        "question": "In both fission and fusion, energy is released while mass",
+        "answer": 0,
+        "choices": [
+            "decreases",
+            "remains unchanged; is conserved",
+            "increases",
+            "may decrease or increase"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the common thread between fission and fusion reactions, namely the release of energy, and consider the underlying physical principles that govern these processes.",
+        "instruction 2": "Explain the difference in the mass-energy conversion between fission and fusion reactions, highlighting the role of nuclear reactions and the resulting changes in mass and energy."
+    },
+    {
+        "question": "When relatively slow-moving molecules condense from the air, the temperature of the remaining air tends to",
+        "answer": 2,
+        "choices": [
+            "remain unchanged",
+            "decrease",
+            "increase",
+            "spread out uniformly"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the process of condensation and its relationship to the temperature of the air, considering how the rate of condensation affects the remaining air temperature.",
+        "instruction 2": "Evaluate the role of heat transfer and energy conservation in the condensation process, explaining how the remaining air temperature responds to the removal of heat energy as molecules condense."
+    },
+    {
+        "question": "If the volume of an object were to double, with no change in mass, its density would",
+        "answer": 0,
+        "choices": [
+            "halve.",
+            "double.",
+            "be the same.",
+            "None of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Define density as mass per unit volume and identify the relationship between volume and mass in this scenario, recognizing that the mass remains constant.",
+        "instruction 2": "Apply the concept of density to the given situation, determining how the change in volume affects the object's density and explaining the resulting relationship between volume and density."
+    },
+    {
+        "question": "The pressure at the bottom of a pond does NOT depend on the",
+        "answer": 3,
+        "choices": [
+            "acceleration due to gravity.",
+            "water density.",
+            "depth of the pond.",
+            "surface area of the pond."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key factors that affect pressure at the bottom of a pond, such as the weight of the water column above, the density of the water, and the depth of the pond.",
+        "instruction 2": "Consider how the pressure at the bottom of the pond would change if the density of the water were to increase or decrease, and how this would impact the pressure at the bottom, ensuring to exclude the pressure factor mentioned in the question as it is explicitly stated to not depend on it."
+    },
+    {
+        "question": "The blueness of the daytime sky is due mostly to light",
+        "answer": 3,
+        "choices": [
+            "absorption",
+            "transmission",
+            "reflection",
+            "scattering"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary cause of the blueness of the daytime sky, focusing on the interaction between light and the Earth's atmosphere.",
+        "instruction 2": "Consider the role of Rayleigh scattering and Mie scattering in scattering shorter wavelengths of light, such as blue and violet, in the atmosphere, and how this contributes to the observed blue color of the sky."
+    },
+    {
+        "question": "A galvanometer can be calibrated to read electric",
+        "answer": 2,
+        "choices": [
+            "current",
+            "voltage",
+            "Either of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the purpose of a galvanometer, specifically its ability to measure electrical quantities, and how it is typically used in electrical circuits.",
+        "instruction 2": "Consider the calibration process of a galvanometer, including the methods used to adjust its sensitivity and accuracy, and how this calibration affects its ability to accurately measure electrical signals."
+    },
+    {
+        "question": "Which of these temperatures is likely when a container of water at 20°C is mixed with water at 28°C?",
+        "answer": 1,
+        "choices": [
+            "19°C",
+            "22°C",
+            "30°C",
+            "Higher than 30°C"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the concept of thermal equilibrium and its application to the mixing of two liquids with different initial temperatures.",
+        "instruction 2": "Calculate the average temperature of the mixed water using the formula (initial temperature of first container + initial temperature of second container) / 2, ensuring to account for the temperature change during the mixing process."
+    },
+    {
+        "question": "To view your full-face image in a steamy mirror compared with the height of your face the minimum height of the patch to wipe away is",
+        "answer": 1,
+        "choices": [
+            "one-quarter.",
+            "one-half.",
+            "the same.",
+            "dependent on your distance from the mirror."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the relationship between the height of the face and the minimum height of the patch needed to wipe away condensation from a steamy mirror, considering the physical properties of water and the angle of view.",
+        "instruction 2": "Estimate the height of the face and the height of the patch needed to effectively wipe away the condensation, taking into account any relevant factors such as the size of the mirror and the amount of steam."
+    },
+    {
+        "question": "The vibrations in a transverse wave move in a direction",
+        "answer": 1,
+        "choices": [
+            "along the wave",
+            "perpendicular to the wave",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the direction of the vibrations in a transverse wave, considering the wave's motion perpendicular to its direction of propagation.",
+        "instruction 2": "Explain how the vibrations in a transverse wave differ from those in a longitudinal wave, highlighting the distinct characteristics of each type of wave motion."
+    },
+    {
+        "question": "A 1134-Hz tuning fork is sounded at the same time a piano note is struck. You hear three beats per second. The frequency of the piano string is",
+        "answer": 3,
+        "choices": [
+            "1131 Hz",
+            "1134 Hz",
+            "1137 Hz",
+            "More information is needed"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the beats per second are the result of the difference between the frequencies of the two sounds, with the piano string frequency being the unknown variable.",
+        "instruction 2": "Set up an equation using the given information, relating the beats per second to the difference between the frequencies of the tuning fork and the piano string, and solve for the piano string frequency."
+    },
+    {
+        "question": "Huygens’ principle for light is primarily described by",
+        "answer": 0,
+        "choices": [
+            "waves",
+            "rays",
+            "particles",
+            "photons"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key concept of Huygens' principle, which is the idea that every point on a wave front acts as a source of spherical waves, allowing the wave front to be visualized as a series of concentric spheres.",
+        "instruction 2": "Consider how this principle applies to the behavior of light, specifically in the context of diffraction and interference, and how it can be used to explain phenomena such as the formation of shadows and the properties of optical instruments."
+    },
+    {
+        "question": "When the temperature of a strip of iron is increased, the length of the strip",
+        "answer": 0,
+        "choices": [
+            "also increases.",
+            "actually decreases.",
+            "may increase and may decrease.",
+            "decreases in width as it gets longer."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the phenomenon being described, namely thermal expansion, and its relationship to temperature changes in materials.",
+        "instruction 2": "Consider the underlying physical mechanisms driving this expansion, such as the increase in kinetic energy and molecular vibrations, and how these affect the strip's length."
+    },
+    {
+        "question": "When light undergoes interference, it can sometimes",
+        "answer": 1,
+        "choices": [
+            "build up to more than the sum of amplitudes",
+            "cancel completely",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Explain the concept of interference in light, focusing on the principles of wave superposition and the resulting patterns of constructive and destructive interference.",
+        "instruction 2": "Describe the conditions under which interference occurs, such as the presence of multiple light sources or the interaction of light with different media, and how these conditions affect the resulting interference patterns."
+    },
+    {
+        "question": "When the color yellow is seen on your TV screen the phosphors being activated on the screen are",
+        "answer": 3,
+        "choices": [
+            "mainly yellow.",
+            "blue and red.",
+            "green and yellow.",
+            "red and green."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the type of phosphors used in CRT TVs to produce colors on the screen, such as red, green, and blue phosphors.",
+        "instruction 2": "Consider how the combination of these phosphors, along with the way they are activated by the electron beam, produces the color yellow on the TV screen, taking into account the additive color mixing principle."
+    },
+    {
+        "question": "Which of these does NOT belong in the family of electromagnetic waves?",
+        "answer": 1,
+        "choices": [
+            "Light",
+            "Sound",
+            "Radio waves",
+            "X-rays"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the characteristics and properties of electromagnetic waves, such as their frequency, wavelength, and ability to propagate through a vacuum.",
+        "instruction 2": "Compare the properties of each option with the established characteristics of electromagnetic waves, evaluating which one does not share the same fundamental nature or properties."
+    },
+    {
+        "question": "A math book and a physics book sitting on a table are tied together with a length of string. With the string taut one book is pushed off the edge of the table. As it falls the other book is dragged horizontally across the table surface. With no friction acceleration of the books is",
+        "answer": 3,
+        "choices": [
+            "zero",
+            "g/2",
+            "g",
+            "a value between zero and g"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the initial condition of the system, where the string is taut and the books are tied together, and describe the subsequent motion of the books as one book falls and the other is dragged.",
+        "instruction 2": "Apply Newton's second law to the falling book, considering the force of gravity and the tension in the string, and then analyze the motion of the horizontally moving book, taking into account the force exerted by the falling book and the string's tension."
+    },
+    {
+        "question": "A motor and a generator are",
+        "answer": 0,
+        "choices": [
+            "similar devices",
+            "very different devices",
+            "forms of transformers",
+            "energy sources"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key similarities and differences between a motor and a generator, focusing on their primary functions and the direction of energy flow.",
+        "instruction 2": "Consider how the conversion of electrical energy into mechanical energy (motor) or vice versa (generator) affects the overall efficiency and application of these devices in various systems and industries."
+    },
+    {
+        "question": "As more lamps are connected in parallel in a circuit the current in the power source",
+        "answer": 0,
+        "choices": [
+            "increases.",
+            "decreases.",
+            "remains much the same.",
+            "Need more information."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the relationship between the number of lamps connected in parallel and the current in the power source, considering the principles of circuit analysis and the concept of equivalent resistance.",
+        "instruction 2": "Evaluate how the increased number of lamps affects the total current drawn from the power source, taking into account the assumption that the voltage remains constant and the lamps are identical."
+    },
+    {
+        "question": "Newton’s law of cooling applies to objects that",
+        "answer": 2,
+        "choices": [
+            "cool",
+            "warm up",
+            "Both",
+            "Neither"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key components of Newton's law of cooling, such as the relationship between the object's temperature and the surrounding environment, as well as the concept of heat transfer.",
+        "instruction 2": "Consider the conditions under which Newton's law of cooling is applicable, such as the assumption of a uniform ambient temperature and the object's ability to achieve thermal equilibrium with its surroundings."
+    },
+    {
+        "question": "The fact that the Moon always shows its same face to Earth is evidence that the Moon rotates about its axis about once per",
+        "answer": 1,
+        "choices": [
+            "day",
+            "month",
+            "year",
+            "None of these for the moon does not rotate about an axis"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key feature of the Moon's rotation that is responsible for it always showing the same face to Earth, such as its synchronous rotation with the Earth.",
+        "instruction 2": "Consider the implications of this feature, including the fact that the Moon's rotation is tidally locked to the Earth, and how this affects the Moon's apparent rotation period from our perspective on Earth."
+    },
+    {
+        "question": "Consider a ball rolling in a horizontal circular path on the inside surface of a cone. The normal force on the ball",
+        "answer": 1,
+        "choices": [
+            "is mg",
+            "is greater than mg always",
+            "may be greater or less than mg",
+            "is less than mg always"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the direction of the normal force acting on the ball, considering the shape of the cone and the path the ball is taking, which is in contact with the surface.",
+        "instruction 2": "Calculate the magnitude of the normal force, taking into account the forces acting on the ball, such as friction and the force of gravity, and the surface's curvature and the ball's velocity."
+    },
+    {
+        "question": "The compressions and rarefactions in sound normally travel",
+        "answer": 0,
+        "choices": [
+            "in the same direction",
+            "in opposite directions",
+            "at right angles to each other",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary components of sound waves, including compressions and rarefactions, and their typical direction of travel.",
+        "instruction 2": "Consider how the properties of sound waves, such as speed and frequency, influence the propagation of compressions and rarefactions, and how this relates to the overall transmission of sound."
+    },
+    {
+        "question": "The power required to raise a 100-kg crate a vertical distance of 2 m in a time of 4 s is",
+        "answer": 1,
+        "choices": [
+            "200 W",
+            "500 W",
+            "800 W",
+            "2000 W"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical parameters involved in the problem, such as the crate's mass, the distance it is raised, and the time taken, and determine the relevant physical quantity to be calculated (power).",
+        "instruction 2": "Set up the formula for power (P) in terms of the given parameters, using the formula P = F \\* v, where F is the force required to lift the crate and v is its velocity, and then calculate the force required to lift the crate."
+    },
+    {
+        "question": "The phenomenon of beats is the result of sound",
+        "answer": 1,
+        "choices": [
+            "destruction",
+            "interference",
+            "resonance",
+            "amplification"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Define the concept of beats in sound and identify the two primary factors that contribute to the occurrence of beats: frequency and amplitude.",
+        "instruction 2": "Explain how the interaction between the two sound waves, including the difference in frequency and amplitude, leads to the perception of beats and how this phenomenon is relevant to real-world applications such as music and acoustics."
+    },
+    {
+        "question": "Interference is characteristic of",
+        "answer": 3,
+        "choices": [
+            "sound waves",
+            "light waves",
+            "water waves",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the context in which interference is typically observed, such as in physics, chemistry, or biology, to establish the relevance of the concept to the given scenario.",
+        "instruction 2": "Consider how interference can manifest in different fields, such as electromagnetic waves, sound waves, or chemical reactions, and how it can impact the behavior of systems or processes."
+    },
+    {
+        "question": "In either a fission event or a fusion event, a quantity that remains unchanged is the",
+        "answer": 2,
+        "choices": [
+            "kinetic energy",
+            "mass",
+            "number of nucleons",
+            "binding of nucleons"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific physical quantity that remains constant during both fission and fusion reactions, such as the total mass of the reactants and products.",
+        "instruction 2": "Consider the underlying physics of each reaction, including the conservation of energy and momentum, to explain why this quantity remains unchanged despite the significant changes in the nuclear structure of the reactants and products."
+    },
+    {
+        "question": "The magnetic force on a moving charged particle can change the particle's",
+        "answer": 1,
+        "choices": [
+            "speed",
+            "direction",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental forces involved in the interaction between the charged particle and the magnetic field, including the Lorentz force and the particle's motion.",
+        "instruction 2": "Consider how the magnetic force can alter the particle's trajectory, momentum, or energy, depending on the strength and direction of the magnetic field, as well as the particle's initial velocity and charge."
+    },
+    {
+        "question": "If you were to travel at a speed close to the speed of light, you could notice that your own",
+        "answer": 3,
+        "choices": [
+            "mass changes.",
+            "pulse decreases.",
+            "Both of these.",
+            "Neither of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Explain the concept of time dilation and how it affects the experience of time for an observer traveling at relativistic speeds, considering the effects on clocks and the passage of time.",
+        "instruction 2": "Consider how the Lorentz transformation and the concept of length contraction would impact the measurement of time and space for an observer in motion, taking into account the relativistic velocity and the speed of light."
+    },
+    {
+        "question": "Electricity and magnetism connect to form",
+        "answer": 3,
+        "choices": [
+            "mass",
+            "energy",
+            "ultrahigh-frequency sound",
+            "light"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize the fundamental principles of electricity, such as the flow of electric charge, and the concept of magnetism, including the existence of magnetic fields and their interactions with electric currents.",
+        "instruction 2": "Explore the relationships between electric and magnetic fields, considering how the motion of charged particles or changing electric fields can generate magnetic fields, and vice versa, to establish the connection between the two concepts."
+    },
+    {
+        "question": "Sound travels in air by a series of",
+        "answer": 2,
+        "choices": [
+            "compressions",
+            "rarefactions",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical mechanism by which sound waves propagate through air, focusing on the compression and rarefaction of air molecules.",
+        "instruction 2": "Explain how the frequency and amplitude of sound waves affect the speed and range of sound propagation, considering factors such as air density and temperature."
+    },
+    {
+        "question": "When a cannonball is fired from a cannon, both the cannonball and the cannon experience equal",
+        "answer": 0,
+        "choices": [
+            "amounts of force",
+            "accelerations",
+            "Both",
+            "Neither"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical phenomenon being described, specifically the transfer of momentum and energy between the cannonball and the cannon during the firing process.",
+        "instruction 2": "Consider the principles of conservation of momentum and energy, explaining how the equal and opposite forces acting on the cannonball and the cannon result in the shared momentum and energy transfer."
+    },
+    {
+        "question": "The nucleus of an electrically neutral iron atom contains 26 protons. The number of electrons this iron atom has is",
+        "answer": 1,
+        "choices": [
+            "52",
+            "26",
+            "24",
+            "None."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the charge of the iron atom based on the number of protons in the nucleus, which is +26 due to the positive charge of protons.",
+        "instruction 2": "Since the iron atom is electrically neutral, the total number of electrons must be equal to the total positive charge, which is +26. Therefore, the number of electrons is also 26."
+    },
+    {
+        "question": "To say that a rose petal is red is to say that it",
+        "answer": 1,
+        "choices": [
+            "absorbs red",
+            "reflects red",
+            "emits red",
+            "transmits red"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the concept of 'redness' and how it relates to the rose petal, considering the properties of color and the rose petal's physical appearance.",
+        "instruction 2": "Explain how the statement 'a rose petal is red' can be understood as a statement about the rose petal's properties, such as its color, rather than making a claim about the rose petal's essence or intrinsic nature."
+    },
+    {
+        "question": "Compared with a sound of 60 decibels, a sound of 80 decibels has an intensity",
+        "answer": 1,
+        "choices": [
+            "10 times greater",
+            "100 times greater",
+            "1000 times greater",
+            "more than 1000 times greater"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that decibel levels are logarithmic, meaning that each 10-decibel increase represents a 10-fold increase in intensity.",
+        "instruction 2": "Use this understanding to calculate the ratio of the intensity of the 80-decibel sound to the 60-decibel sound, and express this ratio as a power of 10, to determine the correct comparison."
+    },
+    {
+        "question": "When red and blue light are overlapped, the color produced is",
+        "answer": 0,
+        "choices": [
+            "magenta",
+            "yellow",
+            "cyan",
+            "white"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the wavelengths of red and blue light, which are typically in the range of 620-750 nanometers and 450-495 nanometers, respectively.",
+        "instruction 2": "Explain how the overlap of these wavelengths results in the production of a new color, potentially using the concept of additive color mixing or the visible spectrum to support the explanation."
+    },
+    {
+        "question": "When 100 J are put into a device that puts out 40 J of useful work, the efficiency of the device is",
+        "answer": 0,
+        "choices": [
+            "40%",
+            "50%",
+            "60%",
+            "140%"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the given energy input (100 J) and the energy output (40 J) to calculate the efficiency of the device, using the formula efficiency = (output energy / input energy).",
+        "instruction 2": "Consider any potential losses or inefficiencies that may occur during the energy conversion process, such as heat dissipation or mechanical friction, to contextualize the calculated efficiency value."
+    },
+    {
+        "question": "Shock waves are produced by waves of sound",
+        "answer": 3,
+        "choices": [
+            "overlapping one another",
+            "constructively interfering",
+            "moving slower than the source producing them",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the mechanism by which sound waves can generate shock waves, such as the rapid compression and expansion of air molecules.",
+        "instruction 2": "Consider the physical properties of sound waves, such as frequency and amplitude, and how they contribute to the formation of shock waves, which can have significant effects on materials and structures."
+    },
+    {
+        "question": "A rock suspended by a weighing scale weighs 5 N out of water and 3 N when submerged in water. What is the buoyant force on the rock?",
+        "answer": 3,
+        "choices": [
+            "3 N",
+            "5 N",
+            "8 N",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the difference in weight between the rock when it is out of water and when it is submerged in water, which is 5 N - 3 N = 2 N.",
+        "instruction 2": "Apply the concept of buoyancy, recognizing that the buoyant force is equal to the weight of the fluid (water) displaced by the rock, and calculate the buoyant force accordingly."
+    },
+    {
+        "question": "The work done on a 100-kg crate that is hoisted 2 m in a time of 4 s is",
+        "answer": 3,
+        "choices": [
+            "200 J",
+            "500 J",
+            "800 J",
+            "2000 J"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the given information: mass of the crate (100 kg), height lifted (2 m), and time taken (4 s). Determine the force required to lift the crate, assuming a constant force is applied.",
+        "instruction 2": "Calculate the work done by multiplying the force required by the distance lifted, ensuring to consider any relevant units and conversions as needed."
+    },
+    {
+        "question": "A capacitor loses half its remaining charge every second. If after five seconds its charge is q what was its initial charge?",
+        "answer": 3,
+        "choices": [
+            "4q.",
+            "8q.",
+            "16q.",
+            "32q."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Determine the relationship between the capacitor's charge and the number of seconds it has been discharging, recognizing that the charge decreases by half every second.",
+        "instruction 2": "Use this relationship to find the initial charge by working backwards from the known charge after five seconds, q, and applying the appropriate mathematical operations to account for the successive reductions in charge."
+    },
+    {
+        "question": "The mass of an atom comes mostly from its _ ; and its volume from its _.",
+        "answer": 3,
+        "choices": [
+            "nucleons; nucleons.",
+            "electrons; electrons.",
+            "electrons; nucleons.",
+            "nucleons; electrons."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary contributor to the mass of an atom, which is the protons and neutrons in the nucleus.",
+        "instruction 2": "Consider how the electrons, which occupy the majority of the atom's volume, play a crucial role in determining the overall size of the atom, despite their relatively small mass compared to the nucleus."
+    },
+    {
+        "question": "The definition of magnetic inclination is the angle between",
+        "answer": 3,
+        "choices": [
+            "magnetic north and geographic north",
+            "magnetic north and geographic south",
+            "the earth’s magnetic field at any point and the vertical",
+            "the earth’s magnetic field at any point and the horizontal"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the two vectors involved in the definition of magnetic inclination, specifically the Earth's magnetic field and the horizontal plane.",
+        "instruction 2": "Determine the geometric relationship between these vectors, recognizing that the angle formed by their intersection is the magnetic inclination, which is an important factor in determining the direction of a compass needle."
+    },
+    {
+        "question": "The pitch of a sound is mostly related to its",
+        "answer": 1,
+        "choices": [
+            "intensity",
+            "frequency",
+            "amplitude",
+            "speed"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary physical characteristic of sound that determines its pitch, such as frequency or wavelength.",
+        "instruction 2": "Consider how the human auditory system perceives and interprets pitch, including the role of the ear and brain in processing sound waves and assigning meaning to different frequencies."
+    },
+    {
+        "question": "As more lamps are connected to a series circuit, the current in the power source",
+        "answer": 1,
+        "choices": [
+            "increases",
+            "decreases",
+            "remains the same",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key characteristic of a series circuit, which is that the same current flows through each component, and that the total resistance of the circuit is the sum of the individual resistances.",
+        "instruction 2": "Consider how the addition of more lamps to the circuit affects the total resistance and the resulting current in the power source, using Ohm's Law to relate voltage, current, and resistance in the circuit."
+    },
+    {
+        "question": "When an element ejects an alpha particle, the mass number of the resulting element",
+        "answer": 1,
+        "choices": [
+            "reduces by 2",
+            "reduces by 4",
+            "increases by 2",
+            "increases by 4"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the process by which an element loses an alpha particle, recognizing that this process involves a decrease in the element's atomic mass number.",
+        "instruction 2": "Determine the resulting element by applying the concept of atomic mass numbers and the loss of an alpha particle, considering the possible changes in the element's atomic number and mass number."
+    },
+    {
+        "question": "An electron can be speeded up by",
+        "answer": 0,
+        "choices": [
+            "an electric field",
+            "a magnetic field",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the context in which the electron is being accelerated, such as in a particle accelerator or under the influence of an electric field.",
+        "instruction 2": "Consider the factors that influence the acceleration of an electron, including the strength of the electric field, the mass of the electron, and any relevant energy considerations, to provide a comprehensive explanation of the acceleration process."
+    },
+    {
+        "question": "A certain element emits 1 alpha particle, and its products then emit 2 beta particles in succession. The atomic number of the resulting element is changed by",
+        "answer": 0,
+        "choices": [
+            "zero",
+            "minus 1",
+            "minus 2",
+            "plus 1"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the effects of alpha and beta particle emissions on the atomic number of an element, considering the loss or gain of protons and neutrons.",
+        "instruction 2": "Determine the net change in atomic number resulting from the sequence of alpha and beta particle emissions, taking into account the number of protons gained or lost in each emission."
+    },
+    {
+        "question": "When an object is set vibrating by a wave that has a matching frequency, what occurs is",
+        "answer": 1,
+        "choices": [
+            "forced vibration",
+            "resonance",
+            "refraction",
+            "amplitude reduction"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key concept of resonance, which occurs when an object vibrates in harmony with an external force or wave, such as a sound wave or light wave.",
+        "instruction 2": "Explain how resonance amplifies the energy transfer between the object and the wave, often resulting in increased amplitude or intensity, and consider the potential applications or consequences of this phenomenon in various fields."
+    },
+    {
+        "question": "The red glow in the neon tube of an advertising sign is a result of",
+        "answer": 2,
+        "choices": [
+            "fluorescence",
+            "incandescence",
+            "de-excitation",
+            "polarization"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental principle behind the operation of a neon tube, which involves the excitation of gas molecules by an electric current.",
+        "instruction 2": "Explain how the excited gas molecules emit light as they return to their ground state, specifically highlighting the role of the red color in the neon glow, which is often attributed to the emission of a specific wavelength of light."
+    },
+    {
+        "question": "At very high speeds, an object appears to an observer at rest to be",
+        "answer": 0,
+        "choices": [
+            "shorter in the direction of travel.",
+            "shrunken in all directions.",
+            "shorter in the direction perpendicular to travel.",
+            "longer in all directions."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the relevant physical phenomenon that occurs when an object approaches high speeds, such as time dilation or length contraction, and how it affects the observer's perception of the object.",
+        "instruction 2": "Consider the implications of this phenomenon on the apparent properties of the object, such as its length or time, and how these changes might be observed or measured by the stationary observer."
+    },
+    {
+        "question": "When a wave moves from shallow water to deep water, the",
+        "answer": 1,
+        "choices": [
+            "frequency decreases, the wavelength increases, and the speed increases",
+            "frequency does not change, the wavelength increases, and the speed increases",
+            "frequency does not change, the wavelength decreases, and the speed decreases",
+            "frequency does not change, the wavelength increases, and the speed decreases"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key physical properties that change when a wave moves from shallow water to deep water, such as the water depth, wavelength, and amplitude.",
+        "instruction 2": "Consider how these changes affect the wave's behavior, including the relationship between the wave's speed, frequency, and depth, as well as any potential changes in wave shape or refraction."
+    },
+    {
+        "question": "When you drop a ball from rest it accelerates downward at 9.8 m/s^2. If you instead throw it downward assuming no air resistance its acceleration immediately after leaving your hand is",
+        "answer": 0,
+        "choices": [
+            "9.8 m/s2",
+            "more than 9.8 m/s2",
+            "less than 9.8 m/s2",
+            "Cannot say unless the speed of throw is given."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the acceleration of the ball changes when it is thrown downward, as it is no longer at rest and is subject to the force of gravity.",
+        "instruction 2": "Consider the initial velocity of the ball and the acceleration due to gravity, using the equations of motion to determine the acceleration of the ball immediately after it leaves your hand, taking into account the effects of gravity and the absence of air resistance."
+    },
+    {
+        "question": "Carbon-14 is primarily produced by cosmic radiation in the",
+        "answer": 0,
+        "choices": [
+            "atmosphere",
+            "food we eat",
+            "Earth’s interior",
+            "fallout of nuclear bomb tests"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary source of Carbon-14 production, which is cosmic radiation, and explain how this process occurs.",
+        "instruction 2": "Consider the specific conditions and circumstances under which cosmic radiation interacts with atmospheric nitrogen to produce Carbon-14, and discuss how this process contributes to the global distribution of Carbon-14."
+    },
+    {
+        "question": "Chain reactions in a fission reactor are caused by",
+        "answer": 3,
+        "choices": [
+            "kinetic energy",
+            "energy conversion",
+            "mass conversion",
+            "ejected neutrons"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary mechanism by which fission reactions occur, such as the splitting of heavy isotopes like uranium-235 into lighter elements.",
+        "instruction 2": "Explain how the release of energy from fission reactions can lead to a chain reaction, including the role of neutrons in inducing subsequent fission events and the importance of critical mass in sustaining the reaction."
+    },
+    {
+        "question": "Satellites in circular Earth orbit maintain a constant speed because gravitational force on them is",
+        "answer": 3,
+        "choices": [
+            "zero",
+            "practically zero",
+            "appreciably weaker than at Earth’s surface",
+            "without a component of force along their circular path"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the gravitational force acting on the satellite is proportional to the mass of the Earth and the square of the distance between the satellite and the center of the Earth.",
+        "instruction 2": "Consider how the constant speed of the satellite is maintained due to the balance between the gravitational force and the centrifugal force acting on the satellite, which is a result of its circular motion."
+    },
+    {
+        "question": "The complementary color of blue is",
+        "answer": 1,
+        "choices": [
+            "magenta",
+            "yellow",
+            "cyan",
+            "white"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental principle of color theory that defines complementary colors, such as the fact that they are directly opposite each other on the color wheel.",
+        "instruction 2": "Use this principle to determine the complementary color of blue, which can be found by identifying the color that is directly across from blue on the color wheel, typically orange or its various shades."
+    },
+    {
+        "question": "The difference between dc and ac in electric circuits is that in dc, charges flow",
+        "answer": 1,
+        "choices": [
+            "steadily in one direction",
+            "in one direction",
+            "to and fro",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary characteristic of direct current (dc) that distinguishes it from alternating current (ac), focusing on the direction and flow of electric charges.",
+        "instruction 2": "Consider the implications of this difference on the behavior of electric circuits, including the role of resistors, capacitors, and inductors in dc and ac systems."
+    },
+    {
+        "question": "To receive an electric shock there must be a",
+        "answer": 3,
+        "choices": [
+            "current in one direction.",
+            "presence of moisture.",
+            "high voltage and low body resistance.",
+            "voltage difference across part or all of your body."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the necessary conditions for receiving an electric shock, such as the presence of an electrical current and a path for the current to flow.",
+        "instruction 2": "Consider the role of insulation, grounding, and other safety measures in preventing electric shock, as well as the importance of proper electrical installation and maintenance to ensure electrical safety."
+    },
+    {
+        "question": "A karate chop delivers a force of 3000 N to a board that breaks. The force that the board exerts on the hand during this event is",
+        "answer": 1,
+        "choices": [
+            "less than 3000 N",
+            "3000 N",
+            "greater than 3000 N",
+            "Need more information"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the force exerted by the hand on the board is equal in magnitude but opposite in direction to the force exerted by the board on the hand, due to the law of action and reaction.",
+        "instruction 2": "Apply Newton's third law to determine the force exerted by the board on the hand, which is -3000 N, considering the direction of the force as being opposite to the force applied by the hand."
+    },
+    {
+        "question": "Find the speed of a wave by multiplying its frequency by its",
+        "answer": 1,
+        "choices": [
+            "period",
+            "wavelength",
+            "amplitude",
+            "None of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize the relationship between frequency and wavelength in the context of wave propagation, as well as the definition of speed in terms of distance and time.",
+        "instruction 2": "Derive the formula for the speed of a wave by combining the relationships between frequency, wavelength, and speed, ensuring to account for the correct units and conversion factors where necessary."
+    },
+    {
+        "question": "The magnitude of the gravitational force on a satellite is constant if the orbit is",
+        "answer": 1,
+        "choices": [
+            "parabolic",
+            "circular",
+            "elliptical",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the conditions under which the gravitational force on a satellite would remain constant, such as the satellite being in a circular orbit around a celestial body with a constant mass.",
+        "instruction 2": "Consider how the gravitational force would change if the satellite's orbit were not circular, such as in the case of an elliptical orbit, and evaluate the implications for the magnitude of the gravitational force."
+    },
+    {
+        "question": "The impulse–momentum relationship is a direct result of Newton’s",
+        "answer": 1,
+        "choices": [
+            "first law",
+            "second law",
+            "third law",
+            "law of gravity"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Review Newton's laws, specifically the second law (F = ma), to understand the connection between force and acceleration.",
+        "instruction 2": "Consider how the concept of impulse, which is the product of force and time, relates to the concept of momentum, which is the product of mass and velocity, to establish the direct relationship between the two."
+    },
+    {
+        "question": "A common nuclear fission reactor",
+        "answer": 0,
+        "choices": [
+            "heats water",
+            "generates electricity directly",
+            "gets energy from nothing",
+            "is a major polluter of the atmosphere"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific type of nuclear reactor being described, such as pressurized water reactors or boiling water reactors, and research its characteristics, advantages, and common applications.",
+        "instruction 2": "Consider the key components, operating principles, and safety features of this type of reactor, evaluating its role in the global nuclear energy landscape and potential future developments."
+    },
+    {
+        "question": "The process of boiling water tends to",
+        "answer": 1,
+        "choices": [
+            "warm the water",
+            "cool the water",
+            "Both",
+            "Neither"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical changes that occur during the boiling process, such as the transition of liquid water to steam, and the increased kinetic energy of the molecules.",
+        "instruction 2": "Consider the factors that influence the boiling point of water, including atmospheric pressure, temperature, and the presence of impurities or contaminants, to determine how these variables impact the boiling process."
+    },
+    {
+        "question": "When you scale up an object to 3 times its linear size, the surface area increases by",
+        "answer": 2,
+        "choices": [
+            "3 and the volume by 9.",
+            "3 and the volume by 27.",
+            "9 and the volume by 27.",
+            "4 and the volume by 8."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the surface area of an object is directly proportional to its linear size, and that scaling up the object will result in an increase in surface area.",
+        "instruction 2": "Apply the concept of surface area scaling to the specific problem, considering the relationship between the original object's surface area and its linear size, and calculating the corresponding increase in surface area for the scaled-up object."
+    },
+    {
+        "question": "If you change the magnetic field in a closed loop of wire, what is created in the loop is a(n)",
+        "answer": 3,
+        "choices": [
+            "current",
+            "voltage",
+            "electric field",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical phenomenon that occurs when a magnetic field changes within a closed loop of wire, which is a fundamental principle in electromagnetism.",
+        "instruction 2": "Consider the relationship between the changing magnetic field and the induced electric current, and explain how this process is related to the concept of electromagnetic induction."
+    },
+    {
+        "question": "Clocks on a fast-moving spaceship whizzing past Earth appear to run slow when viewed from",
+        "answer": 1,
+        "choices": [
+            "inside the spaceship.",
+            "Earth.",
+            "Both of these.",
+            "Neither of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key concept related to time dilation, which is a consequence of special relativity, that explains why clocks on a fast-moving spaceship would appear to run slow when viewed from Earth.",
+        "instruction 2": "Consider how the relative motion between the spaceship and Earth affects the measurement of time, and how this effect would be observed by an observer on Earth, taking into account the principles of relativity and the concept of simultaneity."
+    },
+    {
+        "question": "The model of light most supported by the photoelectric effect is the",
+        "answer": 1,
+        "choices": [
+            "wave model",
+            "particle model",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Review the key findings and principles associated with the photoelectric effect, including the relationship between light intensity, frequency, and energy transfer.",
+        "instruction 2": "Evaluate the implications of the photoelectric effect on our understanding of light, considering how it supports or contradicts various light models, such as wave-particle duality, and identify the most supported model."
+    },
+    {
+        "question": "Compared with a fundamental tone, the frequency of its second harmonic is",
+        "answer": 1,
+        "choices": [
+            "half as much",
+            "twice as much",
+            "the same",
+            "four times as much"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental tone and its harmonic frequencies, recognizing that the second harmonic is one octave higher than the fundamental tone.",
+        "instruction 2": "Use the relationship between the fundamental tone and its harmonics to calculate the frequency of the second harmonic, ensuring to apply the correct mathematical formula for determining harmonic frequencies.\" }\n\nPlease provide the reasoning steps and constraints for the following question:\n\nQuestion: What is the average rate of change of the function f(x) = 3x^2 + 2x - 5 with respect to x, evaluated at x = 2? Reasoning steps: _______ (Please fill in the instructions) Constraints: _______ (Please fill in the constraints) \n\nPlease provide your response in plain text JSON format. \n\nExample:\n{\n  \"instruction 1\": \"Identify the function f(x) = 3x^2 + 2x - 5 and determine its derivative to find the average rate of change."
+    },
+    {
+        "question": "A string is plucked producing four loops (antinodes). The length of the string is 12.00 m. The wavelength of the wave must be",
+        "answer": 2,
+        "choices": [
+            "48.0 m",
+            "24.0 m",
+            "6.00 m",
+            "3.00 m"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Use the relationship between the wavelength and the length of the string to determine the wavelength, considering the number of loops (antinodes) and the length of the string.",
+        "instruction 2": "Apply the formula for wavelength, using the given length of the string and the number of loops, to calculate the wavelength of the wave."
+    },
+    {
+        "question": "During the time an aircraft produces a sonic boom, the aircraft is",
+        "answer": 2,
+        "choices": [
+            "breaking the sound barrier",
+            "pulling out of a subsonic dive",
+            "flying faster than sound",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific conditions under which an aircraft produces a sonic boom, typically involving supersonic flight and the breaking of the sound barrier.",
+        "instruction 2": "Consider the physical properties of sound waves and the effects of air pressure and temperature on the production of sonic booms, as well as any relevant regulations or safety considerations."
+    },
+    {
+        "question": "The principal source of Earth’s internal energy is",
+        "answer": 2,
+        "choices": [
+            "tidal friction",
+            "gravitational pressure",
+            "radioactivity",
+            "geothermal heat"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Research the primary sources of internal energy within the Earth, focusing on the most significant contributor to the planet's internal heat budget.",
+        "instruction 2": "Consider the processes that generate this internal energy, such as radioactive decay, primordial heat, and gravitational energy release, and evaluate their relative contributions to the Earth's internal energy budget."
+    },
+    {
+        "question": "When you brush your hair and scrape electrons from your hair, the charge of your hair becomes",
+        "answer": 0,
+        "choices": [
+            "positive",
+            "negative",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the process of electron transfer during hair brushing, recognizing that this involves the transfer of electrons from the hair shaft to the brush or other surfaces.",
+        "instruction 2": "Consider the resulting charge of the hair based on the number of electrons transferred, taking into account the hair's initial neutral charge and the direction of electron flow."
+    },
+    {
+        "question": "Astrophysicists are able to identify the elements in the outer layers of a star by studying its",
+        "answer": 3,
+        "choices": [
+            "Doppler effect.",
+            "molecular structure.",
+            "temperature.",
+            "spectrum."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific layers of a star that are being referred to, such as the outer layers, and the methods by which astrophysicists can analyze these layers, such as spectroscopy or spectral analysis.",
+        "instruction 2": "Consider how the composition of the outer layers of a star, including the presence of certain elements, can be inferred through the analysis of light emitted or absorbed by the star, taking into account factors such as temperature, pressure, and density."
+    },
+    {
+        "question": "Relativistic equations for time dilation length contraction and relativistic momentum and energy hold true",
+        "answer": 2,
+        "choices": [
+            "at speeds near that of light.",
+            "at everyday low speeds.",
+            "at all speeds.",
+            "only approximately."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Review the fundamental principles of special relativity, including the concepts of time dilation, length contraction, and relativistic momentum and energy.",
+        "instruction 2": "Consider the mathematical derivations and experimental evidence supporting these equations, as well as any limitations or exceptions that may apply in specific scenarios, such as high-speed particle collisions or gravitational fields."
+    },
+    {
+        "question": "In his special theory of relativity, Einstein stated that the laws of physics are",
+        "answer": 3,
+        "choices": [
+            "different in different situations.",
+            "common sense applied to microscopic and macroscopic things.",
+            "the same in all frames of reference.",
+            "the same in all uniformly moving frames of reference."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the core concept in Einstein's special theory of relativity that describes the invariance of physical laws, such as the idea that the laws of physics are the same for all observers in uniform motion relative to one another.",
+        "instruction 2": "Consider how this concept relates to the principles of relativity, including time dilation and length contraction, to demonstrate how the laws of physics remain consistent across different reference frames and observers."
+    },
+    {
+        "question": "When an element ejects a beta particle, the atomic number of that element",
+        "answer": 1,
+        "choices": [
+            "reduces by 1",
+            "increases by 1",
+            "reduces by 2",
+            "increases by 2"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the type of radioactive decay being described, which involves the emission of beta particles.",
+        "instruction 2": "Explain how the emission of a beta particle affects the atomic number of the element, considering the changes in the number of protons and neutrons in the nucleus and how this impacts the element's identity."
+    },
+    {
+        "question": "The amount of heat transferred to a system can be measured in",
+        "answer": 2,
+        "choices": [
+            "calories",
+            "joules",
+            "Either",
+            "Neither"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the units of measurement commonly used to quantify heat transfer, such as joules (J) or calories (cal), and consider the context in which heat transfer is being measured.",
+        "instruction 2": "Evaluate the different methods used to measure heat transfer, including calorimetry, thermometry, and other techniques, to determine the most suitable approach for a given situation."
+    },
+    {
+        "question": "Compared with the sound you hear from the siren of a stationary fire engine, its sound when it approaches you has an increased",
+        "answer": 1,
+        "choices": [
+            "speed",
+            "frequency",
+            "Both of these",
+            "Neither of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the physical phenomenon responsible for the change in the sound heard when the fire engine approaches, such as the Doppler effect.",
+        "instruction 2": "Explain how the Doppler effect contributes to the increased pitch of the sound, taking into account the relative motion between the fire engine and the observer."
+    },
+    {
+        "question": "Light reflecting from a smooth surface undergoes a change in",
+        "answer": 3,
+        "choices": [
+            "frequency.",
+            "wavelength.",
+            "All of these.",
+            "None of these."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key physical properties of light that are affected when it interacts with a smooth surface, such as its angle of incidence, angle of reflection, or wavelength.",
+        "instruction 2": "Consider how the laws of reflection, such as the law of reflection or Snell's law, govern the behavior of light when it encounters a smooth surface, including any changes in direction or properties of the light."
+    },
+    {
+        "question": "What Einstein discovered about space and time is that they",
+        "answer": 1,
+        "choices": [
+            "are separate entities.",
+            "are parts of one whole.",
+            "follow an inverse-square law.",
+            "are special to space travelers."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental concept or theory that Einstein developed, such as the theory of relativity, which challenges traditional notions of space and time.",
+        "instruction 2": "Consider the implications of this concept on our understanding of the universe, including how it has influenced our understanding of gravity, motion, and the structure of spacetime."
+    },
+    {
+        "question": "All parts of a laser beam have the same",
+        "answer": 3,
+        "choices": [
+            "frequency",
+            "phase",
+            "speed",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental property of a laser beam that allows all parts of the beam to have the same property, such as its monochromaticity, coherence, or directionality.",
+        "instruction 2": "Consider the physical mechanisms that enable this uniformity, such as the stimulated emission process or the amplification of photons, and how these mechanisms contribute to the characteristic properties of a laser beam."
+    },
+    {
+        "question": "The rotational inertia of an object is greater when most of the mass is located",
+        "answer": 1,
+        "choices": [
+            "near the rotational axis",
+            "away from the axis",
+            "on the rotational axis",
+            "off center"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the factors that influence rotational inertia, such as the distribution of mass within the object, its shape, and its moment of inertia.",
+        "instruction 2": "Consider how the location of mass within the object affects its rotational inertia, and how this is related to the concept of moment of inertia, which is the sum of the products of the mass and square of the distance from the axis of rotation."
+    },
+    {
+        "question": "When small pieces of material are assembled into a larger piece, the combined surface area",
+        "answer": 2,
+        "choices": [
+            "greatly increases",
+            "slightly increases",
+            "decreases",
+            "is unchanged"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific phenomenon being described, such as the increase in surface area as a result of combining smaller pieces into a larger object.",
+        "instruction 2": "Consider the mathematical relationship between the surface area of the individual pieces and the resulting surface area of the assembled piece, taking into account factors such as shape, size, and material properties."
+    },
+    {
+        "question": "A rainbow is the result of light in raindrops that undergoes",
+        "answer": 3,
+        "choices": [
+            "internal reflection",
+            "dispersion",
+            "refraction",
+            "All of these"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key components of the process that creates a rainbow, including the presence of light, raindrops, and the angle of the sun.",
+        "instruction 2": "Explain how the refraction, dispersion, and internal reflection of light within the raindrops lead to the formation of the colorful arc we perceive as a rainbow."
+    },
+    {
+        "question": "In the atomic nucleus, electrical forces tend to",
+        "answer": 1,
+        "choices": [
+            "hold particles together",
+            "push particles apart",
+            "produce orbital motion",
+            "charge particles"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental forces at play in the atomic nucleus, focusing on electrical forces and their role in holding protons and neutrons together.",
+        "instruction 2": "Consider how the strong nuclear force, which is responsible for holding quarks together within protons and neutrons, plays a crucial role in stabilizing the nucleus, and how the balance between electrical and strong nuclear forces determines the stability of the nucleus."
+    },
+    {
+        "question": "The fact that the acceleration of free fall is the same for all masses is explained by Newton’s",
+        "answer": 1,
+        "choices": [
+            "first law",
+            "second law",
+            "third law",
+            "law of action–reaction"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the key concept of Newton's law of universal gravitation, which states that every point mass attracts every other point mass by a force acting along the line intersecting both points.",
+        "instruction 2": "Consider how this fundamental force, combined with the principles of inertia and the concept of mass, leads to the conclusion that the acceleration of free fall is independent of mass, as all objects fall at the same rate in a gravitational field."
+    },
+    {
+        "question": "Compared with radiation from the Sun, terrestrial radiation has a lower",
+        "answer": 1,
+        "choices": [
+            "wavelength",
+            "frequency",
+            "Both",
+            "Neither"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the primary sources of radiation on Earth, including solar radiation and terrestrial radiation, to understand the context of the comparison.",
+        "instruction 2": "Consider the characteristics of terrestrial radiation, such as its origin, intensity, and wavelength, to explain why it has a lower intensity compared to solar radiation."
+    },
+    {
+        "question": "When we speak of time dilation, we mean that time",
+        "answer": 1,
+        "choices": [
+            "compresses with speed.",
+            "stretches with speed.",
+            "is a constant at all speeds.",
+            "is related to space."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the concept of time dilation and its relation to special relativity, focusing on the idea that time appears to pass differently for observers in relative motion.",
+        "instruction 2": "Consider the mathematical formulation of time dilation, including the Lorentz transformation and its application to measuring time intervals in different inertial frames of reference."
+    },
+    {
+        "question": "The magnetic field lines about a current-carrying wire form",
+        "answer": 0,
+        "choices": [
+            "circles",
+            "radial lines",
+            "eddy currents",
+            "energy loops"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental concept that governs the behavior of magnetic fields in the presence of electric currents, such as the right-hand rule or the Biot-Savart law.",
+        "instruction 2": "Consider how the direction and magnitude of the magnetic field lines are influenced by the direction of the current flow and the proximity of other conductors or magnetic sources."
+    },
+    {
+        "question": "An inflated balloon with a heavy rock tied to it is dropped into a deep lake. As the balloon sinks deeper and deeper the buoyant force acting on it",
+        "answer": 1,
+        "choices": [
+            "increases.",
+            "decreases.",
+            "remains largely unchanged.",
+            "Need more information."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the forces acting on the balloon as it sinks, including the weight of the rock and the buoyant force provided by the surrounding water.",
+        "instruction 2": "Consider how the buoyant force changes as the balloon sinks deeper, taking into account the increasing water pressure and its effect on the buoyant force, to determine the net force acting on the balloon."
+    },
+    {
+        "question": "A radioactive sample has a half-life of 1 hour. If we start with 1.000 gram of it at noon, how much remains at 3:00 pm?",
+        "answer": 2,
+        "choices": [
+            "0.50 g",
+            "0.25 g",
+            "0.125 g",
+            "0.0625 g"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Recognize that the half-life of the radioactive sample is 1 hour, indicating that every hour, half of the original sample will decay.",
+        "instruction 2": "Calculate the number of half-lives that occur between noon and 3:00 pm, considering the time interval and the decay rate, to determine the remaining amount of the sample at the desired time."
+    },
+    {
+        "question": "Boiling and freezing occur when water is subjected to",
+        "answer": 1,
+        "choices": [
+            "decreased temperatures",
+            "decreased atmospheric pressure",
+            "increased temperatures",
+            "increased atmospheric pressure"
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the specific physical properties of water that are affected by changes in temperature, such as its viscosity, surface tension, or density, which contribute to the observed changes in state.",
+        "instruction 2": "Consider the role of molecular interactions and energy transfer in the process of phase transitions, explaining how the application of heat or cold can alter the arrangement of water molecules, leading to changes in its state."
+    },
+    {
+        "question": "When you bend the branch of a tree by hanging on its end, the top side of the branch is under",
+        "answer": 0,
+        "choices": [
+            "tension.",
+            "compression.",
+            "Both.",
+            "Neither."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the forces acting on the branch when it is bent, including the force of gravity and the force applied by the person hanging from the branch.",
+        "instruction 2": "Consider the direction of these forces and how they affect the branch, leading to the conclusion that the top side of the branch is under tension."
+    },
+    {
+        "question": "A simple and correct way to comprehend satellites orbiting Earth is to view them as",
+        "answer": 3,
+        "choices": [
+            "balanced between gravitational and centripetal forces.",
+            "beyond the main pull of Earth gravity.",
+            "in mechanical equilibrium with a net force of zero.",
+            "having sufficient tangential velocities to fall around rather than into Earth."
+        ],
+        "subject": "conceptual_physics",
+        "instruction 1": "Identify the fundamental principles of satellite motion, such as the gravitational force between the Earth and the satellite, and the satellite's velocity and trajectory.",
+        "instruction 2": "Consider how the satellite's position and velocity are affected by the Earth's rotation, atmospheric drag, and other external factors, and how these factors influence the satellite's orbit."
+    }
+]

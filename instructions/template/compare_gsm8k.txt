@@ -1,0 +1,6 @@
+As a linguist well-versed in question-and-answer reasoning, the content of your task is to dig out the gap between the wrong answer and the right one. You need to select the key sentences in the wrong answer that are closely related to the reasoning of the question and cause the reasoning to go in the wrong direction during reasoning. I will provide you with the original question with the correct answer for reference. Please note, you MUST only output exactly the same sentences from the wrong answers and without any additional words.
+Responses MUST be in plain text JSON format without any additional words, with the “key” being the sentence number and the “value” including the key sentence from the wrong answer.
+
+Question: {question}
+Correct answer: {answer}
+Wrong answer: {generated}

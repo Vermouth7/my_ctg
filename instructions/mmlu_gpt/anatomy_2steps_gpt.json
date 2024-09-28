@@ -1,0 +1,1757 @@
+[
+    {
+        "instruction 1": "Identify the anatomical and physiological aspects of the facial nerve, particularly its path and function at the stylomastoid foramen, to understand the effects of compression in this area on muscle function and sensory perception.",
+        "instruction 2": "Analyze the signs and symptoms that may result from ipsilateral facial nerve compression, considering the specific branches affected and how these correspond to facial muscle control and sensory pathways.",
+        "question": "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+        "choices": [
+            "paralysis of the facial muscles.",
+            "paralysis of the facial muscles and loss of taste.",
+            "paralysis of the facial muscles, loss of taste and lacrimation.",
+            "paralysis of the facial muscles, loss of taste, lacrimation and decreased salivation."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the context in which a 'dished face' profile is referenced, such as in architecture, design, or a scientific field, and identify the key characteristics that define this profile.",
+        "instruction 2": "Explore examples or applications where a 'dished face' profile is utilized, examining its functional benefits or aesthetic qualities that differentiate it from other profiles.",
+        "question": "A \"dished face\" profile is often associated with",
+        "choices": [
+            "a protruding mandible due to reactivation of the condylar cartilage by acromegaly.",
+            "a recessive maxilla due to failure of elongation of the cranial base.",
+            "an enlarged frontal bone due to hydrocephaly.",
+            "defective development of the maxillary air sinus."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical structure responsible for urine collection in the urinary system, focusing on the specific role of each organ in the process of urine formation and storage.",
+        "instruction 2": "Differentiate between the various structures involved in urinary function, such as the kidneys, ureters, bladder, and urethra, emphasizing which one acts as the primary reservoir for urine before it is excreted.",
+        "question": "Which of the following best describes the structure that collects urine in the body?",
+        "choices": [
+            "Bladder",
+            "Kidney",
+            "Ureter",
+            "Urethra"
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key definitions and characteristics of ectomesenchyme and how it contributes to the formation of various structures in vertebrate development, particularly focusing on its embryonic origin and role in tissue differentiation.",
+        "instruction 2": "Evaluate the list of structures provided in the question by relating each option to known derivatives of ectomesenchyme, ensuring to reference developmental biology concepts that clarify which structures are specifically formed from ectomesenchyme.",
+        "question": "Which of the following structures is derived from ectomesenchyme?",
+        "choices": [
+            "Motor neurons",
+            "Skeletal muscles",
+            "Melanocytes",
+            "Sweat glands"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific structure within the nephron that is described as a cluster of blood capillaries, known for its role in the filtration of blood, and clarify its function in the kidney's overall process of urine formation.",
+        "instruction 2": "Consider the anatomical context of the blood capillaries within the nephron, including how they interact with surrounding structures such as the Bowman's capsule and the implications for kidney function and health.",
+        "question": "Which of the following describes the cluster of blood capillaries found in each nephron in the kidney?",
+        "choices": [
+            "Afferent arteriole",
+            "Glomerulus",
+            "Loop of Henle",
+            "Renal pelvis"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Evaluate the implications of a spinal cord injury at the level of the sixth cervical vertebra, particularly focusing on the expected neurological deficits and the functional abilities that may be affected, such as arm and hand function.",
+        "instruction 2": "Consider the urgent medical interventions and rehabilitative therapies that are typically employed for spinal cord injuries at this level, in order to provide a comprehensive understanding of the patient's care plan and prognosis.",
+        "question": "A patient suffers a broken neck with damage to the spinal cord at the level of the sixth cervical vertebra.",
+        "choices": [
+            "They will be unable to breathe without life support.",
+            "They will only be able to breathe quietly.",
+            "It is impossible to predict an effect on breathing.",
+            "Breathing will be unaffected."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical regions of the abdomen, specifically locating the region that is just distal to the sternum, commonly known as the epigastric region, to clarify the spatial relationship in anatomical terminology.",
+        "instruction 2": "Consider the broader context of abdominal anatomy, recognizing how the regions relate to each other, which may include a review of adjacent anatomical landmarks and their corresponding regions for accurate identification.",
+        "question": "Which of the following anatomical regions of abdomen lies just distal to the sternum?",
+        "choices": [
+            "Epigastric",
+            "Hypochondriac",
+            "Hypogastric",
+            "Lumbar"
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key components of the human body's defense mechanisms, focusing on innate and adaptive immunity, and describe how these systems work together to recognize and combat environmental bacteria.",
+        "instruction 2": "Evaluate the roles of physical barriers, immune cells, and antibodies in the defense against bacteria, ensuring to clarify the distinctions between the various mechanisms and their response times.",
+        "question": "Which of the following best describes the human body's defense mechanism against environmental bacteria?",
+        "choices": [
+            "Hair in the nose",
+            "Mucous membranes",
+            "Osteoblasts",
+            "Saliva"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the developmental timeline of the palatine processes, including the specific embryonic stage at which fusion typically begins during craniofacial development, referencing relevant anatomical and embryological literature.",
+        "instruction 2": "Consider any variations or anomalies that may arise in the fusion process, including the implications for craniofacial structures if fusion occurs too early or too late in development, ensuring comprehensive understanding of normal and abnormal development.",
+        "question": "The palatine processes begin to fuse at",
+        "choices": [
+            "six weeks post-fertilization.",
+            "eight weeks post-fertilization.",
+            "ten weeks post-fertilization.",
+            "twelve weeks post-fertilization."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the role of the primary motor cortex in the brain, outlining how its activity correlates with voluntary motor control and the planning and execution of movement.",
+        "instruction 2": "Explore the connection between the primary motor cortex and other brain regions to understand how its activity influences muscle contractions and the coordination of movements in various body parts.",
+        "question": "Primary motor cortex activity results in",
+        "choices": [
+            "bilateral contraction of antigravity limb muscles.",
+            "bilateral contraction of limb musculature.",
+            "contraction of ipsilateral limb musculature.",
+            "contraction of contralateral limb musculature."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the anatomical regions that drain into the submandibular lymph nodes, which include the oral cavity, submandibular gland, and neighboring structures; assess these areas for potential signs of infection or pathology.",
+        "instruction 2": "Consider common infectious causes that may lead to lymphadenopathy in the submandibular region, such as dental infections, oropharyngeal infections, and their associated clinical presentations to guide further examination.",
+        "question": "You notice that your patient's submandibular lymph nodes are enlarged. You would look for potential infection sites in the",
+        "choices": [
+            "hard palate.",
+            "hard palate and upper lip.",
+            "hard palate, upper lip and upper central incisor.",
+            "hard palate, upper lip, upper central incisor and lower first molar."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the functions of the third cranial nerve (oculomotor nerve) and the specific symptoms associated with its damage, such as ptosis, pupillary dilation, and loss of accommodation, to understand what signs may be present in the patient.",
+        "instruction 2": "Consider the anatomical relationship between the orbit and the oculomotor nerve, assessing how damage to the nerve can manifest clinically, and differentiate these symptoms from possible effects of damage to other cranial nerves involved in eye movement.",
+        "question": "A patient suffers damage to the orbit in a road traffic incident resulting in damage to the third cranial nerve. Which of the following signs will be present?",
+        "choices": [
+            "Pupillary constriction and a medial strabismus",
+            "Pupillary dilatation and a medial strabismus",
+            "Pupillary constriction and a lateral strabismus",
+            "Pupillary dilatation and a lateral strabismus"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the anatomical and functional characteristics of the temporomandibular joint (TMJ), focusing on its role in connecting the jaw to the skull and its importance in movement and function.",
+        "instruction 2": "Evaluate the provided statements for factual accuracy by cross-referencing with reliable medical sources, ensuring that the true statement aligns with known conditions, disorders, or typical functions associated with the TMJ.",
+        "question": "Which of the following statements is true of the temporomandibular joint?",
+        "choices": [
+            "It has an articular disc of hyaline cartilage",
+            "Its articular surfaces are covered by hyaline cartilage",
+            "Proprioceptive information is carried by the chorda tympani and deep temporal nerves",
+            "Proprioceptive information is carried by the masseteric and auriculotemporal nerves."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Explain the anatomical and physiological aspects of the recurrent laryngeal nerve's role in controlling vocal fold position and tension, emphasizing how damage can lead to changes in vocal fold behavior, including tensing and abnormal positioning.",
+        "instruction 2": "Discuss the implications of nerve damage on the neural control of muscle activity in the larynx, addressing how this affects the balance of forces between the intrinsic muscles of the larynx and results in the observed intermediate position of the vocal fold.",
+        "question": "Laryngoscopic examination of the vocal folds after suspected recurrent laryngeal nerve damage usually shows that the vocal fold on the injured side is tensed and in an intermediate position between adduction and abduction. This is because",
+        "choices": [
+            "cricothyroid muscle is still functional but the interarytenoid muscles are fully active.",
+            "cricothyroid muscle is still functional but the interarytenoids are weak.",
+            "cricothyroid muscle is paralyzed but the interarytenoids are fully active.",
+            "cricothyroid muscle is paralyzed but the interarytenoids are weak."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze the biological and developmental processes associated with the growth of the mandible, including factors such as genetics, nutrition, and overall health, to determine which statement accurately reflects these processes.",
+        "instruction 2": "Evaluate each provided statement based on established anatomical and physiological knowledge concerning mandibular growth, paying attention to developmental stages and potential misconceptions within the statements.",
+        "question": "Which one of the following statements about the growth of the mandible is correct?",
+        "choices": [
+            "The mental symphysis closes at about 1 year postnatally",
+            "The condylar growth cartilage ceases activity at puberty",
+            "The ossification centre appears about 8 weeks I.U.L medial to Meckel's cartilage",
+            "The functional matrix acting on the angle of the mandible is the lateral pterygoid muscle"
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the physiological mechanisms underlying the pupillary light reflex, including the role of sensory pathways, neural circuits, and muscle responses that contribute to the constriction of the pupil in response to light.",
+        "instruction 2": "Evaluate each provided statement against established scientific knowledge and research regarding the pupillary light reflex to determine accuracy and consistency with current understanding in human physiology.",
+        "question": "Which of the following statements is true of the pupillary light reflex?",
+        "choices": [
+            "Its efferent limb is carried in the optic nerve",
+            "It is mediated by the inferior colliculi in the midbrain",
+            "It is a consensual reflex",
+            "Its afferent limb is carried in the oculomotor nerve"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and list the primary muscles involved in the process of quiet inspiration, focusing on the diaphragm and external intercostal muscles, while understanding their roles in expanding the thoracic cavity to facilitate inhalation.",
+        "instruction 2": "Consider the physiological mechanisms that govern quiet inspiration, including the neural control and pressure changes during inhalation, to provide a comprehensive understanding of how these muscles function together during the breathing process.",
+        "question": "Which muscles are normally active during quiet inspiration?",
+        "choices": [
+            "External and internal intercostal muscles",
+            "External intercostal muscles and diaphragm",
+            "Internal intercostal muscles and diaphragm",
+            "External and internal intercostal muscles and diaphragm"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the primary organs and glands in the human body responsible for the production of male hormones, with a focus on testosterone and other androgens.",
+        "instruction 2": "Consider the role of secondary glands and organs, such as the adrenal glands and testes, in the synthesis and regulation of male hormones.",
+        "question": "Male hormones are produced by which of the following?",
+        "choices": [
+            "Glans penis",
+            "Prepuce",
+            "Prostate",
+            "Testes"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the structures responsible for transporting oxygenated blood to the heart, particularly focusing on the role of the pulmonary veins in this process, as they are specifically tasked with carrying oxygen-rich blood from the lungs to the left atrium of the heart.",
+        "instruction 2": "Differentiate between the various blood vessels involved in circulation, clarifying the distinction between arteries, veins, and capillaries, and how they function in terms of oxygen transfer and overall cardiovascular health.",
+        "question": "Oxygenated blood is carried to the heart by which of the following structures?",
+        "choices": [
+            "Aorta",
+            "Carotid arteries",
+            "Inferior vena cava",
+            "Pulmonary veins"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the anatomical structures involved in the process of air intake, such as the trachea, bronchi, and alveoli, to accurately answer which part allows air to enter the lungs.",
+        "instruction 2": "Understand the physiological mechanisms of breathing, including the roles of the diaphragm and intercostal muscles, which facilitate the movement of air into the lungs and how they relate to the identified structures.",
+        "question": "Which of the following allows air to pass into the lungs?",
+        "choices": [
+            "Aorta",
+            "Esophagus",
+            "Trachea",
+            "Pancreas"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Describe the anatomical location of the sinoatrial node in the human heart, specifying its position relative to other structures like the right atrium and the entrance of the superior vena cava.",
+        "instruction 2": "Incorporate functional information about the sinoatrial node, explaining its role in generating electrical impulses and regulating the heart's rhythm, which may provide context to its significance in cardiovascular physiology.",
+        "question": "Where is the sinoatrial node located?",
+        "choices": [
+            "Between the left atrium and the left ventricle",
+            "Between the right atrium and the right ventricle",
+            "In the upper wall of the right atrium",
+            "In the upper wall of the left ventricle"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the anatomical relationship between the ribs and the intercostal nerves, detailing how each intercostal nerve runs along the lower border of the corresponding rib and its significance in terms of innervation.",
+        "instruction 2": "Explore the functional role of intercostal nerves in the context of rib-related biomechanics and respiratory function, considering how their positioning influences both sensory and motor functions in the thoracic region.",
+        "question": "In relation to the rib, the corresponding intercostal nerve lies",
+        "choices": [
+            "deep to its superior border.",
+            "superficial to its superior border.",
+            "deep to its inferior border.",
+            "superficial to its inferior border."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical structures involved in the lymphatic drainage of the tongue, particularly focusing on how the regional drainage differs for the tip of the tongue and the implications for the left side specifically.",
+        "instruction 2": "Consider the relevant lymph nodes related to the drainage patterns of the tongue and ensure to include how lymphatics from specific regions converge or diverge towards particular nodal groups, such as the submandibular and/or jugulodigastric nodes.",
+        "question": "The regional lymphatic drainage of the left side of the tip of the tongue is to the",
+        "choices": [
+            "left submental lymph node.",
+            "left and right submental lymph nodes.",
+            "left submandibular lymph node.",
+            "left and right submandibular lymph nodes."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define gastrulation by detailing its role in embryonic development, specifically emphasizing how it leads to the formation of germ layers and sets the foundation for the body plan of an organism.",
+        "instruction 2": "Explain the significance of gastrulation in developmental biology, including its implications for tissue differentiation and organogenesis, and how disruptions in this process can affect overall embryonic development.",
+        "question": "Gastrulation is the process of",
+        "choices": [
+            "mesoderm formation and occurs after neurulation.",
+            "ectomesenchyme formation and occurs before neurulation.",
+            "mesoderm formation and occurs before neurulation.",
+            "ectomesenchyme formation and occurs after neurulation."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the anatomical structure and significance of the spheno-occipital synchondrosis, focusing on its role in cranial anatomy and its relevance in the study of skull development and function.",
+        "instruction 2": "Examine any clinical implications or associations that the spheno-occipital synchondrosis may have, including its potential involvement in craniosynostosis or other cranial disorders, ensuring to include definitions and explanations of key terms as necessary.",
+        "question": "The spheno-occipital synchondrosis",
+        "choices": [
+            "is a secondary growth cartilage.",
+            "influences the position of the viscerocranium.",
+            "ceases activity at 7 years of age.",
+            "can be reactivated in patients affected by acromegaly."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key components of exhaled air, focusing on the primary gases present, including oxygen, carbon dioxide, and nitrogen, and determine which of these is typically found in greater concentration after gas exchange in the lungs.",
+        "instruction 2": "Consider the physiological processes that occur during respiration, including the uptake of oxygen and the release of carbon dioxide, to understand the ratios of these gases in exhaled air and their implications for determining which substance is present in greater quantity.",
+        "question": "Which of the following substances is found in greater quantity in exhaled air?",
+        "choices": [
+            "Carbon dioxide",
+            "Carbon monoxide",
+            "Nitrogen",
+            "Oxygen"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the medical conditions associated with kidney stones, focusing on their pathophysiology, risk factors, and symptoms that distinguish them from other similar conditions affecting the urinary tract.",
+        "instruction 2": "Consider the diagnostic criteria or imaging studies commonly used to confirm the presence of kidney stones, ensuring to relate these methods to the clinical characteristics that define the condition.",
+        "question": "Which of the following conditions is characterized by the presence of kidney stones (renal calculi)?",
+        "choices": [
+            "Glomerulonephritis",
+            "Interstitial nephritis",
+            "Nephrolithiasis",
+            "Polycystic kidney"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical locations on the face where a pulse can typically be detected, such as the temporal artery or the facial artery.",
+        "instruction 2": "Consider the clinical significance of palpating a pulse on the face, exploring how it can be used to assess circulation or the overall health of the patient.",
+        "question": "A pulse may be felt on a patient's face where the",
+        "choices": [
+            "facial artery crosses the mandible.",
+            "facial artery crosses the maxilla.",
+            "superficial temporal artery crosses the maxilla.",
+            "superficial temporal artery crosses the orbital rim."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the anatomical structures located in the left upper abdomen, focusing on organs such as the spleen, stomach, and parts of the pancreas, to determine which organ is most vulnerable to severe blunt trauma in that area.",
+        "instruction 2": "Evaluate the clinical implications of trauma to each of the identified organs, considering which organ is most commonly affected by blunt abdominal injuries and may require surgical intervention based on severity and the mechanism of injury.",
+        "question": "A patient sustains severe blunt trauma to the left upper abdomen and requires surgery. Which one of the following organs is most likely to be involved?",
+        "choices": [
+            "Appendix",
+            "Gallbladder",
+            "Spleen",
+            "Urinary bladder"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the primary functions and characteristics of the atrioventricular bundle (also known as the bundle of His) within the cardiac conduction system, focusing on its role in transmitting electrical impulses from the atria to the ventricles.",
+        "instruction 2": "Evaluate multiple statements regarding the atrioventricular bundle for accuracy, considering aspects such as its anatomical location, physiological importance, and any common misconceptions related to its function in heart physiology.",
+        "question": "Which statement concerning the atrioventricular bundle is correct?",
+        "choices": [
+            "It is formed of autonomic nerve processes and is the only electrical connection between the atria and the ventricles.",
+            "It is formed of Purkinje fibres and is the only electrical connection between the atria and the ventricles",
+            "It is formed of autonomic nerve processes and forms one of several electrical connections between the atria and ventricles.",
+            "It is formed of Purkinje fibres and forms one of several electrical connections between the atria and ventricles."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the terminology used in anatomical movement by identifying the specific actions associated with bending the forearm, such as 'flexion' as opposed to other terms that may describe different movements (e.g., 'extension').",
+        "instruction 2": "Consider the context of the question, such as the anatomical position and the joints involved, to ensure a comprehensive understanding of how the described motion is classified within the broader spectrum of human movement mechanics.",
+        "question": "Which of the following terms describes the motion of bending the forearm toward the body?",
+        "choices": [
+            "Abduction",
+            "Eversion",
+            "Flexion",
+            "Pronation"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the physiological mechanisms involved in the pharyngeal phase of swallowing that prevent food from entering the larynx, focusing on the actions of the epiglottis and other anatomical structures that contribute to this protective function.",
+        "instruction 2": "Consider the sequence of events during the swallowing process, including the roles of various muscles and reflexes that facilitate this phase, ensuring to explain how these elements work together to maintain airway protection.",
+        "question": "Food is prevented from entering the larynx during the pharyngeal phase of swallowing by",
+        "choices": [
+            "constriction of the laryngeal entrance.",
+            "upward movement of the epiglottis.",
+            "downward movement of the larynx.",
+            "increase in respiratory rate."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific anatomical location in the digestive system where bile is released, focusing on its origin from the liver and the route it takes through the bile ducts to reach the small intestine.",
+        "instruction 2": "Evaluate the given options by considering the role of bile in digestion, particularly its entry point in relation to other digestive processes, ensuring accuracy in terms of anatomical terminology.",
+        "question": "At which of the following locations does bile enter the digestive tract?",
+        "choices": [
+            "Gastroesophageal sphincter",
+            "Duodenum",
+            "Ileocecum",
+            "Jejunum"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the correct terminology used in medical contexts to describe patient positioning, specifically focusing on the definition of 'prone' as the position where a person lies face down.",
+        "instruction 2": "Analyze the list of potential positions provided, differentiating between terms like 'supine', 'lateral', and 'prone', to effectively identify the position that correctly describes a face-down orientation.",
+        "question": "In which of the following positions does a patient lie face down?",
+        "choices": [
+            "Dorsal",
+            "Erect",
+            "Lateral",
+            "Prone"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical structures involved in the formation of the palate and describe the normal development process, focusing on how the fusion of these structures should occur to prevent a cleft palate.",
+        "instruction 2": "Consider the implications of the failure of fusion, including the potential causes and genetic factors that can contribute to the occurrence of a complete bilateral cleft palate, ensuring to relate this information back to the specific developmental processes mentioned.",
+        "question": "Complete bilateral cleft palate is due to failure of fusion of the",
+        "choices": [
+            "palatine processes.",
+            "palatine and frontonasal processes.",
+            "palatine, frontonasal and secondary nasal processes.",
+            "palatine, frontonasal, secondary nasal processes and mandibular processes."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the anatomical structure and function of the auditory tube (eustachian tube), emphasizing its role in connecting the middle ear to the nasopharynx and its importance in maintaining equal air pressure on both sides of the eardrum.",
+        "instruction 2": "Explore the clinical significance of the auditory tube by investigating its involvement in conditions such as ear infections (otitis media) and how dysfunction of the tube can lead to these and other auditory issues.",
+        "question": "The auditory tube",
+        "choices": [
+            "connects the inner ear and nasopharynx.",
+            "is derived from the second pharyngeal pouch.",
+            "is opened by the action of levator veli palatini.",
+            "is closed by the action of tensor veli palatini."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the lymphoid organs in the human body and their specific roles, focusing on the functions related to blood filtration and the storage of red blood cells.",
+        "instruction 2": "Evaluate the functions of key lymphoid organs such as the spleen, thymus, and lymph nodes to determine which one serves as both a reservoir for red blood cells and filters microorganisms from the blood.",
+        "question": "Which of the following is the lymphoid organ that is a reservoir for red blood cells and filters organisms from the blood?",
+        "choices": [
+            "Appendix",
+            "Gallbladder",
+            "Pancreas",
+            "Spleen"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the two main body cavities that the diaphragm separates, which are the thoracic cavity and the abdominal cavity, and understand their anatomical significance.",
+        "instruction 2": "Review the structures associated with each cavity, particularly noting any organs that are located above or below the diaphragm, to clarify the physiological implications of this separation.",
+        "question": "Which of the following cavities are separated by the diaphragm?",
+        "choices": [
+            "Abdominal and pelvic",
+            "Cranial and spinal",
+            "Thoracic and abdominal",
+            "Pericardial and pleural"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical structure of bronchioles and the type of tissues that comprise their walls, such as smooth muscle and epithelial tissue, to understand their function within the respiratory system.",
+        "instruction 2": "Examine the physiological role of bronchioles and how the composition of their walls facilitates gas exchange and regulates airflow in the lungs, considering any diseases or conditions that may affect this structure.",
+        "question": "The walls of bronchioles contain",
+        "choices": [
+            "cartilage, smooth muscle and respiratory epithelium.",
+            "cartilage and smooth muscle.",
+            "cartilage and respiratory epithelium.",
+            "smooth muscle and respiratory epithelium."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific organ in the human body that carries out multiple functions related to blood processing, specifically focusing on its roles in bilirubin removal, plasma protein synthesis, and the production of coagulation factors like prothrombin and fibrinogen.",
+        "instruction 2": "Consider how the physiological processes of the organ interact with the circulatory system and other organs, ensuring to clarify the integration of its functions in maintaining homeostasis and responding to physiological needs.",
+        "question": "Which of the following organs removes bilirubin from the blood, manufactures plasma proteins, and is involved with the production of prothrombin and fibrinogen?",
+        "choices": [
+            "Gallbladder",
+            "Kidney",
+            "Liver",
+            "Spleen"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific medical condition characterized by the incompetence of the esophageal sphincter, such as gastroesophageal reflux disease (GERD), by reviewing the anatomy and physiology of the esophageal sphincter and its role in digestive health.",
+        "instruction 2": "Research the symptoms and causes associated with the identified condition, ensuring to distinguish it from other esophageal conditions that may share similar features but are not primarily defined by sphincter incompetence.",
+        "question": "Which of the following conditions is characterized by incompetence of the esophageal sphincter?",
+        "choices": [
+            "Crohn's disease",
+            "Esophageal varices",
+            "Gastroesophageal reflux disease",
+            "Pyloric stenosis"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific nerves responsible for innervating the muscles of the soft palate, focusing on the relevant cranial nerves and their branches, such as the vagus nerve (CN X) and the accessory nerve (CN XI).",
+        "instruction 2": "Consider the function and anatomical division of the soft palate muscles, recognizing how this innervation contributes to processes like swallowing and speech, which may differentiate from other muscle groups innervated by different nerves.",
+        "question": "The muscles of the soft palate are innervated by branches of the",
+        "choices": [
+            "trigeminal and glossopharyngeal nerves.",
+            "facial and glossopharyngeal nerves.",
+            "trigeminal and vagus nerves.",
+            "facial and vagus nerves."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific anatomical terms and relationships mentioned in the question, clarifying the positions of the patella and ischium relative to the large bone being asked about to narrow down the possible options.",
+        "instruction 2": "Utilize knowledge of human skeletal anatomy to determine which large bone is positioned superior to the patella and inferior to the ischium, confirming the correct identification based on anatomical structure and location.",
+        "question": "Which of the following is the large bone found superior to the patella and inferior to the ischium?",
+        "choices": [
+            "Calcaneus",
+            "Femur",
+            "Symphysis pubis",
+            "Tibia"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical areas affected by a successful inferior alveolar nerve block, focusing specifically on the regions of the mandible and associated dental structures to understand the extent of anesthesia produced.",
+        "instruction 2": "Consider how the inferior alveolar nerve's function, including its sensory role in supplying teeth and tissues of the lower jaw, informs the expected outcomes of the nerve block, and outline any variations in patient response based on anatomical or physiological differences.",
+        "question": "A successful inferior alveolar nerve block will produce anaesthesia of the",
+        "choices": [
+            "lower lip.",
+            "lower lip and mandibular teeth.",
+            "lower lip, mandibular teeth and labial gingivae of the anterior mandibular teeth.",
+            "lower lip, mandibular teeth and labial gingivae of the anterior and buccal gingivae of the posterior mandibular teeth."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific nerves that innervate the mucosa of the upper larynx, paying attention to both sensory and motor innervation to provide a comprehensive understanding of its neurological supply.",
+        "instruction 2": "Consider the anatomical significance of this innervation, exploring how it impacts functions such as cough reflex, sensation, and potential clinical implications related to laryngeal pathologies.",
+        "question": "The mucosa of the upper larynx is innervated by the",
+        "choices": [
+            "internal laryngeal nerve which is the afferent limb of the cough reflex.",
+            "external laryngeal nerve which is the afferent limb of the gag reflex.",
+            "internal laryngeal nerve which is the afferent limb of the gag reflex.",
+            "external laryngeal nerve which is the afferent limb of the cough reflex."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the developmental process specific to the viscerocranium, focusing on the role of intramembranous ossification versus endochondral ossification in its formation.",
+        "instruction 2": "Consider the embryological origin of viscerocranial bones, examining how the different facial structures arise from neural crest cells and their subsequent contributions to craniofacial development.",
+        "question": "The bones of the viscerocranium develop initially by",
+        "choices": [
+            "endochondral ossification and follow the somatic growth pattern.",
+            "endochondral ossification and follow the neural growth pattern.",
+            "intramembranous ossification and follow the somatic growth pattern.",
+            "intramembranous ossification and follow the neural growth pattern."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical location and function of the fibula in relation to the X-ray study, focusing on its physical characteristics and its relevance in the context of leg structures.",
+        "instruction 2": "Clarify the types of structures and tissues surrounding the fibula that may be assessed during the X-ray procedure, ensuring to include considerations for any related bones, joints, and soft tissues that are clinically relevant.",
+        "question": "The physician directs the medical assistant to complete a request form for an X-ray study of the fibula. The procedure will be performed on which of the following structures?",
+        "choices": [
+            "Heel",
+            "Lower leg",
+            "Toes",
+            "Thigh"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific types of blood cells, primarily focusing on their structural characteristics, particularly those that are known to lack a nucleus, such as red blood cells (erythrocytes) and any other relevant cell types.",
+        "instruction 2": "Consider the biological function and implications of the absence of a nucleus in these cells, exploring how this impacts their role in the circulatory system, including oxygen transport and lifespan.",
+        "question": "Which cells in the blood do not have a nucleus?",
+        "choices": [
+            "Lymphocyte",
+            "Monocyte",
+            "Erythrocyte",
+            "Basophil"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical structures that are connected by the coronal suture, focusing specifically on the frontal and parietal bones of the skull to clarify their relationship.",
+        "instruction 2": "Understand the significance of the coronal suture in the context of cranial structure and development, including its role in the overall shape and stability of the skull.",
+        "question": "The coronal suture joins the",
+        "choices": [
+            "frontal and parietal bones.",
+            "left and right parietal bones.",
+            "parietal and occipital bones.",
+            "parietal, squamous temporal and greater wing of the sphenoid."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and list the anatomical structures along the anterior midline of the neck that can be palpated when moving your finger from the chin to the sternal notch, ensuring to focus on key landmarks such as the hyoid bone, thyroid cartilage, and the sternal notch itself.",
+        "instruction 2": "Consider the order of palpation and the characteristic features of each anatomical structure encountered, such as the size, shape, and location in relation to one another, to accurately describe the sequence of what can be felt during this examination.",
+        "question": "If you run your finger down the anterior midline of a patient's extended neck from chin to sternal notch, you should be able to palpate, in order, the",
+        "choices": [
+            "hyoid bone, cricoid cartilage, thyroid cartilage.",
+            "thyroid cartilage, cricoid cartilage, hyoid bone.",
+            "hyoid bone, thyroid cartilage, cricoid cartilage.",
+            "thyroid cartilage, hyoid bone, cricoids cartilage."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific bony structures listed in the question and evaluate their anatomical locations to determine which are accessible for palpation on a live patient, taking into account common medical examination techniques.",
+        "instruction 2": "Consider the clinical relevance of each structure in terms of diagnostic examinations, including factors such as visibility, proximity to the skin surface, and common practices in physical assessments.",
+        "question": "Which of the following bony structures may be palpated in a live patient?",
+        "choices": [
+            "The supraorbital foramen",
+            "The infraorbital foramen",
+            "The mental foramen",
+            "All of the above"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the anatomical structures that pass through the diaphragm alongside the esophagus, focusing on their physiological relationships and functions related to the esophagus.",
+        "instruction 2": "Examine the clinical significance of these accompanying structures, considering any potential implications for health or medical conditions associated with their proximity to the esophagus as it traverses the diaphragm.",
+        "question": "Which of the following structures accompany the oesophagus through the diaphragm?",
+        "choices": [
+            "The phrenic nerves",
+            "The splanchnic nerves",
+            "The sympathetic trunks",
+            "The vagus nerves"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define systemic circulation by outlining the path blood takes as it moves from the heart through the body and back, emphasizing the major vessels involved such as the aorta, arteries, capillaries, veins, and the return to the right atrium of the heart.",
+        "instruction 2": "Differentiate systemic circulation from pulmonary circulation by focusing on the role of systemic circulation in delivering oxygenated blood to body tissues and returning deoxygenated blood to the heart, ensuring clarity on how each circuit serves distinct physiological purposes.",
+        "question": "Which sequence describes the systemic circulation?",
+        "choices": [
+            "Left ventricle → aorta → arteries → veins → capillaries",
+            "Left ventricle → aorta → arteries →capillaries → veins",
+            "Right ventricle → pulmonary trunk → arteries → capillaries →veins",
+            "Right ventricle → pulmonary trunk → arteries → veins → capillaries"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the spinal canal's anatomic location by identifying its relation to surrounding structures, including the vertebral column and spinal cord, and specify the regions of the spine (cervical, thoracic, lumbar, sacral) that it traverses.",
+        "instruction 2": "Clarify the significance of the spinal canal's location in terms of its function in the central nervous system and its protective role for the spinal cord, while considering any anatomical variations that may exist.",
+        "question": "The anatomic location of the spinal canal is",
+        "choices": [
+            "caudal",
+            "dorsal",
+            "frontal",
+            "transverse"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical path of the parotid duct, including its origin from the parotid gland and its termination point, typically at the oral cavity near the second molar.",
+        "instruction 2": "Consider the anatomical structures that the parotid duct passes by or through, and any relevant associations with surrounding structures such as nerves, blood vessels, and other salivary glands, which may affect surgical approaches or diagnostic procedures.",
+        "question": "The parotid duct runs",
+        "choices": [
+            "deep to masseter and enters the mouth opposite the upper second molar.",
+            "superficial to masseter and enters the mouth opposite the upper second molar.",
+            "deep to masseter and enters the mouth opposite the upper second premolar.",
+            "superficial to masseter and enters the mouth opposite the upper second premolar."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the term 'abduction' in the context of anatomy, specifically referring to the movement of limbs or body parts away from the midline of the body. This clarification will help in understanding the directional movement in relation to the body's position.",
+        "instruction 2": "Illustrate the movement of the foot in terms of anatomical planes and reference points, ensuring to explain how foot abduction aligns with common directional terminology used in anatomy and physiology.",
+        "question": "If the foot is abducted, it is moved in which direction?",
+        "choices": [
+            "Inward",
+            "Outward",
+            "Upward",
+            "Downward"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Explain the anatomical significance of the infraorbital nerve, including its origin from the maxillary nerve (V2) and its pathway through the infraorbital foramen to provide sensory innervation to specific regions of the face.",
+        "instruction 2": "Discuss the clinical relevance of the infraorbital nerve, considering potential implications for dental procedures, facial injuries, and conditions such as infraorbital neuralgia that may affect its function.",
+        "question": "The infraorbital nerve",
+        "choices": [
+            "is a terminal branch of the maxillary division of the trigeminal nerve.",
+            "is a terminal branch of the maxillary branch of the facial nerve.",
+            "carries parasympathetic secretomotor neurons to the lacrimal gland.",
+            "innervates the inferior part of the orbicularis oculi muscle."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific term that describes the rhythmic contractions of the stomach muscles involved in the movement of food through the digestive system, ensuring to clarify how this process is crucial for digestion.",
+        "instruction 2": "Differentiate this process from other digestive actions or movements, such as peristalsis and segmentation, to establish a clear understanding of how stomach contractions specifically contribute to the overall digestive process.",
+        "question": "Which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract?",
+        "choices": [
+            "Absorption",
+            "Emulsion",
+            "Peristalsis",
+            "Regurgitation"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific part of a neuron involved in the transmission of impulses to another neuron, emphasizing the role of synapses in facilitating communication between neurons.",
+        "instruction 2": "Consider the biochemical processes involved in the transmission of impulses at the synapse, including the release and uptake of neurotransmitters that enable the signaling between the two neurons.",
+        "question": "Which of the following is the point at which an impulse is transmitted from one neuron to another neuron?",
+        "choices": [
+            "Dendrite",
+            "Glial cell",
+            "Nerve center",
+            "Synapse"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the primary muscles responsible for the movement of the mandible, focusing specifically on those involved in the elevation of the mandible during actions such as chewing or closing the mouth.",
+        "instruction 2": "Consider the biomechanics of jaw movement, analyzing how different muscles contribute to the elevation of the mandible, and distinguishing between synergistic and antagonistic muscle actions in this context.",
+        "question": "Which of the following muscles initiates elevation of the mandible?",
+        "choices": [
+            "Masseter",
+            "Temporalis",
+            "Lateral pterygoid",
+            "Medial pterygoid."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the accessory organs of the gastrointestinal system and focus on their primary functions, specifically determining which organ is responsible for secreting insulin within the context of digestion and metabolism.",
+        "instruction 2": "Differentiate between the functions of the accessory organs to clarify their roles in digestion, ensuring to emphasize the specific relationship between the pancreas and its secretion of insulin.",
+        "question": "Which of the following is an accessory organ of the gastrointestinal system that is responsible for secreting insulin?",
+        "choices": [
+            "Adrenal gland",
+            "Gallbladder",
+            "Liver",
+            "Pancreas"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the functions of the glossopharyngeal nerve, including its roles in taste, swallowing, and sensation in the throat, to determine the expected symptoms resulting from its damage.",
+        "instruction 2": "Consider the potential impact of a malignant tumor on the surrounding anatomical structures and the associated clinical signs, such as dysphagia, loss of gag reflex, and changes in taste sensation, to provide a comprehensive answer.",
+        "question": "A malignant tumour is damaging the patient's glossopharyngeal nerve. They will experience",
+        "choices": [
+            "loss of taste over the anterior two-thirds of the tongue.",
+            "loss of somaesthetic sensation over the anterior two thirds of the tongue.",
+            "loss of taste and somaesthetic sensation over the posterior third of the tongue.",
+            "paralysis of the muscles of the tongue."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research the anatomical and functional role of the third cranial nerve (oculomotor nerve) to understand the potential effects of its damage, particularly focusing on eye movement, pupil reaction, and eyelid elevation.",
+        "instruction 2": "Identify common symptoms and clinical manifestations associated with trauma to the third cranial nerve, such as ptosis (drooping eyelid), ophthalmoplegia (eye muscle paralysis), and changes in pupil size or reactivity, to specify the effects that may arise from such damage.",
+        "question": "A possible effect of damage to the third cranial nerve by trauma to the orbit is",
+        "choices": [
+            "a convergent strabismus.",
+            "ptosis.",
+            "pupillary contriction.",
+            "bitemporal hemianopia."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical pathway of blood flow from the right ventricle, specifically noting the structure that receives blood directly from this chamber, which in this case is the pulmonary artery.",
+        "instruction 2": "Consider the function of the pulmonary artery in the context of the cardiovascular system, particularly its role in transporting deoxygenated blood to the lungs for oxygenation.",
+        "question": "Blood flows from the right ventricle of the heart into which of the following structures?",
+        "choices": [
+            "Inferior vena cava",
+            "Left ventricle",
+            "Pulmonary arteries",
+            "Pulmonary veins"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the primary motor function of the accessory nerve (cranial nerve XI), which is responsible for innervating the sternocleidomastoid and trapezius muscles, to determine relevant functional tests that would assess its integrity.",
+        "instruction 2": "Develop specific commands to test neck and shoulder movements, such as asking the patient to turn their head against resistance or shrug their shoulders, to evaluate the strength and function of the affected muscles innervated by the accessory nerve.",
+        "question": "A patient is stabbed in the neck. You suspect damage to the accessory nerve in the posterior triangle. You would test nerve function by asking the patient to",
+        "choices": [
+            "extend their neck against resistance.",
+            "extend their neck without impairment.",
+            "lift their shoulders against resistance.",
+            "lift their shoulders without impairment."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific muscles associated with the first brachial arch, also known as the mandibular arch, and assess their developmental origin to distinguish how they relate to the embryonic structure.",
+        "instruction 2": "Utilize anatomical and embryological references to determine the correct muscles that arise from the first brachial arch, ensuring to consider variations and common associations made in anatomical studies.",
+        "question": "Which of the following muscles are derived from the first brachial arch?",
+        "choices": [
+            "The muscles of mastication",
+            "The muscles of mastication and anterior belly of digastric",
+            "The muscles of mastication and anterior and posterior bellies of digastric",
+            "The muscles of mastication, anterior and posterior bellies of digastric and geniohyoid"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the specific anatomical location of the carotid artery, focusing on the neck area, particularly alongside the trachea and between the sternocleidomastoid muscle and the throat, to provide a precise description of where the carotid pulse can be palpated.",
+        "instruction 2": "Consider including information about the significance of the carotid pulse in medical assessments, such as its relevance in evaluating heart rate and blood circulation, reinforcing why knowing this location is important.",
+        "question": "Which of the following best describes the location where the carotid pulse can be found?",
+        "choices": [
+            "In front of the ears and just above eye level",
+            "In the antecubital space",
+            "In the middle of the groin",
+            "On the anterior side of the neck"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific pathways in the brain stem that are involved in various functions, such as motor control, sensory processing, and autonomic regulation, to provide a comprehensive overview of their roles.",
+        "instruction 2": "Consider the connections between the brain stem pathways and other parts of the central nervous system, including how these pathways integrate with higher brain functions and their importance in overall neurological health.",
+        "question": "In the brain stem, pathways for:",
+        "choices": [
+            "nociception decussate in the medial lemniscus",
+            "skilled movements decussate in the medial lemniscus",
+            "skilled motor movements decussate in the pyramids.",
+            "discriminative touch decussate in the pyramids."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical landmarks and structures surrounding the respiratory tract and thyroid gland to determine the specific level at which the isthmus of the thyroid gland crosses the respiratory tract, particularly focusing on the trachea.",
+        "instruction 2": "Consult anatomical references or medical texts to pinpoint the exact vertebral level or landmarks (such as the second or third tracheal ring) where this crossing occurs, ensuring clarity in the contextual relation of these structures within the human anatomy.",
+        "question": "The respiratory tract is crossed by the isthmus of the thyroid gland at the level of the",
+        "choices": [
+            "thyroid cartilage.",
+            "cricothyroid membrane.",
+            "cricoid cartilage.",
+            "tracheal rings."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific anatomical structures involved in the lower right lateral incisor area, including the labial alveolar mucosa, and determine which nerve innervates that region, typically focusing on the inferior alveolar nerve and its branches.",
+        "instruction 2": "Consider the appropriate technique for delivering local anesthesia in the area of the lower right lateral incisor, taking into account the patient's anatomy and the location of the lesion in order to ensure effective analgesia during the biopsy procedure.",
+        "question": "You notice a lesion on the labial alveolar mucosa of the lower right lateral incisor tooth of one of your patients and decide to take a biopsy to send for oral pathology report Which nerve would require local anaesthesia in order to carry out a pain-free biopsy?",
+        "choices": [
+            "The incisive nerve",
+            "The mental nerve",
+            "The buccal nerve",
+            "The lingual nerve"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the primary regions in the temporomandibular joint (TMJ) where proprioceptive receptors are predominantly found, noting their physiological roles and relevance to the TMJ function.",
+        "instruction 2": "Consider the types of proprioceptive receptors (e.g., muscle spindles, Golgi tendon organs) and their specific locations within the TMJ and surrounding structures, as well as how they contribute to the overall sensory feedback related to the joint's position and movement.",
+        "question": "The major concentrations of proprioceptive receptors providing information about position of the TMJ are located in",
+        "choices": [
+            "the capsule and ligaments of the TMJ and the medial pterygoid muscle.",
+            "the capsule and ligaments of the TMJ and the lateral pterygoid muscle.",
+            "the articular disc of the TMJ and the medial pterygoid muscle.",
+            "the articular disc of the TMJ and the lateral pterygoid muscle."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and differentiate the key substances that facilitate nerve impulse transmission, particularly focusing on neurotransmitters like acetylcholine and their role in neuron-to-muscle communication.",
+        "instruction 2": "Consider how these substances interact at the neuromuscular junction and their physiological importance in muscle contraction, while also recognizing the broader context of nervous system functioning.",
+        "question": "Which of the following is a substance that aids the transmission of nerve impulses to the muscles?",
+        "choices": [
+            "Acetylcholine",
+            "Cholecystokinin",
+            "Deoxyribose",
+            "Oxytocin"
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific regions within the spinal cord where motor neuron cell bodies are located, such as the anterior horn of the spinal cord, to clarify the anatomical context.",
+        "instruction 2": "Consider the functional significance of motor neurons in the spinal cord, including their role in transmitting signals from the central nervous system to muscles, which helps to underscore why their location is integral to movement and reflexes.",
+        "question": "In the spinal cord, motor neuron cell bodies are located in",
+        "choices": [
+            "Lamina I.",
+            "Lamina II.",
+            "Lamina V.",
+            "Lamina IX"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the common clinical signs and symptoms associated with an unfavorable fracture of the mandible, focusing on aspects such as pain, swelling, malocclusion, and potential difficulty in mastication.",
+        "instruction 2": "Consider the anatomical implications of an unfavorable mandible fracture, including the likely displacement of bone fragments and associated complications, while relating this information to the expected outcomes in patient assessment and treatment planning.",
+        "question": "When you examine a patient who has suffered an unfavourable fracture of the body of the mandible, you would expect the",
+        "choices": [
+            "anterior fragment to be displaced downwards by the action of the digastric muscle.",
+            "posterior fragment to be displaced anteriorly by the action of the lateral pterygoid muscle.",
+            "anterior fragment to be displaced backwards by action of the temporalis muscle.",
+            "posterior fragment to be displaced medially by action of the medial pterygoid muscle."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the potential cranial nerves involved in eye movement, particularly focusing on the abducens nerve (CN VI) and its role in lateral eye movement, as well as the implications of its damage leading to medially directed strabismus.",
+        "instruction 2": "Consider other possible causes of strabismus, such as muscle imbalances or neurological conditions, and assess how these might relate to the presented symptoms and the underlying anatomical structures.",
+        "question": "Examination of a patient indicates that they have a medially directed strabismus (squint). This could be due to damage to the",
+        "choices": [
+            "oculomotor nerve.",
+            "trochlear nerve.",
+            "ophthalmic trigeminal nerve.",
+            "abducens nerve."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Understand the physiological effects of nerve damage on muscle function, specifically focusing on how the lack of innervation from a severed peripheral motor nerve leads to muscle atrophy over time.",
+        "instruction 2": "Identify the signs that would be observable in the muscles affected by the nerve damage after 6 months, distinguishing between conditions such as atrophy, weakness, and any other potential changes that occur in the absence of neural activation.",
+        "question": "A patient cuts a peripheral motor nerve in their wrist when they fall through a plate glass window. If the nerve does not regenerate, after about 6 months the muscles it normally innervates will show signs of which of the four options below?",
+        "choices": [
+            "spastic paralysis",
+            "flaccid paralysis",
+            "atrophy",
+            "contracture"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze which specific motor functions are affected by a cerebrovascular accident (CVA) in the left internal capsule, particularly focusing on the neurological pathways that control movement in the right leg.",
+        "instruction 2": "Consider the clinical manifestations of motor neuron damage in this area, including potential symptoms such as weakness or paralysis of the right leg, and how these symptoms relate to the underlying neural pathways and their functions.",
+        "question": "A patient suffers a CVA in the area of the left internal capsule conveying motor neurons to the right leg. The patient's leg will exhibit",
+        "choices": [
+            "spastic paralysis.",
+            "flaccid paralysis.",
+            "tremor.",
+            "hyporeflexia."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the anatomy of the respiratory system, focusing on the path that an inhaled object would likely take, particularly differentiating between the trachea and esophagus to determine where the tooth fragment is more likely to enter.",
+        "instruction 2": "Consider the implications of the fragment's size, shape, and the circumstances surrounding its inhalation to establish the probability of it obstructing airflow or causing other health issues once it enters the respiratory tract.",
+        "question": "The crown of a very carious tooth suddenly fractures while the patient is standing eating at a take-away food outlet and a fragment is inhaled. It is more likely to enter the",
+        "choices": [
+            "right lung because the right main bronchus is wider and more vertical than the left.",
+            "left lung because the left main bronchus is wider and more vertical than the right.",
+            "right lung or left lung because the two main bronchi are of equal size and at the same angulation.",
+            "right or left lung because there are no factors predisposing to the fragment going in one particular direction."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the common properties and classifications of calcium, potassium, and sodium in the context of the periodic table, specifically focusing on their group and chemical characteristics to ascertain their classification.",
+        "instruction 2": "Consider how these elements are categorized in terms of their roles in biological systems and their physical and chemical properties, such as whether they are metals, their reactivity, and their presence in ionic forms.",
+        "question": "Calcium, potassium, and sodium are classified as which of the following?",
+        "choices": [
+            "Androgens",
+            "Catecholamines",
+            "Electrolytes",
+            "Estrogens"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the two neural structures mentioned in the question and determine their relationship to neurotransmission, specifically focusing on the role of noradrenaline as a signaling molecule in the nervous system.",
+        "instruction 2": "Understand the physiological functions that noradrenaline is involved in, and clarify how this neurotransmitter contributes to communication between the identified structures, considering any relevant anatomical or functional pathways.",
+        "question": "Noradrenaline is the neurotransmitter between which of the two structures below?",
+        "choices": [
+            "parasympathetic pre- and post-ganglionic neurons",
+            "sympathetic pre- and post-ganglionic neurons",
+            "parasympathetic post-ganglionic neurons and target organs",
+            "sympathetic post-ganglionic neurons and target organs"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific names of mucus-producing glands associated with the vaginal area, along with their locations, focusing on the anatomy relevant to the vaginal opening.",
+        "instruction 2": "Differentiate these glands from other anatomical structures in the vicinity, ensuring an accurate classification and understanding of their functions and importance within female reproductive health.",
+        "question": "Which of the following are mucus-producing glands located on each side of the vaginal opening?",
+        "choices": [
+            "Adrenal",
+            "Bartholin's",
+            "Bulbourethral",
+            "Corpus luteum"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the medical context and urgency that necessitate an emergency airway intervention, focusing on conditions that would require a cricothyrotomy, such as upper airway obstruction or severe trauma.",
+        "instruction 2": "Outline the anatomical landmarks and proper technique for locating and piercing the cricothyroid membrane to ensure a swift and effective airway management process, highlighting important considerations for patient safety.",
+        "question": "When an emergency opening into the airway is required, the cricothyroid membrane should be pierced immediately",
+        "choices": [
+            "superior to the thyroid cartilage.",
+            "inferior to the thyroid cartilage.",
+            "inferior to the cricoid cartilage.",
+            "superior to the thyroid isthmus."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical structures involved in the circulation of cerebrospinal fluid (CSF) around the brain, such as the ventricles, subarachnoid space, and dural sinuses, to provide context for the question.",
+        "instruction 2": "Clarify the physiological role of cerebrospinal fluid, including its functions such as providing cushioning, nutrient transport, and waste removal, to emphasize the importance of CSF circulation in maintaining brain health.",
+        "question": "Cerebrospinal fluid circulates around the brain between the",
+        "choices": [
+            "skull and dura mater.",
+            "dura mater and arachnoid mater.",
+            "arachnoid and pia maters.",
+            "pia mater and brain surface."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical structures involved in the swallowing process, specifically focusing on those that close and seal off the lower airway to prevent aspiration, such as the epiglottis and glottis.",
+        "instruction 2": "Examine the physiological mechanisms of swallowing, detailing how these structures function in conjunction with the muscular actions of the pharynx and larynx to achieve airway protection during the swallowing act.",
+        "question": "Which of the following closes and seals off the lower airway during swallowing?",
+        "choices": [
+            "Alveoli",
+            "Epiglottis",
+            "Larynx",
+            "Uvula"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the characteristics of orbital walls, particularly focusing on the anatomy involved in a 'blow out' fracture, and determine which wall has the least structural integrity to withstand the force typically associated with such injuries.",
+        "instruction 2": "Consider the clinical implications of a 'blow out' fracture, such as common symptoms and associated injuries, to inform the reasoning behind why a particular orbital wall is more prone to collapse in these scenarios.",
+        "question": "Which orbital wall is most likely to collapse in a 'blow out' fracture?",
+        "choices": [
+            "The roof",
+            "The floor",
+            "The lateral wall",
+            "The medial wall"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical structures that are adjacent to the maxillary sinus walls, considering their relationships with neighboring structures in the craniofacial region to provide a comprehensive overview of the sinus’s orientation and connections.",
+        "instruction 2": "Evaluate the various clinical implications of the maxillary sinus walls, including common pathologies or conditions that may affect the sinus and how these relate to the surrounding anatomical features.",
+        "question": "The walls of the maxillary sinus are sinus is related to",
+        "choices": [
+            "the floor of the orbit.",
+            "the floor of the orbit and the upper posterior teeth.",
+            "the floor of the orbit, the upper posterior teeth and the infratemporal fossa.",
+            "the floor of the orbit, the upper posterior teeth, the infratemporal fossa and the hard palate."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and outline the key developmental stages of the maxilla postnatally, noting any significant changes in dimensions, shape, or relationship to other craniofacial structures during growth.",
+        "instruction 2": "Evaluate each provided statement against established scientific literature on craniofacial growth, ensuring to consider factors such as genetic, functional, and environmental influences that may affect the growth of the maxilla.",
+        "question": "Which of one of the following statements about the postnatal growth of the maxilla is correct?",
+        "choices": [
+            "Pneumatisation by enlargement of the developing maxillary sinus ceases at puberty",
+            "Space is created for the eruption of the permanent molars by resorption of the maxillary tuberosity",
+            "The zygomaticomaxillary sutures contribute to increase in height and length of the maxilla",
+            "The intermaxillary suture closes about eight years postnatally"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the primary functions and innervations associated with the seventh cranial nerve, known as the facial nerve, including its role in motor control of facial muscles, taste sensation, and parasympathetic functions.",
+        "instruction 2": "Consider the anatomy and branches of the seventh cranial nerve, including how it affects different regions of the face and any clinical significance, such as conditions related to facial nerve impairment (e.g., Bell's palsy).",
+        "question": "The seventh cranial nerve supplies",
+        "choices": [
+            "taste buds on the posterior third of the tongue.",
+            "muscles of the soft palate.",
+            "muscles of the lower lip.",
+            "the parotid salivary gland."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the paranasal sinuses that anatomically open into the middle meatus, such as the maxillary sinuses and frontal sinuses, while also discussing the anatomical significance of the middle meatus in relation to sinus drainage.",
+        "instruction 2": "Consider the clinical implications of infections or blockages in these sinuses and how it may affect drainage into the middle meatus, which could lead to conditions like sinusitis.",
+        "question": "Which of the following paranasal sinuses open into the middle meatus?",
+        "choices": [
+            "The anterior ethmoidal sinuses",
+            "The anterior ethmoidal and frontal sinuses",
+            "The anterior ethmoidal, frontal and maxillary sinuses",
+            "The anterior ethmoidal, frontal, maxillary and sphenoidal sinuses"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the main structural, fibrous proteins that are known to be present in the dermis, focusing on their roles and characteristics, such as tensile strength and elasticity.",
+        "instruction 2": "Evaluate the options provided, ensuring to differentiate between various proteins such as collagen and elastin, and determine which one fits the criteria of being primarily structural and fibrous.",
+        "question": "Which of the following is a structural, fibrous protein found in the dermis?",
+        "choices": [
+            "Collagen",
+            "Heparin",
+            "Lipocyte",
+            "Melanin"
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the geological processes or factors that contribute to the elevation of the Palatine shelf, such as tectonic activity, sediment deposition, or glacial impacts, and how these processes influence the physical characteristics of the shelf.",
+        "instruction 2": "Research any historical or ongoing environmental changes affecting the Palatine shelf, including sea level changes or erosion, to provide a comprehensive understanding of the elevation and its implications in a broader geological context.",
+        "question": "Palatine shelf elevation is due to the effect of",
+        "choices": [
+            "descent of the tongue.",
+            "changes in flexure of the developing brain.",
+            "hydrophilic molecules increasing turgor pressure in the palatine shelves.",
+            "a combination of these three processes."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific areas of the teeth where plaque accumulation is most frequent, particularly focusing on surfaces that are more difficult to clean, such as the surfaces between the teeth and along the gum line, as well as the pits and fissures of the molars.",
+        "instruction 2": "Consider the implications of poor oral hygiene practices, including infrequent brushing and flossing, which contribute to plaque buildup in these high-risk areas, and discuss how anatomy and location affect plaque retention on various tooth surfaces.",
+        "question": "On which surfaces of the teeth is dental plaque most likely to accumulate in the mouth of a patient with poor oral hygiene?",
+        "choices": [
+            "The palatal surfaces of the upper molars and lingual surfaces of the lower incisors.",
+            "The buccal surfaces of the upper molars and lingual surfaces of the lower incisors.",
+            "The palatal surfaces of the upper molars and labial surfaces of the lower incisors.",
+            "The buccal surfaces of the upper molars and labial surfaces of the lower incisors."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the anatomical structure of the larynx, paying particular attention to the location of the vocal folds and the surrounding tissues, to understand why laryngeal oedema primarily affects the area above the vocal folds.",
+        "instruction 2": "Consider the physiological mechanisms that may contribute to the limited spread of oedema in the larynx, such as the lymphatic drainage patterns and the vascularization of the laryngeal region.",
+        "question": "Laryngeal oedema is usually confined to the larynx above the vocal folds because",
+        "choices": [
+            "there are numerous mucous glands in the vestibular folds.",
+            "the mucosa covering the vocal folds is tightly attached to underlying tissues.",
+            "fluid will drain rapidly into the thorax below the vocal folds.",
+            "the mucosa above the vocal folds is more vascular than that below the vocal folds."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the context or specific aspect of the coronary arteries being inquired about, such as their anatomy, function, diseases, or treatments, to provide a focused and relevant answer.",
+        "instruction 2": "Gather and synthesize relevant medical and anatomical information related to the coronary arteries, ensuring the explanation is accurate and comprehensible for the intended audience, whether it's for academic purposes or general understanding.",
+        "question": "The coronary arteries",
+        "choices": [
+            "arise from the arch of the aorta and fill during diastole.",
+            "arise from the ascending aorta and fill during systole.",
+            "arise from the arch of the aorta and fill during systole.",
+            "arise from the ascending aorta and fill during diastole."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific muscles involved in the movement of the mandible during a right lateral excursion, focusing on the primary muscles that contribute to lateral movements of the jaw.",
+        "instruction 2": "Analyze the role of various muscle groups such as the lateral pterygoid and medial pterygoid, considering their activation levels and the mechanics of the jaw movement to determine which muscle is predominantly active during the excursion.",
+        "question": "Which muscle is the most active during a right lateral excursion of the mandible?",
+        "choices": [
+            "Left lateral pterygoid muscle",
+            "Right lateral pterygoid muscle",
+            "Left medial pterygoid muscle",
+            "Right medial pterygoid muscle"
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the primary function of the phrenic nerves and the specific anatomical structures they innervate, focusing on their role in respiratory control and any relevant relationships to other nerves or muscles.",
+        "instruction 2": "Research the path of the phrenic nerves, including their origin and the regions they innervate, ensuring to include any clinical significance or associated conditions related to phrenic nerve function.",
+        "question": "The phrenic nerves innervate the",
+        "choices": [
+            "diaphragm.",
+            "diaphragm and parietal pleura.",
+            "diaphragm, parietal pleura and pericardium.",
+            "diaphragm, parietal pleura, pericardium and intercostals muscles."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the origin of parasympathetic preganglionic nerves within the central nervous system, specifically focusing on their anatomical pathways and the specific cranial and sacral regions from which they originate.",
+        "instruction 2": "Consider the functions and targets of the parasympathetic nervous system, including its role in regulating bodily functions at rest and any relevant neurotransmitters involved in signaling, to better understand the implications of where these nerves leave the central nervous system.",
+        "question": "Parasympathetic preganglionic nerves leave the central nervous system with the",
+        "choices": [
+            "third cranial nerves.",
+            "fourth cranial nerves.",
+            "fifth cranial nerves.",
+            "sixth cranial nerves."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the normal characteristics of healthy oral mucosa, particularly focusing on the alveolar mucosa associated with the mandibular teeth, including its color, texture, and any signs of inflammation or abnormality.",
+        "instruction 2": "Consider the anatomical and physiological functions of the alveolar mucosa in terms of its role in supporting teeth and its interaction with surrounding tissues, which may include the consequences of any pathological changes that could deviate from the normal appearance.",
+        "question": "In a patient with a normal healthy mouth, you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be",
+        "choices": [
+            "light pink in colour on both sides of the mucogingigival junction.",
+            "light pink below the mucogingival junction and red above it.",
+            "red below the mucogingival junction and light pink above it.",
+            "red on both sides of the mucogingival junction."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine the anatomical structures involved in the fusion process that leads to macrostomia, focusing on relevant embryological development and the specific failures that contribute to this condition.",
+        "instruction 2": "Research the broader implications of macrostomia, including potential associated conditions or syndromes, and consider the impact of this failure of fusion on an individual's health and development.",
+        "question": "Macrostomia results from failure of fusion of",
+        "choices": [
+            "maxillary and mandibular processes.",
+            "left and right mandibular processes.",
+            "maxillary and frontonasal processes.",
+            "mandibular and hyoid arches."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Consider the anatomical location and functions of the submandibular salivary gland, along with potential causes of enlargement, such as infections, stones, or tumors, to formulate a comprehensive understanding of the condition.",
+        "instruction 2": "Evaluate the clinical presentation and symptoms associated with an enlarged submandibular gland, including pain, swelling, or difficulty swallowing, to anticipate the potential implications for diagnosis and treatment.",
+        "question": "You suspect that your patient has an enlarged submandibular salivary gland. You expect the enlarged gland",
+        "choices": [
+            "to be palpable intraorally..",
+            "to be palpable extraorally.",
+            "to be palpable both intra- and extraorally.",
+            "only to be detectable by radiographical examination."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the biological role of osteoclasts in the human body, including their function in bone resorption and the maintenance of bone integrity.",
+        "instruction 2": "Explore the relationship between osteoclasts and other bone cells, such as osteoblasts and osteocytes, to understand how these cells interact in the process of bone remodeling and homeostasis.",
+        "question": "Osteoclasts",
+        "choices": [
+            "deposit bone and differentiate from periosteal mesenchymal cells.",
+            "resorb bone and differentiate from periosteal mesenchymal cells.",
+            "deposit bone and differentiate from monocytes.",
+            "resorb bone and differentiate from monocytes."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Provide a detailed description of the lateral pterygoid muscle, including its anatomical location, origin, insertion, innervation, and primary functions, ensuring to include its role in the movement of the jaw.",
+        "instruction 2": "Consider discussing the clinical significance of the lateral pterygoid muscle, such as its involvement in jaw disorders or its role in dental procedures, to give a comprehensive understanding beyond just its anatomy.",
+        "question": "The lateral pterygoid muscle",
+        "choices": [
+            "is attached to the coronoid process and elevates the mandible.",
+            "is attached to the condylar process and elevates the mandible.",
+            "is attached to the coronoid process and protrudes the mandible.",
+            "is attached to the condylar process and protrudes the mandible."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the anatomical structure and physiological function of the ductus arteriosus in the fetal circulatory system, specifying its role in connecting the pulmonary artery to the aorta and bypassing the non-functioning fetal lungs.",
+        "instruction 2": "Identify the major vessels involved in fetal circulation, particularly detailing how blood flows through the ductus arteriosus and the significance of this pathway for oxygen delivery and fetal development.",
+        "question": "In the fetus, the ductus arteriosus passes blood from the",
+        "choices": [
+            "pulmonary vein to the aorta.",
+            "aorta to pulmonary vein.",
+            "pulmonary artery to the aorta.",
+            "aorta to the pulmonary artery."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the bones listed in the options and categorize them based on their development processes, specifically determining whether they form through endochondral ossification, which involves the replacement of cartilage with bone tissue.",
+        "instruction 2": "Consult anatomical and biological texts or resources to verify the classification of each bone, noting the specific bones generally known to undergo endochondral ossification, such as long bones, and distinguishing them from those that develop via intramembranous ossification.",
+        "question": "Which of the following bones develop by endochondral ossification?",
+        "choices": [
+            "The ribs",
+            "The ribs and sternum",
+            "The ribs, sternum and clavicle",
+            "The ribs, sternum, clavicle and vertebrae"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the term 'mucosa' in the context of the hard palate, explaining its structure and function within the oral cavity, specifically noting characteristics such as its epithelial composition and thickness.",
+        "instruction 2": "Consider the role of the hard palate's mucosa in health and disease, discussing potential conditions that may affect it and the implications for oral health and overall well-being.",
+        "question": "The mucosa of the hard palate is",
+        "choices": [
+            "keratinised and has submucosa and minor salivary glands posterolaterally.",
+            "non-keratinised and has submucosa and minor salivary glands posteromedially.",
+            "keratinised and lacks submucosa and minor salivary glands.",
+            "non-keratinised and lacks submucosa and minor salivary glands."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the anatomical structures that interact with the head of the sixth rib, focusing on the thoracic vertebrae and the related costal cartilages to understand the rib's points of articulation.",
+        "instruction 2": "Consider the broader context of rib articulation, such as the role of the rib cage in respiration and protection of thoracic organs, to provide a comprehensive answer regarding the head of the sixth rib's role.",
+        "question": "The head of the sixth rib articulates with",
+        "choices": [
+            "The inferior articular facet of T5 and superior articular facet of T6.",
+            "The inferior articular demifacet of T5 and superior articular facet of T6.",
+            "The inferior articular demifacet of T5 and the superior articular demifacet of T6.",
+            "The superior and inferior demifacets of T6."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical structures that are located in the left upper quadrant of the abdominal cavity, especially focusing on those positioned beneath the diaphragm, such as the stomach, spleen, left lobe of the liver, and associated organs.",
+        "instruction 2": "Consider the spatial relationships and relevant anatomical landmarks to differentiate between various organs in the left upper quadrant, ensuring to clarify their specific locations relative to the diaphragm.",
+        "question": "Which of the following is located beneath the diaphragm in the left upper quadrant of the abdominal cavity?",
+        "choices": [
+            "Appendix",
+            "Duodenum",
+            "Spleen",
+            "Pancreas"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific types of proprioceptive nerve endings found in synovial joints, such as Golgi tendon organs, Ruffini endings, and Pacinian corpuscles, and describe their functions in sensing joint position and movement.",
+        "instruction 2": "Examine the anatomical locations of these proprioceptive nerve endings within the synovial joint structures, including the joint capsule, ligaments, and surrounding tissues, to clarify how they contribute to proprioception and motor control.",
+        "question": "Proprioceptive nerve endings in synovial joints are located in",
+        "choices": [
+            "articular cartilage and synovial membrane.",
+            "synovial membrane and capsule.",
+            "capsule and ligaments.",
+            "ligaments and articular discs."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the key functions of the thoracic cage, such as its role in protecting vital organs (e.g., heart and lungs), supporting the respiratory system, and facilitating the mechanics of breathing.",
+        "instruction 2": "Differentiate the structural aspects of the thoracic cage that contribute to its functions, considering how its anatomy (including ribs, sternum, and thoracic vertebrae) supports both protection and respiratory processes.",
+        "question": "The thoracic cage is a structural unit important for which of the following functions?",
+        "choices": [
+            "Alimentation",
+            "Menstruation",
+            "Mentation",
+            "Respiration"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the anatomy involved in an extradural hemorrhage (also known as epidural hemorrhage) and understand its location relative to the layers of the meninges and the skull, as this is crucial for interpreting the MRI findings.",
+        "instruction 2": "Analyze the potential causes of extradural hemorrhage related to head injuries, such as skull fractures or arterial rupture, and consider the clinical implications, including symptoms and expected outcomes based on the severity of the condition.",
+        "question": "A patient is admitted after a head injury and sinks rapidly into a coma. An MRI scan indicates an extradural haemorrhage because extravasated blood can be detected between the",
+        "choices": [
+            "skull bones and dura mater.",
+            "dura mater and arachnoid.",
+            "arachnoid and pia mater.",
+            "pia mater and brain surface."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the anatomical region affected by an infraorbital nerve block, specifically focusing on the areas innervated by the infraorbital nerve, which is a branch of the maxillary nerve.",
+        "instruction 2": "Consider the clinical implications of successful infraorbital nerve blockade, including which specific structures (such as the skin of the lower eyelid, cheek, and upper lip) will experience anesthesia as a result of the procedure.",
+        "question": "A successful infraorbital nerve block will produce anaesthesia of the",
+        "choices": [
+            "maxillary anterior teeth.",
+            "maxillary anterior teeth and their labial gingivae.",
+            "maxillary anterior teeth, their labial gingivae and the upper lip.",
+            "maxillary anterior teeth, their labial gingivae, the upper lip and anterior hard palate."
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific foramina associated with the sphenoid bone by consulting anatomical references to delineate their names and functions in relation to adjacent structures.",
+        "instruction 2": "Differentiate between the various foramina based on their anatomical locations (e.g., lesser wing, greater wing) and the neurovascular structures they transmit, ensuring to consider both major and minor foramina.",
+        "question": "Which of the following foramina pierce the sphenoid bone?",
+        "choices": [
+            "The foramen ovale",
+            "The foramen ovale and rotundum",
+            "The foramen ovale, rotundum and spinosum",
+            "The foramen ovale, rotundum and spinosum and foramen lacerum"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key symptoms and characteristics of the disorder in question, focusing on its effects on daytime functioning and the nature of the sleep episodes that occur unexpectedly.",
+        "instruction 2": "Differentiate this disorder from other sleep-related issues by considering possible causes and contexts in which the disorder presents itself, ensuring to clarify how it is recognized in clinical settings.",
+        "question": "Which of the following is a disorder characterized by uncontrollable episodes of falling asleep during the day?",
+        "choices": [
+            "Dyslexia",
+            "Epilepsy",
+            "Hydrocephalus",
+            "Narcolepsy"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific structures in the lungs that facilitate gas exchange, focusing on the role of alveoli and their interaction with surrounding capillaries to enable the exchange of oxygen and carbon dioxide.",
+        "instruction 2": "Consider how the physiological mechanisms, such as diffusion and the partial pressure gradients of gases, contribute to the efficiency of gas exchange, ensuring to explain how these processes are essential for respiratory function.",
+        "question": "Which of the following allows gas exchange in the lungs?",
+        "choices": [
+            "Alveoli",
+            "Bronchi",
+            "Bronchioles",
+            "Capillaries"
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific type of fracture described, focusing on the characteristics of being bent but not displaced, as well as the integrity of the skin. Look for terminology used in orthopedic medicine that defines a non-displaced fracture, particularly those that do not break the skin, such as a greenstick fracture.",
+        "instruction 2": "Consider the implications of the injury on treatment options, taking into account the fact that the fracture is non-displaced and the skin is intact. This may influence the choice of immobilization methods and the healing process.",
+        "question": "A patient has a fracture in which the radius is bent but not displaced, and the skin is intact. This type of fracture is known as which of the following?",
+        "choices": [
+            "Closed, greenstick",
+            "Complex, comminuted",
+            "Compound, transverse",
+            "Open, spiral"
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the anatomical locations within the female reproductive system where fertilization typically occurs, focusing specifically on the structures associated with the ovum and spermatozoon interaction.",
+        "instruction 2": "Consider the physiological conditions and timing necessary for fertilization to take place, such as the journey of the spermatozoon through the female reproductive tract and the involvement of the fallopian tubes.",
+        "question": "Fertilization of an ovum by a spermatozoon occurs in which of the following structures?",
+        "choices": [
+            "Cervix",
+            "Fallopian tube",
+            "Ovary",
+            "Uterus"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific tissues and structures that develop from the ectoderm during embryonic development, such as the nervous system, skin, and related structures, highlighting the biological significance of these derivatives.",
+        "instruction 2": "Consider the role of ectodermal development in the broader context of the three germ layers (ectoderm, mesoderm, and endoderm) and how these contribute to the formation of a complete organism, ensuring to clarify any developmental processes associated with ectodermal origins.",
+        "question": "Ectoderm gives rise to",
+        "choices": [
+            "the neural tube.",
+            "ectomesenchymal cells.",
+            "dental enamel.",
+            "all three structures."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the anatomical structures surrounding the neck of the bladder in men, specifically focusing on the anatomy of the urethra and its associated structures that facilitate urination.",
+        "instruction 2": "Consider the function of the identified structures, such as the role of the prostatic urethra and surrounding muscles in urinary control, to ensure a comprehensive understanding of their location and significance.",
+        "question": "In men, which of the following structures is located at the neck of the bladder and surrounds the urethra?",
+        "choices": [
+            "Epididymis",
+            "Prostate",
+            "Scrotum",
+            "Seminal vesicle"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific functions and characteristics of the right atrioventricular valve, including its role in the cardiac cycle and its distinction from other heart valves, to provide context for completing the statement accurately.",
+        "instruction 2": "Consider the anatomical position of the right atrioventricular valve (also known as the tricuspid valve) in relation to other heart structures, and ensure that any options provided reflect accurate physiological terminology and concepts.",
+        "question": "Which of the following options completes the following statement? \"The right atrioventricular valve…\"",
+        "choices": [
+            "is a semilunar valve",
+            "is prevented from everting by papillary muscles.",
+            "is open during systole.",
+            "prevents blood returning from the pulmonary trunk as the heart relaxes."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific brain areas supplied by branches of the subclavian arteries, such as the vertebral arteries that originate from the subclavian arteries and their subsequent supply routes to the brain, including the basilar artery.",
+        "instruction 2": "Review anatomical diagrams or resources that clearly outline the vascular supply of the brain and correlate that information with subclavian artery branches to pinpoint which brain areas are specifically affected.",
+        "question": "Which one of the following brain areas is supplied by branches of the subclavian arteries?",
+        "choices": [
+            "The frontal lobe",
+            "The parietal lobe",
+            "The hypothalamus",
+            "The cerebellum"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key structures and components of the small intestine, including the duodenum, jejunum, and ileum, and differentiate them from structures belonging to other parts of the digestive system.",
+        "instruction 2": "Evaluate the provided options carefully to determine which one explicitly names or describes a structure associated with the small intestine, ruling out any that refer to parts of the stomach or large intestine.",
+        "question": "Which of the following structures is part of the small intestine?",
+        "choices": [
+            "Ascending colon",
+            "Cecum",
+            "Ileum",
+            "Sigmoid colon"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical landmarks involved in an inferior alveolar nerve block, including the mandibular notch, the pterygomandibular raphe, and the target for the needle insertion.",
+        "instruction 2": "Understand the ideal trajectory of the needle when performing the nerve block, particularly focusing on the angle of insertion and depth required to effectively reach the inferior alveolar nerve while avoiding complications or injury to adjacent structures.",
+        "question": "During an inferior alveolar nerve block the needle ideally passes",
+        "choices": [
+            "posterior and medial to medial pterygoid.",
+            "anterior and lateral to medial pterygoid.",
+            "through medial pterygoid.",
+            "inferior to medial pterygoid."
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific diseases or conditions that are known to result in vitamin B-12 deficiency, as this will guide the selection of conditions commonly treated with vitamin B-12 injections.",
+        "instruction 2": "Consider relevant medical literature and clinical guidelines that outline indications for vitamin B-12 injections, ensuring to include both recognized deficiencies and any additional conditions for which vitamin B-12 may be prescribed.",
+        "question": "Patients with which of the following diseases are treated with injections of vitamin B-12?",
+        "choices": [
+            "Bell's palsy",
+            "Crohn's disease",
+            "Pernicious anemia",
+            "Graves' disease"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the bones involved in forming the zygomatic arch, specifically focusing on the anatomical features and processes of the bones that articulate with the zygomatic bone, such as the temporal bone and its zygomatic process.",
+        "instruction 2": "Consider the comparative anatomy of the skull to determine how the joining of these processes contributes to the structure and function of the zygomatic arch, ensuring to pinpoint the specific bone that connects with the zygomatic bone.",
+        "question": "Which of the following bones has a process that joins with the zygomatic bone to form the zygomatic arch?",
+        "choices": [
+            "The maxillary bone",
+            "The temporal bone",
+            "The sphenoid bone",
+            "The frontal bone"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical pathway of parasympathetic preganglionic axons as they exit the central nervous system, specifying the cranial and sacral nerves involved in this process.",
+        "instruction 2": "Consider the functions and roles of the neurotransmitters released by parasympathetic preganglionic axons at their target ganglia, ensuring to highlight how these functions differ from those of sympathetic axons.",
+        "question": "Parasympathetic preganglionic axons leave the CNS with the",
+        "choices": [
+            "cervical spinal nerves.",
+            "thoracic spinal nerves.",
+            "lumbar spinal nerves.",
+            "sacral spinal nerves."
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the function of the cervical sympathetic chain and how its dysfunction can lead to specific clinical signs and symptoms, such as Horner's syndrome, which includes ptosis, miosis, and anhidrosis.",
+        "instruction 2": "Consider the anatomical location and the pathways affected by damage to the cervical sympathetic chain, evaluating how these injuries can influence autonomic function and lead to manifestations observed in the patient.",
+        "question": "A patient with damage to their cervical sympathetic chain will show the following signs and symptoms.",
+        "choices": [
+            "Pupillary constriction",
+            "Pupillary constriction and vasodilation of facial vessels",
+            "Pupillary constriction, vasodilation of facial vessels and increased facial sweating",
+            "Pupillary constriction, vasodilation of facial vessels, increased facial sweating and decreased lacrimation"
+        ],
+        "subject": "anatomy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific cranial nerves and their functions, focusing on the ones associated with sensory perception, particularly the olfactory system responsible for the sense of smell.",
+        "instruction 2": "Consider the role and anatomical pathways of these cranial nerves, ensuring clarity on how they transmit sensory information from olfactory receptors to the brain.",
+        "question": "Which of the following cranial nerves is related to the sense of smell?",
+        "choices": [
+            "Abducens",
+            "Hypoglossal",
+            "Olfactory",
+            "Trochlear"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific regions within the brainstem, such as the medulla oblongata, pons, and midbrain, that are classified as vital centers responsible for autonomic functions like respiration and heart rate regulation.",
+        "instruction 2": "Examine the functional roles of these vital centers and how they contribute to maintaining homeostasis in the body, ensuring to recognize any connections to other areas of the central nervous system.",
+        "question": "Where are the vital centres located in the brainstem?",
+        "choices": [
+            "midbrain",
+            "pons",
+            "medulla oblongata",
+            "cerebellum"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific enzyme present in saliva, such as amylase, and determine the types of nutrients it acts upon, focusing on the biochemical reactions that occur during digestion in the mouth.",
+        "instruction 2": "Consider the broader context of digestion, emphasizing how the action of saliva and its components contribute to the breakdown of nutrients, particularly carbohydrates, and the implications for overall digestive health.",
+        "question": "Saliva contains an enzyme that acts upon which of the following nutrients?",
+        "choices": [
+            "Starches",
+            "Proteins",
+            "Fats",
+            "Minerals"
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the physiological processes involved in swallowing, such as the stages of oral, pharyngeal, and esophageal phases, to understand the biological mechanisms related to this action.",
+        "instruction 2": "Consider the importance of the coordination between different muscles and the nervous system during swallowing, exploring how this affects overall health and potential swallowing disorders.",
+        "question": "During swallowing the",
+        "choices": [
+            "auditory tube opens.",
+            "cricopharyngeus muscle contracts.",
+            "rima glottis opens.",
+            "gag reflex is suspended."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the anatomical components associated with the dorsal roots of spinal nerves, specifically focusing on the types of neurons they contain, such as sensory (afferent) neurons that transmit sensory information from the periphery to the central nervous system.",
+        "instruction 2": "Consider the functional significance of the dorsal roots, including how they contribute to sensory pathways and the overall organization of the nervous system, ensuring to distinguish them from the ventral roots which contain motor (efferent) neurons.",
+        "question": "The dorsal roots of all spinal nerves contain",
+        "choices": [
+            "sensory neuronal processes.",
+            "sensory and autonomic neuronal processes.",
+            "motor neuronal processes.",
+            "motor and autonomic neuronal processes."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the organs involved in the endocrine system and determine their functions, specifically focusing on which gland regulates and controls the function of other glands, often referred to as the master gland.",
+        "instruction 2": "Evaluate the roles of the hypothalamus and pituitary gland, and clarify their relationship in regulating hormonal activities to accurately determine which is considered the master gland within the endocrine system.",
+        "question": "Which of the following is the master gland of the endocrine system?",
+        "choices": [
+            "Adrenal",
+            "Pancreas",
+            "Pineal",
+            "Pituitary"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the relevant cranial nerve(s) associated with sensation in the tongue and determine which specific area is affected by the loss of somatic sensation, focusing on the anterior two-thirds of the tongue.",
+        "instruction 2": "Consider the implications of damage to the identified nerve, including potential physiological consequences and associated symptoms that could occur as a result of this impairment.",
+        "question": "Loss of somatic sensation over the anterior two-thirds of the tongue indicates damage to the",
+        "choices": [
+            "lingual branch of the mandibular trigeminal nerve.",
+            "chorda tympani branch of the facial nerve.",
+            "lingual branch of the glossopharyngeal nerve.",
+            "hypoglossal nerve."
+        ],
+        "subject": "anatomy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the anatomical structures in men that are relevant for gonococcal cultures and differentiate which of these structures most commonly yield positive results in clinical practice.",
+        "instruction 2": "Reference established medical guidelines or literature regarding the collection of specimens for gonococcal cultures, specifying the techniques and locations typically recommended to maximize diagnostic accuracy.",
+        "question": "In men, specimens for gonococcal cultures are most commonly obtained from which of the following structures?",
+        "choices": [
+            "Anus",
+            "Bladder",
+            "Urethra",
+            "Testicle"
+        ],
+        "subject": "anatomy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify common anatomical structures that are typically depicted on a dental panoramic radiograph, such as the mandible, maxilla, teeth, temporomandibular joint, and associated dental arch features.",
+        "instruction 2": "Consider factors that may affect visibility on a radiograph, including patient positioning, exposure settings, and any potential anatomical variations or conditions that could obscure these structures.",
+        "question": "Which of the following structures should be visible on a dental panoramic radiograph?",
+        "choices": [
+            "The mandibular canal",
+            "The mandibular canal and maxillary sinus",
+            "The mandibular canal, maxillary sinus and hard palate",
+            "The mandibular canal, maxillary sinus, hard palate and zygomatic arch"
+        ],
+        "subject": "anatomy",
+        "answer": 3
+    }
+]

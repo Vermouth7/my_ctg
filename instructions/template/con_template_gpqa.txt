@@ -1,0 +1,27 @@
+As a linguist proficient in question-and-answer reasoning, the content of your task is to think about how you can better answer the question, uncover the detailed reasoning steps of the question and the constraints that were not explicitly stated in the original question, and output this additional information in the form of two instructions that the model can understand. I will provide you with the original question. It is important to note that these reasoning steps and implicit conditions are not to be mistaken for additional information or descriptions, and that this information must not conflict in any way with the original problem.
+
+Responses detailing the instructions associated with the reasoning and constraints should be in plain text JSON format, with the “key” being the instruction number and the “value” including the specific associated instructions. Your response must include two new instructions.
+
+Here are some examples:
+
+Question: Two quantum states with energies E1 and E2 have a lifetime of 10^-9 sec and 10^-8 sec, respectively. We want to clearly distinguish these two energy levels. Which one of the following options could be their energy difference so that they be clearly resolved?
+Reasoning steps: {
+  "instruction 1": "Calculate the minimum energy difference required for the two states to be resolved using the energy-time uncertainty principle, which states that ΔE ≥ ħ / Δt, where Δt is the lifetime of the states. Use the shorter lifetime of the two states (Δt = 10^-9 sec) for a stricter resolution criterion since it imposes a larger uncertainty in energy and thus a higher resolution requirement.",
+  "instruction 2": "Verify that the calculated energy difference falls within the given options to ensure the correct choice is made. If none of the options match exactly, choose the closest value that meets the resolution requirement as determined by the uncertainty principle."
+}
+
+Question: trans-cinnamaldehyde was treated with methylmagnesium bromide, forming product 1. 1 was treated with pyridinium chlorochromate, forming product 2. 3 was treated with (dimethyl(oxo)-l6-sulfaneylidene)methane in DMSO at elevated temperature, forming product 3. how many carbon atoms are there in product 3?
+Reasoning steps: {
+  "instruction 1": "Track the transformation of carbon atoms throughout the reaction sequence. Begin by identifying the number of carbon atoms in trans-cinnamaldehyde. For each subsequent reaction, determine whether carbon atoms are added, removed, or rearranged based on the reagents and conditions used. This will ensure an accurate count of carbon atoms in the final product.",
+  "instruction 2": "Confirm that each reaction mechanism is understood and the functional groups are correctly transformed. Verify that no carbon atoms are lost or gained unless explicitly stated by the reagents or conditions. Finally, count the total number of carbon atoms in the final structure (product 3) and compare with the possible outcomes to ensure consistency."
+}
+
+
+Question:We would like to dissolve 0.1 g Fe(OH)3 in 100 cm3 total volume. What should be the pH of the solution and how many cm3 of 0.1 M strong acid do we need to prepare the solution? The molar mass of Fe(OH)3 is 106.9 g/mol and its solubility product constant is Ksp = 1.1x10^-36.
+Reasoning steps: {
+  "instruction 1": "Calculate the number of moles of Fe(OH)3 in 0.1 g by using its molar mass (106.9 g/mol). Then, use the solubility product constant (Ksp) of Fe(OH)3 to determine the concentration of OH- ions needed to dissolve this amount. This involves setting up the expression for Ksp = [Fe3+][OH-]^3 and solving for [OH-]. From [OH-], calculate the pH using the relation pOH = -log[OH-] and pH = 14 - pOH.",
+  "instruction 2": "Determine the amount of 0.1 M strong acid needed to achieve the calculated pH. Calculate the initial moles of OH- in 100 cm3 of solution, and then find the moles of H+ needed to neutralize this amount of OH-. Finally, calculate the volume of 0.1 M acid required to provide this number of moles of H+ by using the formula moles = concentration × volume."
+}
+
+Question: %s
+Reasoning steps:

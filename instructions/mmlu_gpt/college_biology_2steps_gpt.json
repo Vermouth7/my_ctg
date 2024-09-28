@@ -1,0 +1,1874 @@
+[
+    {
+        "instruction 1": "Analyze the characteristic population curves of mosquito growth, specifically identifying key phases such as exponential growth, carrying capacity, and potential points of decline, to determine effective population control strategies rooted in ecological principles.",
+        "instruction 2": "Evaluate various biological control measures or environmental management techniques that can effectively disrupt these population curves, such as introducing natural predators, habitat manipulation, or implementing targeted insecticide application, while considering the long-term ecological impacts.",
+        "question": "Based on the characteristic population curves that result from plotting population growth of a species, the most effective means of controlling the mosquito population is to",
+        "choices": [
+            "maintain the population at a point corresponding to the midpoint of its logistic curve",
+            "opt for zero population control once the K value of the curve has been reached",
+            "reduce the carrying capacity cif the environment to lower the K value",
+            "increase the mortality rate"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define what a frameshift mutation is and explain how it is caused, specifically focusing on the types of genetic changes (insertions or deletions) that can lead to this type of mutation, resulting in a shift in the reading frame of the genetic code.",
+        "instruction 2": "Explore the consequences of a frameshift mutation on protein synthesis, emphasizing how it affects the resulting amino acid sequence and potentially leads to functional changes in the protein produced.",
+        "question": "A frameshift mutation is created when",
+        "choices": [
+            "telomeric sequences are removed from DNA",
+            "a codon's nucleotide sequence changes so that it calls for production of a different amino acid than the original one",
+            "a base pair is either inserted or deleted in a gene",
+            "a codon's nucleotide sequence is changed so that instead of coding for a given amino acid it acts to terminate translation"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the protective structures or membranes in terrestrial vertebrates that secrete fluids, such as the amniotic sac, which help to prevent desiccation and physical injury to embryos during development.",
+        "instruction 2": "Consider the evolutionary significance of these protective features in relation to the reproductive strategies of terrestrial vertebrates, and understand how they contribute to successful embryonic development in a land environment.",
+        "question": "To prevent desiccation and injury, the embryos of terrestrial vertebrates are encased within a fluid secreted by the",
+        "choices": [
+            "amnion",
+            "chorion",
+            "allantois",
+            "yolk sac"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the different types of second messengers that are known to be involved in cellular signaling pathways and their specific roles in the stimulation of calcium ion release into the cytoplasm.",
+        "instruction 2": "Evaluate the specific signaling pathways that lead to calcium ion release, ensuring to focus on the mechanism of action of the second messengers listed in the options and how they facilitate this process within the cell.",
+        "question": "Which of the following is a second messenger that stimulates release of calcium ions into the cytoplasm?",
+        "choices": [
+            "Prostaglandins",
+            "Inositol triphosphate",
+            "Cyclic AMP",
+            "Calmodulin"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific enzymes and biological processes involved in the synthesis of an RNA/DNA hybrid from a single-stranded RNA template, such as the role of reverse transcriptase in synthesizing complementary DNA (cDNA) from RNA.",
+        "instruction 2": "Consider the conditions and molecular components necessary for the synthesis, including the required nucleotides, temperature, and any other reagents that facilitate the hybrid formation, ensuring to distinguish between the mechanisms for RNA and DNA synthesis.",
+        "question": "Synthesis of an RNA/DNA hybrid from a single-stranded RNA template requires",
+        "choices": [
+            "a DNA or RNA primer and reverse transcriptase",
+            "a DNA or RNA primer and DNA polymerase",
+            "RNase only",
+            "reverse transcriptase only"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary conditions necessary for the Hardy-Weinberg equilibrium to occur, such as no mutations, random mating, no natural selection, large population size, and no gene flow, and understand how each condition contributes to the stability of allele frequencies.",
+        "instruction 2": "Evaluate which of the listed options violates or does not support the conditions required for Hardy-Weinberg equilibrium, ensuring to differentiate between essential conditions and those that may not necessarily apply.",
+        "question": "In order for the Hardy-Weinberg law to operate with respect to a population of organisms, each of the following conditions must be met EXCEPT:",
+        "choices": [
+            "Genes are exchanged with other populations.",
+            "Population size is large.",
+            "Natural selection does not take place.",
+            "Matings are random."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the biological significance of the Barr body, focusing on its role in sex determination and dosage compensation to ensure that gene expression from the X chromosomes is balanced in females, who have two X chromosomes.",
+        "instruction 2": "Explore the genetic mechanisms that lead to the formation of the Barr body, including the process of X-inactivation, and how this phenomenon applies to the overall understanding of chromosomal behavior in human and other mammalian species.",
+        "question": "The Barr body found within female mammalian cells' nuclei is an example of",
+        "choices": [
+            "euchromatin",
+            "heterochromatin",
+            "a cistron",
+            "pseudogenes"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify all the options provided in the question and categorize them based on whether they contribute to atmospheric carbon levels or not, considering both natural and human-made sources.",
+        "instruction 2": "Apply critical thinking to assess the common understanding of sources of atmospheric carbon, differentiating between those that actively emit carbon into the atmosphere and those that do not, ensuring to consider scientific consensus and established definitions.",
+        "question": "Which of the following is NOT a source of atmospheric carbon?",
+        "choices": [
+            "Respiration",
+            "Photosynthesis",
+            "Bacterial decomposition",
+            "Combustion of fossil fuels"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept of punctuated equilibrium by outlining its key characteristics, such as the idea that species remain relatively stable for long periods and experience significant changes during short, rapid bursts, typically associated with events like environmental shifts or speciation.",
+        "instruction 2": "Explain how punctuated equilibrium contrasts with gradualism in evolutionary theory, focusing on the differences in the rate and nature of evolutionary changes over time.",
+        "question": "The concept of punctuated equilibrium refers to",
+        "choices": [
+            "oscillating ecological successional stages",
+            "ecological succession arrested by sudden environmental changes, e.g., fire",
+            "persistent predator-prey relationships in relatively stable environments",
+            "bursts of speciation followed by relatively unchanging lineages"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the initial actions taken by the influenza virus upon entering a host cell, focusing on the process of viral uncoating and the release of viral RNA into the host's cytoplasm, which is crucial for the viral replication cycle.",
+        "instruction 2": "Examine the specific mechanisms through which the virus hijacks the host cellular machinery to facilitate its replication, including the interaction with ribosomes and the transcription of viral proteins necessary for producing new viral particles.",
+        "question": "When an influenza virus enters a cell, it immediately starts to do which of the following?",
+        "choices": [
+            "Incorporate viral DNA into the host cell’s chromosome",
+            "Destroy the host cell’s transcriptional machinery",
+            "Replicate its genetic material and synthesize viral proteins",
+            "Use a viral copy of reverse transcriptase to manufacture viral DNA"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and define the specific term associated with cleavage symmetry in embryology, ensuring to reference established scientific terminology related to cell division and its orientation.",
+        "instruction 2": "Consider the implications of this type of cleavage symmetry on developmental biology, including how it may influence the arrangement of cells and the overall embryonic development process.",
+        "question": "Cleavage symmetry arising from early cell divisions that occur at an oblique angle to the polar axis is known as",
+        "choices": [
+            "meroblastic cleavage",
+            "radial cleavage",
+            "spiral cleavage",
+            "superficial cleavage"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the various cellular destinations (e.g., nucleus, mitochondria, endoplasmic reticulum, etc.) and the corresponding signal peptides that govern the transport and targeting of proteins to those locations, focusing on their specific functions and mechanisms.",
+        "instruction 2": "Analyze the context of the newly synthesized protein's function and the necessity of two distinct signal peptides, considering scenarios involving complex targeting requirements, such as dual localization or sequential transport to different organelles.",
+        "question": "Targeting of a newly synthesized protein is most likely to require two different signal peptides for which of the following destinations?",
+        "choices": [
+            "Plasma membrane",
+            "Lysosome",
+            "Cytosol",
+            "Chloroplast"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the dynamics of predator-prey relationships, recognizing that an increase in the mange mite population could lead to a decline in the red fox population due to increased mortality rates, consequently affecting their ability to control hare populations.",
+        "instruction 2": "Analyze the expected population changes of hares and foxes based on the impact of the mange mite, considering that a weakened fox population may allow for an increase in hare numbers, thereby establishing a new equilibrium in the predator-prey dynamic at the site.",
+        "question": "In Sweden, the red fox (Vulpes vulpes) severely limits populations of its prey, including hares. However, red fox populations are sometimes attacked by a fatal parasite, the mange mite. As mite population sizes increase at a given site, how are hare and fox populations most likely to respond at the same site? (Assume that hares have no major predators at this site other than foxes.)",
+        "choices": [
+            "Both fox and hare populations will decrease.",
+            "Both fox and hare populations will increase.",
+            "Fox populations will decrease and hare populations will increase.",
+            "Fox populations will increase and hare populations will decrease."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific components present in a cell nucleus, ensuring to clarify the roles of DNA, proteins, and RNA within the nucleus, and how they contribute to cellular functions such as gene expression and replication.",
+        "instruction 2": "Distinguish between the types of RNA present in the nucleus, such as messenger RNA (mRNA) and ribosomal RNA (rRNA), and consider how the proteins associated with DNA, including histones, play a role in the structural organization and regulation of genetic material.",
+        "question": "A cell nucleus contains which of the following?\nI. DNA\nII. Protein\nIII. RNA",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I, II, and III"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the evolutionary relationships between the three domains of life (Archaea, Eukarya, and Bacteria) and how the presence of transcription factors TBP and TFIIB informs these relationships, particularly focusing on the implications of shared proteins between Archaea and Eukarya.",
+        "instruction 2": "Consider the significance of horizontal gene transfer and convergent evolution in the context of the observed similarities in transcription factors, and evaluate how these scenarios might lead to the conclusion regarding the evolutionary lineage of Archaea in relation to Eukarya and Bacteria.",
+        "question": "In one taxonomic classification, Archaea, Eukarya, and Bacteria represent the three major domains of life. Eukarya utilize the general transcription factors TBP (TATA-binding protein) and TFIIB in transcription, whereas Bacteria do not. At least one member of Archaea has a protein similar to TBP and a protein similar to TFIIB. Based on this observation, which of the following scenarios is most likely?",
+        "choices": [
+            "Archaea and Eukarya diverged after their common ancestor diverged from Bacteria.",
+            "Archaea and Bacteria diverged after their common ancestor diverged from Eukarya.",
+            "Bacteria and Eukarya diverged after their common ancestor diverged from Archaea.",
+            "Archaea, Eukarya, and Bacteria diverged simultaneously from a common ancestor."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the biological processes involved in the rise of intracellular free calcium in the sea urchin oocyte, and clarify how this calcium signaling mechanism initiates the release of proteolytic enzymes that contribute to the prevention of polyspermy.",
+        "instruction 2": "Explore the significance of these events in the context of fertilization, examining how the release of these enzymes serves as a protective mechanism against polyspermy and ensuring successful fertilization in sea urchins.",
+        "question": "A rise in intracellular free calcium in the sea urchin oocyte causes the release of proteolytic enzymes which act to prevent polyspermy. The events just described entail the",
+        "choices": [
+            "zona reaction",
+            "acrosomal reaction",
+            "cortical reaction",
+            "fertilization reaction"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify specific benefits that mycorrhizal fungi provide to plants, such as improved nutrient uptake (particularly phosphorus), increased water absorption, and enhanced disease resistance, and relate these benefits to the overall health and growth of plants.",
+        "instruction 2": "Examine the symbiotic relationship between mycorrhizal fungi and plant roots, noting how this interaction facilitates the exchange of nutrients and enhances plant resilience in various environmental conditions.",
+        "question": "Which of the following is a benefit that mycorrhizal fungi confer to many plants?",
+        "choices": [
+            "They protect plant roots from desiccation in extremely dry habitats.",
+            "They fix nitrogen, which is particularly important for plants in nitrogen-limited habitats.",
+            "They provide access to phosphorus, an essential element that is limited in many kinds of soils.",
+            "They provide carbon to plants in exchange for fixed nitrogen."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Evaluate the significance of species-specific song characteristics in birds by analyzing how isolation and exposure to different species affect song development, determining the implications for species identity and communication.",
+        "instruction 2": "Consider the role of innate versus learned behaviors in song development, assessing whether the inability to hear species-specific songs indicates a critical learning period that impacts the bird's ability to produce typical songs of its own species.",
+        "question": "Experiments on song development in birds have shown that when a young male reared in isolation hears only the song of a different bird species, he will develop an adult song repertoire that lacks certain characteristics typical of his own species. This result shows that the song of his species is most likely",
+        "choices": [
+            "entirely learned during development",
+            "entirely instinctive",
+            "both instinctive and learned",
+            "dependent upon hormones for proper development"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the biological characteristics of retrotransposons, including their mechanism of replication through reverse transcription and integration into the genome, distinguishing them from other types of transposable elements.",
+        "instruction 2": "Evaluate the roles and implications of retrotransposons in genetic variation, evolution, and potential contributions to genomic disorders, linking these aspects to their structural and functional definitions.",
+        "question": "Which of the following most accurately describes a retrotransposon?",
+        "choices": [
+            "A DNA sequence that can move from one site in the genome to another without replicating",
+            "A DNA sequence that can be deleted from the genome without consequence",
+            "A DNA sequence that replicates via an RNA intermediate",
+            "A DNA sequence that replicates via a protein intermediate"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the different biomes under consideration and analyze their soil characteristics, particularly focusing on the processes of leaching and nutrient cycling, to determine which biome is known for these activities.",
+        "instruction 2": "Refer to ecological studies or resources that discuss the soil composition and climatic factors of the biomes listed to support the choice of the biome with the highest rate of leaching and nutrient cycling.",
+        "question": "The soils of which of the following biomes has the highest rate of leaching and cycling of nutrients?",
+        "choices": [
+            "Tropical rain forest",
+            "Tundra",
+            "Taiga",
+            "Desert"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary mechanism by which enzymes lower activation energy and increase the rate of chemical reactions, focusing on their role as biological catalysts.",
+        "instruction 2": "Explain the concept of substrate specificity and how enzyme structure affects its ability to bind to specific substrates, consequently influencing the rate of reaction compared to non-catalyzed reactions.",
+        "question": "Which of the following best explains why enzymes are effective in facilitating chemical reactions?",
+        "choices": [
+            "They raise the temperature of the reaction mixture, thereby speeding up the conversion of reactants to products.",
+            "They alter the equilibrium constant of a reaction (K_eq) so that more reactant can be converted to product.",
+            "They increase the maximal rate of the chemical reaction (V_max).",
+            "They lower the activation energy, thereby speeding up the conversion of reactants to products."
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific term used in population ecology or demography that refers to the equilibrium point where the birth rate (natality) equals the death rate (mortality), which is crucial for understanding population dynamics.",
+        "instruction 2": "Consider the implications of this equilibrium point on population growth, stability, and sustainability, including how changes in environmental factors or resources might influence natality and mortality rates.",
+        "question": "In the growth of a population, the point at which natality and mortality rates are equal to one another is referred to as",
+        "choices": [
+            "a population crash",
+            "a population explosion",
+            "zero population growth",
+            "exponential growth"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the biological structures of bat wings and butterfly wings, noting that one is a modified limb (bat wings) and the other is a membrane structure (butterfly wings), to clarify the nature of their adaptations and evolutionary significance.",
+        "instruction 2": "Consider discussing the concept of convergent evolution to explain how two different species can develop similar traits (wings) for flight, despite their distinct evolutionary lineages and structural differences.",
+        "question": "The wings of a bat and the wings of a butterfly are",
+        "choices": [
+            "homologous structures",
+            "analogous structures",
+            "vestigial structures",
+            "dissimilar in form and function"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific type of cell or tissue that makes up the pith within a dicot stem, focusing on its characteristics and functions in plant structure.",
+        "instruction 2": "Consider the role of the pith in relation to other tissues in the dicot stem, such as the cortex and vascular tissues, to ensure a comprehensive understanding of its positioning and function within the stem's anatomy.",
+        "question": "The cell type comprising the pith tissue centered within a dicot stem is the",
+        "choices": [
+            "parenchyma",
+            "sclerenchyma",
+            "vascular cambium",
+            "vascular bundle"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define the term that describes mobile regions of DNA, usually known as transposable elements or 'jumping genes', which can move within the genome and insert themselves into various locations.",
+        "instruction 2": "Discuss the mechanisms by which these mobile DNA regions operate, including processes such as transposition, and explain their significance in genetic variation and mutation within organisms.",
+        "question": "Mobile regions of DNA capable of inserting themselves into an existing genome are",
+        "choices": [
+            "prions",
+            "cistrons",
+            "introns",
+            "transposons"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the term 'pioneer species' and analyze their role in ecological succession, focusing specifically on how they initiate the colonization of bare substrates and contribute to ecosystem development.",
+        "instruction 2": "Identify and explain the specific ecological process or term used to describe the initial stage of succession where these pioneer species establish themselves in areas devoid of soil or organic matter, ensuring to relate it to broader concepts of ecosystem restoration.",
+        "question": "The process in which pioneer species colonize a bare substrate such as rock, sand, or glacial till is known as",
+        "choices": [
+            "weathering",
+            "stabilizing succession",
+            "secondary succession",
+            "primary succession"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the evolutionary implications of brood parasitism, focusing on the concept of natural selection and how host birds that are duped into rearing cuckoo fledglings may still contribute to the gene pool, possibly due to the success of their rearing strategies despite decreased survival of their own offspring.",
+        "instruction 2": "Examine the potential adaptive advantages for host birds that may arise from the persistence of genes that facilitate responses to begging cues, considering scenarios in which these traits may provide broader benefits, such as increased fitness from successfully rearing their own offspring in a stable environment.",
+        "question": "Brood parasites such as the cuckoo successfully trick other species of birds into rearing their young by exploiting the host birds' instinctive response to the loud begging cues of a fledgling in their nest. The genes that allow the host bird species to be duped into rearing the cuckoo fledglings to the detriment of their own offspring most likely remain in the gene pool of the population because",
+        "choices": [
+            "on average, the host birds' response allows them to rear their own young efficiently by feeding only those who indicate they are hungry",
+            "the maximum fitness of the duped bird is not compromised when the bird rears an interloper of another species",
+            "on average, little energy is spent on rearing a fledgling bird, whether it is an interloper or one's own",
+            "the maximum fitness of the cuckoo would then be reduced"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the characteristics and mechanisms of cell motility specific to cultured fibroblasts, determining which processes are commonly associated with them, such as lamellipodia extension or focal adhesion dynamics.",
+        "instruction 2": "Identify the exceptions or factors that do not conform to the understanding of fibroblast motility, ensuring to distinguish them from the established behaviors and characteristics exhibited by fibroblasts in culture.",
+        "question": "Cell motility, as viewed in a cultured fibroblast, encompasses all of the following EXCEPT",
+        "choices": [
+            "adhesion plaques",
+            "vinculin",
+            "clathrin",
+            "lamellipodia"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the components of Hamilton's rule, specifically explaining the variables involved: c (fitness cost to the donor), b (fitness benefit to the recipient), and r (the coefficient of relatedness between the donor and recipient), ensuring that the relationship among these variables is clearly understood.",
+        "instruction 2": "Assess how this rule can be applied in various evolutionary contexts, providing examples of altruistic behavior in nature to illustrate when the inequality c < br holds true and leads to the evolution of such altruistic traits.",
+        "question": "According to Hamilton’s rule, an altruistic trait can evolve if c < br, where c is the fitness cost of the altruistic behavior to the donor, b is the fitness benefit to the recipient, and r is the",
+        "choices": [
+            "coefficient of relatedness",
+            "frequency of the altruistic allele",
+            "inbreeding coefficient",
+            "rate of reciprocity"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify specific adaptations that plants have developed to cope with high temperatures and limited water availability, such as modified leaf structures, water storage capabilities, or changes in photosynthetic processes.",
+        "instruction 2": "Evaluate how these adaptations function to minimize water loss, detailing physiological mechanisms like the role of stomata, cuticle thickness, and root depth in relation to the environmental challenges posed by high temperatures.",
+        "question": "Adaptations of plants to minimize water loss in environments with high temperatures include which of the following?",
+        "choices": [
+            "Numerous stomata",
+            "Thin cuticles",
+            "Spines instead of leaves",
+            "Large surface-to-volume ratios"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific components typically associated with connective tissue, such as collagen fibers, elastin fibers, ground substance, and various cell types. Differentiate these from components that are characteristic of other tissue types.",
+        "instruction 2": "Analyze the list of options provided in the question to determine which item does not align with the established characteristics of connective tissue, ensuring a clear understanding of the foundational elements that define this type of tissue.",
+        "question": "All of the following might be found in connective tissue EXCEPT",
+        "choices": [
+            "thrombin",
+            "glycosaminoglycans",
+            "collagens",
+            "fibroblasts"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key features or components that characterize normal somatic cells in a human male, distinguishing them from those found in gametes or other cell types, focusing on aspects like chromosome number and type of sex chromosomes present.",
+        "instruction 2": "Review the list of options provided to determine which item does not align with the characteristics of normal somatic cells, ensuring to confirm that the selected option is associated with cells that differ from typical somatic cells, such as germ cells or sex chromosomes.",
+        "question": "Which of the following is typically NOT found in normal somatic cells of a human male?",
+        "choices": [
+            "The entire genetic information possessed by the original zygote",
+            "An inactivated X chromosome",
+            "Forty-four autosomes",
+            "A diploid nucleus"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the relationship between the treetop-nesting birds and the aggressive bird species, considering how competition for habitat affects the nesting choices of the birds and the ecological implications of this behavior.",
+        "instruction 2": "Identify the type of habitat being utilized by the treetop-nesting birds by categorizing their nesting environment based on factors such as safety from competition, availability of resources, and the characteristics of treetop habitats versus cliff ledges.",
+        "question": "The members of a bird species capable of nesting in treetops or on the ledges of nearby cliffs make their homes only in the treetops due to the established presence of a more aggressive bird species on the cliff ledges. With respect to habitat, the treetop-nesting birds are utilizing",
+        "choices": [
+            "their fundamental niche only",
+            "their realistic niche only",
+            "their ecological niche only",
+            "neither their fundamental niche nor their realistic niche"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the key characteristics associated with r-selected species, such as high reproductive rates, early maturation, and low parental investment, and clarify the context in which these traits apply.",
+        "instruction 2": "Identify and analyze the characteristics presented in the question to determine which one does not align with the established traits of r-selected species, ensuring that a clear distinction is made between r-selected and K-selected species where necessary.",
+        "question": "All of the following characteristics are typical of r-selected species EXCEPT",
+        "choices": [
+            "high reproductive rate",
+            "small body size",
+            "occupancy of unstable environments",
+            "high competitive ability"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the complementary base pairing rules for DNA, noting that adenine pairs with thymine and cytosine pairs with guanine, in order to find the matching sequence for each nucleotide in the given strand.",
+        "instruction 2": "Reverse the order of the complementary bases to represent the 3′ to 5′ directionality of the complementary DNA strand, ensuring that the final answer reflects the correct orientation.",
+        "question": "A DNA strand with the sequence 5′ CGA TTG 3′ would be complementary to the sequence",
+        "choices": [
+            "5′ GCU AAC 3′",
+            "5′ GCT AAC 3′",
+            "5′ GTT AGC 3′",
+            "5′ CAA TCG 3′"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Explain the process of alternation of generations specific to ferns, focusing on the distinct stages: the sporophyte phase (dominant and photosynthetic) and the gametophyte phase (typically smaller and independent), including how they interact and transition.",
+        "instruction 2": "Discuss the role of spore production and fertilization in this life cycle, clarifying how these processes lead to the formation of new sporophytes and the significance of both phases in the fern's reproductive strategy.",
+        "question": "Ferns undergo alternation of generations in which a",
+        "choices": [
+            "dominant sporophyte alternates with an independent gametophyte",
+            "dominant gametophyte alternates with a dependent sporophyte",
+            "sporophyte and a gametophyte have equal life spans",
+            "gametophyte produces gametes by meiosis"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the structural components of a sarcomere, such as actin and myosin filaments, and understand how their arrangement contributes to muscle contraction, ensuring clarity on the correct terminology and functions.",
+        "instruction 2": "Evaluate the provided statements by contrasting them against established knowledge of muscle physiology, particularly focusing on the mechanics of sarcomere shortening and the sliding filament theory.",
+        "question": "Which of the following statements concerning a sarcomere of a striated muscle (such as skeletal muscle) is correct?",
+        "choices": [
+            "During contraction H zones become elongated.",
+            "In the relaxed position tropomyosin impedes myosin's access to the binding site of actin.",
+            "Each myosin helical tail contains an actinbinding site and an ATP-hydrolyzing site.",
+            "The proteins troponin and tropomyosin constitute the thick and thin filaments, respectively."
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Design an experiment that clearly measures the defensive behavior of aggressive ants, including establishing control and treatment groups where one group of plants is protected by ants and another group is not, to directly observe the effects on leaf-feeding insects.",
+        "instruction 2": "Ensure the experiment includes specific metrics for evaluating ant defense, such as counting the number of leaf-feeding insects present on each plant type over a defined time period, and consider environmental factors that may influence the results.",
+        "question": "Aggressive ants live in the swollen thorns of a small tropical tree and feed on oil-rich bodies that the tree produces at the tips of its leaflets. Which of the following experiments best tests the hypothesis that ants defend the plant by either killing or chasing away leaf-feeding insects?",
+        "choices": [
+            "Remove ants and measure subsequent leaf damage.",
+            "Remove oil-rich bodies and measure subsequent ant density.",
+            "Remove the thorns and measure subsequent density of ants.",
+            "Remove leaf-feeding insects and measure subsequent ant density."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the anatomical structure and function of ommatidia in crustaceans and insects, focusing on how these units contribute to the overall functionality of their compound eyes and their role in visual perception.",
+        "instruction 2": "Explore the evolutionary significance of ommatidia in these organisms, considering how their specific arrangement and characteristics have adapted to different environmental conditions and lifestyles, distinguishing them from other types of visual systems.",
+        "question": "The sight organs of crustaceans and insects contain ommatidia, which make up the individual visual units of the",
+        "choices": [
+            "eyespot",
+            "simple eye",
+            "compound eye",
+            "binocular eye"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the key stages of vertebrate embryonic development, focusing on the transition from zygote to blastocyst, and then to fetus, to determine the developmental milestones that an embryologist might observe and study during these stages.",
+        "instruction 2": "Consider the implications of findings from comparative embryology and any evolutionary patterns that may be drawn from the development of different vertebrate organisms, ensuring that conclusions are based on established scientific principles and evidence.",
+        "question": "An embryologist studying the development of a vertebrate organism from the zygote stage to fetus would be justified in drawing which of the following conclusions?",
+        "choices": [
+            "Ontogeny recapitulates phylogeny.",
+            "Early embryos display identical features of their class, order, and species.",
+            "An early human embryo has features in common with early fish and avian embryos.",
+            "A human embryo displays features of adult fish and birds in the course of its development."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the different layers of tissue in a typical twig, starting from the pith in the center, then proceeding outward through the xylem, cambium, phloem, and cortex, while noting the arrangement of these tissues in a mature 5-year-old twig.",
+        "instruction 2": "Outline the characteristics of each tissue layer that the larvae would encounter as they move outward, including their functions and the changes in composition and structure from the innermost to the outermost layer.",
+        "question": "A stem-boring beetle has laid its eggs in the center of a 5-year-old wood twig, and the eggs have matured into larvae. In proper order (inside to outside), what tissues and tissue regions would the larvae encounter as they eat their way toward the outside of the twig? (For simplicity, assume that the epidermis has already fallen off completely.)",
+        "choices": [
+            "Pith; primary xylem; secondary xylem; vascular cambium; primary phloem; secondary phloem; cortex",
+            "Pith; secondary xylem; primary xylem; vascular cambium; secondary phloem; primary phloem; cortex",
+            "Pith; secondary xylem; primary xylem; vascular cambium; primary phloem; secondary phloem; cortex",
+            "Pith; primary xylem; secondary xylem; vascular cambium; secondary phloem; primary phloem; cortex"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the physical and chemical properties of the pairs in solution to determine if they have differing densities or sizes that would allow them to be effectively separated by low-speed centrifugation.",
+        "instruction 2": "Consider the principles of centrifugation, such as sedimentation rates, based on the characteristics of the substances involved, and identify which pairs are likely to form distinct layers under low-speed conditions.",
+        "question": "The following pairs were placed in solution together. Which two could be separated by performing low-speed centrifugation?",
+        "choices": [
+            "DNA and mRNA",
+            "Nuclei and secretory vesicles",
+            "Golgi apparatus and endoplasmic reticulum",
+            "Lysosomes and endosomes"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the factors that influence the rate of gas diffusion, particularly Fick's law of diffusion, focusing on variables such as the concentration gradient, the surface area for diffusion, and the thickness of the membrane separating the gas in the alveoli from the blood in the capillaries.",
+        "instruction 2": "Evaluate the specific physiological changes that could enhance diffusion in the lungs, such as increasing the surface area of the alveoli (e.g., through alveolar health) or modifying the concentration of gases in the alveoli or blood to create a steeper gradient.",
+        "question": "Which of the following would increase the rate at which a gas diffuses between the alveoli of the lung and the blood within a pulmonary capillary?",
+        "choices": [
+            "Decreasing the partial pressure gradient of the gas",
+            "Decreasing the solubility of the gas in water",
+            "Increasing the total surface area available for diffusion",
+            "Decreasing the rate of blood flow through the pulmonary capillary"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific structures within the woody stem that facilitate gas exchange, such as lenticels or stomata, and clarify their roles in the process of respiration and photosynthesis.",
+        "instruction 2": "Consider the physiological significance of these structures in relation to the overall health and functioning of the plant, including how they contribute to the exchange of gases necessary for growth and metabolism.",
+        "question": "The structures that act as sites of gas exchange in a woody stem are the",
+        "choices": [
+            "lenticels",
+            "terminal buds",
+            "nodes",
+            "internodes"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Review the concept of natural enemies in ecology and their role as selective forces, ensuring to understand what selective pressure they apply on populations and how this influences evolution and adaptations.",
+        "instruction 2": "Analyze the provided options to identify which one does not fit the context of being impacted by natural enemies, requiring a comparison of effects on traits or behaviors that are typically subject to selective pressures due to predation or parasitism.",
+        "question": "Natural enemies have been implicated as a strong selective force for all of the following EXCEPT",
+        "choices": [
+            "aposematic coloration",
+            "chemical defenses",
+            "masting (synchronous fruiting)",
+            "lekking behavior"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define what introns are and describe their typical characteristics, including their role in gene expression and splicing processes.",
+        "instruction 2": "Create a clear distinction between introns and other genetic elements such as exons, focusing on features that are specific to introns in order to accurately identify any options that do not fit these characteristics.",
+        "question": "Which of the following is NOT a characteristic of introns?",
+        "choices": [
+            "They occur only in eukaryotes.",
+            "They represent noncoding regions.",
+            "They are found interspersed with exons on a region of DNA that codes for a polypeptide chain.",
+            "They are excised from the primary transcript before it gains a 5' cap and a 3' poly(A)tail."
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the physiological effects of hyperventilation on the respiratory and circulatory systems, particularly focusing on how rapid breathing affects carbon dioxide (CO2) levels in the blood.",
+        "instruction 2": "Explore the implications of decreased carbon dioxide on blood pH and bicarbonate buffering, explaining the resulting condition known as respiratory alkalosis and its related symptoms.",
+        "question": "A healthy person sitting at rest consciously begins to breathe too fast. Which of the following describes the change in the person’s blood caused by this hyperventilation?",
+        "choices": [
+            "A decrease in partial pressure of carbon dioxide and an increase in concentration of hydrogen ions",
+            "A decrease in partial pressure of carbon dioxide and a decrease in concentration of hydrogen ions",
+            "An increase in partial pressure of carbon dioxide and an increase in concentration of hydrogen ions",
+            "An increase in partial pressure of carbon dioxide and a decrease in concentration of hydrogen ions"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and list the major anatomical structures involved in the mammalian female reproductive tract, such as the ovaries, fallopian tubes, uterus, cervix, and vagina, ensuring to understand their respective functions and relationships.",
+        "instruction 2": "Establish the correct sequence of these structures based on their anatomical location and connectivity, from the point of origin (ovaries) to the exit point (vagina), and ensure that this order reflects the pathway of gamete transport and potential fertilization.",
+        "question": "Which of the following is the correct anatomical order of structures in the mammalian female reproductive tract?",
+        "choices": [
+            "Oviduct, uterus, rete, vagina",
+            "Oviduct, epididymis, uterus, vagina",
+            "Ovary, oviduct, uterus, vagina",
+            "Ovary, uterus, vagina, rete"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine the specific type of marine ecosystem being referred to by assessing the conditions that define it, such as high levels of solar radiation and nutrient upwelling, which are commonly associated with productive marine environments like coastal upwelling zones.",
+        "instruction 2": "Consider and identify the ecological significance of this ecosystem type, including its role in supporting biodiversity, fisheries, and overall marine health as well as how these features contribute to its classification.",
+        "question": "A marine ecosystem region characterized by penetrance of solar radiation and upwelling of nutrients is the",
+        "choices": [
+            "bathyl zone",
+            "neritic zone",
+            "pelagic zone",
+            "benthyl zone"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the mechanisms of DNA repair in humans, particularly focusing on the pathways affected by xeroderma pigmentosum and how deficiencies in these repair mechanisms lead to specific types of molecular lesions due to ultraviolet exposure.",
+        "instruction 2": "Review the types of DNA damage typically induced by ultraviolet light, such as pyrimidine dimers, and determine which of these lesions would accumulate in patients with XP as a result of their impaired DNA repair capabilities.",
+        "question": "In humans, a hereditary disorder called xeroderma pigmentosum (XP) can result in the inability to repair ultraviolet damage to DNA. Which of the following molecular lesions is most likely to accrue in individuals with XP?",
+        "choices": [
+            "Thymine dimers",
+            "Deamination of cytosine",
+            "Depurination",
+            "Single strand DNA breaks"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Understand the process of chemosynthesis, focusing on how chemosynthetic bacteria convert inorganic compounds (such as hydrogen sulfide or methane) into energy and organic matter, highlighting the biochemical reactions involved.",
+        "instruction 2": "Explore the environments where chemosynthetic bacteria thrive, such as hydrothermal vents or cold seeps, and assess how these conditions facilitate their energy production without reliance on sunlight, distinguishing their mechanisms from photosynthesis.",
+        "question": "Chemosynthetic bacteria can produce their own food despite their lack of photonabsorbing pigments because the chemosynthetic bacteria derive energy by",
+        "choices": [
+            "oxidizing inorganic substances such as ammonia, sulfur, or hydrogen",
+            "reducing inorganic substances such as ammonia, sulfur, or hydrogen",
+            "oxidizing organic compounds",
+            "transducing light energy into chemical energy"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify common intracellular messengers, such as cyclic AMP, calcium ions, and other signaling molecules, and evaluate each option provided against this list to determine which does not fit the criteria of serving as an intracellular messenger.",
+        "instruction 2": "Assess the functional roles of potential options in cellular signaling processes, ensuring to differentiate them based on their established involvement in signaling mechanisms, and confirm that the answer is indeed the one that lacks a role as an intracellular messenger.",
+        "question": "All of the following may serve as intracellular messengers EXCEPT",
+        "choices": [
+            "calcium ions",
+            "cAMP",
+            "acetylcholine",
+            "inositol 1,4,5-triphosphate"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key characteristics and stages of plant embryogenesis described in the context, ensuring to understand the processes involved and the typical statements associated with each stage.",
+        "instruction 2": "Evaluate each statement provided regarding plant embryogenesis for accuracy, identifying which statement does not conform to the established scientific understanding or is factually incorrect based on known principles of plant development.",
+        "question": "All of the following statements about plant embryogenesis are correct EXCEPT:",
+        "choices": [
+            "The suspensor is derived from the basal cell.",
+            "Cotyledons are derived from the apical cell.",
+            "Shoot apical meristem formation occurs after seed formation.",
+            "Precursors of all three plant tissue systems are formed during embryogenesis."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key processes involved in the binding of mouse sperm receptors to ZP3 and how this binding triggers the acrosomal reaction. Understand the physiological roles and implications of these processes to predict expected experimental outcomes.",
+        "instruction 2": "Evaluate the experimental observations listed in the question, determining which outcomes are consistent with the known biological mechanisms of sperm-egg interaction and the acrosomal reaction while isolating any outcomes that contradict established scientific understanding.",
+        "question": "Mouse sperm contain receptor proteins that bind to a glycoprotein (ZP3) in the zona pellucida of mouse eggs. Binding of ZP3 receptors to ZP3 initiates the sperm’s acrosomal reaction. All of the following experimental observations would be expected EXCEPT:",
+        "choices": [
+            "Injecting eggs with antibodies that bind to ZP3 blocks in vitro fertilization.",
+            "Incubating sperm with purified ZP3 prior to mixing sperm and eggs blocks in vitro fertilization.",
+            "Incubating eggs with antibodies that bind to ZP3 blocks in vitro fertilization.",
+            "Coating synthetic beads with a different glycoprotein, ZP2, fails to lead to sperm aggregation on the beads."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define the factors that are known to promote linkage disequilibrium in genetic terms, such as selection, genetic drift, and population structure, to understand their roles in maintaining genetic associations.",
+        "instruction 2": "Evaluate the provided answer choices carefully to determine which factor does not contribute to the promotion of linkage disequilibrium, relying on established genetic principles and research findings.",
+        "question": "Which of the following factors does NOT promote linkage disequilibrium?",
+        "choices": [
+            "Asexual reproduction",
+            "Coadapted gene complexes",
+            "Epistasis",
+            "Random mating"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the role of the gray crescent in amphibian development, specifically its significance in establishing the dorsal-ventral axis and how it affects cell fate during early embryonic development.",
+        "instruction 2": "Analyze the developmental potential of the two separated blastomeres, considering that one contains the gray crescent and the other does not, to assess the expected outcomes for each blastomere in terms of differentiation and overall development.",
+        "question": "In an experiment, the first cleavage plane of an amphibian zygote was manipulated so that the gray crescent was contained in only one of the two blastomeres that result from the first cleavage. The two blastomeres were then separated. What is the expected fate of the blastomeres?",
+        "choices": [
+            "The blastomere with the gray crescent will grow in size more quickly than the one without the gray crescent.",
+            "The blastomere with the gray crescent will form a complete, but small, embryo.",
+            "The blastomere without the gray crescent will form a complete, but small, embryo.",
+            "The blastomere with the gray crescent will stop dividing and die before the second cleavage."
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the effects of cytochalasins, specifically cytochalasins B, on neuronal growth and morphology, paying attention to their role in disrupting microtubule and actin filament dynamics, which are crucial for the function of the growth cone.",
+        "instruction 2": "Consider the biological mechanisms by which cytochalasins alter nerve outgrowth and the implications this has on neuron development, focusing on cellular processes such as migration and the ability to respond to guidance cues.",
+        "question": "Nerve outgrowth from a developing neuron begins at the growth cone, located at the tip of the axon. Microspikes of the growth cone extend and retract in order to move the growth cone forward. Exposure of the neuron to cytochasalin B at this stage of development causes",
+        "choices": [
+            "microtubules in the axon to undergo reversible dissociation",
+            "microtubules in the axon to undergo irreversible dissociation",
+            "microfilaments in the microspike to undergo reversible depolymerization",
+            "microfilaments in the microspike to undergo irreversible depolymerization"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and explain the primary difference between monoclonal and polyclonal antisera, focusing on how monoclonal antisera are produced from a single clone of B cells and recognize a specific epitope, while polyclonal antisera are derived from multiple B cell clones and can recognize multiple epitopes.",
+        "instruction 2": "Discuss the implications of these differences in terms of the specificity, consistency, and potential applications of monoclonal versus polyclonal antisera in research and clinical settings.",
+        "question": "Monoclonal antisera are distinguished from polyclonal antisera in which of the following ways?",
+        "choices": [
+            "Each type of antibody in a monoclonal antiserum reacts against a single region of a single antigen; each type of antibody in a polyclonal antiserum reacts against multiple regions of different antigens.",
+            "A monoclonal antibody reacts against multiple regions of a single antigen; a polyclonal antibody reacts against a single region of related antigens.",
+            "A monoclonal antiserum contains antibodies secreted from the descendants of a single B lymphocyte; a polyclonal antiserum contains antibodies secreted from the descendants of different B lymphocytes.",
+            "A monoclonal antiserum contains antibodies secreted from the descendants of a single B lymphocyte; a polyclonal antiserum contains antibodies secreted from the descendants of both B and T lymphocytes."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific evolutionary milestones that signify the development of lung tissue in animals, focusing on the characteristics and adaptations that enabled them to rely on lungs instead of supplementary gas exchange organs such as gills or skin.",
+        "instruction 2": "Research and clarify which groups of animals, such as amphibians or certain fish, are recognized as the first to adapt lung-like structures for respiration, outlining the evolutionary significance of this adaptation in relation to their habitats.",
+        "question": "The first groups of animals to develop lung tissue adequate to support their respiratory requirements without the use of supplementary gas exchange organs were the",
+        "choices": [
+            "amphibians",
+            "reptiles",
+            "mammals",
+            "trematoda"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the biological attributes that contribute to a species' ability to thrive in multiple and diverse environments, focusing on traits such as adaptability, broad dietary requirements, and reproductive strategies that facilitate dispersal.",
+        "instruction 2": "Evaluate how these attributes interact with environmental factors, such as climate variability and habitat availability, to enhance a species' chances of establishing a cosmopolitan distribution across geographical regions.",
+        "question": "Which of the following is a biological attribute that would most likely allow a species to become cosmopolitan in distribution?",
+        "choices": [
+            "Extreme habitat specialization",
+            "K-selected reproductive rate",
+            "Limited dispersal abilities",
+            "Capacity for long-distance dispersal"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key components involved in the formation of the earliest cells, such as proteins, nucleic acids, and membranes, and analyze which of these components is considered foundational to cellular structure and function.",
+        "instruction 2": "Review theories or hypotheses regarding the origin of life, focusing on the processes and conditions under which the earliest cellular components arose, and evaluate scientific evidence that supports the primacy of one component over the others in early cell formation.",
+        "question": "In the formation of the earliest cells, which of the following components most likely arose first?",
+        "choices": [
+            "Nucleus",
+            "Plasma membrane",
+            "Mitochondrion",
+            "Flagellum"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify key scientific concepts and prevailing theories regarding evolution and natural selection that were understood or accepted before the publication of On the Origin of Species in 1859, such as the works of Lamarck or the idea of species change over time.",
+        "instruction 2": "Evaluate historical context, including significant discoveries or debates in natural history and biology leading up to 1859, to highlight the foundational knowledge that influenced Darwin's work.",
+        "question": "Which of the following facts was established prior to 1859, the year in which Charles Darwin published On the Origin of Species?",
+        "choices": [
+            "DNA provides the macromolecular basis of heredity.",
+            "Mendelian principles explain why some traits are dominant and others are recessive.",
+            "Prokaryotes include two major domains, the Bacteria and the Archaea.",
+            "There exist fossilized remains of species that have become extinct."
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the common roles and functions of fungi in various ecosystems, such as their involvement in decomposition, nutrient cycling, and symbiotic relationships with other organisms, to identify which option does not align with these characteristics.",
+        "instruction 2": "Evaluate the provided options carefully to determine which one is unrelated to the ecological and biological contributions of fungi, ensuring a clear understanding of their ecological importance and recognizing exceptions to their usual roles.",
+        "question": "Fungi participate in each of the following EXCEPT",
+        "choices": [
+            "photosynthesis to produce glucose",
+            "fermentation to produce alcohol",
+            "association with humans to produce ringworm",
+            "association with the roots of plants to form mycorrhizae"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the cellular compartments involved in the protein's journey from synthesis to its final location in the thylakoid lumen, noting the structures that separate these compartments and how many membrane bilayers exist between them, including the nuclear envelope, the inner and outer membranes of the chloroplast, and the thylakoid membrane.",
+        "instruction 2": "Trace the pathway of the protein from its synthesis in the cytoplasm to its import into the chloroplast, paying particular attention to the mechanisms by which it crosses each membrane bilayer, and calculate the total number of membrane bilayers encountered along this pathway.",
+        "question": "In chloroplasts, a certain protein is found in the lumen of the thylakoid (thylakoid space). It is transcribed in the nucleus and synthesized on cytoplasmic ribosomes. How many membrane bilayers must this protein cross to reach its final location?",
+        "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the key physiological concepts related to the mammalian cardiac cycle, focusing on the differences in compliance and pressure between the venous and arterial systems during ventricular systole and diastole.",
+        "instruction 2": "Examine how the transfer of blood volume affects pressures in both compartments, considering the concepts of preload and afterload, and how these pressures influence overall cardiovascular function.",
+        "question": "During the mammalian cardiac cycle, a volume of blood equivalent to ventricular stroke volume is transferred from the more compliant venous side to the less compliant arterial side of the circulation. In terms of pressures within the venous and arterial compartments, this transfer results in",
+        "choices": [
+            "no change in pressure in either compartment",
+            "no effect on venous pressure and a small increase in arterial pressure",
+            "an increase in venous pressure and an equal but opposite decrease in arterial pressure",
+            "little effect on venous pressure and a large increase in arterial pressure"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the structure and function of the Golgi apparatus in eukaryotic cells, focusing on its role in processing, modifying, and packaging proteins and lipids for transport to their destinations, and contrasting this with the functions of other organelles.",
+        "instruction 2": "Evaluate the provided statements about the Golgi apparatus for accuracy based on well-established scientific principles regarding cellular biology, ensuring to ground evaluations in cellular functions and relationships with other organelles.",
+        "question": "Which of the following statements concerning the Golgi apparatus of a eukaryote is correct?",
+        "choices": [
+            "It is oriented in the cytoplasm so that its cis face is closest to the endoplasmic reticulum.",
+            "It is typically associated with small secretory vesicles located near its cis face.",
+            "Its composite flattened cisternae are continuous with one another.",
+            "Glycosylation of certain secretory proteins occurs prior to the protein's entry into its lumen."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific structures within the root cells of monocot plants through which water first enters, such as the plasma membrane and the role of osmosis in facilitating water uptake via the cytoplasm.",
+        "instruction 2": "Consider the physiological processes involved in water absorption in monocot roots, including the functions of root hairs and the impact of soil water potential on the movement of water into the cytoplasm.",
+        "question": "The first point of entry of water at the roots of a monocot plant is through the cytoplasm of cells of the",
+        "choices": [
+            "root cap",
+            "Casparian strip",
+            "pericycle",
+            "endoderm"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific plant cell types mentioned in the context of programmed cell death (PCD), and examine which of these cells are known to undergo PCD to fulfill their functional roles, such as tracheids, vessel elements, or others.",
+        "instruction 2": "Evaluate the biological processes and mechanisms involved in programmed cell death within the identified plant cells, understanding how this process contributes to their differentiation and functionality.",
+        "question": "Which of the following plant cells undergoes programmed cell death to become functional?",
+        "choices": [
+            "Phloem sieve tube member",
+            "Xylem vessel member",
+            "Stomatal guard cell",
+            "Root cap cell"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the defining features of angiosperms and gymnosperms, focusing on aspects such as reproduction mechanisms, seed formation, and the presence of flowers and fruits, to highlight the main distinguishing traits.",
+        "instruction 2": "Examine the classification of plants and how angiosperms are classified under specific taxonomic categories that differentiate them from gymnosperms, considering their evolutionary significance and ecological roles.",
+        "question": "Which of the following characteristics distinguishes angiosperms from gymnosperms?",
+        "choices": [
+            "Perennial growth",
+            "True roots",
+            "Apical growth",
+            "Seeds enclosed in ovaries"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Evaluate the hypothesis of adaptation by considering the advantages of cliff nesting despite the risk of falling, such as increased protection from predators or environmental threats that might be more prevalent on the beach.",
+        "instruction 2": "Analyze data or observations related to chick survival and overall reproductive success in cliff nesting versus beach nesting to determine if the benefits of cliff nesting statistically outweigh the mortality risks associated with falls.",
+        "question": "A species of goose nests on both cliffs and beaches near the ocean. Soon after hatching, all chicks must make their way to the ocean. Chicks from cliff nests must tumble down the cliff to get to the ocean, and many are killed by the fall. Which of the following is most consistent with the hypothesis that cliff nesting is adaptive in this goose species?",
+        "choices": [
+            "Many more geese nest on the beaches than on the cliffs.",
+            "Cliff-side nesting confers a higher fitness than does beach nesting.",
+            "Chicks from cliff nests instinctively step off the cliffs at the appropriate time.",
+            "More chicks survive the fall from the cliffs than are killed."
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific class of antibodies associated with epsilon heavy chains by referencing the structure and function of immunoglobulins, particularly focusing on their role in coordinating immune responses and their characteristic distribution on immune cells such as mast cells and basophils.",
+        "instruction 2": "Consider the biological implications and functions of the identified class of antibodies, exploring how they relate to allergic reactions and immune defense mechanisms, ensuring an understanding of their significance within the broader context of immunology.",
+        "question": "Immunoglobulins having epsilon heavy chains and located on the plasma membranes of mast cells and basophilic leukocytes belong to the class of antibodies called",
+        "choices": [
+            "IgE",
+            "IgA",
+            "IgD",
+            "IgM"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the mechanisms through which a fluorescent molecule can transfer between cells, such as diffusion through gap junctions or endocytosis, and explore the specific biological context that makes this transfer possible.",
+        "instruction 2": "Consider the implications of this transfer on cellular communication and signaling, evaluating the significance of molecular size and properties in relation to cellular permeability and intercellular interactions.",
+        "question": "A fluorescent molecule of 1,000 daltons injected into one cell is observed to enter an adjacent cell by passing through a",
+        "choices": [
+            "spot desmosome",
+            "belt desmosome",
+            "gap junction",
+            "tight junction"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify specific characteristics shared by both annelids and arthropods, such as segmentation, a true coelom, and the presence of a nervous system, to establish a clearer comparison between the two phyla.",
+        "instruction 2": "Explore the evolutionary relationships and ecological roles that highlight the similarities and differences between annelids and arthropods, considering aspects such as habitat, lifestyle, and adaptive features.",
+        "question": "Annelids and arthropods are similar to each other in that members of both phyla",
+        "choices": [
+            "have segmented bodies",
+            "have a closed circulatory system",
+            "conduct gas exchange by diffusion through a moist membrane",
+            "have well-developed sense organs"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Research the basic structure of the human genome to determine the proportion of the genome that is made up of coding DNA, which directly translates into proteins, distinguishing it from non-coding regions.",
+        "instruction 2": "Identify and reference scientific literature or genome databases that provide specific statistics or estimates regarding the percentage or fraction of the human genome that encodes proteins, ensuring the information is current and accurate.",
+        "question": "Approximately what fraction of the human genome encodes proteins?",
+        "choices": [
+            "2%",
+            "25%",
+            "50%",
+            "90%"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the properties of air and water, focusing on their physical and chemical characteristics, such as density, viscosity, and solubility, to identify statements that accurately represent their comparative attributes.",
+        "instruction 2": "Determine the context of the comparison (e.g., environmental, biological, or industrial) and ensure that the chosen statements reflect relevant and factual distinctions based on scientific principles.",
+        "question": "Which of the following statements is true of air as compared to water?",
+        "choices": [
+            "Air provides more physical support.",
+            "Air has a higher O2 concentration.",
+            "Air offers more resistance to motion.",
+            "Air has more thermal inertia."
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the defining characteristics of organisms in the kingdom Protista, such as their unicellular or simple multicellular structure, and how they differ from organisms in other kingdoms like Animalia, Plantae, and Fungi.",
+        "instruction 2": "Evaluate examples of Protista, focusing on their diverse modes of nutrition, reproduction, and habitats, to understand the variety within this kingdom and what traits are commonly associated with these organisms.",
+        "question": "Which of the following is true of organisms belonging to the kingdom Protista?",
+        "choices": [
+            "They are eukaryotic.",
+            "They include the cyanobacteria.",
+            "They are heterotrophic.",
+            "They possess cell walls composed of peptidoglycan."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific term or structure in cell biology that refers to the region of a chromosome where the mitotic spindle attaches during cell division, emphasizing the role of this structure in facilitating proper chromosome movement.",
+        "instruction 2": "Review relevant biological literature or textbook definitions to ensure accurate comprehension of the terminology and to distinguish this structure from similar cellular components involved in mitosis.",
+        "question": "The section of chromosome that serves as the site of attachment by the mitotic spindle during cell division is the",
+        "choices": [
+            "chromatophore",
+            "chromomere",
+            "kinetochore",
+            "centriole"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the characteristics of the plant in question, including its growth pattern and any specific traits that relate to its ability to grow along a trellis, such as climbing mechanisms or vine structure.",
+        "instruction 2": "Explore the ecological or botanical implications of trellis growth in plants, considering how this growth pattern affects factors such as sunlight access, space utilization, and overall plant health.",
+        "question": "A plant that grows along a trellis exhibits",
+        "choices": [
+            "thigmotropism",
+            "phototropism",
+            "gravidotropism",
+            "negative gravidotropism"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the significance of an enzyme's activity being constant across a broad range of pH values, focusing on its potential implications for enzyme stability and functionality in various biological environments.",
+        "instruction 2": "Evaluate how the stability of enzyme activity at different pH levels may relate to its structural characteristics, including the presence of active sites and potential buffering mechanisms that preserve its activity regardless of pH fluctuations.",
+        "question": "If the activity of an enzyme is constant over a broad range of pH values, it is likely that",
+        "choices": [
+            "only ionizing groups on the enzyme participate in the reaction",
+            "only ionizing groups on the substrate participate in the reaction",
+            "ionizing groups on both the enzyme and substrate participate in the reaction",
+            "no ionizing groups on the enzyme or substrate participate in the reaction"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the possible gametes produced by each parent plant based on their genotypes. For the tall violet plant (DDWw), the possible gametes are DW and Dw, while for the dwarf white plant (ddww), the possible gametes are dw.",
+        "instruction 2": "Set up a Punnett square to simulate the crossing of the gametes and identify the resulting genotypes of the progeny. From these genotypes, deduce the corresponding phenotypes and calculate the phenotypic ratio of the offspring.",
+        "question": "In garden peas, the allele for tall plants (D) is completely dominant to the allele for dwarf plants (d) and the allele for violet flower color (W) is completely dominant to the allele for white flower color (w). In a cross between a tall violet plant, with the genotype DDWw, and a dwarf white plant, what phenotypic ratio of the progeny would be expected from this cross?",
+        "choices": [
+            "All tall violet",
+            "1 tall violet: 1 dwarf violet",
+            "1 tall violet: 1 tall white: 1 dwarf violet: 1 dwarf white",
+            "1 tall violet: 1 tall white"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the characteristics that define cancer cells in culture and how they relate to normal cells grown in culture, focusing on aspects such as growth patterns, metabolic functions, and cellular behavior.",
+        "instruction 2": "Consider the differences in behavior between cancer cells and normal cells, emphasizing how this informs their similarities, such as responses to environmental factors and nutrient uptake, while acknowledging the critical differences that ultimately define their cellular nature.",
+        "question": "Cancer cells grown in culture are similar to normal cells grown in culture in that they",
+        "choices": [
+            "divide an indefinite number of times",
+            "do not display contact inhibition",
+            "require a surface for attachment in order to grow",
+            "proliferate to the same cell density"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify experimental techniques that are commonly used to study protein-DNA interactions, focusing on methods such as electrophoretic mobility shift assays (EMSA), chromatin immunoprecipitation (ChIP), and DNase I footprinting, which can specifically demonstrate binding specificity to DNA sequences.",
+        "instruction 2": "Evaluate the applicability of each technique in the context of analyzing protein binding, considering factors such as the required sensitivity, specificity, and the type of results they produce to illustrate the nature of the protein-DNA interaction.",
+        "question": "Which of the following techniques could be used to demonstrate protein binding to specific DNA sequences?",
+        "choices": [
+            "Western blot hybridization",
+            "Northern blot hybridization",
+            "Southern blot hybridization",
+            "Electrophoretic mobility shift assay"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the hormones responsible for regulating calcium levels in the human body, focusing on the roles of parathyroid hormone (PTH) and calcitonin in maintaining serum calcium homeostasis.",
+        "instruction 2": "Consider the physiological mechanisms by which these hormones act on bones, kidneys, and intestines to regulate calcium balance, ensuring to include any feedback loops or regulatory systems involved in this process.",
+        "question": "Adequate serum levels of calcium are maintained in humans by the secretion of",
+        "choices": [
+            "thyroxine",
+            "glucagon",
+            "growth hormone",
+            "parathyroid hormone"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific roles and regeneration processes of ornithine in the urea cycle, focusing on how its function parallels the regeneration of key intermediates in the citric acid cycle.",
+        "instruction 2": "Analyze the participants of the citric acid cycle, determining which one shares a similar regeneration mechanism to ornithine, ensuring to consider the biochemical pathways and the significance of regeneration in both cycles.",
+        "question": "The amino acid ornithine is regenerated during each turn of the urea cycle in a similar manner to which of the following participants in the citric acid cycle?",
+        "choices": [
+            "Succinate",
+            "Fumarate",
+            "Oxaloacetate",
+            "Citrate"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify a defining feature of angiosperms that distinguishes them from other plant groups, such as their reproductive structures, specifically flowers and the production of seeds enclosed within a fruit.",
+        "instruction 2": "Consider how this unique characteristic of angiosperms influences their evolutionary success and adaptability compared to gymnosperms and other non-flowering plants.",
+        "question": "Which is a characteristic unique to angiosperms?",
+        "choices": [
+            "Wind-borne pollen",
+            "A dominant sporophyte life cycle",
+            "Alteration of generations",
+            "Double fertilization"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific homeostatic processes that are typically associated with mammals, such as temperature regulation, water balance, and pH balance, and determine which of the listed options does not align with these processes.",
+        "instruction 2": "Analyze the characteristics of the exceptions provided in the question, comparing them against established mammalian homeostatic functions to deduce which one does not fit the criteria.",
+        "question": "Mammals are homeostatic for all of the following EXCEPT",
+        "choices": [
+            "body temperature",
+            "blood glucose concentration",
+            "blood pH",
+            "metabolic rate"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific type of behavior exhibited by young birds when they crouch in response to a predator, focusing on terminologies like 'anti-predator behavior' or 'instinctive response'.",
+        "instruction 2": "Explore the broader implications of this behavior in terms of evolutionary biology, considering how such instinctive behaviors might enhance survival rates and what role they play in the development of young birds.",
+        "question": "The crouching of very young birds in response to a predator’s shape overhead is an example of",
+        "choices": [
+            "a conditioned response",
+            "a fixed action pattern",
+            "an imprinted behavior",
+            "learned behavior"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define sexual dimorphism and explain how it manifests among primates, particularly focusing on the physical and behavioral differences between males and females that indicate competition.",
+        "instruction 2": "Examine the ecological and social factors contributing to intense competition among male primates, such as mating strategies, resource availability, and social hierarchy, which may lead to pronounced sexual dimorphism.",
+        "question": "Among primates, a high degree of sexual dimorphism in a species usually indicates intense competition between",
+        "choices": [
+            "males in order to obtain individual food resources",
+            "males in order to obtain mates",
+            "females in order to obtain individual food resources",
+            "females in order to obtain mates"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the types of tissues in a photosynthesizing plant, focusing on chlorophyll-rich tissues like mesophyll, and determine which tissue is primarily responsible for photosynthesis and oxygen production.",
+        "instruction 2": "Evaluate the conditions under which these tissues operate, such as light availability and surface area, to ascertain which type would exhibit the highest rate of oxygen production during the process of photosynthesis.",
+        "question": "Which of the following tissues in an actively photosynthesizing plant would have the highest rate of oxygen production?",
+        "choices": [
+            "Cortex",
+            "Palisade mesophyll",
+            "Epidermis",
+            "Vascular cambium"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Evaluate the elements of the theory presented, focusing on the role of pollen grains and their size in relation to their ability to enter the airways, as well as the conditions necessary for osmotic shock to occur and lead to the release of starch granules.",
+        "instruction 2": "Identify the implications of the theory on asthma attacks post-thunderstorm, ensuring to differentiate between the behavior of pollen grains and starch granules, and consider any experimental evidence or related studies that support or challenge the proposed mechanism.",
+        "question": "A recent theory concerning an unusual rise in asthma attacks following a thunderstorm proposes that while pollen grains at 5 microns are too large to enter the airways, their exposure to water precipitates the release of starch granules as a result of osmotic shock. The starch granules are small enough to enter the lower airways and trigger an asthmatic attack. If this theory is true, which of the following is a correct statement?",
+        "choices": [
+            "The interior of the pollen grains was hypotonic compared to the surrounding environment.",
+            "The interior of the pollen grains had a higher osmotic pressure than did the surrounding environment.",
+            "The pollen grains underwent plasmolysis prior to releasing their contents.",
+            "The pollen grains underwent shrinking before they ruptured and released their contents."
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the concept of polyploidy, which occurs when a plant's chromosome number doubles, allowing for the possibility of successful reproduction. Determine how this newfound chromosome number can affect hybrid viability and fertility with respect to the contributions of the parent species.",
+        "instruction 2": "Analyze the implications of increased chromosome numbers on genetic compatibility and fertility in future generations, as polyploid hybrids may now be able to breed with one another or with one of the parent species, resulting in offspring that may have different genetic and phenotypic characteristics.",
+        "question": "Hybrids between some related species of plants are sterile because the parent plants had different chromosome numbers. Occasionally the chromosome number of such a hybrid plant doubles spontaneously. Which of the following best describes the descendants of those plants with the double chromosome number?",
+        "choices": [
+            "The plant with the double chromosome number would be genetically defective and have no descendants.",
+            "The descendants would be at a selective advantage because of the increased ability to introgress.",
+            "The descendants would be reproductively successful because they could backcross with the parental species.",
+            "The descendants would regain the ability to reproduce sexually because chromosomes could pair normally."
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the cellular structures that are primarily composed of actin filaments, such as microfilaments and the cytoskeleton, to understand how phalloidin's disruption of actin function would impact these structures.",
+        "instruction 2": "Evaluate the roles of actin filaments in cellular processes such as cell shape, motility, and division, to determine which specific structures or functions would be most directly impaired by the binding of phalloidin to actin subunits.",
+        "question": "Phalloidin is a toxin made by the death cap mushroom. The toxin binds to actin subunits and disrupts actin function. Which of the following structures would be most directly affected by phalloidin?",
+        "choices": [
+            "Intermediate filaments",
+            "Collagen fibers",
+            "Microfilaments",
+            "Microtubules"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key conditions that define Hardy-Weinberg equilibrium, such as random mating, no selection, no genetic drift, and no mutation, and recognize which of these conditions are commonly considered exceptions when defining the concept.",
+        "instruction 2": "Analyze the multiple-choice options typically provided for this question, distinguishing the one statement that contradicts the assumptions of Hardy-Weinberg equilibrium from the others that align with the established principles.",
+        "question": "Hardy-Weinberg equilibrium generally assumes all of the following EXCEPT",
+        "choices": [
+            "a large population",
+            "genetic drift",
+            "random mating",
+            "absence of selection"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze each statement provided about fungi carefully to determine its validity, focusing on well-established biological facts and characteristics of fungi, such as their cellular structure, reproductive methods, and ecological roles.",
+        "instruction 2": "Consider common misconceptions or inaccuracies about fungi, and ensure that the evaluation of each statement takes into account current scientific knowledge and research findings relevant to mycology.",
+        "question": "Which of the following statements about fungi is NOT true?",
+        "choices": [
+            "They all are eukaryotic.",
+            "They all have rigid cell walls.",
+            "Most are filamentous.",
+            "Some are photosynthetic."
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific function of the src oncogene in relation to protein phosphorylation, focusing on its role as a proto-oncogene and its mechanism of action in catalyzing phosphate group addition to tyrosine residues in proteins.",
+        "instruction 2": "Clarify the types of cellular proteins that are typically targeted by the src oncogene product, and consider the implications of this phosphorylation on cellular functions, such as signaling pathways and cancer development.",
+        "question": "Which of the following is encoded by the src oncogene and catalyzes the specific addition of phosphate groups to cellular proteins?",
+        "choices": [
+            "Protein phosphatase",
+            "Adenylate cyclase",
+            "G protein-linked receptor",
+            "Tyrosine kinase"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific physiological and biochemical strategies that C4 and CAM plants utilize to minimize photorespiration, considering aspects such as carbon fixation pathways, temporal and spatial separation of carbon fixation and the Calvin cycle, and how these contribute to efficiency in different environmental conditions.",
+        "instruction 2": "Analyze the ecological and environmental contexts in which each strategy is advantageous, including the differences in water availability and light intensity, to accurately compare and contrast the effectiveness of the C4 and CAM strategies in reducing photorespiration.",
+        "question": "Both C4 and CAM plants employ physiological and biochemical strategies to reduce photorespiration. Which of the following is an accurate comparison of the two strategies?",
+        "choices": [
+            "C4 plants fix CO2 as the 4-carbon acid oxaloacetate, while CAM plants fix CO2 as the 5-carbon acid ribulose 1, 5-bisphosphate.",
+            "C4 plants fix CO2 in the mesophyll but carry out the Calvin cycle in the bundle sheath, while CAM plants fix CO2 and carry out the Calvin cycle in the mesophyll.",
+            "C4 plants fix CO2 in the bundle sheath but carry out the Calvin cycle in the mesophyll, while CAM plants fix CO2 and carry out the Calvin cycle in the bundle sheath.",
+            "C4 plants store CO2 as phosphoglycolate, while CAM plants store CO2 as oxaloacetate."
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and describe the three main membranes of the chloroplast: the inner membrane, the thylakoid membrane, and the outer membrane, noting their arrangement and function.",
+        "instruction 2": "Establish the correct order of these membranes by starting from the innermost membrane (thylakoid membrane) and moving outward to the outer membrane, ensuring the response is clear and aligns with biological conventions.",
+        "question": "Which of the following depicts the correct sequence of membranes of the chloroplast, beginning with the innermost membrane and ending with the outermost membrane?",
+        "choices": [
+            "Thylakoid membrane, inner membrane, outer membrane",
+            "Inner membrane, outer membrane, thylakoid membrane",
+            "Outer membrane, inner membrane, thylakoid membrane",
+            "Strama, outer membrane, inner membrane"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary mechanisms by which antibiotics exert their effects on bacterial cells, such as inhibiting cell wall synthesis, protein synthesis, nucleic acid synthesis, or metabolic pathways.",
+        "instruction 2": "Evaluate the options provided in the question to determine which mechanism or process does not fall under the influence of antibiotics, ensuring to clarify the distinction between bacterial and eukaryotic processes where relevant.",
+        "question": "Antibiotics that affect bacterial cells interfere with all of the following EXCEPT",
+        "choices": [
+            "peptidoglycan synthesis",
+            "protein synthesis",
+            "DNA synthesis",
+            "reverse transcriptase"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the characteristics of polytene chromosomes, including their structure and how they are formed through endoreduplication, as well as their visibility under light microscopy, specifically focusing on their relevance in Drosophila silvarentis.",
+        "instruction 2": "Consider the significance of studying polytene chromosomes in Drosophila, including their role in genetic research and the insights they provide into chromosome structure, gene expression, and developmental biology.",
+        "question": "The polytene chromosomes seen in Drosophila silvarentis with the aid of a light microscope are",
+        "choices": [
+            "not actively carrying out transcription",
+            "produced only during mitosis",
+            "produced by repeated rounds of DNA replication followed by nuclear division",
+            "multiple copies of a single chromosome"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify different agents known to induce polyploidy in eukaryotes, such as chemical substances (e.g., colchicine) or environmental factors, and understand their mechanisms of action in disrupting normal cell division.",
+        "instruction 2": "Evaluate the conditions under which each agent is effective in inducing polyploidy, including dosage, timing of application, and the specific types of organisms or cells that are most responsive to polyploidy induction.",
+        "question": "Which of the following agents will induce polyploidy in a dividing eukaryote?",
+        "choices": [
+            "Penicillin",
+            "Colchicine",
+            "Tetracycline",
+            "Puromycin"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the fundamental roles of mitochondria and chloroplasts within eukaryotic cells, focusing on their functions in energy production and photosynthesis, respectively, to determine common characteristics or differences between them.",
+        "instruction 2": "Evaluate the structural and functional similarities and differences between mitochondria and chloroplasts, such as their double-membrane structure and DNA, to better assess the veracity of each statement provided in the options available.",
+        "question": "Which of the following statements about mitochondria and chloroplasts is generally true?",
+        "choices": [
+            "Plants have chloroplasts but no mitochondria; animals have mitochondria but no chloroplasts.",
+            "Plants have chloroplasts but no mitochondria; fungi have mitochondria but no chloroplasts.",
+            "Plants and fungi have chloroplasts but no mitochondria; animals have only mitochondria.",
+            "Plants have both chloroplasts and mitochondria; animals and fungi have only mitochondria."
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and compare the key characteristics that differentiate cyanobacteria from green unicellular algae, focusing on aspects such as their cellular structure, pigmentation, metabolism, and ecological roles.",
+        "instruction 2": "Assess how these differences impact their classifications within biological taxonomy, including their respective domains (bacteria vs. eukaryotes) and evolutionary significance, ensuring to reference relevant scientific literature or studies.",
+        "question": "How do cyanobacteria differ from green unicellular algae?",
+        "choices": [
+            "Cyanobacteria reduce sulfur compounds.",
+            "Cyanobacteria lack cell walls.",
+            "Cyanobacteria have no nuclei.",
+            "Green algae produce cell membranes."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the fundamental structural characteristics of an alpha helix, focusing specifically on how hydrogen bonds form between the carbonyl oxygen of one amino acid and the amide hydrogen of another amino acid that is four residues earlier in the peptide chain.",
+        "instruction 2": "Explore other stabilizing interactions that may contribute to the structure of the alpha helix, such as hydrophobic interactions, ionic bonds, or van der Waals forces, while emphasizing the predominance of hydrogen bonding in maintaining the helicity of the structure.",
+        "question": "Stabilization of the unique coiled structure of an alpha helix in a protein is primarily attributed to (A) hydrogen bonding between the peptide backbone atoms",
+        "choices": [
+            "hydrogen bonding between the peptide backbone atoms",
+            "disulfide bridges between cysteine side chains",
+            "carbohydrate moieties attached to polar amino acids",
+            "peptide linkages that covalently bond amino acids"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the structure of a nucleosome dimer and identify the components that compose it, including the histone proteins and the associated DNA, to understand what is being digested by DNase.",
+        "instruction 2": "Investigate the role of DNase in the digestion process, specifically determining how it acts on the nucleosome dimer to yield nucleosome monomers, including the enzymatic mechanism involved and the expected products of this cleavage.",
+        "question": "The target of digestion of a nucleosome dimer to nucleosome monomers by DNase is",
+        "choices": [
+            "the H1 histone",
+            "histones H2A, H2B, H3, and H4",
+            "the nucleosome core",
+            "linker DNA"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the characteristics of thermophilic and methanogenic prokaryotes, focusing on their habitat preferences, metabolic pathways, and the role of isoprenylglycerol ethers in their membranes as a distinguishing feature from eukaryotes and other archaea.",
+        "instruction 2": "Examine the classification of prokaryotes to determine which specific group, particularly within Archaea, is known for these attributes, ensuring to reference scientific literature or taxonomy that supports the identification.",
+        "question": "A prokaryote that is thermophilic and methanogenic and has isoprenylglycerol ethers in its membrane instead of phospholipids is most likely",
+        "choices": [
+            "a proteobacterium",
+            "a spirochete",
+            "a member of the genus Chlamydia",
+            "an archaeon"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the environmental conditions that typically influence the rate of transpiration in plants, such as temperature, humidity, wind speed, and light intensity, and differentiate between those that increase transpiration and those that do not.",
+        "instruction 2": "Evaluate each listed condition in the question to determine which does not contribute to an increase in transpiration rate, ensuring to understand the overall impact of these conditions on plant physiological processes.",
+        "question": "All of the following environmental conditions increase the rate of transpiration from plants EXCEPT",
+        "choices": [
+            "high temperature",
+            "high relative humidity",
+            "low relative humidity",
+            "wind"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze each statement provided regarding embryonic cleavage, focusing on the biological processes involved, such as the nature of cellular division and differentiation occurring during this stage, to determine factual accuracy.",
+        "instruction 2": "Evaluate the context and specific terminology used in each statement to identify any misconceptions or inaccuracies, ensuring to compare them against established scientific knowledge about embryonic development.",
+        "question": "Which of the following statements about embryonic cleavage is NOT true?",
+        "choices": [
+            "The presence of yolk inhibits cleavage.",
+            "Telolecithal eggs undergo meroblastic cleavage.",
+            "The vegetal pole undergoes cleavage more readily than does the animal pole",
+            "The rapid mitotic divisions of cleavage directly give rise to blastomeres."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the process of cyclic electron flow in the context of eukaryotic photosynthetic cells, specifically focusing on its relationship to photosystem I and the role it plays in ATP production without the generation of NADPH.",
+        "instruction 2": "Examine the implications of cyclic electron flow on the overall photosynthetic process, including how it contributes to the energy needs of the cell and interacts with non-cyclic photophosphorylation.",
+        "question": "In eukaryotic photosynthetic cells, which of the following occurs when electrons flow cyclically through the electron transport chain associated with photosystem I?",
+        "choices": [
+            "Synthesis of ATP",
+            "Reduction of NADP+ to NADPH",
+            "Release of O2",
+            "Reduction of CO2 to sugar"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the physiological mechanisms that allow marine birds to excrete excess salt, such as specialized salt glands, and evaluate how these mechanisms help maintain a hypoosmotic condition compared to seawater.",
+        "instruction 2": "Analyze the overall osmoregulatory strategies of marine birds in relation to their environment, considering adaptations in kidney function, drinking behavior, and the role of urinary concentration in regulating internal osmolarity.",
+        "question": "Many marine birds drink seawater yet maintain their internal osmolarity at a constant level that is hypoosmotic to seawater. Which of the following physiological strategies best explains how the birds maintain their tissue osmolarity?",
+        "choices": [
+            "Marine birds absorb water from the environment through specialized salt-exchange glands and produce large volumes of dilute urine in the kidneys.",
+            "Marine birds absorb salts from the environment through specialized salt-exchange glands and produce large volumes of concentrated urine in the kidneys.",
+            "Marine birds excrete salts through specialized salt-exchange glands and excrete small volumes of urine.",
+            "Marine birds excrete salts and nitrogenous wastes through specialized nasal glands."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the reproductive strategy of the species of small rodent in relation to their ecological niche, focusing on the implications of having a small litter size in terms of parental care and survival chances of the offspring.",
+        "instruction 2": "Consider the potential impact of their reliance on a single food source on their population dynamics and reproductive behavior, which may suggest traits such as longer gestation periods or increased investment in the care of fewer offspring to enhance their survival.",
+        "question": "A species of small rodent eats seeds from only one species of pine. In normal years, a pair of these rodents will have a litter of two or three. It is unusual for small rodents to have such small litter sizes. The rodents are most likely to exhibit which other characteristic?",
+        "choices": [
+            "Moderate sexual size dimorphism",
+            "High parental investment",
+            "Precocial young",
+            "Frequent extrapair matings"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the primary sources of dry mass for an oak tree, focusing on the roles of water, carbon dioxide, and nutrients in photosynthesis and growth processes, to determine which source contributes the most.",
+        "instruction 2": "Analyze the process of how an oak tree synthesizes organic matter, emphasizing the significance of photosynthesis and the carbon cycle, while considering the proportionate contributions of these sources to the overall dry mass.",
+        "question": "Which of the following sources makes the greatest contribution to the dry mass of organic matter that comprises an oak tree?",
+        "choices": [
+            "Organic molecules from decaying matter in the soil that are taken up by the roots",
+            "Mineral nutrients dissolved in groundwater that are taken up by the roots",
+            "Water that is taken up by the roots and carbon dioxide from the air",
+            "Endosperm located in the cotyledons of the acorn"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the fundamental principles or mechanisms of evolution, such as natural selection, genetic variation, and heritability, which are necessary for the process of evolution to take place.",
+        "instruction 2": "Evaluate the conditions that must be met for these principles to operate effectively, such as the presence of a population with genetic diversity and environmental pressures that influence reproductive success.",
+        "question": "Which of the following must be true in order for evolution to have occurred?",
+        "choices": [
+            "The frequencies of some alleles in a population's gene pool has changed over successive generations.",
+            "The frequencies of some alleles in a population's gene pool has changed during the organisms' lifetimes.",
+            "The frequencies of each allele in a population's gene pool has remained constant over successive generations.",
+            "The frequencies of each allele in an organism's genotype has remained constant within the organism's lifetime."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and outline the core principles of optimality theory in evolutionary biology, focusing on how traits are shaped by the advantages they provide in terms of survival and reproduction in specific environments.",
+        "instruction 2": "Discuss how the evaluation of traits involves a comparison of costs and benefits, and that the optimal trait represents a balance that maximizes fitness, taking into consideration environmental variables and evolutionary trade-offs.",
+        "question": "From an evolutionary perspective, the optimality theory as applied to a given trait is best represented by the idea that",
+        "choices": [
+            "if the benefits gained from the trait exceed the cost of the trait to the animal performing them, that trait will persist in the genome",
+            "if the trait reaps the best return for the cost relative to alternative forms of the trait, that trait will win out over the alternative forms",
+            "beneficial traits are always worth the cost to the organism in energy and physiology, so those traits will persist in the genome",
+            "the relative fitness of an organism must be improved due to a specific trait in order for the trait to remain in a population's gene pool"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the relationship between enzyme concentration, substrate concentration, and reaction rate, specifically focusing on the concept of enzyme saturation when acetaldehyde concentration is increased, leading to a maximal reaction rate.",
+        "instruction 2": "Consider how factors such as the Michaelis-Menten kinetics apply to this reaction, especially regarding the terms Vmax and Km, and acknowledge that at the maximal rate, all available enzyme active sites are occupied.",
+        "question": "In the presence of alcohol dehydrogenase, the rate of reduction of acetaldehyde to ethanol increases as the concentration of acetaldehyde is increased. Eventually, the rate of the reaction reaches a maximum, after which point further increases in the concentration of acetaldehyde have no effect. Which of the following is true at the maximal rate of reaction?",
+        "choices": [
+            "Nearly all of the enzyme molecules are interacting with acetaldehyde molecules.",
+            "The activation energy of the reaction decreases.",
+            "The change in free energy of the reaction decreases.",
+            "The enzyme is no longer specific for acetaldehyde."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the mechanism by which mutations in DNA lead to changes in the genetic code, focusing on the types of mutations (e.g., substitutions, insertions, deletions) and how these alterations in nucleotide sequences can affect protein synthesis, thus resulting in new phenotypes.",
+        "instruction 2": "Evaluate the relationship between genes and phenotypic expression, considering how changes in specific genes can influence traits and lead to observable differences in organisms, including the roles of regulatory elements and environmental factors.",
+        "question": "Which of the following best explains how mutations in DNA can result in the expression of a new phenotype?",
+        "choices": [
+            "A different polypeptide is produced.",
+            "The polarity of tRNA becomes the opposite of that of DNA.",
+            "Nucleic acids are methylated.",
+            "The gene is now read in the 3′ to 5′ direction."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the mechanism of competitive inhibition, focusing on how a competitive inhibitor resembles the enzyme's substrate and binds to the active site, thereby preventing the substrate from binding and inhibiting the enzyme's activity.",
+        "instruction 2": "Explain the implications of competitive inhibition on enzyme kinetics, such as how it influences the maximum rate of reaction (Vmax) and the Michaelis constant (Km), and consider any relevant examples or applications in biochemistry.",
+        "question": "A competitive inhibitor of an enzyme exerts its effect by",
+        "choices": [
+            "irreversibly forming covalent links with the enzyme, effectively preventing the enzyme's dissociation from it",
+            "irreversibly modifying some of the amino acid residues that help to comprise the enzyme's active site",
+            "competing with the substrate molecule for the same enzyme but a different binding site than the substrate binding site",
+            "reversibly decreasing the number of enzyme molecules that are available to bind substrates"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the principle that explains how the brain perceives differences in stimulus intensity, such as Weber's Law, which states that the difference threshold is a constant proportion of the original stimulus intensity.",
+        "instruction 2": "Elucidate what factors, such as sensory receptors and neuronal firing rates, change in response to varying intensities of stimuli and how these variations contribute to the perception of intensity differences.",
+        "question": "The ability of the brain to detect differences in stimulus intensity is best explained by the fact that which of the following varies with the stimulus intensity?",
+        "choices": [
+            "The amplitude of the action potential",
+            "The threshold potential",
+            "The number of action potentials per second",
+            "The number of synapses crossed"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the factors that influence net primary productivity in ecosystems, particularly in relation to climatic conditions such as temperature, sunlight availability, and precipitation, which tend to be more favorable in tropical regions.",
+        "instruction 2": "Analyze ecological interactions and nutrient availability in different biomes, considering how tropical ecosystems often support greater biodiversity and biological interactions that enhance productivity compared to temperate or polar regions.",
+        "question": "Which of the following is the best explanation for why net primary productivity in terrestrial ecosystems tends to increase toward the tropics?",
+        "choices": [
+            "The higher species diversity in the tropics tends to increase plant growth.",
+            "There are lower metabolic costs to plant growth in the tropics.",
+            "The availability of water and warm temperatures in the tropics fosters photosynthesis.",
+            "The tropics have more predators that minimize herbivory."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the cell culture techniques that allow for the observation of protein movement across a plasma membrane, focusing on methods that provide insights into membrane dynamics and protein integration, such as fluorescence microscopy or live-cell imaging.",
+        "instruction 2": "Consider the specific conditions used to fuse mouse and human cells, which may involve the use of polyethylene glycol (PEG) or electroporation, to ensure that the experiment was designed to facilitate the merging of their respective plasma membranes for observation.",
+        "question": "Proteins were shown to move about in a plane of the plasma membrane when mouse cellsurface proteins and human cell-surface proteins were observed to integrate along a fused mouse-human cell plasma membrane. Which of the following cell culture techniques was most likely employed in order to yield these results?",
+        "choices": [
+            "Producing a heterokaryon",
+            "Producing a hybrid cell",
+            "Isolating an immortal variant cell from culture and using it to create a cell line",
+            "Inserting a tumor-inducing virus into a normal cell to initiate transformation"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify what gene flow entails by defining it in the context of population genetics, specifically highlighting how it represents the transfer of genetic material between different populations and its implications for genetic diversity.",
+        "instruction 2": "Explore the consequences of gene flow on populations, discussing aspects such as genetic variation, adaptation, and potential effects on evolutionary processes, while considering both positive and negative outcomes.",
+        "question": "Gene flow between populations results in",
+        "choices": [
+            "an increase in genetic homogeneity in the metapopulation",
+            "an increase in the rate of deleterious mutations in the metapopulation",
+            "an increased likelihood of speciation",
+            "disruption of Hardy-Weinberg equilibrium in the metapopulation"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific term used in molecular biology that refers to the described structure consisting of DNA wrapped around a protein octamer, focusing on the definitions and characteristics of chromatin or nucleosomes as applicable.",
+        "instruction 2": "Clarify the role and function of this structure in genetics and cellular processes, ensuring to differentiate it from similar structures or components in the context of DNA and protein interactions.",
+        "question": "A subunit of DNA and protein consisting of 134-base-pair long stretches of DNA surrounding a protein octomer is called (a)",
+        "choices": [
+            "histone",
+            "chromatin",
+            "nucleosome",
+            "solenoid"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify key environmental signals relevant to temperate ecosystems that influence the flowering process in plants, such as temperature changes, photoperiod (day length), and precipitation patterns, and analyze how these factors interact to determine the timing of flowering.",
+        "instruction 2": "Evaluate the specific mechanisms by which plants perceive these environmental signals, including photoreceptors and temperature-sensitive genes, and assess which signal is the most reliable indicator for initiating flowering in response to seasonal changes.",
+        "question": "Which of the following would be the most dependable environmental signal that a plant in a temperate ecosystem could use to initiate flowering at the correct time of the year?",
+        "choices": [
+            "Circadian rhythm",
+            "Photoperiod",
+            "Changing air temperature",
+            "Fluctuations in abscisic acid levels"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the biochemical processes involved in ATP synthesis within mitochondria, focusing on how pH levels can influence enzymatic activity and proton gradients necessary for oxidative phosphorylation.",
+        "instruction 2": "Evaluate the physiological implications of low pH on mitochondrial function, particularly concerning proton concentration and its effect on ATP synthase efficiency, considering how such an environment contributes to or inhibits energy production.",
+        "question": "Mitochondria isolated and placed in a buffered solution with a low pH begin to manufacture ATP. Which of the following is the best explanation for the effect of low external pH?",
+        "choices": [
+            "It increases the concentration of OH-, causing the mitochondria to pump H+ to the intermembrane space.",
+            "It increases the OH- concentration in the mitochondria matrix.",
+            "It increases the acid concentration in the mitochondria matrix.",
+            "It increases diffusion of H+ from the intermembrane space to the matrix."
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define and clarify what the term 'nekton' means in the context of aquatic organisms, focusing on their characteristics and how they differ from other aquatic categories such as plankton, benthos, and other classifications.",
+        "instruction 2": "Evaluate the examples provided to identify which organism fits the criteria of nekton, considering behaviors such as active swimming and the ability to move independently of water currents.",
+        "question": "An organism belonging to the nekton is which one of the following?",
+        "choices": [
+            "Whale",
+            "Barnacle",
+            "Cyanobacterium",
+            "Protist"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define what a fixed action pattern is in the context of animal behavior, emphasizing its characteristics such as being innate, stereotyped, and triggered by specific stimuli.",
+        "instruction 2": "Explore examples of fixed action patterns in various species, illustrating how these behaviors are instinctive responses to certain environmental cues, and analyze their significance in the survival and reproductive strategies of those animals.",
+        "question": "A behavioral response called a fixed action pattern shown by animals",
+        "choices": [
+            "occurs the second time an animal is exposed to the correct stimulus at the appropriate time in its life",
+            "occurs in the absence of sensory feedback",
+            "is a motor response which once released may be terminated spontaneously",
+            "is triggered by a number of sensory signals in the animal's environment"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze specific plant adaptations that are known to attract hummingbirds instead of bees, such as flower shape, color, and nectar composition, by researching botanical literature and studies on pollinator preferences.",
+        "instruction 2": "Evaluate how the timing of flowering and ecological factors in the plant's environment might also play a role in shifting pollinator interactions from bees to hummingbirds, considering aspects like seasonal availability of resources and habitat preferences.",
+        "question": "Which of the following adaptations would limit pollination by bees and promote hummingbird pollination?",
+        "choices": [
+            "Patterns of ultraviolet color on the petals",
+            "Modified petals to provide a landing space",
+            "Pendant (hanging) red-colored flowers",
+            "Nectar with high sugar concentration produced in limited amounts"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the final product of the double fertilization process in flowering plants, which involves determining what structure is formed when the second sperm unites with the polar nuclei, and describe its significance in plant development.",
+        "instruction 2": "Examine the implications of double fertilization on plant reproductive strategies, including how this process contributes to the formation of endosperm and its role in nourishing the developing embryo.",
+        "question": "Double fertilization is a unique feature of flowering plants. In this process, one sperm unites with the egg to yield a zygote. The second sperm unites with the polar nuclei to initiate the formation of the",
+        "choices": [
+            "megagametophyte",
+            "endodermis",
+            "embryo",
+            "endosperm"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific function of homeotic cluster genes in the developmental processes of Drosophila, including their role in determining body segment identity and morphological differentiation, to understand how mutations can lead to defects.",
+        "instruction 2": "Research and categorize the various types of developmental defects caused by mutations in homeotic cluster genes, such as homeotic transformations which may result in the inappropriate formation of body segments, and provide examples to illustrate these defects.",
+        "question": "Mutation of homeotic cluster genes often results in which of the following developmental defects in Drosophila?",
+        "choices": [
+            "Absence of a group of contiguous segments",
+            "Transformation of one segment into another",
+            "Polarity defects in every segment along the anterior-posterior axis",
+            "Tumor formation in imaginal discs"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Explain the physiological mechanisms involved in root pressure, detailing how osmosis and the concentration gradient of solutes in the root cells lead to the movement of water into the roots.",
+        "instruction 2": "Investigate the role of root pressure in plant water transport, considering its significance during certain conditions such as nighttime or drought, and analyze how this process contributes to overall plant hydration and nutrient uptake.",
+        "question": "Root pressure created by a plant's roots causes water to enter the roots by",
+        "choices": [
+            "translocation",
+            "adhesion",
+            "osmosis",
+            "capillary action"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and list the specific processes or mechanisms involved in cholesterol uptake through low-density lipoprotein (LDL) complexes, focusing on the primary pathways such as receptor-mediated endocytosis.",
+        "instruction 2": "Analyze the provided options or scenarios to determine which one does not align with the established mechanisms of cholesterol uptake, carefully distinguishing between related but separate processes or functions to accurately identify the exception.",
+        "question": "Cellular uptake of cholesterol occurs through internalization of low density lipoproteincholesterol complexes. Cholesterol uptake involves all of the following EXCEPT",
+        "choices": [
+            "cell-surface receptors",
+            "adhesion plaques",
+            "endosome formation",
+            "receptor-mediated endocytosis"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the two main types of xylem cells in vascular plants that are primarily responsible for providing structural support while conducting water and minerals, focusing on characteristics that differentiate them.",
+        "instruction 2": "Consider the functional roles of these cell types in the overall physiology of the plant, including their adaptations for efficient water transport and mechanical support, and how they interact within the xylem system.",
+        "question": "Two xylem plant cell types that provide support and conduct water and minerals are the",
+        "choices": [
+            "collenchyma and sclerenchyma",
+            "sieve tube members and companion cells",
+            "tracheids and vessel elements",
+            "vessel elements and companion cells"
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Evaluate each statement about excretory organs by verifying against established biological principles and definitions of excretory systems in various organisms, ensuring clarity on the function and classification of these organs.",
+        "instruction 2": "Identify the scope of the question by determining whether it pertains to human excretory organs specifically or a broader understanding that includes various organisms, as this context may affect the accuracy of the statements.",
+        "question": "Which of the following statements about excretory organs is true?",
+        "choices": [
+            "The kidneys of saltwater fishes produce urine hyperosmotic to their tissues.",
+            "The kidneys of desert mammals produce urine that is hypoosmotic to the urine of freshwater fishes.",
+            "Malpighian tubules allow insects to excrete waste through the exoskeleton.",
+            "Juxtamedullary nephrons in the mammalian kidney allow the organism to produce hyperosmotic urine."
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define Batesian mimicry and identify the key features that distinguish it from other forms of mimicry, particularly focusing on the relationship between the mimic and the model species in terms of palatability and predator avoidance.",
+        "instruction 2": "Evaluate the provided options for examples of Batesian mimicry by comparing them against the criteria established in the definition, specifically looking for instances where a harmless organism mimics a harmful one to gain protection from predators.",
+        "question": "Mimicry is a strategy that has evolved through natural selection to increase the fitness of organisms to their environment. Which of the following represents a form of Batesian mimicry?",
+        "choices": [
+            "A type of millipede that is toxic to a toad is permanently avoided by the toad following the toad's initial attempt to consume it.",
+            "A moth exhibits false eyes at its tail end in order to disorient predators.",
+            "A moth exhibits nearly identical coloration to that of a stinging bee.",
+            "A ground-nesting gull chick displays a coloration pattern that is nearly indistinguishable from its surroundings."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the concept of keystone species and how their presence or absence can significantly influence ecological balance, focusing on examples that demonstrate their role in maintaining the structure of ecosystems.",
+        "instruction 2": "Analyze the mechanisms through which keystone species impact their environments, such as predation, competition, or facilitation, and consider how these interactions affect biodiversity and the dynamics of ecological communities.",
+        "question": "Keystone species are thought to have profound effects on the structure and composition of ecological communities because they",
+        "choices": [
+            "tend to reduce diversity by eliminating food resources for other species",
+            "provide the foundation for food webs",
+            "are more abundant than most other species in their communities",
+            "can prevent superior competitors from driving inferior competitors to local extinction"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the unique properties of mitochondrial DNA (mtDNA) that make it particularly useful for studying genetic relationships among animal populations, such as its maternal inheritance patterns and relatively high mutation rate compared to nuclear DNA.",
+        "instruction 2": "Evaluate how mtDNA can provide insights into evolutionary history and population structure, including its role in tracing lineage and understanding the genetic differences between populations over time.",
+        "question": "Which of the following is a reason that geneticists use mitochondrial DNA (mtDNA) to study the relatedness of animal populations?",
+        "choices": [
+            "mtDNA mutates at a slower rate than nuclear DNA.",
+            "mtDNA is passed from mother to child and is free from recombination that occurs between pairs of chromosomes.",
+            "There are few single nucleotide polymorphisms in the hypervariable, noncoding regions.",
+            "All mitochondrial proteins are coded for by mitochondrial genes."
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the implications of ecosystem restructuring as described in the quote, focusing on how human intervention leads to simplification of ecological complexity and the potential consequences on stability and biodiversity.",
+        "instruction 2": "Consider the role of density-dependent regulatory factors in maintaining ecosystem balance, exploring how their disruption from human activities can affect population dynamics and overall ecosystem health.",
+        "question": "A quote from a natural resources text states: \"Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors.\" This implies that in a disturbed ecosystem",
+        "choices": [
+            "there exist large populations of a low number of species",
+            "population levels of a species are kept at equilibrium through natural regulatory mechanisms",
+            "a given prey organism is subject to higher predation rates by more diverse predators",
+            "a given prey organism is less likely to undergo a population surge"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the genetic background and inheritance patterns of the linked genes associated with gray body and normal wings, as well as black body and vestigial wings, to determine how recombination events may lead to the presence of gray-bodied, vestigial-winged progeny.",
+        "instruction 2": "Consider the principles of genetic linkage and the potential for crossover during meiosis, which could result in unexpected phenotypes among the offspring, particularly focusing on how the alleles segregate and interact in the context of linked genes.",
+        "question": "A female fruit fly bearing linked genes that produce the phenotype gray body and normal wings mates with a male fruit fly of phenotype black body and vestigial wings. The presence of gray-bodied, vestigialwinged flies among the progeny is best explained by",
+        "choices": [
+            "crossing over",
+            "independent assortment",
+            "segregation of alleles",
+            "penetrance"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define the various active pools of carbon on Earth, such as the atmosphere, oceans, terrestrial biosphere, and fossil fuels, as well as their contributions to the carbon cycle to establish a clear understanding of the options presented.",
+        "instruction 2": "Analyze empirical data or scientific studies that rank these carbon pools based on their size and contribution to carbon cycling, ensuring to reference credible sources or research findings to substantiate the identification of the largest carbon pool.",
+        "question": "Which of the following active pools of carbon is the largest on Earth and contributes the most to carbon cycling?",
+        "choices": [
+            "The atmosphere",
+            "Rain-forest vegetation",
+            "Recoverable fossil fuels",
+            "The oceans"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and list the key conditions of natural selection proposed by Charles Darwin, ensuring a clear understanding of concepts such as variation, competition, survival, reproduction, and heritability.",
+        "instruction 2": "Analyze a set of conditions that may appear to align with Darwin's concepts but do not actually fit within the framework of natural selection, distinguishing them from the valid conditions by evaluating each option critically.",
+        "question": "Charles Darwin's proposed conditions for natural selection encompass all of the following with regard to a given population EXCEPT",
+        "choices": [
+            "inheritance of both \"fit\" and \"unfit\" genes",
+            "differential survival and reproductive success",
+            "competition for limited resources",
+            "overproduction of offspring"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clearly define the cohesion-tension theory, including its key components such as cohesion between water molecules, tension created by transpiration, and how these factors contribute to the movement of water in the xylem.",
+        "instruction 2": "Analyze the statements presented about the cohesion-tension theory to determine which one accurately reflects these principles, while considering the scientific context in which the theory operates.",
+        "question": "Which of the following is a correct statement about the cohesion-tension theory for the ascent of water in the xylem?",
+        "choices": [
+            "The evaporation of water from leaf mesophyll cells generates tension in the water column.",
+            "Water moves from a source region with high hydrostatic pressure to a sink region with low hydrostatic pressure.",
+            "The cohesion of water molecules is responsible for the formation of embolisms (air bubbles) in the water column.",
+            "Living cells of the xylem provide the main conduit for an ascent of water."
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary structural components that reinforce fungal cell walls, focusing on key substances like chitin and glucans that contribute to their strength and rigidity.",
+        "instruction 2": "Consider the biological implications of these components in relation to fungi's evolutionary adaptations, understanding how the physical properties of the cell wall affect their ecological roles and interactions with other organisms.",
+        "question": "In fungi, cell walls are reinforced by which of the following?",
+        "choices": [
+            "Chitin",
+            "Silica",
+            "Lignin",
+            "Collagen fibers"
+        ],
+        "subject": "college_biology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Understand the role of proton pumps in the loading of sugars into the phloem, specifically how they create a proton gradient that facilitates the active transport of sugars, such as sucrose, into the phloem cells.",
+        "instruction 2": "Evaluate the mechanisms of this transport process, including how the movement of protons back into the cell generates energy for the co-transport of sugars against their concentration gradient, ensuring a clear understanding of the biochemistry involved.",
+        "question": "In plants, proton pumps are involved in the process of loading sugars into the phloem for transport. Which of the following is true about this process?",
+        "choices": [
+            "It is passive.",
+            "It depends on DNA.",
+            "It requires ATP.",
+            "It translocates starch."
+        ],
+        "subject": "college_biology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and define the key characteristics of early-successional plant communities, such as their tendency to have fast-growing, pioneer species that thrive in disturbed or recently cleared areas.",
+        "instruction 2": "Consider how these characteristics relate to ecological succession processes, focusing on how early-successional species prepare the environment for later successional stages and help establish biodiversity.",
+        "question": "Which of the following characteristics is predicted for an early-successional plant community?",
+        "choices": [
+            "High niche divergence among co-occurring species",
+            "High ratios of primary production to standing-crop biomass",
+            "High frequency of K-selected species",
+            "High detrital biomass"
+        ],
+        "subject": "college_biology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the specific cellular structures involved in the symplastic pathway, such as plasmodesmata, and explain how sucrose moves from mesophyll cells into the phloem by passing through these interconnected plant cell structures.",
+        "instruction 2": "Investigate the transport mechanisms and potential energy requirements for the movement of sucrose through the symplastic pathway, ensuring to distinguish this route from apoplastic movement and emphasizing the role of concentration gradients and osmosis.",
+        "question": "Which of the following is the symplastic pathway for the movement of sucrose from the site of photosynthesis in mesophyll cells into the phloem?",
+        "choices": [
+            "Fibers, phloem parenchyma, companion cell, sieve tube",
+            "Phloem parenchyma, fibers, bundle sheath, tracheids",
+            "Companion cells, phloem parenchyma, fibers, sieve tube",
+            "Bundle sheath, phloem parenchyma, companion cell, sieve tube"
+        ],
+        "subject": "college_biology",
+        "answer": 3
+    }
+]

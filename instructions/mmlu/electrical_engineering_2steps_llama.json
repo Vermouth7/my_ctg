@@ -1,0 +1,1887 @@
+[
+    {
+        "question": "The Barkhausen criterion for an oscillator",
+        "answer": 3,
+        "choices": [
+            "Loop gain should be unity",
+            "Loop gain should be less than unity",
+            "The phase of a feedback signal with respect to input should be 0° or 360°",
+            "Both A and C"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key components of the Barkhausen criterion, including the necessary conditions for an oscillator, such as the phase shift and the gain of the amplifier.",
+        "instruction 2": "Consider the implications of the Barkhausen criterion on the design and operation of oscillators, including the importance of the feedback loop and the role of the amplifier in sustaining oscillations."
+    },
+    {
+        "question": "Potentiometer method of DC voltage measurement is more accurate than direct measurement using a voltmeter because",
+        "answer": 3,
+        "choices": [
+            "It loads the circuit moderately.",
+            "It loads the circuit to maximum extent.",
+            "It uses centre zero galvanometer instead of voltmeter.",
+            "It does not load the circuit at all."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the potential sources of error in direct DC voltage measurement using a voltmeter, such as voltage drops or measurement instrument limitations.",
+        "instruction 2": "Explain how the potentiometer method overcomes these limitations by providing a more accurate measurement, potentially involving the use of a reference voltage or a calibration process."
+    },
+    {
+        "question": "Which of these sets of logic gates are designated as universal gates?",
+        "answer": 0,
+        "choices": [
+            "NOR, NAND.",
+            "XOR, NOR, NAND.",
+            "OR, NOT, AND.",
+            "NOR, NAND, XNOR."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental logic gates (AND, OR, NOT) and their respective truth tables, recognizing that universal gates are those that can simulate any combination of these basic gates.",
+        "instruction 2": "Examine the characteristics of the given logic gates, evaluating their ability to combine and manipulate inputs to produce outputs that can be used to represent any arbitrary Boolean function, thus determining which gates are universal."
+    },
+    {
+        "question": "A single phase one pulse controlled circuit has a resistance R and counter emf E load 400 sin(314 t) as the source voltage. For a load counter emf of 200 V, the range of firing angle control is",
+        "answer": 0,
+        "choices": [
+            "30° to 150°.",
+            "30° to 180°.",
+            "60° to 120°.",
+            "60° to 180°."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Determine the maximum and minimum values of the counter emf E load (400 sin(314 t)) to establish the range of possible firing angles.",
+        "instruction 2": "Consider the relationship between the firing angle and the load counter emf, using the given information to calculate the range of firing angles that would result in the desired voltage output."
+    },
+    {
+        "question": "A box which tells the effect of inputs on control sub system is known as",
+        "answer": 2,
+        "choices": [
+            "Data Box.",
+            "Logical box.",
+            "Decision box.",
+            "State box."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key concept being described, which is a type of system that responds to input signals to produce a specific output, and determine the specific context in which this concept is used.",
+        "instruction 2": "Consider how the box, as a representation of the control system, can be used to analyze and understand the relationships between inputs and outputs, and how this information can be applied in various fields such as engineering, control theory, or automation."
+    },
+    {
+        "question": "Two infinite parallel metal plates are charged with equal surface charge density of the same polarity. The electric field in the gap between the plates is",
+        "answer": 3,
+        "choices": [
+            "same as that produced by one plate.",
+            "double the field produced by one plate.",
+            "dependent on coordinates of field points.",
+            "zero."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Recognize the symmetry of the problem, noting that the electric field must be perpendicular to the plates and uniform between them due to the infinite extent of the plates and the equal surface charge density.",
+        "instruction 2": "Apply the concept of electric field lines and the principle of superposition to determine the direction and magnitude of the electric field between the plates, taking into account the uniform charge distribution and the parallel orientation of the plates."
+    },
+    {
+        "question": "The resistance in the circuit of the moving coil of a dynamometer wattmeter should be",
+        "answer": 2,
+        "choices": [
+            "Low.",
+            "Very low.",
+            "High.",
+            "Almost zero."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific component in the dynamometer wattmeter, the moving coil, and its function in measuring electrical power.",
+        "instruction 2": "Consider the importance of resistance in the moving coil, determining how it affects the accuracy of the wattmeter's measurement and the requirements for its value in order to achieve optimal performance."
+    },
+    {
+        "question": "The following are the necessary requirements of an oscillator",
+        "answer": 3,
+        "choices": [
+            "Amplitude stability",
+            "Frequency stability",
+            "Power stability",
+            "Both A and B"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental components of an oscillator, such as energy storage, energy dissipation, and the conversion of energy between these two forms.",
+        "instruction 2": "Explain how the interplay between these components enables the sustained oscillation, discussing the roles of resonance, damping, and the feedback loop in maintaining the oscillating behavior."
+    },
+    {
+        "question": "The normal voltage used in directional heating is",
+        "answer": 0,
+        "choices": [
+            "1.5 KV.",
+            "15 KV.",
+            "33 KV.",
+            "66 KV."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Research the typical voltage ranges used in directional heating technologies, such as induction heating or dielectric heating, to identify the normal voltage used in these applications.",
+        "instruction 2": "Consider the specific requirements of the heating process, such as the material being heated, the desired heating rate, and any safety considerations, to determine the most suitable voltage for directional heating."
+    },
+    {
+        "question": "LC oscillators are used for produce a waveform with frequency ranging from",
+        "answer": 0,
+        "choices": [
+            "1MHz to 500 MHz",
+            "100 KHz to 500 MHz",
+            "1 KHz to 1 MHz",
+            "1MHz to 100 GHz"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary components of an LC oscillator, including the inductor and capacitor, and how they interact to produce a resonant frequency.",
+        "instruction 2": "Consider the factors that affect the frequency range of the waveform produced by an LC oscillator, such as the values of the inductor and capacitor, and any external influences, to determine the range of frequencies that can be generated."
+    },
+    {
+        "question": "A working diode must have",
+        "answer": 1,
+        "choices": [
+            "High resistance when forward or reverse biased",
+            "Low resistance when forward biased, while high resistance when reverse bias",
+            "High resistance when forward biased, while low resistance when reverse bias",
+            "Low resistance when forward or reverse biased"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental requirements for a working diode, including the ability to allow current to flow in one direction and block it in the other, and the presence of a p-n junction.",
+        "instruction 2": "Consider the importance of the diode's forward and reverse bias characteristics, as well as any specific operating conditions or environmental factors that may affect its functionality."
+    },
+    {
+        "question": "What is the name of the fluorescent material that gives red colour fluorescence?",
+        "answer": 3,
+        "choices": [
+            "Zinc silicate.",
+            "Calcium silicate.",
+            "Zinc sulphide.",
+            "Magnesium silicate."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the class of fluorescent materials that exhibit red fluorescence, such as organic compounds or rare earth elements, and research their chemical properties and characteristics.",
+        "instruction 2": "Consider the specific properties and applications of the material that gives red fluorescence, such as its wavelength, intensity, and potential uses in industries like lighting or biomedical research."
+    },
+    {
+        "question": "How many bits are required to store one BCD digit ?",
+        "answer": 3,
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Determine the binary representation of a BCD digit, considering the 4-bit representation of each decimal digit (0-9) in binary format.",
+        "instruction 2": "Calculate the total number of bits required to store a single BCD digit, considering the binary representation of each digit and the fact that each BCD digit is composed of 4 binary digits."
+    },
+    {
+        "question": "Commutator in DC generator is used for",
+        "answer": 3,
+        "choices": [
+            "collecting of current",
+            "reduce losses",
+            "increase efficiency",
+            "convert AC armature current in to DC"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary function of a commutator in a DC generator, focusing on its role in converting alternating current to direct current.",
+        "instruction 2": "Consider the specific design and operation of the commutator, including the brushes and slip rings, and how these components work together to maintain the DC output and ensure efficient energy transfer."
+    },
+    {
+        "question": "1 F is theoretically equal to",
+        "answer": 2,
+        "choices": [
+            "1 ohm of resistance",
+            "ratio of 1 V to 1 C",
+            "ratio of 1 C to 1 V",
+            "none of these"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Research the definition and conversion factors used to relate the Fahrenheit and Celsius temperature scales, specifically focusing on the conversion factor between the two scales.",
+        "instruction 2": "Apply the conversion factor to the given temperature value of 1 F, ensuring to follow the correct mathematical operations and units, to determine the equivalent temperature in Celsius."
+    },
+    {
+        "question": "How many entries will be in the truth table of a 3 input NAND gate ?",
+        "answer": 2,
+        "choices": [
+            "3",
+            "6",
+            "8",
+            "9"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the number of possible input combinations for a 3-input NAND gate, considering the binary values of 0 and 1 for each input.",
+        "instruction 2": "Calculate the total number of entries in the truth table by combining the possible input combinations, ensuring to account for the logic operation of the NAND gate (i.e., the output is 1 only when all inputs are 0)."
+    },
+    {
+        "question": "In decimal number system what is MSD",
+        "answer": 0,
+        "choices": [
+            "First digit from left to right",
+            "First digit from right to left",
+            "Middle digit",
+            "Mean of all digits"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the most significant digit (MSD) in a decimal number, which is typically the leftmost digit, and explain its importance in the representation of a number.",
+        "instruction 2": "Consider the role of the MSD in the overall value of a decimal number, discussing how it affects the magnitude of the number and how it is used in arithmetic operations."
+    },
+    {
+        "question": "In Digital Logic Designs, GAL is abbreviated as",
+        "answer": 3,
+        "choices": [
+            "General Advance Logic",
+            "General Array Logic",
+            "Generic Advance Logic",
+            "Generic Array Logic"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Research the field of Digital Logic Designs to identify the possible meanings and abbreviations related to GAL, considering the context of digital electronics and computer engineering.",
+        "instruction 2": "Evaluate the possible explanations and choose the most accurate one, ensuring that it is widely accepted and supported by credible sources within the field of Digital Logic Designs."
+    },
+    {
+        "question": "Inintel 8085A microprocessor ALE signal is made high to",
+        "answer": 0,
+        "choices": [
+            "Enable the data bus to be used as low order address bus",
+            "To latch data D0-D7 from data bus",
+            "To disable data bus",
+            "To achieve all the functions listed above"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific purpose of the ALE signal in the Intel 8085A microprocessor, which is to indicate the address bus is being used for either memory or I/O operations.",
+        "instruction 2": "Consider the timing and functionality of the ALE signal in relation to other control signals, such as RD and WR, to understand its role in controlling data transfer and memory access."
+    },
+    {
+        "question": "For an SCR gate cathode characteristic is a straight line of 130. For triggered source volume of 15 V and allowable gate power dissipation of 0.5 W compute the gate source resistance?",
+        "answer": 0,
+        "choices": [
+            "111.9 ohm",
+            "11.19 ohm",
+            "108 ohm",
+            "115 ohm"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Determine the gate-source voltage (Vgs) required to achieve the desired triggered source voltage (Vd) of 15 V, considering the SCR gate cathode characteristic as a straight line with a slope of 130.",
+        "instruction 2": "Use Ohm's law to calculate the gate-source resistance (Rgs) given the gate-source voltage (Vgs) and the allowable gate power dissipation (Pd) of 0.5 W, ensuring to consider the direction of current flow and the relevant voltage drops."
+    },
+    {
+        "question": "The concept of V/f control of inverters driving induction motors resuls in",
+        "answer": 0,
+        "choices": [
+            "constant torque operation",
+            "speed reversal",
+            "reduced magnetic loss",
+            "hormonic elimination"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key components involved in V/f control, including the inverter and induction motor, and understand the role of frequency in controlling the motor's speed.",
+        "instruction 2": "Consider the benefits of V/f control, such as improved motor efficiency and reduced torque ripple, and how it compares to other control methods, such as scalar control or vector control."
+    },
+    {
+        "question": "The energy stored in the magnetic field in a solenoid 30 cm long and 3 cm diameter wound with 1000 turns of wire carrying a current at 10 amp, is",
+        "answer": 1,
+        "choices": [
+            "0.015 joule.",
+            "0.15 joule.",
+            "0.015 joule.",
+            "1.15 joule."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Calculate the area of the solenoid's cross-section using the given diameter and determine the total number of turns.",
+        "instruction 2": "Use the formula for the energy stored in a magnetic field to calculate the energy stored, considering the current flowing through the solenoid, the number of turns, and the area of the cross-section."
+    },
+    {
+        "question": "While operating on variable frequency supplies, the AC motor requires variable voltage in order to",
+        "answer": 1,
+        "choices": [
+            "protect the insulation.",
+            "avoid effect of saturation.",
+            "improve the capabilities of the inverter.",
+            "protect thyristor from dV / dt."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental requirement for an AC motor operating on a variable frequency supply, which is the need for a corresponding adjustment in voltage to maintain optimal performance.",
+        "instruction 2": "Consider the implications of this requirement on motor design and control systems, including the potential use of voltage regulators or other compensating mechanisms to ensure stable operation."
+    },
+    {
+        "question": "Which of the following windings are necessary in case of all dc machines?",
+        "answer": 0,
+        "choices": [
+            "closed winding",
+            "lap winding",
+            "wave winding",
+            "open type winding"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific components within a dc machine that require windings, such as the armature, field, and commutator.",
+        "instruction 2": "Consider the purpose and function of each winding in the dc machine, including the role of the armature winding in generating torque and the field winding in producing a magnetic field."
+    },
+    {
+        "question": "Relaxation Voltage controlled oscillators are used to generate",
+        "answer": 3,
+        "choices": [
+            "Sinusoidal wave",
+            "Triangular wave",
+            "Sawtooth wave",
+            "Both B and C"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key component of the relaxation oscillator circuit, which is the capacitor and resistor network, and how it affects the oscillation frequency.",
+        "instruction 2": "Consider how the control voltage input affects the oscillation frequency, and how the relaxation oscillator circuit can be used to generate a wide range of frequencies, such as in audio applications."
+    },
+    {
+        "question": "The supply frequency usually employed for high frequency eddy current heating is",
+        "answer": 3,
+        "choices": [
+            "1 KHz.",
+            "5 KHz.",
+            "10 MHz.",
+            "10 KHz to 400 KHz."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the typical frequency range used for high-frequency eddy current heating, considering factors such as the materials being heated and the desired heating rate.",
+        "instruction 2": "Consider the effects of frequency on the heating process, such as the role of skin depth and penetration depth, and how they influence the choice of frequency for optimal heating results."
+    },
+    {
+        "question": "In the toggle mode a JK flip-flop has",
+        "answer": 1,
+        "choices": [
+            "J = 0, K = 0.",
+            "J = 1, K = 1.",
+            "J = 0, K = 1.",
+            "J = 1, K = 0."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the characteristics of the toggle mode in a JK flip-flop, focusing on the specific behavior of the flip-flop when the clock input is high.",
+        "instruction 2": "Consider how the toggle mode relates to the overall operation of the JK flip-flop, including its ability to toggle between states and the implications for data storage and retrieval."
+    },
+    {
+        "question": "Electric drive is becoming more and more popular because",
+        "answer": 0,
+        "choices": [
+            "all of below.",
+            "it provide smooth and easy control.",
+            "it is cheaper in cost.",
+            "it is simple and reliable."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the main advantages of electric drive, such as reduced emissions, improved fuel efficiency, and quieter operation, which contribute to its growing popularity.",
+        "instruction 2": "Consider the role of government regulations, technological advancements, and changing consumer preferences in driving the adoption of electric drive, highlighting any key factors that have contributed to its increasing popularity."
+    },
+    {
+        "question": "A step up chopper has input voltage 110 V and output voltage 150 V. The value of duty cycle is",
+        "answer": 1,
+        "choices": [
+            "0.32.",
+            "0.67.",
+            "0.45.",
+            "0.27."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the components of a step-up chopper, including the input and output voltage, and determine the relationship between the two.",
+        "instruction 2": "Calculate the duty cycle by considering the ratio of the output voltage to the input voltage, taking into account the chopper's function as a step-up converter."
+    },
+    {
+        "question": "A Binary number system has how many digits.",
+        "answer": 2,
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "10"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental characteristics of a binary number system, such as its base and the set of unique digits used, to determine the maximum number of digits it can have.",
+        "instruction 2": "Consider the limitations imposed by the binary system's use of only two unique digits (0 and 1), and how this affects the maximum number of possible digits in a binary number."
+    },
+    {
+        "question": "Lowest critical frequency is due to pole and it may be present at the origin or nearer to the origin, then the type of network is",
+        "answer": 2,
+        "choices": [
+            "LC.",
+            "RL.",
+            "RC.",
+            "Any of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the characteristics of a pole in a network, including its location and potential impact on the network's frequency response.",
+        "instruction 2": "Determine the type of network based on the presence and location of the pole, considering the implications of the pole on the network's behavior and performance."
+    },
+    {
+        "question": "Advantages of open loop control system is/are",
+        "answer": 0,
+        "choices": [
+            "simple and economical.",
+            "accurate.",
+            "reliable.",
+            "all of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary characteristic of an open-loop control system, which is the lack of feedback from the output to the input, and consider how this differs from closed-loop systems.",
+        "instruction 2": "Evaluate the advantages of open-loop control systems, such as simplicity, low cost, and ease of implementation, and consider how they may be suitable for certain applications or scenarios."
+    },
+    {
+        "question": "The voltage induced in an inductor is represented as,",
+        "answer": 3,
+        "choices": [
+            "product of its inductance and current through it.",
+            "ratio of its inductance to current through it.",
+            "ratio of current through it to its inductance.",
+            "product of its inductance and rate of change of current through it."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Recognize that the voltage induced in an inductor is directly proportional to the rate of change of the current flowing through it, as described by Faraday's law of induction.",
+        "instruction 2": "Consider the mathematical representation of the relationship between the voltage induced and the rate of change of current, using the relevant formula and any necessary constants or variables, such as the inductance value."
+    },
+    {
+        "question": "If a Hexadecimal number needs to convert to binary. For each hexadecimal digit, there will be how many bits",
+        "answer": 2,
+        "choices": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Determine the number of hexadecimal digits in the given number, and identify the corresponding number of bits required to represent each digit.",
+        "instruction 2": "Calculate the total number of bits required to represent the hexadecimal number by multiplying the number of hexadecimal digits by the number of bits per digit, and then add any necessary padding for leading zeros."
+    },
+    {
+        "question": "Induction heating takes place in",
+        "answer": 1,
+        "choices": [
+            "conducting but non-magnetic materials.",
+            "conducting materials which may be either magnetic or non-magentic materials.",
+            "insulating materials.",
+            "conducting and magnetic materials."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary mechanism behind induction heating, which involves the use of electromagnetic fields to generate heat in conductive materials.",
+        "instruction 2": "Consider the specific conditions required for induction heating to occur, such as the presence of a ferromagnetic material, a suitable frequency of the electromagnetic field, and the application of a power source."
+    },
+    {
+        "question": "In a lap winding dc machine number of conductors are 100 and number of parallel paths are 10. Find the average pitch",
+        "answer": 0,
+        "choices": [
+            "10",
+            "100",
+            "50",
+            "1"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Determine the total number of conductors in the machine, which is 100, and identify the number of parallel paths, which is 10.",
+        "instruction 2": "Calculate the average pitch by dividing the total number of conductors by the number of parallel paths, ensuring to express the result in the appropriate units (e.g., turns per layer or mm)."
+    },
+    {
+        "question": "Magnetic flux has the unit of",
+        "answer": 2,
+        "choices": [
+            "Newton",
+            "Ampere turn",
+            "Weber",
+            "Tesla"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental unit of magnetic flux, which is typically measured in terms of the product of the magnetic field strength and the area perpendicular to the field.",
+        "instruction 2": "Consider the relationship between magnetic flux and the physical quantities involved, such as the magnetic field strength and the area, to determine the correct unit for magnetic flux."
+    },
+    {
+        "question": "In balanced bridge, if the positions of detector and source are interchanged, the bridge will still remain balanced. This can be explained from which theorem",
+        "answer": 0,
+        "choices": [
+            "Reciprocity theorem",
+            "Thevinin's theorem",
+            "Norton's theorem",
+            "Compensation theorem"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the theorem that relates to the concept of symmetry in the balanced bridge, such as the principle of reciprocity or the reciprocity theorem.",
+        "instruction 2": "Consider how the reciprocity theorem applies to the situation, explaining how the interchange of detector and source positions does not affect the balance of the bridge, as the theorem states that the ratio of the detector currents remains unchanged under such a transformation."
+    },
+    {
+        "question": "A D-flip-flop is said to be transparent when",
+        "answer": 3,
+        "choices": [
+            "the output is LOW",
+            "the output is HIGH",
+            "the output follows clock",
+            "the output follow input"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key characteristic of a D-flip-flop that defines its transparency, such as the ability to pass or propagate the input data signal to the output without any significant delay or modification.",
+        "instruction 2": "Consider how this transparency affects the overall behavior and functionality of the D-flip-flop, including its potential applications in digital circuits and systems."
+    },
+    {
+        "question": "A Lissajous pattern on an oscilloscope has 5 horinzontal tangencies and 2 vertical tangencies. The frequency of horizontal input is 100 Hz. The frequency of the vertical will be",
+        "answer": 1,
+        "choices": [
+            "500 Hz.",
+            "250 Hz.",
+            "400 Hz.",
+            "625 Hz."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the number of horizontal and vertical tangencies, which indicates the order of the Lissajous pattern. Determine the frequency ratio of the horizontal to vertical components.",
+        "instruction 2": "Apply the frequency ratio to the given horizontal frequency, 100 Hz, to calculate the vertical frequency that would produce the observed Lissajous pattern."
+    },
+    {
+        "question": "Speed control by variation of field flux results in",
+        "answer": 0,
+        "choices": [
+            "constant power drive.",
+            "constant torque drive.",
+            "variable power drive.",
+            "none of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the concept of speed control by variation of field flux, which is a fundamental principle in electrical engineering, particularly in the context of electric motors and generators.",
+        "instruction 2": "Consider how the variation of field flux affects the speed of the motor or generator, examining the underlying physics and the role of the field flux in controlling the speed."
+    },
+    {
+        "question": "Which of the following memories uses one transistor and one capacitor as basic memory unit",
+        "answer": 1,
+        "choices": [
+            "SRAM",
+            "DRAM",
+            "Both SRAM and DRAM",
+            "None"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental components of the memory unit being described, specifically focusing on the use of one transistor and one capacitor.",
+        "instruction 2": "Research and compare different types of memories, such as SRAM, DRAM, and flash memory, to determine which type uses one transistor and one capacitor as its basic memory unit, and provide supporting evidence from relevant technical specifications or documentation."
+    },
+    {
+        "question": "What will be the number of lamps, each having 300 lumens, required to obtain an average illuminance of 50 lux on a 4m * 3m rectangular room?",
+        "answer": 0,
+        "choices": [
+            "2",
+            "4",
+            "5",
+            "6"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Calculate the total lumens required to achieve the desired average illuminance of 50 lux in the rectangular room, taking into account the surface area to be illuminated.",
+        "instruction 2": "Determine the number of lamps needed to provide the calculated total lumens, considering the output of each lamp (300 lumens) and any necessary adjustments for lamp efficiency or other factors."
+    },
+    {
+        "question": "The output of the system has an effect upon the input quantity, then the system is a",
+        "answer": 1,
+        "choices": [
+            "open loop control system.",
+            "closed loop control system.",
+            "either A or B.",
+            "none of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key concept of feedback in systems, where the output of the system influences the input quantity, and consider how this affects the overall behavior of the system.",
+        "instruction 2": "Consider the implications of feedback on the system's stability, control, and potential for oscillations, as well as any potential applications or real-world examples of feedback systems."
+    },
+    {
+        "question": "A sinusoidal signal is analog signal, because",
+        "answer": 0,
+        "choices": [
+            "it can have a number of values between the negative and positive peaks",
+            "it is negative for one half cycle",
+            "it is positive for one half cycle",
+            "it has positive as well as negative values"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Define what an analog signal is and identify its key characteristics, such as continuous signal, continuous amplitude, and continuous time.",
+        "instruction 2": "Compare the characteristics of the sinusoidal signal to the definition of an analog signal, highlighting how the sinusoidal signal meets the criteria of being continuous in both amplitude and time."
+    },
+    {
+        "question": "FM stands for",
+        "answer": 1,
+        "choices": [
+            "frequent modulation.",
+            "frequency modulation.",
+            "frequency moderator.",
+            "frequent moderator."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the context in which the abbreviation FM is used, such as finance, music, or transportation, to narrow down possible meanings.",
+        "instruction 2": "Research and explore the most common meanings of FM in the identified context, considering potential acronyms or abbreviations related to the field, and provide a definitive answer based on the most widely accepted definition."
+    },
+    {
+        "question": "Stack is also known as",
+        "answer": 2,
+        "choices": [
+            "FIFO memory",
+            "Flash memory",
+            "LIFO memory",
+            "LILO memory"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary characteristics and functions of a stack data structure, such as the Last-In-First-Out (LIFO) principle and the ability to push and pop elements.",
+        "instruction 2": "Research and list other names or synonyms for a stack data structure, considering their meanings and relationships to the original concept, and evaluate their relevance in different programming contexts."
+    },
+    {
+        "question": "In Ward-Leonard system, the lower limit of the speed imposed by",
+        "answer": 2,
+        "choices": [
+            "Field resistance.",
+            "Armature resistance.",
+            "Residual magnetism of the generator.",
+            "None of above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key components of the Ward-Leonard system, including the motor, generator, and control circuitry, and their roles in determining the speed of the motor.",
+        "instruction 2": "Consider the specific constraints and limitations imposed by the Ward-Leonard system, such as the maximum voltage and current, and how these limitations affect the minimum speed that can be achieved."
+    },
+    {
+        "question": "Colpitts oscillator is also called as",
+        "answer": 3,
+        "choices": [
+            "Tank circuit oscillator",
+            "LC oscillator",
+            "Resonant circuit oscillator",
+            "All of the above"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Research the key characteristics and components of a Colpitts oscillator, including its resonant circuit, tank circuit, and feedback mechanism, to identify potential alternative names or descriptions.",
+        "instruction 2": "Consider how the Colpitts oscillator is often referred to in different contexts, such as in radio frequency (RF) engineering, electronics, or signal processing, to uncover alternative names or descriptions that may be used interchangeably."
+    },
+    {
+        "question": "An SCR has half cycle surge current rating of 3000 A for 50 Hz supply. One cycle surge current will be",
+        "answer": 2,
+        "choices": [
+            "1500 A.",
+            "6000 A.",
+            "2121.32 A.",
+            "4242.64 A."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Recognize that the SCR's half-cycle surge current rating is provided for a 50 Hz supply, which means the rating is applicable for a single half-cycle of the AC waveform.",
+        "instruction 2": "Calculate the full-cycle surge current rating by doubling the half-cycle surge current rating, taking into account that the SCR is designed to handle surge currents for the entire AC cycle."
+    },
+    {
+        "question": "Both the ALU and control section of CPU employ which special purpose storage location?",
+        "answer": 2,
+        "choices": [
+            "Buffers",
+            "Decoders",
+            "Accumulators",
+            "Registers"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary functions of the ALU (Arithmetic Logic Unit) and control section within a CPU, highlighting their respective roles in processing and controlling data flow.",
+        "instruction 2": "Consider the specific storage locations used by both the ALU and control section, such as registers and counters, and their purposes in facilitating the CPU's operations."
+    },
+    {
+        "question": "Systematic errors are",
+        "answer": 3,
+        "choices": [
+            "environmental errors.",
+            "observational errors.",
+            "instrument errors.",
+            "all of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the characteristics of systematic errors, such as being consistent and predictable, and how they differ from random errors, which are unpredictable and irregular.",
+        "instruction 2": "Consider the potential causes of systematic errors, such as biases in measurement instruments, inadequate calibration, or flaws in experimental design, and how these errors can impact the accuracy of scientific results."
+    },
+    {
+        "question": "Which of the following is/are the disadvantages of an open loop control system?",
+        "answer": 2,
+        "choices": [
+            "Inaccurate.",
+            "Unreliable.",
+            "both A and B.",
+            "none of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary characteristics of an open loop control system, such as the absence of feedback and the reliance on a fixed setpoint.",
+        "instruction 2": "Consider the potential drawbacks of this approach, including the inability to adjust to changing conditions, the potential for instability, and the lack of adaptability in response to disturbances or changes in the system."
+    },
+    {
+        "question": "A diode (p-n junction) when reverse biased act as",
+        "answer": 3,
+        "choices": [
+            "On Switch",
+            "Zener diode",
+            "Capacitor",
+            "Off Switch"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the characteristics of a p-n junction diode in forward bias, such as the flow of current and the potential difference across the junction.",
+        "instruction 2": "Examine the behavior of the diode when reverse biased, considering how the p-n junction's properties change, and how this affects the flow of current and the voltage across the junction."
+    },
+    {
+        "question": "Piezoelectric effect is carried out in",
+        "answer": 1,
+        "choices": [
+            "composite filter.",
+            "crystal filter.",
+            "m derived.",
+            "constant k prototype."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific materials or substances that exhibit the piezoelectric effect, such as crystals or ceramics, and their properties that enable this phenomenon.",
+        "instruction 2": "Consider the mechanisms by which the piezoelectric effect occurs, including the application of mechanical stress or pressure, and the resulting generation of an electric charge or voltage."
+    },
+    {
+        "question": "The resistivity of the conductor depends on",
+        "answer": 2,
+        "choices": [
+            "area of the conductor.",
+            "length of the conductor.",
+            "type of material.",
+            "none of these."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key factors that influence the resistivity of a conductor, such as the material properties, temperature, and purity of the material, as well as any other relevant variables.",
+        "instruction 2": "Consider how these factors interact and affect the resistivity of the conductor, potentially referencing specific examples or formulas to support the explanation."
+    },
+    {
+        "question": "The smallest change in measured variable to which instrument will respond is",
+        "answer": 0,
+        "choices": [
+            "resolution.",
+            "accuracy.",
+            "precision.",
+            "sensitivity."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key concept in this question, which is the smallest change in a measured variable that an instrument can detect, and its relation to the instrument's sensitivity and accuracy.",
+        "instruction 2": "Consider how the instrument's specifications, such as its resolution and precision, influence its ability to measure small changes in the variable, and evaluate the implications of this limitation on the accuracy and reliability of the measurements."
+    },
+    {
+        "question": "In electronic communications, \"AM\" stands for",
+        "answer": 2,
+        "choices": [
+            "Amp Modification",
+            "Amplitude Method",
+            "Amplitude Modulation",
+            "Ampere Method"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the common abbreviations and acronyms used in electronic communications, such as AM, FM, and SMS.",
+        "instruction 2": "Consider the context and purpose of the abbreviation, which is typically used to describe the type of transmission or modulation used in radio communication systems, such as amplitude modulation (AM)."
+    },
+    {
+        "question": "Which system is also known as automatic control system?",
+        "answer": 1,
+        "choices": [
+            "Open loop control system",
+            "Closed loop control system",
+            "Either A or B",
+            "Nether A nor B"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key characteristics of an automatic control system, such as its ability to regulate and adjust variables in real-time, and its use of sensors and actuators to control processes.",
+        "instruction 2": "Consider the various types of automatic control systems, such as open-loop, closed-loop, and hybrid systems, and how they differ in terms of their feedback mechanisms and control strategies."
+    },
+    {
+        "question": "A combinational PLD with a fixed AND array and a programmable OR array is called a",
+        "answer": 1,
+        "choices": [
+            "PLD",
+            "PROM",
+            "PAL",
+            "PLA"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key components of the PLD, specifically the AND array and OR array, and consider their functions in the overall logic circuit.",
+        "instruction 2": "Research the characteristics of combinational PLDs and their applications, focusing on the combination of fixed and programmable logic elements to determine the specific type of PLD being referred to."
+    },
+    {
+        "question": "A null type instrument as compared to a deflected type instrument has",
+        "answer": 2,
+        "choices": [
+            "a lower sensitivity.",
+            "a faster response.",
+            "a higher accuracy.",
+            "all of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key difference between a null-type instrument and a deflected-type instrument, focusing on how they measure or detect physical phenomena, such as electrical currents or magnetic fields.",
+        "instruction 2": "Consider the advantages and limitations of each type of instrument, evaluating how the design and functionality of null-type instruments, such as their ability to measure zero or near-zero values, differ from those of deflected-type instruments, which often rely on visual or mechanical indicators."
+    },
+    {
+        "question": "Length of the cable is doubled, its capacitance C will be",
+        "answer": 2,
+        "choices": [
+            "one-fourth.",
+            "one-half.",
+            "doubled.",
+            "unchanged."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Recognize that the capacitance C is directly proportional to the length of the cable, as per the formula C = ε0εrA/l, where ε0 is the permittivity of free space, εr is the relative permittivity of the material, A is the cross-sectional area, and l is the length of the cable.",
+        "instruction 2": "Apply the concept of proportionality to determine how the capacitance C will change when the length of the cable is doubled, using the original value of C and the modified length to calculate the new capacitance value."
+    },
+    {
+        "question": "Electrons in p-type material of a semi-conductor are called as",
+        "answer": 1,
+        "choices": [
+            "either minority carriers or majority carriers",
+            "minority carriers",
+            "majority carriers",
+            "valance carriers"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the type of material being referred to, specifically p-type semiconductor, and its characteristic property in terms of electron behavior.",
+        "instruction 2": "Consider the role of electrons in p-type material, focusing on their energy levels and mobility, to determine why they are referred to as 'holes' or 'positive charge carriers' rather than 'electrons'."
+    },
+    {
+        "question": "________ is the most detrimental impurity in the magnetic materials",
+        "answer": 0,
+        "choices": [
+            "Carbon.",
+            "Sulphur.",
+            "Oxygen.",
+            "Nitrogen."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the most common impurities that can affect the magnetic properties of materials, considering factors such as chemical composition, crystal structure, and magnetic interactions.",
+        "instruction 2": "Evaluate the impact of these impurities on the magnetic behavior of the materials, examining how they can alter or degrade the desired magnetic properties, and considering any potential methods for minimizing or removing these impurities."
+    },
+    {
+        "question": "Voltage controlled oscillators are used commonly in",
+        "answer": 3,
+        "choices": [
+            "Pulse Modulators Frequency Modulators Phase Clocked loops",
+            "Frequency Modulators",
+            "Phase Clocked loops",
+            "All the above"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary application areas where voltage-controlled oscillators (VCOs) are commonly used, such as in radio frequency (RF) circuits, analog-to-digital converters, or phase-locked loops.",
+        "instruction 2": "Consider the specific characteristics of VCOs, such as their ability to produce a wide range of frequencies, and how these attributes make them suitable for use in various electronic systems."
+    },
+    {
+        "question": "Low frequency supply is necessary for direct core type induction furnaces because",
+        "answer": 2,
+        "choices": [
+            "With normal frequeny supply the electromagnetic forces causes severe stirring action in the molten metal.",
+            "Magnetic coupling between the primary and secondary circuit is poor.",
+            "Both A and B.",
+            "None of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific requirements for the core of a direct core type induction furnace, including the need for low frequency supply.",
+        "instruction 2": "Explain the purpose of the low frequency supply in relation to the core, highlighting its role in achieving efficient and stable furnace operation."
+    },
+    {
+        "question": "The moving coil-meters, damping is provided by",
+        "answer": 0,
+        "choices": [
+            "the aluminium frame of the coil.",
+            "the coil spring attached to the moving.",
+            "eddy current disk.",
+            "damping vane in the airtight chamber."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary mechanism responsible for damping in moving coil-meters, considering factors such as electrical resistance, mechanical friction, or air resistance.",
+        "instruction 2": "Evaluate the role of this damping mechanism in the overall functioning of the moving coil-meter, including its impact on accuracy, stability, and responsiveness."
+    },
+    {
+        "question": "Which of the following is the analogous quantity for mass element in force-voltage analogy?",
+        "answer": 1,
+        "choices": [
+            "Resistance.",
+            "Inductance.",
+            "Capacitance.",
+            "All of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key elements in the force-voltage analogy, focusing on the relationship between force and voltage, as well as the corresponding elements in the electrical circuit and mechanical system.",
+        "instruction 2": "Consider how the concept of mass, as a measure of the amount of matter in an object, relates to the analogous quantity in the electrical circuit, evaluating whether it is a measure of the amount of charge or current, and how it impacts the overall behavior of the circuit."
+    },
+    {
+        "question": "A latch is ________ sensitive",
+        "answer": 2,
+        "choices": [
+            "both level and edge",
+            "edge",
+            "level",
+            "None"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific property or characteristic of a latch that is being referred to, such as its ability to respond to changes in voltage, current, or mechanical position.",
+        "instruction 2": "Consider how this sensitivity affects the latch's operation, such as its ability to switch states or maintain a stable position, and how this property might be exploited or mitigated in different applications."
+    },
+    {
+        "question": "What is used to protect the SCR from over current ?",
+        "answer": 0,
+        "choices": [
+            "CB and fuse.",
+            "Heat sink.",
+            "Snubber circuit.",
+            "Voltage clamping device."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the components of a SCR (Silicon-Controlled Rectifier) and their functions, specifically focusing on the SCR's current handling capacity.",
+        "instruction 2": "Consider the role of overcurrent protection devices, such as fuses or circuit breakers, in preventing excessive current flow through the SCR, and evaluate their effectiveness in protecting the SCR from damage."
+    },
+    {
+        "question": "The errors mainly caused by human mistakes are",
+        "answer": 0,
+        "choices": [
+            "gross error.",
+            "instrumental error.",
+            "observational error.",
+            "systematic error."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary sources of errors caused by human mistakes, such as lack of attention, inadequate training, or poor decision-making, and consider how these factors can contribute to errors in various contexts.",
+        "instruction 2": "Evaluate the potential consequences of these errors, including the impact on individuals, organizations, and society as a whole, and discuss strategies for mitigating or preventing these errors from occurring."
+    },
+    {
+        "question": "Electrical analogous quantity for dash-pot in force-current analogy is",
+        "answer": 1,
+        "choices": [
+            "resistance.",
+            "conductance.",
+            "inductance.",
+            "capacitance."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the force-current analogy, which is a type of electrical analogy that relates electrical quantities to mechanical quantities, and determine the role of the dash-pot in this analogy.",
+        "instruction 2": "Determine the equivalent electrical quantity that represents the dash-pot's mechanical behavior, considering the physical properties and functions of the dash-pot in the force-current analogy."
+    },
+    {
+        "question": "Which lamp has the best Colour Rendering Index (CRI)?",
+        "answer": 2,
+        "choices": [
+            "LED",
+            "Fluorescent",
+            "Incandescent",
+            "High pressure sodium vapour"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Research and identify the definition of Colour Rendering Index (CRI) and its importance in lighting, as well as the typical range of CRI values for different types of lamps.",
+        "instruction 2": "Compare and contrast the CRI values of various lamp types, such as incandescent, fluorescent, and LED lamps, to determine which type has the best CRI, considering factors such as the specific technology used and any potential trade-offs in terms of brightness or energy efficiency."
+    },
+    {
+        "question": "Power dissipation in ideal inductor is",
+        "answer": 2,
+        "choices": [
+            "Maximum",
+            "Minimum",
+            "Zero",
+            "A finite value"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key components involved in the analysis of power dissipation in an ideal inductor, such as the voltage across the inductor, the current through the inductor, and the inductor's internal resistance.",
+        "instruction 2": "Consider the mathematical relationship between these components, specifically the inductor's energy storage and the voltage-current relationship, to determine the power dissipation in an ideal inductor."
+    },
+    {
+        "question": "For intermittent work which of the following furnace is suitable?",
+        "answer": 1,
+        "choices": [
+            "Core less furnace.",
+            "Indirect arc furnace.",
+            "Either of above.",
+            "Nither of above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the characteristics of intermittent work, such as variable usage patterns, to determine the specific requirements for the furnace.",
+        "instruction 2": "Consider the types of furnaces suitable for intermittent work, evaluating factors such as energy efficiency, cost-effectiveness, and adaptability to varying usage demands."
+    },
+    {
+        "question": "In electrical resistance welding material of electrode should have",
+        "answer": 3,
+        "choices": [
+            "higher electrical conductivities.",
+            "higher thermal conductivities.",
+            "sufficient strength to sustain high pressure at elevated temperatures.",
+            "all of above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific requirements for the material used in the electrodes for electrical resistance welding, such as conductivity, durability, and resistance to corrosion or wear.",
+        "instruction 2": "Consider the properties and characteristics of different materials, such as copper, silver, or graphite, and evaluate their suitability for use as electrodes in electrical resistance welding, taking into account factors like thermal conductivity, melting point, and cost."
+    },
+    {
+        "question": "Which of the following are the passive elements?",
+        "answer": 2,
+        "choices": [
+            "Resistor",
+            "Bulb",
+            "Both",
+            "None of these."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the components in the given list that do not actively control the flow of current in an electrical circuit, focusing on their role in the circuit.",
+        "instruction 2": "Consider how the passive elements, such as resistors, capacitors, and inductors, interact with active elements, like voltage sources and current sources, to determine the overall behavior of the circuit."
+    },
+    {
+        "question": "The main advantage of dielectric heating is that",
+        "answer": 0,
+        "choices": [
+            "heating occurs in the material itself.",
+            "heating occurs due to high frequency.",
+            "it can be used for drying the explosives.",
+            "None of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary benefit of dielectric heating, which is the ability to heat materials without generating significant mechanical stress or thermal gradients.",
+        "instruction 2": "Consider how this advantage is particularly useful in specific applications, such as heating delicate or sensitive materials, or in situations where mechanical stress could compromise the material's integrity or structure."
+    },
+    {
+        "question": "Materials used in heat sink should have",
+        "answer": 3,
+        "choices": [
+            "high thermal conductivity.",
+            "large surface area.",
+            "high melting point.",
+            "All of these."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary function of a heat sink, which is to efficiently dissipate heat away from electronic components, and consider the materials that are most effective in achieving this goal.",
+        "instruction 2": "Evaluate the properties of various materials, such as thermal conductivity, specific heat capacity, and density, to determine which ones would be best suited for heat sink applications, taking into account factors like cost, durability, and compatibility."
+    },
+    {
+        "question": "Conductor is static and the field is varying then emf will be induced. This principle is called",
+        "answer": 2,
+        "choices": [
+            "virtually induced emf.",
+            "dynamically induced emf.",
+            "static induced emf.",
+            "none of these"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key conditions that lead to the induction of an electromotive force (emf), specifically focusing on the relative motion between the conductor and the varying magnetic field.",
+        "instruction 2": "Recognize the fundamental principle that describes this phenomenon, such as Faraday's law of induction, and consider its mathematical formulation to better understand the relationship between the conductor's motion and the induced emf."
+    },
+    {
+        "question": "Four identical alternators each are rated for 20 MVA, 11 KV having a subtransient reactance of 16% are working in parallel. The short circuit level at the busbar is",
+        "answer": 0,
+        "choices": [
+            "500 MVA",
+            "400 MVA",
+            "125 MVA",
+            "100 MVA"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Calculate the total apparent power rating of the four identical alternators in parallel, considering their individual ratings and the principle of parallel operation.",
+        "instruction 2": "Determine the short-circuit level at the busbar by applying the equivalent reactance of the four alternators in parallel, taking into account the subtransient reactance of each alternator."
+    },
+    {
+        "question": "According to the Bohr model, an electron gains or losses energy only by",
+        "answer": 1,
+        "choices": [
+            "moving faster or slower in an allowed orbit.",
+            "jumping from one allowed orbit to another.",
+            "being completely removed from an atom.",
+            "jumping from one atom to another atom."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Review the Bohr model's description of electron energy levels and the concept of quantization, focusing on the idea that electrons occupy specific energy levels or shells around the nucleus.",
+        "instruction 2": "Consider how the Bohr model explains the energy transitions of electrons, including the absorption and emission of photons, and how this relates to the idea that electrons gain or lose energy only by moving between specific energy levels."
+    },
+    {
+        "question": "A three-state buffer has the following output states",
+        "answer": 2,
+        "choices": [
+            "1, 0, float",
+            "High, Low, Float",
+            "Both A and B",
+            "Set, Reset, Halt"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Determine the possible output states of the three-state buffer, considering the number of states and any constraints or rules governing their transitions.",
+        "instruction 2": "Analyze the output states, identifying any patterns, cycles, or dependencies that may be relevant to understanding the behavior of the buffer, such as the probability of transitioning between states or the impact of external factors on the buffer's output."
+    },
+    {
+        "question": "By using which of the following elements, mechanical translational systems are obtained?",
+        "answer": 3,
+        "choices": [
+            "mass element",
+            "spring element",
+            "dash-pot",
+            "all of the above"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental components of mechanical translational systems, such as the presence of a moving part or a mechanical link, and the role of each component in facilitating motion.",
+        "instruction 2": "Consider the specific elements that enable the conversion of energy from one form to another, such as gears, levers, or pulleys, and how these elements contribute to the overall functionality of the system."
+    },
+    {
+        "question": "Four capacitors each of 40 µF are connected in parallel, the equivalent capacitance of the system will be",
+        "answer": 0,
+        "choices": [
+            "160 µF",
+            "10 µF",
+            "40 µF",
+            "5 µF"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Determine the equivalent capacitance of a single parallel combination of two capacitors, using the formula Ceq = C1 + C2, where C1 and C2 are the individual capacitances.",
+        "instruction 2": "Repeat the process for the remaining two capacitors, combining the equivalent capacitances of the first two capacitors with the equivalent capacitance of the second two capacitors to find the overall equivalent capacitance of the system."
+    },
+    {
+        "question": "The resistance of a conductor of diameter d and length l is R Ω. If the diameter of the conductor is halved and its length is doubled, the resistance will be",
+        "answer": 2,
+        "choices": [
+            "R Ω",
+            "2R Ω",
+            "4R Ω",
+            "8R Ω"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the factors that affect the resistance of a conductor, specifically the diameter and length, and how these factors are related to the resistance.",
+        "instruction 2": "Apply the given changes to the conductor's diameter and length, and calculate the resulting resistance using the relationship between resistance, diameter, and length, ensuring to account for the halving of the diameter and doubling of the length."
+    },
+    {
+        "question": "A single phase full bridge inverter can operated in load commutation mode in case load consist of",
+        "answer": 1,
+        "choices": [
+            "RL.",
+            "RLC underdamped.",
+            "RLC overdamped.",
+            "RLC critically damped."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific type of inverter being discussed, a single-phase full bridge inverter, and its ability to operate in load commutation mode.",
+        "instruction 2": "Consider the characteristics of a load that would enable load commutation mode, such as its ability to absorb or release energy rapidly, and how this affects the inverter's operation."
+    },
+    {
+        "question": "A microprocessor is ALU",
+        "answer": 3,
+        "choices": [
+            "and control unit on a single chip.",
+            "and memory on a single chip.",
+            "register unit and I/O device on a single chip.",
+            "register unit and control unit on a single chip."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary function of the ALU (Arithmetic Logic Unit) in a microprocessor, such as performing arithmetic and logical operations.",
+        "instruction 2": "Consider how the ALU is integrated with other components of the microprocessor, such as registers and memory, to enable the execution of instructions and processing of data."
+    },
+    {
+        "question": "To obtain a high value of capacitance, the permittivity of dielectric medium should be",
+        "answer": 2,
+        "choices": [
+            "low",
+            "zero",
+            "high",
+            "unity"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key factor that determines capacitance in an electrical circuit, specifically the permittivity of the dielectric medium, and explain how it affects the capacitance value.",
+        "instruction 2": "Consider how increasing the permittivity of the dielectric medium would impact the capacitance value, and what implications this may have on the design and application of capacitors in electronic circuits."
+    },
+    {
+        "question": "Deflection method direct measurements are most widely used as these are",
+        "answer": 2,
+        "choices": [
+            "least time consuming.",
+            "most simple.",
+            "most simple and least time consuming.",
+            "most accurate."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary advantage of the deflection method for direct measurements, such as its ability to accurately measure the deflection of a material under load, which can provide valuable information about its mechanical properties.",
+        "instruction 2": "Consider the limitations and potential sources of error associated with the deflection method, such as the need for precise control over testing conditions and the potential for measurement inaccuracies due to material heterogeneity or defects."
+    },
+    {
+        "question": "Purely mechanical instrument cannot be used for dynamic measurements because they have",
+        "answer": 3,
+        "choices": [
+            "high inertia.",
+            "higher response time.",
+            "large time constant.",
+            "all of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental limitations of purely mechanical instruments, focusing on their inability to capture dynamic changes or rapid fluctuations in the measured quantity.",
+        "instruction 2": "Consider how the mechanical nature of these instruments, such as the reliance on physical contact or mechanical linkages, can lead to inaccuracies or limitations in capturing dynamic measurements, and how this differs from electronic or digital instruments."
+    },
+    {
+        "question": "Advantages of higher transmission voltage is/are",
+        "answer": 3,
+        "choices": [
+            "Power transfer capability of the transmission line is increased",
+            "Transmission line losses are reduced",
+            "Area of cross section and volume of the conductor is reduced",
+            "all of the above"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary benefits of increasing transmission voltage, such as reduced energy losses, increased efficiency, and improved power quality.",
+        "instruction 2": "Consider the trade-offs and limitations of higher transmission voltage, including potential drawbacks like increased capital costs, electromagnetic interference, and system instability, and evaluate the overall impact on the electrical grid."
+    },
+    {
+        "question": "Under over voltage condition impedance offered by the voltage clamping device is",
+        "answer": 1,
+        "choices": [
+            "high.",
+            "low.",
+            "moderate.",
+            "infinity."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific condition being referred to (overvoltage) and the component being discussed (voltage clamping device) to understand the context of the question.",
+        "instruction 2": "Consider the function of a voltage clamping device, which is to regulate voltage levels, and how it would behave under an overvoltage condition, taking into account the impedance it would offer in this scenario."
+    },
+    {
+        "question": "A long wire composed of a smooth round conductor runs above and parallel to the ground (assumed to be a large conducting plane). A high voltage exists between the conductor and the ground. The maximum electric stress occurs at",
+        "answer": 0,
+        "choices": [
+            "lower surface of the conductor.",
+            "upper surface of the conductor.",
+            "the ground surface.",
+            "midway between the conductor and ground."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key factors influencing the electric stress distribution along the wire, such as the voltage difference and the proximity of the wire to the ground.",
+        "instruction 2": "Consider the effects of the wire's shape and the ground's conductivity on the electric field distribution, and determine where the maximum electric stress would occur based on the principles of electrostatics."
+    },
+    {
+        "question": "In a dc machine 6 pole wave winding is used. The number of parallel paths are?",
+        "answer": 2,
+        "choices": [
+            "6",
+            "4",
+            "2",
+            "1"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the characteristics of a dc machine, including the number of poles and the type of winding used, to understand the structure of the machine.",
+        "instruction 2": "Determine the number of parallel paths in the 6-pole wave winding by analyzing the winding pattern and the number of poles, taking into account the physical arrangement of the conductors and the magnetic field."
+    },
+    {
+        "question": "Which of the following is a digital device",
+        "answer": 3,
+        "choices": [
+            "Regulator of a fan",
+            "Microphone",
+            "Resistance of a material",
+            "Light switch"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key characteristics of digital devices, such as the ability to process and store data electronically, and the use of microprocessors and memory to perform tasks.",
+        "instruction 2": "Evaluate the provided options to determine which ones exhibit these digital device characteristics, considering factors such as their functionality, hardware, and software capabilities."
+    },
+    {
+        "question": "Instantaneous power in inductor is proportional to the",
+        "answer": 0,
+        "choices": [
+            "product of the instantaneous current and rate of change of current.",
+            "square of instantaneous current.",
+            "square of the rate of change of current.",
+            "temperature of the inductor."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key components in the equation for instantaneous power in an inductor, focusing on the relationship between voltage, current, and resistance.",
+        "instruction 2": "Consider the physical implications of this relationship, evaluating how changes in voltage, current, or resistance can affect the instantaneous power in the inductor, and how this relates to the overall behavior of the circuit."
+    },
+    {
+        "question": "Which of the following is a variable displacement transducer?",
+        "answer": 1,
+        "choices": [
+            "tachometer",
+            "potentiometer",
+            "synchros",
+            "none of the above"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the types of transducers commonly classified as variable displacement, focusing on their operational principles and how they convert physical phenomena into mechanical changes that can be measured.",
+        "instruction 2": "Differentiate between variable displacement transducers and other types of transducers by examining characteristics such as sensitivity, range, and application areas, ensuring to review device specifications or examples for clarity."
+    },
+    {
+        "question": "Five capacitors each of 5 µF are connected in series, the equivalent capacitance of the system will be",
+        "answer": 3,
+        "choices": [
+            "5 µF",
+            "25 µF",
+            "10 µF",
+            "1 µF"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Recognize that capacitors connected in series have an equivalent capacitance that is the reciprocal of the sum of the reciprocals of the individual capacitances.",
+        "instruction 2": "Calculate the equivalent capacitance by applying the formula, ensuring to use the correct units and values for the given capacitors."
+    },
+    {
+        "question": "Susceptibility is negative for",
+        "answer": 1,
+        "choices": [
+            "non magnetic substances.",
+            "diamagnetic substances.",
+            "ferromagnetic substances.",
+            "none of above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the context in which the term 'susceptibility' is being used, such as in medicine, physics, or chemistry, to determine the relevant definition and application.",
+        "instruction 2": "Consider the opposite of susceptibility, which is often referred to as 'insusceptibility' or 'resistance', and how this concept relates to the original term in the given context."
+    },
+    {
+        "question": "One of the following is the primary function of an oscillator",
+        "answer": 2,
+        "choices": [
+            "produces sinusoidal oscillations",
+            "generates non sinusoidal waveforms",
+            "generates sustained oscillations at a constant amplitude and specific frequency",
+            "none of the above"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary function of an oscillator in the context of physics, such as generating a repetitive motion or vibration, and how this differs from other types of mechanical systems.",
+        "instruction 2": "Consider the specific characteristics of oscillators, such as their ability to maintain a consistent frequency and amplitude, and how these properties are used in various applications, such as timing devices or resonant circuits."
+    },
+    {
+        "question": "The metal surfaces for electrical resistance welding must be",
+        "answer": 1,
+        "choices": [
+            "rough.",
+            "clean.",
+            "moistened",
+            "coloured"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific requirements for the metal surfaces in electrical resistance welding, such as the need for cleanliness, smoothness, and a certain level of conductivity.",
+        "instruction 2": "Consider the potential consequences of not meeting these requirements, such as poor weld quality, increased risk of defects, or reduced overall performance, and how these factors impact the welding process."
+    },
+    {
+        "question": "The latching current of SCR is 20 mA. Its holding current will be",
+        "answer": 2,
+        "choices": [
+            "23 mA.",
+            "40 mA.",
+            "10 mA.",
+            "60 mA."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Understand the concept of latching current and holding current in SCR devices, recognizing that latching current is the minimum current required to turn the device ON, while holding current is the minimum current required to maintain the device in the ON state.",
+        "instruction 2": "Consider the relationship between the latching current and holding current, recognizing that the holding current is typically lower than the latching current, and that the device will remain ON as long as the current exceeds the holding current."
+    },
+    {
+        "question": "In force-current analogy, electrical analogous quantity for displacement (x) is",
+        "answer": 3,
+        "choices": [
+            "voltage.",
+            "inductance.",
+            "capacitance.",
+            "flux."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the concept of displacement in electrical circuits and its relationship to the physical quantity being sought, such as distance or position.",
+        "instruction 2": "Consider the analogous quantity in mechanical systems, where displacement is equivalent to distance or position, and apply this analogy to the electrical context, determining the corresponding electrical quantity that represents displacement."
+    },
+    {
+        "question": "Feedback circuit in an oscillator can be accomplished by",
+        "answer": 3,
+        "choices": [
+            "Resistive coupling between input and output",
+            "Capacitive coupling between input and output",
+            "Inductive coupling between input and output",
+            "Any one or combinations of the above methods"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the essential components required for a feedback circuit in an oscillator, such as the amplifier, resonant circuit, and feedback path.",
+        "instruction 2": "Consider how the feedback path interacts with the resonant circuit to create a sustained oscillation, taking into account the phase relationships between the amplifier, resonant circuit, and feedback path."
+    },
+    {
+        "question": "Lowest critical frequency is due to zero and it may be present at the origin or nearer to the origin, then the type of network is",
+        "answer": 3,
+        "choices": [
+            "LC circuit.",
+            "RC circuit.",
+            "RLC circuit.",
+            "RL Circuit."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the definition of the lowest critical frequency and its relationship to the zero frequency, which may be present at the origin or closer to it.",
+        "instruction 2": "Based on the presence of the lowest critical frequency, determine the type of network that is being described, such as a series RLC circuit or a parallel RLC circuit, considering the characteristics of each type of network."
+    },
+    {
+        "question": "What is the value of dielectric constant of air?",
+        "answer": 2,
+        "choices": [
+            "Less than 1",
+            "0.",
+            "1.",
+            "none of these."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Look up the value of the dielectric constant for air in a reliable source, such as a physics textbook or online database, to obtain the exact numerical value.",
+        "instruction 2": "Consider any factors that might affect the value of the dielectric constant in air, such as temperature, humidity, or atmospheric pressure, and determine if any corrections or adjustments are necessary for the specific context or application."
+    },
+    {
+        "question": "Temperature variation is a/an",
+        "answer": 1,
+        "choices": [
+            "Digital quantity",
+            "Analog quantity",
+            "Either Digital or Analog quantity",
+            "None"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the type of temperature variation being referred to, such as spatial, temporal, or both, and consider the context in which the term is used.",
+        "instruction 2": "Consider the implications of temperature variation on various systems, such as climate, ecosystems, or human health, and how it may be influenced by factors like global warming, urbanization, or other environmental factors."
+    },
+    {
+        "question": "The illumination at a point 5 meters below a lamp in 6 lux. The candle power of the lamp is",
+        "answer": 2,
+        "choices": [
+            "30",
+            "140.",
+            "150.",
+            "200."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Recognize that the given information is the illumination at a point 5 meters below the lamp, and that the candle power of the lamp is being sought.",
+        "instruction 2": "Use the inverse square law for illumination to establish a relationship between the distance from the lamp and the illumination, then use this relationship to calculate the candle power of the lamp based on the given illumination value."
+    },
+    {
+        "question": "For a dc machine shunt resistance and armature resistance values are",
+        "answer": 1,
+        "choices": [
+            "high and high",
+            "high and low",
+            "low and low",
+            "low and high"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific components and their resistances within the dc machine, focusing on the shunt resistance and armature resistance, and understand their roles in the machine's operation.",
+        "instruction 2": "Consider the relationships between these resistances, including how they affect the machine's performance, such as the current drawn from the shunt and the armature's ability to generate torque."
+    },
+    {
+        "question": "The change of cross sectional area of conductor in magnetic field will affect",
+        "answer": 2,
+        "choices": [
+            "reluctance of conductor.",
+            "resistance of conductor.",
+            "(A) and (B) both in the same way.",
+            "none of above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the relevant physical properties of the conductor, such as its cross-sectional area and its position within the magnetic field, and how these properties interact.",
+        "instruction 2": "Consider the effects of changing the cross-sectional area on the conductor's magnetic flux and resulting induced current, taking into account the principles of electromagnetic induction and Faraday's law."
+    },
+    {
+        "question": "Which of the following is used in SCR to protect from high dV / dt?",
+        "answer": 0,
+        "choices": [
+            "Snubber circuit.",
+            "Fuse.",
+            "Equalizing circuit.",
+            "Circuit breaker."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the SCR (Silicon-Controlled Rectifier) component and its typical application in electronic circuits, including the context of high dV/dt (voltage change rate) protection.",
+        "instruction 2": "Consider the specific function of the SCR in protecting against high dV/dt, such as its ability to absorb voltage spikes or clamp excessive voltage changes, and how this function relates to the overall circuit design."
+    },
+    {
+        "question": "What are the sets of commands in a program which are not translated into machine instructions during assembly process, called?",
+        "answer": 1,
+        "choices": [
+            "Mnemonics",
+            "Directives",
+            "Identifiers",
+            "Operands"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the stage in the assembly process where machine instructions are generated from assembly language, and consider what types of code are not translated during this stage.",
+        "instruction 2": "Research and define the specific terms used to describe these sets of commands, such as 'macro' or 'conditional assembly', and explain their purpose within the assembly process."
+    },
+    {
+        "question": "Speed of data transmission in 4-G network of telecom is",
+        "answer": 3,
+        "choices": [
+            "386 kbps - 2 mbps.",
+            "2 mbps.",
+            "2 mbps – 1 gbps.",
+            "100 mbps - 1 gbps."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Research the typical data transmission speeds associated with 4G networks, as well as the capabilities of different 4G technologies and standards, such as LTE (Long-Term Evolution) or LTE-Advanced.",
+        "instruction 2": "Consider the factors that can affect data transmission speeds in 4G networks, such as network congestion, signal strength, and device capabilities, to provide a comprehensive answer."
+    },
+    {
+        "question": "Which of the followings is/are active element?",
+        "answer": 2,
+        "choices": [
+            "Voltage source",
+            "Current source",
+            "Both",
+            "None of these."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the elements in the list that are capable of undergoing chemical reactions or exhibiting chemical properties, such as reacting with other substances or undergoing phase changes.",
+        "instruction 2": "Consider the characteristics and properties of each element, such as their atomic structure, reactivity, and chemical bonding, to determine which elements are active and which are not."
+    },
+    {
+        "question": "Electrical analogous quantity for spring element (K) in force-voltage analogy is",
+        "answer": 2,
+        "choices": [
+            "L",
+            "R",
+            "1/C",
+            "C"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the force-voltage analogy and its application to electrical circuits, focusing on the spring element (K) and its corresponding electrical equivalent.",
+        "instruction 2": "Consider the relationship between force and displacement in the spring element and the corresponding relationship between voltage and current in the electrical circuit, ensuring to identify the correct analogy and its implications for the calculation of K."
+    },
+    {
+        "question": "A quartz crystal oscillator consists of",
+        "answer": 2,
+        "choices": [
+            "only series resonant frequency.",
+            "only parallel resonant frequency.",
+            "both series and parallel frequencies.",
+            "neither series nor parallel frequency."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental components of a quartz crystal oscillator, including the quartz crystal, electrodes, and electronic circuitry, and explain their roles in the oscillation process.",
+        "instruction 2": "Explain how the quartz crystal's unique properties, such as its high frequency stability and temperature coefficient, contribute to the oscillator's accuracy and reliability."
+    },
+    {
+        "question": "Which of the following oscillators are used for low frequency (LF) applications",
+        "answer": 1,
+        "choices": [
+            "LC oscillators",
+            "RC oscillators",
+            "Both LC and RC Oscillators",
+            "None"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the types of oscillators commonly used in low-frequency applications, such as quartz crystal oscillators or LC oscillators, and their characteristics that make them suitable for these applications.",
+        "instruction 2": "Consider the specific requirements for low-frequency applications, such as stability, accuracy, and power consumption, and evaluate how each type of oscillator meets these demands."
+    },
+    {
+        "question": "The solid angle subtended by an area of 2400 cm^2 on the surface of a sphere of diameter 1.2 m is",
+        "answer": 2,
+        "choices": [
+            "3 / 2.",
+            "1 / 3.",
+            "2 / 3.",
+            "2 / 5."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Determine the area of the sphere, using the formula A = 4πr^2, where r is the radius of the sphere.",
+        "instruction 2": "Use the ratio of the given area to the total area of the sphere to find the solid angle, applying the formula Ω = (A / A_total) * 4π."
+    },
+    {
+        "question": "Relative error is same as",
+        "answer": 0,
+        "choices": [
+            "ratio of absolute error and true value.",
+            "absolute error.",
+            "true error.",
+            "none of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the concept of relative error and its relationship to the actual value and the measured value of a quantity, focusing on the percentage difference between the two.",
+        "instruction 2": "Consider how relative error differs from absolute error, highlighting the importance of considering the magnitude of the actual value when calculating relative error, rather than just the difference between the actual and measured values."
+    },
+    {
+        "question": "If holding current of a thyristor is 2 mA then latching current should be",
+        "answer": 3,
+        "choices": [
+            "0.01 A.",
+            "0.002 A.",
+            "0.009 A.",
+            "0.004 A."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Understand the fundamental concept of thyristor operation, specifically the role of holding current and latching current in controlling the device's switching behavior.",
+        "instruction 2": "Determine the relationship between the holding current (2 mA) and the latching current, considering the specific design and characteristics of the thyristor, and provide a logical conclusion based on this information."
+    },
+    {
+        "question": "In an intel 8085A, which is the first machine cycle of an instruction?",
+        "answer": 0,
+        "choices": [
+            "An op-code fetch cycle",
+            "A memory read cycle",
+            "A memory write cycle",
+            "An I/O read cycle"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the Intel 8085A microprocessor's instruction cycle, which consists of multiple machine cycles, and determine the first machine cycle in this sequence.",
+        "instruction 2": "Consider the specific timing and operations involved in the first machine cycle, such as fetching the opcode and decoding the instruction, and explain how this sets the stage for the remaining machine cycles in the instruction execution process."
+    },
+    {
+        "question": "Which of the following are the disadvantages of a closed loop control system?",
+        "answer": 3,
+        "choices": [
+            "Reduces the overall gain.",
+            "Complex and costly.",
+            "Oscillatory response.",
+            "All of the above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary drawbacks of a closed-loop control system, such as the potential for instability, increased complexity, or the need for precise feedback and control mechanisms.",
+        "instruction 2": "Consider the trade-offs between the benefits of a closed-loop system, such as improved accuracy and adaptability, and the potential drawbacks, evaluating the situations in which a closed-loop system may be more or less suitable."
+    },
+    {
+        "question": "Poles and zeros are arranged alternatively on negative real axis, then type of network is/are",
+        "answer": 3,
+        "choices": [
+            "LC network.",
+            "RC network.",
+            "RL network.",
+            "Both 2 and 3."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific arrangement of poles and zeros on the negative real axis, noting that they are arranged alternately.",
+        "instruction 2": "Consider the implications of this arrangement on the network's behavior, such as the impact on stability, frequency response, or filtering capabilities, and determine the type of network based on this information."
+    },
+    {
+        "question": "The magnetisation and applied field in ferromagnetic materials are related",
+        "answer": 1,
+        "choices": [
+            "sinusoidally.",
+            "non linearly.",
+            "linearly.",
+            "parabolically."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental principles governing the relationship between magnetization and applied field in ferromagnetic materials, such as the alignment of magnetic dipoles and the resulting magnetic moments.",
+        "instruction 2": "Consider the effects of temperature, magnetic field strength, and other external factors on the magnetization and applied field, as well as any relevant mathematical formulations or equations that describe this relationship."
+    },
+    {
+        "question": "Thin laminations are used in a machine in order to reduce",
+        "answer": 0,
+        "choices": [
+            "Eddy current losses",
+            "Hysteresis losses",
+            "Both A and B",
+            "Copper losses"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific mechanism or process that uses thin laminations in the machine, and analyze how this design element contributes to the overall functionality and performance of the machine.",
+        "instruction 2": "Consider the potential benefits of using thin laminations, such as reduced weight, increased strength, or improved thermal conductivity, and evaluate how these advantages might impact the machine's efficiency, durability, or overall design."
+    },
+    {
+        "question": "A metal surface with 1 meter radius and surface charge density of 20 coulombs / m2 is enclosed in a 10 m side cube. The total outward electric displacement normal to the surface of the cube is",
+        "answer": 1,
+        "choices": [
+            "40π coulombs.",
+            "80π coulombs.",
+            "10π coulombs.",
+            "none of these."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Calculate the total electric charge on the metal surface, given the surface charge density and radius of the surface.",
+        "instruction 2": "Determine the electric displacement field outside the metal surface, considering the presence of the cube and the boundary conditions at the cube's surface, and then calculate the total outward electric displacement normal to the surface of the cube."
+    },
+    {
+        "question": "In binary number system the first digit (bit) from right to left is called as",
+        "answer": 0,
+        "choices": [
+            "LSB, Least Significant Bit",
+            "MSB, Most Significant Bit",
+            "First Bit",
+            "Last Bit"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the binary number system and its structure, focusing on the position of the digits and their corresponding values.",
+        "instruction 2": "Consider the concept of 'bit' in the context of binary numbers, recognizing that the rightmost digit is typically referred to as the 'least significant bit' (LSB), and that the first digit from the right is the LSB."
+    },
+    {
+        "question": "In two wattmeter method of power measurement if the total power is measured by one wattmeter only then power factor of the system is",
+        "answer": 1,
+        "choices": [
+            "0.",
+            "0.5.",
+            "1.",
+            "none of above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key components of the two-wattmeter method, including the concept of power factor, and the role of each wattmeter in measuring power.",
+        "instruction 2": "Consider the conditions under which one wattmeter would be sufficient to measure the total power, and how this relates to the power factor of the system, taking into account the principles of power measurement and the properties of alternating current."
+    },
+    {
+        "question": "A 0 - 100 V voltmeter has a guaranteed accuracy of 2 % of full scale reading. The voltage measured by the voltmeter is 75 V. The limiting error is in percentage",
+        "answer": 1,
+        "choices": [
+            "3.33 %.",
+            "2.66 %.",
+            "2 %.",
+            "1 %."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the full scale reading of the voltmeter, which is 100 V.",
+        "instruction 2": "Calculate the limiting error by multiplying the full scale reading by the guaranteed accuracy percentage, then subtracting the measured voltage from this result to find the maximum possible error in the measurement."
+    },
+    {
+        "question": "Which of the following methods is/are used for reactive or voltage compensation",
+        "answer": 3,
+        "choices": [
+            "shunt capacitor",
+            "series capacitor",
+            "generation excitation control",
+            "all of the above"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the methods used for reactive or voltage compensation, such as the use of capacitors, reactors, or other devices to mitigate power quality issues.",
+        "instruction 2": "Consider the specific applications and advantages of each method, evaluating their effectiveness in addressing reactive power, voltage fluctuations, or other power quality concerns."
+    },
+    {
+        "question": "The ROM programmed during manufacturing process itself is called",
+        "answer": 0,
+        "choices": [
+            "MROM",
+            "PROM",
+            "EPROM",
+            "EEPROM"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the type of programming that occurs during the manufacturing process, focusing on the type of ROM (Read-Only Memory) that is being referred to.",
+        "instruction 2": "Consider how the programming process differs from other types of memory, such as RAM (Random Access Memory), and how the ROM's purpose is to store permanent data or instructions that do not change during operation."
+    },
+    {
+        "question": "In 8085 name/names of the 16 bit registers is/are",
+        "answer": 2,
+        "choices": [
+            "stack pointer.",
+            "program counter.",
+            "both A and B.",
+            "none of these."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific 16-bit registers in the 8085 microprocessor architecture, which are typically designated by a combination of letters and numbers, such as HL, BC, and DE.",
+        "instruction 2": "Consider the purpose and functionality of each register, such as data storage, program counter, and stack pointer, to better understand their role in the 8085's operation."
+    },
+    {
+        "question": "Stability of a transmission line can be increased by",
+        "answer": 3,
+        "choices": [
+            "shunt capacitor",
+            "series capacitor",
+            "shunt reactor",
+            "both A and B"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the primary factors affecting the stability of a transmission line, such as voltage, current, and power flow, as well as any external influences that may impact stability, like weather or maintenance.",
+        "instruction 2": "Consider the various methods or techniques used to improve transmission line stability, including measures to mitigate the effects of external factors, such as surge arresters, circuit breakers, and power flow control."
+    },
+    {
+        "question": "Snubber circuit is used with SCR",
+        "answer": 1,
+        "choices": [
+            "in series.",
+            "in parallel.",
+            "either series or parallel.",
+            "anti parallel."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the purpose of a snubber circuit in an SCR (Silicon-Controlled Rectifier) application, which is to reduce or eliminate the high-voltage spikes that occur during switching transitions.",
+        "instruction 2": "Consider the specific design and configuration of the snubber circuit, including the choice of components and their values, to determine how it interacts with the SCR and affects its operation."
+    },
+    {
+        "question": "The number of rings in the Bohr model of any element is determined by what?",
+        "answer": 2,
+        "choices": [
+            "Column number on periodic table.",
+            "Atomic mass.",
+            "Row number on periodic table.",
+            "Atomic number."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key component of the Bohr model that determines the number of rings or energy levels, focusing on the electron configuration and the principles of atomic physics.",
+        "instruction 2": "Consider how the number of electrons in an atom and the energy levels required to hold those electrons in place influence the number of rings or energy levels in the Bohr model, highlighting the relationship between electron configuration and energy levels."
+    },
+    {
+        "question": "Silicon and Germanium are ________ elements.",
+        "answer": 3,
+        "choices": [
+            "trivalant",
+            "pentavalant",
+            "hexavalant",
+            "tetravalant"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key properties or characteristics that define semiconductors, such as their ability to conduct electricity under certain conditions, and their intermediate position between conductors and insulators.",
+        "instruction 2": "Consider the electronic structure and chemical properties of Silicon and Germanium, evaluating how their atomic and molecular arrangements enable them to exhibit semiconducting behavior."
+    },
+    {
+        "question": "The number of output pins in 8085 microprocessors are",
+        "answer": 0,
+        "choices": [
+            "27.",
+            "40.",
+            "21.",
+            "19."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific type of microprocessor being referred to, in this case the 8085, and research its architecture to determine the number of output pins.",
+        "instruction 2": "Consult relevant documentation, such as datasheets or technical specifications, to verify the number of output pins for the 8085 microprocessor and provide accurate information."
+    },
+    {
+        "question": "If P is the power of a star connected system then what will be power of an equivalent delta connected system?",
+        "answer": 0,
+        "choices": [
+            "P",
+            "3P",
+            "P/3",
+            "None of the above"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Recognize the fundamental differences between star and delta connections, specifically the way in which the loads are connected and the resulting voltage and current distributions within the system.",
+        "instruction 2": "Apply the concept of equivalent circuits to determine the equivalent impedance of the delta-connected system, using the given power (P) and the equivalent circuit equations to find the power of the delta-connected system."
+    },
+    {
+        "question": "Which oscillators are easy to fabricate in a monolithic IC?",
+        "answer": 3,
+        "choices": [
+            "Crystal oscillator.",
+            "Hartley oscillator.",
+            "Wien bridge oscillator.",
+            "Relaxation oscillator."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the key characteristics of oscillators that make them suitable for monolithic IC fabrication, such as their simplicity, low power consumption, and ability to operate within a specific frequency range.",
+        "instruction 2": "Consider the types of oscillators that can be easily integrated onto a single chip, taking into account factors such as component count, layout complexity, and thermal management requirements."
+    },
+    {
+        "question": "If all the elements in a particular network are linear, then the superposition theorem would hold, when the excitation is",
+        "answer": 2,
+        "choices": [
+            "DC only",
+            "AC only",
+            "Either AC or DC",
+            "An Impulse"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Define the concept of superposition theorem in the context of linear networks, highlighting the conditions under which it applies.",
+        "instruction 2": "Determine the specific excitation condition that, when combined with the linearity of all elements in the network, would enable the application of the superposition theorem, ensuring that the theorem's assumptions are met."
+    },
+    {
+        "question": "The feedback factor of a Wien bridge oscillator using Op-Amp is",
+        "answer": 2,
+        "choices": [
+            "1/3",
+            "1/4",
+            "1/2",
+            "1"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the components involved in a Wien bridge oscillator, including the operational amplifier (Op-Amp), resistors, and capacitors, and understand their roles in the circuit.",
+        "instruction 2": "Analyze the circuit's behavior and derive the feedback factor, considering the relationships between the resistors, capacitors, and Op-Amp gain, as well as any relevant assumptions or simplifications."
+    },
+    {
+        "question": "The length of bus cycle in 8086/8088 is four clock cycles, T1, T2, T3, T4 and an indeterminate number of wait state clock cycles denoted by Tw. The wait states are always inserted between",
+        "answer": 2,
+        "choices": [
+            "T1 & T2",
+            "T2 & T3",
+            "T3 & T4",
+            "T4 & T1"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the specific components of the 8086/8088 bus cycle, including the clock cycles T1-T4 and the wait state clock cycles Tw, and determine the sequence in which they occur.",
+        "instruction 2": "Consider the purpose of the wait states and how they are inserted between specific clock cycles, examining the timing and synchronization requirements for the bus operation to ensure proper communication between the CPU and memory or I/O devices."
+    },
+    {
+        "question": "Which of the following is not a sinusoidal oscillator?",
+        "answer": 2,
+        "choices": [
+            "LC oscillator",
+            "RC phase shift oscillator",
+            "Relaxation oscillator",
+            "Crystal oscillator"
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the characteristics of sinusoidal oscillations, such as periodic motion, continuous waveform, and oscillations that repeat at a fixed frequency.",
+        "instruction 2": "Examine the provided options and determine which one does not exhibit these sinusoidal oscillator properties, considering factors such as waveform shape, frequency, and amplitude."
+    },
+    {
+        "question": "A wire carrying current is bent in the form of a circular loop. Then the magnetic field around each portion of the wire will be",
+        "answer": 0,
+        "choices": [
+            "parallel to the plane of the wire.",
+            "perpendicular to the circumference of the wire.",
+            "parallel to half portion and perpendicular for the other half.",
+            "none of above."
+        ],
+        "subject": "electrical_engineering",
+        "instruction 1": "Identify the fundamental principles governing the behavior of magnetic fields in the presence of current-carrying wires, specifically the relationship between the direction of the current, the direction of the magnetic field, and the right-hand rule.",
+        "instruction 2": "Apply these principles to the circular loop configuration, determining the direction of the magnetic field around each portion of the wire and how it varies as the loop is traversed."
+    }
+]

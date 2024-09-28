@@ -1,0 +1,1302 @@
+[
+    {
+        "instruction 1": "Clarify the definition and biological significance of Robertsonian translocation, understanding how it involves the fusion of acrocentric chromosomes and the specific chromosome regions affected during this process.",
+        "instruction 2": "Identify the specific chromosomes involved in Robertsonian translocation and describe the typical sites of fusion, particularly focusing on the centromere regions where the two chromosome arms join, which impacts genetic material distribution.",
+        "question": "In a Robertsonian translocation fusion occurs at the:",
+        "choices": [
+            "telomeres.",
+            "centromeres.",
+            "histones.",
+            "ends of the long arms."
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the structural and functional characteristics of zinc finger proteins and helix-turn-helix proteins, focusing on their roles in DNA binding and transcription regulation, to compare and contrast their functions within cellular mechanisms.",
+        "instruction 2": "Consider the biological significance of both types of proteins in the context of gene expression regulation, exploring how their distinct structures contribute to their specific interactions with DNA or other proteins.",
+        "question": "Zinc finger proteins and helix-turn-helix proteins are",
+        "choices": [
+            "types of DNA-binding proteins",
+            "involved in the control of translation",
+            "components of ribosomes",
+            "part of the hemoglobin in blood cells"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the relationship between the frequency of affected males and the implications for the frequency of affected females based on the inheritance pattern of X-linked recessive conditions, recognizing that females have two X chromosomes and may be carriers.",
+        "instruction 2": "Utilize the Hardy-Weinberg principle to calculate the expected frequency of affected females, considering both the frequency of affected males and the allele frequencies in the population to derive the proportion of females who are homozygous for the recessive allele.",
+        "question": "If the frequency of males affected with an X-linked recessive condition in a human population is .10 (one in ten), what will be the expected frequency of affected females?",
+        "choices": [
+            "0.01",
+            "0.001",
+            "0.02",
+            "0.0001"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the complementary base pairing rules in DNA, specifically focusing on the relationship between adenine and its natural pairing partner in the double helix structure.",
+        "instruction 2": "Take into account the context of DNA structure, including the role of hydrogen bonds in base pairing and any relevant biological significance of the adenine-thymine pairing.",
+        "question": "In DNA adenine normally pairs with:",
+        "choices": [
+            "cytosine.",
+            "guanine.",
+            "thymine.",
+            "uracil."
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the inheritance pattern associated with malignant hyperthermia, focusing on whether it is autosomal dominant, autosomal recessive, or linked to sex chromosomes, and research relevant genetic studies to support this assessment.",
+        "instruction 2": "Explore the implications of the identified inheritance pattern on family planning and genetic counseling for individuals affected by malignant hyperthermia, considering how it may affect offspring and the potential need for genetic testing.",
+        "question": "The pattern of inheritance shown by malignant hyperthermia (hyperpyrexia) is:",
+        "choices": [
+            "autosomal dominant.",
+            "autosomal recessive.",
+            "X-linked dominant.",
+            "X-linked recessive."
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the fundamental structure and organization of human chromosomes, including the chromosomal count (46 chromosomes) and classification into autosomes and sex chromosomes, to provide a clear understanding of how they are mapped.",
+        "instruction 2": "Discuss the methodologies used for chromosome mapping, including genetic mapping techniques and cytogenetic analysis, to explain how researchers determine the location of genes and the relationships between different chromosomes.",
+        "question": "Mapping of human chromosomes:",
+        "choices": [
+            "has been restricted to the sex chromosomes because of small family sizes",
+            "proceeded much more successfully as large numbers of DNA markers became available.",
+            "has determined that the number of linkage groups is about twice the number of chromosomes",
+            "has demonstrated that almost all of the DNA is involved in coding for genes"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the concept of intergenerational transmission, exploring how environmental factors, behaviors, or conditions experienced by parents can be passed on to their offspring, impacting health and development.",
+        "instruction 2": "Identify specific types of parental exposures, such as epigenetic changes, toxic substances, or lifestyle choices, that could influence the offspring and relate them to the broader context of genetic and environmental interactions.",
+        "question": "Intergenerational transmission to offspring can occur as a result of parental exposures to ______.",
+        "choices": [
+            "war",
+            "natural disasters",
+            "hunger",
+            "all of these"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific meaning of the notation 'Asp235Phe' in the context of molecular biology, focusing on how it refers to a mutation where the amino acid aspartic acid (Asp) at position 235 has been replaced by phenylalanine (Phe).",
+        "instruction 2": "Consider the implications of this mutation on protein function, structure, or stability, including how such changes might affect biological processes or be associated with specific diseases or phenotypes.",
+        "question": "Asp235Phe in a molecular report indicates that:",
+        "choices": [
+            "asparagine has been replaced by phenylalanine.",
+            "phenylalanine has been replaced by asparagine.",
+            "aspartic acid has been replaced by phenylalanine.",
+            "phenylalanine has been replaced by aspartic acid."
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the implications of untreated phenylketonuria (PKU) on maternal health and fetal development, particularly focusing on how elevated levels of phenylalanine can lead to developmental issues and abnormalities in the child.",
+        "instruction 2": "Research statistical data or medical studies that quantify the risk of abnormalities in children born to mothers with untreated PKU, ensuring to interpret this data in the context of both maternal dietary management and potential outcomes for the child.",
+        "question": "The risk of abnormality in the child of a mother with untreated phenylketonuria is:",
+        "choices": [
+            "1%",
+            "10%",
+            "25%",
+            "Almost 100%"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define exon skipping as a molecular biology process and describe its mechanism, focusing on how it involves the exclusion of specific exons during the splicing of pre-mRNA, which affects the resulting protein isoforms.",
+        "instruction 2": "Explore the implications of exon skipping in terms of gene expression, potential functional effects on proteins, and its relevance in diseases or therapeutic approaches, particularly in the context of genetic disorders and cancer.",
+        "question": "Exon skipping is associated with:",
+        "choices": [
+            "nonsense mutations.",
+            "regulatory mutations.",
+            "RNA processing mutations.",
+            "silent mutations."
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Review the list of conditions or syndromes provided in the options to identify which ones are known to be chromosome instability syndromes based on established medical literature or genetic research.",
+        "instruction 2": "Understand the defining characteristics of chromosome instability syndromes, such as their links to defects in DNA repair mechanisms or chromosomal segregation, to accurately discern which option does not fit this classification.",
+        "question": "Which of the following is not a chromosome instability syndrome?",
+        "choices": [
+            "Klinefelter syndrome",
+            "Ataxia telangiectasia",
+            "Fanconi anaemia",
+            "Bloom syndrome"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the structural composition of normal adult hemoglobin (Hb A) by detailing its subunit structure, which consists of two alpha and two beta chains, and any associated heme groups.",
+        "instruction 2": "Consider the role of hemoglobin in oxygen transport within the body, including the physiological importance of its structure in binding and releasing oxygen efficiently.",
+        "question": "Normal adult haemoglobin (Hb A) consists of:",
+        "choices": [
+            "two α (alpha) and two β (beta) chains.",
+            "two α and two γ (gamma) chains.",
+            "two α and two δ (delta) chains.",
+            "four γ chains."
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the genetic and environmental factors that influence the recurrence risk of schizophrenia, focusing on how these factors vary among first-degree relatives (such as parents and siblings) compared to second-degree relatives (such as aunts or grandparents).",
+        "instruction 2": "Evaluate the statistical prevalence of schizophrenia in relatives of affected individuals, taking into account existing research and epidemiological studies that quantify recurrence risks for different family relationships.",
+        "question": "In a condition such as schizophrenia the recurrence risk will be greatest for which of the following relatives of an affected individual?",
+        "choices": [
+            "Brother",
+            "Nephew",
+            "Grandchild",
+            "Aunt"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and describe the specific genetic mutation that causes sickle-cell disease, focusing on the alteration in the hemoglobin gene (HBB) and its effect on the structure of hemoglobin.",
+        "instruction 2": "Discuss how this mutation leads to the clinical manifestations of sickle-cell disease, including the impact on red blood cell shape and function, and the resulting health complications.",
+        "question": "The mutation in sickle-cell disease consists of:",
+        "choices": [
+            "a deletion.",
+            "a duplication.",
+            "an insertion.",
+            "a point mutation."
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Understand the definition of monosomy, which involves the presence of only one copy of a particular chromosome instead of the usual two, and identify specific conditions or chromosomal abnormalities that exemplify this concept.",
+        "instruction 2": "Analyze the provided options by determining whether each example given reflects the characteristic of monosomy, ensuring clarity on how they relate to chromosomal pairs and counting.",
+        "question": "Which of the following is an example of monosomy?",
+        "choices": [
+            "46,XX",
+            "47,XXX",
+            "69,XYY",
+            "45,X"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the purpose of quantitative trait locus (QTL) analysis by identifying its role in linking genetic variations to specific traits, particularly in the context of traits influenced by multiple genes.",
+        "instruction 2": "Explore the methodologies used in QTL analysis, including statistical approaches and experimental designs, to determine how they facilitate the identification of genetic markers associated with quantitative traits in different organisms.",
+        "question": "QTL analysis is used to",
+        "choices": [
+            "identify chromosome regions associated with a complex trait in a genetic cross",
+            "determine which genes are expressed at a developmental stage",
+            "map genes in bacterial viruses",
+            "identify RNA polymerase binding sites"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the possible genotypes of offspring from the mating between two AaBbCc individuals by constructing a Punnett square for each of the three gene pairs (A, B, and C), which will help identify the combinations that lead to the AABBCC genotype.",
+        "instruction 2": "Calculate the frequency of the AABBCC genotype by analyzing the probabilities derived from the Punnett squares, considering that each gene pair segregates independently, and then combine these probabilities to obtain the overall frequency of AABBCC individuals.",
+        "question": "What would be the frequency of AABBCC individuals from a mating of two AaBbCc individuals?",
+        "choices": [
+            "1.0/64",
+            "1.0/32",
+            "1.0/128",
+            "1.0/256"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the current scientific consensus on the number of human protein-coding genes, ensuring to reference reliable sources such as genomic research findings or databases that provide the most up-to-date estimations.",
+        "instruction 2": "Discuss the factors that may contribute to the potential reduction of this estimate over time, including advancements in genomic research, re-evaluations of gene definitions, and the discovery of non-coding regions that may have been previously classified as genes.",
+        "question": "It is currently estimated that there are ______ human protein-coding genes although this estimate may be reduced over time.",
+        "choices": [
+            "10,000–15,000",
+            "19,000–20,000",
+            "29,000–30,000",
+            "100,000"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the different types of relatives and their genetic relationships, focusing on how HLA haplotypes are inherited. Determine which type of relative (e.g., parent, sibling, grandparent, cousin) typically shares the most genetic similarity with an individual.",
+        "instruction 2": "Analyze the biological mechanisms of inheritance related to HLA haplotypes, considering factors such as the likelihood of sharing alleles and patterns of inheritance that might indicate which relatives would have a higher probability of sharing a common HLA haplotype.",
+        "question": "With which of the following relatives is an individual most likely to share a common HLA haplotype?",
+        "choices": [
+            "Father",
+            "Mother",
+            "Sister",
+            "Son"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific genes that have been associated with polygenic Alzheimer disease susceptibility, such as APOE, and review the relevant scientific literature to understand their role in the disease mechanism.",
+        "instruction 2": "Examine how the concept of polygenic inheritance applies to Alzheimer disease, including the interaction of multiple genes and environmental factors that contribute to an individual's overall risk of developing the disease.",
+        "question": "Which of the following genes conveys susceptibility for polygenic Alzheimer disease?",
+        "choices": [
+            "APP",
+            "PS1",
+            "PS2",
+            "APOE"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific chromosome associated with DiGeorge/Shprintzen syndrome by researching genetic studies or medical literature, focusing on chromosome deletions linked to this syndrome.",
+        "instruction 2": "Consider the implications of the chromosome deletion on genetic function and how it contributes to the symptoms and characteristics of DiGeorge/Shprintzen syndrome, ensuring to reference credible genetic databases or health organization resources.",
+        "question": "The DiGeorge/Shprintzen syndrome is caused by a deletion in which chromosome?",
+        "choices": [
+            "4",
+            "7",
+            "15",
+            "22"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define X-chromosome inactivation, ensuring to explain its biological significance, particularly in female mammals where one of the two X chromosomes is randomly inactivated to prevent dosage imbalance of X-linked genes.",
+        "instruction 2": "Discuss the mechanisms involved in X-chromosome inactivation, including the roles of non-coding RNAs and epigenetic modifications, and illustrate how these processes can impact gene expression and contribute to dosage compensation.",
+        "question": "X-chromosome inactivation",
+        "choices": [
+            "results in genetically turning off one of the two X chromosomes in female mammals",
+            "takes place in humans so that the same X chromosome is inactive in all of the cells of a female",
+            "is the cause of the Y chromosome being genetically inactive",
+            "occurs in fruit flies but not in mammals"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the mode of inheritance for glucose-6-phosphate dehydrogenase (G6PD) deficiency, focusing on whether it follows an X-linked recessive pattern, as this is a key characteristic in its transmission across generations.",
+        "instruction 2": "Examine the implications of the inheritance pattern on affected individuals, including how males and females may express the trait differently due to their chromosomal configurations, and consider any population-specific prevalence data.",
+        "question": "The pattern of inheritance shown by glucose-6-phosphate dehydrogenase (G6PD) deficiency is:",
+        "choices": [
+            "autosomal dominant.",
+            "autosomal recessive.",
+            "X-linked dominant.",
+            "X-linked recessive."
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the concept of homeobox sequences by outlining their biological significance, particularly in the context of gene regulation and developmental biology, and explaining their role in the formation of body plans in organisms.",
+        "instruction 2": "Investigate the structural characteristics of homeobox sequences, focusing on their conserved regions and how they code for homeodomain proteins, which are crucial for the regulatory networks controlling embryonic development.",
+        "question": "Homeobox sequences",
+        "choices": [
+            "are present in the genome of many animal species",
+            "are found in prokaryotes but not in eukaryotes",
+            "were identified as the integration sites for bacterial viruses",
+            "represent integration sites for transposable elements"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the chromosomal characteristics associated with Down syndrome, specifically focusing on the presence of an extra chromosome 21, which results in a total of 47 chromosomes instead of the typical 46 in a human karyotype.",
+        "instruction 2": "Review each provided karyotype option to determine which one displays the numerical and structural changes indicative of Down syndrome, ensuring to confirm that the selected karyotype has the correct features consistent with the diagnosis.",
+        "question": "Which of the following karyotypes is diagnostic of Down syndrome",
+        "choices": [
+            "46,XX,der(14;21)(q10;q10)pat+21",
+            "47,XY,+13",
+            "45,XX,rob,(14;21)(q10;q10)",
+            "46,XY,t(2;3)(q21;q12)"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the terms 'nature' and 'nurture' to determine how each contributes to the differences being discussed, identifying specific examples of traits or characteristics that are predominantly influenced by genetic factors versus environmental factors.",
+        "instruction 2": "Consider the context in which these differences are applied, ensuring to differentiate between innate biological variations attributed to nature and learned behaviors or acquired traits that stem from nurture.",
+        "question": "Nature is more important for ______ differences, while nurture has greater influence on ______ differences.",
+        "choices": [
+            "structural and anatomical; psychological and social",
+            "psychological and social; structural and anatomical",
+            "structural and psychological; anatomical and social",
+            "social and anatomical; psychological and structural"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the genetic and environmental factors associated with Angelman syndrome, focusing on the specific chromosomal abnormalities or mutations that lead to its manifestation.",
+        "instruction 2": "Differentiate between the causes of Angelman syndrome and similar genetic disorders, ensuring to highlight the distinct mechanisms that specifically result in the features associated with Angelman syndrome, such as developmental delay and seizures.",
+        "question": "Which of the following would result in Angelman syndrome?",
+        "choices": [
+            "Maternal UPD 15",
+            "Paternal UPD 15",
+            "Deletion in the paternally derived chromosome 15",
+            "A mutation in the SNRPN promoter"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific diseases or syndromes associated with a deficiency of alpha-iduronidase, such as Mucopolysaccharidosis type I (MPS I) or Hurler syndrome, by consulting reliable medical literature or databases.",
+        "instruction 2": "Examine the mechanism of action and therapeutic implications of recombinant alpha-iduronidase in the context of the identified diseases, ensuring to include details about how it addresses the underlying enzyme deficiency.",
+        "question": "Recombinant alpha-iduronidase is used for the treatment of which disease/syndrome?",
+        "choices": [
+            "Fabry disease",
+            "Gaucher disease",
+            "Hurler syndrome",
+            "Pompe disease"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the specific terminology or phrases used in the scientific community to describe the findings related to the epigenetic influences of prenatal maternal stress, focusing on well-known studies and their contributions to the field.",
+        "instruction 2": "Examine the implications of Szyf's research on public understanding and awareness of maternal health and prenatal care, considering how this may frame the label applied to his work within broader discussions in genetics and psychology.",
+        "question": "Research from Moshe Szyf and colleagues has provided significant findings on the epigenetic influences of prenatal maternal stress. This work has been labelled ______.",
+        "choices": [
+            "developmental epigenetics",
+            "social epigenetics",
+            "fetal epigenetics",
+            "maternal epigenetics"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Understand the basic principles of autosomal recessive inheritance, where both parents must carry at least one recessive allele for the disorder, and determine the likelihood of their children inheriting the disorder based on Mendelian genetics.",
+        "instruction 2": "Calculate the probability of the condition in their children using a Punnett square or similar method, considering the genetic combinations resulting from both parents being homozygous recessive for the disorder.",
+        "question": "If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.",
+        "choices": [
+            "1 in 4",
+            "1 in 2",
+            "2 in 3",
+            "1"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific genetic mutations or mechanisms associated with δβ-thalassaemia, focusing on the relevant genes (such as HBB) and the nature of the mutations (like deletions or point mutations), which contribute to the abnormal hemoglobin synthesis.",
+        "instruction 2": "Examine the biological effects of these mutations on hemoglobin production and function, considering how they lead to the clinical manifestations of δβ-thalassaemia, including their impact on oxygen transport and overall health of affected individuals.",
+        "question": "The mutational mechanism in δβ-thalassaemia consists of:",
+        "choices": [
+            "a deletion.",
+            "a duplication.",
+            "an insertion.",
+            "a point mutation."
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Calculate the frequency of heterozygotes using the Hardy-Weinberg principle formula, which states that the genotype frequency of heterozygotes can be calculated using the equation 2pq, where p and q are the frequencies of the two alleles.",
+        "instruction 2": "Substitute the given allele frequencies (p = 0.6 and q = 0.4) into the formula (2pq) to arrive at the heterozygote frequency, ensuring to properly perform the arithmetic to confirm the accuracy of the result.",
+        "question": "Assuming Hardy-Weinberg equilibrium, the genoypte frequency of heterozygotes, if the frequency of the two alleles at the gene being studied are 0.6 and 0.4, will be:",
+        "choices": [
+            "0.8",
+            "0.64",
+            "0.48",
+            "0.32"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific gene associated with familial hypercholesterolaemia and understand its role in cholesterol metabolism, including the biological functions of the protein it encodes.",
+        "instruction 2": "Explore how mutations in this gene contribute to the pathology of familial hypercholesterolaemia, including the mechanisms by which these mutations affect cholesterol levels in the bloodstream and the implications for patient health.",
+        "question": "Familial hypercholesterolaemia is caused by mutations in the gene which encodes what?",
+        "choices": [
+            "High density lipoprotein",
+            "HMG-CoA reductase",
+            "Low density lipoprotein",
+            "Low density lipoprotein receptor"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the genetic phenomenon responsible for the light blue phenotype in the F1 generation, considering concepts such as incomplete dominance or codominance that could explain the blending of colors from the true breeding parents.",
+        "instruction 2": "Analyze the observed 1:2:1 segregation ratio of phenotypes in the F2 generation when selfing the F1 progeny, linking it to Mendelian inheritance patterns, particularly the expectation for a monohybrid cross involving incomplete dominance.",
+        "question": "A cross between two true breeding lines one with dark blue flowers and one with bright white flowers produces F1 offspring that are light blue. When the F1 progeny are selfed a 1:2:1 ratio of dark blue to light blue to white flowers is observed. What genetic phenomenon is consistent with these results?",
+        "choices": [
+            "epistasis",
+            "incomplete dominance",
+            "codominance",
+            "inbreeding depression"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify credible medical or statistical sources that provide data on the prevalence of congenital abnormalities at birth, focusing on the percentage or proportion that is considered normal versus abnormal.",
+        "instruction 2": "Consider various types of abnormalities, their definitions, and the context in which they are measured to ensure an accurate representation of the proportion of affected babies.",
+        "question": "The proportion of babies that have an abnormality identifiable at birth is _____.",
+        "choices": [
+            "1 in 10",
+            "1 in 40",
+            "1 in 100",
+            "1 in 500"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the scientific theory or principle that provides a framework for explaining genetic disorders, ensuring to connect it with the concepts of inheritance patterns, genetic mutations, and their effects on phenotype.",
+        "instruction 2": "Evaluate the specific genetic mechanisms that underlie disorders like alkaptonuria and albinism, such as enzyme deficiencies or mutations in specific genes, to illustrate how these examples exemplify broader genetic principles.",
+        "question": "______ explained genetic disorders such as alkaptonuria and albinism.",
+        "choices": [
+            "Recessive inheritance has",
+            "Dominant genes have",
+            "X chromosomes",
+            "Y chromosomes"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the concept of anticipation in the context of paternal transmission, exploring genetic or hereditary patterns that could lead to symptoms appearing earlier or with increased severity in successive generations.",
+        "instruction 2": "Analyze the provided conditions for any indicators of genetic influence, assessing whether there are differences in how symptoms manifest between parental and offspring generations, and determining which condition best exemplifies this phenomenon.",
+        "question": "Which of the following conditions shows anticipation in paternal transmission?",
+        "choices": [
+            "Huntington disease",
+            "Marfan syndrome",
+            "Cystic fibrosis",
+            "Fragile X syndrome"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define what a homeotic mutation is by explaining its role in developmental biology and how it affects the identity of body parts in organisms, typically by altering the expression of homeotic genes.",
+        "instruction 2": "Consider examples of homeotic mutations in various organisms, highlighting how these mutations lead to morphological changes and contribute to our understanding of genetic regulatory mechanisms in development.",
+        "question": "A homeotic mutation is one which",
+        "choices": [
+            "is present in only one form in an individual",
+            "substitutes one body part for another in development",
+            "results in development of a tumor",
+            "is wild type at one temperature and abnormal at another"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the list of options provided to identify common characteristics of familial cancer syndromes, such as genetic mutations and inherited predispositions, and determine which option does not fit these criteria.",
+        "instruction 2": "Consider the broader context of cancer syndromes, including both hereditary factors and environmental influences, to ensure a comprehensive understanding of what constitutes a familial cancer syndrome compared to non-familial ones.",
+        "question": "Which of the following is not a familial cancer syndrome",
+        "choices": [
+            "Familial adenomatous polyposis",
+            "Li-Fraumeni syndrome",
+            "Von Hippel-Lindau syndrome",
+            "Waardenburg syndrome"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the context of the epigenetic inheritance system as described by Mayr and Provine in 1980, focusing on its characteristics and implications for genetic inheritance beyond traditional Mendelian genetics.",
+        "instruction 2": "Analyze how the epigenetic inheritance system may differ from classical genetic theories, considering aspects such as environmental influences on gene expression and the broader impact on evolutionary biology.",
+        "question": "The epigenetic inheritance system has been described as ______ (Mayr and Provine, 1980).",
+        "choices": [
+            "genotype inheritance",
+            "soft inheritance",
+            "RNA inheritance",
+            "hard inheritance"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify common medical conditions or disorders that are characterized by severe anaemia at birth, such as hemolytic disease of the newborn or certain genetic disorders, by researching relevant medical literature.",
+        "instruction 2": "Consider the underlying causes or risk factors associated with severe anaemia in newborns, including maternal health issues, nutritional deficiencies, or genetic predispositions that may contribute to this condition.",
+        "question": "Severe anaemia at birth is a feature of what?",
+        "choices": [
+            "Alpha-thalassaemia",
+            "Beta-thalassaemia",
+            "Hereditary persistence of fetal haemoglobin",
+            "Sickle cell disease"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the frequency of the recessive allele (q) in the population based on the incidence of the disorder in males. Since males have one X chromosome, the frequency of affected males directly represents q, which is 1/100 (0.01).",
+        "instruction 2": "Apply the Hardy-Weinberg principle to calculate the expected incidence of affected homozygous females, which can be determined using the formula for homozygous recessive individuals (q^2) and substituting the previously found value of q (0.01) into the equation.",
+        "question": "If an X-linked recessive disorder is in Hardy-Weinberg equilibrium and the incidence in males equals 1 in 100, then the expected incidence of affected homozygous females would be _______.",
+        "choices": [
+            "1 in 1000",
+            "1 in 4000",
+            "1 in 10 000",
+            "1 in 40 000"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific enzyme deficiency responsible for Tay-Sachs disease, which is vital for understanding the biochemical mechanism behind the condition.",
+        "instruction 2": "Explore the implications of this deficiency on the body's metabolism, particularly how it affects the accumulation of GM2 gangliosides, and consider any associated symptoms or related genetic factors.",
+        "question": "Tay-Sachs disease is caused by deficiency of _________________?",
+        "choices": [
+            "Alpha-L-iduronidase",
+            "Glucose-6-phosphatase",
+            "Hexosaminidase A",
+            "Homogentisic acid oxidase"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define what a nonsense mutation is, focusing on its genetic implications, specifically how it alters a codon in a gene sequence to create a premature stop codon, leading to truncated proteins.",
+        "instruction 2": "Discuss the potential biological consequences of a nonsense mutation, including effects on protein function, cellular processes, and possible associations with genetic disorders or diseases.",
+        "question": "A nonsense mutation involves:",
+        "choices": [
+            "a regulatory sequence.",
+            "an AG splice acceptor site.",
+            "the creation of a different amino acid.",
+            "the creation of a stop codon."
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the polymerase chain reaction (PCR) by outlining its purpose and significance in molecular biology, focusing on how it amplifies DNA for various applications such as genetic analysis, diagnostics, and research.",
+        "instruction 2": "Explain the fundamental steps involved in the PCR process, including denaturation, annealing, and extension, while also highlighting the importance of temperature cycling and enzyme activity in achieving DNA amplification.",
+        "question": "The polymerase chain reaction or PCR is a technique that",
+        "choices": [
+            "was used to demonstrate DNA as the genetic material",
+            "is used to determine the content of minerals in a soil sample",
+            "uses short DNA primers and a thermostable DNA polymerase to replicate specific DNA sequences in vitro.",
+            "measures the ribosome transfer rate during translation"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the clinical conditions or stages of pregnancy that are associated with lower maternal serum levels of alpha-fetoprotein (AFP), such as Down syndrome or other chromosomal abnormalities, and ensure to consider the timing of the measurement in relation to gestational age.",
+        "instruction 2": "Evaluate the significance of AFP levels in prenatal screening, discussing how lower than average AFP levels may lead to further diagnostic testing or indicate potential risks for the fetus, and reference relevant medical literature or guidelines.",
+        "question": "The maternal serum level of alpha-fetoprotein (AFP) is lower than average in which situation?",
+        "choices": [
+            "Down syndrome",
+            "Exomphalos",
+            "Neural tube defects",
+            "Twin pregnancies"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific phenomenon being described, focusing on the relationship between genotype and environmental influence, and clarify its significance in developmental biology or evolutionary theory.",
+        "instruction 2": "Examine the context of the citation (West-Eberhard, 1989) to understand how the concept has evolved in academic discourse, and assess the implications of this phenomenon on our understanding of phenotypic plasticity.",
+        "question": "______ has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to different environmental conditions during development (West-Eberhard, 1989).",
+        "choices": [
+            "Fetal plasticity",
+            "The fetal origins hypothesis",
+            "Developmental plasticity",
+            "Environmental plasticity"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific characteristics of Arabidopsis thaliana that make it suitable for genetic research, such as its small genome size, rapid life cycle, and ease of transformation and growth in laboratory conditions.",
+        "instruction 2": "Consider how the findings from genetic studies on Arabidopsis can be applied to broader agricultural practices and plant biology, including the implications for understanding gene function and plant responses to environmental stresses.",
+        "question": "Arabidopsis is advantageous for plant genetic research because:",
+        "choices": [
+            "it is commercially important as a food crop",
+            "it is an endangered species",
+            "it is the closest to humans of any existing plant",
+            "it is a small plant with a small genome size which can be raised inexpensively"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the average genetic relatedness between first cousins, which is quantified by calculating the probability of sharing alleles inherited from common ancestors.",
+        "instruction 2": "Refer to the standard genetic studies or biological principles that outline the expected proportion of genetic similarity among relatives to confirm the specific fraction of shared genes for first cousins.",
+        "question": "The proportion of genes shared by first cousins is on average ___.",
+        "choices": [
+            "1.0/2",
+            "1.0/4",
+            "1.0/8",
+            "1.0/16"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and understand the characteristics and functions of tumour suppressor genes, including how they typically operate to prevent uncontrolled cell growth and their role in the regulation of the cell cycle.",
+        "instruction 2": "Evaluate the list of genes provided, applying knowledge of well-documented tumour suppressor genes versus those that are known to be oncogenes or have different functions, in order to accurately determine which option does not belong to the category of tumour suppressor genes.",
+        "question": "Which of the following is not a tumour suppressor gene?",
+        "choices": [
+            "APC",
+            "NF1",
+            "RB1",
+            "RET"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key features of X-linked dominant inheritance, such as the patterns of inheritance seen in affected individuals and the traits of affected offspring in relation to their parents, focusing on how it differs from X-linked recessive and autosomal inheritance patterns.",
+        "instruction 2": "Consider the implications of X-linked dominant inheritance for males and females, including the likelihood of affected parents passing the trait to their children, and how sex-linked traits manifest differently based on the genetic makeup of the offspring.",
+        "question": "Which of the following is a feature of X-linked dominant inheritance?",
+        "choices": [
+            "Parental consanguinity",
+            "Male to male transmission",
+            "Transmission only by females",
+            "Transmitted by males only to females"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the average number of fragments created by the restriction enzyme by determining how many times the 4 base recognition sequence can fit into the 5,000 base pair genome of the bacteriophage. This involves dividing the genome size by the length of the recognition sequence and considering potential overlaps.",
+        "instruction 2": "Account for the possibility of multiple recognition sites existing within the genome. For this, consider the frequency of occurrence of the 4 base sequence within a double-stranded DNA structure to estimate how many unique cuts the enzyme may make, which ultimately influences the number of fragments produced.",
+        "question": "On average, how many fragments would a restriction enzyme which recognizes a specific 4 base sequence in DNA be expected to cleave a double-stranded bacteriophage with a genome size of 5,000 bp into?",
+        "choices": [
+            "about 2",
+            "about 4",
+            "about 20",
+            "about 50"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the term 'positional cloning' within the context of genetics, emphasizing its significance in locating and isolating genes based on their position on a chromosome, rather than relying solely on their phenotypic expression.",
+        "instruction 2": "Include a discussion of the methodologies involved in positional cloning, such as linkage analysis and the use of genetic markers, to illustrate how researchers can identify genes associated with specific traits or diseases.",
+        "question": "Positional cloning refers to",
+        "choices": [
+            "using a selection procedure to clone a cDNA",
+            "cloning a portion of a gene using PCR",
+            "isolating a gene by PCR using primers from another species",
+            "mapping a gene to a chromosomal region and then identifying and cloning a genomic copy of the gene from the region"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the basic structure and function of plasmid vectors in molecular cloning, including their role in transferring genetic material into host cells and the features that make them suitable for cloning applications, such as origin of replication and selectable markers.",
+        "instruction 2": "Explore the different types of plasmid vectors available for cloning, such as expression vectors and shuttle vectors, and evaluate how their design optimizes the cloning process for various applications in genetic engineering.",
+        "question": "Plasmid vectors for cloning",
+        "choices": [
+            "can generally accommodate larger inserts than phage vectors can",
+            "grow within bacteria, and are present in bacterial colonies on an agar plate",
+            "can accommodate inserts of over 100 kilobases",
+            "include centromeres to allow propagation in yeast"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define what transcriptional activator proteins are, focusing on their role in gene expression regulation, and clarify their function in increasing the transcription of specific genes by binding to nearby DNA.",
+        "instruction 2": "Explore examples of transcriptional activator proteins, discussing their mechanisms of action, interaction with other cellular components, and their significance in biological processes such as development and response to environmental signals.",
+        "question": "Transcriptional activator proteins",
+        "choices": [
+            "bind regions near a eukaryotic gene and allow an RNA polymerase to transcribe a gene",
+            "bind to ribosomes to activate the production of specific proteins",
+            "are produced during an infection of bacteria by a phage",
+            "are essential to function of transfer RNAs during translation"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the role of the repressor protein in the regulation of the lac operon, particularly how its binding or lack thereof to lactose influences the transcription of genes involved in lactose metabolism, especially under conditions of low glucose levels.",
+        "instruction 2": "Evaluate the implications of the mutation preventing repressor binding to lactose on the lac operon activity, considering the impact on gene expression and E. coli's ability to utilize lactose in response to low glucose availability.",
+        "question": "Assuming that the level of glucose is low, a mutation in the repressor associated with the lac operon of E. coli which prevents binding of the repressor to lactose should result in: ",
+        "choices": [
+            "constitutive expression of the lac operon genes",
+            "lack of expression or reduced expression of the lac operon genes under all circumstances",
+            "expression of the genes only when lactose is present",
+            "expression of the genes only when lactose is absent"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific stage of meiosis during which recombination occurs, focusing on the process of homologous chromosome pairing and crossing over, which takes place in prophase I.",
+        "instruction 2": "Consider the importance of recombination in generating genetic diversity, explaining how it contributes to variation in gametes and the overall evolutionary process.",
+        "question": "In meiosis, recombination occurs in:",
+        "choices": [
+            "Metaphase I.",
+            "Prophase I.",
+            "Metaphase II.",
+            "Prophase II."
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific gene associated with Leber's hereditary optic atrophy (LHON) and its function, focusing on the genetic mutation that leads to the condition, including any common mutations noted in scientific literature.",
+        "instruction 2": "Examine the pathway through which the identified mutation affects mitochondrial function, and consider any associated symptoms or clinical implications related to the condition for a comprehensive understanding.",
+        "question": "Leber's hereditary optic atrophy is caused by a mutation in:",
+        "choices": [
+            "chromosome 12.",
+            "chromosome 18.",
+            "chromosome 21.",
+            "mitochondrial DNA."
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Review the definitions and functions of exons in genetics, ensuring a clear understanding of their role in coding for proteins and how they differ from introns.",
+        "instruction 2": "Evaluate the provided statements thoroughly for accuracy, cross-referencing genetic principles and research findings to determine which statement correctly describes exons and their biological significance.",
+        "question": "Regarding exons, which, if any, of the following statements is correct?",
+        "choices": [
+            "Some exons in protein-coding genes consist of noncoding DNA.",
+            "The first exon of a protein-coding gene always contains the translational start site.",
+            "The last exon of a protein-coding gene always contains the normal termination codon.",
+            "A coding exon is always translated in just one of the three possible forward reading frames."
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the typical number of chromosomes found in human cells, differentiating between somatic cells (which contain a diploid set) and gametes (which contain a haploid set), to provide a complete answer to the question.",
+        "instruction 2": "Consider any variations in chromosome number that may occur in certain conditions, such as aneuploidy or chromosomal disorders, to acknowledge any exceptions to the general rule.",
+        "question": "In humans, each cell normally contains ______ of chromosomes.",
+        "choices": [
+            "11 pairs",
+            "23 pairs",
+            "32 pairs",
+            "46 pairs"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the inbreeding coefficient, F, and explain its significance in genetics, particularly in terms of genetic diversity and the effects of inbreeding on a population's health and viability.",
+        "instruction 2": "Analyze the potential consequences of an increase in the inbreeding coefficient, considering aspects such as increased homozygosity, the likelihood of inbreeding depression, and its effects on overall fitness and adaptability of the population.",
+        "question": "An increase in the inbreeding coefficient, F, is likely to result in:",
+        "choices": [
+            "reduced likelihood of heterozygotes being present in a population",
+            "higher proportion of genes that show linkage",
+            "higher proportion of genes with introns",
+            "higher level of difference between RNA molecules in two daughter cells"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Review the common findings on prenatal ultrasound examinations and categorize them based on whether they are typically associated with chromosome abnormalities or not, ensuring to focus on distinguishing normal markers from abnormal ones.",
+        "instruction 2": "Analyze each option provided in the context of established medical guidelines or literature regarding prenatal screenings, confirming which findings are generally considered benign or normal and do not indicate a risk for chromosome abnormalities.",
+        "question": "Which of the following findings on prenatal ultrasound examination would not raise suspicion of a chromosome abnormality?",
+        "choices": [
+            "Duodenal atresia",
+            "Holoprosencephaly",
+            "Hydrops fetalis",
+            "Monozygotic twins"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the probability of an individual possessing both alleles by applying the principle of independent probabilities, which involves multiplying the frequencies of the two alleles (0.2) together.",
+        "instruction 2": "Ensure to confirm whether the alleles are considered to be in a diploid state, meaning an individual could carry two copies of each allele, as this could affect the calculation depending on whether they are homozygous or heterozygous.",
+        "question": "The likelihood of an individual in a population carrying two specific alleles of a human DNA marker, each of which has a frequency of 0.2, will be:",
+        "choices": [
+            "0.4",
+            "0.32",
+            "0.08",
+            "0.02"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the genetic features and characteristics of the Hfr strain of E. coli, including its ability to facilitate conjugation and its role in genetic mapping, recognizing how these qualities differentiate it from other strains.",
+        "instruction 2": "Consider the significance of the Hfr strain in genetic studies, such as its impact on horizontal gene transfer and experimental applications in microbiology, ensuring to reference the mechanisms that enable chromosome transfer during conjugation.",
+        "question": "An Hfr strain of E. coli contains:",
+        "choices": [
+            "a vector of yeast or bacterial origin which is used to make many copies of a particular DNA sequence",
+            "a bacterial chromosome with a human gene inserted",
+            "a bacterial chromosome with the F factor inserted",
+            "a human chromosome with a transposable element inserted"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the patterns of inheritance that are characterized by male to male transmission, focusing on types such as Y-linked inheritance where traits can only be passed from father to son.",
+        "instruction 2": "Differentiate this inheritance pattern from others, such as autosomal or X-linked inheritance, and clarify the implications of male to male transmission in relation to genetic diseases and traits.",
+        "question": "Male to male transmission is a key feature of which pattern of inheritance?",
+        "choices": [
+            "Autosomal dominant",
+            "Autosomal recessive",
+            "X-linked dominant",
+            "X-linked recessive"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key applications of simple tandem repeat polymorphisms (STRPs) in humans, focusing on areas such as genetic diversity, population genetics, forensic analysis, and paternity testing.",
+        "instruction 2": "Evaluate how STRPs contribute to genetic studies by providing information on inheritance patterns, genetic linkage, and their role as markers in gene mapping and disease association studies.",
+        "question": "Simple tandem repeat polymorphisms in humans are most useful for",
+        "choices": [
+            "solving criminal and paternity cases",
+            "reconstructing the relationships of humans and chimps.",
+            "estimating relationships of humans and Neanderthals",
+            "transferring disease resistance factors into bone marrow cells"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the criteria that determine the suitability of disorders for population carrier screening, such as the prevalence of the disorder in the population, the availability of effective interventions, and the existence of reliable screening tests.",
+        "instruction 2": "Evaluate each disorder listed in the options against these criteria to determine which one does not align with the requirements for population carrier screening, considering aspects like genetic inheritance patterns and the condition's impact on public health.",
+        "question": "Which of the following disorders is not suitable for population carrier screening?",
+        "choices": [
+            "Cystic fibrosis",
+            "Oculocutaneous albinism",
+            "Sickle cell disease",
+            "Tay-Sachs disease"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the characteristics of X-linked inheritance, understanding that these disorders are typically linked to mutations on the X chromosome and exhibit specific patterns of inheritance in males and females.",
+        "instruction 2": "Analyze the disorders presented in the options given, determining whether each one is classified as X-linked or follows a different pattern of inheritance, such as autosomal dominant or recessive.",
+        "question": "Which of the following disorders does not show X-linked inheritance?",
+        "choices": [
+            "Duchenne muscular dystrophy",
+            "Tay-Sachs disease",
+            "Haemophilia A",
+            "Haemophilia B"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific types of chromosome abnormalities that are known to be prevalent in first trimester miscarriages, focusing on numerical and structural abnormalities such as aneuploidies (e.g., trisomy or monosomy) that frequently result in miscarriage.",
+        "instruction 2": "Examine existing research and statistics that document the frequency of these chromosome abnormalities in first trimester losses, ensuring to provide evidence from scientific studies or genetic analyses that support the identification of the most common abnormality.",
+        "question": "The most common chromosome abnormality in first trimester spontaneous miscarriages is:",
+        "choices": [
+            "trisomy.",
+            "monosomy.",
+            "triploidy.",
+            "tetrasomy."
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the karyotypes provided in the options, focusing on known chromosomal abnormalities that are associated with incompatibility with survival to birth, such as aneuploidies (e.g., Turner syndrome, Klinefelter syndrome) or other significant chromosomal disorders.",
+        "instruction 2": "Consider the expected viability of various karyotypes during gestation, referencing genetic and medical literature that outlines the impact of specific chromosomal compositions on fetal development and potential outcomes at birth.",
+        "question": "Which of the following karyotypes is not compatible with survival to birth?",
+        "choices": [
+            "47,XY,+13",
+            "47,XX,+18",
+            "47,XY,+21",
+            "45,Y"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific mutations or genes that are commonly associated with male breast cancer, such as BRCA2, and differentiate them from those associated with female breast cancer.",
+        "instruction 2": "Research the prevalence of these mutations in male breast cancer patients and consider the implications for genetic testing and personalized treatment strategies.",
+        "question": "Male breast cancer is associated with mutations in ___.",
+        "choices": [
+            "BRCA1",
+            "BRCA2",
+            "NF1",
+            "RET"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the substances or medical conditions that are known to be affected by pseudocholinesterase deficiency, specifically focusing on related anesthetics and their effects on patients with this deficiency.",
+        "instruction 2": "Research the clinical implications of pseudocholinesterase deficiency in anesthesia, including any increased risks or reactions that may occur during surgical procedures utilizing neuromuscular blocking agents.",
+        "question": "Pseudocholinesterase deficiency is associated with increased sensitivity to what?",
+        "choices": [
+            "Fava beans",
+            "Halothane",
+            "Primaquine",
+            "Succinylcholine"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific mutation commonly associated with cystic fibrosis, focusing on the most prevalent variant within the CFTR gene, such as F508del, and examine its effects on protein function and disease manifestation.",
+        "instruction 2": "Explore how this mutation affects the physiology of the individual, including the mechanisms by which it leads to the symptoms of cystic fibrosis, while considering the genetic implications and potential for therapeutic interventions.",
+        "question": "The most common cystic fibrosis mutation consists of:",
+        "choices": [
+            "a deletion.",
+            "a duplication.",
+            "a substitution.",
+            "an insertion."
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the normal diploid chromosome number for humans, which reflects the complete set of chromosomes present in somatic cells, as opposed to the haploid number found in gametes.",
+        "instruction 2": "Consider the implications of this diploid number in terms of genetic inheritance, including how it ensures genetic variation through processes such as meiosis and fertilization.",
+        "question": "The normal human chromosome diploid number is:",
+        "choices": [
+            "23",
+            "24",
+            "46",
+            "48"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific benefits of using adenoviruses in gene therapy, such as their ability to efficiently deliver genetic material into cells, their relatively large capacity for gene insertion, and their potential to target a wide range of cell types.",
+        "instruction 2": "Evaluate the safety and efficacy profiles of adenoviruses compared to other viral vectors, considering factors like the risk of immune response, durability of gene expression, and the feasibility of repeated administration in therapeutic contexts.",
+        "question": "Advantages of using adenoviruses for gene therapy include:",
+        "choices": [
+            "long term expression.",
+            "low risk of insertional mutagenesis.",
+            "low immunogenecity.",
+            "easy assembly."
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Review established medical literature and clinical guidelines regarding Hirschsprung disease to identify common characteristics, symptoms, and treatment protocols associated with the condition, ensuring understanding of its pathophysiology.",
+        "instruction 2": "Analyze each statement provided in the question context, comparing them against authoritative sources to discern which statement deviates from the established facts about Hirschsprung disease.",
+        "question": "Which of the following statements about Hirschsprung disease is incorrect?",
+        "choices": [
+            "It shows an association with Down syndrome.",
+            "It is more common in girls than in boys.",
+            "RET is a major susceptibility gene.",
+            "Recurrence risks are greater for long segment disease than for short segment disease."
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify specific genetic disorders that are known to be caused by trinucleotide repeat expansions, focusing on examples like Huntington's disease, Fragile X syndrome, and myotonic dystrophy, and detailing the mechanisms by which these expansions affect gene function.",
+        "instruction 2": "Evaluate the criteria that distinguish trinucleotide repeat disorders from other genetic conditions, such as the nature of inheritance, the role of the repeat expansions in protein synthesis, and the effects on the nervous system or other systems in the body.",
+        "question": "Which of the following conditions is caused by a trinucleotide (triplet) repeat expansion?",
+        "choices": [
+            "Cystic fibrosis",
+            "Duchenne muscular dystrophy",
+            "Huntington disease",
+            "Osteogenesis imperfecta"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the various conditions and factors that lead to female pseudohermaphroditism, such as genetic mutations or hormonal imbalances, ensuring to differentiate these from other forms of intersex conditions or variations that do not fit the criteria for pseudohermaphroditism.",
+        "instruction 2": "Analyze the provided options carefully, identifying and evaluating the specific causes or syndromes linked to female pseudohermaphroditism, ensuring that you consider both biological and environmental influences that may contribute to the condition.",
+        "question": "Which of the following causes female pseudohermaphroditism?",
+        "choices": [
+            "Androgen insensitivity",
+            "Campomelic dysplasia",
+            "Congenital adrenal hyperplasia",
+            "Klinefelter syndrome"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific component of transcribed RNA that is removed during the post-transcriptional modification process in eukaryotes, commonly known as splicing, and clarify its role in the initial RNA transcript.",
+        "instruction 2": "Examine the overall process of RNA maturation in eukaryotes, focusing on the distinctions between the initial RNA transcript and the mature mRNA that is translated, to fully understand the implications of this removal on gene expression.",
+        "question": "Which component of transcribed RNA in eukaryotes is present in the initial transcript but is removed before translation occurs?",
+        "choices": [
+            "Intron",
+            "3’ Poly A tail",
+            "Ribosome binding site",
+            "5’ cap"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Review the recognized complications of cystic fibrosis, including common manifestations such as respiratory issues, pancreatic insufficiency, and other systemic effects, in order to identify the options given in the question.",
+        "instruction 2": "Analyze each option provided in the question to determine whether it is a recognized complication of cystic fibrosis, using reputable medical literature or guidelines as references to confirm or deny its status as a complication.",
+        "question": "Which of the following is not a recognized complication of cystic fibrosis?",
+        "choices": [
+            "Cancer of the oesophagus",
+            "Congenital absence of the vas deferens",
+            "Diabetes mellitus",
+            "Liver cirrhosis"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and list the diagnostic techniques commonly used for detecting neural tube defects, and distinguish between those that are effective and those that are not based on medical literature and guidelines.",
+        "instruction 2": "Evaluate each listed diagnostic technique against established medical criteria for neural tube defects, ensuring to reference clinical studies or expert consensus that clarify which techniques are deemed ineffective.",
+        "question": "Which of the following diagnostic techniques is of no value for the diagnosis of neural tube defects?",
+        "choices": [
+            "Amniocentesis",
+            "Chorion villus sampling (CVS)",
+            "Maternal serum screening",
+            "Ultrasonography"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific peroxisomal disorders from a provided list, focusing on their defining characteristics and how they relate to peroxisome function in cellular metabolism.",
+        "instruction 2": "Cross-reference the selected disorders with established medical literature or databases to confirm their classification as peroxisomal disorders, ensuring to evaluate the criteria used for classification.",
+        "question": "Which of the following conditions is a peroxisomal disorder?",
+        "choices": [
+            "Acute intermittent porphyria",
+            "Maple syrup urine disease",
+            "Medium chain acyl-CoA dehydrogenase deficiency",
+            "Zellweger syndrome"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the biological context of microsatellite instability (MSI), focusing on its association with genetic factors, particularly in the realm of cancer and hereditary syndromes, to determine the specific conditions where marked MSI is prevalent.",
+        "instruction 2": "Research and analyze which types of cancers, such as certain colorectal or endometrial tumors, are most commonly linked to marked microsatellite instability, ensuring to provide examples and relevant medical guidelines or findings.",
+        "question": "Marked microsatellite instability is a feature of:",
+        "choices": [
+            "familial adenomatous polyposis.",
+            "hereditary non-polyposis colon cancer (HNPCC).",
+            "multiple endocrine adenomatosis type 2.",
+            "neurofibromatosis 1."
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the genetic basis of α-thalassaemia by examining the specific mutations or deletions in the HBA1 and HBA2 genes on chromosome 16 that lead to the disorder.",
+        "instruction 2": "Consider the clinical implications and variations of the common mutation in α-thalassaemia, including how it affects the severity of the disease and its inheritance patterns among populations.",
+        "question": "The common mutation in α-thalassaemia consists of:",
+        "choices": [
+            "a deletion.",
+            "a duplication.",
+            "an insertion.",
+            "a point mutation."
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the relevant medical terminology and definitions related to pulmonary hypoplasia, oligohydramnios, and renal agenesis, ensuring a clear understanding of how these conditions are interrelated and impact the classification.",
+        "instruction 2": "Determine the appropriate classification for the condition based on established medical guidelines or classifications, considering whether it falls under specific categories of congenital anomalies or syndromic classifications.",
+        "question": "A baby born with pulmonary hypoplasia secondary to oligohydramnios caused by renal agenesis would be classified as having:",
+        "choices": [
+            "an association.",
+            "a dysplasia.",
+            "a sequence.",
+            "a syndrome."
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the term that accurately defines the set of observable characteristics resulting from both genetic and environmental influences, ensuring it aligns with concepts from genetics and biology.",
+        "instruction 2": "Consider how variations in this term can manifest in different organisms and the implications for studies in genetics, inheritance, and environmental impacts on phenotype.",
+        "question": "The ______ is the set of observable characteristics and is the sum of genetic and environmental effects.",
+        "choices": [
+            "genotype",
+            "phenotype",
+            "both genotype and phenotype",
+            "neither genotype or phenotype"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the available trisomy karyotypes listed in the question, focusing on their associated developmental effects and clinical presentations to determine which is known to have the mildest impact on human development.",
+        "instruction 2": "Consider the prevalence and outcomes of each trisomy, reviewing scientific literature or clinical research data that discusses the degrees of developmental delays, physical anomalies, or life expectancy associated with each specific karyotype.",
+        "question": "Which of the following trisomy karyotypes has the mildest effect on human development?",
+        "choices": [
+            "47,XXX",
+            "47,XXY",
+            "47,XX,+13",
+            "47,XY,+21"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the type of genetic mutations that lead to achondroplasia, focusing on whether they are point mutations, insertions, deletions, or another classification, and how these mutations affect the fibroblast growth factor receptor gene (FGFR3).",
+        "instruction 2": "Evaluate the phenotypic consequences of these mutations, specifically how they impact skeletal development and result in the characteristic features of achondroplasia, thereby clarifying the classification of the effect exerted by these mutations.",
+        "question": "Mutations that cause achondroplasia exert an effect which can be classified as:",
+        "choices": [
+            "dominant negative.",
+            "gain-of-function.",
+            "haploinsufficiency.",
+            "loss-of-function."
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept related to the genetic formation of an individual that involves the merging or coexistence of multiple cell lines from different zygotes, ensuring to include relevant biological terminology.",
+        "instruction 2": "Explore examples or scenarios in which this condition may occur, such as in cases of chimerism, and discuss its implications for genetics and individuality.",
+        "question": "The presence of two or more cell lines from different zygotes in a single individual is known as:",
+        "choices": [
+            "mosaicism.",
+            "diploidy.",
+            "aneuploidy.",
+            "chimaerism."
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research and identify the estimated risk percentage of miscarriage associated with amniocentesis from authoritative medical sources, focusing specifically on studies or data that provide clear statistics regarding this procedure.",
+        "instruction 2": "Consider the factors that may influence the risk of miscarriage, such as the gestational age at which amniocentesis is performed, the experience of the healthcare provider, and individual patient circumstances, ensuring that this context is reflected in the answer.",
+        "question": "The risk for miscarriage associated with amniocentesis is approximately ____.",
+        "choices": [
+            "1 in 10",
+            "1 in 50",
+            "1 in 100 to 1 in 200",
+            "1 in 1000"
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific pattern of inheritance that autozygosity mapping primarily investigates, which typically pertains to recessive disorders that are more likely to occur when parents are closely related.",
+        "instruction 2": "Research and consider examples of genetic disorders that are commonly mapped using autozygosity mapping, highlighting how this method helps to reveal the genetic basis of these disorders through the study of haplotypes.",
+        "question": "Autozygosity mapping is used to map disorders that show which pattern of inheritance?",
+        "choices": [
+            "Autosomal dominant",
+            "Autosomal recessive",
+            "X-linked dominant",
+            "X-linked recessive"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the type of inheritance patterns that are influenced by consanguinity, such as autosomal recessive inheritance, and clarify how this association occurs due to the increased likelihood of inheriting identical alleles from common ancestors.",
+        "instruction 2": "Consider examples of genetic disorders that are more prevalent in consanguineous unions, discussing the implications of increased homozygosity on the expression of inherited traits and diseases.",
+        "question": "Consanguinity shows a strong association with which pattern of inheritance?",
+        "choices": [
+            "Autosomal dominant",
+            "Autosomal recessive",
+            "X-linked dominant",
+            "X-linked recessive"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the context of the statement by examining what is meant by 'most new mutations' in the field of genetics, focusing on the common types of mutations and their prevalence in various organisms.",
+        "instruction 2": "Identify the common scientific consensus or literature regarding the nature of these mutations, investigating whether they tend to be neutral, beneficial, or deleterious, and how this understanding impacts evolutionary biology.",
+        "question": "Most new mutations appear to be",
+        "choices": [
+            "beneficial",
+            "neutral or deleterious",
+            "present in homozygotes rather than heterozygotes",
+            "detectable using allozyme studies (protein electrophoresis)"
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the main purpose of twin studies, focusing on their ability to differentiate between genetic and environmental factors affecting human traits and behaviors.",
+        "instruction 2": "Examine how the results from twin studies can help in understanding heritability, including insights into the influence of genetics on various physical and psychological attributes compared to those influenced by the environment.",
+        "question": "Twin studies in humans are useful because",
+        "choices": [
+            "they allow genetic as opposed to environmental influences on variation in a trait to be estimated",
+            "cloning of genes is facilitated by the presence of extra copies",
+            "they allow improved expression of genes",
+            "twins have a greater likelihood of being heterozygous"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the scientific significance of the Philadelphia chromosome, noting its role as a genetic mutation associated with certain types of cancer, especially chronic myeloid leukemia (CML).",
+        "instruction 2": "Explore the implications of the Philadelphia chromosome in clinical settings, including diagnosis, treatment options, and how it affects patient prognosis, while considering any relevant research findings or clinical guidelines.",
+        "question": "Complete the following sentence. The Philadelphia chromosome:",
+        "choices": [
+            "is an example of gene amplification.",
+            "is a product of a reciprocal translocation.",
+            "causes Burkitt's lymphoma.",
+            "causes retinoblastoma."
+        ],
+        "subject": "medical_genetics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the specific types of enzymes involved in enzyme assays that may indicate the presence of carriers for certain genetic traits or diseases, focusing on the biological context of the assay.",
+        "instruction 2": "Examine the conditions under which these enzyme assays are performed, including the substrate specificity, the expected reactions, and any relevant genetic markers that can be identified through the assay.",
+        "question": "Enzyme assay can be used to identify carriers of:",
+        "choices": [
+            "Cystic fibrosis.",
+            "Fragile X syndrome.",
+            "Oculocutaneous albinism.",
+            "Tay-Sachs disease."
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the medical conditions or situations that can lead to elevated blood ammonia levels, focusing on the pathophysiological mechanisms involved, such as liver dysfunction, urea cycle disorders, or certain types of renal failure.",
+        "instruction 2": "Consider the clinical significance of high blood ammonia levels, including potential symptoms, diagnostic approaches, and treatment options, as well as how these levels relate to the underlying health issues.",
+        "question": "A high blood ammonia level occurs in:",
+        "choices": [
+            "galactosaemia.",
+            "Hurler's syndrome.",
+            "ornithine transcarbamylase (OTC) deficiency.",
+            "phenylketonuria."
+        ],
+        "subject": "medical_genetics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific proportion of variation in body mass index (BMI) explained by known SNPs as reported in the literature or relevant studies, focusing on the comparison to heritability estimates gained from twin and family studies.",
+        "instruction 2": "Analyze the implications of the gap between the variation in BMI explained by SNPs and the higher heritability estimates, considering factors such as environmental influences, gene-environment interactions, and the limitations of current genetic studies.",
+        "question": "In genome-wide association studies, known SNPs explain ______ of the variation in body mass index despite the evidence of greater than 50% heritability from twin and family studies.",
+        "choices": [
+            "only 5%",
+            "less than 1%",
+            "only 13%",
+            "less than 2%"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the biological significance of differential distribution of substances in an egg, particularly how it affects processes such as cell differentiation and developmental patterns in embryonic formation.",
+        "instruction 2": "Analyze the role of specific substances, such as yolk and cytoplasmic factors, in influencing the developmental outcomes based on their distribution within the egg, including how gradients of these substances can lead to asymmetric development.",
+        "question": "Differential distribution of substances in the egg most typically results in:",
+        "choices": [
+            "differences in gene expression which may establish a pattern in the embryo as the cells divide",
+            "amplification of specific genes during development",
+            "development of polyploid tissues",
+            "loss of specific genes during development"
+        ],
+        "subject": "medical_genetics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the conditions that are typically associated with mutations in the FGFR3 gene, focusing on common disorders such as achondroplasia and other forms of skeletal dysplasia to establish a comparison.",
+        "instruction 2": "Evaluate the list of provided conditions by determining whether they are linked to FGFR3 mutations or result from other genetic factors, ensuring that the condition identified as not caused by FGFR3 mutations is correctly justified with relevant genetic information.",
+        "question": "Which of the following conditions is not caused by a mutation in FGFR3?",
+        "choices": [
+            "Achondroplasia",
+            "Crouzon syndrome",
+            "Thanatophoric dysplasia",
+            "Waardenburg syndrome"
+        ],
+        "subject": "medical_genetics",
+        "answer": 3
+    }
+]

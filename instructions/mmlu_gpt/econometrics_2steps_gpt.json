@@ -1,0 +1,1480 @@
+[
+    {
+        "instruction 1": "Define a 99% confidence interval in the context of statistical inference, emphasizing its interpretation as the range within which we expect the true population parameter to lie with 99% certainty based on sample data.",
+        "instruction 2": "Clarify the role of sample size and variability in calculating a 99% confidence interval, noting how these factors influence the width of the interval and the reliability of the estimation.",
+        "question": "Which one of the following is the most appropriate definition of a 99% confidence interval?",
+        "choices": [
+            "99% of the time in repeated samples, the interval would contain the true value of the parameter",
+            "99% of the time in repeated samples, the interval would contain the estimated value of the parameter",
+            "99% of the time in repeated samples, the null hypothesis will be rejected",
+            "99% of the time in repeated samples, the null hypothesis will not be rejected when it was false"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the methodological approaches of both the Dickey Fuller and Phillips-Perron tests, specifically identifying how each test deals with issues related to autocorrelation and heteroskedasticity in the data.",
+        "instruction 2": "Evaluate the implications of the different statistical assumptions and methodologies inherent in both tests, such as how the Dickey Fuller test assumes a specific form of the error term while Phillips-Perron adjusts for serial correlation without specifying a parametric form.",
+        "question": "What is the main difference between the Dickey Fuller (DF) and Phillips-Perron (PP) approaches to unit root testing?",
+        "choices": [
+            "ADF is a single equation approach to unit root testing while PP is a systems approach",
+            "PP tests reverse the DF null and alternative hypotheses so that there is stationarity under the null hypothesis of the PP test",
+            "The PP test incorporates an automatic correction for autocorrelated residuals in the test regression",
+            "PP tests have good power in small samples whereas DF tests do not."
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the leverage effect in the context of financial markets or news impact models, establishing how it influences the magnitude and direction of price reactions to news, particularly for assets with high volatility.",
+        "instruction 2": "Analyze the characteristics of a news impact curve that incorporates the leverage effect, considering aspects such as asymmetry in market reactions and how negative news may lead to disproportionately larger declines in asset prices compared to the increases seen with positive news.",
+        "question": "If there were a leverage effect in practice, what would be the shape of the news impact curve for as model that accounted for that leverage?",
+        "choices": [
+            "It would rise more quickly for negative disturbances than for positive ones of the same magnitude",
+            "It would be symmetrical about zero",
+            "It would rise less quickly for negative disturbances than for positive ones of the same magnitude",
+            "It would be zero for all positive disturbances"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the characteristics of the linear probability model, such as the method used for estimating probabilities and the potential limitations, especially in relation to how it handles binary outcomes.",
+        "instruction 2": "Evaluate each of the provided statements by cross-referencing them with the fundamental principles of the linear probability model, specifically looking for inconsistencies or common misunderstandings regarding its application and interpretation.",
+        "question": "Which of the following statements is false concerning the linear probability model?",
+        "choices": [
+            "There is nothing in the model to ensure that the estimated probabilities lie between zero and one",
+            "Even if the probabilities are truncated at zero and one, there will probably be many observations for which the probability is either exactly zero or exactly one",
+            "The error terms will be heteroscedastic and not normally distributed",
+            "The model is much harder to estimate than a standard regression model with a continuous dependent variable"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and define key concepts related to regression, population, and sample to understand the context of the statements being evaluated, including the differences between population parameters and sample statistics.",
+        "instruction 2": "Analyze each of the provided statements in relation to the established definitions and principles of regression, ensuring to highlight any inaccuracies that relate to the foundational understanding of populations and samples in statistical analysis.",
+        "question": "Which of the following statements concerning the regression population and sample is FALSE?",
+        "choices": [
+            "The population is the total collection of all items of interest",
+            "The population can be infinite",
+            "In theory, the sample could be larger than the population",
+            "A random sample is one where each individual item from the population is equally likely to be drawn."
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Review the definitions and calculation methods of both the Box-Pierce Q and the Ljung-Box Q* statistics to thoroughly understand their statistical assumptions and how they apply to detecting linear dependence in time series data.",
+        "instruction 2": "Analyze the differences in the conditions under which each statistic is used, including sample size considerations and the impact of autocorrelation lag length, to accurately identify which statement about their comparison is incorrect.",
+        "question": "Which of the following statements is INCORRECT concerning a comparison of the Box-Pierce Q and the Ljung-Box Q* statistics for linear dependence in time series?",
+        "choices": [
+            "Asymptotically, the values of the two test statistics will be equal",
+            "The Q test has better small-sample properties than the Q*",
+            "The Q test is sometimes over-sized for small samples",
+            "As the sample size tends towards infinity, both tests will show a tendency to always reject the null hypothesis of zero autocorrelation coefficients."
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the term 'parsimonious model' within the context of modeling and scientific research, emphasizing its characteristic of simplicity and the principle of Occam's razor, which advocates for minimizing assumptions while adequately explaining data.",
+        "instruction 2": "Explore the implications of using a parsimonious model compared to more complex models, particularly in terms of predictive power, generalizability, and effectiveness in various applications, ensuring to consider examples from fields like statistics, ecology, or economics if relevant.",
+        "question": "A parsimonious model is one that",
+        "choices": [
+            "Includes too many variables",
+            "Includes as few variables as possible to explain the data",
+            "Is a well-specified model",
+            "Is a mis-specified model"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the core characteristics of continuously compounded returns (log-returns), such as their mathematical definition, properties, and how they differ from discrete returns. This involves recognizing features like time independence and the use of natural logarithms in their calculation.",
+        "instruction 2": "Evaluate the options provided in the question to determine which statement does not align with the fundamental principles or mathematical properties of log-returns, ensuring a clear understanding of both true features and common misconceptions.",
+        "question": "Which of the following is NOT a feature of continuously compounded returns (i.e. log-returns)?",
+        "choices": [
+            "They can be interpreted as continuously compounded changes in the prices",
+            "They can be added over time to give returns for longer time periods",
+            "They can be added across a portfolio of assets to give portfolio returns",
+            "They are usually fat-tailed"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Evaluate each feature of financial asset return time-series to determine if it can be modeled or captured by the GARCH(1,1) framework, focusing on the model's capabilities to analyze and estimate current volatility based on past data.",
+        "instruction 2": "Assess the theoretical foundations of the GARCH(1,1) model to understand its assumptions regarding volatility behavior, including its treatment of time-varying volatility and correlation with past returns, in relation to the specified features.",
+        "question": "Which of the following features of financial asset return time-series could be captured using a standard GARCH(1,1) model?\n\ni) Fat tails in the return distribution\n\n\nii) Leverage effects\n\n\niii) Volatility clustering\n\n\niv) Volatility affecting returns",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key characteristics of a GARCH-M model and understand how the volatility of the time-series data, specifically daily corporate bond percentage returns, influences the estimation of the GARCH-in-mean parameter.",
+        "instruction 2": "Analyze the relationship between the expected returns and volatility within the framework of the GARCH-M model, considering how market conditions and the behavior of corporate bonds may affect the anticipated value of the GARCH-in-mean parameter estimate.",
+        "question": "Consider the estimation of a GARCH-M model. If the data employed were a time-series of daily corporate bond percentage returns, which of the following would you expect the value of the GARCH-in-mean parameter estimate to be?",
+        "choices": [
+            "Less than -1",
+            "Between -1 and 0",
+            "Between 0 and 1",
+            "Bigger than 1"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Evaluate each situation listed in the question to determine how bootstrapping, which relies on resampling from actual data, can be advantageous for maintaining the distributional properties of that data, especially when the sample size is limited.",
+        "instruction 2": "Analyze why bootstrapping would be less preferable in scenarios where the distributional properties are known exactly or are unknown, focusing on the contrasting methodologies of bootstrapping and pure simulation in terms of their reliance on empirical data.",
+        "question": "Under which of the following situations would bootstrapping be preferred to pure simulation?\n\ni) If it is desired that the distributional properties of the data in the experiment\n\nare the same as those of some actual data\n\n\nii) If it is desired that the distributional properties of the data in the experiment\n\nare known exactly\n\n\niii) If the distributional properties of the actual data are unknown\n\n\niv) If the sample of actual data available is very small",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iv) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key assumptions of the Classical Linear Regression Model (CLRM) and evaluate how violating each assumption could lead to the listed consequences, focusing on issues such as unbiasedness, efficiency, and consistent estimation.",
+        "instruction 2": "Analyze each consequence provided to determine which CLRM assumptions are directly related to the problems, discussing implications such as the validity of hypothesis testing and the reliability of confidence intervals in the context of the violations.",
+        "question": "Which of the following may be consequences of one or more of the CLRM assumptions being violated?\n\ni) The coefficient estimates are not optimal\n\n\nii) The standard error estimates are not optimal\n\n\niii) The distributions assumed for the test statistics are inappropriate\n\n\niv) Conclusions regarding the strength of relationships between the dependent\n\nand independent variables may be invalid.",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the fundamental principles of forecasting within the context of econometrics, specifically focusing on how econometric models incorporate historical data to make predictions about future economic trends.",
+        "instruction 2": "Evaluate the true statements based on established methods in econometric forecasting, such as the importance of model selection, validation, and the role of external variables, to discern their accuracy in reflecting economic behavior.",
+        "question": "Which of the following statements is true concerning forecasting in econometrics?",
+        "choices": [
+            "Forecasts can only be made for time-series data",
+            "Mis-specified models are certain to produce inaccurate forecasts",
+            "Structural forecasts are simpler to produce than those from time series models",
+            "In-sample forecasting ability is a poor test of model adequacy"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the concept of the partial autocorrelation function (PACF) and identify its primary role in time series analysis, especially in distinguishing between various time series models such as ARIMA and others.",
+        "instruction 2": "Identify specific characteristics or patterns in time series data that can be analyzed using the PACF, such as the presence of seasonality, trends, or autoregressive behavior, to highlight how these factors influence model selection.",
+        "question": "The pacf is necessary for distinguishing between",
+        "choices": [
+            "An AR and an MA model",
+            "An AR and an ARMA model",
+            "An MA and an ARMA model",
+            "Different models from within the ARMA family"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Understand the concept of residual autocorrelation and its implications in time series analysis, focusing specifically on how negative values in residual autocorrelation can indicate certain conditions in the data being analyzed.",
+        "instruction 2": "Analyze the provided options in relation to the definition and characteristics of negative residual autocorrelation, ensuring to assess the context of the question and the statistical methods involved.",
+        "question": "Negative residual autocorrelation is indicated by which one of the following?",
+        "choices": [
+            "A cyclical pattern in the residuals",
+            "An alternating pattern in the residuals",
+            "A complete randomness in the residuals",
+            "Residuals that are all close to zero"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Assess each statement by analyzing the definitions and characteristics of ARCH(q) and GARCH(1,1) models, particularly focusing on their respective complexities, constraints, and how they handle lagged variables in the modeling of conditional variances.",
+        "instruction 2": "Evaluate the implications of each model regarding their ability to capture volatility clustering and persistence in time-series data, ensuring to reference theoretical underpinnings and established results in the econometrics of time-series analysis.",
+        "question": "Which of the following statements are true concerning a comparison between ARCH(q) and GARCH(1,1) models?\n\ni) The ARCH(q) model is likely to be the more parsimonious\n\n\nii) The ARCH(q) model is the more likely to violate non-negativity constraints\n\n\niii) The ARCH(q) model can allow for an infinite number of previous lags of squared\n\nreturns to affect the current conditional variance\n\n\niv) The GARCH(1,1) model will usually be sufficient to capture all of the dependence\n\nin the conditional variance",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze each statement's implications regarding the properties of triangular and recursive systems, particularly focusing on how OLS and 2SLS methodologies apply to the identification and estimation of parameters in such systems.",
+        "instruction 2": "Identify the conditions under which correlation between independent variables and error terms may lead to biased versus unbiased estimates, particularly contrasting OLS and 2SLS estimation outcomes in the context of recursive models.",
+        "question": "Which of the following statements are true concerning a triangular or recursive system?\n\ni) The parameters can be validly estimated using separate applications of OLS to\n\neach equation\n\n\nii) The independent variables may be correlated with the error terms in other\n\nequations\n\n\niii) An application of 2SLS would lead to unbiased but inefficient parameter estimates\n\n\niv) The independent variables may be correlated with the error terms in the equations\n\nin which they appear as independent variables",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the context of regression analysis by identifying the key components of a fitted regression line, such as the variables involved (independent and dependent), the coefficients, and the interpretation of the slope and intercept in relation to the dataset.",
+        "instruction 2": "Differentiate between various forms of regression (e.g., linear, polynomial) to ensure that the statement chosen accurately reflects the algebraic form and equation associated with the specified type of regression being discussed.",
+        "question": "Which one of the following statements best describes the algebraic representation of the fitted regression line?",
+        "choices": [
+            "\\hat{y}_t = \\hat{\\alpha} + \\hat{\\beta}x_t + \\hat{u}_t",
+            "\\hat{y}_t = \\hat{\\alpha} + \\hat{\\beta}x_t",
+            "\\hat{y}_t = \\hat{\\alpha} + \\hat{\\beta}x_t + u_t",
+            "y_t = \\hat{\\alpha} + \\hat{\\beta}x_t + \\hat{u}_t"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "question": "What are the dimensions of $\\hat{u}^t \\hat{u}?",
+        "subject": "econometrics",
+        "choices": [
+            "T x k",
+            "T x 1",
+            "k x 1",
+            "1 x 1"
+        ],
+        "answer": 3
+    },
+    {
+        "instruction 1": "Derive the characteristic equation for the given MA process by replacing the lag operator with a variable (usually denoted as 'L') and setting the expression to zero, which will provide the necessary roots related to the moving average process.",
+        "instruction 2": "Analyze the roots obtained from the characteristic equation to determine their implications on the stability and behavior of the MA process, ensuring to identify whether the roots are real or complex and and how they affect the process's representation.",
+        "question": "The characteristic roots of the MA process\n\n$y_t = -3u_{t-1} + u_{t-2} + u_t$\n\nare",
+        "choices": [
+            "1 and 2",
+            "1 and 0.5",
+            "2 and -0.5",
+            "1 and -3"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the meaning of 'non-stochastic' in the context of statistical or econometric analysis, focusing on how it contrasts with stochastic variables, typically characterized by randomness or uncertainty.",
+        "instruction 2": "Identify alternative terminology or phrases that accurately convey the concept of a non-stochastic explanatory variable, ensuring that these expressions emphasize its deterministic nature and predictability in relation to the dependent variable.",
+        "question": "Which of the following is an equivalent expression for saying that the explanatory variable is \"non-stochastic\"?",
+        "choices": [
+            "The explanatory variable is partly random",
+            "The explanatory variable is fixed in repeated samples",
+            "The explanatory variable is correlated with the errors",
+            "The explanatory variable always has a value of one"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Understand that the Durbin-Watson test statistic is used to detect the presence of autocorrelation in the residuals from a regression analysis. Familiarize yourself with the interpretation of the Durbin-Watson test statistic values, where values close to 2 suggest no autocorrelation and values significantly lower indicate positive autocorrelation while values significantly higher indicate negative autocorrelation.",
+        "instruction 2": "Reference the critical values for the Durbin-Watson test based on the number of observations (50) and the number of predictors in the regression model (2 explanatory variables + 1 constant). Compare the test statistic of 1.53 against these critical values to draw an accurate conclusion about the presence or absence of autocorrelation.",
+        "question": "Suppose that the Durbin Watson test is applied to a regression containing two explanatory variables plus a constant with 50 data points. The test statistic takes a value of 1.53. What is the appropriate conclusion?",
+        "choices": [
+            "Residuals appear to be positively autocorrelated",
+            "Residuals appear to be negatively autocorrelated",
+            "Residuals appear not to be autocorrelated",
+            "The test result is inconclusive"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the implications of autocorrelation on ordinary least squares (OLS) regression, specifically how it affects the reliability of coefficient estimates, which may lead to misleading interpretations of the data.",
+        "instruction 2": "Assess how the presence of autocorrelation can influence hypothesis testing and the calculation of standard errors, potentially resulting in invalid statistical conclusions and forecasts derived from the OLS model.",
+        "question": "If OLS is used in the presence of autocorrelation, which of the following will be likely consequences?\n\ni) Coefficient estimates may be misleading\n\n\nii) Hypothesis tests could reach the wrong conclusions\n\n\niii) Forecasts made from the model could be biased\n\n\niv) Standard errors may inappropriate",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the definition of the Ordinary Least Squares (OLS) estimator and identify how multicollinearity affects its statistical properties, particularly focusing on its variance and the reliability of coefficients.",
+        "instruction 2": "Analyze the implications of multicollinearity for hypothesis testing and model interpretation, including how it may lead to inflated standard errors and difficulties in determining the significance of individual predictors.",
+        "question": "What will be the properties of the OLS estimator in the presence of multicollinearity?",
+        "choices": [
+            "It will be consistent, unbiased and efficient",
+            "It will be consistent and unbiased but not efficient",
+            "It will be consistent but not unbiased",
+            "It will not be consistent"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the definition of non-stationary data and its characteristics, focusing on how it behaves over time and why its levels form can lead to misleading conclusions in statistical analyses.",
+        "instruction 2": "Evaluate the consequences of using non-stationary data, identifying specific issues such as spurious regression or incorrect inferences that may arise, while also considering how these differ from consequences of using stationary data.",
+        "question": "Which one of the following would NOT be a consequence of using non-stationary data in levels form?",
+        "choices": [
+            "The regression $R^2$ may be spuriously high",
+            "Test statistics may not follow standard distributions",
+            "Statistical inferences may be invalid",
+            "Parameter estimates may be biased"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Understand the nature of random walks and recognize that, in a random walk, the best one-step ahead forecast is given by the expected value of the next observation, which is typically the current value of the series y, as the future step does not depend on past steps.",
+        "instruction 2": "Utilize statistical principles to establish that, given the random walk characteristics, the forecast should acknowledge the inherent uncertainty and variability involved, ensuring any additional information like trend or seasonality, if applicable, is not assumed.",
+        "question": "If a series, y, follows a random walk, what is the optimal one-step ahead forecast of y?",
+        "choices": [
+            "The current value of y",
+            "Zero",
+            "One",
+            "The average value of y over the in-sample period"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the context of the 'order condition' by identifying the specific field or topic it relates to, such as mathematics, statistics, or systems theory, to properly interpret the condition's meaning.",
+        "instruction 2": "Explore the implications of the 'order condition' within the identified context, including how it affects stability, convergence, or other characteristics relevant to the subject matter being addressed.",
+        "question": "The order condition is",
+        "choices": [
+            "A necessary and sufficient condition for identification",
+            "A necessary but not sufficient condition for identification",
+            "A sufficient but not necessary condition for identification",
+            "A condition that is nether necessary nor sufficient for identification"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the definition of minimum variance in the context of estimators, focusing on the properties of unbiasedness and efficiency, to determine what is inherently implied by such a descriptor.",
+        "instruction 2": "Examine the potential characteristics of estimators that fall beyond the scope of minimum variance, such as consistency or asymptotic normality, to identify which statement does not logically follow from the minimum variance condition.",
+        "question": "If an estimator is said to have minimum variance, which of the following statements is NOT implied?",
+        "choices": [
+            "The probability that the estimate is a long way away from its true value is minimised",
+            "The estimator is efficient",
+            "Such an estimator would be termed \"best\"",
+            "Such an estimator will always be unbiased"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze each of the four provided statements regarding the Dickey-Fuller / Engle-Granger approach and identify specific criticisms or limitations associated with each point, focusing on their implications for testing cointegration and modeling relationships.",
+        "instruction 2": "Consider the statistical assumptions and conditions that must be satisfied for the Dickey-Fuller / Engle-Granger tests to be valid, and discuss how these assumptions may lead to potential disadvantages, especially in the context of model specification and inference.",
+        "question": "Which of the following are disadvantages of the Dickey-Fuller / Engle-Granger approach to testing for cointegration and modelling cointegrating relationships?\n\ni) Only one cointegrating relationship can be estimated\n\nii) Particularly for small samples. There is a high chance of the tests suggestingthat variables are not cointegrated when they are\n\niii) It is not possible to make inferences on the cointegrating regression\n\niv) The procedure forces the researcher to specify which is the dependent variable and which are the independent variables.",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the definitions and roles of the Population Regression Function (PRF) and Sample Regression Function (SRF), noting how the PRF represents the true relationship in the population while the SRF is an estimation based on a sample.",
+        "instruction 2": "Identify characteristics that differentiate the PRF and SRF, such as consistency, reliability, and the impact of sample size on the estimation accuracy of the SRF in comparison to the actual population represented by the PRF.",
+        "question": "Which of the following statements is true concerning the population regression function (PRF) and sample regression function (SRF)?",
+        "choices": [
+            "The PRF is the estimated model",
+            "The PRF is used to infer likely values of the SRF",
+            "Whether the model is good can be determined by comparing the SRF and the PRF",
+            "The PRF is a description of the process thought to be generating the data."
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the main disadvantages associated with the general to specific approach (LSE) in econometric modeling, such as potential issues with overfitting or the incorrect specification of the initial model, and contrast these with the benefits of the specific to general approach, which tends to allow for a more tailored and potentially accurate model specification.",
+        "instruction 2": "Analyze the implications of model complexity and interpretability when using the general to specific approach, considering how these factors influence the reliability and validity of the results compared to the specific to general approach.",
+        "question": "Which one of the following is a disadvantage of the general to specific or \"LSE\" (\"Hendry\") approach to building econometric models, relative to the specific to general approach?",
+        "choices": [
+            "Some variables may be excluded at the first stage leading to coefficient biases",
+            "The final model may lack theoretical interpretation",
+            "The final model may be statistically inadequate",
+            "If the initial model is mis-specified, all subsequent steps will be invalid."
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze each statement about maximum likelihood estimation (MLE) in GARCH models critically, assessing their accuracy based on statistical theory, specifically focusing on the properties and suitability of MLE for GARCH models as opposed to Ordinary Least Squares (OLS) estimation.",
+        "instruction 2": "Investigate how GARCH models differ from standard linear models, particularly in terms of variance estimation and the numerical methods employed by software packages to estimate parameters, ensuring to ground the analysis in established econometric principles and theoretical frameworks.",
+        "question": "Which of the following statements are true concerning maximum likelihood (ML) estimation in the context of GARCH models?\n\ni) Maximum likelihood estimation selects the parameter values that maximise the\n\nprobability that we would have actually observed the values of the series y that we\n\nactually did.\n\n\nii) GARCH models can only be estimated by ML and not by OLS\n\n\niii) For estimation of a standard linear model (with no GARCH), the OLS and ML\n\nestimates for the slope and intercept parameters will be identical but the estimator\n\nfor the variance of the disturbances is slightly different\n\n\niv) Most computer packages use numerical procedures to estimate GARCH models\n\nrather than a set of analytical formulae",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the implications of including lagged values of the dependent variable in a regression model, focusing on how it may affect the model's dynamics, such as introducing autocorrelation or influencing the interpretation of the estimated coefficients.",
+        "instruction 2": "Evaluate the potential statistical issues that might arise, such as bias in estimates or the need for adjustments in model specification, particularly considering the assumption of independence among the error terms in the context of time series data.",
+        "question": "Including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following?",
+        "choices": [
+            "Biased but consistent coefficient estimates",
+            "Biased and inconsistent coefficient estimates",
+            "Unbiased but inconsistent coefficient estimates",
+            "Unbiased and consistent but inefficient coefficient estimates."
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Evaluate different factors that influence forecast accuracy, focusing on elements such as the quality and amount of historical data, model selection, and the incorporation of relevant variables that directly impact the outcomes.",
+        "instruction 2": "Analyze the relationship between the chosen forecasting method and its ability to generalize to unseen data, considering aspects like overfitting and the robustness of the model in varying conditions.",
+        "question": "Which one of the following factors is likely to lead to a relatively high degree of out-of-sample forecast accuracy?",
+        "choices": [
+            "A model that is based on financial theory",
+            "A model that contains many variables",
+            "A model whose dependent variable has recently exhibited a structural change",
+            "A model that is entirely statistical in nature with no room for judgmental modification of forecasts"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Evaluate each listed approach based on statistical principles related to residual autocorrelation, specifically differentiating between methods that address the autocorrelation directly (such as adding lagged values or differencing) and those that do not effectively target the issue (like taking logarithms or using dummy variables for outliers).",
+        "instruction 2": "Consider the context of the data in question, including the nature of the variables involved and the underlying assumptions of the regression model, to determine the practical effectiveness and appropriateness of each proposed approach in mitigating residual autocorrelation.",
+        "question": "Which of the following are plausible approaches to dealing with residual autocorrelation?\n\ni) Take logarithms of each of the variables\n\nii) Add lagged values of the variables to the regression equation\n\niii) Use dummy variables to remove outlying observations\n\niv) Try a model in first differenced form rather than in levels.",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the concept of stationarity in the context of autoregressive processes, including the necessary conditions such as the mean, variance, and autocovariance being constant over time.",
+        "instruction 2": "Identify the specific requirements for the coefficients of the autoregressive model, such as the condition that the roots of the characteristic equation must lie outside the unit circle, to determine if the process exhibits stationarity.",
+        "question": "For an autoregressive process to be considered stationary",
+        "choices": [
+            "The roots of the characteristic equation must all lie inside the unit circle",
+            "The roots of the characteristic equation must all lie on the unit circle",
+            "The roots of the characteristic equation must all lie outside the unit circle",
+            "The roots of the characteristic equation must all be less than one in absolute value"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze each statement individually, reviewing the definitions and properties of adjusted R-squared and various information criteria such as Akaike’s information criterion (AIC) and Schwarz’s information criterion (BIC) to assess their validity in relation to model selection and evaluation.",
+        "instruction 2": "Consider the implications of adding model terms on the residual sum of squares and how it influences the calculation of information criteria, including the consistency and comparative order of model selection between AIC and BIC.",
+        "question": "Which of the following statements are true concerning information criteria?\n\n(i) Adjusted R-squared is an information criterion\n\n(ii) If the residual sum of squares falls when an additional term is added, the value of the information criterion will fall\n\n(iii) Akaike's information criterion always leads to model orders that are at least as large as those of Schwarz's information criterion\n\n(iv) Akaike's information criterion is consistent",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the context in which the term 'within transform' is used, identifying its relevance to a specific field, such as mathematics, computer science, or data analysis, to establish a foundational understanding before describing its function or purpose.",
+        "instruction 2": "Examine the characteristics or properties of the 'within transform,' detailing how it modifies or processes data or functions, and consider any examples or applications that illustrate its usage effectively.",
+        "question": "The \"within transform\" involves",
+        "choices": [
+            "Taking the average values of the variables",
+            "Subtracting the mean of each entity away from each observation on that entity",
+            "Estimating a panel data model using least squares dummy variables",
+            "Using both time dummies and cross-sectional dummies in a fixed effects panel model"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific aspect of the Dickey-Fuller test that is being augmented, such as the inclusion of additional lagged terms or variables, and explain how these modifications increase the test's ability to detect unit roots in time series data.",
+        "instruction 2": "Examine the implications of augmenting the test, particularly how it addresses issues like serial correlation or potential non-stationarity in the residuals, and discuss the relevance of these considerations in the context of conducting time series analysis.",
+        "question": "The purpose of \"augmenting\" the Dickey-Fuller test regression is to",
+        "choices": [
+            "Ensure that there is no heteroscedasticity in the test regression residuals.",
+            "Ensure that the test regression residuals are normally distributed",
+            "Ensure that there is no autocorrelation in the test regression residuals",
+            "Ensure that all of the non-stationarity is taken into account."
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Understand the properties of a random walk with drift by identifying how the drift parameter b affects the expected value of the next step in the series y, particularly focusing on how the forecast is calculated based on the previous value and the drift.",
+        "instruction 2": "Formulate the one-step ahead forecast by incorporating the drift b into the current value of y, ensuring to consider the nature of randomness and how it interacts with the deterministic drift component to derive the optimal forecast.",
+        "question": "If a series, y, follows a random walk with drift b, what is the optimal one-step ahead forecast of the change in y?",
+        "choices": [
+            "The current value of y",
+            "Zero",
+            "One",
+            "The average value of the change in y over the in-sample period"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the concept of heteroscedasticity in regression models, focusing on its definition and implications for statistical analysis, particularly how it affects the reliability of standard error estimates and parameter significance tests.",
+        "instruction 2": "Evaluate each of the proposed approaches against the definition of heteroscedasticity, determining how effectively each method addresses the variability of residuals and enhances the model's estimates, ensuring clarity in why they are considered plausible solutions.",
+        "question": "Which of the following are plausible approaches to dealing with a model that exhibits heteroscedasticity?\n\ni) Take logarithms of each of the variables\n\nii) Use suitably modified standard errors\n\niii) Use a generalised least squares procedure\n\niv) Add lagged values of the variables to the regression equation.",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Evaluate each statement about the standardized residuals from the GARCH model by referencing properties and assumptions related to residuals, normality, and fat tails typically discussed in time series analysis and econometrics.",
+        "instruction 2": "Analyze the implications of the GARCH model's adequacy, particularly how it affects the relationship between standardized and raw residuals, ensuring to distinguish between theoretical assumptions and practical outcomes observed in financial data.",
+        "question": "Which of the following statements are true concerning the standardised residuals (residuals divided by their respective conditional standard deviations) from an estimated GARCH model?\n\ni) They are assumed to be normally distributed\n\n\nii) Their squares will be related to their lagged squared values if the GARCH model is\n\nappropriate\n\n\niii) In practice, they are likely to have fat tails\n\n\niv) If the GARCH model is adequate, the standardised residuals and the raw residuals\n\nwill be identical",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the definition of VARs (Vector Autoregressions) and ensure an understanding of their characteristics and uses in econometrics to accurately evaluate the statements provided.",
+        "instruction 2": "Analyze each statement presented by examining their adherence to the theoretical principles of VAR models, such as their assumptions about time series data, the relationships between multiple variables, and causality.",
+        "question": "Which one of the following statements is true concerning VARs?",
+        "choices": [
+            "The coefficient estimates have intuitive theoretical interpretations",
+            "The coefficient estimates usually have the same sign for all of the lags of a given variable in a given equation",
+            "VARs often produce better forecasts than simultaneous equation structural models",
+            "All of the components of a VAR must be stationary before it can be used for forecasting"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Understand the fundamental principles of the classical hypothesis testing framework, including concepts such as null and alternative hypotheses, significance levels, and types of errors (Type I and Type II errors) to accurately identify which statement does not conform to these principles.",
+        "instruction 2": "Evaluate each statement critically by applying knowledge of hypothesis testing concepts and methodologies, specifically looking for deviations from accepted statistical practices or misinterpretations of what hypothesis testing entails.",
+        "question": "Which of the following statements is INCORRECT concerning the classical hypothesis testing framework?",
+        "choices": [
+            "If the null hypothesis is rejected, the alternative is accepted",
+            "The null hypothesis is the statement being tested while the alternative encompasses the remaining outcomes of interest",
+            "The test of significance and confidence interval approaches will always give the same conclusions",
+            "Hypothesis tests are used to make inferences about the population parameters."
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the specific characteristics of an ARMA(p,q) model, highlighting how the parameters p and q relate to the autoregressive and moving average components, respectively, and what their roles are in the model's formulation.",
+        "instruction 2": "Explain the significance of the stationarity condition for the ARMA model, including the requirements that must be met for the time series being analyzed to ensure that the ARMA model is appropriately applied.",
+        "question": "An ARMA(p,q) (p, q are integers bigger than zero) model will have",
+        "choices": [
+            "An acf and pacf that both decline geometrically",
+            "An acf that declines geometrically and a pacf that is zero after p lags",
+            "An acf that declines geometrically and a pacf that is zero after q lags",
+            "An acf that is zero after p lags and a pacf that is zero after q lags"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the degrees of freedom for the statistical test, which is calculated as the total number of observations minus the number of estimated parameters. In this case, with 27 observations and 3 parameters ($\beta_1$, $\beta_2$, and $\beta_3$), ensure to correctly compute the degrees of freedom for the t-test.",
+        "instruction 2": "Use the appropriate statistical table or software to find the critical value for a two-tailed test at a significance level of 5% based on the calculated degrees of freedom, ensuring the distinction between using a t-distribution or z-distribution is properly addressed depending on the sample size and distribution assumptions.",
+        "question": "Suppose that the following regression is estimated using 27 quarterly observations:\n\n$y_t = \\beta_1 + \\beta_2 x_2 + \\beta_3 x_{3t} + u_t$\n\nWhat is the appropriate critical value for a 2-sided 5% size of test of $H_0: \\beta_3 = 1$?",
+        "choices": [
+            "1.64",
+            "1.71",
+            "2.06",
+            "1.96"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the test statistic for comparing the two VAR models by utilizing the formula related to the F-test for nested models. This involves taking the difference in the number of estimated parameters between the VAR(6) and VAR(4) models and the residual variances provided to compute the F-statistic.",
+        "instruction 2": "Determine the degrees of freedom for the test, which will depend on the number of observations and the difference in the number of parameters estimated by the two models. Ensure to apply the appropriate critical values for the F-distribution to assess the significance of the test statistic calculated.",
+        "question": "Suppose that two researchers, using the same 3 variables and the same 250 observations on each variable, estimate a VAR. One estimates a VAR(6), while the other estimates a VAR(4). The determinants of the variance-covariance matrices of the residuals for each VAR are 0.0036 and 0.0049 respectively. What is the values of the test statistic for performing a test of whether the VAR(6) can be restricted to a VAR(4)?",
+        "choices": [
+            "77.07",
+            "0.31",
+            "0.33",
+            "4.87"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific limitations of pure time-series models, such as their reliance on historical data and the potential inability to account for structural changes or exogenous variables in the system being analyzed.",
+        "instruction 2": "Evaluate how these limitations can hinder the ability of pure time-series models to accurately predict future outcomes compared to structural models, which may incorporate causal relationships and external influences.",
+        "question": "Which of the following is a DISADVANTAGE of using pure time-series models (relative to structural models)?",
+        "choices": [
+            "They are not theoretically motivated",
+            "They cannot produce forecasts easily",
+            "They cannot be used for very high frequency data",
+            "It is difficult to determine the appropriate explanatory variables for use in pure time-series models"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the correct terminology used in linear regression analysis for the dependent variable, differentiating between terms that describe the dependent variable (such as 'regressand' and 'explained variable') and those that describe the independent variable (such as 'regressor' and 'explanatory variable').",
+        "instruction 2": "Evaluate each option provided, ensuring a clear understanding of their definitions and the context in which they are used in statistical analysis, to accurately determine which terms specifically refer to the dependent variable.",
+        "question": "Which of the following are alternative names for the dependent variable (usually denoted by y) in linear regression analysis?\n\n(i) The regressand\n\n(ii) The regressor\n\n(iii) The explained variable\n\n(iv) The explanatory variable",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the advantages of the VAR approach by comparing each option to the characteristics of full structural models, focusing on aspects such as theoretical foundations, forecasting capabilities, model complexity, and estimation methods.",
+        "instruction 2": "Assess the implications of each advantage for practical applications in econometrics or finance, and consider how the use of VAR models can simplify analysis while maintaining robustness in predicting relationships between variables.",
+        "question": "Which of the following are advantages of the VAR approach to modelling the relationship between variables relative to the estimation of full structural models?\n\ni) VARs receive strong motivation from financial and economic theory\n\n\nii) VARs in their reduced forms can be used easily to produce time-series forecasts\n\n\niii) VAR models are typically highly parsimonious\n\n\niv) OLS can be applied separately to each equation in a reduced form VAR",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Review the basic assumptions and characteristics of the standard regression model, including the concepts of linearity, independence, homoscedasticity, and normal distribution of errors, to determine which statement accurately reflects these principles.",
+        "instruction 2": "Evaluate each given statement critically against the established theoretical framework of the regression model, ensuring to confirm the correct application of statistical terminology and conditions related to model validity.",
+        "question": "Which of the following statements is TRUE concerning the standard regression model?",
+        "choices": [
+            "y has a probability distribution",
+            "x has a probability distribution",
+            "The disturbance term is assumed to be correlated with x",
+            "For an adequate model, the residual (u-hat) will be zero for all sample data points"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "question": "Consider the following model for $y_t$:\n\n$y_t = \\mu + \\lambda t + u_t$\n\nWhich one of the following most accurately describes the process for $y_t$?",
+        "subject": "econometrics",
+        "choices": [
+            "A unit root process",
+            "A stationary process",
+            "A deterministic trend process",
+            "A random walk with drift"
+        ],
+        "answer": 2
+    },
+    {
+        "instruction 1": "Review the fundamental differences between logit and probit models, focusing on their underlying distributions (logistic vs. normal distribution) and how these differences influence the interpretation of coefficients and probabilities in each model.",
+        "instruction 2": "Analyze the contexts in which one model may be preferred over the other, considering factors such as the nature of the dependent variable, the presence of outliers, or the specific assumptions required for model fitting.",
+        "question": "Which of the following is correct concerning logit and probit models?",
+        "choices": [
+            "They use a different method of transforming the model so that the probabilities lie between zero and one",
+            "The logit model can result in too many observations falling at exactly zero or exactly one",
+            "For the logit model, the marginal effect of a change in one of the explanatory variables is simply the estimate of the parameter attached to that variable, whereas this is not the case for the probit model",
+            "The probit model is based on a cumulative logistic function"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary disadvantage of the diagonal VECH approach in the context of multivariate GARCH modeling, focusing specifically on aspects such as parameter estimation inefficiency or restrictive assumptions about the covariance structure.",
+        "instruction 2": "Examine how the BEKK formulation addresses this disadvantage, emphasizing the flexibility it offers in modeling the dynamics of the covariance matrix without succumbing to the limitations present in the diagonal VECH approach.",
+        "question": "What is the most important disadvantage of the diagonal VECH approach to building multivariate GARCH models that is overcome by the BEKK formulation?",
+        "choices": [
+            "The diagonal VECH model is hard to interpret intuitively",
+            "The diagonal VECH model contains too many parameters",
+            "The diagonal VECH model does not ensure a positive-definite variance-covariance matrix",
+            "The BEKK model reduces the dimensionality problem that arises when a number of series are modelled together."
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the implications of omitting a relevant variable from a regression equation, paying particular attention to how it affects the standard errors and the consistency of slope and intercept coefficients when the omitted variable is correlated or uncorrelated with included variables.",
+        "instruction 2": "Evaluate the definitions of bias, consistency, and efficiency in regression analysis to determine the accuracy of the statements regarding the consequences of the omitted variable, ensuring that the analysis adheres to statistical theory.",
+        "question": "If a relevant variable is omitted from a regression equation, the consequences would be that:\n\ni) The standard errors would be biased\n\n\nii) If the excluded variable is uncorrelated with all of the included variables, all of\n\nthe slope coefficients will be inconsistent.\n\n\niii) If the excluded variable is uncorrelated with all of the included variables, the\n\nintercept coefficient will be inconsistent.\n\n\niv) If the excluded variable is uncorrelated with all of the included variables, all of\n\nthe slope and intercept coefficients will be consistent and unbiased but inefficient.",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the correct terminology used in linear regression analysis, specifically focusing on the definitions and roles of the independent variable, regressor, regressand, causal variable, and effect variable to determine which terms appropriately describe the independent variable denoted by x.",
+        "instruction 2": "Evaluate each provided option (i-iv) based on established statistical definitions, making note of the context in which these terms are used within the field of linear regression, and identify which options are correct alternatives for the independent variable.",
+        "question": "Which of the following are alternative names for the independent variable (usually denoted by x) in linear regression analysis?\n\n(i) The regressor\n\n(ii) The regressand\n\n(iii) The causal variable\n\n(iv) The effect variable",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the relationship between the standard error of the slope coefficient and the residual variance, determining whether changes in residual variance will indeed lead to corresponding changes in standard error.",
+        "instruction 2": "Evaluate the implications of sample size, dispersion of observations, and the interpretation of standard error in estimating coefficient precision, ensuring to clarify how these factors interrelate with the standard error in the context of OLS regression.",
+        "question": "Consider the OLS estimator for the standard error of the slope coefficient. Which of the following statement(s) is (are) true?\n\n(i) The standard error will be positively related to the residual variance\n\n(ii) The standard error will be negatively related to the dispersion of the observations on the explanatory variable about their mean value\n\n(iii) The standard error will be negatively related to the sample size\n\n(iv) The standard error gives a measure of the precision of the coefficient estimate.",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the term 'heteroscedasticity' clearly, including its context within statistics and econometrics, and explain how it relates to the variability of errors in regression analysis.",
+        "instruction 2": "Discuss the implications of heteroscedasticity for statistical modeling, particularly how it affects the validity of hypothesis tests and confidence intervals, and outline methods for detecting and correcting it.",
+        "question": "What is the meaning of the term \"heteroscedasticity\"?",
+        "choices": [
+            "The variance of the errors is not constant",
+            "The variance of the dependent variable is not constant",
+            "The errors are not linearly independent of one another",
+            "The errors have non-zero mean"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Understand the relationship between the Durbin-Watson statistic and the first-order autocorrelation coefficient, specifically noting that a value close to zero indicates a strong positive autocorrelation in the residuals of a regression model.",
+        "instruction 2": "Determine the implications of a low Durbin-Watson value on the model's assumptions, particularly regarding the independence of errors, and how this affects the overall validity of the regression analysis.",
+        "question": "If a Durbin Watson statistic takes a value close to zero, what will be the value of the first order autocorrelation coefficient?",
+        "choices": [
+            "Close to zero",
+            "Close to plus one",
+            "Close to minus one",
+            "Close to either minus one or plus one"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the null hypothesis of the Bera-Jarque test, which states that the sample data follows a normal distribution, and outline the key characteristics of a normal distribution such as symmetry, mean equal to median, and a specific kurtosis value.",
+        "instruction 2": "Examine the implications of rejecting the null hypothesis, including the alternative hypothesis that suggests that the data deviates from normality, and consider the statistical properties impacted by such deviations, like skewness and kurtosis metrics.",
+        "question": "Under the null hypothesis of a Bera-Jarque test, the distribution has",
+        "choices": [
+            "Zero skewness and zero kurtosis",
+            "Zero skewness and a kurtosis of three",
+            "Skewness of one and zero kurtosis",
+            "Skewness of one and kurtosis of three."
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept of a consistent estimator in the context of statistics and estimation theory, focusing on how this property leads to the estimator converging in probability to the true parameter value as the sample size increases.",
+        "instruction 2": "Examine the implications of consistency for the behavior of the estimator in large samples, considering how it relates to bias and variance, and discussing how it influences the reliability of statistical inference.",
+        "question": "If an estimator is said to be consistent, it is implied that",
+        "choices": [
+            "On average, the estimated coefficient values will equal the true values",
+            "The OLS estimator is unbiased and no other unbiased estimator has a smaller variance",
+            "The estimates will converge upon the true values as the sample size increases",
+            "The coefficient estimates will be as close to their true values as possible for small and large samples."
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and describe the key statistical characteristics commonly associated with financial asset return time-series, such as volatility, autocorrelation, and the presence of trends or seasonal patterns.",
+        "instruction 2": "Evaluate how these characteristics can affect investment strategies and risk assessment, considering implications for forecasting and modeling asset returns in different market conditions.",
+        "question": "Which of the following is a typical characteristic of financial asset return time-series?",
+        "choices": [
+            "Their distributions are thin-tailed",
+            "They are not weakly stationary",
+            "They are highly autocorrelated",
+            "They have no trend"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the conditions related to the Ordinary Least Squares (OLS) estimator, identifying which of the assumptions (i, ii, iii, iv) are necessary for establishing the Gauss-Markov theorem conditions that ensure the properties of consistency, unbiasedness, and efficiency.",
+        "instruction 2": "Differentiate between necessary assumptions that guarantee the OLS estimator's unbiasedness (such as E(u_t) = 0) and assumptions that contribute to efficiency but may not be strictly required for unbiasedness, specifically considering the implications of homoscedasticity and independence of error terms.",
+        "question": "Which of the following assumptions are required to show the consistency, unbiasedness and efficiency of the OLS estimator?\n\ni) $E(u_t) = 0$\n\n\nii) $\\text{Var}(u_t) = \\sigma^2$\n\n\niii) $\\text{Cov}(u_t, u_{t-j}) = 0 \\forall j$\n\n\niv) $u_t \\sim N(0, \\sigma^2)$",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key limitations of the fixed effects approach in panel data analysis, focusing on issues such as the inability to estimate the effects of time-invariant variables and potential biases caused by omitted variable bias.",
+        "instruction 2": "Evaluate how the fixed effects model may lead to inefficiencies or inconsistencies when it comes to certain types of data, particularly if the individual-specific effects are correlated with the explanatory variables.",
+        "question": "Which of the following is a disadvantage of the fixed effects approach to estimating a panel model?",
+        "choices": [
+            "The model is likely to be technical to estimate",
+            "The approach may not be valid if the composite error term is correlated with one or more of the explanatory variables",
+            "The number of parameters to estimate may be large, resulting in a loss of degrees of freedom",
+            "The fixed effects approach can only capture cross-sectional heterogeneity and not temporal variation in the dependent variable."
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the implications of using a 2-sided alternative in statistical hypothesis testing, focusing on how it changes the criteria for decision-making compared to a 1-sided alternative, specifically in terms of significance levels and p-values.",
+        "instruction 2": "Determine the new conclusion by assessing the evidence against the null hypothesis within the context of the 2-sided alternative, taking into account the potential outcomes and their respective probabilities to ensure the conclusion aligns with the modified statistical framework.",
+        "question": "Consider an identical situation to that of question 21, except that now a 2-sided alternative is used. What would now be the appropriate conclusion?",
+        "choices": [
+            "H0 is rejected",
+            "H0 is not rejected",
+            "H1 is rejected",
+            "There is insufficient information given in the question to reach a conclusion"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the context in which the price of a house is being discussed, specifically considering how prices are quantified (e.g., as a numerical value representing monetary worth), and assess whether they fit into categories such as integers, real numbers, or rational numbers.",
+        "instruction 2": "Explore factors that may influence the classification of house prices, such as the inclusion of decimals (indicating that home prices are not typically whole numbers) and the ability to represent prices in different currencies, ensuring that the answer reflects standard economic terminology.",
+        "question": "The price of a house is best described as what type of number?",
+        "choices": [
+            "Discrete",
+            "Cardinal",
+            "Ordinal",
+            "Nominal"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the number of variables and the hypothesized number of cointegrating vectors to determine the size of the cointegration space. From a system with 4 variables and the hypothesis of 2 cointegrating vectors, recognize that the relevant eigenvalues for the Johansen test will be derived from the remaining 2 eigenvalues, which correspond to the difference in the total number of variables and the number of cointegrating vectors.",
+        "instruction 2": "Consult the framework of the Johansen test to understand how to compute eigenvalues from the estimated long-run relationship matrix. Ensure to differentiate between the trace statistic and the maximum eigenvalue statistic when applying the test, as these will utilize the specified eigenvalues differently to draw conclusions about the null hypothesis.",
+        "question": "If a Johansen \"trace\" test for a null hypothesis of 2 cointegrating vectors is applied to a system containing 4 variables is conducted, which eigenvalues would be used in the test?",
+        "choices": [
+            "All of them",
+            "The largest 2",
+            "The smallest 2",
+            "The second largest"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze each statement individually, considering the underlying concepts of variance decomposition analysis within VAR models, including how shocks to variables are measured and their impact on forecast error variance.",
+        "instruction 2": "Evaluate the role of variable ordering in both impulse response functions and variance decompositions, determining how this impacts the interpretation of the results and clarifies which statements may be true or false based on standard practices in econometrics.",
+        "question": "Which of the following statements is true concerning variance decomposition analysis of VARs?\n\ni) Variance decompositions measure the impact of a unit shock to each of the variables on the VAR\n\nii) Variance decompositions can be thought of as measuring the proportion of the forecast error variance that is attributable to each variable\n\niii) The ordering of the variables is important for calculating impulse responses but not variance decompositions\n\niv) It is usual that most of the forecast error variance for a given variable is attributable to shocks to that variable",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Utilize the estimated parameters of the GARCH model to calculate the expected future volatility by simulating or iterating forward the conditional variance equation for the next 10 days.",
+        "instruction 2": "Incorporate the historical returns data into the GARCH model to ensure that the forecasts account for recent market behavior, and verify that the model assumptions are met before using the forecasted volatility in the value at risk model.",
+        "question": "Suppose that we have estimated a GARCH model for daily equity returns, and we are interested in producing a 10-day forecast of the volatility (measured by the standard deviation of returns) for use in a value at risk model. How could such a forecast most validly be calculated?",
+        "choices": [
+            "Produce 1, 2, 3, ..., 10 step ahead conditional variance forecasts and add them up",
+            "Produce 1, 2, 3, ..., 10 step ahead conditional variance forecasts and add them up and take the square root",
+            "Produce 1, 2, 3, ..., 10 step ahead conditional variance forecasts, take the square roots of each one and add them up",
+            "Produce a 1-step ahead conditional variance forecast, take its square root and multiply it by the square root of 10"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Evaluate the implication of an $R^2$ value of zero in the context of regression analysis, specifically focusing on what this indicates about the relationship between the independent and dependent variables, such as whether there is any linear correlation.",
+        "instruction 2": "Analyze each statement individually in relation to the definition of $R^2$ and its relationship to the fitted regression model, paying special attention to the intercept and the significance of coefficient estimates when $R^2$ equals zero.",
+        "question": "Suppose that the value of $R^2$ for an estimated regression model is exactly zero. Which of the following are true?\n\ni) All coefficient estimates on the slopes will be zero\n\nii) The fitted line will be horizontal with respect to all of the explanatory variables\n\niii) The regression line has not explained any of the variability of y about its mean value\n\niv) The intercept coefficient estimate must be zero.",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the definitions and properties of a white noise process in the context of time series analysis, ensuring to highlight that it implies statistical independence of observations and stationarity of mean and variance.",
+        "instruction 2": "Analyze the characteristics of autocovariance in a white noise process, particularly focusing on how the autocovariance at any non-zero lag equals zero, while the variance remains constant across all time points.",
+        "question": "A white noise process will have\n\n(i) A zero mean\n\n(ii) A constant variance\n\n(iii) Autocovariances that are constant\n\n(iv) Autocovariances that are zero except at lag zero",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze each statement individually to evaluate its validity concerning the Box-Jenkins approach, focusing on the principles and diagnostic tests applied to ARMA models, especially the treatment of residuals.",
+        "instruction 2": "Consider the implications of the results from diagnostic tests, such as checking for autocorrelation and the behavior of ACF and PACF plots, in relation to model identification and the effects of potential overfitting on variable significance.",
+        "question": "Which of the following statements are true concerning the Box-Jenkins approach to diagnostic testing for ARMA models?\n\n(i) The tests will show whether the identified model is either too large or too small\n\n(ii) The tests involve checking the model residuals for autocorrelation, heteroscedasticity, and non-normality\n\n(iii) If the model suggested at the identification stage is appropriate, the acf and pacf for the residuals should show no additional structure\n\n(iv) If the model suggested at the identification stage is appropriate, the coefficients on the additional variables under the overfitting approach will be statistically insignificant",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the implications of residual non-normality in a statistical context, identifying how it can affect the validity of statistical tests and models, particularly in terms of assumptions made during regression analysis.",
+        "instruction 2": "Evaluate potential strategies for addressing residual non-normality, including transformations of the data or using non-parametric approaches, ensuring that proposed solutions are directly applicable to the specific statistical context in which the non-normality was identified.",
+        "question": "Which one of the following would be a plausible response to a finding of residual non-normality?",
+        "choices": [
+            "Use a logarithmic functional form instead of a linear one",
+            "Add lags of the variables on the right hand side of the regression model",
+            "Estimate the model in first differenced form",
+            "Remove any large outliers from the data."
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the common terminology used in econometrics that refers to the fixed effects panel model, including its alternative names and the context in which it is utilized, such as longitudinal or time-series data analysis.",
+        "instruction 2": "Consider how the fixed effects panel model relates to other panel data models, examining distinctions between fixed effects, random effects, and other approaches to account for unobserved heterogeneity in the data.",
+        "question": "The fixed effects panel model is also sometimes known as",
+        "choices": [
+            "A seemingly unrelated regression model",
+            "The least squares dummy variables approach",
+            "The random effects model",
+            "Heteroscedasticity and autocorrelation consistent"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Thoroughly analyze each statement provided in order to identify the definition and properties of Ordinary Least Squares (OLS) estimation, including its assumptions and the context in which it is applicable, such as linear regression models.",
+        "instruction 2": "Evaluate the truthfulness of each statement by comparing it with established statistical theory surrounding OLS estimation, taking note of concepts such as unbiasedness, consistency, and efficiency of the estimators.",
+        "question": "Which of the following statements is TRUE concerning OLS estimation?",
+        "choices": [
+            "OLS minimises the sum of the vertical distances from the points to the line",
+            "OLS minimises the sum of the squares of the vertical distances from the points to the line",
+            "OLS minimises the sum of the horizontal distances from the points to the line",
+            "OLS minimises the sum of the squares of the horizontal distances from the points to the line."
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the implications of the results from standard time-series analysis tools like the autocorrelation function (acf) and the partial autocorrelation function (pacf), particularly in the context of identifying patterns or structures in the dataset. Determine the significance of a lack of evidence of structure.",
+        "instruction 2": "Consider the possible nature of the data when no structure is found, such as whether the data may be classified as white noise or a random walk, and ensure to define any relevant statistical terms related to this interpretation.",
+        "question": "If the standard tools for time-series analysis, such as estimation of the acf, pacf and spectral analysis, find no evidence of structure in the data, this implies that the data are which of the following?",
+        "choices": [
+            "Normally distributed",
+            "Uncorrelated",
+            "Independent",
+            "Fat-tailed"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Understand the definition and properties of cointegration, specifically that while individual time series $x_t$ and $y_t$ may be non-stationary, a linear combination of them can be stationary; thus, recognize that this informs the evaluation of statements regarding stationarity and relationships.",
+        "instruction 2": "Examine the implications of cointegration on time series analysis, including the significance of the cointegrating equation and residual analysis, to clarify which statements correctly reflect the nature of the relationship between $x_t$ and $y_t$.",
+        "question": "If two variables, $x_t$ and $y_t$ are said to be cointegrated, which of the following statements are true?\n\ni) $x_t$ and $y_t$ must both be stationary\n\n\nii) Only one linear combination of $x_t$ and $y_t$ will be stationary\n\n\niii) The cointegrating equation for $x_t$ and $y_t$ describes the short-run relationship\n\nbetween the two series\n\n\niv) The residuals of a regression of $y_t$ on $x_t$ must be stationary",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the definition of a dependent variable and its relationship to independent variables, focusing on the implications of observability and constraints on the range of values that the dependent variable can take.",
+        "instruction 2": "Classify the dependent variable by considering terms commonly used in statistics and research methodology, such as 'censored variable' or 'truncated variable,' to describe the situation where values are not observable outside a specific range despite the independent variables being accessible.",
+        "question": "A dependent variable whose values are not observable outside a certain range but where the corresponding values of the independent variables are still available would be most accurately described as what kind of variable?",
+        "choices": [
+            "Censored",
+            "Truncated",
+            "Multinomial variable",
+            "Discrete choice"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the purpose of the Hausman test in econometrics, specifically focusing on its role in deciding between fixed effects and random effects models in panel data analysis.",
+        "instruction 2": "Identify the assumptions that are underlying the Hausman test, such as the requirement for the model to have a sufficient level of correlation between the regressors and the unobserved factors, to assess when it is appropriate to use the test.",
+        "question": "A Hausman test would be used for",
+        "choices": [
+            "Determining whether an equation that is part of a simultaneous system is identified",
+            "Determining whether a simultaneous framework is needed for a particular variable",
+            "Determining whether 2SLS or ILS is optimal",
+            "Determining whether the structural form equations can be obtained via substitution from the reduced forms"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the dimensions of the matrix $y$, which represents the dependent variable in the classical linear regression model, to determine the corresponding dimensions of the error term $u$ based on the equation $y = X \beta + u$.",
+        "instruction 2": "Analyze the dimensions of the matrix $X$ (the matrix of independent variables) and the parameter vector $\beta$ to confirm that the error term $u$ must match the dimensions of the dependent variable $y$ for the equation to be correctly defined.",
+        "question": "Under the matrix notation for the classical linear regression model, $y = X \\beta + u$, what are the dimensions of $u$?",
+        "choices": [
+            "T x k",
+            "T x 1",
+            "k x 1",
+            "1 x 1"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Calculate the total number of parameters required for a tri-variate VAR(4) model based on the general formula for VAR models, which includes determining the number of lagged terms and considering the restrictions applied due to the 'unrestricted' nature of the model.",
+        "instruction 2": "Ensure to account for the number of equations in the system, which corresponds to the number of variables (three in this case), and the number of lagged values included (four), to derive the final count of parameters accurately.",
+        "question": "How many parameters will be required to be estimated in total for all equations of a standard form, unrestricted, tri-variate VAR(4), ignoring the intercepts?",
+        "choices": [
+            "12",
+            "4",
+            "3",
+            "36"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the unrestricted residual sum of squares (RSS) by first estimating the parameters of the regression model using all 200 observations, then computing the residuals for the entire sample and squaring them, followed by summing these squared residuals.",
+        "instruction 2": "Ensure that the regression model is correctly specified and that any potential issues with multicollinearity, heteroskedasticity, or omitted variable bias are addressed, as these can affect the accuracy of the RSS calculation.",
+        "question": "A researcher tests for structural stability in the following regression model:\n\n$y_t = \\beta_1 + \\beta_2 x_{2t} + \\beta_3 x_{3t} + u_t$\n\nThe total sample of 200 observations is split exactly in half for the sub-sample regressions. Which would be the unrestricted residual sum of squares?",
+        "choices": [
+            "The RSS for the whole sample",
+            "The RSS for the first sub-sample",
+            "The RSS for the second sub-sample",
+            "The sum of the RSS for the first and second sub-samples"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific characteristics of a GARCH(2,2) model, including its structure and the role of past variances and shocks in determining current volatility, to understand the implications of testing against a constant conditional variance hypothesis.",
+        "instruction 2": "Apply the likelihood ratio test methodology to evaluate the fit of the GARCH(2,2) model versus the constant variance model, ensuring to calculate the likelihoods and properly interpret the test statistic and its significance in relation to the null hypothesis.",
+        "question": "Suppose that we are interested in testing the null hypothesis that a GARCH(2,2) model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach. Which of the following statements are true?",
+        "choices": [
+            "The test statistic will follow a chi-squared distribution with 2 degrees of freedom under the null hypothesis",
+            "The value of the log-likelihood function will almost always be bigger for the restricted model than for the unrestricted model",
+            "If the relevant values of the log-likelihood functions are -112.3 and -118.4, the value of the test statistic is 12.2",
+            "The likelihood ratio test compares the slopes of the log-likelihood function at the maximum and at the restricted parameter value."
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify what near multicollinearity is and understand the common methods used to address this issue in statistical analysis, such as removing variables, combining variables, or using techniques like ridge regression.",
+        "instruction 2": "Evaluate the list of remedies provided, considering which methods are recognized as effective for addressing near multicollinearity and which one does not align with established statistical practices.",
+        "question": "Which one of the following is NOT a plausible remedy for near multicollinearity?",
+        "choices": [
+            "Use principal components analysis",
+            "Drop one of the collinear variables",
+            "Use a longer run of data",
+            "Take logarithms of each of the variables"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the characteristics of the given AR(2) process, specifically focusing on its components which include the autoregressive coefficients (1.5 and -0.5) and the error term (ut), and how these define the nature of the time series model.",
+        "instruction 2": "Determine the conditions for stationarity of the AR(2) process by analyzing the roots of the characteristic equation associated with the AR coefficients to assess if they lie inside the unit circle.",
+        "question": "Consider the following AR(2) process:\n\nyt = 1.5 yt-1 - 0.5 yt-2 + ut\n\nThis is a",
+        "choices": [
+            "Stationary process",
+            "Unit root process",
+            "Explosive process",
+            "Stationary and unit root process"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Understand the concept of autocorrelation in time series data, ensuring to clarify what it means to test for autocorrelation specifically up to the third order, which involves assessing the correlation of a variable with its own past values up to three lags.",
+        "instruction 2": "Identify and evaluate commonly used statistical tests for autocorrelation, such as the Durbin-Watson test or the Breusch-Godfrey test, and determine which of these tests apply to the context of assessing autocorrelation up to the specified order.",
+        "question": "Which of the following could be used as a test for autocorrelation up to third order?",
+        "choices": [
+            "The Durbin Watson test",
+            "White's test",
+            "The RESET test",
+            "The Breusch-Godfrey test"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the definition of residuals in a regression context, emphasizing that residuals are the differences between the observed values and the predicted values generated by the regression model.",
+        "instruction 2": "Discuss the significance of analyzing residuals in regression diagnostics, including how they can indicate the model's accuracy, assumptions regarding linearity, homoscedasticity, and potential presence of non-random patterns.",
+        "question": "The residual from a standard regression model is defined as",
+        "choices": [
+            "The difference between the actual value, y, and the mean, y-bar",
+            "The difference between the fitted value, y-hat, and the mean, y-bar",
+            "The difference between the actual value, y, and the fitted value, y-hat",
+            "The square of the difference between the fitted value, y-hat, and the mean, y-bar"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the implications of applying Ordinary Least Squares (OLS) to each equation in a simultaneous equation system, particularly focusing on how this method may lead to inconsistent estimates due to the correlation between the error terms in the equations.",
+        "instruction 2": "Evaluate the distinction between the estimates obtained through OLS application in isolated equations compared to the estimates derived from simultaneous estimation methods, such as Two-Stage Least Squares (2SLS), noting the impact on bias and efficiency.",
+        "question": "If OLS is applied separately to each equation that is part of a simultaneous system, the resulting estimates will be",
+        "choices": [
+            "Unbiased and consistent",
+            "Biased but consistent",
+            "Biased and inconsistent",
+            "It is impossible to apply OLS to equations that are part of a simultaneous system"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Understand the concept of mis-specification of functional form in statistical modeling, including common types such as omitted variables, incorrect variable transformations, or inappropriate model selection.",
+        "instruction 2": "Evaluate each provided option against the criteria of mis-specification, ensuring to identify a choice that does not fit the typical errors associated with model specification in econometrics or statistics.",
+        "question": "Which one of the following is NOT an example of mis-specification of functional form?",
+        "choices": [
+            "Using a linear specification when y scales as a function of the squares of x",
+            "Using a linear specification when a double-logarithmic model would be more appropriate",
+            "Modelling y as a function of x when in fact it scales as a function of 1/x",
+            "Excluding a relevant variable from a linear regression model"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the characteristics of the decision-making process for an investor in choosing between different types of funds (equity, bond, cash), considering factors such as risk tolerance, expected returns, and market conditions that would influence their preferences.",
+        "instruction 2": "Determine the appropriate modeling approach for this classification task, such as logistic regression or multinomial logistic regression, as these models can effectively handle categorical outcomes involving multiple choices.",
+        "question": "Suppose that we wished to evaluate the factors that affected the probability that an investor would choose an equity fund rather than a bond fund or a cash investment. Which class of model would be most appropriate?",
+        "choices": [
+            "A logit model",
+            "A multinomial logit",
+            "A tobit model",
+            "An ordered logit model"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the implications of small sample sizes in Monte Carlo simulations, focusing on how such sizes lead to imprecision in estimates of the statistic of interest and greater susceptibility to randomness in the generated data.",
+        "instruction 2": "Evaluate the consequences of small replication numbers on statistical properties, including standard errors and variance, and consider how these relate to the potential for applying variance reduction techniques to improve estimates.",
+        "question": "Which of the following statements will be true if the number of replications used in a Monte Carlo study is small?\n\ni) The statistic of interest may be estimated imprecisely\n\n\nii) The results may be affected by unrepresentative combinations of random draws\n\n\niii) The standard errors on the estimated quantities may be unacceptably large\n\n\niv) Variance reduction techniques can be used to reduce the standard errors",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iv) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify a key disadvantage of the random effects approach in panel data modeling, focusing on aspects such as potential bias in estimates due to unobserved heterogeneity and the assumption that individual-specific effects are uncorrelated with explanatory variables.",
+        "instruction 2": "Examine how this disadvantage compares to other approaches, such as fixed effects models, and consider the implications of these methodological differences on the reliability and validity of the estimated results.",
+        "question": "Which of the following is a disadvantage of the random effects approach to estimating a panel model?",
+        "choices": [
+            "The approach may not be valid if the composite error term is correlated with one or more of the explanatory variables",
+            "The number of parameters to estimate may be large, resulting in a loss of degrees of freedom",
+            "The random effects approach can only capture cross-sectional heterogeneity and not temporal variation in the dependent variable.",
+            "All of (a) to (c) are potential disadvantages of the random effects approach."
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze each option provided to determine how it may contribute to autocorrelation in residuals. Focus on the relationship between the dependent and independent variables and the influence of omitted variables or outliers on the residuals' independence.",
+        "instruction 2": "Evaluate the concepts of autocorrelation in the context of regression analysis, considering how the time-series nature of the data or the characteristics of the model may impact the residuals' behavior, specifically in relation to the given statements.",
+        "question": "Which of the following could result in autocorrelated residuals?\n\ni) Slowness of response of the dependent variable to changes in the values of the independent variables\n\nii) Over-reactions of the dependent variable to changes in the independent variables\n\niii) Omission of relevant explanatory variables that are autocorrelated\n\niv) Outliers in the data",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Evaluate each statement by referencing the properties and interpretation of the autocorrelation function (acf) and partial autocorrelation function (pacf) in time series analysis, identifying common challenges and misinterpretations associated with their practical use.",
+        "instruction 2": "Analyze the implications of information criteria on model selection, comparing their utility to acf and pacf in determining optimal model orders, and clarify the conditions under which acf and pacf may not provide unique solutions.",
+        "question": "Which of the following statements are true concerning the acf and pacf?\n\n(i) The acf and pacf are often hard to interpret in practice\n\n(ii) The acf and pacf can be difficult to calculate for some data sets\n\n(iii) Information criteria represent an alternative approach to model order determination\n\n(iv) If applied correctly, the acf and pacf will always deliver unique model selections",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the definitions and key properties of a weakly stationary process, noting the importance of its mean, variance, autocovariance, and probability distribution being constant over time.",
+        "instruction 2": "Evaluate each condition (i, ii, iii, iv) against the requirements of weak stationarity to determine which are essential, considering that the lack of any one of these conditions could prevent a series from being classified as weakly stationary.",
+        "question": "Which of the following conditions are necessary for a series to be classifiable as a weakly stationary process?\n\n(i) It must have a constant mean\n\n(ii) It must have a constant variance\n\n(iii) It must have constant autocovariances for given lags\n\n(iv) It must have a constant probability distribution",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the components of the equation, identifying 'y_{it}' as the dependent variable, 'alpha' as the constant term, 'beta_{it}' as an independent variable possibly varying with both time and individual entities, 'mu_i' as an individual-specific effect, and 'nu_{it}' as the error term, to classify the model type.",
+        "instruction 2": "Determine whether the presence of individual-specific effects ('mu_i') leads to the classification of the model as a panel data model, and evaluate if the structure indicates a fixed effects or random effects model based on the assumptions regarding the relationship between 'mu_i' and the independent variables.",
+        "question": "Consider the following equation and determine the class of model that it best represents\n\n$y_{it} = \\alpha + \\beta_{it} + \\mu_i + \\nu_{it}$",
+        "choices": [
+            "An entity fixed effects model",
+            "A time fixed effects model",
+            "A random effects model",
+            "A pure time series model"
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify what the Dickey-Fuller test is, including its purpose in determining the presence of a unit root in a time series dataset, and outline the significance of the test statistic values as they relate to hypothesis testing.",
+        "instruction 2": "Consider how the sample size of 1000 observations may impact the critical values and interpretation of the Dickey-Fuller test statistic, along with any assumptions or conditions that should be taken into account when analyzing the results.",
+        "question": "Note that statistical tables are not necessary to answer this question. For a sample of 1000 observations, the Dickey-Fuller test statistic values are",
+        "choices": [
+            "More negative than (i.e. bigger in absolute value than) those in the left hand tail of a normal distribution",
+            "Less negative than (i.e. smaller in absolute value than) those in the left hand tail of a normal distribution",
+            "Obtained from an analytical formula for the density of the Dickey-Fuller distribution",
+            "More negative (i.e. bigger in absolute value) for a 10% size of test than a 5% test."
+        ],
+        "subject": "econometrics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the definitions of key statistical concepts such as significance level, size of the test, power of the test, and rejection region. This will help in determining which of the statements are accurate based on these definitions.",
+        "instruction 2": "Analyze each statement individually in the context of a two-tailed hypothesis test using a 5% significance level, paying particular attention to the distribution of the rejection regions and how they are divided between the two tails.",
+        "question": "Suppose that a hypothesis test is conducted using a 5% significance level. Which of the following statements are correct?\n\n(i) The significance level is equal to the size of the test\n\n(ii) The significance level is equal to the power of the test\n\n(iii) 2.5% of the total distribution will be in each tail rejection region for a 2-sided test\n\n(iv) 5% of the total distribution will be in each tail rejection region for a 2-sided test.",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Review the key limitations of the Dickey-Fuller and Engle-Granger methods when assessing cointegrated variables, particularly focusing on issues such as the potential for bias or inefficiency in estimating long-run relationships, as well as the problems related to small sample sizes.",
+        "instruction 2": "Examine how the Engle-Yoo procedure specifically addresses these criticisms by providing a more robust estimation approach, including the use of alternative statistical methods or enhancements in the treatment of cointegration, making comparisons to the original methodologies.",
+        "question": "Which one of the following criticisms of the Dickey-Fuller/Engle-Granger approach to dealing with cointegrated variables is overcome by the Engle-Yoo (EY) procedure?",
+        "choices": [
+            "In the context of small samples, Dickey Fuller tests are prone to conclude that there is a unit root in a series when there is not",
+            "The Engle-Granger (EG) approach can only detect up to one cointegrating relationship even though there could be more than one",
+            "The variables are treated asymmetrically in the cointegrating tests",
+            "It is not possible to perform tests about the cointegrating relationship"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Apply the properties of the MA(1) process to calculate the autocovariance function, specifically recognizing that the autocovariance at lag 1 can be derived from the formula for an MA(1) process, which is defined by the moving average coefficient.",
+        "instruction 2": "Utilize the relationship that the autocovariance at lag 1 (γ(1)) for an MA(1) process is equal to the moving average coefficient multiplied by the variance of the white noise process, ensuring to include any necessary assumptions about the variance of the error term.",
+        "question": "Consider a series that follows an MA(1) with zero mean and a moving average coefficient of 0.4. What is the value of the autocovariance at lag 1?",
+        "choices": [
+            "0.4",
+            "1",
+            "0.34",
+            "It is not possible to determine the value of the autocovariances without knowing the disturbance variance."
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the characteristics of over-identified systems of simultaneous equations to determine the appropriate estimation techniques that can effectively address potential endogeneity issues and ensure consistent parameter estimation.",
+        "instruction 2": "Evaluate each provided estimation technique (OLS, ILS, 2SLS, IV) for their applicability to simultaneous equation modeling, focusing on their assumptions, strengths, and limitations in the context of over-identification.",
+        "question": "Which of the following estimation techniques are available for the estimation of over-identified systems of simultaneous equations?\n\ni) OLS\n\nii) ILS\n\niii) 2SLS\n\niv) IV",
+        "choices": [
+            "(iii) only",
+            "(iii) and (iv) only",
+            "(ii), (iii), and (iv) only",
+            "(i), (ii), (iii) and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define Type II error within the context of statistical hypothesis testing, ensuring to clarify that it occurs when a false null hypothesis is not rejected, thus failing to identify an effect that is actually present.",
+        "instruction 2": "Provide examples or scenarios where Type II error might occur in practical applications, such as medical testing or social science research, to illustrate the implications of this type of error on decision-making processes.",
+        "question": "Which one of the following statements best describes a Type II error?",
+        "choices": [
+            "It is the probability of incorrectly rejecting the null hypothesis",
+            "It is equivalent to the power of the test",
+            "It is equivalent to the size of the test",
+            "It is the probability of failing to reject a null hypothesis that was wrong"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the statistical method used to calculate the confidence interval for the intercept term in the specified model, focusing on understanding the underlying assumptions and parameters that influence the intercept.",
+        "instruction 2": "Gather relevant output data from the statistical analysis, such as the estimate of the intercept, its standard error, and critical values from the t-distribution, to accurately compute the 95% two-sided confidence interval.",
+        "question": "Which one of the following would be the most appropriate as a 95% (two-sided) confidence interval for the intercept term of the model given in question 21?",
+        "choices": [
+            "(-4.79,2.19)",
+            "(-4.16,4.16)",
+            "(-1.98,1.98)",
+            "(-5.46,2.86)"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and analyze the specific definitions of a stationary process in time series analysis, focusing on the statistical properties that must remain constant over time, such as mean, variance, and autocovariance.",
+        "instruction 2": "Evaluate each of the provided characteristics against the criteria for stationarity, noting how each trait contributes to the overall definition and whether it holds true under the requirements set for a stationary process.",
+        "question": "Which of the following are characteristics of a stationary process?\n\ni) It crosses its mean value frequently\n\n\nii) It has constant mean and variance\n\n\niii) It contains no trend component\n\n\niv) It will be stationary in first difference form",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific conditions in the context of the VAR model that indicate the presence of bi-directional feedback, focusing on the relationships between the variables involved and their lagged effects as established in equation 16.",
+        "instruction 2": "Analyze the significance of the statistical tests used to evaluate bi-directional feedback within the VAR framework, such as Granger causality tests, and determine the criteria that must be satisfied to confirm the feedback relationship.",
+        "question": "Consider again the VAR model of equation 16. Which of the following conditions must hold for it to be said that there is bi-directional feedback?",
+        "choices": [
+            "The b and d coefficients significant and the a and c coefficients insignificant",
+            "The a and c coefficients significant and the b and d coefficients insignificant",
+            "The a and c coefficients significant",
+            "The b and d coefficients significant"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the standard error for each autocorrelation coefficient based on the sample size (n = 250) using the formula SE = sqrt(1/n), and then determine the critical value for significance at the 5% level, which corresponds to a z-score of approximately 1.96.",
+        "instruction 2": "Compare each autocorrelation coefficient to the critical value determined for significance; if the absolute value of the coefficient is greater than the product of the critical value and the standard error, then it is considered statistically significant.",
+        "question": "Consider the following sample autocorrelation estimates obtained using 250 data points:\n\n1) Lag 1 2 3\n\n2) Coefficient 0.2 -0.15 -0.1\n\n3) Assuming that the coefficients are approximately normally distributed, which of the coefficients are statistically significant at the 5% level?",
+        "choices": [
+            "1 only",
+            "1 and 2 only",
+            "1, 2 and 3 only",
+            "It is not possible to determine the statistical significance since no standard errors have been given"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the different statistical tests or models that utilize goodness of fit statistics, understanding that they evaluate how well a theoretical distribution or model corresponds to observed data.",
+        "instruction 2": "Explore the context in which goodness of fit statistics are applied, such as in hypothesis testing or model validation, and consider the specific criteria used to determine whether a model is an appropriate representation of the data.",
+        "question": "Which one of the following is examined by looking at a goodness of fit statistic?",
+        "choices": [
+            "How well the population regression function fits the data",
+            "How well the sample regression function fits the population regression function",
+            "How well the sample regression function fits the data",
+            "How well the population regression function fits the sample regression function."
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the definitions and principles of antithetic variates in the context of Monte Carlo simulations, focusing specifically on how they are intended to reduce variance and improve the efficiency of the simulation results.",
+        "instruction 2": "Evaluate each statement for its accuracy based on the mathematical and theoretical foundations of antithetic variates, ensuring to verify whether they correctly describe the methodology and implications of using antithetic variates in a simulation.",
+        "question": "Which of the following statements are correct concerning the use of antithetic variates as part of a Monte Carlo experiment?\n\ni) Antithetic variates work by reducing the number of replications required to cover the whole probability space\n\nii) Antithetic variates involve employing a similar variable to that used in the simulation, but whose properties are known analytically\n\niii) Antithetic variates involve using the negative of each of the random draws and repeating the experiment using those values as the draws\n\niv) Antithetic variates involve taking one over each of the random draws and repeating the experiment using those values as the draws",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iv) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the various alternative forecast accuracy measures commonly used in forecasting, such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and others, to understand the context in which these measures are evaluated and compared.",
+        "instruction 2": "Evaluate the characteristics and applicability of each accuracy measure in relation to forecasting objectives, considering factors like sensitivity to outliers, ease of interpretation, and the types of data being analyzed.",
+        "question": "Which one of the following statements is true concerning alternative forecast accuracy measures?",
+        "choices": [
+            "Mean squared error is usually highly correlated with trading rule profitability",
+            "Mean absolute error provides a quadratic loss function",
+            "Mean absolute percentage error is a useful measure for evaluating asset return forecasts",
+            "Mean squared error penalises large forecast errors disproportionately more than small forecast errors"
+        ],
+        "subject": "econometrics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Evaluate the limitations of standard GARCH models specifically in relation to the criticisms provided, identifying which of these issues are directly addressed by EGARCH models, such as the ability to handle leverage effects and asymmetric responses to shocks in volatility.",
+        "instruction 2": "Consider the underlying mechanics and mathematical formulations of EGARCH models compared to GARCH models to understand how they resolve the highlighted criticisms, particularly focusing on the modeling of volatility dynamics and their impact on return distributions.",
+        "question": "Which of the following criticisms of standard (\"plain vanilla\") GARCH models can be overcome by EGARCH models?\n\ni) Estimated coefficient values from GARCH models may be negative\n\nii) GARCH models cannot account for leverage effects\n\niii) The responsiveness of future volatility to positive and negative shocks is symmetric under a GARCH formulation\n\niv) GARCH models cannot allow for a feedback from the volatility to the returns",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the findings of the Jensen-type regression to understand what it means for a fund manager to 'beat the market'. This requires a clear definition of market efficiency and the implications of having only 3 out of 100 firms performing significantly better than expected.",
+        "instruction 2": "Evaluate the concepts of statistical significance and sample size in the context of the results. Consider whether the slight number of outperformers can constitute sufficient evidence to claim market inefficiency, taking into account potential biases and other factors that may have influenced the results.",
+        "question": "Suppose that 100 separate firms were tested to determine how many of them \"beat the market\" using a Jensen-type regression, and it is found that 3 fund managers significantly do so. Does this suggest prima facie evidence for stock market inefficiency?",
+        "choices": [
+            "Yes",
+            "No",
+            "In order to answer this question, you would need to test every fund manager trading in that market",
+            "There is insufficient information given in the question to draw a conclusion about market efficiency."
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze each statement regarding the advantages of panel data and determine its accuracy by comparing it against established statistical principles, ensuring to consider how panel data specifically enhances the robustness of econometric analysis.",
+        "instruction 2": "Evaluate how the unique structure of panel data, which combines both cross-sectional and time-series dimensions, allows for more complex modeling, drawing comparisons with the limitations of using purely cross-sectional or purely time-series data.",
+        "question": "Which of the following are advantages of the use of panel data over pure cross-sectional or pure time-series modelling?\n\n(i) The use of panel data can increase the number of degrees of freedom and therefore the power of tests\n\n(ii) The use of panel data allows the average value of the dependent variable to vary either cross-sectionally or over time or both\n\n(iii) The use of panel data enables the researcher allows the estimated relationship between the independent and dependent variables to vary either cross-sectionally or over time or both",
+        "choices": [
+            "(i) only",
+            "(i) and (ii) only",
+            "(ii) only",
+            "(i), (ii), and (iii)"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Understand the context of the Engle-Granger test, specifically that it is used to determine whether a set of time series variables are cointegrated. Identify that the null hypothesis typically states that the residuals from the regression do not contain a unit root, which implies that the series are not cointegrated.",
+        "instruction 2": "Explore the implications of rejecting or failing to reject the null hypothesis in terms of cointegration, focusing on what this means for the long-term relationship between the tested time series variables and how it informs further econometric analysis.",
+        "question": "If the Engle-Granger test is applied to the residuals of a potentially cointegrating regression, what would be the interpretation of the null hypothesis?",
+        "choices": [
+            "The variables are cointegrated",
+            "The variables are not cointegrated",
+            "Both variables are stationary",
+            "Both variables are non-stationary"
+        ],
+        "subject": "econometrics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the definitions and properties of the autocorrelation function (acf) and the partial autocorrelation function (pacf) to understand their behaviors at different lags for various time series models, ensuring to clarify their definitions and roles in identifying patterns in time series data.",
+        "instruction 2": "Evaluate each statement independently by applying theoretical knowledge of the acf and pacf for specific models (MA, AR) to determine their validity, referencing established properties such as those pertaining to AR and MA processes in time series analysis.",
+        "question": "Which of the following statements are true concerning the autocorrelation function (acf) and partial autocorrelation function (pacf)?\n\ni) The acf and pacf will always be identical at lag one whatever the model\n\nii) The pacf for an MA(q) model will in general be non-zero beyond lag q\n\niii) The pacf for an AR(p) model will be zero beyond lag p\n\niv) The acf and pacf will be the same at lag two for an MA(1) model",
+        "choices": [
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "subject": "econometrics",
+        "answer": 2
+    }
+]

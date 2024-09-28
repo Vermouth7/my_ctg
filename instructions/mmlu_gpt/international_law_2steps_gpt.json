@@ -1,0 +1,1575 @@
+[
+    {
+        "instruction 1": "Identify the legal principles that determine jurisdiction over crimes committed on board vessels, focusing on factors such as the flag state of the vessel, the nationality of the crew and passengers, and international maritime law.",
+        "instruction 2": "Examine relevant maritime conventions and treaties that outline jurisdictional authority, such as the United Nations Convention on the Law of the Sea (UNCLOS), to establish which state typically has the right to exercise jurisdiction in these cases.",
+        "question": "Which State ordinarily exercises jurisdiction in respect of crimes committed on board vessels?",
+        "choices": [
+            "The coastal State",
+            "The flag State",
+            "All States enjoy such jurisdiction",
+            "The International Tribunal for the Law of the Sea"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define justiciability by outlining the conditions under which a matter is capable of being examined and decided by a court of law, including its relation to legal rights and judicial review.",
+        "instruction 2": "Explore the broader implications of justiciability in relation to the separation of powers, considering how it affects the ability of courts to intervene in governmental or administrative actions.",
+        "question": "What is the meaning of justiciability?",
+        "choices": [
+            "Justiciability refers to the possibility of enforcement of a particular right by the relevant rights holders",
+            "Justiciability refers to the just nature or cause of a particular right",
+            "Justiciability refers to the courts' assessment of whether the non-enforcement of a particular rights conforms to principles of justice",
+            "Justiciability refers to the obligation of a State to enforce a particular Right"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the core principles of Responsibility to Protect (R2P) and differentiate them from those of humanitarian intervention, focusing on the R2P's emphasis on state sovereignty, international community obligations, and the legal frameworks supporting intervention without prior consent of the state.",
+        "instruction 2": "Analyze historical cases where R2P was invoked versus traditional humanitarian intervention, considering the motivations, justifications, and outcomes of each approach to highlight their distinctions in practice and theory.",
+        "question": "In what way is Responsibility to Protect (R2P) different from humanitarian intervention?",
+        "choices": [
+            "R2P is essentially the same as humanitarian intervention",
+            "R2P requires a call for assistance by the State in distress",
+            "R2P is less arbitrary because it requires some UNSC input and its primary objective is to avert a humanitarian crisis",
+            "R2P always involves armed force, whereas humanitarian intervention does not"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the 'Lotus principle' by researching its origins, context, and applications across various fields such as psychology, philosophy, or business, ensuring to provide a nuanced understanding of its implications.",
+        "instruction 2": "Analyze how the 'Lotus principle' compares or contrasts with other similar concepts or principles, discussing its unique attributes and how it may influence thought or action in its relevant domains.",
+        "question": "What is the 'Lotus principle'?",
+        "choices": [
+            "The so-called Lotus principle is that 'restrictions upon the independence of States cannot therefore be presumed', or, as it has been construed, 'whatever is not prohibited is permitted in international law'",
+            "The so-called Lotus principle is that States are free to choose the Court that they will submit their disputes",
+            "The so-called Lotus principle is that States are not prohibited to assert their enforcement jurisdiction on the high seas",
+            "The so-called Lotus principle is that customary law derives from the combination of State practice and opinio juris"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the essential features of the UK Constitution, emphasizing its unwritten nature, flexibility, and the sources from which it derives its authority, such as statutes, conventions, and legal precedents.",
+        "instruction 2": "Differentiate the UK Constitution from other types of constitutions, such as codified constitutions, by examining its historical development and the role of parliamentary sovereignty within the UK legal framework.",
+        "question": "Which of these statements best describes the UK Constitution?",
+        "choices": [
+            "The UK Constitution's only source of power is that of the sovereign",
+            "The UK Constitution gives the judiciary the power to overturn acts of parliament",
+            "The UK Constitution is uncodified and can be found in a number of sources",
+            "The UK Constitution is based on a Bill of Rights"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the principle of peaceful settlement of disputes within international law, focusing on the obligation of states to resolve their conflicts through diplomatic means rather than resorting to force, and any relevant treaties or conventions that outline these obligations.",
+        "instruction 2": "Examine how this obligation affects state behavior, including the reliance on negotiation, mediation, arbitration, or adjudication in international disputes, and consider any implications for global stability and international relations.",
+        "question": "What is the obligation of the peaceful settlement of disputes?",
+        "choices": [
+            "It is an obligation of result, that is, States are under a strict obligation to resolve their disputes as soon as possible",
+            "It is an obligation of conduct, ie States have an obligation to try to resolve their disputes through peaceful means. This does not entail an obligation to resolve their disputes",
+            "It is a peremptory norm of international law and all States have a legal interest to safeguard its application in any given dispute",
+            "It is an obligation which concerns solely international courts and tribunals"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the context and content of the statements being analyzed to identify their truth values; this may involve understanding definitions, factual accuracy, and logical consistency in comparison to the other options.",
+        "instruction 2": "Evaluate each statement individually while cross-referencing with credible sources or established knowledge to determine which statement does not align with factual information or is misleading.",
+        "question": "Which one of the following statements is false?",
+        "choices": [
+            "Protocol 14 changed the committee that hears admissibility cases from a three judge to a one judge formation",
+            "Protocol 14 added a new criterion for admissibility",
+            "Protocol 14 abolished the Commission of Human Rights",
+            "Protocol 14 extended the judicial term of office for the European Court of Human Rights"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific definitions and criteria outlined in the United Nations Convention on the Law of the Sea (UNCLOS) that classify what constitutes a 'rock,' focusing on attributes such as size, permanence, and utility in supporting human habitation.",
+        "instruction 2": "Analyze the implications of being classified as a 'rock' under UNCLOS, particularly how this classification affects territorial claims, maritime boundaries, and the rights associated with resource exploitation in surrounding waters.",
+        "question": "Which is a 'rock' under the UN Convention of the Law of the Sea (UNCLOS)?",
+        "choices": [
+            "Rocks are the islands that are less than 10 square miles",
+            "Rocks are the islands that do not have any maritime zone",
+            "Rocks are the islands which cannot sustain human habitation or economic life of their own and according to article 121 (3) have no Exclusive Economic Zone or continental shelf.",
+            "Rocks are the small islands that can sustain human habitation"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define 'international legal personality' by exploring its characteristics and the criteria that entities must meet to possess such status, including the capacity to enter into international relationships and obligations.",
+        "instruction 2": "Examine examples of entities with international legal personality, such as states, international organizations, and in certain contexts, non-state actors, to illustrate how this concept applies in international law.",
+        "question": "What is the meaning of international legal personality?",
+        "choices": [
+            "It means that only States are considered subjects of international law",
+            "It means having rights and duties under international law and a capacity to enforce these by or against the relevant actor",
+            "It means that an entity may challenge the authority of States",
+            "It is a term that is meant to denote legal, as opposed, to physical persons under international law"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify existing human rights mechanisms and categorize them based on whether they are established through treaties or other means, focusing on the distinction between treaty-based mechanisms, which typically involve legally binding agreements among states, and non-treaty mechanisms, such as voluntary guidelines or declarations.",
+        "instruction 2": "Evaluate the examples provided in the question to determine which of them explicitly states a treaty basis or follows the framework of international treaties, ensuring to cross-reference with credible sources detailing human rights treaties.",
+        "question": "Which of the following is a treaty-based human rights mechanism?",
+        "choices": [
+            "The UN Human Rights Committee",
+            "The UN Human Rights Council",
+            "The UN Universal Periodic Review",
+            "The UN special mandates"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key themes and principles highlighted in the UN Vienna Declaration of 1993, focusing on human rights, the importance of non-discrimination, and the promotion of fundamental freedoms.",
+        "instruction 2": "Examine the historical context within which the declaration was made, considering its significance in international law and how it reflects global commitments to human rights and the challenges faced by various communities at that time.",
+        "question": "The UN Vienna Declaration 1993 declared that",
+        "choices": [
+            "Third generation rights are of primary importance",
+            "Civil and political rights are core rights",
+            "All types of rights are indivisible, interrelated and interdependent",
+            "Social and economic rights are non-enforceable"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the concept of legal immunity as it pertains to international organizations, identifying its principal sources such as treaties, customary international law, and specific legislation governing the organization’s operations.",
+        "instruction 2": "Consider the implications of this immunity on the accountability and jurisdiction over IOs, exploring how this legal protection affects their interactions with member states and other legal entities.",
+        "question": "What is the principal source of immunity in respect of international organisations (IOs)?",
+        "choices": [
+            "The principal source of immunity for IOs is the UN Charter",
+            "The principal sources of immunity for IOs are headquarters agreements and multilateral treaties providing specific immunities",
+            "The principal source of immunity for IOs is customary law",
+            "The principal source of immunity for IOs is the Vienna Convention on Diplomatic Immunities"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the principles of international law that address the status of states, focusing on concepts such as sovereignty, equal sovereignty, and the principle of non-intervention to determine the nature of any hierarchy or prioritization among states.",
+        "instruction 2": "Analyze specific treaties, conventions, or case law that may establish different levels of obligations or rights among states, and assess how power dynamics, influence of international organizations, and compliance mechanisms may also inform this hierarchy.",
+        "question": "Is there any hierarchy or priority among States under international law?",
+        "choices": [
+            "Yes, the States that were the founding members of the United Nations are vested with more powers and authority",
+            "Yes, the Permanent Five Members of the UN Security Council (UK, USA, France, Russia, China) are in a superior position than the other States",
+            "No, all States are considered equal as sovereign States (the principle of sovereign equality, enshrined in article 2, para 1 UN Charter)",
+            "Whether there will be any hierarchy among States is a matter of each international organization to decide"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the declaratory theory of recognition within the context of international law, emphasizing its principles and how it contrasts with constitutive theories of recognition that propose recognition as a factor in a state's existence.",
+        "instruction 2": "Examine the implications of the declaratory theory in practical terms, such as how it influences state behavior, diplomatic recognition processes, and the role of international organizations in validating statehood.",
+        "question": "What is the declaratory theory of recognition?",
+        "choices": [
+            "Recognition is determinate for the existence of statehood",
+            "Recognition is simply declaratory of statehood but not determinate",
+            "Recognition is merely a declaration of interest",
+            "Recognition requires a declaration by the newly-created State"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept of 'standard-setting' within the context of human rights diplomacy, highlighting its purpose in establishing norms, guidelines, and frameworks that countries and organizations are expected to follow in the promotion and protection of human rights.",
+        "instruction 2": "Examine the role of international treaties, conventions, and monitoring mechanisms in the standard-setting process, considering how these tools contribute to accountability and the advancement of human rights globally.",
+        "question": "What is the function of \"standard-setting in human rights diplomacy?",
+        "choices": [
+            "Standard-setting means putting forward binding legal standards",
+            "Standard-setting means merely proposing binding legal standards",
+            "Standard-setting means putting forward non-binding legal standards",
+            "Standard-setting means setting certain standards of conduct in human rights treaties"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the Kadi judgment for its implications on the relationship between EU law and international obligations, specifically focusing on how it addresses the incorporation of UN Security Council resolutions into EU legislation and the resulting legal precedent.",
+        "instruction 2": "Analyze the broader impact of the Kadi judgment on the principles of human rights and rule of law within the context of counter-terrorism measures, considering how it alters the balance between compliance with international mandates and the protection of individual rights.",
+        "question": "What dimension did the Kadi judgment introduce with respect to the incorporation of UN Security Council resolutions?",
+        "choices": [
+            "The Kadi judgment demanded that UNSC resolutions are construed in accordance with human rights",
+            "The Kadi judgment demanded that all UNSC resolutions be incorporated without any further implementing legislation",
+            "The Kadi judgment required that important UNSC resolutions be transformed and not merely incorporated",
+            "The Kadi judgment claimed that UNSC resolutions are not binding if they violate human rights"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the historical context and significance of the Magna Carta, focusing on its role in the limitation of royal power and establishment of legal rights, to provide a comprehensive understanding of its importance.",
+        "instruction 2": "Analyze the specific provisions and key articles of the Magna Carta that contributed to the development of constitutional law and democratic principles, ensuring to highlight its lasting impact on legal systems.",
+        "question": "Magna Carta was",
+        "choices": [
+            "An agreement in 1689 which guaranteed freedom of speech in Parliament",
+            "An agreement in 1215 between the King and his barons, which guaranteed certain protections for subjects",
+            "A constitutional document in the 19th century guaranteeing the right to vote",
+            "A document setting a complete Bill of Rights for England"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the definition of international legal personality and identify the criteria needed for entities, such as individuals, states, and international organizations, to possess it, considering their rights and duties under international law.",
+        "instruction 2": "Analyze the differences in treatment and recognition of individuals versus states and organizations in international law, noting any legal precedents or principles that illustrate the limitations of individual rights compared to those of states and organizations.",
+        "question": "Do individuals (physical) persons enjoy international legal personality in the same manner as States and international organisations?",
+        "choices": [
+            "Individuals enjoy international legal personality, but this is limited",
+            "Individuals enjoy unlimited international legal personality",
+            "Individuals do not enjoy any international legal personality",
+            "Individuals can only bring claims before international courts"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the various methods of peaceful dispute resolution, such as negotiation, mediation, arbitration, and adjudication, to identify any existing frameworks or theories that may suggest a hierarchy or prioritization among these methods based on effectiveness, context, or situation.",
+        "instruction 2": "Consider the perspectives of international law and organizational policies, such as the United Nations' principles or guidelines, to analyze how these may influence the prioritization of certain dispute resolution methods over others and assess the reasons behind such preferences.",
+        "question": "Is there any hierarchy or priority among the various methods of peaceful settlement of disputes?",
+        "choices": [
+            "Yes, all the political methods (e.g. negotiation, mediation, inquiry, conciliation) should be exhausted prior to resorting to legal methods",
+            "Legal methods prevail over the political methods, since they are binding upon the parties",
+            "There is no hierarchy among these methods and the choice belongs to the disputing States",
+            "It is a matter of an impartial third party to decide which method will have priority over the other"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the context or subject matter regarding the statements being evaluated, so as to understand the criteria that determine the truthfulness of each statement.",
+        "instruction 2": "Evaluate each of the statements against factual information or known principles relevant to the topic, systematically identifying which statement does not align with established facts or is misleading.",
+        "question": "Which of the following statements is false?",
+        "choices": [
+            "In the 1990's it became apparent the European Court of Human Rights had to be reformed because it wasn't examining enough cases",
+            "In the 1990's it became apparent the European Court of Human Rights had to be reformed because the workload had increased",
+            "In the 1990's it became apparent the European Court of Human Rights had to be reformed because it was a part time court that could not process the growing number of complaints",
+            "In the 1990's it became apparent the European Court of Human Rights had to be reformed because of the growth in the number of individuals who could access the Court after the increase in the number of member states"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the concept of proportionality within the context of international law and conflict, specifically focusing on how it relates to the responses available to a victim State in the face of aggression or violations.",
+        "instruction 2": "Analyze the implications of proportionality for the options that a victim State can pursue, considering legal frameworks, ethical considerations, and the potential impact of those actions on international relations and conflict resolution.",
+        "question": "What is the meaning of proportionality in relation to the options available to the victim State?",
+        "choices": [
+            "The victim State may use the same means and intensity of force as the aggressor",
+            "The victim State may use any means to defeat and incapacitate the aggressor",
+            "The victim State may only use such means and force as it is necessary to defeat the aggressor",
+            "The victim State can do nothing without Security Council approval"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of jurisdiction in a geographical context by explaining it in relation to legal authority and governance, and clarify typical boundaries that can demarcate jurisdiction such as countries, states, and municipalities.",
+        "instruction 2": "Examine specific examples of ordinary geographical jurisdictions, such as local, state, and federal levels, while noting any legal limitations or variations that may exist based on different legal systems and areas of law.",
+        "question": "What is the ordinary geographical scope of jurisdiction?",
+        "choices": [
+            "Jurisdiction is ordinarily extra-territorial",
+            "Jurisdiction is ordinarily on the high seas",
+            "Jurisdiction is ordinarily territorial",
+            "Jurisdiction is determined by the location of the offender."
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define what constitutes formal sources of international law, focusing on treaties, customary international law, principles of law recognized by civilized nations, and judicial decisions of international courts as the primary authoritative sources.",
+        "instruction 2": "Explore how each source functions within the legal framework of international law, and consider any relevant examples or landmark cases that illustrate the application of these sources in international legal disputes.",
+        "question": "Which are the formal sources of international law?",
+        "choices": [
+            "Custom, treaties and judicial decisions",
+            "Custom, general principles of law and theory",
+            "Treaties, custom and general principles of law",
+            "Treaties, custom and General Assembly Resolutions"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the legal context in which the baselines are defined under the law of the sea, specifically referencing the United Nations Convention on the Law of the Sea (UNCLOS) and its provisions regarding territorial waters and maritime boundaries.",
+        "instruction 2": "Examine the role of baselines in establishing maritime zones, such as the territorial sea, exclusive economic zone (EEZ), and continental shelf, considering how they influence rights, responsibilities, and jurisdiction over marine resources and navigation.",
+        "question": "What is the purpose of baselines under the law of the sea?",
+        "choices": [
+            "The determination of baselines is used for the measuring of the internal waters of coastal States",
+            "The determination of baselines is instrumental to the establishment of all maritime zones, since they constitute the starting point for measuring the breadth of each zone",
+            "The determination of baselines is instrumental to the safe navigation of vessels on the high seas",
+            "Baselines are drawn only in cases of maritime delimitation between opposing State before an international court or tribunal"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define both conciliation and mediation, emphasizing their distinct processes and roles, including how a conciliator may propose solutions while a mediator facilitates discussion without proposing their own resolutions.",
+        "instruction 2": "Evaluate scenarios in which each method may be preferred, considering factors such as the level of conflict, the relationship between the parties, and the desired outcomes, so that a clear distinction is made in practical applications.",
+        "question": "What is the difference between conciliation and mediation?",
+        "choices": [
+            "Conciliation is the continuation of mediation with the difference that conciliation produces a binding result, while mediation not",
+            "Conciliation is conducted exclusively by representatives of the UN Secretary-General, while mediation may also be conducted by third States' officials",
+            "Mediation is usually conducted by a person appointed with the consent of the parties, while conciliation involves a commission, which proceeds to an impartial examination of the dispute and proposes settlement terms",
+            "Conciliation is a method of dispute settlement pursued only by virtue of a treaty, while mediation may also be on an ad hoc basis"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Review the specific criteria or elements outlined in the Osman test as established by the European Court in the 1998 case, ensuring familiarity with the legal context and interpretation of the positive obligations placed on states.",
+        "instruction 2": "Analyze each provided statement to determine which one does not align with the established criteria of the Osman test, requiring careful consideration of legal terminology and principles that define the obligations under the European Convention on Human Rights.",
+        "question": "In Osman v UK (1998), the European Court laid down a test, which can be used to apply a general positive obligation on a state. Which of the following statements is not part of the Osman test?",
+        "choices": [
+            "The risk must emanate from a state agent",
+            "If a real and imminent risk (of death/harm)",
+            "A state should take reasonable steps to prevent death/harm occurring",
+            "A state knows or ought to have known"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the types of entities that have the legal standing to request an advisory opinion from the International Court of Justice (ICJ), such as member states of the United Nations and certain international organizations.",
+        "instruction 2": "Examine the procedures and conditions under which these entities can submit their requests, including any limitations specified in the ICJ's statutes or relevant international treaties.",
+        "question": "Who is entitled to request an advisory opinion of the ICJ?",
+        "choices": [
+            "Only the principal organs of the UN may request an advisory opinion (Security Council, General Assembly, ECOSOC, Trusteeship Council, Secretariat)",
+            "All international organizations may request an advisory opinion",
+            "The General Assembly and the Security Council may request advisory opinions on any legal question, as well as 'other organs of the United Nations and specialized agencies, which may at any time be so authorized by the General Assembly, may also request advisory opinions of the Court on legal questions arising within the scope of their activities'",
+            "The principal organs of the UN may request an advisory opinion as well as the State that have been authorized by the General Assembly"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define universal jurisdiction and explain its significance in international law, emphasizing how it allows states to prosecute individuals for serious crimes regardless of where they were committed or the nationality of the perpetrator or victims.",
+        "instruction 2": "Discuss the circumstances under which universal jurisdiction is applied, including examples of specific crimes, such as genocide and war crimes, and outline the challenges and criticisms associated with its implementation in an international context.",
+        "question": "What is the purpose of universal jurisdiction?",
+        "choices": [
+            "Its aim is to establish certain offences as universal",
+            "Its aim is to deter the commission of certain international crimes",
+            "Its aim is to provide jurisdiction to all States in respect of particular crimes",
+            "Its aim is to provide jurisdiction to all States in respect of all international crimes"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the definition of 'acts of State organs' and how international law attributes responsibility to States based on these actions, focusing on the criteria that must be met for an act to be deemed internationally wrongful.",
+        "instruction 2": "Analyze the nuances of State responsibility, including exceptions, limitations, and the distinction between lawful and unlawful acts, in order to determine whether all acts are subject to international responsibility.",
+        "question": "Are all acts of State organs attributed to the State under the law international responsibility?",
+        "choices": [
+            "The conduct of any State organ shall be considered an act of that State, even in the case that this conduct was unauthorized or ultra vires",
+            "Only the conduct of the higher echelons of the government of State shall be attributable to it",
+            "The conduct of any State organs shall be considered an act of that State, provided that it is intra vires",
+            "Only the conduct of the executive branch of the State shall be considered an act of that State."
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Consult the Vienna Convention on the Law of Treaties to extract the formal definition of a treaty, ensuring to analyze the context and criteria laid out by the convention, such as the requirement for treaties to be written agreements between states governed by international law.",
+        "instruction 2": "Examine additional articles within the VCLT that address the formation, interpretation, and validity of treaties to understand the broader legal framework and implications related to what constitutes a treaty.",
+        "question": "What is a 'treaty' according to the Vienna Convention on the Law of Treaties (VCLT)?",
+        "choices": [
+            "Treaties are all agreements concluded between States, international organizations and non-State entities (e.g. corporations)",
+            "Treaties are agreements concluded between States in written form and governed by international law",
+            "Treaties are both the written and oral agreements between States",
+            "Treaties are agreements concluded between States in written form governed either by international or domestic law"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the definitions of jure imperii and jure gestionis in the context of international law, focusing on the characteristics that distinguish state activity performed in a sovereign capacity (jure imperii) from that carried out in a commercial capacity (jure gestionis).",
+        "instruction 2": "Analyze the specific circumstances surrounding the unlawful homicide committed by the minister, considering factors such as the minister's official status, the location of the act, and whether the act was performed in the exercise of governmental authority or in a personal capacity, to determine the appropriate classification under international law.",
+        "question": "Is the unlawful homicide committed by Minister of country X abroad an act jure imperii or jure gestionis?",
+        "choices": [
+            "Such conduct is a public act (jure imperii)",
+            "Such conduct never attracts immunity",
+            "Such conduct is a private act (jure gestionis)",
+            "Such conduct is a public act but is shielded by immunity"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Review the details of the Al-Adsani case, specifically focusing on the legal arguments presented, the parties involved, and the context of the case before the European Court of Human Rights to understand the basis for its decision.",
+        "instruction 2": "Examine the ruling issued by the European Court of Human Rights, including the key points of law that were considered and how they influenced the court's final determination, as well as any implications of the outcome for human rights jurisprudence.",
+        "question": "What was the outcome before the European Court of Human Rights in the Al-Adsani case?",
+        "choices": [
+            "The Court held that the right to a fair trial trumped the privilege of immunity",
+            "The Court held that immunity trumped the right to a fair trial",
+            "The Court held that immunities were not in conflict with the right to a fair trial",
+            "The Court held that human rights considerations prevailed over all other contrary rules of international law, including most immunities"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research the specific recommendations and criteria set forth by the Badinter Commission regarding the recognition of the former Yugoslav republics, highlighting any political, legal, or humanitarian standards that were enforced.",
+        "instruction 2": "Examine the broader context of the Badinter Commission's role in the dissolution of Yugoslavia, including how these criteria played a part in international relations and the implications for statehood recognition.",
+        "question": "What other criteria were imposed by the Badinter Commission on the former Yugoslav republics?",
+        "choices": [
+            "The Commission required a commitment to submit disputes to the ICJ",
+            "The Commission required a change in boundaries",
+            "The Commission required a commitment to human rights and democracy",
+            "The Commission required an exchange of ethnic populations"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the principles and rules of treaty interpretation, focusing on the Vienna Convention on the Law of Treaties and its guidelines for understanding the text, context, and purpose of a treaty.",
+        "instruction 2": "Consider how customary international law, jurisprudence, and the intentions of the state parties can influence the interpretation of treaties, ensuring to analyze examples of case law where applicable.",
+        "question": "How treaties are to be interpreted?",
+        "choices": [
+            "Treaties are to be interpreted in good faith in accordance with the ordinary meaning to be given to the terms of the treaty in their context and in the light of its object and purpose",
+            "Treaties are to be interpreted only in accordance with the ordinary meaning of their terms",
+            "Treaties are to be interpreted in accordance with the intention of the parties, as evidenced in the preparatory works of the treaty",
+            "Treaties are to be interpreted only in light of its object and purpose"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate international maritime law, particularly the conditions under which coastal states may exercise criminal jurisdiction over foreign vessels, including circumstances such as violations of national laws, piracy, or environmental crimes.",
+        "instruction 2": "Examine treaties, conventions, and customary laws that delineate the rights and responsibilities of coastal states regarding enforcement actions, emphasizing the legal justifications that would allow for such jurisdiction in their ports.",
+        "question": "When coastal States do enforce their criminal jurisdiction over foreign vessels in their ports?",
+        "choices": [
+            "Port States generally do not enforce their criminal jurisdiction over crimes that do not infringe their customs laws or disrupt peace and public order.",
+            "Port States enforce their jurisdiction in all cases of delinquent vessels",
+            "Port States enforce their jurisdiction only in respect of very serious crimes, such as drug trafficking",
+            "Port States are not entitled to enforce their jurisdiction over any foreign vessel"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the legal status of UN General Assembly Resolutions within the context of international law, considering whether they are binding or non-binding and how they may influence state behavior and customary international law.",
+        "instruction 2": "Examine specific examples of UN General Assembly Resolutions that have had a significant impact on international law or have been referenced in legal decisions, to illustrate their value as a source of guidance and norm-setting in the international community.",
+        "question": "What is the value of the Resolutions of the UN General Assembly in terms as a 'source' of international law?",
+        "choices": [
+            "GA Resolutions are considered as additional sources of international law and thus binding upon States",
+            "GA Resolutions are equivalent to treaties",
+            "GA Resolutions reflect always customary law",
+            "GA Resolutions are considered as material source, in the sense that they may enunciate statements of customary law"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the principles of international law, particularly the rules surrounding treaties and their binding nature, to determine under what circumstances a treaty may or may not bind third States that are not parties to the agreement.",
+        "instruction 2": "Consider relevant legal precedents and the Vienna Convention on the Law of Treaties to assess the implications of consent, customary international law, and situations like erga omnes obligations, which may affect third States' responsibilities or rights regarding the treaty.",
+        "question": "Do treaties bind third States, ie non-State parties?",
+        "choices": [
+            "Treaties may create only rights for third States",
+            "Treaties create both obligations and rights for third States",
+            "Treaties do no create obligations or rights for third States without their consent",
+            "Treaties do not create any obligations or rights for third States, even when the latter consent."
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the concept of qualified rights in the context of human rights law, identifying the criteria that determine whether a right is considered qualified or unqualified, including limitations that can be justifiably placed on them.",
+        "instruction 2": "Evaluate each article presented in the question by comparing its classification as either a qualified or unqualified right based on established legal standards and international human rights treaties.",
+        "question": "Which of the following articles are not qualified rights?",
+        "choices": [
+            "Article 3",
+            "Article 8",
+            "Article 9",
+            "Article 11"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Explore the philosophical concept of dualism by defining its core premise, which involves the idea that reality consists of two distinct and fundamental substances or realms, often referred to as the mind and body, or the physical and non-physical.",
+        "instruction 2": "Examine the various forms of dualism, such as substance dualism and property dualism, and consider historical contexts and influential philosophers who have contributed to the development and critique of dualistic theories.",
+        "question": "What is dualism?",
+        "choices": [
+            "Dualism suggests that international and domestic law are part of a unified legal system",
+            "Under dualism, international and domestic laws comprise distinct legal Systems",
+            "Dualism suggests that international and domestic law are distinct but equal in hierarchy",
+            "Dualism suggests that international and domestic law are distinct legal systems whereby domestic law always prevails"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define 'act jure imperii' within the context of international law, emphasizing its distinction from private law acts, and discussing its implications in relation to state immunity and sovereign actions.",
+        "instruction 2": "Explore examples of 'act jure imperii' to illustrate how this concept applies in real-world scenarios, including the legal protections afforded to states under international law in the context of their official acts and decisions.",
+        "question": "What is an act jure imperii?",
+        "choices": [
+            "An act is jure imperii when undertaken by an international organisation",
+            "An act is jure imperii when undertaken in an official State capacity",
+            "All acts undertaken by State officials are acts jure imperii",
+            "An act is jure imperii when undertaken by a State corporation"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and define the primary formal sources of international law, such as treaties, customary international law, and general principles of law, to understand their individual roles and interconnections within the legal framework.",
+        "instruction 2": "Analyze how these sources interact with one another, including how treaties may establish binding obligations, while customary laws develop through state practice and recognition, ensuring a comprehensive perspective on their relationship and hierarchy.",
+        "question": "What is the relationship between the formal sources of international law?",
+        "choices": [
+            "There is no hierarchy between the formal sources of international law",
+            "Treaties supersede custom",
+            "Custom supersedes treaties",
+            "General Principles of Law supersede both custom and treaties"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the specific legal and diplomatic implications of UNSC Resolution 678, focusing on how it legitimized military action through a multilateral framework as opposed to the unilateral defenses permitted under Article 51 of the UN Charter, which could lead to challenges in international legitimacy.",
+        "instruction 2": "Analyze the strategic and operational advantages that resulted from UNSC Resolution 678, such as wider international support, coalition building, and the endorsement of military operations by the global community, which contributed to a more unified and effective response to the conflict during the Gulf War.",
+        "question": "What was the particular advantage of UNSC Resolution 678 over a collective defensive action under Article 51 UN Charter during the Gulf War?",
+        "choices": [
+            "Resolution 678 allowed the allies to attack Iraq with nuclear and chemical weapons",
+            "Resolution 678 is narrower than the inherent right of self-defence under Article 51 UN Charter",
+            "Resolution 678 was faster to adopt and negotiate.",
+            "Resolution 678 is broader because it authorised the use of force with respect to any matter threatening the peace and security of the Gulf region."
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the definitions and characteristics of customary law and treaty provisions, noting their roles in international law and how they are formed, to clarify their relationship.",
+        "instruction 2": "Explore specific examples or case studies where customary law has influenced or been incorporated into treaty provisions, highlighting how practices and norms can become legally binding through formal agreements.",
+        "question": "How can customary law be related to treaty provisions?",
+        "choices": [
+            "Treaties may only codify customary law",
+            "Customary law is a different source of international and it cannot be embodied in treaties",
+            "Treaties may 1) codify customary law, 2) 'crystallise' customary law, 3) lead to the emergence of customary law",
+            "Customary law can emerge only from few multilateral treaties"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of state sovereignty, focusing on the characteristics that distinguish a sovereign state, such as the ability to govern itself without external interference and the recognition of its authority by both its citizens and other states.",
+        "instruction 2": "Consider the implications of sovereignty on international relations, including how sovereignty grants a state certain rights and responsibilities, and how it influences the way states interact with one another within the global community.",
+        "question": "What does it mean for a State to be sovereign?",
+        "choices": [
+            "Sovereignty means being recognised by all other States",
+            "Sovereignty means to be able to enter into treaties and join the UN",
+            "Sovereignty means freedom to determine one's own affairs without external interference",
+            "Sovereignty means possessing the right to defend oneself"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define 'functional recognition' by explaining its relevance in various contexts, such as psychology, social sciences, or cognitive science, to clarify the multifaceted nature of the term.",
+        "instruction 2": "Examine examples or applications of functional recognition in real-world scenarios to illustrate its practical implications, ensuring to highlight how it aids in understanding recognition processes in both individuals and systems.",
+        "question": "What is the meaning of functional recognition?",
+        "choices": [
+            "Recognition is a function as opposed to a power",
+            "Recognition is reciprocal between two States",
+            "Recognition is only afforded to particular administrative acts not to the entity's declared statehood",
+            "Recognition is only afforded to the government, not the State"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the 'act of State' doctrine, ensuring to describe its legal implications and how it relates to the principle of state sovereignty within international law, particularly focusing on the circumstances under which a state's acts may not be questioned in a foreign court.",
+        "instruction 2": "Examine the historical context and judicial interpretations of the 'act of State' doctrine, clarifying how it has been applied in various cases and its significance in the relationship between domestic and international law.",
+        "question": "What is the meaning of \"act of State\" doctrine?",
+        "choices": [
+            "The act of State doctrine denotes that all State acts attract immunity",
+            "The act of State doctrine denotes that the assessment as to the existence of an alleged tort committed by a State belongs to the executive and not the courts",
+            "The act of State doctrine denotes that the courts are well placed to assess the existence of an alleged tort committed by the State",
+            "The act of State doctrine is a legal mechanism that allows the courts to provide immunity to public acts of foreign States"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key components that represent the structure of international society, including states, international organizations, and non-governmental actors, and determine how these entities interact and influence global relations.",
+        "instruction 2": "Consider various frameworks and models of international relations, such as realism or constructivism, to illustrate the dynamics of power, norms, and governance within the structure of international society.",
+        "question": "How can the structure of the international society be displayed?",
+        "choices": [
+            "The structure of the international society follows the vertical model of the domestic legal orders",
+            "International society consists of a constellation of sovereign States and other international organizations, which are dispersed in a rather horizontal order of authority",
+            "International society is so anarchical that there is no order of authority, neither vertical nor horizontal",
+            "The structure of the international society resembles the structure of the most powerful nations in the world"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the legal framework governing customary crimes in England, including relevant statutes or legal precedents that may limit their incorporation into English law, focusing on aspects such as jurisdiction, evidentiary standards, and consistency with existing legal principles.",
+        "instruction 2": "Examine the practical implications of incorporating customary crimes, evaluating challenges such as cultural recognition, the potential for conflict with statutory law, and the enforcement mechanisms that may affect the application of customary practices within the English legal system.",
+        "question": "Are there any limitations to the incorporation of customary crimes under English law?",
+        "choices": [
+            "There are no limitations to the incorporation of customary crimes",
+            "Customary crimes must be contained in a multilateral treaty in order to be automatically incorporated",
+            "The courts may freely incorporate customary crimes into the domestic sphere",
+            "The situation is not clear-cut but an act of parliament would most probably be required"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the contiguous zone according to international law, particularly the United Nations Convention on the Law of the Sea (UNCLOS), and outline its spatial relation to the territorial sea, including the specific distance from a nation's baseline.",
+        "instruction 2": "Explain the primary functions of the contiguous zone, such as exercising control for the prevention of infringement of a nation's customs, immigration, and sanitary laws as well as how it may facilitate law enforcement and resource management.",
+        "question": "What is the function of the contiguous zone?",
+        "choices": [
+            "The contiguous zone functions as security zone of the coastal State",
+            "The contiguous zone is a zone, in which the coastal State may explore and exploit its mineral resources",
+            "The contiguous zone is a zone in which the coastal State is permitted to prevent and punish infringements of customs, fiscal, immigration or sanitary laws",
+            "The contiguous zone is a zone in which the coastal State safeguards its archaeological and historical objects"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the various case law developed by the European Court of Human Rights (ECHR) to identify specific situations where the court ruled that the state has a positive obligation to protect individuals, focusing on the legal principles and human rights involved in these cases.",
+        "instruction 2": "Carefully analyze each provided example to determine if it falls within the established rulings of the ECHR regarding the state's obligations, ensuring to contrast it against recognized cases where the court has determined such positive obligations exist.",
+        "question": "Which of the examples below has not been developed by the European Court of Human Rights as a situation where the state has a positive obligation to protect?",
+        "choices": [
+            "When the applicant is in the custody of the state",
+            "Where the state must investigate claims against it",
+            "The development of a legal framework to protect those within the state",
+            "To provide housing for all those homeless within a state"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research the historical context and key cases of the European Court of Human Rights to identify the landmark decision that first articulated the 'margin of appreciation' doctrine, noting its implications for state discretion in upholding human rights.",
+        "instruction 2": "Examine the legal reasoning and principles established in that case, exploring how it has influenced subsequent rulings and interpretations of human rights law by the court.",
+        "question": "Which case was the first to define the meaning of the doctrine of 'margin of appreciation' as applied by the European Court of Human Rights?",
+        "choices": [
+            "Goodwin v UK (2002)",
+            "Airey v Ireland (1979)",
+            "Osman v UK ( 1998)",
+            "Handyside v UK (1976)"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the process for appointing members of the arbitral tribunal, including the relevant governing rules, such as those set by arbitration institutions or applicable international treaties, as well as the qualifications of arbitrators.",
+        "instruction 2": "Consider the roles of the parties involved in the arbitration, including how they might suggest candidates or agree on the appointment, and evaluate any potential frameworks for resolving disputes over the selection of arbitrators.",
+        "question": "How are the members of the arbitral tribunal appointed?",
+        "choices": [
+            "All the members of the arbitral tribunal are appointed by the parties",
+            "All the members of the arbitral tribunal are appointed by the parties",
+            "All the members of the arbitral tribunal are appointed by an impartial third party, such as the president of the ICJ",
+            "All the members of the arbitral tribunal are appointed by the parties from a restricted list of arbitrators"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the definition and characteristics of peremptory norms (jus cogens) in international law, clarifying how these norms establish obligations owed to all states (erga omnes) and whether there are other legal norms or principles that might also create similar obligations.",
+        "instruction 2": "Investigate the broader context of international law to identify any other types of norms, treaties, or customary law that may impose obligations erga omnes, and assess how these compare to peremptory norms in terms of scope and enforcement.",
+        "question": "Are the peremptory norms of international law the only norms that set out obligations erga omnes?",
+        "choices": [
+            "Yes",
+            "No, acts of international organizations also set out such obligations",
+            "No, decisions of international courts also set out such obligations",
+            "No, even though all peremptory norms set out obligations erga omnes, the latter may also spring from treaties regulating objective regimes or unilateral acts"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the definition of the constitutive theory of recognition by examining its foundational principles and philosophical underpinnings, including how it relates to self-identity and social recognition within the context of interpersonal and societal relationships.",
+        "instruction 2": "Explore the implications of the constitutive theory of recognition on various disciplines such as political theory, sociology, and ethics, while illustrating its relevance to contemporary discussions on identity, agency, and social justice.",
+        "question": "What is the constitutive theory of recognition?",
+        "choices": [
+            "Recognition is determinative of statehood",
+            "Recognition requires constitutional approval by third nations",
+            "Recognition requires that the constitution of the recognised State includes sufficient human rights guarantees",
+            "Countries wishing to be recognised must possess a valid constitution"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key components and processes involved in the enforcement mechanism of the International Covenant on Civil and Political Rights, paying particular attention to the roles of state parties, the Human Rights Committee, and the procedure for individual complaints.",
+        "instruction 2": "Explore the implications of the enforcement mechanism, including how effective it is in ensuring compliance by state parties with their obligations under the Covenant and any limitations or challenges that may arise in its implementation.",
+        "question": "The enforcement mechanism of the International Covenant on Civil and Political Rights (and Protocol) consists of",
+        "choices": [
+            "A reporting mechanism only",
+            "Judgment of an international tribunal",
+            "Right to individual petition only",
+            "A reporting mechanism and right to individual petition"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the definition and scope of universal jurisdiction in international law, particularly in relation to piracy, to understand whether laws governing piracy cases can be applied universally regardless of the location or nationality of the involved parties.",
+        "instruction 2": "Investigate relevant international treaties, conventions, or legal precedents that address piracy and their stipulations regarding jurisdiction to assess how they contribute to the application of universal jurisdiction in piracy cases.",
+        "question": "Is piracy under international (jure gentium) law subject to universal jurisdiction?",
+        "choices": [
+            "Piracy jure gentium is subject to flag State jurisdiction",
+            "Piracy jure gentium is subject to universal jurisdiction",
+            "Piracy jure gentium is subject to port State jurisdiction",
+            "Piracy jure gentium is subject to nationality-based jurisdiction"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define self-executing treaties by explaining their characteristics, such as the ability to have direct legal effect without the need for additional domestic legislation, and how they differ from non-self-executing treaties.",
+        "instruction 2": "Examine examples of self-executing treaties in practice, highlighting cases where these treaties have been directly applied in domestic courts to illustrate their practical implications and operational framework.",
+        "question": "What are self-executing treaties?",
+        "choices": [
+            "Self-executing treaties are adopted only by the executive",
+            "Self-executive treaties are clear and precise enough so as not to require any further implementing measures",
+            "Self-executing rely on implementing measures stipulated in the treaty Itself",
+            "Self-executing treaties follow the doctrine of transformation"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the case law and judgments of the International Court of Justice (ICJ) to understand its stance on the concept of armed attacks, particularly focusing on how it has interpreted instances of force that might not qualify as a singular armed attack but could cumulatively amount to one.",
+        "instruction 2": "Analyze the legal definitions and precedents surrounding the use of force in international law, considering how the ICJ's interpretation aligns or conflicts with established principles regarding state aggression and proportionality in the context of cumulative acts of armed force.",
+        "question": "Is the ICJ hostile to the idea that an armed attack may arise through a series of lower intensity, yet cumulative, instances of armed force?",
+        "choices": [
+            "The ICJ was not hostile to the accumulation theory",
+            "The concept of an armed attack refers to a single attack, not multiple smaller instances of armed force",
+            "In the Nicaragua case the ICJ dismissed the accumulation theory",
+            "The ICJ has never addressed this issue"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the structure of international law and the various types of international courts and tribunals, noting any hierarchical relationships among them, such as how decisions from higher courts may influence or bind lower courts.",
+        "instruction 2": "Identify and analyze specific cases or treaties that establish precedence or priority among international courts, and consider how jurisdictional issues or the scope of authority impact the prioritization of cases.",
+        "question": "Is there any priority among international courts and tribunals?",
+        "choices": [
+            "According to the lis pendens rule, the court or the tribunal that seizes first the dispute has exclusive jurisdiction to adjudicate it",
+            "The International Court of Justice has by definition priority over any other court or tribunal",
+            "Since there is no lis pendens rule in international law and all depends on the consent of the parties to a dispute, there is no priority or hierarchy among international courts and tribunals",
+            "Regional or special courts have priority over all others in line of the principle of lex specialis"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine international law, particularly the United Nations Convention on the Law of the Sea (UNCLOS), to understand the framework governing the fishing rights of third States within another State's Exclusive Economic Zone (EEZ). This includes identifying any provisions that allow or restrict such rights.",
+        "instruction 2": "Analyze specific agreements or treaties that may exist between the States involved, which could provide clarification or exceptions regarding fishing rights for third States, considering any bilateral or multilateral arrangements that may influence these rights.",
+        "question": "Do third States enjoy any fishing rights within the Exclusive Economic Zone of another State?",
+        "choices": [
+            "When the coastal State cannot harvest the 'total allowable catch', the coastal State is to give other State access to that surplus with priority to be given to developing and land-locked States",
+            "Third States may never have access to fisheries within another State's EEZ",
+            "The coastal State is to give access to fisheries within its EEZ only to neighbouring States",
+            "Third States are free to fish within another EEZ, except from certain designated areas"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define sovereign immunity and examine its legal implications to understand the extent to which it protects states from being sued in their own courts or in foreign courts without their consent.",
+        "instruction 2": "Explore the historical context and reasons for the establishment of sovereign immunity, such as principles of state sovereignty and the importance of maintaining diplomatic relations between nations.",
+        "question": "What is the purpose of sovereign immunity?",
+        "choices": [
+            "The purpose of immunity is to protect foreign Heads of State from embarrassment",
+            "Immunity protects a State from being invaded by another",
+            "Immunity shields States from being sued in the courts of other States",
+            "The purpose of immunity is to offer impunity in respect of all crimes"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define passive personality jurisdiction by explaining its legal principle, particularly how it allows a state to exercise jurisdiction over crimes committed against its nationals, regardless of where the crime occurred.",
+        "instruction 2": "Explore the implications and limitations of passive personality jurisdiction in international law, including potential conflicts with other jurisdictional principles and its application in various legal cases.",
+        "question": "What is passive personality jurisdiction?",
+        "choices": [
+            "It is jurisdiction based on the nationality of the offender",
+            "It is jurisdiction based on where the offence was committed",
+            "It is jurisdiction based on the nationality of the victims",
+            "It is jurisdiction based on the country where the legal person was Registered"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define first generation rights by examining their characteristics, historical context, and significance within the broader framework of human rights, focusing on civil and political rights such as the right to free speech, assembly, and participation in government.",
+        "instruction 2": "Identify specific examples of rights classified as first generation rights, ensuring to provide context as to how these rights emerged and are recognized in international human rights instruments.",
+        "question": "Which of the following types of rights have been described as first generation rights?",
+        "choices": [
+            "Social and economic rights",
+            "Civil and political rights",
+            "Cultural rights",
+            "People's rights"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept of 'fragmentation' in international law, highlighting how it pertains to the coexistence of multiple legal regimes and their potential conflicts or inconsistencies within the broader international legal framework.",
+        "instruction 2": "Examine specific instances or cases where fragmentation has occurred, considering its implications for states, international organizations, and individuals, and how it affects the coherence and effectiveness of international legal principles.",
+        "question": "What is the problem of 'fragmentation' of international law?",
+        "choices": [
+            "Fragmentation of international law concerns the possibility of different legal regimes apply the same rules of international law",
+            "It is possible for several legal regimes (ie foreign investment law and human rights law) to exist and develop in isolation of each other, ultimately culminating in the production of divergent rules of international law",
+            "Fragmentation is when States assume different interpretations of the same rule of international law",
+            "Fragmentation is when States disagree to abide by a certain rule of international law"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define functional (ratione materiae) immunity by explaining its legal context and significance, particularly how it protects certain individuals or entities from legal proceedings based on their official capacity or function.",
+        "instruction 2": "Differentiate functional immunity from other types of immunity, such as personal immunity, by discussing the specific conditions under which it applies and illustrating its relevance in international law or diplomatic relations.",
+        "question": "What is functional (ratione materiae) immunity?",
+        "choices": [
+            "Functional immunity covers the person but not the act",
+            "Functional immunity covers the act and incidentally also the person committing the act",
+            "Functional immunity covers the State and incidentally also the act",
+            "Functional immunity covers both private and public acts as long as they are sanctioned by the State"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept of implied authorization by analyzing the circumstances under which authorization is inferred from a party's actions or behavior rather than being explicitly stated, ensuring to illustrate this with relevant examples from legal or business contexts.",
+        "instruction 2": "Explore the implications of implied authorization in legal scenarios, focusing on how it affects liability, consent, and the expectations of parties involved in agreements or transactions.",
+        "question": "What is the meaning of implied authorisation?",
+        "choices": [
+            "Presumption of Security Council approval of armed force when a State has been forewarned",
+            "Implicit authorisation on the basis of a specific number of votes by UNSC members",
+            "Presumption that all unlawful attacks will be subject to armed force by a resolution of the UNSC",
+            "In cases of repeated unlawful attacks the UNSC shall authorise neighbouring States to take whatever measures they deem necessary to rectify the situation"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the philosopher who used the phrase 'nonsense on stilts' in relation to natural rights, ensuring to contextualize this within their broader philosophical arguments and critiques concerning rights and moral philosophy.",
+        "instruction 2": "Examine the historical and intellectual backdrop of the phrase within the works of the philosopher, assessing how it reflects their views on legal and natural rights, such as any associated primary texts or debates that elucidate their position.",
+        "question": "Which philosopher called the idea of natural rights 'nonsense on stilts'?",
+        "choices": [
+            "Alan Gerwith",
+            "Emmanuel Kant",
+            "John Locke",
+            "Jeremy Bentham"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the legal and constitutional frameworks that define which entities or officials have treaty-making authority within a state, such as heads of state, foreign ministers, or designated representatives, and differentiate this authority from other governmental or legislative powers.",
+        "instruction 2": "Examine the processes and requirements that must be fulfilled for a treaty to be validly concluded on behalf of a state, including any necessary approvals or ratifications by the legislative body or other government entities.",
+        "question": "Who has the authority to conclude a treaty on the part of States?",
+        "choices": [
+            "Treaties are concluded by the competent representatives of States. Heads of States, heads of governments, ministers of foreign affairs and heads of diplomatic missions are presumed to have such authority",
+            "Treaties may only negotiated and concluded by the heads of State and ministers of foreign affairs",
+            "Treaties are negotiated and signed only by the persons that bear the necessary 'full powers' and no person is presumed to hold such authority",
+            "Treaties are concluded only by members of the diplomatic missions of States"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the concept of a 'persistent objector' within the context of international law, detailing the criteria or conditions that characterize a state as a persistent objector to customary international law, including relevant historical and legal examples.",
+        "instruction 2": "Examine the implications and significance of the persistent objector doctrine, including how it interacts with general international law and its impact on the legal responsibilities of states that have consistently opposed a particular norm.",
+        "question": "Who is a 'persistent objector'?",
+        "choices": [
+            "The State which persistently objects to the rule in question after its formation",
+            "The State which denies to be bound by the rule in question for a short period",
+            "The State which persistently and publicly objects to the formation of a rule of customary law from its outset",
+            "The State which accepts the formation of a rule of customary law but it retains objections as to its content"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of collective security by explaining how it operates as a system whereby states agree to respond collectively to threats against their peace and security, focusing on its principles and significance in international relations.",
+        "instruction 2": "Explore historical examples and real-world applications of collective security arrangements, such as the United Nations, to illustrate how this concept is implemented and its impact on global stability.",
+        "question": "What is the meaning of collective security?",
+        "choices": [
+            "The right to self-defence by more than one nation acting in concert",
+            "The right of one's allies to defend the victim State",
+            "The authorisation of armed force by the UN Security Council",
+            "The authorisation of peacekeeping missions by the UN General Assembly"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key themes and articles within the European Convention on Human Rights to discern its primary focus, such as individual rights, freedoms, and legal protections afforded to all citizens.",
+        "instruction 2": "Examine the historical context and objectives behind the establishment of the Convention, considering its role in promoting human rights and fundamental freedoms across member states in Europe.",
+        "question": "The European Convention on Human Rights is predominantly concerned with which of the following?",
+        "choices": [
+            "Economic and social rights",
+            "Environmental rights",
+            "Civil and political rights",
+            "Economic freedom"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the foundational principles that govern the jurisdiction of international tribunals, such as treaties, customary international law, and judicial precedents, to determine how they compare and contrast with the principles that apply to national courts within a given legal system.",
+        "instruction 2": "Evaluate specific cases or examples where the jurisdiction of international tribunals has been challenged or upheld, analyzing the implications of these decisions on the understanding of jurisdiction in both international and national legal contexts.",
+        "question": "Is the jurisdiction of international tribunals regulated by the same principles applicable to national courts?",
+        "choices": [
+            "The jurisdictional principles applicable to national courts are also common to international tribunals",
+            "The jurisdiction of all international tribunals is regulated by the UN Security Council",
+            "International tribunals share some, but not all, of the jurisdictional principles applicable to national courts",
+            "The jurisdiction of international tribunals is dictated solely by their founding treaties"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define collective rights by explaining its conceptual framework, which encompasses the rights held by groups rather than individuals, often focusing on the entitlements of specific communities such as ethnic, cultural, or social groups.",
+        "instruction 2": "Analyze the implications and significance of collective rights in various contexts, including how they relate to issues of identity, self-determination, and social justice, thereby distinguishing them from individual rights.",
+        "question": "What is the meaning of collective rights?",
+        "choices": [
+            "Collective rights belong to distinct groups of people",
+            "Collective rights are those that belong to particular groups as opposed to the individual members of the group",
+            "Minority rights are collective rights",
+            "Collective rights entail a right of the group as such as well as individual rights of the group's members"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the legal frameworks and conventions that govern state negotiations, including international treaties such as the Vienna Convention on the Law of Treaties, to determine any obligations that states may have when entering into negotiations.",
+        "instruction 2": "Evaluate the principles of good faith and the requirement for states to honor commitments made during negotiations, considering both customary international law and the implications of binding agreements upon reaching consensus.",
+        "question": "Are States under any obligation when they conduct negotiations?",
+        "choices": [
+            "States are under no obligation as to how they conduct their negotiation",
+            "States are under an obligation so to conduct themselves that the negotiations are meaningful",
+            "States are under an obligation to find a solution of the dispute whenever they conduct negotiations",
+            "States are under an obligation to inform the UN Secretary-General about the progress of their negotiations"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the fundamental philosophical principles underlying naturalism and positivism, focusing on how each approach understands the nature of reality and knowledge, including the role of observation and experience in forming conclusions.",
+        "instruction 2": "Analyze how naturalism incorporates a broader scope of understanding, including metaphysical implications, whereas positivism strictly emphasizes empirical data and observable phenomena, highlighting the implications of these distinctions in philosophical discourse.",
+        "question": "What is the major difference between naturalism and positivism?",
+        "choices": [
+            "On the one hand, naturalism is based on a set of rules that are of universal and objective scope and on the other hand, positivism is based on a structured and coherent legal system that is created by States in light of their interests and desires",
+            "While naturalism serves only the theory human rights law, positivism has a wider and more general scope",
+            "Naturalism concerns the underpinning values of the international society, while positivism the international rules as such",
+            "Naturalism is a school of thought advocated outside of Europe, while positivism is Euro-centric theory"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define 'internationally wrongful conduct' as it is understood in international law, including the criteria that such conduct must meet to be classified as wrongful, such as violation of an international obligation and attribution to a state.",
+        "instruction 2": "Explore examples of behaviors or actions that qualify as 'internationally wrongful conduct,' analyzing cases or principles established in legal texts or international court rulings to illustrate how these acts are judged and the implications they carry.",
+        "question": "What is an 'internationally wrongful conduct'?",
+        "choices": [
+            "An international wrongful conduct is an action or omission which is in breach of a rule of international criminal law",
+            "An international wrongful conduct is every breach of an international obligation of the State, whether attributable to it or not",
+            "An internationally wrongful conduct consists of an action or omission attributable to the State, which constitutes a breach of an international obligation of the State",
+            "An internationally wrongful conduct is the conduct that cannot be excused on grounds of necessity, force majeure etc."
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the effects doctrine by identifying its role in international law, specifically focusing on how it relates to the jurisdiction of a state in cases where its actions have an effect outside its borders.",
+        "instruction 2": "Analyze the implications of the effects doctrine for transnational legal cases, including examples of how it has been applied in both legal precedent and its impact on international relations among states.",
+        "question": "What is the effects doctrine?",
+        "choices": [
+            "It posits that jurisdiction exists only when it is effective",
+            "The effects doctrine serves to confer jurisdiction on the State which has an effective link with the harmful conduct",
+            "The effects doctrine serves to confer jurisdiction on the State sharing the nationality of the offender",
+            "The effects doctrine serves to confer jurisdiction to the State on whose territory the conduct produces effects"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the term 'de facto' organs of the State in the context of international law, focusing on the criteria that determine which individuals or entities may be recognized as exercising state functions without formal legal endorsement.",
+        "instruction 2": "Investigate relevant international legal precedents and instruments that outline the principles of state responsibility and identify key cases or documents that clarify the nature and recognition of 'de facto' organs of the State.",
+        "question": "Which persons are considered as 'de facto' organs of the State under the law of international responsibility?",
+        "choices": [
+            "'De facto organs' are the individuals that are empowered by law to exercise elements of governmental authority",
+            "'De facto organs' are the persons, which are, in fact, acting on the instructions of, or under the direction or control of, that State in carrying out the conduct attributable to the State",
+            "'De facto organs' are the de jure organs of the State that act without due authority or ultra vires",
+            "'De facto organs' are the organs, whose acts or omission cannot be attributed to the State"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific characteristics of custom under English law, focusing on the criteria that determine whether a custom can be recognized as legally binding, such as longevity, tradition, and acceptance within the community.",
+        "instruction 2": "Examine the role of judicial recognition in the incorporation of custom, understanding how courts assess the relevance and applicability of a custom in legal contexts, including the necessity for consistency with existing law.",
+        "question": "What is the fundamental prerequisite for the incorporation of custom under English law?",
+        "choices": [
+            "Custom is incorporated if it is not in conflict with existing legislation",
+            "Custom is superior to English law and is always incorporated",
+            "Custom must first be recognised by Parliament before the courts can bring it into the domestic sphere",
+            "Custom is incorporated with the passing of implementing legislation"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine historical documents and international laws that were in effect before the establishment of the United Nations Charter in 1945, particularly focusing on the legality and justification of the use of armed force in warfare and conflict.",
+        "instruction 2": "Analyze the implications of those historical laws or norms, such as the principles of state sovereignty and the right to self-defense, to understand how they influenced the perception and acceptance of armed force before the adoption of the UN Charter.",
+        "question": "Was the use of armed force permitted prior to the United Nations Charter?",
+        "choices": [
+            "Armed force was prohibited",
+            "Armed force was permitted with no restrictions",
+            "Armed force was permitted subject to few restrictions",
+            "Armed force was not regulated under international law prior to 1945"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the protective principle of jurisdiction by explaining its fundamental concept, which allows a state to exercise jurisdiction over foreign nationals for acts committed outside its territory if those acts threaten its national security or vital interests.",
+        "instruction 2": "Explore the implications of the protective principle in international law, discussing how it interacts with other principles of jurisdiction and the potential challenges or criticisms it faces, particularly regarding state sovereignty and international relations.",
+        "question": "What is the protective principle of jurisdiction?",
+        "choices": [
+            "It is jurisdiction based on the harm to national interests by conduct committed abroad",
+            "It is jurisdiction in order to protect one's nationals abroad",
+            "It is jurisdiction in order to protect international human rights",
+            "It is jurisdiction based on the nationality of the offender"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the context in which the statements are presented, ensuring to understand the criteria against which the statements are being evaluated for correctness.",
+        "instruction 2": "Analyze each statement based on the established context and criteria, identifying any logical, factual, or contextual discrepancies that may affect their validity.",
+        "question": "Which one of the following statements is correct?",
+        "choices": [
+            "The Council of Europe was established in 1950 and consists of 27 member states",
+            "The Council of Europe was established in 1949 and consists of 47 member states",
+            "The Council of Europe was established in 1959 and consists of 34 member states",
+            "The Council of Europe was established in 1984 and consists of 19 member states"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept of 'equitable result' in the context of maritime delimitation, focusing on how it is applied to achieve fairness in the allocation of maritime boundaries between states, taking into account geographical, historical, and other relevant factors.",
+        "instruction 2": "Examine case studies or legal precedents where the principle of equitable result has been utilized in maritime delimitation disputes, analyzing the criteria used by international courts or tribunals to determine what constitutes an equitable boundary.",
+        "question": "What is the 'equitable result' in the law and practice of maritime delimitation?",
+        "choices": [
+            "It is the only method of delimitation that international courts and tribunals follow",
+            "An equitable result is what a judge or the arbitrator would decide ex aequo et bono, i.e. upon their discretion and in light of what they consider as fair and equitable in a delimitation case",
+            "It is the end result that all delimitations of areas of continental shelf and EEZ should achieve, after, however, drawing a provisional 'equidistance line' and adjusting the zone in the light of the relevant circumstances and the proportionality test.",
+            "Achieving an equitable result is an old method of delimitation which is currently not applicable"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the term 'derogation' by exploring its usage in legal, regulatory, or social contexts, identifying the nuances that differentiate it from similar terms such as exemption or waiver.",
+        "instruction 2": "Analyze examples of derogation in practice, focusing on instances where certain rights, obligations, or standards are intentionally set aside or modified, to provide a clearer understanding of its implications and applications.",
+        "question": "What is a derogation?",
+        "choices": [
+            "Derogations are exemptions from particular human rights obligations contained in a treaty",
+            "A derogation refers to the ability of rights holders to bring a claim against the State for breach of an obligation",
+            "A State may suspend particular rights by means of a derogation in circumstances that threaten its existence",
+            "Derogations are enforcement clauses in human rights treaties"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define 'act jure gestionis' by explaining its significance in the context of state immunity and how it differs from acts jure imperii, outlining the legal implications of such actions by states or their entities in international law.",
+        "instruction 2": "Examine examples of acts jure gestionis in practice, illustrating scenarios where governments or state-owned enterprises are subject to legal actions based on commercial activities, thus reinforcing the distinction between these types of acts.",
+        "question": "What is an act jure gestionis?",
+        "choices": [
+            "Acts jure gestionis are those undertaken by States in a private capacity",
+            "All purchases by the State are acts jure gestionis",
+            "All acts undertaken by State corporations are jure gestionis",
+            "All conduct undertaken by government officials in their free time is considered jus gestionis."
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define cultural relativism by exploring how it emphasizes understanding and interpreting beliefs, values, and practices within their own cultural context, rather than judging them by the standards of another culture.",
+        "instruction 2": "Examine the implications of cultural relativism on cross-cultural interactions, including how it fosters tolerance and appreciation for diversity while also addressing potential challenges, such as the balance between cultural understanding and ethical considerations.",
+        "question": "What is the meaning of cultural relativism?",
+        "choices": [
+            "Culture relativism posits that human rights apply equally to all without restrictions",
+            "Culture relativism posits that human rights have a cultural origin",
+            "Cultural relativism posits that the application of human rights is relative to the laws in each nation",
+            "Cultural relativism posits that local culture should validate the existence and practice of all human rights"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Investigate the principles of state recognition in international law, including the criteria for recognizing governments and how this impacts their legitimacy and functionality on the global stage.",
+        "instruction 2": "Analyze current examples of government recognition in various countries, exploring cases where recognition has been contested or withdrawn, and consider how these situations reflect the dynamics of contemporary international relations.",
+        "question": "Is recognition of governments prevalent in contemporary international practice?",
+        "choices": [
+            "Recognition of governments is very prevalent in contemporary practice",
+            "Recognition of governments has largely been replaced by functional Recognition",
+            "Government recognition is common in respect of rebel entities",
+            "Only democratic governments are recognised in contemporary practice"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the historical context and the drafting process of the UDHR to understand its origins and the intention behind its creation, ensuring to identify whether it is considered a binding legal instrument or a non-binding declaration.",
+        "instruction 2": "Analyze the implications of the UDHR in relation to international law, discussing how it influences subsequent treaties and national laws, and exploring its role as a normative framework for human rights standards globally.",
+        "question": "What is the legal nature of the Universal Declaration of Human Rights (UDHR)?",
+        "choices": [
+            "The UDHR is a multilateral treaty",
+            "The UDHR is a UN General Assembly resolution",
+            "The UDHR is a UN Security Council resolution",
+            "The UDHR is a declaration adopted by several States at an international conference"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the legal framework of the European Convention on Human Rights (ECHR) to identify the specific conditions under which the ECHR can exercise jurisdiction over human rights violations that occur outside its member States, focusing on aspects such as the jurisdictional reach of the Convention.",
+        "instruction 2": "Analyze case law and precedents set by the European Court of Human Rights (ECtHR) relating to extraterritorial applicability of human rights protections, noting significant rulings that clarify the circumstances under which the ECHR can intervene in cases of violations occurring outside member State territories.",
+        "question": "Under what circumstances do human rights violations taking place outside the territory of ECHR member States fall within the remit of the ECHR?",
+        "choices": [
+            "The ECHR applies outside Europe where human rights are violated by ECHR member States abroad",
+            "The ECHR applies extraterritorially in circumstances where a member State exercises effective control",
+            "The ECHR applies extraterritorially where a member State has contributed forces to a UN peacekeeping mission",
+            "The ECHR applies extraterritorially where human rights violations are taking place in former colonies of member States"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the principle 'pacta sunt servanda' within a legal context to determine its fundamental meaning, focusing on its implications for contract law and the binding nature of agreements.",
+        "instruction 2": "Examine historical examples and applications of this principle in international law, discussing how it underpins the notion of accountability and reliability in treaties among states.",
+        "question": "What does the principle 'pacta sunt servanda' mean?",
+        "choices": [
+            "Parties to a treaty should be cognizant of its terms and not misinterpret them",
+            "Parties to a treaty should safeguard the object and purpose of the treaty",
+            "Parties to a treaty should adhere to its terms in good faith",
+            "Parties to a treaty should not violate the most important provisions of the treaty"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the Tin Council case to determine the specific legal and regulatory context in which the absence of implementing legislation occurred, identifying any repercussions that arose from this lack of action.",
+        "instruction 2": "Evaluate the broader implications of this absence, considering how it affected stakeholders involved, any legal precedents it may have set, or changes in policy that were prompted as a result.",
+        "question": "What was the consequence from the absence of implementing legislation in the Tin Council case?",
+        "choices": [
+            "The International Tin Council was headquartered in London and hence the absence of implementing legislation was inconsequential",
+            "The constitutive treaties of international organisations are subject to the doctrine of incorporation",
+            "The absence of implementing legislation with respect to the Council's founding treaty meant that individuals did not derive rights and duties from it in the English legal system",
+            "The absence of implementing legislation in England in respect of an international organisation is inconsequential under international law"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the provided statements carefully to identify factual inaccuracies and logical consistency within each statement to determine which one is true.",
+        "instruction 2": "Consider the context and any underlying assumptions in the statements, as well as the criteria for truthfulness to ensure that the evaluation is thorough and valid.",
+        "question": "Which of the following statements is true?",
+        "choices": [
+            "The Human Rights Act 1998 incorporates the European Convention on Human Rights into UK law",
+            "The Human Rights Act 1998 allows a court to invalidate primary legislation",
+            "The Human Rights Act 1998 allows any person with a reasonable case to bring a case before a court",
+            "The Human Rights Act 1998 incorporates the EU charter of fundamental rights into UK law"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the different types of reparations that can be imposed in response to wrongdoing, including restitution (restoring the victim to their original state), compensation (monetary payment for losses), rehabilitation (support for recovery), and satisfaction (acknowledgment of harm and efforts to make amends).",
+        "instruction 2": "Evaluate the context in which the obligation of reparation arises, considering the legal, moral, and social frameworks that shape how reparations are determined and implemented, including any historical precedents and contemporary practices.",
+        "question": "What forms may the obligation of reparation take?",
+        "choices": [
+            "Reparation may take only the form of pecuniary compensation, including the interest",
+            "Reparation denotes only the physical restitution of the wrongful act",
+            "Reparation includes restitution, compensation, and satisfaction, either alone or alongside other forms of reparation",
+            "The form of reparation is a matter for the responsible State to decide"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define jus cogens by explaining its legal significance as a fundamental principle in international law that cannot be violated or derogated from by any state, highlighting examples of such norms.",
+        "instruction 2": "Discuss the implications of jus cogens within the broader context of international treaties and agreements, addressing how these norms interact with state sovereignty and their role in guiding state behavior.",
+        "question": "What is jus cogens?",
+        "choices": [
+            "They are peremptory norms of international law, from which no derogations are allowed and which can never be altered even with the consent of the States",
+            "They are rules of international law that are laid down in multilateral treaties with a wide participation",
+            "They are the decisions of the UN Security Council",
+            "They are the rules of international law on which the ICJ founds its decisions"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define 'unilateral acts' within the context of international law, specifying its characteristics and how it differs from bilateral or multilateral agreements, as well as its implications for state behavior.",
+        "instruction 2": "Examine examples of unilateral acts in practice, such as declarations or recognitions made by states, and analyze how they are perceived by the international community, including their legal status and potential consequences.",
+        "question": "What is 'unilateral acts'?",
+        "choices": [
+            "They are acts that States perform as practice in the context of custom",
+            "They are acts creating unilateral legal obligations to the acting State",
+            "Unilateral acts are simply political acts of State devoid of any legal effect",
+            "Unilateral acts are those that State perform in order to be bound by a treaty"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the legal principles governing extra-territorial abduction within the context of English law, specifically focusing on the criteria that the courts consider when determining jurisdictional issues, including any relevant statutes or case law that discuss lawful jurisdiction and potential grounds for refusal.",
+        "instruction 2": "Analyze any precedents or legal doctrines that might influence the court's decision on whether to refuse jurisdiction in cases of extra-territorial abduction, considering the implications for international law and human rights as well as the public policy concerns that could arise.",
+        "question": "Is extra-territorial abduction a ground for refusal of otherwise lawful jurisdiction by English courts?",
+        "choices": [
+            "Such abduction constitutes abuse of process and leads to a stay of proceedings",
+            "Such abduction gives rise to the abductor's liability but does not lead to a stay of proceedings",
+            "The stay of proceedings under such circumstances would prevent the administration of justice in respect of international criminals",
+            "The courts may, but will seldom, stay proceedings in cases of extra-territorial abduction"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define 'secondary rules' in the context of international law, distinguishing them from 'primary rules' to clarify their role in determining the conditions under which states are held responsible for wrongful acts.",
+        "instruction 2": "Examine specific examples of secondary rules within international responsibility frameworks, such as rules pertaining to attribution, reparation, and the limits of state conduct, to illustrate how they operationalize concepts of accountability in international law.",
+        "question": "What is the meaning of 'secondary rules' in the law of international responsibility?",
+        "choices": [
+            "Secondary rules are the rules of interpretation of international law, including the law of international responsibility",
+            "Secondary rules are the rules that govern the legal consequences arising from a breach of the primary rules, ie of the international obligations of the States",
+            "Secondary rules are the rules that govern exclusively the concept of attribution in the law of international responsibility",
+            "Secondary rules are the rules that govern exclusively the law of countermeasures"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the doctrine of incorporation by explaining how it relates to the application of international treaties within domestic legal systems, focusing on the process through which treaties become part of national law.",
+        "instruction 2": "Evaluate the implications of the doctrine of incorporation on the enforcement of treaties, considering the roles of legislative action and judicial interpretation in determining how treaties are implemented and upheld within a country's legal framework.",
+        "question": "What does the doctrine of incorporation suggest in respect of treaties?",
+        "choices": [
+            "The doctrine of incorporation requires that all treaties undergo legislative transformation before they become domestic law",
+            "The doctrine of incorporation does not require any further action at the domestic level",
+            "The doctrine of incorporation treats treaties as inferior to domestic law",
+            "The doctrine of incorporation suggests that ratified treaties automatically pass into the sphere of domestic law"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the legal framework governing provisional measures as established by the International Court of Justice (ICJ), focusing on whether such measures are considered binding under international law and the specific jurisdiction of the ICJ.",
+        "instruction 2": "Consider the implications of compliance by parties to the ICJ rulings, including the enforcement mechanisms available and the reliance on state cooperation, to understand the potential limits of the binding nature of provisional measures.",
+        "question": "Are the provisional measures issued by the ICJ binding upon the parties?",
+        "choices": [
+            "No, according to the literal interpretation of the relevant provision of the State, the provisional measures are not binding",
+            "No, unless the parties have agreed so beforehand",
+            "It depends upon the Court whether the provisional measures will be binding",
+            "Yes, it has been consistently held by the Court since the La Grand case (2001) that they are binding"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the legal definitions and contexts in which countermeasures may be deemed illegal, such as when they violate international law, proportionality principles, or the rights of individuals and entities.",
+        "instruction 2": "Examine specific case studies or legal precedents that illustrate scenarios in which countermeasures have been ruled illegal, focusing on the jurisdictions and legal frameworks involved.",
+        "question": "When are countermeasures illegal?",
+        "choices": [
+            "Countermeasures are illegal when inter alia are disproportionate or in violation of a peremptory norm of international law (e.g. the use of force, human rights)",
+            "Countermeasures are illegal when they are taken in the course of an armed conflict",
+            "Countermeasures are illegal when they violate bilateral treaties",
+            "Countermeasures are illegal when the responsible State does not consent to them"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the key characteristics that differentiate political means of dispute settlement from legal means, emphasizing aspects such as the influence of power dynamics, negotiation, and the role of international law or formal judiciary in each approach.",
+        "instruction 2": "Evaluate examples of both political and legal dispute settlement methods, such as diplomacy and treaties compared to court rulings, to illustrate the practical implications and effectiveness of each method in resolving conflicts.",
+        "question": "What is the difference between political and legal means of dispute settlement?",
+        "choices": [
+            "The outcome arising from legal methods, ie arbitration or adjudication by the ICJ, is final and binding upon the parties, whereas this is not the case with diplomatic methods",
+            "The political methods are pursued upon the consent of then parties to the dispute, whereas the legal methods not",
+            "The political means lead to a final settlement of the dispute, whereas this is not the case with the legal methods",
+            "The legal methods of dispute settlement are pursued only in respect of significant disputes, whereas the political means are employed in all disputes"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the concept of local remedies in the context of international human rights law, focusing on the necessity for individuals to exhaust available legal avenues within their own country's judicial system before seeking international intervention.",
+        "instruction 2": "Examine the rationale behind this principle, including the promotion of respect for national sovereignty, the importance of giving local authorities an opportunity to address human rights violations, and the potential to reduce the caseload of international bodies.",
+        "question": "What is the rationale for the exhaustion of local remedies in international human rights?",
+        "choices": [
+            "The local remedies rule aims to free up international tribunals to deal with the most serious cases",
+            "The local remedies rule aims to dissuade applicants abusing the system from filing unnecessary petitions",
+            "The local remedies rule aims on the one hand to restrict the volume of petitions to international tribunals while at the same time building up the capacity of local courts",
+            "The local remedies rule helps demonstrate that national courts are always better placed than international ones to deal with cases"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the concept of the 'living instrument principle' as applied by the European Court of Human Rights, ensuring to clarify how this principle allows the Court to interpret the European Convention on Human Rights in a manner that reflects current societal norms and values.",
+        "instruction 2": "Evaluate the provided cases for examples that demonstrate the application of this principle, focusing on instances where the interpretation of rights has evolved over time to address contemporary issues or to respond to changes in societal attitudes.",
+        "question": "Which of the following cases best illustrates the 'living instrument principle' used by the European Court of Human Rights?",
+        "choices": [
+            "Golder v UK (1978)",
+            "A v UK (2009)",
+            "Goodwin v UK (2002)",
+            "Osman v UK (1998)"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the legal principles governing the recognition of foreign judgments, identifying any significant distinctions from the rules applied to the incorporation and transformation of treaties, such as jurisdictional considerations and standards for enforceability.",
+        "instruction 2": "Investigate the relevant legal frameworks, both domestic and international, that regulate foreign judgments and treaties to determine any specific criteria or procedural differences that may affect their recognition and application.",
+        "question": "Is the recognition of foreign judgments subject to the same rules as those applicable to the incorporation and transformation of treaties?",
+        "choices": [
+            "Foreign judgments are enforced on the basis of the doctrine of incorporation",
+            "Foreign judgments are enforced on the basis of the doctrine of transformation",
+            "The recognition of foreign judgments is dependent on the existence of appropriate bilateral or multilateral treaties",
+            "The courts exercise discretion as to the enforcement of foreign judgments on the basis of the rule of comity"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key legal and ethical principles addressed by the House of Lords in the Pinochet case, specifically focusing on their ruling regarding the immunity of heads of state from prosecution for alleged human rights violations.",
+        "instruction 2": "Examine the broader implications of the House of Lords' findings on international law and human rights, considering how this case influenced subsequent discussions on accountability for those in power.",
+        "question": "What was the most important finding by the House of Lords in the Pinochet case?",
+        "choices": [
+            "The Pinochet case confirmed that former heads of State enjoy absolute immunity",
+            "The Pinochet case confirmed that all public acts enjoy immunity",
+            "The Pinochet case confirmed that former heads of State cease to enjoy personal immunity once removed from office",
+            "The Pinochet case confirmed that in respect of immunities there is no difference between a current and a former head of State"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clearly define the parameters for what constitutes a 'false' statement by verifying the truth value of each statement provided, ensuring a logical and systematic evaluation of each option.",
+        "instruction 2": "Employ critical thinking to analyze the context of each statement, considering any relevant facts or knowledge that could support or contradict the claims made in order to accurately identify the false statement.",
+        "question": "Which one of the statements below is false?",
+        "choices": [
+            "The war crimes trials at Nuremberg and Tokyo took place immediately after the First World War",
+            "The war crimes trials introduced a 'crime against humanity' as an offence",
+            "The war crimes trials held individuals legally responsible for acts such as war crimes and crimes against humanity",
+            "The war crimes trials found that \"superior orders\" could not be used as a defence for war crimes or crimes against humanity"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the principles of maritime law that govern the exercise of jurisdiction over vessels on the high seas, focusing on concepts such as flag state jurisdiction and international treaties, particularly the United Nations Convention on the Law of the Sea (UNCLOS).",
+        "instruction 2": "Examine the roles of specific states or nations and how they assert their jurisdiction over vessels registered under their flags, as well as any exceptions or limitations that may apply to other states' enforcement actions on the high seas.",
+        "question": "Which State exercises jurisdiction over vessels on the high seas?",
+        "choices": [
+            "All States may exercise jurisdiction over foreign vessels on the high seas",
+            "States may exercise jurisdiction over foreign vessels on the high seas only in cases of criminal activity that concerns them",
+            "The flag State is to exercise exclusive jurisdiction over its vessels on the high seas, with the exception of specific cases, such as piracy",
+            "The flag State is the only State to exercise exclusive jurisdiction over its vessels on the high seas with no exception"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the various types of treaty forms recognized in international law, considering any legal requirements or conventions that establish the structure and content of treaties, such as the Vienna Convention on the Law of Treaties.",
+        "instruction 2": "Evaluate the implications of different treaty forms on their efficacy and acceptance by states, reflecting on how specific formats can affect negotiation processes, implementation, and enforcement of treaty obligations.",
+        "question": "Should treaties assume a particular form?",
+        "choices": [
+            "Treaties should always be designated as such and assume a particular form",
+            "Treaties should always assume a particular form, no matter how they are designated",
+            "Treaties do not have to assume a particular form or designated as such",
+            "Treaties have to be designated as such, no matter what form they assume"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define monist theory by outlining its core concepts, focusing on the idea that all phenomena can be explained by a single substance or principle, whether it be material or immaterial, and how this contrasts with dualist or pluralist theories.",
+        "instruction 2": "Explore the implications of monist theory in various fields, such as philosophy, science, and religion, emphasizing how it relates to debates about the nature of reality and consciousness.",
+        "question": "What is the fundamental premise of monist theory?",
+        "choices": [
+            "Monism posits that international law is superior to domestic laws",
+            "Monism posits that international and domestic law are part of the same legal order",
+            "Monism posits that domestic laws are superior to international law",
+            "Monism posits that domestic and international law never clash"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the sources of international law that the International Court of Justice (ICJ) recognizes, particularly focusing on how the 'general principles of law' are derived from national legal systems of various countries.",
+        "instruction 2": "Consult legal scholarly articles or official documents that discuss the application of customary law, treaties, and judicial decisions, as these may provide examples of principles that are commonly accepted across different legal traditions.",
+        "question": "Where do we find the 'general principles of law recognized by civilized nations' (article 38 ICJ Statute)?",
+        "choices": [
+            "We look for established principles of law recognized only among the most civilised nations",
+            "We look for established principles of law, which are common to all major legal systems",
+            "We look for general principles of international law recognized by international courts and tribunals",
+            "We look for general principles of law recognized by all nations"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the legal criteria that classify an act as piracy under international law, focusing on elements such as the intent to commit acts of violence for private gain and the requirement for the act to occur on the high seas.",
+        "instruction 2": "Examine specific circumstances or types of violent acts that may occur on the high seas but do not meet the definition of piracy, such as acts of violence carried out by naval forces or situations involving territorial seas, to understand the limitations of the piracy classification.",
+        "question": "When does an illegal act of violence on the high seas fall short of qualifying as piracy?",
+        "choices": [
+            "When it is committed against a public vessel of another State",
+            "When it is committed for 'private ends'",
+            "When it is committed by a warship even when its crew has mutinied and taken control of the ship",
+            "When it is not committed against another vessel and when it is not committed for 'private ends'"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the context of Article 51 of the UN Charter, focusing on the definitions and interpretations of 'armed attack' as understood in international law, particularly its implications for a state's right to self-defense.",
+        "instruction 2": "Examine relevant case law, UN resolutions, and scholarly interpretations that clarify and expand upon the concept of 'armed attack', considering how these interpretations may vary based on geopolitical contexts and historical events.",
+        "question": "What is the meaning of \"armed attack\" in Article 51 UN Charter?",
+        "choices": [
+            "Armed attack includes all types of armed force",
+            "Armed attack includes all high intensity instances of armed force",
+            "Armed attack includes terrorist attacks",
+            "An \"armed attack\" gives the right to invade the aggressor State"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the term 'injured State' within the context of international law, clarifying its role in relation to acts that breach international obligations and how it pertains to matters of state responsibility.",
+        "instruction 2": "Examine the legal framework governing state responsibility, including applicable treaties, conventions, or case law, to understand how claims are made by an injured State and the remedies available for violations, ensuring to cite relevant legal sources or principles.",
+        "question": "Who is an 'injured State' in the law of international responsibility?",
+        "choices": [
+            "A State is 'injured' in case that it has suffered a damage from the internationally wrongful conduct",
+            "A State is 'injured' in cases that there has been a violation of a peremptory norm of international law",
+            "A State is 'injured' should it acknowledge the existence of the internationally wrongful conduct",
+            "A State is 'injured' if the obligation breached was owed to it individually or if it was owed to a group of States, including that State, and it was specially affected"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define personal (ratione personae) immunity clearly, highlighting its legal basis and the contexts in which it applies, such as its relevance to diplomats and state officials in international law.",
+        "instruction 2": "Explain the implications of personal immunity on legal proceedings and accountability, considering how it protects individuals from prosecution in certain jurisdictions while also discussing any limitations or exceptions to this immunity.",
+        "question": "What is personal (ratione personae) immunity?",
+        "choices": [
+            "Personal immunity is afforded to all physical persons",
+            "Personal immunity is that which is afforded in a personal capacity and hence does not cover conduct of the State as such",
+            "Personal immunity is afforded only to particular persons irrespective if their conduct was undertaken in a private or public capacity",
+            "Personal immunity is afforded to State officials for conduct undertaken in a public capacity"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the primary functions and purpose of the UN Human Rights Council, focusing on its role in promoting and protecting human rights globally, and how it operates within the framework of the United Nations.",
+        "instruction 2": "Evaluate the specific characteristics that differentiate the UN Human Rights Council from other UN bodies, considering aspects such as its membership structure, methods of work, and the types of issues it addresses.",
+        "question": "Which of the following statements best describes the UN Human Rights Council?",
+        "choices": [
+            "The UN Human Rights Council has the power to impose economic sanctions on a state for human rights violations",
+            "The UN Human Rights Council scrutinises the human rights records of member states on the Council and each member state of the UN",
+            "The UN Human Rights Council replaced the Economic and Social Committee of the UN",
+            "The UN Human Rights Council consists of 27 member states"
+        ],
+        "subject": "international_law",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the conditions under which a reservation to a treaty may be deemed invalid, focusing on specific legal guidelines or principles established by international law, such as those outlined in the Vienna Convention on the Law of Treaties.",
+        "instruction 2": "Explore the implications of an invalid reservation on the validity of the treaty itself and the rights and obligations of the parties involved, considering how state consent and the acceptance of reservations interact within the broader legal framework of treaties.",
+        "question": "When a reservation is considered as invalid under the law of treaties?",
+        "choices": [
+            "A reservation is invalid when the majority of the State parties objects to it",
+            "A reservation is invalid only when an international tribunal says so",
+            "A reservation is invalid only when is incompatible with a peremptory norm of international law (jus cogens)",
+            "A reservation is invalid when it is incompatible with the object and purpose of the treaty"
+        ],
+        "subject": "international_law",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the legal framework governing the rights of coastal States over their continental shelf, particularly focusing on the United Nations Convention on the Law of the Sea (UNCLOS) and the specific rights conferred through that treaty.",
+        "instruction 2": "Analyze the scope of rights that coastal States possess, including resource exploration and exploitation, jurisdiction over the seabed, and the implications of these rights in relation to adjacent states and international law.",
+        "question": "What kind of rights do coastal States enjoy over their continental shelf?",
+        "choices": [
+            "The coastal State enjoy ipso facto and ab initio sovereign rights over its continental shelf for the purpose of exploring it and exploiting its natural resources",
+            "The coastal State may exercise sovereign rights over its continental shelf only upon its declaration",
+            "The coastal State exercise sovereign rights over its continental shelf for the purpose of exploiting its fishing resources",
+            "The coastal State may exercise only limited rights over its continental shelf and only upon the consent of its neighbouring States"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the text of Article 103 of the UN Charter to fully understand its implications regarding the supremacy of the UN Charter over other international obligations, noting any specific contexts or situations that may limit its applicability.",
+        "instruction 2": "Investigate relevant case law, UN resolutions, or interpretations from legal experts that might clarify or provide constraints on the implementation of Article 103, ensuring a comprehensive view on its boundaries in practice.",
+        "question": "Are there any limits to the application of article 103 of the UN Charter?",
+        "choices": [
+            "No, there are no limits to article 103",
+            "Yes, Article 103 cannot trump multilateral treaties",
+            "Yes, article 103 of the UN Charter cannot trump jus cogens norms",
+            "Yes, when a case is submitted to the ICJ, article 103 ceases to have any effect"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the principles of international law that govern state obligations, focusing on the relationship between domestic law and international law, to understand the limitations of invoking domestic law as a defense against international obligations.",
+        "instruction 2": "Consider relevant case law or examples where countries have attempted to use domestic law to justify violations of international law, analyzing the legal arguments presented and the outcomes to illustrate the potential consequences of such a stance.",
+        "question": "Can countries rely on their domestic law as an excuse to violate their obligations under international law?",
+        "choices": [
+            "Domestic law always prevails over international law",
+            "Only customary international law prevails over domestic law",
+            "Obligations under international law prevail over domestic law",
+            "Constitutional obligations always prevail over obligations under international law"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of 'implied powers' in the context of international organizations, focusing on how these powers are not explicitly stated in their constitutive documents but are deemed necessary to carry out their functions effectively.",
+        "instruction 2": "Examine examples of implied powers in practice, assessing how they enable international organizations to address unforeseen challenges and implement decisions that align with their mandates, despite not being specifically granted in written agreements.",
+        "question": "What is meant by an international organisation's implied powers?",
+        "choices": [
+            "Implied are those powers which are necessary in order for an organisation to carry out the tasks conferred upon it and which are not stipulated in its charter",
+            "It refers to new powers assumed unilaterally by the organisation",
+            "It refers to powers conferred upon the organisation by the international Community",
+            "Implied powers are those whose determination depends on an expansive interpretation of an organisation's charter"
+        ],
+        "subject": "international_law",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and analyze the four essential criteria for statehood established by the Montevideo Convention: a permanent population, a defined territory, a government, and the capacity to enter into relations with other states.",
+        "instruction 2": "Consider historical and contemporary examples of entities that may meet or fail to meet these criteria, discussing how these classifications affect their recognition and status in the international community.",
+        "question": "What are the criteria for statehood under the 1933 Montevideo Convention?",
+        "choices": [
+            "It requires that the entity in question is not an aggressor and that it is peaceful",
+            "It requires recognition by the majority of other nations",
+            "It requires a permanent population, a defined territory, a government and a capacity to enter into foreign relations",
+            "It requires stable and indissoluble borders as well as recognition"
+        ],
+        "subject": "international_law",
+        "answer": 2
+    }
+]

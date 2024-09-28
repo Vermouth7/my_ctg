@@ -1,0 +1,1302 @@
+[
+    {
+        "instruction 1": "Analyze the access matrix model by identifying its fundamental components, such as subjects, objects, and the rights or permissions assigned to each subject concerning each object, in order to understand potential complexities and shortcomings in its application.",
+        "instruction 2": "Investigate specific challenges associated with the access matrix, including issues of scalability, dynamic access control, and the management of permissions in large or changing systems, to clarify why these factors may complicate its implementation in practical scenarios.",
+        "question": "The access matrix approach to protection has the difficulty that",
+        "choices": [
+            "the matrix, if stored directly, is large and can be clumsy to manage",
+            "it is not capable of expressing complex protection requirements",
+            "deciding whether a process has access to a resource is undecidable",
+            "there is no way to express who has rights to change the access matrix itself"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the properties of divisors and understand the definition of common divisors. Identify specific integer pairs (x, y) and their respective divisors to illustrate how different combinations can lead to varying sets of common divisors.",
+        "instruction 2": "Evaluate the criteria for a set of integers to qualify as potential common divisors, ensuring the set includes only those integers that divide both integers x and y without any remainder, while also considering the inclusion of the greatest common divisor (gcd) of x and y.",
+        "question": "An integer c is a common divisor of two integers x and y if and only if c is a divisor of x and c is a divisor of y. Which of the following sets of integers could possibly be the set of all common divisors of two integers?",
+        "choices": [
+            "{-6,-2, -1, 1, 2, 6}",
+            "{-6, -2, -1, 0, 1, 2, 6}",
+            "{-6, -3, -2, -1, 1, 2, 3, 6}",
+            "{-6, -3, -2, -1, 0, 1, 2, 3, 6}"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the total time required for a single file-read operation in version 1 by summing up the individual components: disk seek time, disk latency time, and the disk transfer time and operating system overhead for 1,000 bytes. Then repeat the calculation for version 2 using 4,000-byte blocks, ensuring to account for the cumulative effects of increased data size on transfer and overhead times.",
+        "instruction 2": "Compute the ratio of the total read times from version 2 to version 1, making sure to express this ratio in a simplified form to clearly present the comparative efficiency or performance differences between the two versions.",
+        "question": "In the NoNicks operating system, the time required by a single file-read operation has four nonoverlapping components:\ndisk seek time-25 msec\ndisk latency time-8 msec\ndisk transfer time- 1 msec per 1,000 bytes\noperating system overhead-1 msec per 1,000 bytes + 10 msec\nIn version 1 of the system, the file read retrieved blocks of 1,000 bytes. In version 2, the file read (along with the underlying layout on disk) was modified to retrieve blocks of 4,000 bytes. The ratio of-the time required to read a large file under version 2 to the time required to read the same large file under version 1 is approximately",
+        "choices": [
+            "1:4",
+            "1:3.5",
+            "1:1",
+            "1.1:1"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Calculate the centroid (mean) of each cluster by averaging the x and y coordinates of the points contained within each cluster. For example, for cluster C1, sum the x-coordinates of the points (0 and 6) and divide by the number of points (2) to obtain the x-coordinate of the centroid, and repeat the process for the y-coordinates.",
+        "instruction 2": "Repeat the centroid calculation for all three clusters (C1, C2, and C3) and ensure to group points correctly to avoid inaccuracies due to misassignment, checking after each calculation to verify that the centroids match the defined cluster configurations.",
+        "question": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?",
+        "choices": [
+            "C1: (3,3), C2: (4,4), C3: (6,6)",
+            "C1: (3,3), C2: (6,6), C3: (12,12)",
+            "C1: (6,6), C2: (12,12), C3: (12,12)",
+            "C1: (0,0), C2: (48,48), C3: (35,35)"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific Boolean operators provided in the options given in the question and evaluate whether they can be combined to form all possible Boolean expressions, focusing on the definitions of completeness in Boolean algebra.",
+        "instruction 2": "Analyze each option systematically to determine if it meets the criterion of completeness by checking if it can express the fundamental operations of AND, OR, and NOT, which are essential for constructing any Boolean expression.",
+        "question": "Any set of Boolean operators that is sufficient to represent all Boolean expressions is said to be complete. Which of the following is NOT complete?",
+        "choices": [
+            "{AND, NOT}",
+            "{NOT, OR}",
+            "{AND, OR}",
+            "{NAND}"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the definitions of connected components and how they relate to the number of edges in a graph. Specifically, determine how the number of edges affects the connectivity of the graph, considering configurations that can maximize or minimize the number of connected components with the given 10 nodes and 6 edges.",
+        "instruction 2": "Explore the implications of having 10 nodes and 6 edges on forming subgraphs. Evaluate the scenarios where the edges can be distributed to either isolate nodes or connect multiple components, thereby identifying the values for M (maximum connected components) and m (minimum connected components) based on different possible graph structures.",
+        "question": "Consider the collection of all undirected graphs with 10 nodes and 6 edges. Let M and m, respectively, be the maximum and minimum number of connected components in any graph in the collection. If a graph has no selfloops and there is at most one edge between any pair of nodes, which of the following is true?",
+        "choices": [
+            "M = 10, m = 10",
+            "M = 10, m = 1",
+            "M = 7, m = 4",
+            "M = 6, m = 4"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the definitions of soundness, completeness, and succinctness in relation to resolution theorem proving, ensuring to evaluate how each property applies specifically to the context of propositional logic and unsatisfiable formulas.",
+        "instruction 2": "Examine and provide examples of scenarios where resolution theorem proving demonstrates these properties, particularly focusing on cases of satisfiable and unsatisfiable formulas to clarify the distinctions inherent in each definition.",
+        "question": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.",
+        "choices": [
+            "I only",
+            "III only",
+            "I and II only",
+            "I and III only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze each statement individually to determine whether it accurately describes the characteristics of a purely segmented memory system, focusing on the definitions of segmentation, memory management techniques, and the concept of fragmentation.",
+        "instruction 2": "Evaluate the implications of segmentation on memory allocation, specifically regarding whether it allows for virtual memory and the impact of internal fragmentation on memory efficiency.",
+        "question": "Which of the following statements describe(s) properties of a purely segmented memory system?\nI. It divides memory into units of equal size.\nII. It permits implementation of virtual memory.\nIII. It suffers from internal fragmentation.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Review the properties and behaviors of floating-point arithmetic in computing, including concepts like precision, rounding errors, and the limitations of representing real numbers in a binary format.",
+        "instruction 2": "Analyze each given statement about floating-point arithmetic to systematically identify which one contradicts established principles or exhibits common misconceptions about how floating-point numbers operate in a programming context.",
+        "question": "Which of the following statements about floating-point arithmetic is NOT true?",
+        "choices": [
+            "It is inherently nonassociative because some numbers have no exact representation.",
+            "It is inherently nonassociative because there have to be upper and lower bounds on the size of numbers.",
+            "Associativity can be achieved with appropriate roundoff conventions.",
+            "Some rational numbers have no exact representation."
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the potential issues related to data consistency and the management of file links in a multilevel directory structure. Consider how updating or deleting a link could impact the shared file and the implications for the owner and other users referencing the node.",
+        "instruction 2": "Evaluate the challenges associated with tracking the count of links and handling scenarios where multiple users attempt to modify the file simultaneously, potentially leading to conflicts or data corruption.",
+        "question": "Suppose sharing of tiles in a multilevel directory structure is achieved with directory entries that are links pointing to a node containing information about a shared file. Information in this node includes (1) the owner of the file, (2) a count of the number of links to the tile, and (3) the disk block numbers of the file. What is a primary drawback to this approach to sharing?",
+        "choices": [
+            "If the owner modifies the file, another user who does not share will see the changes.",
+            "If the owner renames the file, other users will not be able to access it.",
+            "If the owner is allowed to delete a file, dangling links may result.",
+            "If any user who shares the file appends to it, others who share it will not be able to access the new disk blocks."
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the properties of each data structure (singly linked list, doubly linked list, and array) in relation to their support for splitting, sorting, and merging operations, determining how each structure may impact the performance of mergesort in terms of time complexity.",
+        "instruction 2": "Evaluate the efficiency of the merge operation in each data structure, focusing specifically on the ease of access and manipulation of elements, which is crucial for maintaining the O(n log n) time complexity of mergesort.",
+        "question": "Mergesort works by splitting a list of n numbers in half, sorting each half recursively, and merging the two halves. Which of the following data structures will allow mergesort to work in O(n log n) time?\nI. A singly linked list\nII. A doubly linked list\nIII. An array",
+        "choices": [
+            "None",
+            "III only",
+            "I and II only",
+            "I, II, and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the relationship between the number of distinct points used for interpolation and the degree of the polynomial; specifically, recognize that a polynomial of degree n can be uniquely determined by n + 1 points.",
+        "instruction 2": "Establish that since p(x) is the minimal-degree polynomial that interpolates the function f(x) at n + 1 points, the maximum possible degree of p(x) is exactly n, given that it can pass through all n + 1 points without any additional constraints.",
+        "question": "If p(x) is the minimal-degree interpolating polynomial for the real-valued function f(x) at the n + 1 distinct real numbers x0, .... xn what is the maximum possible degree of p(x)?",
+        "choices": [
+            "n",
+            "n + 1",
+            "n + 2",
+            "2n"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Apply the hash function h(i) = i mod 5 to each key in the order they are inserted to determine the initial bucket assignment for each key. This will help to identify any collisions that may occur.",
+        "instruction 2": "Implement linear probing to resolve any collisions by checking subsequent buckets (incrementing by 1 and applying modulo 5) until finding an empty bucket for each key, documenting the final position of each key in the hash table.",
+        "question": "An internal hash table has 5 buckets, numbered 0, 1, 2, 3, 4. Keys are integers, and the hash function h(i) = i mod 5 is used, with linear resolution of collisions (i.e., if bucket h(i) is filled, the buckets h(i) + 1, h(i) + 2, ... are tried successively with all bucket numbers computed modulo 5). If elements with keys 13, 8, 24, 10, and 3 are inserted, m that order, into an initially blank hash table, then the content of the bucket numbered 2 is",
+        "choices": [
+            "3",
+            "8",
+            "10",
+            "13"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary functions and responsibilities of the TCP protocol, focusing on its role in ensuring reliable communication, data integrity, and connection-oriented transmission in network communications.",
+        "instruction 2": "Consider how TCP interacts with other protocols in the TCP/IP suite, such as how it ensures ordered delivery of packets, error correction, and flow control mechanisms, enhancing the overall reliability of data transmission.",
+        "question": "TCP protocol is responsible (among other things) for",
+        "choices": [
+            "Routing packets through the network",
+            "Reliable delivery of packets between directly connected machines",
+            "Reliable delivery of large (multi-packet) messages between machines that are not necessarily directly connected",
+            "Dealing with differences among operating system architectures"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Evaluate the properties of sets A and B, focusing on the implications of B being a subset of A in relation to the characteristics of the sets (such as finiteness, regularity, and context-freeness) to determine the validity of each statement.",
+        "instruction 2": "Consider counterexamples for each statement to assess whether they must always be true. For instance, analyze the scenarios where A is infinite or regular, while B may exhibit different properties, leading to conclusions about the logical relationships between the two sets.",
+        "question": "Let A and B be two sets of words (strings) from Σ*, for some alphabet of symbols Σ. Suppose that B is a subset of A. Which of the following statements must always be true of A and B ?\nI. If A is finite, then B is finite.\nII. If A is regular, then B is regular.\nIII. If A is context-free, then B is context-free.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the recursive definition of the function x^M and identify the behavior of the function for various combinations of the string inputs x and y, particularly focusing on how the function processes individual characters and concatenates the results.",
+        "instruction 2": "Evaluate specific examples of strings x and y to determine patterns in the output of the function x^M, and ascertain which of the provided options aligns with these observed patterns, ensuring to consider edge cases such as empty strings and the single character string.",
+        "question": "For all strings x, the function x^M is defined recursively as follows.\ne^M= e, and\nif w is a string and a is a string with length 1, then\n(aw)^M = aw^Ma.\nLet a be a string with length 1, and let x and y be arbitrary strings. Which of the following is true?",
+        "choices": [
+            "a^M = a",
+            "(ax)^M = (xa)^M",
+            "(xy)^M = y^Mx^M",
+            "None of the above"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define what busy-waiting entails in the context of asynchronous events, highlighting the circumstances that typically warrant its use versus scenarios where it might be considered unreasonable.",
+        "instruction 2": "Evaluate the justifications listed in the options, focusing on logical reasoning and practical implications regarding performance, resource usage, and program efficiency in order to identify which one does not align with typical practices.",
+        "question": "Which of the following is NOT a reasonable justification for choosing to busy-wait on an asynchronous event?",
+        "choices": [
+            "The wait is expected to be short.",
+            "A busy-wait loop is easier to code than an interrupt handler.",
+            "There is no other work for the processor to do.",
+            "The program executes on a time-sharing system."
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the structure of the language defined by the expression {ww | w in (0 + 1)*}, focusing on the nature of the strings generated by concatenating a string w with itself, ensuring to identify the properties of w and the implications for the overall language.",
+        "instruction 2": "Consider the implications of the language being over the alphabet {0, 1}, particularly how it relates to context-free languages and the specific characteristics of the strings in this language, such as length and symmetry.",
+        "question": "The language {ww | w in (0 + 1)*} is",
+        "choices": [
+            "not accepted by any Turing machine",
+            "accepted by some Turing machine, but by no pushdown automaton",
+            "accepted by some pushdown automaton, but not context-free",
+            "context-free, but not regular"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze each statement provided regarding Ethernets for accuracy, ensuring to focus on fundamental principles and technical specifications that apply to Ethernet technology, such as its modes of operation, data transmission methods, and standards.",
+        "instruction 2": "Identify any misconceptions or incorrect claims related to Ethernet implementations, protocols, or performance characteristics, cross-referencing with credible sources or technical documentation to support the determination of which statements are false.",
+        "question": "Which of the following statements about Ethernets is typically FALSE?",
+        "choices": [
+            "Ethernets use circuit switching to send messages.",
+            "Ethernets use buses with multiple masters.",
+            "Ethernet protocols use a collision-detection method to ensure that messages are transmitted properly.",
+            "Networks connected by Ethernets are limited in length to a few hundred meters."
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the properties of a recursive procedure, specifically focusing on the nature of recursion and termination. Determine what conditions are necessary for a procedure to guarantee that it will eventually not call itself again, leading to termination.",
+        "instruction 2": "Evaluate each statement individually in the context of standard practices for recursive functions. Consider what it means for a function to have local variables, an execution path, and the implications of global variables or parameters in terms of recursive behavior.",
+        "question": "Let P be a procedure that for some inputs calls itself (i.e., is recursive). If P is guaranteed to terminate, which of the following statements must be true?\nI. P has a local variable.\nII. P has an execution path where it does not call itself.\nIII. P either refers to a global variable or has at least one parameter.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and II only",
+            "II and III only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define what constitutes a perfectly secure encryption scheme, focusing on key properties such as the notion of indistinguishability under chosen plaintext attack and the mathematical foundations of security that support the concept of perfect secrecy.",
+        "instruction 2": "Evaluate the given encryption schemes against the criteria established for perfect security, taking into account factors like key length, randomness, and the potential for attacks or vulnerabilities that could compromise the encryption.",
+        "question": "Which of the following comes closest to being a perfectly secure encryption scheme?",
+        "choices": [
+            "The Caesar Cipher, a substitution cipher",
+            "DES (Data Encryption Standard), a symmetric-key algorithm",
+            "Enigma, a transposition cipher",
+            "One-time pad"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific problems related to undirected graphs that are known to be solvable in polynomial time, such as problems like finding a maximum matching or determining bipartiteness, and compare them against commonly known NP-hard problems.",
+        "instruction 2": "Consider the definitions and properties of polynomial time algorithms to establish a clear distinction between problems that can be efficiently solved and those that are not, ensuring to clarify any necessary conditions or assumptions about the graph structure (e.g., whether the graph is connected, weighted, etc.).",
+        "question": "Of the following problems concerning a given undirected graph G, which is currently known to be solvable in polynomial time?",
+        "choices": [
+            "Finding a longest simple cycle in G",
+            "Finding a shortest cycle in G",
+            "Finding ALL spanning trees of G",
+            "Finding a largest clique in G"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the primary function of the Internet Protocol (IP), specifically its role in packet-switching and addressing, which allows data to be sent across networks and ensures that packets of information reach their intended destination.",
+        "instruction 2": "Discuss the importance of IP in establishing connections over the internet, including how it interacts with other layers of the network protocol stack (e.g., TCP, UDP) to enable reliable data transmission and communication between devices.",
+        "question": "The IP protocol is primarily concerned with",
+        "choices": [
+            "Routing packets through the network",
+            "Reliable delivery of packets between directly connected machines",
+            "Reliable delivery of large (multi-packet) messages between machines that are not necessarily directly connected",
+            "Dealing with differences among operating system architectures"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the total number of nodes in a complete K-ary tree of depth N, using the formula that relates the number of nodes to both the number of children per node (K) and the tree depth (N).",
+        "instruction 2": "Identify the number of nonterminal nodes in the same tree, which are defined as nodes that have at least one child, and establish how this quantity relates to the total number of nodes in order to calculate the desired ratio.",
+        "question": "Of the following, which best approximates the ratio of the number of nonterminal nodes to the total number of nodes in a complete K-ary tree of depth N?",
+        "choices": [
+            "1/K",
+            "K-1/K",
+            "log_10 (1/N)",
+            "N-1/m"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define the concept of deadlock in computing, explaining how it occurs when processes are unable to proceed because each is waiting for a resource held by another, and determine various strategies that effectively address deadlock situations.",
+        "instruction 2": "Evaluate the options provided in the question for their effectiveness in preventing or resolving deadlock, ensuring to clarify which strategies are ineffective and the reasons they fail to address the issue of processes waiting indefinitely for resources.",
+        "question": "Consider a computer system in which processes can request and release one or more resources. Once a process has been granted a resource, the process has exclusive use of that resource until it is released. If a process requests a resource that is already in use, the process enters a queue for that resource, waiting until the resource is available. Which of the following will NOT deal effectively with the problem of deadlock?",
+        "choices": [
+            "Giving priorities to processes and ordering the wait queues by priority",
+            "Having a process request all its required resources when it first begins, and restarting if it cannot obtain them all",
+            "Numbering the resources and requiring that processes request resources in order of increasing number",
+            "Having processes time out and restart after a random interval of waiting"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the definition and behavior of the 'Magic memory' model, specifically how the Read and Clear operations interact to ensure atomicity and whether they can be leveraged for synchronization mechanisms like Test-and-Set and Inter-Process Communication (IPC).",
+        "instruction 2": "Evaluate the implications of the operations in different computing environments (single vs multiprocessor systems) and determine whether 'Magic memory' holds value in synchronizing processes on a shared-memory multiprocessor as well as its utility in non-multiprocessor settings.",
+        "question": "\"Magic memory\"' has two operations: Read and Clear. Both are indivisible and mutually exclusive. Clear sets the magic memory to zero. Read returns a value that represents the number of Read operations since the last Clear operation. Which of the following is (are) true of \"Magic memory\"?\nI. It can provide the functionality of an atomic Test-and-Set.\nII. It can be used to coordinate processes running on a shared-memory multiprocessor.\nIII. It is only useful on a multiprocessor.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific data structure used in compilers for managing variable information, such as the symbol table, and outline its role in storing attributes like type, scope, and memory location.",
+        "instruction 2": "Consider the purpose and functionality of this data structure within the broader context of the compilation process, discussing how it assists in semantic analysis and ensures accurate variable management throughout the compilation stages.",
+        "question": "Which of the following is the name of the data structure in a compiler that is responsible for managing information about variables and their attributes?",
+        "choices": [
+            "Abstract Syntax Tree (AST)",
+            "Attribute Grammar",
+            "Symbol Table",
+            "Semantic Stack"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and analyze sorting algorithms, particularly focusing on their time complexity characteristics in both worst-case and average scenarios, such as quicksort and mergesort, to determine which algorithm fits the given requirements.",
+        "instruction 2": "Consider how practical implementations and variations of these algorithms may affect their time complexity, ensuring to distinguish between theoretical and empirical performance to accurately categorize the answer.",
+        "question": "Which of the following algorithms has running time Θ(n^2) in the worst case but Θ(n log n) on average?",
+        "choices": [
+            "Bubblesort",
+            "Mergesort",
+            "Heapsort",
+            "Quicksort"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the implications of direct and indirect representations in terms of their impact on compilation time, access time, and source module recompilation. This includes understanding how each representation interacts with data encapsulation and memory storage.",
+        "instruction 2": "Evaluate the truth of each statement (I, II, III) based on established knowledge regarding direct vs. indirect representation mechanisms in programming languages, focusing on aspects such as access speed, compilation complexity, and the effects of changing component sizes.",
+        "question": "Languages with a structure that implements abstract data types (e.g., a C++ class) can prevent access to components of this structure by all operations except those that are part of this structure. However, definitions of such a structure often contain declarations of components of the structure (e.g., the header file for a C++ class may contain declarations of its private components). For such a language, an object's name could be bound at run time to stack storage for its component values (direct representation) or to a stack pointer referencing heap storage for its component values (indirect representation). Which of the following statements about comparisons between direct and indirect representations is (are) true?\nI. Indirect representation noticeably increases compilation time.\nII. Direct representation decreases the time needed to access components of a variable.\nIII. When the storage size of some private component of a variable changes, indirect representation minimizes the number of recompilations of source modules that must be performed.",
+        "choices": [
+            "I only",
+            "III only",
+            "I and II only",
+            "II and III only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Review the fundamental characteristics of bitmap graphics, focusing on defining properties such as resolution, pixelation, and color depth, to distinguish them from vector graphics.",
+        "instruction 2": "Analyze each option provided in the question, evaluating how each property either aligns with or contradicts standard attributes of bitmap graphics, to correctly identify the one that is NOT applicable.",
+        "question": "Which of the following is NOT a property of bitmap graphics?",
+        "choices": [
+            "Fast hardware exists to move blocks of pixels efficiently.",
+            "Realistic lighting and shading can be done.",
+            "All line segments can be displayed as straight.",
+            "Polygons can be filled with solid colors and textures."
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the different types of interrupts (hardware and software) and their respective purposes in a computing context, ensuring to differentiate how they affect the processor's operation.",
+        "instruction 2": "Examine the broader implications of interrupts on system performance, including how they can enhance responsiveness in real-time systems and their role in managing multiple processes efficiently.",
+        "question": "Which of the following is true of interrupts?",
+        "choices": [
+            "They are generated when memory cycles are \"stolen\".",
+            "They are used in place of data channels.",
+            "They can indicate completion of an I/O operation.",
+            "They cannot be generated by arithmetic operations."
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine the implications of the height-balance property in a binary search tree, particularly how it affects the search operation times (worst-case, average-case, and best-case) and the relationship between tree height and the number of nodes.",
+        "instruction 2": "Analyze each statement's validity based on tree structure properties and known search complexities, ensuring to reference definitions of tree height and logarithmic relationships relevant to binary search trees.",
+        "question": "In a height-balanced binary search tree, the heights of the left and right descendents of any node differ by at most 1. Which of the following are true of such a tree?\nI. Worst-case search time is logarithmic in the number of nodes.\nII. Average-case search time is logarithmic in the number of nodes.\nIII. Best-case search time is proportional to the height of the tree.\nIV. The height of the tree is logarithmic in the number of nodes.",
+        "choices": [
+            "I and III only",
+            "II and III only",
+            "II and IV only",
+            "I, II, and IV"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the optimal strategy for Mary to narrow down the range of possible numbers Bob could have written, by implementing a binary search approach, which involves asking questions to eliminate half of the remaining possibilities with each question.",
+        "instruction 2": "Calculate the maximum number of questions required using the formula for binary search, which is determined by the binary logarithm of the size of the range (in this case, log2(1000)), rounding up to the nearest whole number to account for the worst-case scenario.",
+        "question": "Bob writes down a number between 1 and 1,000. Mary must identify that number by asking \"yes/no\" questions of Bob. Mary knows that Bob always tells the truth. If Mary uses an optimal strategy, then she will determine the answer at the end of exactly how many questions in the worst case?",
+        "choices": [
+            "1,000",
+            "999",
+            "500",
+            "10"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze each statement individually to determine its truth value regarding virtual memory systems, with a focus on concepts such as the use of pagination, memory management, and the relationship between virtual and physical memory sizes.",
+        "instruction 2": "Consider the implications of memory paging on program execution, particularly in relation to whether entire programs must remain in main memory as well as how pages may or may not relate to the program's semantic structure.",
+        "question": "Which of the following is (are) true about virtual memory systems that use pages?\nI. The virtual address space can be larger than the amount of physical memory.\nII. Programs must be resident in main memory throughout their execution.\nIII. Pages correspond to semantic characteristics of the program.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and II",
+            "I and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the typical components included in a subroutine's activation record frame, such as return address, local variables, and parameters, to differentiate between what is customarily included versus what is typically excluded.",
+        "instruction 2": "Evaluate common programming practices and theoretical foundations to determine which specific component or attribute is least likely to be represented in the activation record frame, based on how stack-based languages typically manage subroutine calls and data.",
+        "question": "Which of the following is usually NOT represented in a subroutine's activation record frame for a stack-based programming language?",
+        "choices": [
+            "Values of local variables",
+            "A heap area",
+            "The return address",
+            "Stack pointer for the calling activation record"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the characteristics of remote procedure calls (RPCs) by evaluating their definition, functionality, and use cases to establish a clear understanding of what makes a statement true about them.",
+        "instruction 2": "Compare the provided statements by identifying keywords and fundamental principles related to RPCs, ensuring an accurate assessment of their correctness in relation to the operational context of remote communications and function execution.",
+        "question": "Which of the following statements about a remote procedure call is true?",
+        "choices": [
+            "It is used to call procedures with addresses that are farther than 2^16 bytes away.",
+            "It cannot return a value.",
+            "It cannot pass parameters by reference.",
+            "It cannot call procedures implemented in a different language."
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify each sorting algorithm being considered and analyze their time complexities, particularly focusing on how their performance varies with different initial arrangements of the input data (e.g., sorted, reverse-sorted, random).",
+        "instruction 2": "Determine which algorithm has a performance that remains most consistent regardless of the initial input order and provide an explanation of how its design or mechanism contributes to this characteristic.",
+        "question": "Of the following sorting algorithms, which has a running time that is LEAST dependent on the initial ordering of the input?",
+        "choices": [
+            "Insertion sort",
+            "Quicksort",
+            "Merge sort",
+            "Selection sort"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the time taken for the inherently sequential portion of the computation, which is 40 percent of the total 100 seconds. This portion will remain the same regardless of the number of processors.",
+        "instruction 2": "Use Amdahl's Law to determine the best possible elapsed times for the parallel portion of the computation for both 2 and 4 processors. This involves calculating the time for the parallel portion based on the remaining 60 percent of the computation and dividing it by the number of processors used.",
+        "question": "A particular parallel program computation requires 100 seconds when executed on a single processor. If 40 percent of this computation is \"inherently sequential\" (i.e., will not benefit from additional processors), then the theoretically best possible elapsed times for this program running with 2 and 4 processors, respectively, are",
+        "choices": [
+            "20 and 10 seconds",
+            "30 and 15 seconds",
+            "50 and 25 seconds",
+            "70 and 55 seconds"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the addition of the six-bit numbers 011000 and 011000 in each representation (two's complement, one's complement, and sign and magnitude) to determine if there is an overflow, specifically focusing on how each representation handles carry bits and the maximum positive value it can represent.",
+        "instruction 2": "Calculate the result of the addition in each representation, checking for any inconsistencies that may indicate an overflow, such as producing a result that cannot be represented within the six-bit limit of the respective number system.",
+        "question": "Consider the representation of six-bit numbers by two's complement, one's complement, or by sign and magnitude. In which representation is there overflow from the addition of the integers 011000 and 011000?",
+        "choices": [
+            "Two's complement only",
+            "Sign and magnitude and one's complement only",
+            "Two's complement and one's complement only",
+            "All three representations"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the defining features of memory-mapped I/O, including how it allows the CPU to communicate with peripheral devices through a unified address space, and distinguish this from other I/O methods such as port-mapped I/O.",
+        "instruction 2": "Evaluate the implications of using memory-mapped I/O on system architecture and performance, discussing how it affects data transfer speeds, programming models, and system complexity.",
+        "question": "Of the following, which best characterizes computers that use memory-mapped I/O?",
+        "choices": [
+            "The computer provides special instructions for manipulating I/O ports.",
+            "I/O ports are placed at addresses on the bus and are accessed just like other memory locations.",
+            "To perform an I/O operation, it is sufficient to place the data in an address register and call the channel to perform the operation.",
+            "Ports are referenced only by memory-mapped instructions of the computer and are located at hardwired memory locations."
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the principle of computational difficulty in integer factorization, focusing on why it is a hard problem for classical and quantum computers, and how this underpins the security of various cryptographic protocols.",
+        "instruction 2": "Explore the implications of advancements in computing, such as breakthroughs in algorithms or quantum computing capabilities, on the assumptions surrounding integer factorization, and how that might affect the trust in cryptographic systems reliant on this mathematical challenge.",
+        "question": "Many cryptographic protocols base their security on assumptions about the computational difficulty of integer factorization. Integer factorization serves this purpose because we believe that",
+        "choices": [
+            "integer multiplication is a function whose inverse, factorization, remains difficult for a large class of inputs",
+            "P = NP",
+            "even if P = NP, integer factorization is still likely not to be polynomial-time computable",
+            "testing primality is computationally intractable"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the properties of the given sets of bit strings and analyze which characteristics may prevent them from being described by a regular expression, such as context-free languages or sets defined by complex conditions that require memory beyond finite automata.",
+        "instruction 2": "Examine the principles behind regular expressions and finite automata, ensuring to evaluate each set against known limitations of regular languages, including closure properties and the pumping lemma for regular languages.",
+        "question": "Which of the following sets of bit strings CANNOT be described with a regular expression?",
+        "choices": [
+            "All bit strings whose number of zeros is a multiple of five",
+            "All bit strings starting with a zero and ending with a one",
+            "All bit strings with an even number of zeros",
+            "All bit strings with more ones than zeros"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze each condition to determine if it can be represented using only the AND (∧) and OR (∨) connectives. Focus on how combinations of these variables can be structured to meet the criteria specified in each condition without negation.",
+        "instruction 2": "For conditions that can potentially be represented, derive the Boolean expressions explicitly, while ensuring to take into account the specified requirements of truth for the number of variables being considered (at least three, exactly three, or an even number).",
+        "question": "Which of the following conditions can be expressed by a Boolean formula in the Boolean variables p_1, p_2, p_3, p_4 and the connectives ∧,∨ (without ¬)?\nI. At least three of p_1, p_2, p_3, p_4 are true.\nII. Exactly three of p_1, p_2, p_3, p_4 are true.\nIII. An even number of p_1, p_2, p_3, p_4 are true.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Calculate the total number of links required for both the fully interconnected network and the ring network for n processors, ensuring to apply the correct formulas for each network type; for a fully interconnected network, use the formula n(n-1)/2 and for the ring network use n.",
+        "instruction 2": "Determine the worst-case path length for both network types, where the fully interconnected network has a worst-case path length of 1 (direct connection) and the ring network has a worst-case path length of n/2 for even n. Use these values to compute the figure of merit for each network and assess their ratio.",
+        "question": "Two alternatives for interconnecting a set of processors with bidirectional links are (1) the fully interconnected network, in which each processor is directly connected to every other processor, and (2) the ring network, in which each processor is connected to two other processors. The worst-case path length for a network is the maximum, over all pairs of nodes in the network, of the minimum length paths (measured in number of links) between the nodes. For each type of interconnection of n processors, a figure of merit can be formed as the product of the number of links required for the network times the worst-case path length connecting any two processors. The ratio of this figure of merit for the fully interconnected network compared to that of the ring network, for even n > 2, is",
+        "choices": [
+            "1/(n^2)",
+            "1/(n(n-1))",
+            "1/n",
+            "(n-1)/n"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Evaluate each statement individually by applying fundamental properties of graph theory; for instance, use the Handshaking Lemma to analyze the sum of degrees, consider the Minimum Spanning Tree concept for edges and vertices, and examine vertex degrees to determine connectivity requirements.",
+        "instruction 2": "Determine the validity of each statement (I, II, III) in the context of a connected undirected graph, ensuring to distinguish between necessary conditions and sufficient conditions for each, and provide a logical justification for each assessment.",
+        "question": "For a connected, undirected graph G = (V, E), which of the following must be true?\nI. Σ_{v∈V} degree(v) is even.\nII. |E| ≥ |V| − 1\nIII. G has at least one vertex with degree 1.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the definitions and characteristics of the terms 'macro', 'recursive', and 'reentrant' in the context of multiprogrammed systems, focusing on how these properties affect a program's ability to be shared among multiple users without conflict.",
+        "instruction 2": "Determine the conditions necessary for a program to be considered reentrant, as this is a critical quality for sharing, and evaluate whether the other two options (macro and recursive) provide similar guarantees in a multiprogrammed environment.",
+        "question": "In multiprogrammed systems it is advantageous if some programs such as editors and compilers can be shared by several users. Which of the following must be true of multiprogrammed systems in order that a single copy of a program can be shared by several users?\nI. The program is a macro.\nII. The program is recursive.\nIII. The program is reentrant.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "II and III only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the criteria for a decimal number to have an exact representation in binary notation, which typically includes determining if the number is a terminating decimal (i.e., it can be expressed as a fraction with a denominator that is a power of 2).",
+        "instruction 2": "Evaluate each given decimal number against the criteria established, converting or analyzing the numbers to verify if they can be expressed precisely in binary form without recurring decimals.",
+        "question": "Which of the following decimal numbers has an exact representation in binary notation?",
+        "choices": [
+            "0.1",
+            "0.2",
+            "0.3",
+            "0.5"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the concept of currying by breaking down the process of transforming a function with multiple parameters into a series of functions with a single parameter, ensuring to detail the significance of function signatures in this context.",
+        "instruction 2": "Evaluate the examples or options provided in the question to identify the correct application of function signatures as they pertain to the concept of currying, considering how each option aligns with the definition given in the passage.",
+        "question": "Function signatures describe the types of the arguments to a function as well as the return value of the function. For instance, the addition function on reals has a signature of\nadd : real x real -> real\nsince it takes two real numbers and returns a real number. But, for a language that allows functions as return values, addition could be considered to have the signature\nadd : real -> (real -> real)\nwhich means that add takes a single real (the first operand) and returns a new function that itself takes a single real (the second operand) and returns a real (the result). This process of reducing a function with multiple arguments to a function with fewer arguments is called currying. Which of the following is correct?",
+        "choices": [
+            "Currying can be applied to any function to the point where it has exactly one input argument.",
+            "Currying cannot be applied to functions of more than two arguments.",
+            "Currying cannot be applied to functions that return functions as arguments.",
+            "Currying cannot be applied w functions that haw arguments that are functions."
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Calculate the memory addresses accessed during the loop, specifically focusing on how the loop iterates through array A and accesses array B. Determine how many unique elements from both arrays are written back to memory, taking into account the indices used in the loop.",
+        "instruction 2": "Understand the impact of the write-back cache policy on memory writes, noting that changes to cache contents will only be written back to the main memory when a cache block is evicted. Analyze whether any cache evictions occur during the loop execution and how they influence the total bytes written to memory.",
+        "question": "Array A contains 256 elements of 4 bytes each. Its first element is stored at physical address 4,096.\nArray B contains 512 elements of 4 bytes each. Its first element is stored at physical address 8,192.\nAssume that only arrays A and B can be cached in an initially empty, physically addressed, physically tagged, direct-mapped, 2K-byte cache with an 8-byte block size. The following loop is then executed.\nfor (i = 0; i < 256; i++)\n        A[i] = A[i] + B[2*i];\nDuring the execution of the loop, how many bytes will be written to memory if the cache has a write-back policy?",
+        "choices": [
+            "0",
+            "256",
+            "1024",
+            "2000"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the range of representable integers for each of the 8-bit representations: one's complement, two's complement, and sign and magnitude. This involves calculating the maximum and minimum values for each representation based on their formats.",
+        "instruction 2": "Evaluate the sum of the integers 109 and -42, ensuring to check if the resulting sum falls within the determined ranges for each representation, and consider how overflow may affect the validity of the result in one's complement and sign and magnitude systems.",
+        "question": "In which of the following representations of numbers by 8-bit words is the addition of the integers 109 and -42 within range?\nI. One's complement\nII. Two's complement\nIII. Sign and magnitude",
+        "choices": [
+            "I only",
+            "II only",
+            "I and II only",
+            "I, II, and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the implications of granting temporary administrator-level access to a malicious process, considering potential vulnerabilities, security breaches, and the possible actions the process could take to exploit the system during that time.",
+        "instruction 2": "Evaluate the security measures or protocols that should be implemented to mitigate the risks associated with temporary elevated privileges, including monitoring access, setting strict time limits, and employing recovery strategies to restore system integrity once access is revoked.",
+        "question": "If a malicious process is granted temporary administrator-level access to a system",
+        "choices": [
+            "the threat is over as soon as the process is killed",
+            "the threat is over after the operating system is rebooted",
+            "the thread is over after rebooting the machine and replacing files that show a virus infection",
+            "the threat is often permanent until the entire disk is wiped clean"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Evaluate each statement about horizontal and vertical microarchitectures by defining key characteristics of both architectures, such as instruction encoding, the complexity of microinstructions, and execution time requirements, to determine the accuracy of each statement.",
+        "instruction 2": "Analyze the implications of horizontal microarchitecture generally having a wider instruction set and greater flexibility compared to vertical microarchitecture, which might simplify instruction decoding but could limit the number of operations, thus influencing truths of the statements presented.",
+        "question": "Which of the following statements about horizontal versus vertical microarchitecture is (are) true?\nI. Programs for horizontal architectures require more time steps than those for vertical architectures.\nII. Horizontal microinstructions are unencoded.\nIII. Horizontal microinstructions usually have a single opcode and multiple operand specifiers.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "II and III only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the definition of strictly binary trees and identify how the property of having two children impacts the structure and height of the tree, considering that every non-leaf node contributes to the height.",
+        "instruction 2": "Incorporate the constraint regarding the bounded ratio of lengths of root-to-leaf paths to derive a relationship between the height h and the number of nodes N, ensuring to explore how this constraint influences the maximum and minimum possible height of trees within the specified class.",
+        "question": "A \"strictly binary tree\" is a binary tree in which every node that is not a leaf has two children. Suppose that for a class of strictly binary trees there exists c > 0 such that, for any tree in the class, the ratio of the lengths of any two root-to-leaf paths is bounded above by c. Which of the following best characterizes the height h of any tree in this class, where N is the number of nodes in the tree and N > 1 ?",
+        "choices": [
+            "h <= log2(N)",
+            "h = 1/c * log2(N)",
+            "h < c log2(N)",
+            "h > c log2(N)"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and list common sorting algorithms, focusing on their average-case and worst-case time complexities, while distinguishing between those that achieve O(n log n) time complexity.",
+        "instruction 2": "Analyze the characteristics of each identified algorithm, such as their sorting methods (comparison-based or non-comparison-based), to determine which specifically meet the criteria of having both average-case and worst-case running times of O(n log n).",
+        "question": "Which of the following sorting algorithms has average-case and worst-case running times of O(n log n)?",
+        "choices": [
+            "Bubble sort",
+            "Insertion sort",
+            "Merge sort",
+            "Quicksort"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the conventional operations of a stack data structure, focusing on the expected behavior of each operation (Push, Pop, Top, and IsEmpty) in terms of their interactions and effects on the stack state.",
+        "instruction 2": "Evaluate each provided equation in relation to the defined operations of a stack, identifying any discrepancies or behaviors that deviate from the standard stack semantics, such as incorrect handling of state or misrepresentation of operation effects.",
+        "question": "Consider the following equations concerning a stack module that has the operations Push, Pop, Top, and IsEmpty. Which of the equations does NOT represent the conventional semantics of a stack?",
+        "choices": [
+            "IsEmpty(Push(Stack,Elem)) = true",
+            "Pop(Push(Stack,Elem)) = Stack",
+            "Top(Push(Stack,Elem)) = Elem",
+            "IsEmpty(Push(Push(Stack,Elem1),Elem2)) = false"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the dependencies between the assignment statements to identify which variables must be computed before others can be executed, thereby establishing the order in which variables can be assigned without conflict.",
+        "instruction 2": "Determine the minimum necessary time units by figuring out how many independent assignments can be executed concurrently using the available processors, while respecting the order imposed by the dependencies identified in the first instruction.",
+        "question": "Assume that any assignment statement can be executed in unit time. If as many identical processors as needed are used, what is the minimum number of time units needed to execute the assignments\nA := B + C\nB := A - B\nC := A * E\nD := A/F\nE := B - C\nF := A + B\nwith the same result as if the assignments were executed in the order shown?",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the given expressions by identifying the variables and constants in each expression to determine the potential substitutions needed for unification. Recognize the lexical identity required for expressions to be considered unifiable.",
+        "instruction 2": "Evaluate each pair of expressions to see if there exists a substitution for the variables that would make the two expressions lexically identical, systematically checking combinations of pairs (I, II), (I, III), and (II, III).",
+        "question": "Two expressions E and F are said to be unifiable if there are substitutions for the variables of E and F that make the expressions lexically identical. In the following three expressions, only w, x, y, and z are variables.\nI. f(w,w)\nII. f(x,1)\nIII. f(y,g(z))\nWhich pairs of these expressions is (are) pairs of unifiable expressions?",
+        "choices": [
+            "(I, II) only",
+            "(I, III) only",
+            "(II, III) only",
+            "(I, II) and (I, III) only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and define the characteristics of instruction-set features associated with the pipelining of an integer unit, focusing on factors that might create stalls or conflicts in the pipeline, such as data hazards, control hazards, and resource conflicts.",
+        "instruction 2": "Analyze each option provided in the question for its relevance and impact on pipelining efficiency, clearly distinguishing between features that facilitate aggressive pipelining versus those that present obstacles, ensuring a thorough understanding of how each feature influences integer unit performance.",
+        "question": "Which of the following instruction-set features is NOT generally considered an obstacle to aggressive pipelining of an integer unit?",
+        "choices": [
+            "Condition codes set by every instruction",
+            "Variable-length encoding of instructions",
+            "Instructions requiring widely varying numbers of cycles to execute",
+            "Several different classes (sets) of registers"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the conditions for the strings belonging to the language L, focusing on the requirements that the number of 0's must be divisible by k and the number of 1's must be odd. Define the states needed to represent these two conditions in a deterministic finite automaton (DFA).",
+        "instruction 2": "Calculate the minimum number of states required for the DFA by considering the combinations of the possible remainders when the count of 0's is divided by k, along with the states representing odd and even counts of 1's. Ensure that the construction accounts for all transitions based on the input symbols (0 and 1).",
+        "question": "Let k >= 2. Let L be the set of strings in {0, 1}^* such that x \\in L if and only if the number of 0's in x is divisible by k and the number of 1's in x is odd. The minimum number of states in a deterministic finite automaton (DFA) that recognizes L is",
+        "choices": [
+            "k + 2",
+            "2k",
+            "k log k",
+            "k^2"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the properties of directed acyclic graphs (DAGs) to determine the implications of the existence of edges (|E| > 0) on the vertices within the graph, especially focusing on the presence of vertices with no incoming edges and vertices with no outgoing edges.",
+        "instruction 2": "Evaluate the definitions of isolated vertices within the context of a directed acyclic graph, recognizing whether the presence of edges necessarily implies that an isolated vertex must exist, and draw conclusions based on the structure of the DAG.",
+        "question": "Let G = (V, E) be a finite directed acyclic graph with |E| > 0. Which of the following must be true?\nI. G has a vertex with no incoming edge.\nII. G has a vertex with no outgoing edge.\nIII. G has an isolated vertex, that is, one with neither an incoming edge nor an outgoing edge.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the properties of depth-first search (DFS) trees, particularly focusing on the relationships between preorder and postorder traversal indices for vertices within the same subtree. Determine how the traversal order impacts the statements related to the ancestor-descendant relationship.",
+        "instruction 2": "Evaluate the implications of the edge (u, v) not being part of the tree T, while pre(u) < pre(v), to assess which of the given statements must necessarily hold true under these constraints, considering the definitions and properties of lowest common ancestors in a DFS tree.",
+        "question": "Let T be a depth-first search tree of a connected undirected graph G. For each vertex v of T, let pre(v) be the number of nodes visited up to and including v during a preorder traversal of T, and post(v) be the number of nodes visited up to and including v during a postorder traversal of T. The lowest common ancestor of vertices u and v in T is a vertex w of T such that w is an ancestor of both u and v, and no child of w is an ancestor of both u and v. Let (u, v) be an edge in G that is not in T, such that pre(u) < pre(v). Which of the following statements about u and v must be true?\nI. post(u) < post(v)\nII. u is an ancestor of v in T.\nIII. If w is the lowest common ancestor of u and v in T, then w = u.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "II and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the concept of a 'root set' in the context of garbage collection, ensuring to outline the typical elements that belong to this set, such as global variables, active stack frames, and permanent data structures.",
+        "instruction 2": "Analyze the options provided in the question to determine which item does not qualify as a part of the root set, contrasting it with the characteristics of valid roots based on their ability to reference allocated memory objects.",
+        "question": "In systems with support for automatic memory management, a garbage collector typically has the responsibility for reclaiming allocated memory objects whose contents cannot affect any future legal computation. Such objects are identified by determining that they cannot be reached from a root set. Which of the following is NOT part of the root set in a typical garbage collector?",
+        "choices": [
+            "Actual parameters of the active procedures",
+            "Dynamically allocated objects on the heap",
+            "Global variables of the program",
+            "Local variables on the call stack"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the role of the Address Resolution Protocol (ARP) within the Internet Protocol suite by determining how it translates IP addresses to physical MAC addresses, which is essential for enabling communication over local networks.",
+        "instruction 2": "Examine the context in which ARP operates, including its interaction with other protocols in IP networking, and consider specific scenarios where ARP is utilized to facilitate data packet transmission within a network.",
+        "question": "In the Internet Protocol (IP) suite of protocols, which of the following best describes the purpose of the Address Resolution Protocol?",
+        "choices": [
+            "To translate Web addresses to host names",
+            "To determine the IP address of a given host name",
+            "To determine the hardware address of a given host name",
+            "To determine the hardware address of a given IP address"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific language features that necessitate dynamic memory management, such as recursion or closures, which require stack-based storage to properly manage function calls and local variable lifetimes.",
+        "instruction 2": "Analyze the implications of stack-based storage allocation on program execution, including how it affects memory access patterns, function call overhead, and the handling of nested function calls compared to static allocation which is rigid and predetermined.",
+        "question": "Which of the following language features requires that stack-based storage allocation be used rather than static allocation?",
+        "choices": [
+            "Recursive procedures",
+            "Arbitrary goto's",
+            "Two-dimensional arrays",
+            "Integer-valued functions"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the given grammar production rules to explore the possible sentences that can be generated, particularly focusing on the derivations from non-terminal symbols A, B, C, D, and E to determine their resultant forms.",
+        "instruction 2": "Evaluate the options provided against the generated forms, specifically identifying which sentence cannot be derived based on the rules of the grammar, ensuring a thorough check for adherence to the specified production patterns.",
+        "question": "Which of the following is not a sentence that is generated by the grammar A -> BC, B -> x|Bx, C -> B|D, D -> y|Ey, E -> z?",
+        "choices": [
+            "xyz",
+            "xy",
+            "xxzy",
+            "xxxxy"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the recursive formula T(n + 1) = 3n + T(n) to identify the pattern in the function's growth by substituting values for n, in order to derive a non-recursive formula or a summation that illustrates how T(n) evolves as n increases.",
+        "instruction 2": "Use mathematical techniques such as the method of iteration or the Master Theorem to determine the order of growth for T(n), ensuring to express the result in Big O notation to capture the asymptotic behavior of the function as n approaches infinity.",
+        "question": "Let T (n) be defined by T(1) = 7 and T(n + 1) = 3n + T(n) for all integers n ≥ 1. Which of the following represents the order of growth of T(n) as a function of n?",
+        "choices": [
+            "Θ(n)",
+            "Θ(n log n)",
+            "Θ(n^2)",
+            "Θ(n^2 log n)"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze each problem statement to determine if a formal procedure can be established to consistently provide a yes or no answer for decidability, focusing specifically on properties of prefixes, outputs of programs, and relationships to known undecidable problems.",
+        "instruction 2": "Consider the implications of computability theory, especially concepts like Turing machines and reductions, to evaluate the decidability of the problems in relation to established results, such as those concerning the decimal expansion of irrational numbers like π.",
+        "question": "Which of the following problems is (are) decidable?\nI. Given a (finite) string w, is w a prefix of the decimal expansion of π?\nII. Given a program and an input, is the program’s output the decimal expansion of π?\nIII. Given a program that takes as input a prefix of the decimal expansion of π, is the program’s output always the same for every prefix?",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze each statement one by one, determining the definitions and properties of combinational circuits and sequential circuits to evaluate the correctness of the claims presented in statements I, II, and III.",
+        "instruction 2": "Consider the roles of feedback and memory in circuits, noting the differences between how combinational circuits function versus sequential circuits, as well as the necessity of an external clock in either type, to clearly establish the truth value of each statement.",
+        "question": "Which of the following statements about circuits is (are) true?\nI. Combinational circuits may have feedback; sequential circuits do not.\nII. Combinational circuits have a \"memoryless\" property; sequential circuits do not.\nIII. Both sequential and combinational circuits must be controlled by an external clock.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and II only",
+            "II and III only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Calculate the total time required for the compilation on each workstation by first determining the time taken for the computation (30 seconds), then adding the time spent on file page accesses (200 accesses multiplied by average access time per access) for both the diskless workstation and the workstation with the local disk.",
+        "instruction 2": "Once the total times for both workstations have been calculated, compute the ratio of the total time required by the diskless workstation to the total time required by the workstation with the local disk, ensuring to clarify that computation and file access are not overlapped.",
+        "question": "Two single-user workstations are attached to the same local area network. On one of these workstations, file pages are accessed over the network from a file server; the average access time per page is 0.1 second. On the other of these workstations, file pages are accessed from a local disk; the average access time per page is 0.05 second. A particular compilation requires 30 seconds of computation and 200 file page accesses. What is the ratio of the total time required by this compilation if run on the diskless (file server) workstation to the total time required if run on the workstation with the local disk, if it is assumed that computation is not overlapped with file access?",
+        "choices": [
+            "1/1",
+            "5/4",
+            "5/3",
+            "10/5"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Calculate the offset of the load instruction within the text segment of the process P by subtracting the base address of the text segment (0x77E80000) from the virtual address of the load instruction (0x77E81234) to determine the offset for the debugger's WRITE operation.",
+        "instruction 2": "Determine the corresponding address in the debugger's virtual address space by adding the computed offset to the base address of the mapped text segment in the debugger's space (0x01000000), thereby identifying the exact virtual address that will be used in the WRITE operation, and explain how the remapping allows the debugger to access the instruction correctly.",
+        "question": "Assume that a debugger places a breakpoint at a load instruction at virtual address 0x77E81234 (hexadecimal notation) in a debugged process P. If the text segment of P begins at 0x77E80000 in P’s virtual address space and if the debugger has mapped this same text segment at 0x01000000 in its virtual address space, which of the following is the virtual address used by the debugger in its WRITE operation, along with a description of how the debugger has mapped the virtual memory page containing this address?",
+        "choices": [
+            "0x01001234; page mapped with READ/WRITE access",
+            "0x01001234; page mapped with COPY-ON-WRITE access",
+            "0x76E81234; page mapped with READ/WRITE access",
+            "0x76E81234; page mapped with COPY-ON-WRITE access"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Evaluate each consideration (I, II, III) in the context of how page size affects system performance and resource utilization in a paging system, ensuring to reference concepts such as page table size, internal fragmentation, and disk access times.",
+        "instruction 2": "Analyze the trade-offs associated with larger and smaller page sizes, considering the impact on efficiency, performance, and resource allocation in memory management, to justify which statements are accurate within the context of paging systems.",
+        "question": "Which of the following considerations applies (apply) to choosing the page size in a paging system?\nI. An advantage of larger pages is that they lead to smaller page tables.\nII. An advantage of smaller pages is that they lead to less waste due to internal fragmentation.\nIII. Normally, the dominant factor in disk access time is not dependent on page length, so longer pages can be used advantageously.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and III only",
+            "I, II, and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the maximum throughput of both processors by determining the instruction throughput for each, which is defined as 1 divided by the clock cycle time times the number of pipeline stages. Use this to compare the two throughputs and evaluate the truth of statement I.",
+        "instruction 2": "Examine the latency for a single instruction in both pipelines, which can be found as the product of the number of stages and the clock cycle time. Compare these latencies to assess the validity of statement II and evaluate the conditions under which statement III could potentially be true or false, considering factors such as instruction dependencies and execution scenarios.",
+        "question": "Two processors, M-5 and M-7, implement the same instruction set. Processor M-5 uses a 5-stage pipeline and a clock cycle of 10 nanoseconds. Processor M-7 uses a 7-stage pipeline and a clock cycle of 7.5 nanoseconds. Which of the following is (are) true?\nI. M-7’s pipeline has better maximum throughput than M-5’s pipeline.\nII. The latency of a single instruction is shorter on M-7’s pipeline than on M-5’s pipeline.\nIII. Programs executing on M-7 will always run faster than programs executing on M-5.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and III",
+            "II and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Understand the conditions that lead to overflow in the addition of two's-complement numbers, specifically focusing on scenarios where the signs of the two numbers being added are the same but the resulting sum yields a different sign.",
+        "instruction 2": "Analyze each pair of 8-bit two's-complement numbers provided, evaluating their binary representations, signs, and the resultant sum upon addition to determine whether overflow occurs.",
+        "question": "Which of the following pairs of 8-bit, two's-complement numbers will result in overflow when the members of the pairs are added?",
+        "choices": [
+            "11111111, 00000001",
+            "00000001, 10000000",
+            "11111111, 10000001",
+            "10000001, 10101010"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the total amount of data that can be transmitted per second based on the network's capacity to carry packets, which is 1,000 packets per second, and the size of each packet, which is 1,000 bytes. This involves multiplying the number of packets by the size of each packet to determine the total data rate in bytes per second.",
+        "instruction 2": "Evaluate the impact of CPU processing time on the sending rate by determining how many packets can be sent in one second given that each packet requires 10 milliseconds of CPU time. This will provide insight into whether the network protocol execution time constrains the maximum sending rate.",
+        "question": "Two computers communicate with each other by sending data packets across a local area network. The size of these packets is 1,000 bytes. The network has the capacity to carry 1,000 packets per second. The CPU time required to execute the network protocol to send one packet is 10 milliseconds. The maximum rate at which one computer can send data to another is approximately",
+        "choices": [
+            "10,000 bytes/second",
+            "25,000 bytes/ second",
+            "100,000 bytes/ second",
+            "500,000 bytes/ second"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the definitions and characteristics of grammar ambiguity, top-down parsing, and bottom-up parsing to determine their applicability to the given grammar. Specifically, examine if there are multiple ways to derive the same string from the grammar to evaluate ambiguity.",
+        "instruction 2": "Assess the structure of the grammar rules to determine if they align with the requirements for top-down and bottom-up parsing methods. For top-down parsing, verify that the grammar is suitable for recursive descent, while for bottom-up parsing, consider if there are any production relations that would pose conflicts in parsing the generated strings.",
+        "question": "Consider the following grammar.\nS → ( S )\nS → x\nWhich of the following statements is (are) true?\nI. The grammar is ambiguous.\nII. The grammar is suitable for top-down parsing.\nIII. The grammar is suitable for bottom-up parsing.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "II and III only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the types of problems described in the context of hash tables, focusing on the specific characteristics of each problem to determine how hash tables apply, and identify which problem is generally known not to benefit from hash table efficiency.",
+        "instruction 2": "Evaluate the reasons why hash tables may not be advantageous for one of the problems listed, possibly considering issues related to collisions, data structure suitability, or the inherent nature of the problem that may lead to inefficiency.",
+        "question": "Hash tables can contribute to an efficient average-case solution for all of the problems described below EXCEPT:",
+        "choices": [
+            "Counting distinct values: Given a set of n keys, determine the number of distinct key values.",
+            "Dynamic dictionary: Support the operations of insert, delete, and search in a dictionary.",
+            "Range search: Given values a and b, find all the records whose key value is in the range a, b.",
+            "Symbol table lookup: Given a program identifier, find its type and address."
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine the number of choices available for mapping each element of set A into set B, recognizing that each of the m elements in set A can be independently mapped to any of the n elements in set B.",
+        "instruction 2": "Combine the choices for all m elements in set A to calculate the total number of distinct functions, which involves raising the number of elements in set B (n) to the power of the number of elements in set A (m), resulting in the expression n^m.",
+        "question": "Let A be a finite set with m elements, and let B be a finite set with n elements. The number of distinct functions mapping A into B is",
+        "choices": [
+            "n^m",
+            "n!/(n - m)!",
+            "n!",
+            "n!/(m!(n - m)!)"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the time complexity of both methods of matrix multiplication: for (N_1N_2)N_3, calculate its complexity as wxz, where wx comes from the first multiplication and the second multiplication involves p rows from the result and z columns from N_3.",
+        "instruction 2": "Compare the computed time complexities, evaluating the condition under which wxz < wyz, which stems from multiplying the second method N_1(N_2 N_3), and determine when the time for the former is less than the latter based on matrix dimensions.",
+        "question": "To compute the matrix product M_1M_2, where M_1 has p rows and q columns and where M_2 has q rows and r columns, takes time proportional to pqr, and the result is a matrix of p rows and r columns. Consider the product of three matrices N_1N_2N_3 that have, respectively, w rows and x columns, x rows and y columns, and y rows and z columns. Under what condition will it take less time to compute the product as (N_1N_2)N_3 (i.e., multiply the first two matrices first) than to compute it as N_1(N_2 N_3)?",
+        "choices": [
+            "There is no such condition; i.e., they will always take the same time.",
+            "1/x + 1/z < 1/w + 1/y",
+            "x > y",
+            "1/w + 1/x < 1/y + 1/z"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the implications of the write-allocation policy on cache operations, particularly focusing on how it influences the behavior of the cache during write-miss scenarios and the subsequent impact on write-through and write-back operations.",
+        "instruction 2": "Analyze the differences in data consistency and performance between write-through and write-back policies under the assumption of write-allocation, evaluating which conditions favor one policy over the other in terms of cache efficiency and system performance.",
+        "question": "The hit ratio of a cache memory is the percentage of accesses (reads and writes) for which data are found in the cache. Write-through is a policy whereby every write operation updates main memory. Write-back is a policy whereby a write operation to a line found in the cache does not affect main memory until the line is evicted from the cache. Write-allocation is a policy whereby a cache line is allocated and loaded on a write-miss. If it is assumed that write-allocation is always used, which of the following is true?",
+        "choices": [
+            "Write-back usually results in a better hit ratio than write-through.",
+            "Write-through usually results in a better hit ratio than write-back.",
+            "The percentage of write operations resulting in a main memory operation will never be larger for write-back than for write-through.",
+            "The percentage of write operations resulting in a main memory operation will never be larger for writethrough than for write-back."
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Convert the hexadecimal value D4FE2003 into a binary string to represent the occupancy and vacancy of the disk tracks. Each bit in the binary string corresponds to a track, where '1' indicates occupied and '0' indicates vacant.",
+        "instruction 2": "Count the number of '1' bits in the binary string to determine the number of occupied tracks. Calculate the percentage of occupied tracks by dividing the number of occupied tracks by the total number of bits (32) and multiplying by 100, rounding to the nearest percent.",
+        "question": "A particular disk unit uses a bit string to record the occupancy or vacancy of its tracks, with O denoting vacant and 1 denoting occupied. A 32-bit segment of this string has the hexadecimal value D4FE2003. The percentage of occupied tracks for the corresponding part of the disk, to the nearest percent, is",
+        "choices": [
+            "12%",
+            "25%",
+            "38%",
+            "44%"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Apply the necessary conditions for the existence of an Euler circuit in an undirected graph: all vertices must have an even degree, and the graph must be connected. Assess each of the given graphs (complete graphs and trees) based on these criteria to determine which must have an Euler circuit.",
+        "instruction 2": "Consider the properties of complete graphs and trees: a complete graph with an even number of vertices will have all vertices of odd degree, while a tree will always have at least two vertices of odd degree. Analyze how these properties affect the existence of an Euler circuit in each case.",
+        "question": "An Euler circuit of an undirected graph is a circuit in which each edge of the graph appears exactly once. Which of the following undirected graphs must have an Euler circuit?\nI. A complete graph with 12 vertices\nII. A complete graph with 13 vertices\nIII. A tree with 13 vertices",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine which aspects of programming language structure, such as syntax rules and hierarchical organization of code constructs, are most appropriately described by context-free grammars, focusing on features like expressions, statements, and declarations.",
+        "instruction 2": "Evaluate the limitations of context-free grammars in defining characteristics such as semantics, context-sensitive features, and certain types of types or scoping, thereby clarifying what makes a characteristic suitable for a context-free grammar specification.",
+        "question": "Which of the following characteristics of a programming language is best specified using a context-free grammar?",
+        "choices": [
+            "Identifier length",
+            "Maximum level of nesting",
+            "Operator precedence",
+            "Type compatibility"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze each statement regarding the characteristics of IPv4 datagrams, specifically looking at rules about datagram size, fragmentation processes, and the reassembly of fragments to determine the truthfulness of each statement.",
+        "instruction 2": "Consider how the Internet Protocol (IP) handles fragmentation and reassembly, including the conditions under which fragmentation occurs during transmission and how fragments are managed in transit between source and destination.",
+        "question": "Which of the following statements about datagrams sent by a node in a network using IPv4 protocol is (are) true?\nI. Datagrams at the source must be the size of the smallest maximum transmission unit (MTU) of all the links on a path to the destination.\nII. Datagrams may be fragmented during routing.\nIII. Datagrams are reassembled only at the destination.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "II and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the characteristics of different job-scheduling policies to determine which ones employ mechanisms like priority aging or fairness in resource allocation to ensure that all jobs eventually receive service, preventing indefinite waiting times.",
+        "instruction 2": "Evaluate examples of specific job-scheduling policies, such as First-Come-First-Served (FCFS), Round Robin, and Shortest Job Next, and assess their ability to mitigate the risk of starvation by allowing timely access to resources for all jobs.",
+        "question": "A starvation-free job-scheduling policy guarantees that no job waits indefinitely for service. Which of the following job-scheduling policies is starvation-free?",
+        "choices": [
+            "Round-robin",
+            "Priority queuing",
+            "Shortest job first",
+            "Youngest job first"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the recurrence relation f(2N + 1) = f(2N) = f(N) + log N to derive the function f(N) by unfolding the recursive calls back to the base case f(1) = 0, focusing on how the logarithmic terms accumulate.",
+        "instruction 2": "Evaluate upper bound estimations for f(N) by considering the growth rate of the accumulated logarithmic terms against N, ensuring that the chosen bound reflects the asymptotic behavior of the recurrence as N approaches infinity.",
+        "question": "Of the following, which gives the best upper bound for the value of f(N) where f is a solution to the recurrence f(2N + 1) = f(2N) = f(N) + log N for N >= 1, with f(1) = 0?",
+        "choices": [
+            "O(log N)",
+            "O(N log N)",
+            "O(log N) + 0(1)",
+            "O((log N)^2)"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the total number of defective chips from both companies, which includes 1 defective chip from Company X and 2 defective chips from Company Y, to determine the overall pool of defective chips.",
+        "instruction 2": "Use Bayes' theorem to find the probability that a randomly selected defective chip came from Company Y, considering the total number of defective chips and the contributions from each company to this total.",
+        "question": "Company X shipped 5 computer chips, 1 of which was defective, and Company Y shipped 4 computer chips, 2 of which were defective. One computer chip is to be chosen uniformly at random from the 9 chips shipped by the companies. If the chosen chip is found to be defective, what is the probability that the chip came from Company Y?",
+        "choices": [
+            "2 / 9",
+            "4 / 9",
+            "1 / 2",
+            "2 / 3"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Evaluate each of the listed problems to determine whether a greedy algorithm is appropriate, identifying the inherent properties of the problems and making note of classic algorithms that are known to solve them, such as Prim's or Kruskal's algorithm for minimum spanning trees.",
+        "instruction 2": "Analyze the characteristics of greedy algorithms, such as the optimal substructure and the greedy choice property, to discern which problems can be effectively addressed through this approach and which require alternative methods like dynamic programming or backtracking.",
+        "question": "Which of the following problems can be solved by a standard greedy algorithm?\nI. Finding a minimum spanning tree in an undirected graph with positive-integer edge weights\nII. Finding a maximum clique in an undirected graph\nIII. Finding a maximum flow from a source node to a sink node in a directed graph with positive-integer edge capacities",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the logic behind the hash table implementation in the spelling checker, confirming that 'true' indicates the presence of a word in the dictionary and 'false' indicates absence, while clarifying that the size of the hash table is independent of the document size and solely depends on the number of unique words in the dictionary.",
+        "instruction 2": "Evaluate the correctness of each statement based on the behavior of the hash table in relation to the dictionary. Ensure to explicitly assess the implications of the hash function and how it affects the interpretation of true and false values in the context of word checking.",
+        "question": "A program that checks spelling works in the following way. A hash table has been defined in which each entry is a Boolean variable initialized to false. A hash function has been applied to each word in the dictionary, and the appropriate entry in the hash table has been set to true. To check the spelling in a document, the hash function is applied to every word in the document, and the appropriate entry in the hash table is examined. Which of the following is (are) correct?\nI. true means the word was in the dictionary.\nII. false means the word was not in the dictionary.\nIII. Hash table size should increase with document size.",
+        "choices": [
+            "I only",
+            "II only",
+            "I and II only",
+            "II and III only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Calculate the number of unique values that can be represented by a certain number of flits in ternary logic, using the formula 3^n, where n is the number of flits. Determine the smallest n such that 3^n is greater than or equal to 256.",
+        "instruction 2": "Ensure to consider the implications of representation; since you need to represent at least 256 values, verify the calculated flits against this requirement and confirm that no additional flits are needed beyond what is necessary.",
+        "question": "One approach to handling fuzzy logic data might be to design a computer using ternary (base-3) logic so that data could be stored as “true,” “false,” and “unknown.” If each ternary logic element is called a flit, how many flits are required to represent at least 256 different values?",
+        "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the primary disadvantage of local caching in distributed file systems, focusing on issues such as data consistency, synchronization, and potential stale data problems that arise when multiple nodes have locally cached copies of files.",
+        "instruction 2": "Evaluate how local caching can impact system performance and user experience, considering scenarios where conflicting changes are made to files, leading to possible data loss or discrepancies across the distributed system.",
+        "question": "Local caching of files is common in distributed file systems, but it has the disadvantage that",
+        "choices": [
+            "Temporary inconsistencies among views of a file by different machines can result",
+            "The file system is likely to be corrupted when a computer crashes",
+            "A much higher amount of network traffic results",
+            "Caching makes file migration impossible"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Calculate the total number of bytes written to memory during the execution of the loop, taking into account the size of the arrays A and B, the specified cache policy (write-through), and the loop's behavior of writing to each element of array A as it reads from array B.",
+        "instruction 2": "Examine the address mapping for both arrays in the cache to determine if any cache hits or misses occur during the loop execution, as this can influence the memory writes. Consider how the direct-mapped cache setup affects which cache blocks the elements of A and B will occupy.",
+        "question": "Array A contains 256 elements of 4 bytes each. Its first element is stored at physical address 4,096.\nArray B contains 512 elements of 4 bytes each. Its first element is stored at physical address 8,192.\nAssume that only arrays A and B can be cached in an initially empty, physically addressed, physically tagged, direct-mapped, 2K-byte cache with an 8-byte block size. The following loop is then executed.\nfor (i = 0; i < 256; i++)\n        A[i] = A[i] + B[2*i];\nDuring the execution of the loop, how many bytes will be written to memory if the cache has a write-through policy?",
+        "choices": [
+            "0",
+            "256",
+            "1024",
+            "2048"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the average completion time of the jobs by considering different scheduling algorithms, such as First-Come, First-Served or Shortest Job First, to find the optimal order of job execution that minimizes the average completion time.",
+        "instruction 2": "Implement the chosen scheduling strategy by listing the jobs in the selected order, calculating individual completion times for each job, and then computing the average completion time based on these values.",
+        "question": "At time 0, five jobs are available for execution on a single processor, with service times of 25, 15, 5, 3, and 2 time units. Which of the following is the minimum value of the average completion time of these jobs?",
+        "choices": [
+            "50",
+            "208/5",
+            "92/5",
+            "10"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the characteristics of both problems P_1 and P_2, identifying the fundamental differences in their definitions, as well as their computational complexities, specifically noting that finding a shortest simple path (P_1) can be efficiently solved using algorithms like Dijkstra's or Bellman-Ford, while finding a longest simple path (P_2) is generally NP-hard.",
+        "instruction 2": "Evaluate the implications of the properties of graphs on both problems, considering factors such as graph connectivity, the presence of cycles, and how these affect the feasibility of finding a solution for either P_1 or P_2, while referencing known theoretical results regarding pathfinding in graph theory.",
+        "question": "Let G = (V, E) be a connected, undirected graph, and let a and b be two distinct vertices in V. Let P_1 be the problem of finding a shortest simple path between a and b, and let P_2 be the problem of finding a longest simple path between a and b. Which of the following statements about P_1 and P_2 is true?",
+        "choices": [
+            "Both P_1 and P_2 can be solved in polynomial time.",
+            "P_1 can be solved in polynomial time but P_2 is not known to be solvable in polynomial time.",
+            "P_1 is not known to be solvable in polynomial time but P_2 can be solved in polynomial time.",
+            "It is not known whether either P_1 or P_2 can be solved in polynomial time."
+        ],
+        "subject": "college_computer_science",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and explain the primary disadvantage of direct mapping in cache organization, such as issues related to cache collisions or conflicts that arise when multiple data blocks compete for the same cache line.",
+        "instruction 2": "Consider how the simplicity of direct mapping may lead to performance trade-offs, including decreased cache hit rates and the potential impact on overall system performance due to the limited flexibility in cache data placement.",
+        "question": "A major advantage of direct mapping of a cache is its simplicity. The main disadvantage of this organization is that",
+        "choices": [
+            "it does not allow simultaneous access to the intended data and its tag",
+            "it is more expensive than other types of cache organizations",
+            "the cache hit ratio is degraded if two or more blocks used alternately map onto the same block frame in the cache",
+            "its access time is greater than that of other cache organizations"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze each of the three problems presented regarding the behavior of the Turing machine M to determine the criteria for decidability, particularly focusing on aspects of halting, bounded computation, and the potential for infinite loops.",
+        "instruction 2": "Evaluate the implications of Turing machine theory, such as the undecidability of certain problems (e.g., the Halting problem), to assess whether the conditions set in each problem can be definitively answered as true or false for any given Turing machine and integer n.",
+        "question": "Let M be a single-tape, deterministic Turing machine with tape alphabet {blank,0,1}, and let C denote the (possibly infinite) computation of M starting with a blank tape. The input to each problem below is M, together with a positive integer n. Which of the following problems is (are) decidable?\nI. The computation C lasts for at least n steps.\nII. The computation C lasts for at least n steps, and M prints a 1 at some point after the nth step.\nIII. M scans at least n distinct tape squares during the computation C.",
+        "choices": [
+            "None",
+            "III only",
+            "I and II only",
+            "I and III only"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the key characteristics of a 3-way, set-associative cache, focusing on its structure, including the number of sets and the number of lines per set, as well as how it relates to other types of caching mechanisms such as direct-mapped and fully associative caches.",
+        "instruction 2": "Discuss the advantages and disadvantages of using a 3-way, set-associative cache, particularly in terms of hit rate, access time, and complexity of cache management, while providing examples of scenarios where this cache architecture might be preferred.",
+        "question": "A 3-way, set-associative cache is",
+        "choices": [
+            "one in which each main memory word can be stored at any of 3 cache locations",
+            "effective only if 3 or fewer processes are running alternately on the processor",
+            "possible only with write-back",
+            "faster to access than a direct-mapped cache"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Explain the mechanism by which method resolution occurs in an object-oriented programming language, particularly focusing on how the instance relationship (object to class) and the subclass relationship (class to superclass) play a role in locating the appropriate method to execute.",
+        "instruction 2": "Consider the implications of method overriding in subclasses when determining which method is executed in response to a message, ensuring to clarify how the method resolution order (MRO) affects the outcome of method calls.",
+        "question": "Consider an object-oriented language in which all entities are objects. Two relationships arise: (1) the instance relationship, between an object and the class of which that object is a member, and (2) the subclass relationship, between a class and the superclass from which that class inherits properties. In such a language, when a message is sent to an object requesting execution of one of its methods (procedures), the method is located by following",
+        "choices": [
+            "one instance link and then zero or more subclass links",
+            "one or more instance links and then one or more subclass links",
+            "one or more instance links",
+            "one subclass link and then one or more instance links"
+        ],
+        "subject": "college_computer_science",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the impact of each action (I, II, III) on the execution time of a program in a pipelined RISC architecture, focusing on how increasing the clock cycle rate affects overall performance and identifying the limitations imposed by disallowing forwarding.",
+        "instruction 2": "Investigate how cache sizes influence the number of cache misses for both instructions and data, assessing the benefits of increased cache sizes on reducing stalls and improving overall execution time in the pipeline.",
+        "question": "In a pipelined RISC computer where all arithmetic instructions have the same CPI (cycles per instruction), which of the following actions would improve the execution time of a typical program?\nI. Increasing the clock cycle rate\nII. Disallowing any forwarding in the pipeline\nIII. Doubling the sizes of the instruction cache and the data cache without changing the clock cycle time",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and III"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the total time required for the digitization and processing of four analog signals, taking into account the digitization time per signal (12 microseconds) and the number of CPU instructions required for each digitization and averaging process. This involves determining the total CPU instruction execution time alongside the signal digitization time.",
+        "instruction 2": "Determine the maximum average time per instruction that the CPU can take, given the total processing time (the sum of digitization and instruction execution times) must not exceed the time interval within which new data arrives. This may require estimating how frequently new signals are generated, enabling the calculation of time constraints for instruction execution.",
+        "question": "A microcomputer used for data acquisition and control is required to digitize and process four analog input signals and to output their average continually; i.e., in real time. The time for an external analog-to-digital converter (which is triggered by a CPU instruction) to digitize one input is 12 microseconds, and only one digitization occurs at a time. Five CPU instructions, including the triggering instruction, must be executed for each signal digitized. Ten CPU instructions are executed in order to average each set of four samples and output this value. The time to convert the output from digital to analog form is to be ignored. If it is assumed that suitable data buffering is employed, then the maximum average instruction execution time that allows the microcomputer to keep up with the input-output data rates, is",
+        "choices": [
+            "0.8 microseconds",
+            "1.2 microseconds",
+            "1.6 microseconds",
+            "2.4 microseconds"
+        ],
+        "subject": "college_computer_science",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the availability of the software product using the formula: Availability = Mean Time Between Failures (MTBF) / (Mean Time Between Failures (MTBF) + Mean Time to Repair (MTTR)). Substitute the given values for MTBF and MTTR to derive the availability percentage.",
+        "instruction 2": "Take into account the number of customers using the software product and how it might affect the overall perception of reliability and availability, but note that availability is a product-specific measure and does not directly depend on the number of customers.",
+        "question": "Suppose that a certain software product has a mean time between failures of 10,000 hours and has a mean time to repair of 20 hours. If the product is used by 100 customers, what is its availability?",
+        "choices": [
+            "80%",
+            "90%",
+            "98%",
+            "99.80%"
+        ],
+        "subject": "college_computer_science",
+        "answer": 3
+    }
+]

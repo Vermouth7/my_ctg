@@ -35,7 +35,7 @@ def get_split_hs(model,tokenizer,file_path):
         res=process_data(sample)
         hidden_states_list = []
         for sub_instruction in res['sub_ins']:
-            # sub_instruction=prompt_template(tokenizer=tokenizer,message=sub_instruction)
+            sub_instruction=prompt_template(tokenizer=tokenizer,message=sub_instruction)
             inputs = tokenizer(sub_instruction, return_tensors='pt')
             inputs.to(device)
             with torch.no_grad():
@@ -136,7 +136,7 @@ def eval_baseline(args, subject, model, tokenizer, test_df):
     return cors, acc, all_probs
 
 @torch.no_grad()
-def eval_ctg(args, subject, model, tokenizer, dev_df, test_df):
+def eval_ctg(args, subject, model, tokenizer, test_df):
     cors = []
     all_probs = []
     answers = choices[: test_df.shape[1] - 2]
@@ -157,14 +157,15 @@ def eval_ctg(args, subject, model, tokenizer, dev_df, test_df):
     
     split_hiddens= get_split_hs(model,tokenizer,'/home/chh/repos/my_ctg/instructions/gpqa/{}_2steps_llama.json'.format(subject))
     
-    for i in tqdm(test_df.shape[0]):
-        # get prompt and make sure it fits
+    for i in tqdm(range(test_df.shape[0])):
         k = args.ntrain
+        
+        # get prompt and make sure it fits
         prompt_end = "What is the correct answer to this question:\n"+format_example(test_df, i, include_answer=False)
         train_prompt = gen_prompt(None, k)
         prompt = train_prompt + prompt_end
         # if the result is not good, please try use chat template
-        input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
+        input_ids = tokenizer(prompt_template(tokenizer,prompt), return_tensors="pt").input_ids.cuda()
 
         # while input_ids.shape[-1] > 2048:
         #     k -= 1
@@ -246,7 +247,6 @@ def main(args):
             index=None,
         )
 
-    print(all_cors)
     weighted_acc = np.mean(np.concatenate(all_cors))
     print("Average accuracy: {:.3f}".format(weighted_acc))
 
@@ -255,7 +255,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--ntrain", "-k", type=int, default=0)
     parser.add_argument("--data_dir", "-d", type=str, default="/data1/chh/datasets/jeggers/gpqa_formatted")
-    parser.add_argument("--save_dir", "-s", type=str, default="results/gpqa/baseline")
+    parser.add_argument("--save_dir", "-s", type=str, default="results/gpqa/res1")
     parser.add_argument(
         "--model_path",
         "-m",
@@ -267,7 +267,7 @@ if __name__ == "__main__":
         type=str,
         default="Meta-Llama-3-8B-Instruct",
     )
-    parser.add_argument("--mode",type=str,default='baseline')
+    parser.add_argument("--mode",type=str,default='ctg')
     
     args = parser.parse_args()
     main(args) 

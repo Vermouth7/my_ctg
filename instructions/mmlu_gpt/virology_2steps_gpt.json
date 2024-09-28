@@ -1,0 +1,2160 @@
+[
+    {
+        "instruction 1": "Identify the known human polyomaviruses by consulting credible scientific literature or databases that list and describe these viruses, ensuring to focus on the most recent and accurate information available up to the current year.",
+        "instruction 2": "Consider any emerging polyomaviruses that may have been discovered recently, as well as the context of their significance in human health, to confirm the total count of recognized human polyomaviruses.",
+        "question": "How many human polyomaviruses are known at present?",
+        "choices": [
+            "100",
+            "1",
+            "10",
+            "unknown"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Explore the historical context of AIDS activism in the U.S., identifying key events, organizations, and figures that played a significant role in raising awareness and advocating for treatment and research during the AIDS crisis.",
+        "instruction 2": "Analyze the impact of AIDS activism on public policy, healthcare practices, and societal attitudes toward HIV/AIDS, including changes in funding for research, the development of effective treatments, and the reduction of stigma associated with the disease.",
+        "question": "AIDS activism in the U.S. resulted in:",
+        "choices": [
+            "Food and Drug Administration reforms",
+            "Easier access to investigational drugs",
+            "Changes in the way medicine was practiced in the U.S.",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the leading causes of death worldwide by consulting recent global health statistics, focusing on data from reputable sources such as the World Health Organization (WHO) to ascertain which conditions or diseases result in the highest mortality rates.",
+        "instruction 2": "Analyze the impact of various risk factors contributing to these deaths, considering elements such as lifestyle, access to healthcare, and socio-economic conditions that may exacerbate or mitigate these causes.",
+        "question": "Globally, the most deaths are caused by:",
+        "choices": [
+            "Respiratory infections",
+            "Diarrheal diseases",
+            "Malaria",
+            "Tuberculosis"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the term 'incubation period' as it relates to various contexts, such as medicine, where it describes the time between exposure to an infectious agent and the appearance of symptoms, and ensure to clarify variations across different diseases.",
+        "instruction 2": "Explore the significance of the incubation period in terms of public health, including its implications for disease transmission, outbreak control, and understanding the timeline of disease progression, while considering factors that may influence its duration.",
+        "question": "What happens during the 'incubation period'?",
+        "choices": [
+            "The virus is cleared from the body by the immune system",
+            "Virus replication happens at an intracellular level",
+            "This period commonly lasts for a few days",
+            "This period commonly lasts for a few hours"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Assess the context regarding the challenges that newborn infants face in countries with limited access to safe water and low levels of education, identifying key health and developmental risks that may arise as a result.",
+        "instruction 2": "Propose actionable interventions or programs that could improve the situation for newborns, focusing on improving access to safe water, enhancing maternal education, and addressing healthcare resources to ensure better survival and development outcomes.",
+        "question": "Newborn infants in countries with limited access to safe water and low levels of education should be:",
+        "choices": [
+            "Exclusively formula fed for six months",
+            "Exclusively breast fed for six months",
+            "Should receive both breast milk and other foods as tolerated in the first 6",
+            "months"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the various segments of society that influence community change, focusing on the roles of government, non-profit organizations, community leaders, and the involvement of citizens in initiating and supporting change.",
+        "instruction 2": "Evaluate the importance of collaboration among these segments to create a sustainable impact, considering how their interactions and collective efforts can drive effective change in the community.",
+        "question": "Achieving effective change in a community is usually dependent on which of the following segments of society?",
+        "choices": [
+            "Innovators",
+            "Early adapters",
+            "Middle adapters",
+            "Late adapters"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define 'contingency management' by identifying its principles and applications, particularly in behavioral psychology or in treatment settings, emphasizing how it involves the use of reinforcement strategies to modify behavior.",
+        "instruction 2": "Explore the context in which 'contingency management' is employed, discussing its relevance in fields such as substance abuse treatment or behavioral health, and how it differs from other behavioral modification techniques.",
+        "question": "“Contingency management” is”:",
+        "choices": [
+            "A strategy of last resort for reducing high-risk behaviors",
+            "Paying drug users for negative urine specimens",
+            "Paying sex workers to use condoms",
+            "Paying drug users to use condoms"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Research the typical clinical symptoms associated with astrovirus infections by consulting medical literature, epidemiological studies, or reliable health organization guidelines to provide accurate and up-to-date information.",
+        "instruction 2": "Differentiate between the symptoms of astrovirus infections and those of other viral infections, such as rotavirus or norovirus, to ensure clarity in the response and to prevent potential confusion regarding symptomatology.",
+        "question": "Typical clinical symptoms following infection with astroviruses include which of the following?",
+        "choices": [
+            "Acute pneumonia",
+            "Gastroenteritis in children",
+            "Hepatitis",
+            "rashes"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the defining features of the adaptive immune system, such as specificity, memory, and the ability to adapt to previously encountered antigens, to determine which characteristic is most significant.",
+        "instruction 2": "Evaluate how each characteristic contributes to the overall function and effectiveness of the adaptive immune response, and select the one that fundamentally distinguishes it from the innate immune system.",
+        "question": "Which of the following is the most special characteristic of the adaptive immune system?",
+        "choices": [
+            "Antibodies",
+            "T cells",
+            "Memory T cells",
+            "Clonal expansion of pre-existing antibodies and/or T cells"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the common drug regimens currently used in chemotherapy treatment by consulting recent clinical guidelines or cancer treatment protocols, focusing on the most effective and widely-recognized chemotherapy agents applicable to various cancers.",
+        "instruction 2": "Consider the specific types of cancer being treated, as chemotherapy regimens can vary significantly based on cancer type, stage, and individual patient factors, ensuring to elaborate on any relevant combinations or updates in treatment approaches.",
+        "question": "Chemotherapy is now an option for clinical care of patients. Typical drug regimens now include which of the following?",
+        "choices": [
+            "Interferon and ribavirin",
+            "Lamivudine and ribavirin",
+            "Combinations of adefovir and entecavir and/or tenofovir (DAA)",
+            "Interferons alone"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the epidemiologic terminology that specifically relates to the absence of new cases of a disease in a defined population and time frame, such as 'endemic,' 'epidemic,' or 'zero incidence,' ensuring the term accurately conveys the context of the statement provided.",
+        "instruction 2": "Consider the implications of this statement in terms of public health and epidemiology, discussing how the lack of new cases may relate to preventive measures, reported cases, and overall disease management strategies during that period.",
+        "question": "There were no new cases of Ebola virus in the United States from January 1, 1997 through January 1, 1998. Which of the following epidemiologic terms does this statement describe?",
+        "choices": [
+            "Incidence",
+            "Lifetime expectancy",
+            "Lifetime prevalence",
+            "Period prevalence"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Trace the historical context of retrovirus discovery by identifying key scientific experiments, researchers, and breakthroughs that led to their recognition, including the role of the study of cancers and immunodeficiencies.",
+        "instruction 2": "Discuss the methodologies employed in the discovery of retroviruses, including techniques used in virology, molecular biology, and experimentation that contributed to the understanding of their structure and function.",
+        "question": "How were retroviruses discovered?",
+        "choices": [
+            "In chickens as Rous sarcoma",
+            "In humans as HTLV-1",
+            "In mice causing leukaemia",
+            "In cats causing leukaemia"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the common study designs utilized in surveillance systems, which typically prioritize observational approaches to track and analyze health-related data over time.",
+        "instruction 2": "Examine the characteristics of these study designs, such as how they monitor populations and the types of data collected, differentiating them from controlled experimental designs more commonly found in clinical trials.",
+        "question": "Most surveillance systems use which of the following study designs?",
+        "choices": [
+            "Cohort",
+            "Serial cross-sectional",
+            "Mortality",
+            "Syndromic"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key methods of polio eradication, such as vaccination campaigns, public health initiatives, and improved sanitation practices, and evaluate their effectiveness in controlling the spread of the virus.",
+        "instruction 2": "Assess the current global health strategies and initiatives aimed at eradicating polio, including the role of organizations like the World Health Organization and partnerships with governments, to understand relevant progress and challenges in achieving this goal.",
+        "question": "Polio can be eradicated by which of the following?",
+        "choices": [
+            "Attention to sewage control and hygiene",
+            "Killed polio vaccine",
+            "Live polio vaccine",
+            "Combination of the killed and live vaccines."
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the fundamental principles and concepts that define public health ethics, such as beneficence, non-maleficence, justice, and respect for autonomy, to provide a comprehensive overview of the field.",
+        "instruction 2": "Examine the context in which public health ethics is applied, including its relevance to policy-making, health interventions, and the balance between individual rights and community health needs.",
+        "question": "Public health ethics is:",
+        "choices": [
+            "Patient-centered",
+            "Population-centered",
+            "Subject-centered",
+            "Must respect the rights of individuals"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and locate the latest statistics on global hepatitis B infections from credible health organizations, such as the World Health Organization (WHO) or Centers for Disease Control and Prevention (CDC), to ensure accuracy in the current figures.",
+        "instruction 2": "Account for the rate of new infections and trends in hepatitis B prevalence over recent years, analyzing how public health measures, treatment availability, and vaccination programs may be influencing current infection rates.",
+        "question": "How many people globally are currently infected with hepatitis B?",
+        "choices": [
+            "350 million",
+            "2 billion",
+            "100,000",
+            "1 million"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the type of observational study design being described, such as a cohort study or a longitudinal study, where groups are monitored over time without intervention to determine the effects of the environmental toxin.",
+        "instruction 2": "Clarify the criteria that differentiate this study design from experimental designs, such as the absence of treatment application and the focus on natural exposure and its outcomes rather than manipulation of variables.",
+        "question": "In a study, a group of people are exposed to an environmental toxin but are not treated observed over time on a standard set of measures to ascertain the potential effects of the toxin. This type of study design is called",
+        "choices": [
+            "Clinical trial",
+            "Double-blind",
+            "Longitudinal",
+            "Prospective cohort"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific diseases associated with polyomaviruses, focusing on both well-known and less common conditions caused by these viruses, such as Progressive Multifocal Leukoencephalopathy (PML) and others affecting immune-compromised individuals.",
+        "instruction 2": "Examine the epidemiology of polyomavirus-related diseases, including demographic factors such as the populations most at risk and how these diseases manifest in different clinical scenarios.",
+        "question": "Which disease do polyomaviruses predominantly cause?",
+        "choices": [
+            "Tumours",
+            "Brain pathology",
+            "No disease at all",
+            "Kidney infections"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the types of cells that are involved in the immune response, specifically focusing on B cells, and describe how they are activated by antigens and helper T cells in the presence of cytokines.",
+        "instruction 2": "Explore the role of other factors such as the type of antigen, co-stimulatory signals, and the overall immune environment that influence the stimulation and differentiation of antibody-producing cells.",
+        "question": "How are antibody producing cells stimulated?",
+        "choices": [
+            "Interacting with a virus short peptide",
+            "Interacting with a T helper cell.",
+            "Interacting with a plasma cell",
+            "Interacting with a virus infected cell"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the fundamental principles or factors that contribute to the success of the Multicenter AIDS Cohort Study (MACS), focusing on elements such as the collaboration between diverse research sites, participant engagement, or rigorous data collection methodologies.",
+        "instruction 2": "Consider the role of the MACS in advancing HIV/AIDS research and its impact on public health, including how its design and execution enable long-term surveillance and understanding of the disease across different demographics.",
+        "question": "The single most important key to the success of the Multicenter AIDS Cohort (MACS) is:",
+        "choices": [
+            "The brilliance of the principal investigator",
+            "The commitment of the staff",
+            "The commitment of the participants",
+            "The quality of the laboratories"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the fundamental characteristics of picornavirus replication, focusing on its positive strand RNA virus properties, including the details of its replication cycle, such as the role of RNA-dependent RNA polymerase and how it differentiates from other viral replication mechanisms.",
+        "instruction 2": "Consider the unique features of picornaviruses that illustrate their replication process, such as the formation of replication complexes and the potential for rapid infection of host cells, while also referencing specific examples of picornaviruses to support the explanation.",
+        "question": "Picornavirus replication as a positive strand RNA virus is particularly typified by which of the following?",
+        "choices": [
+            "Virions carry RNA transcriptase enzyme into the cell",
+            "The virion RNA is translated into a single large polyprotein",
+            "The virion RNA acting as mRNA",
+            "The virus exits by apoptosis of the cell"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the historical context of astrovirus research, identifying specific reasons why they were overlooked as significant enteric viruses, such as limited detection methodologies or a lack of clinical data linking them to enteric diseases in humans.",
+        "instruction 2": "Examine recent research findings and advancements in virology that have contributed to the recognition of astroviruses, focusing on the developments in diagnostic techniques, epidemiological studies, and clinical significance that highlight their impact on human health.",
+        "question": "Why are members of the astrovirus family only recently recognised as significant enteric viruses for humans?",
+        "choices": [
+            "The genome has been identified by the new method of deep sequencing",
+            "A new vector has been discovered",
+            "They infect a wide range of domestic animals and so contaminate meat",
+            "Knowledge of their replication as positive sense ssRNA viruses is now complete"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the methods historically used to identify various virus infections, specifically highlighting which infections were discovered purely through clinical observation as opposed to laboratory or other scientific means.",
+        "instruction 2": "Identify and compare notable virus infections that were first discovered using laboratory techniques, such as viral culture or molecular methods, rather than initial clinical observation, ensuring to provide specific examples for clarity.",
+        "question": "Which virus infection was not first identified by clinical observation?",
+        "choices": [
+            "HIV",
+            "Rubella teratogenicity",
+            "Microcephaly and Zika",
+            "Hepatitis C"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the unique characteristics of the U.S. health care system that differentiate it from those in other countries, such as the combination of private and public funding, the emphasis on technology and innovation, or the high cost of services and insurance coverage.",
+        "instruction 2": "Evaluate how these qualities impact access to care, health outcomes, and the overall functioning of the system, considering both the advantages and the challenges faced by different segments of the population.",
+        "question": "The particular quality of the U.S. health care system is its:",
+        "choices": [
+            "Systematic, democratic approach",
+            "Fragmented, uncoordinated approach",
+            "The result of rationale decisions by informed legislators",
+            "a. and c. above"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and outline the three specific intervention strategies proposed by Professor Shoptaw, ensuring to provide context or definitions for each strategy to enhance understanding.",
+        "instruction 2": "Consider the application and significance of these intervention strategies in various contexts, evaluating how they contribute to the broader field of study or practice in which Professor Shoptaw is involved.",
+        "question": "The three key intervention strategies according to Professor Shoptaw are:",
+        "choices": [
+            "Behavioral intervention, treatment and structural interventions",
+            "Condoms, drug therapy and regulation of commercial sex establishments",
+            "Drug replacement therapy, community intervention and needle exchange",
+            "HIV testing, drug therapy and condom use"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary public health interventions that have been effective in controlling measles outbreaks in various countries, such as vaccination programs, herd immunity, and public awareness campaigns.",
+        "instruction 2": "Evaluate the effectiveness of these interventions by considering statistical data on measles incidence before and after implementation, as well as the role of international health organizations in supporting these measures.",
+        "question": "Measles has been controlled in many countries by which of the following?",
+        "choices": [
+            "By hygiene",
+            "By MMR vaccine",
+            "By new molecular peptide vaccines",
+            "By humanised monoclonal antibodies to F protein"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze the methods of controlling and preventing the transmission of filoviruses, such as enhancing hygiene practices, implementing quarantine measures, and developing effective vaccination strategies.",
+        "instruction 2": "Evaluate the roles of public health education and awareness campaigns in communities at risk, focusing on how behavior change can contribute to limiting the spread of filoviruses.",
+        "question": "How can the spread of filoviruses be restricted?",
+        "choices": [
+            "New antivirals",
+            "New humanised monoclonal antibodies",
+            "Hygiene and social distancing",
+            "New vaccines"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific animals known for being reservoirs or sources of influenza viruses that have led to pandemics, such as birds, pigs, and other wildlife. Analyze the historical context of prominent pandemics and their origins.",
+        "instruction 2": "Examine the transmission pathways of influenza viruses from these animals to humans, considering factors such as zoonotic spillover events and the evolutionary mechanisms that allow for cross-species transmission.",
+        "question": "Most pandemics have arisen from influenza viruses from which of the following animals?",
+        "choices": [
+            "Pigs",
+            "Wild birds",
+            "Bats",
+            "Humans"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the populations or groups that benefit most from PreP (Pre-Exposure Prophylaxis) as a strategy for reducing HIV incidence, particularly focusing on demographics that are most at risk.",
+        "instruction 2": "Examine the evidence-based research and public health studies that support the effectiveness of PreP in these populations, considering how factors such as access to healthcare and education about HIV prevention play a role.",
+        "question": "PreP is an effective strategy for reducing the incidence of HIV in:",
+        "choices": [
+            "Women",
+            "Drug users",
+            "Pregnant women",
+            "a. and b. above"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key stages of hepatitis B replication, including attachment, entry into the host cell, replication of the viral genome, assembly of new virions, and release, ensuring to clarify the biological processes involved in each stage.",
+        "instruction 2": "Consider the unique characteristics of the hepatitis B virus, such as its use of reverse transcription during replication, and how these characteristics differentiate its replication cycle from other viruses.",
+        "question": "The replication of hepatitis B includes which of the following stages?",
+        "choices": [
+            "Movement of intact virus to the cellular cytoplasm for replication",
+            "Conversion of relaxed circular viral DNA in to covalently closed circular (CCC) DNA in the nucleus",
+            "Virions produced in the cytoplasm by cellular DNA polymerase",
+            "Oncogenic activity to transform liver cells."
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the mechanism by which papilloma viruses (such as HPV) manipulate host cell functions, particularly focusing on how these viruses disrupt normal cell cycle regulation and promote uncontrolled cell proliferation leading to oncogenesis.",
+        "instruction 2": "Examine the role of viral proteins, such as E6 and E7, in the process of cancer development, paying attention to their interactions with critical tumor suppressor proteins (e.g., p53 and Rb) and how these interactions contribute to the transformation of normal cells into cancerous cells.",
+        "question": "How does the papilloma family of viruses cause cancer?",
+        "choices": [
+            "Replicate in dividing cells and encodes three oncogenic proteins E5, E6 and E7",
+            "Integrates viral genome into cellular DNA",
+            "Has an oncogene able to initiate cancer",
+            "Acts as a co factor for a cellular oncogene"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the common symptoms and illnesses associated with norovirus infections, such as gastroenteritis, and differentiate these from conditions caused by other viruses to accurately highlight what noroviruses typically cause.",
+        "instruction 2": "Consider the transmission methods and populations most affected by noroviruses, acknowledging how these factors contribute to the understanding of the typical effects of norovirus infections.",
+        "question": "The noroviruses typically cause which of the following?",
+        "choices": [
+            "Diarrhoea",
+            "Rash",
+            "Projectile vomiting and diarrhoea",
+            "Disease of the central nervous system"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the primary applications of deep nucleotide sequencing (NGS), focusing on fields such as genomics, personalized medicine, and large-scale population studies to understand its utility in biological research and healthcare.",
+        "instruction 2": "Assess the advantages offered by NGS technology, such as cost-effectiveness, speed, and data richness, which contribute to its widespread adoption and facilitate advancements in areas like disease diagnosis and treatment planning.",
+        "question": "Deep nucleotide sequencing (NGS) is now cheap enough for general application. What will the technique mainly be useful for?",
+        "choices": [
+            "Speedy vaccine development",
+            "Identifying genetic variation",
+            "Giving details on virus excretion in symptomless carriers",
+            "Quickly identifying new viruses"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and enumerate the key factors that influence the risk of acquiring HIV during sexual contact, such as the type of sexual activity, the viral load of the HIV-positive individual, and the presence of any sexually transmitted infections (STIs) in either partner.",
+        "instruction 2": "Consider the role of preventive measures, such as the use of condoms and pre-exposure prophylaxis (PrEP), in reducing the risks of HIV transmission, and evaluate how these measures can alter the determinants mentioned.",
+        "question": "Determinants of acquiring an HIV infection from an infected person per sexual act include:",
+        "choices": [
+            "Viral RNA level",
+            "Presence of other infections",
+            "Condom use",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the primary applications of next generation sequencing (NGS), including areas such as genomics, personalized medicine, and biotechnology, to provide a comprehensive overview of its uses.",
+        "instruction 2": "Consider how NGS is utilized in various research and clinical contexts, including its role in disease diagnosis, treatment planning, and understanding genetic variation, ensuring to highlight specific examples and advancements associated with this technology.",
+        "question": "How is next generation sequencing (NGS) most often used?",
+        "choices": [
+            "To identify a newly discovered virus",
+            "To search for drug resistant mutants",
+            "To identify quasi species viruses",
+            "Cannot be used"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and list the specific types of HPV viruses that are scientifically recognized as high-risk for causing cervical cancer, paying particular attention to the most prevalent strains such as HPV 16 and HPV 18.",
+        "instruction 2": "Consider the criteria that differentiate high-risk HPV types from low-risk types, emphasizing the mechanisms by which the high-risk viruses contribute to the development of cervical cancer, and ensure to reference credible medical sources or studies.",
+        "question": "Which of the following HPV viruses are known to cause cervical cancer?",
+        "choices": [
+            "Viruses of all 5 clades",
+            "Types 14, 16, 18, 31, 45",
+            "None are oncogenic per se",
+            "Types 1-180"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific viruses within the paramyxovirus family and determine their associated diseases, particularly focusing on those known to cause respiratory issues such as croup.",
+        "instruction 2": "Research the severity and symptoms of croup, and correlate these with the paramyxoviruses known to be responsible for the condition, possibly narrowing down to the most significant member that is linked to severe cases.",
+        "question": "Which member of the paramyxovirus family can cause very serious croup?",
+        "choices": [
+            "Measles",
+            "Meta pneumo virus",
+            "Hendra",
+            "Respiratory syncytial virus (RSV)"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate cultural, socioeconomic, and healthcare access factors that may influence the delay in HIV testing among the Latino population, focusing on aspects such as stigma, language barriers, and trust in medical services.",
+        "instruction 2": "Examine the role of education and awareness campaigns in reducing delays in HIV testing, considering how they can be tailored to effectively reach and engage the Latino community.",
+        "question": "Which of the following is the cause of delay in HIV testing among the Latino population?",
+        "choices": [
+            "Stigma attached to the disease",
+            "Machismo",
+            "Drug abuse",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key structural features of togaviruses, including their shape, size, and envelope characteristics, and describe how these features relate to their classification within the virus family.",
+        "instruction 2": "Discuss the specific components of the togavirus morphology, including the presence of a single-stranded RNA genome and any notable proteins that are part of the viral structure, to provide a comprehensive description.",
+        "question": "Describe the morphology of a togavirus.",
+        "choices": [
+            "Enveloped spherical particles with an icosahedral structure",
+            "Non-enveloped with an icosahedral structure",
+            "Filamentous virus with protruding glycoproteins",
+            "Small round viruses"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the essential functions and features expected of an effective surveillance system, focusing on elements such as monitoring capabilities, data collection accuracy, and real-time reporting.",
+        "instruction 2": "Evaluate the context in which the surveillance system will be used, considering factors such as the specific environment (e.g., urban, rural, commercial) and legal or ethical implications regarding privacy and data security.",
+        "question": "A good surveillance system should provide information about:",
+        "choices": [
+            "Who is being infected",
+            "Where the infected individuals are",
+            "How rapidly infection is spreading",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and analyze the key barriers to polio eradication, such as vaccine coverage disparities, logistics and infrastructure issues in remote or conflict-affected areas, vaccine hesitancy, and the presence of vaccine-derived polio viruses.",
+        "instruction 2": "Examine global public health efforts and initiatives aimed at overcoming these barriers, considering how challenges like political instability, misinformation, and healthcare accessibility impact the progress towards complete polio eradication.",
+        "question": "What has so far prevented polio being eradicated from the world?",
+        "choices": [
+            "Inability to vaccinate in some countries",
+            "Poor quality (unsafe) vaccines",
+            "Genetic variation",
+            "Expense"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the list of diseases provided to determine which ones are typically associated with the specified family, focusing on the characteristics that define diseases within this group.",
+        "instruction 2": "Evaluate each disease against the known attributes of the family in question to accurately identify the exception, ensuring to justify the choice based on established medical or scientific literature.",
+        "question": "The range of disease caused by the family is wide but identify the exception from the following:",
+        "choices": [
+            "Aplastic crisis in anaemia patients",
+            "Fifth disease at 'Slapped cheek' syndrome",
+            "Foetal infection with teratogenicity",
+            "Serious pneumonia"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the class of drugs that are commonly used to inhibit herpes viruses, such as antiviral medications, and consider their mechanisms of action against these viruses.",
+        "instruction 2": "Research specific examples of antiviral drugs that are effective against herpes viruses, ensuring to distinguish between different types of herpes (e.g., HSV-1, HSV-2) and note any clinical data or guidelines that support their use.",
+        "question": "Which of the following drugs inhibit herpes viruses?",
+        "choices": [
+            "Amantadine",
+            "Acyclovir",
+            "Oseltamivir",
+            "Azidothymidine"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and review credible sources of information, such as health or government reports, to determine which countries have the highest rates of drug injection practices among their populations.",
+        "instruction 2": "Examine relevant statistics on drug use to ensure accuracy, considering multiple years or surveys to account for fluctuations in data and establishing a comprehensive understanding of the issue across different countries.",
+        "question": "The three countries with the most drug injectors are:",
+        "choices": [
+            "Bolivia, Argentina, Thailand",
+            "China, the U.S. and Russia",
+            "Afghanistan, Iraq and Myanmar",
+            "Lithuania, Estonia and Latvia"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify a suitable population that closely resembles the exposed group (children aged 5-12 living near the factory) but does not have exposure to chemical waste. This population will serve as the control group to help isolate the effects of the exposure on leukemia incidence.",
+        "instruction 2": "Ensure that the control group is matched on relevant characteristics, such as age, socioeconomic status, and health history, to accurately facilitate comparison and strengthen the validity of the study's findings regarding the association between chemical waste exposure and leukemia.",
+        "question": "Officials at a large community hospital report an increased incidence of acute lymphocytic leukemia (ALL) among children aged 5 – 12. They point out that some households in the community are exposed to chemical waste from a nearby factory. They believe that chemical waste causes leukemia. If a study is designed to evaluate the hospital officials’ claim, which of the following subjects are most likely to comprise the control group?",
+        "choices": [
+            "Children exposed to the chemical waste who do not suffer from ALL",
+            "Children not exposed to the chemical waste who do not suffer from ALL",
+            "Children from the hospital’s outpatient clinic who do not suffer from ALL",
+            "Children not exposed to the chemical waste who suffer from ALL"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the historical and ecological context of Lassa and Ebola viruses in West Africa, identifying the animal reservoirs and vectors associated with their transmission to humans.",
+        "instruction 2": "Investigate the evolutionary biology and molecular characteristics of Lassa and Ebola viruses to provide a comprehensive understanding of their origins, including any relevant studies or findings on their zoonotic transmission mechanisms.",
+        "question": "Lassa and Ebola are emergent viruses in W. Africa. What is their origin?",
+        "choices": [
+            "Humans",
+            "Primates",
+            "Fruit bats",
+            "Pigs"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific circumstances under which antivirals are indicated for prophylactic or therapeutic use, focusing on factors such as the type of viral infection, the patient's immune status, and timing of administration relative to exposure or onset of illness.",
+        "instruction 2": "Examine the established guidelines and recommendations from health organizations regarding antiviral usage, ensuring to differentiate between the contexts for prophylaxis (prevention) and therapy (treatment) in various patient populations.",
+        "question": "Antivirals can be used prophylactically or therapeutically in persons in which of the following circumstances?",
+        "choices": [
+            "If administered within 4 days of clinical signs",
+            "If used within 48 hours of first clinical signs",
+            "Used for the obese",
+            "Used in children under the age of 2 years where high virus spread is noted"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the main transmission routes of papillomaviruses in humans, focusing on the methods of infection, such as skin-to-skin contact or sexual transmission, to provide a clear understanding of how these viruses spread.",
+        "instruction 2": "Examine the biological mechanisms by which papillomaviruses enter and replicate within human cells, taking into account factors like virus type, individual susceptibility, and host immune response to inform the explanation.",
+        "question": "Papillomaviruses cause warts and cancer but how do they most often infect humans?",
+        "choices": [
+            "Are water borne",
+            "Are airborne",
+            "Via scratches and breaks in the skin",
+            "Are nosocomial and spread in hospitals"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific adenovirus serotypes that are most frequently associated with clinical cases or outbreaks, focusing on their prevalence and the types of illnesses they cause, such as respiratory infections or conjunctivitis.",
+        "instruction 2": "Evaluate clinical studies or health reports that provide information on the severity or frequency of illness related to various adenovirus serotypes, highlighting which serotype is recognized as having the most significant clinical impact based on this data.",
+        "question": "There are 57 serotypes of adenovirus currently recognised. Which has the most important clinical impact?",
+        "choices": [
+            "Diarrhoea",
+            "Eye infections",
+            "Respiratory tract infections",
+            "Haemorrhagic cystitis"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the characteristics and classifications of new polyomaviruses through comprehensive literature review, including their genetic structures, transmission methods, and association with diseases or syndromes.",
+        "instruction 2": "Distinguish the specific polyomaviruses that have been identified as 'new,' emphasizing their differences from previously known polyomaviruses, such as unique genomic features or novel pathogenicity, and summarize recent research findings or epidemiological studies.",
+        "question": "How are new polyomaviruses detailed",
+        "choices": [
+            "Shot gun sequencing",
+            "Cultivation in human neural cells",
+            "Deep pyro sequencing (NGS)",
+            "Monoclonal antibody techniques"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Outline the key elements of the YF (Yellow Fever) vaccine, including its purpose, how it works, and the populations for whom it is typically recommended, focusing on its efficacy and importance in preventing yellow fever disease.",
+        "instruction 2": "Include information about the vaccine's formulation, administration schedule, possible side effects, and any contraindications or precautions that need to be considered when administering the vaccine.",
+        "question": "Describe the YF vaccine.",
+        "choices": [
+            "Killed virus vaccine",
+            "Live attenuated virus vaccine developed by Pasteurian passage",
+            "Live attenuated vaccine produced by direct mutation of the virus genome",
+            "Experimental vaccine only"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze the primary risk factors associated with Ebola infection, focusing on human behaviors, environmental exposures, and specific populations that may be more susceptible, such as healthcare workers or individuals in regions where outbreaks occur.",
+        "instruction 2": "Examine the transmission methods of Ebola, including direct contact with infected bodily fluids or handling infected animals, to clarify how these factors contribute to the overall risk of infection, ensuring to reference appropriate epidemiological data.",
+        "question": "What is the biggest risk factor for infection with Ebola?",
+        "choices": [
+            "Working in a category IV laboratory",
+            "Attending a funeral of a victim outside",
+            "Nursing a patient at home",
+            "Attending football matches or large gatherings"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific sectors or groups of the population classified as 'risk' sectors for influenza, such as older adults, healthcare workers, and individuals with pre-existing health conditions, to understand where targeted control measures are applied.",
+        "instruction 2": "Investigate the methods employed to control influenza within these risk sectors, including vaccination programs, public health campaigns, and monitoring strategies, to emphasize the importance of protecting vulnerable populations.",
+        "question": "The influenza virus is mainly controlled in special \"risk\" sectors by:",
+        "choices": [
+            "Hygiene",
+            "Vaccination",
+            "Antiviral drugs",
+            "Humanised monoclonal antibodies"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the relationship between alcohol consumption and lung cancer in the context of confounding variables, particularly the effect of smoking, to determine how this might mask any association in the stratified groups.",
+        "instruction 2": "Evaluate the implications of finding no association within the smoker and non-smoker groups by considering concepts such as effect modification and the potential need for adjusting for confounding factors in the analysis to accurately represent the relationship.",
+        "question": "A case-control study is conducted to assess the association between alcohol consumption and lung cancer patients with lung cancer and 100 controls are asked about their past alcohol consumption. According to the study results, alcohol consumption is strongly associated with lung cancer (OR = 2.5). The researchers then divide the study subjects into two groups: smokers and non-smokers. Subsequent statistical analysis does not reveal any association between alcohol consumption and lung cancer within either group. The scenario described is an example of which of the following?",
+        "choices": [
+            "Observer bias",
+            "Confounding",
+            "Placebo effect",
+            "Nonresponse bias"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the various transmission routes for arenaviruses, such as through direct contact with infected rodents, bodily fluids, or contaminated materials, while distinguishing these from other viruses to highlight their specific modes of spread.",
+        "instruction 2": "Consider the ecological and environmental factors that contribute to the spread of arenaviruses, including the habitats of their rodent hosts and the impact of human activities on virus transmission patterns.",
+        "question": "How are arenaviruses spread?",
+        "choices": [
+            "Sexual contact",
+            "Blood",
+            "Aerosols of urine from infected small mammals",
+            "Mosquito bites"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify regions or countries that have been officially declared rabies-free by health organizations, such as the World Health Organization or the Centers for Disease Control and Prevention, and consider the criteria set for this classification.",
+        "instruction 2": "Examine the measures and policies in place within these rabies-free areas to maintain their status, including vaccination programs for domestic animals and public awareness efforts about rabies prevention.",
+        "question": "Which areas of the world are rabies free?",
+        "choices": [
+            "USA",
+            "Norway",
+            "EU",
+            "Island nations, UK, NZ and Australia"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and analyze the factors that can elevate the risk of HIV-1 transmission through breastfeeding, such as maternal viral load, duration of breastfeeding, and the health status of both the mother and the infant.",
+        "instruction 2": "Consider the interplay of biological, environmental, and social factors that influence breastfeeding practices in relation to HIV-1 transmission risk, ensuring to reference relevant research or guidelines on HIV transmission during lactation.",
+        "question": "The risk of perinatal transmission of HIV-1 infection during breast feeding is increased due to:",
+        "choices": [
+            "Mixed feeding",
+            "Very early introduction of solids",
+            "Both a and b",
+            "None of them"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the mechanisms of action and specific methods used to target the parvovirus family in disease control, focusing on antiviral treatments, vaccination strategies, and public health interventions.",
+        "instruction 2": "Analyze the challenges in targeting parvoviruses based on their biological characteristics, transmission routes, and any existing resistance, while considering the implications for disease prevention and management strategies.",
+        "question": "How is the parvovirus family targeted to reduce disease?",
+        "choices": [
+            "Transfusion blood is screened",
+            "Vaccine has been developed",
+            "A range of new antivirals",
+            "Social distancing"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Research the historical context of virology, identifying key figures and their contributions to the discovery of viruses, particularly focusing on the work of Dmitri Ivanovsky and Martinus Beijerinck, who were pivotal in the identification of the first viruses.",
+        "instruction 2": "Examine the methodologies used by these scientists to isolate and characterize the first virus, considering how their findings laid the foundation for modern virology and the understanding of viral infections.",
+        "question": "Who discovered the first virus?",
+        "choices": [
+            "The microscopist Antonie van Leeuwenhoek",
+            "The bacteriologist Charles Chamberland",
+            "The botanist Dmitri Iwanowsky",
+            "The virologist Jonas Salk"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define what structural interventions are and identify the primary areas they focus on, such as systemic issues, policies, or institutional frameworks that affect health and social outcomes.",
+        "instruction 2": "Examine how structural interventions differ from individual-level interventions, emphasizing their role in altering environments or conditions to improve overall community health or social equity.",
+        "question": "Structural interventions typically target:",
+        "choices": [
+            "Policies",
+            "The environment",
+            "Availability",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key symptoms and clinical features associated with hepatitis A, including common signs such as jaundice, fatigue, abdominal pain, and changes in appetite, to paint a comprehensive picture of the disease's presentation.",
+        "instruction 2": "Consider the typical progression of hepatitis A and any diagnostic criteria used by healthcare professionals to differentiate it from other types of hepatitis, ensuring to include information about the virus's incubation period and mode of transmission.",
+        "question": "What is the main clinical picture of hepatitis A?",
+        "choices": [
+            "Rash",
+            "Limb paralysis",
+            "Jaundice and abdominal discomfort",
+            "Upper respiratory tract infection"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and evaluate alternative methods for studying human norovirus that do not involve cell culture, such as molecular techniques, animal models, or the use of viral-like particles to mimic the behavior of the virus in vitro.",
+        "instruction 2": "Consider the limitations and advantages of each alternative method, including how they contribute to our understanding of the virus's structure, replication, and pathogenicity, while also ensuring to reference any recent research or advancements in virology.",
+        "question": "If the human norovirus cannot be cultured in cell cultures how can it best be studied?",
+        "choices": [
+            "Animal models",
+            "Volunteer studies",
+            "In cells using replicon systems",
+            "Deductions from the 3 human ORF's of the virus genome"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the technical term used in epidemiology that describes a systematic error affecting the validity of study results, particularly how an exposure influences the risk of disease, and ensure that this term encompasses all related contexts such as bias or confounding.",
+        "instruction 2": "Consider the different types of systematic errors that can occur during the study design, data collection, and analysis phases, and analyze how each type could potentially lead to an incorrect estimation of an exposure's effect on disease outcome.",
+        "question": "Any systematic error in the design, conduct, or analysis of a study that results in a mistaken estimate of an exposure’s effect on the risk of disease is called:",
+        "choices": [
+            "Confounding",
+            "Bias",
+            "Interaction",
+            "Stratification"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Outline the key features of the coronavirus structure, focusing on its components such as the viral envelope, spike proteins, membrane proteins, and RNA genome, to provide a complete description of its physical form.",
+        "instruction 2": "Explain the functions of each structural component in relation to how the virus interacts with host cells, including the role of spike proteins in viral entry and the significance of the RNA genome in replication.",
+        "question": "Describe the coronavirus structure.",
+        "choices": [
+            "Club shaped glycoprotein spikes protrude through a lipid bilayer",
+            "An icosahedral structure with an envelope",
+            "An icosahedral large pleomorphic virus",
+            "Large regimented barrel shaped virus"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define zoonotic viruses, emphasizing their transmission from animals to humans, and provide examples to illustrate how SARS fits this classification.",
+        "instruction 2": "Examine the implications of SARS being a zoonotic virus, including how it affects public health responses, understanding of infectious disease dynamics, and the necessary measures to prevent future outbreaks.",
+        "question": "SARS is described as a zoonotic virus - what does this mean?",
+        "choices": [
+            "Such viruses are confined to animals",
+            "They do not cause disease in humans",
+            "They emerge from animals to cross the species barrier infrequently",
+            "They cause pandemics"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific coronaviruses that have emerged recently and assess their impact on global health, focusing on those that have been classified as emergent viruses due to their rapid spread and associated fatalities.",
+        "instruction 2": "Evaluate the characteristics that define an emergent virus, such as mutations, transmission modes, or outbreak potentials, and connect these characteristics to the known coronaviruses that fit this definition to determine which has led to significant mortality.",
+        "question": "Which of the following coronaviruses has caused thousands of deaths around the world as an 'emergent' virus?",
+        "choices": [
+            "MERS",
+            "SARS",
+            "OC43",
+            "HKU1"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the typical clinical symptoms and characteristics of an arenavirus infection by reviewing relevant medical literature or clinical guidelines that detail arenavirus pathology and presentations.",
+        "instruction 2": "Consider how arenavirus infections are distinguished from other viral infections, including specific laboratory findings, transmission routes, and potential complications that may help in forming an accurate characterization.",
+        "question": "Clinical infection by an arenavirus is characterised by which one of the following?",
+        "choices": [
+            "Pantropic infection",
+            "Signs of malaria",
+            "Short (2-3 days) incubation",
+            "Hepatitis"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the biological mechanisms by which the rubella virus can affect fetal development, including potential routes of transmission to the fetus and how the virus can interfere with normal cellular processes and organ development.",
+        "instruction 2": "Review existing medical literature that outlines the specific types of fetal abnormalities associated with rubella infection during pregnancy, paying close attention to timing of infection, severity of outcomes, and the implications for maternal healthcare.",
+        "question": "How does rubella cause foetal abnormalities?",
+        "choices": [
+            "By crossing the placenta early in pregnancy and infecting the foetus",
+            "By only infecting the placenta",
+            "By inducing cytokines and chemokines in the mother",
+            "By raising the temperature of the mother and inducing an abnormal immune reaction to the foetus"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific characteristics of coronavirus replication cycles that differentiate them from those of other viruses, paying particular attention to unique processes such as the use of an RNA-dependent RNA polymerase and the role of the host cell machinery.",
+        "instruction 2": "Compare the replication cycle features of coronaviruses against typical viral replication processes, focusing on aspects that are atypical, such as their ability to evade host immune responses or the presence of specific protein modifications.",
+        "question": "Which of the following is an unusual feature of the replication cycle in coronaviruses?",
+        "choices": [
+            "The RNAs all terminate in a common 3´ and produce nested set transcripts",
+            "They take advantage of recombination with the long RNA genome",
+            "They are not highly mutable",
+            "They use capped cellular mRNA's"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify replication strategies used by various viruses and categorize them based on similarities, focusing on specific mechanisms such as lytic and lysogenic cycles, to determine which strategies have parallels among different viral types.",
+        "instruction 2": "Examine case studies or scientific literature on viral replication to provide examples of viruses that share similar replication strategies, emphasizing the broader implications of these parallels in understanding viral behavior and pathology.",
+        "question": "Which replication strategy is paralleled by some other viruses?",
+        "choices": [
+            "Cytoplasmic replication and 'snatched caps' are used as primers for RNA transcription",
+            "Replicates in cytoplasmic tubules",
+            "Extracellular replication",
+            "Replicates in the nucleus"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the term 'generalized epidemic' and highlight its distinguishing characteristics, such as patterns of transmission, susceptibility of the population, and the nature of the disease spread across different demographics.",
+        "instruction 2": "Examine examples of past generalized epidemics to illustrate the concept, focusing on the common traits that contributed to their classification as generalized, and how these traits influence public health responses.",
+        "question": "The characteristic of a generalized epidemic is:",
+        "choices": [
+            "High rates in drug users",
+            "High rates in MSM",
+            "High rates in pregnant women",
+            "High rate in STD clinic attendees"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research the latest taxonomic classification of the parvovirus family, focusing on the number of recognized genera, and refer to authoritative virology databases or classified research articles for accurate information.",
+        "instruction 2": "Consider any recent changes or updates in the classification system that may influence the count of genera, ensuring to verify the relevance and currency of the information obtained.",
+        "question": "An updated version of classification shows the parvovirus family as having how many genera?",
+        "choices": [
+            "Having 5 genera",
+            "A very large number of virus types",
+            "Only a single virus",
+            "Only three viruses"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific Latino community that is the largest in the U.S. by examining census data or demographic reports that provide details on population sizes of various Latino groups.",
+        "instruction 2": "Consider geographical factors that may influence the population distribution of Latino communities, such as urban versus rural areas, and reference the latest data or sources to support your findings.",
+        "question": "The largest Latino community in the U.S. is:",
+        "choices": [
+            "Puerto Rican",
+            "Mexican",
+            "Cuban",
+            "Brazilian"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the primary preventive measures and control strategies typically recommended for managing astrovirus outbreaks, such as improving hygiene practices, ensuring food safety, and promoting vaccination if available.",
+        "instruction 2": "Consider the public health policies and community education initiatives that may be implemented to raise awareness and reduce the spread of astrovirus, focusing on interventions tailored to high-risk populations such as children and immunocompromised individuals.",
+        "question": "How can epidemics of astrovirus mainly be controlled?",
+        "choices": [
+            "By vaccination",
+            "Using passive antibody",
+            "Basic knowledge of hand washing and food hygiene",
+            "Quarantine"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine the type of study design being employed by assessing how participants (women aged 40 – 54) are selected and observed over time, especially focusing on how their dietary habits (vegetarian vs non-vegetarian) are related to the incidence of colorectal cancer within the defined period.",
+        "instruction 2": "Evaluate whether the study is observational or experimental by considering whether there is any manipulation of variables (such as intervention or treatment) or solely observation of naturally occurring behaviors and outcomes, and categorize it as either a cohort study or a case-control study based on the time frame and directionality of data collection.",
+        "question": "500 women aged 40 – 54 who present for routine check-ups are asked about their meat consumption the women turn out to be vegetarian. During the ensuing 5 years, 5 vegetarians and 43 non-vegetarians develop colorectal cancer. Which of the following best describes the study design?",
+        "choices": [
+            "Case series report",
+            "Cohort study",
+            "Case-control study",
+            "Cross-sectional study"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the modes of HIV transmission from mother to child, differentiating between vertical transmission routes such as prenatal, perinatal, and postnatal, to understand where the highest risk occurs.",
+        "instruction 2": "Evaluate the geographical and socioeconomic factors that may influence HIV transmission rates in specific areas, considering aspects such as access to healthcare, public health interventions, and prevalence rates in those regions.",
+        "question": "In the absence of treatment the risk of HIV transmission from an infected mother to her fetus/infant was highest in which of the following areas?",
+        "choices": [
+            "Africa",
+            "North America",
+            "Europe",
+            "Japan"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the different mechanisms of viral virulence increase, such as mutations, recombination, or reassortment, to determine which process most significantly enhances the virulence of poliovirus specifically.",
+        "instruction 2": "Evaluate existing research and studies on poliovirus evolution to support the understanding of how each process contributes to virulence, ensuring to also consider any historical or empirical examples of poliovirus becoming more virulent.",
+        "question": "Poliovirus can most easily become more virulent by which of the following processes?",
+        "choices": [
+            "Mutation of the RNA genome at only a few positions",
+            "Recombining with another enterovirus",
+            "Altering its protein coat",
+            "Multiple nucleotide deletions and substitutions"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define key terms and concepts related to virology, specifically focusing on the characteristics of viruses that cause sudden outbreaks and global spread, such as pandemics, to accurately categorize the type of virus in question.",
+        "instruction 2": "Explore examples of historical viruses and their classifications to contextualize the term being sought, ensuring to differentiate between similarly sounding terms like epidemic, endemic, and pandemic.",
+        "question": "A virus such as influenza which emerges suddenly and spreads globally is called:",
+        "choices": [
+            "Epidemic",
+            "Endemic",
+            "Pandemic",
+            "Zoonotic"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key factors that influence virus spread and infection, such as mode of transmission, host susceptibility, environmental conditions, and social behavior patterns. Focus on how these respective factors contribute to the overall dynamics of viral infections.",
+        "instruction 2": "Evaluate and rank the factors based on their impact on transmission rates and infection outcomes, considering evidence from epidemiological studies and public health data to substantiate the importance of each factor.",
+        "question": "Of the following factors, which are the most important factors for virus spread and infection?",
+        "choices": [
+            "Age",
+            "Sex",
+            "Genetic factors",
+            "Travel"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Investigate the replication mechanism of calciviruses, emphasizing the steps involved in viral entry into host cells, genome replication, protein synthesis, and the assembly and release of new virions.",
+        "instruction 2": "Consider the specific characteristics of calciviruses that influence their replication process, such as their genetic material (RNA), the use of host cell machinery, and how they may differ from other virus families in their methodology.",
+        "question": "How do viruses of the calcivirus family replicate?",
+        "choices": [
+            "As negative strand RNA viruses",
+            "As positive strand RNA viruses",
+            "Retroviruses",
+            "Using genetic reassortment"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the structural characteristics of parvoviruses' genomes, including the type of nucleic acid they contain, such as single-stranded DNA (ssDNA), and how it differs from the genomes of other viruses, like double-stranded DNA (dsDNA) or RNA viruses.",
+        "instruction 2": "Consider the implications of the parvovirus genome's unique properties, such as its size, coding potential, and replication mechanisms, to highlight how these factors contribute to the virus's biology and its infection cycle.",
+        "question": "The parvoviruses have a rather unique genome; what form does it take?",
+        "choices": [
+            "Circular ds DNA",
+            "Small linear ss DNA",
+            "ds DNA genome",
+            "RNA genome with RT"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Detail the structural characteristics of filoviruses, including shape, size, and any distinguishing features such as their filamentous shape and the presence of surface proteins that play a role in infection.",
+        "instruction 2": "Discuss the implications of filovirus morphology on their functionality, including how the structure relates to their mechanisms of entry into host cells and their overall pathogenicity.",
+        "question": "How can the morphology of filoviruses be described?",
+        "choices": [
+            "Very large ball like structure",
+            "Long filamentous threads",
+            "Icosahedral virion",
+            "Floppy membranes without defined morphology"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of 'knowledge' within the context of cellular biology, specifically identifying what is meant by 'knowledge' in terms of cellular functions and processes, such as information transfer and gene expression.",
+        "instruction 2": "Investigate the flow of genetic information in a cell, detailing processes such as transcription and translation, and how this directional flow relates to the interpretation and utilization of 'knowledge' at the cellular level.",
+        "question": "What is the usual direction of 'knowledge' in a cell?",
+        "choices": [
+            "From protein to DNA",
+            "From DNA to DNA",
+            "From DNA to RNA to protein",
+            "Random"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the mechanisms by which drug combinations enhance the effectiveness of HIV treatment, focusing on how they improve viral suppression and reduce the risk of resistance compared to single-drug therapies.",
+        "instruction 2": "Consider the broader implications of using drug combinations in HIV treatment, including how they contribute to better health outcomes and improved quality of life for patients living with HIV, as well as any relevant clinical guidelines that support this approach.",
+        "question": "Why are drug combinations essential for HIV?",
+        "choices": [
+            "Single drugs are not completely inhibitory",
+            "Mutations negate the effect of one drug",
+            "Combinations of antibiotics are effective versus TB",
+            "The virus cannot mutate vs a combination"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the types of immune responses typically triggered by viral infections, focusing on the mechanisms that lead to immune pathology such as hyperactivation of immune cells, cytokine storms, or autoimmune reactions.",
+        "instruction 2": "Consider the specific viral characteristics that contribute to immune pathology, including viral mutations, virulence factors, and how these may influence the host's immune response, guiding the analysis towards the most likely causes of immune-related complications.",
+        "question": "Many virus infections result in immune pathology, this is caused predominantly by which of the following?",
+        "choices": [
+            "A cytokine storm",
+            "Antibody mediated reactions",
+            "A response of killer T cells (CD-8)",
+            "A decline in function of the immune system"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the major contributions and discoveries made by David Baltimore in the field of molecular biology, focusing on his work related to the mechanisms of gene expression and virology, particularly his research on retroviruses.",
+        "instruction 2": "Evaluate the significance of his discoveries within the context of scientific progress, including any awards or recognition received, such as the Nobel Prize, and how his findings have influenced the broader field of molecular biology and medical research.",
+        "question": "David Baltimore is a molecular biologist. What did he discover?",
+        "choices": [
+            "The structure of DNA",
+            "X-ray crystallographic techniques",
+            "The enzyme reverse transcriptase",
+            "The anti HIV drug zidovudine"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the range of diagnostic techniques utilized in virology laboratories, focusing on methods such as polymerase chain reaction (PCR), enzyme-linked immunosorbent assay (ELISA), and viral culture, to determine which one is most prevalent.",
+        "instruction 2": "Consider the applications, advantages, and limitations of the diagnostic technique identified, ensuring to evaluate factors such as accuracy, speed, and specificity in the context of identifying viral infections.",
+        "question": "Identify the most commonly used diagnostic technique in the virus laboratory:",
+        "choices": [
+            "Virus isolation in cell culture",
+            "Deep sequencing (NGS)",
+            "Reverse transcriptase (RT) PCR",
+            "Immuno-serology"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific demographics or behaviors within the Latino community that are considered high-risk for HIV infection, such as men who have sex with men, intravenous drug use, or socioeconomic factors that may contribute to vulnerability.",
+        "instruction 2": "Analyze available epidemiological data and studies to understand the prevalence rates of HIV among different Latino subgroups, keeping in mind the importance of cultural, social, and regional factors that may impact risk levels.",
+        "question": "The major risk group for HIV infection among Latinos is:",
+        "choices": [
+            "Heterosexual males",
+            "Homosexual males",
+            "Females",
+            "Injection drug users"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Refer to clinical guidelines and recommendations from health authorities on the timing of antiretroviral therapy initiation for HIV-positive patients with tuberculosis, with a focus on the specific circumstances influencing the decision to start treatment, such as the CD4 count and the severity of the tuberculosis.",
+        "instruction 2": "Evaluate the potential benefits and risks of starting antiretroviral therapy concurrently with tuberculosis treatment versus delaying the initiation, considering factors like drug interactions, immune reconstitution inflammatory syndrome (IRIS), and overall patient health.",
+        "question": "In HIV-associated tuberculosis cases, treatment with antiretrovirals should begin:",
+        "choices": [
+            "Before antiretroviral drugs are started",
+            "After antiretroviral drugs are started",
+            "Concurrently with antiretroviral drugs",
+            "Doesn’t make any difference"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define what is meant by a 'benefit' in the context of research, considering factors such as societal, economic, or scientific advantages that result from research findings or applications.",
+        "instruction 2": "Evaluate various types of research outcomes that could be deemed as benefits, such as advancements in knowledge, improvements in technology, public health enhancements, or influence on policy decisions, and how these contributions manifest in real-world scenarios.",
+        "question": "A “benefit” of research may accrue:",
+        "choices": [
+            "To the participant",
+            "To his/her family",
+            "To society",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Investigate the most recent research and health guidelines regarding Ebola prevention, focusing on strategies such as vaccination, public health policies, and community awareness programs that have shown effectiveness in controlling outbreaks.",
+        "instruction 2": "Evaluate the implementation of preventive measures in high-risk regions, considering factors such as local infrastructure, healthcare access, and behavioral aspects that may influence the success of Ebola outbreak prevention efforts.",
+        "question": "What is the current best option for preventing future outbreaks of Ebola?",
+        "choices": [
+            "Rebuild scientific, medical and nursing infrastructure and train staff",
+            "Early and accurate diagnosis with molecular kits",
+            "Develop effective vaccines",
+            "Arrange rapid intervention into West Africa with EU and USA army teams"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research the geographic distribution of arenaviruses, identifying specific regions or countries where these viruses are most commonly found, considering factors such as endemic hosts and environments that favor their transmission.",
+        "instruction 2": "Examine the ecological and epidemiological factors that contribute to the presence of arenaviruses in certain areas, including the role of rodent hosts and human activity which may influence the spread of these viruses.",
+        "question": "Where are arenaviruses predominately located in the world?",
+        "choices": [
+            "SE Asia",
+            "Russia",
+            "Africa and S. America",
+            "N. America"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the fundamental principles that govern ethical research on human subjects, focusing on concepts such as informed consent, respect for persons, beneficence, and justice, to identify which element is considered most important.",
+        "instruction 2": "Evaluate any ethical guidelines or frameworks, such as the Belmont Report or declarations from relevant organizations, to support the identification of the most crucial element in protecting the rights and welfare of human subjects during research.",
+        "question": "The most important element of ethical research on human subjects is:",
+        "choices": [
+            "Beneficence",
+            "Justice",
+            "A methodologically sound study design",
+            "Informed consent"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key social, economic, and health-related characteristics of injecting drug users in Asia, considering factors such as demographics, addiction patterns, and prevalent substances to ascertain a comprehensive profile.",
+        "instruction 2": "Explore regional variations and cultural contexts within Asia that may influence the characteristics of injecting drug users, such as access to healthcare, stigma, legal frameworks, and public health initiatives.",
+        "question": "The characteristic of injecting drug users in Asia is/are:",
+        "choices": [
+            "Strong family support",
+            "Low failure rate for rehabilitation centers",
+            "Remaining a member of the community",
+            "Both a and c"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the various ways in which viruses have influenced societal changes, including shifts in healthcare practices, public health policies, and individual behaviors, as well as the implications for global connectivity and local communities.",
+        "instruction 2": "Explore the broader context of how viral outbreaks have historically led to advancements in technology, scientific research, and innovations in response strategies, emphasizing the transformative effects on society and future preparedness.",
+        "question": "Viruses have encouraged us to change our world, as we have now:",
+        "choices": [
+            "Eradicated smallpox",
+            "Eradicated polio",
+            "Increased hygiene",
+            "A better understanding of how cellular genes aid virus replication and so become a target for new drugs"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the primary criteria used in virus classification, such as type of nucleic acid (DNA or RNA), presence of an envelope, and modes of replication, to understand how these factors contribute to categorizing viruses.",
+        "instruction 2": "Examine the hierarchical system of virus classification, including levels such as family, genus, and species, to evaluate how the vital characteristics influence this organizational structure.",
+        "question": "What is the most important factor for virus classification?",
+        "choices": [
+            "The geometry of the virus",
+            "How many proteins the virus has",
+            "The disease a virus causes",
+            "Chemistry of the DNA and RNA"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the primary factors contributing to the incidence of HIV infection within the Latino population, such as socioeconomic status, access to healthcare, cultural stigma, and education about sexual health.",
+        "instruction 2": "Explore existing research and statistics regarding HIV rates among Latinos, examining how these factors may exacerbate the issue, and consider the role of public health initiatives aimed at addressing these challenges.",
+        "question": "The major issue for HIV infection among the Latino population is:",
+        "choices": [
+            "Late detection of HIV status",
+            "Cultural beliefs",
+            "Immigration",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the common methods of disease prevention, such as vaccinations, hand hygiene, and public health education, and analyze how each method contributes to preventing the spread of diseases.",
+        "instruction 2": "Evaluate the effectiveness of each prevention method in different contexts, considering factors like the type of disease, population demographics, and accessibility to healthcare resources.",
+        "question": "Disease can most often be prevented by which of the following:",
+        "choices": [
+            "Vaccines",
+            "Antivirals",
+            "Hygiene",
+            "mosquito nets"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the intended audience or stakeholders for the distribution of surveillance results, considering who would benefit from or need to be informed by these findings, such as policymakers, law enforcement, public health officials, or affected communities.",
+        "instruction 2": "Identify the appropriate channels or methods for disseminating the surveillance results to ensure effective communication and understanding among the targeted recipients, which could include reports, meetings, or digital platforms.",
+        "question": "Results of surveillance should be distributed to:",
+        "choices": [
+            "Decision makers",
+            "The public",
+            "The data collectors",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and describe key biological features that define the bunyavirus family, including aspects such as their RNA composition, structure, and modes of transmission, distinguishing these characteristics from those of other virus families.",
+        "instruction 2": "Consider the clinical implications of bunyavirus infections, including the types of diseases they are associated with and their epidemiological significance, as well as the geographical distribution of these viruses.",
+        "question": "Which is a major characteristic of the bunyavirus family?",
+        "choices": [
+            "Amplify by persistent infection of midgets, mosquitoes, sand flies, ticks",
+            "Predominantly mosquito borne",
+            "Genetic recombination or reassortment",
+            "Spread to humans via bites of mice and rats"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific group or organization that specializes in the comprehensive study and analysis of HIV/AIDS, considering entities that gather, study, and disseminate data on the natural history of the disease, including relevant research institutions or public health organizations.",
+        "instruction 2": "Explore the role and contributions of this group in advancing knowledge about HIV/AIDS, focusing on their research methodologies, findings, and impact on public health policies and awareness regarding the epidemic.",
+        "question": "The group that permits analysis of the entire natural history of HIV/AIDS is:",
+        "choices": [
+            "Persistent seronegatives",
+            "Long-term survivors",
+            "Seroconverters",
+            "Long-term survivors with low levels of CD4+ cells"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the safety protocols and testing procedures implemented in the United States regarding factor VIII to understand why there was no risk of HIV transmission in 2011, focusing on any advancements or regulations established in the blood supply chain.",
+        "instruction 2": "Examine historical data regarding HIV infection rates and the impact of medical interventions, such as viral inactivation techniques or screening processes, that contributed to the assurance of a 0% transmission rate for factor VIII during that time period.",
+        "question": "The chance of acquiring HIV infection from factor VIII in the United States in 2011 is 0% primarily because:",
+        "choices": [
+            "All donors for factor VIII are screened",
+            "Factor VIII is subject to detergent “washing” prior to release",
+            "Factor VIII is made synthetically",
+            "Factor VIII is important from countries with no reported HIV"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze statistical data comparing the prevalence of HIV among Latino-Americans with other ethnic groups in the U.S., focusing on recent studies, health reports, and demographic data to ensure accuracy and relevance.",
+        "instruction 2": "Consider the social, economic, and healthcare access factors that may contribute to the differences in HIV prevalence among Latino-Americans and other ethnic groups, ensuring a comprehensive understanding of the underlying issues affecting these statistics.",
+        "question": "The prevalence of HIV among Latino-Americans compared to other ethic groups in the U.S. is:",
+        "choices": [
+            "Highest",
+            "Higher than all other ethnic groups except African-Americans",
+            "Higher than in all other ethnic groups except African-Americans and",
+            "Native Americans"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define rubella syndrome, including its causes and effects, while highlighting its association with maternal rubella infection during pregnancy and its impact on fetal development.",
+        "instruction 2": "Discuss the symptoms and consequences of rubella syndrome, such as congenital defects and health complications in newborns, ensuring to provide a comprehensive overview of its clinical implications.",
+        "question": "What is the rubella syndrome?",
+        "choices": [
+            "A description of the 3 day rash of German measles",
+            "The teratogenic lesions of cataracts, deafness, mental retardation and microcephaly in the foetus",
+            "Combination of rash and post infection encephalitis",
+            "Side effects of the MMR vaccine"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the mechanisms by which viruses typically cause cell death, such as lysis, apoptosis, or inducing cellular stress, and determine which of these methods is most prevalent among different virus types.",
+        "instruction 2": "Examine various examples of viral infections to illustrate how the mechanism of action varies among viruses, considering factors such as the virus-host interaction and the specific life cycles of common viruses.",
+        "question": "What is the most common way for a virus to kill a cell?",
+        "choices": [
+            "Dissolves the cellular membrane",
+            "Induces apoptosis via caspases",
+            "Fragments cellular DNA",
+            "Totally blocks cellular transcription"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key genetic features of the influenza virus, such as its segmented RNA genome and the implications of antigenic drift and shift, which contribute to its complexity.",
+        "instruction 2": "Consider how these genetic characteristics influence the virus's behavior, including its ability to mutate and evade the immune response, which can lead to challenges in vaccine development and public health responses.",
+        "question": "The influenza virus has complicated genetics mainly characterised by which of the following?",
+        "choices": [
+            "Genetic reassortment amongst 8 genes",
+            "High levels of recombination",
+            "Rapid adsorption and fusion from without via a hydrophobic peptide",
+            "High fidelity RNA replicase enzyme"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze the demographic and geographic factors that influence the risk of HIV infection among drug users in the U.S., focusing on specific populations or regions that are most affected.",
+        "instruction 2": "Research data from epidemiological studies and public health reports to determine where the highest rates of HIV infection among drug users are reported, taking into account factors like injection drug use, access to healthcare, and harm reduction programs.",
+        "question": "The highest risk of HIV infection among drug users in the U.S. is in:",
+        "choices": [
+            "The east coast",
+            "The central United States (Kansas, Missouri etc.)",
+            "Southern California",
+            "The Pacific Northwest (Washington, Oregon, Idaho)"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the study design to determine how the awareness of patient race could influence the pathologists' diagnosis, specifically looking for signs of confirmation bias or other cognitive biases that may affect the reporting of hypertensive nephropathy among patients of different races.",
+        "instruction 2": "Explore the implications of the findings by considering how the results from both groups of pathologists may differ due to explicit awareness versus blindness to race, analyzing the potential influences on objective diagnosis and the validity of the study's conclusions.",
+        "question": "A study is conducted to assess the relationship between race and end-stage renal disease pathologists independently study specimens from 1,000 kidney biopsies. The first group of pathologists is aware of the race of the patient from whom the biopsy came, while the second group is blinded as to the patient’s race. The first group reports ‘hypertensive nephropathy’ much more frequently for black patients than the second group. Which of the following types of bias is most likely present in this study?",
+        "choices": [
+            "Confounding",
+            "Nonresponse bias",
+            "Recall bias",
+            "Referral bias"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define urban yellow fever by outlining its transmission mechanism, vectors (such as mosquitoes), and the characteristics that distinguish it from other forms of yellow fever, particularly the urban context.",
+        "instruction 2": "Examine the symptoms, treatment options, and prevention methods associated with urban yellow fever, as well as its public health implications and historical outbreaks to provide a comprehensive understanding of the disease.",
+        "question": "What is urban yellow fever (YF)?",
+        "choices": [
+            "Part of a cycle of mosquitoes biting humans in cities",
+            "Part of a cycle of mosquitoes biting humans and monkeys in forested areas",
+            "A mutant of the YF virus",
+            "A YF species that has adapted to new mosquitoes"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the latest available information and guidelines from the Centers for Disease Control (CDC) and the World Health Organization (WHO), focusing on their current testing policies, methodologies, and recommendations related to public health.",
+        "instruction 2": "Consider the context of the testing policy, including any relevant updates or changes due to emerging health threats, and ensure that the response reflects the most recent and credible sources from both organizations.",
+        "question": "The current testing policy of the Centers for Disease Control and the World Health Organization is:",
+        "choices": [
+            "“Opt-in”",
+            "“Opt-out”",
+            "Mandatory testing of prisoners",
+            "Mandatory testing of high-risk groups"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the common transmission routes of cold viruses, focusing on how they typically enter the human body, such as through the respiratory tract, direct contact with contaminated surfaces, or aerosols from coughs and sneezes.",
+        "instruction 2": "Research the biological mechanisms of viral invasion and establish the significance of each route in the context of viral spread and infection, highlighting any preventive measures that can be taken to minimize transmission.",
+        "question": "Common cold viruses are ubiquitous and invade by which route?",
+        "choices": [
+            "Faecal oral route",
+            "Respiratory and surface route",
+            "Cuts in the skin",
+            "Sexual transmission"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the major processes involved in the assembly stage of viral replication, focusing on how viral components such as nucleic acids and proteins come together to form new virus particles.",
+        "instruction 2": "Examine the various mechanisms or agents (such as host cell machinery or specific proteins) that facilitate the assembly of viruses, ensuring to differentiate these processes from earlier stages of viral replication.",
+        "question": "Assembly is a vital late replication stage for a virus and is often accomplished by which of the following?",
+        "choices": [
+            "Use of cellular scaffolding in the nucleus and cytoplasm",
+            "Snatching cellular lipids and membranes",
+            "Master plan embedded in the viral genome",
+            "Random interactions between cellular and virus proteins"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary pathways through which HIV can be transmitted from mother to infant, focusing on the various modes of transmission during pregnancy, childbirth, and breastfeeding.",
+        "instruction 2": "Consider current research and guidelines regarding prevention strategies, particularly the impact of antiretroviral therapy on reducing the risk of transmission during the critical periods mentioned.",
+        "question": "The biggest single determinant of HIV transmission to the infant is:",
+        "choices": [
+            "Mother’age",
+            "Mother’s viral load",
+            "Mother’s immune status",
+            "Father’s viral load"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the reproductive number (often referred to as R0) and explain its significance in epidemiology, particularly in understanding the potential spread of a virus in a population.",
+        "instruction 2": "Discuss the implications of different values of the reproductive number, such as what an R0 greater than 1 indicates about transmission risk, and how it can inform public health interventions and strategies to control outbreaks.",
+        "question": "What does the reproductive number of a virus tell us?",
+        "choices": [
+            "How virulent the infection will be",
+            "How many people will die",
+            "How many contacts will be infected from one case",
+            "How long the 'incubation period' will be"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine the specific populations or demographics that benefit the most from PreP (Pre-Exposure Prophylaxis), focusing on high-risk groups for HIV infection, including men who have sex with men, individuals with HIV-positive partners, or those with multiple sexual partners.",
+        "instruction 2": "Evaluate the effectiveness of PreP within different contexts, such as geographical locations or socio-economic factors, to understand variances in its impact across different groups and highlight any relevant studies or data supporting these findings.",
+        "question": "PreP is most effective for which group:",
+        "choices": [
+            "Men with frequent unprotected sex",
+            "Men with infrequent unprotected sex",
+            "Women with frequent unprotected sex",
+            "Women with infrequent unprotected sex"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify a defining characteristic of adaptive immunity, such as its specificity to particular pathogens and the ability to remember past infections, enabling a faster and more effective response upon subsequent exposures.",
+        "instruction 2": "Examine how adaptive immunity differs from innate immunity in terms of response time, memory, and the mechanisms involved, ensuring to reference key components like T cells and B cells that play critical roles in this immune response.",
+        "question": "A special feature of adaptive immunity is:",
+        "choices": [
+            "Speed of response to a foreign protein",
+            "Ability to distinguish self and non self",
+            "Ability to distinguish viruses and bacteria",
+            "Short memory"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the different categories of diseases caused by viruses, structuring the response to include common viral infections, their symptoms, and modes of transmission, providing a clear overview of the viral diseases in question.",
+        "instruction 2": "Examine the impact of viral diseases on public health, considering aspects such as prevalence, outbreaks, and methods of prevention and control, ensuring to highlight any significant examples or case studies relevant to understanding the scope of viral diseases.",
+        "question": "As regards the range of diseases caused by viruses:",
+        "choices": [
+            "Each member of the 'family' causes the same disease.",
+            "Members of many families can cause the same sort of disease.",
+            "Most virus disease are now controlled by vaccines.",
+            "Most viruses can cross placenta and be teratogenic."
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the list of disease symptoms associated with bunyaviruses to identify common patterns or characteristics that unify the majority, in order to isolate the exception that does not fit this norm.",
+        "instruction 2": "Verify the classification of each symptom based on medical literature related to bunyavirus infections, ensuring an accurate understanding of the symptomatology and confirming which symptom is atypical within the context provided.",
+        "question": "Which is the exception in the following range of disease symptoms caused by bunyaviruses?",
+        "choices": [
+            "Pneumonias",
+            "Haemorrhagic fever",
+            "Hepatitis",
+            "Impaired renal function"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific biological characteristics of the HIV virus that contribute to the challenges in vaccine development, such as its high mutation rate and ability to evade the immune system.",
+        "instruction 2": "Examine the historical and current research efforts in HIV vaccine development, evaluating why these efforts have faced difficulties compared to vaccines for other diseases, and consider the implications of this for public health.",
+        "question": "There is no vaccine against HIV because of which of the following?",
+        "choices": [
+            "The virus is so antigenically variable",
+            "Such a vaccine would be too expensive",
+            "The virus can be controlled by a change in sexual habits",
+            "Latency can abrogate any vaccine effect"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Outline the key components that characterize an effective surveillance system, such as technology capabilities, integration with existing infrastructure, data management protocols, and compliance with legal standards.",
+        "instruction 2": "Evaluate the specific objectives of the surveillance system, including prevention of crime, monitoring of public safety, and ensuring privacy, so that the requirements are aligned with the desired outcomes.",
+        "question": "The requirements for an effective surveillance system include:",
+        "choices": [
+            "A diagnostic algorithm",
+            "Staff members",
+            "A sampling frame",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the four special characteristics of MERS (Middle East Respiratory Syndrome) that are widely recognized in epidemiological studies or health reports, ensuring to clarify what these characteristics entail.",
+        "instruction 2": "Analyze the context to determine what qualifies as an exception among those characteristics, possibly by reviewing contrastive examples or cases that deviate from the established norms of MERS characteristics.",
+        "question": "MERS has four special characteristics and here we have one exception - which is it?",
+        "choices": [
+            "Spread by faecal oral route",
+            "Aerosol droplet transmission",
+            "Reservoir in bats",
+            "A conduit to humans via camels"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the primary demographic that utilizes Medicaid services the most, such as low-income families, children, the elderly, or disabled individuals, and analyze how these groups depend on Medicaid for their healthcare needs.",
+        "instruction 2": "Consider the historical context and purpose of Medicaid, highlighting how it was designed to provide assistance to specific populations in need and the implications of its coverage on access to healthcare.",
+        "question": "The major beneficiary of Medicaid in the U.S. is:",
+        "choices": [
+            "Single men",
+            "The elderly",
+            "Women and children",
+            "Undocumented residents"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the primary transmission method of norovirus and assess various control measures typically employed to prevent its spread, such as hand hygiene, food safety practices, and environmental cleaning standards.",
+        "instruction 2": "Evaluate the effectiveness of each control measure in reducing the incidence of norovirus outbreaks, considering the context in which the disease is commonly transmitted, including community settings, healthcare facilities, and food service environments.",
+        "question": "Which of the following is the most important for controlling disease caused by norovirus?",
+        "choices": [
+            "A norovirus vaccine",
+            "Attention to handwashing and hygiene",
+            "Quarantine",
+            "New antiviral drugs"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the mechanisms of immune evasion employed by HIV, such as the virus's ability to mutate quickly and how it establishes reservoirs in the body, which contribute to the failure of CD8 cell responses to eliminate the virus.",
+        "instruction 2": "Analyze the role of the chronic immune activation and exhaustion of CD8 T cells in HIV-positive individuals, considering how sustained stimulation leads to a decrease in the efficacy of these cells in controlling and eliminating the virus.",
+        "question": "Why do vigorous CD8 cell responses in chronically infected HIV-positive individuals fail to eliminate the virus?",
+        "choices": [
+            "CTL exhaustion",
+            "Epitope escape",
+            "Suboptimal CTL",
+            "Absence of dendritic cells"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key characteristics of HIV-1, including its transmission methods and effects on the immune system, to provide context for evaluating the statements related to it.",
+        "instruction 2": "Analyze each option presented in the question, applying knowledge about retroviruses and HIV-1 specifically, in order to determine which statement is true based on established scientific information.",
+        "question": "The most widespread and important retrovirus is HIV-1; which of the following is true?",
+        "choices": [
+            "Infecting only gay people",
+            "Infecting only males",
+            "Infecting every country in the world",
+            "Infecting only females"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific type of immune cell known to initiate the body's defense against infections, focusing on the role of various immune cells in the context of HIV infection, particularly the initial responder.",
+        "instruction 2": "Research the immune response to HIV, emphasizing the mechanisms through which the identified immune cell activates and functions in the presence of the virus, and consider how this response is critical in the overall fight against HIV.",
+        "question": "The first acquired immune cell to respond defensively to HIV infection is:",
+        "choices": [
+            "CD4+",
+            "CD8+",
+            "CD57",
+            "NK cells"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key attributes of the rabies vaccine, focusing on its unique characteristics such as its composition, administration method, or the immune response it elicits compared to vaccines for other diseases.",
+        "instruction 2": "Analyze the context of vaccine usage for rabies, including the timing of vaccination after potential exposure and the importance of post-exposure prophylaxis, to highlight how these features differentiate it from other vaccines.",
+        "question": "Which of the following is a special feature of the rabies vaccine?",
+        "choices": [
+            "The vaccine has not changed since the time of L. Pasteur",
+            "The original air dried spinal cord of infected rabbits was a killed vaccine",
+            "The vaccine still needs 16 doses given into the peritoneal cavity",
+            "The modern rabies vaccine is grown in human diploid cells from an aborted embryo"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the various techniques used in the production of viral vaccines, including live attenuated, inactivated, subunit, and mRNA technologies, to determine which is the most commonly utilized method.",
+        "instruction 2": "Evaluate historical context and current trends in vaccine development to support the determination of the predominant technique, including any relevant statistics or examples of widely used viral vaccines.",
+        "question": "Most viral vaccines are produced by which of the following techniques?",
+        "choices": [
+            "Traditional cell culture",
+            "Molecular biology",
+            "Animal tissues in vitro",
+            "VLPs (virus like particles)"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the latest advancements and treatments for hepatitis C that have been introduced or gained prominence, such as direct-acting antiviral agents, and evaluate their significance compared to previous treatment methods.",
+        "instruction 2": "Examine the context of the question, including the timeline of advancements in hepatitis C treatments, and consider how these innovations address issues such as efficacy, side effects, and patient adherence.",
+        "question": "The treatment of hepatitis C has been revolutionised most recently by which of the following?",
+        "choices": [
+            "The use of interferon",
+            "A new vaccine",
+            "Monoclonal antibodies",
+            "Direct-acting Antivirals such as daclatasvir and sofosbuvir"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary vectors or mechanisms that have contributed to the spread of Chikungunya from Asia and Africa into the Caribbean, focusing on factors such as global travel, climate conditions, and the role of mosquito populations, particularly Aedes mosquitoes, in transmission.",
+        "instruction 2": "Analyze the environmental and social factors that may have facilitated this spread, considering elements such as urbanization, public health responses, and climatic changes that may affect mosquito breeding and disease transmission dynamics.",
+        "question": "Chikungunya has spread widely from Asia and Africa into the Caribbean in recent years. This has been mainly facilitated by:",
+        "choices": [
+            "Mutation in the virus allowing replication in the mosquito Aedes albopictus",
+            "Air Travel",
+            "Climate change",
+            "Poor mosquito control and the absence of DTT"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the components of the HPV vaccine, including the specific types of human papillomavirus (HPV) that the vaccine targets and the formulation used in its development.",
+        "instruction 2": "Examine the mechanism of action of the HPV vaccine, including how it stimulates the immune system to prevent HPV infection and its role in reducing the incidence of HPV-related cancers.",
+        "question": "The successful anti-cancer HPV vaccine consists of:",
+        "choices": [
+            "Live virus attenuated by specific mutagenesis",
+            "Whole virus chemically inactivated vaccine",
+            "Self-assemble of virus L1 protein into VLP",
+            "Sub unit chemically inactivated vaccine"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary medical condition associated with rotavirus, focusing on its role as a causative factor in gastrointestinal illnesses, particularly in infants and young children.",
+        "instruction 2": "Examine the symptoms and consequences of rotavirus infection, considering the implications for public health and the importance of vaccination in preventing severe outcomes such as dehydration and hospitalizations.",
+        "question": "The rotavirus is an important cause of which of the following?",
+        "choices": [
+            "Respiratory infection in adults",
+            "Gastroenteritis in children",
+            "Diarrhoea and vomiting in adults",
+            "Cancer"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define what is meant by 'selection bias' and explain its implications in surveillance testing strategies, focusing on how different strategies might favor certain populations over others.",
+        "instruction 2": "Investigate various surveillance testing strategies, analyzing their methodologies to determine which minimizes selection bias by ensuring randomness and equal representation across the population being tested.",
+        "question": "The surveillance testing strategy associated with the least selection bias is:",
+        "choices": [
+            "Compulsory",
+            "Unlinked anonymous",
+            "Voluntary anonymous",
+            "Voluntary confidential"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Evaluate the available measures of central tendency—mean, median, and mode—to determine which one is least affected by the inclusion of outliers and the non-standard exam scores of the three students who took a different form of the exam.",
+        "instruction 2": "Analyze the relationship between the median and the mode in this distribution, considering the significant two measures in context with the mean, to assess how the construction of the data reflects on the central tendency given the potential bias introduced by the different exam scores.",
+        "question": "In a medical class of 147 students, the distribution of scores on a biochemistry final examination has a mean equal to 67, a median equal to 76, a mode equal to 80, a standard deviation equal to 5.5, and a variance equal to 30.25. Three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later. Which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores?",
+        "choices": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Standard deviation"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the range of diseases caused by herpes viruses, including commonly known conditions such as herpes simplex virus (HSV) infections, varicella-zoster virus (which causes chickenpox), and Epstein-Barr virus, to establish a clear understanding of their medical impact.",
+        "instruction 2": "Examine diseases that are not associated with herpes viruses, ensuring to differentiate them from conditions that may have overlapping symptoms or similar virus family relationships, as well as consolidating information on viruses that are distinctly unrelated to herpes viruses.",
+        "question": "What disease do herpes viruses not cause?",
+        "choices": [
+            "Infantile paralysis",
+            "Encephalitis",
+            "Sexually transmitted disease",
+            "Cancer"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the essential characteristics of double-blind or double-masked studies, emphasizing how they are designed to eliminate bias by ensuring that neither the participants nor the researchers know who is receiving the treatment versus a control, thereby improving the validity of the results.",
+        "instruction 2": "Examine the implications of using double-blind or double-masked methodology on the interpretation of study findings, including how it enhances objectivity and reduces the influence of placebo effects or experimenter bias on the outcomes.",
+        "question": "The purpose of a double-blind or double-masked study is to:",
+        "choices": [
+            "Achieve comparability of treated and untreated subjects",
+            "Reduce the effects of sampling variation",
+            "Avoid observer and subject bias",
+            "Avoid observer bias and sampling variation"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Research the origin of Nipah virus, focusing on geographical regions and specific animal hosts associated with its emergence, such as fruit bats and pig farming in Southeast Asia, particularly Malaysia and Bangladesh.",
+        "instruction 2": "Examine the conditions that contributed to the zoonotic spillover of Nipah virus from animals to humans, including environmental, ecological, and social factors that may have played a role in its transmission.",
+        "question": "Nipah is a zoonotic paramyxovirus; where did it originate?",
+        "choices": [
+            "Originating in pigs",
+            "Originating in bats",
+            "Coming from humans",
+            "Coming from horses"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the defining characteristics of the polyomavirus family, including their genome structure, which typically features circular double-stranded DNA, and specify any unique elements or genes that may distinguish them from other virus families.",
+        "instruction 2": "Examine the biological functions of the different genomic regions of polyomaviruses, such as the early and late gene regions, to understand their roles in viral replication and pathogenesis.",
+        "question": "What is the genome structure of the polyomavirus family?",
+        "choices": [
+            "Circular ds DNA with T antigen coding regions",
+            "Circular ssDNA",
+            "RNA genome with RT",
+            "Segmented RNA genome"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific functions and roles of interferons in the immune response, focusing on how they activate and regulate various immune cells and their antiviral properties.",
+        "instruction 2": "Examine the mechanisms by which interferons communicate with other cells, including their signaling pathways and the resulting biological effects, to illustrate their importance in the body's defense system.",
+        "question": "Interferons are very special defence mechanisms which operate by:",
+        "choices": [
+            "Binding to viruses",
+            "Binding to neighbouring cells",
+            "Producing a long lasting state of resistance",
+            "Inhibiting virus induced enzymes"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the genetic features that are characteristic of the bunyavirus family, including any notable traits such as RNA structure, genome segmentation, or methods of replication that distinguish them from other virus families.",
+        "instruction 2": "Consider the classification of bunyaviruses, and how their genetic characteristics contribute to their behavior, pathology, and potential impact on public health, referencing specific examples of bunyavirus species where relevant.",
+        "question": "Genetic characteristics of the bunyavirus family include which one of the following?",
+        "choices": [
+            "Three segmented negative stranded RNA viruses with anti-sense expression",
+            "Highly mutable RNA viruses",
+            "Emerging viruses via arthropod vector",
+            "Use an RT enzyme"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the historical context in which the basic code of ethical research, focusing on respect for persons, beneficence, and justice, was established, including the pivotal documents and events that contributed to its formulation.",
+        "instruction 2": "Determine the specific organization or committee responsible for creating the code, paying attention to significant reports or guidelines that have shaped ethical research standards in the field, such as the Belmont Report or the Declaration of Helsinki.",
+        "question": "The basic code of ethical research (respect for persons, beneficence, and justice) was first established by the:",
+        "choices": [
+            "Nuremberg Code",
+            "Declaration of Helsinki",
+            "CIOMS",
+            "Belmont Report"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Review the mechanisms of virus entry specific to the paramyxovirus family, focusing on the cellular processes involved, such as fusion with the host cell membrane facilitated by viral envelope proteins.",
+        "instruction 2": "Consider how the structural characteristics of paramyxoviruses, like their envelope composition and glycoprotein interactions, contribute to their entry strategy, including any comparative insights with other virus families that may enhance understanding.",
+        "question": "The paramyxovirus family employ what strategy at virus entry?",
+        "choices": [
+            "Initiate a fusion 'from without' using virus F protein",
+            "Has fusion from within a cytoplasmic vacuole at low pH",
+            "Viruses can puncture plasma membranes at entry",
+            "A fusion mediated by M protein"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and evaluate the most current statistical data regarding the risk of acquiring HIV from a transfusion of blood in the United States, taking into account advances in screening technologies and blood donation safety protocols that have been implemented over the years.",
+        "instruction 2": "Consider the context of risk assessment, including factors such as the prevalence of HIV in the donor population, the effectiveness of the blood testing methods, and any relevant public health recommendations, while ensuring to refer to credible health organizations for accurate figures.",
+        "question": "The risk of acquiring HIV from a unit of blood in the United States is now:",
+        "choices": [
+            "1/10,000 units",
+            "1/200,000 units",
+            "1/500,000 unit",
+            "1 per 2 million units"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the key characteristics of astroviruses, including their structure, transmission methods, and the illnesses they cause, to provide a comprehensive understanding of their pathology.",
+        "instruction 2": "Explore the mechanisms by which astroviruses invade host cells and replicate, focusing on the immune response generated against the virus and the pathological effects on the host, ensuring to connect the biological aspects to the symptoms observed in infections.",
+        "question": "What is the essential pathology of astroviruses?",
+        "choices": [
+            "Very restricted replication in the gut",
+            "Can cause infection of the central nervous system",
+            "Sequence diversity allows widespread replication",
+            "Can cause infection in the upper respiratory tract"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary aims of vaccination, such as disease prevention, herd immunity, and reduction of morbidity and mortality associated with infectious diseases, ensuring a clear distinction from other health strategies.",
+        "instruction 2": "Evaluate the context surrounding vaccinations, including the public health implications and the role of vaccinations in controlling outbreaks and protecting vulnerable populations, while considering historical data and current health guidelines.",
+        "question": "Which of the following are goals of vaccination?",
+        "choices": [
+            "Prevent infection",
+            "Prevent disease",
+            "Prevent transmission",
+            "All of the above"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key concept of randomization in clinical trials and explain how it helps minimize bias and ensure that any differences observed are due to the treatment rather than extraneous variables.",
+        "instruction 2": "Examine the specific types of biases or confounding factors that randomization addresses, such as selection bias or allocation bias, and provide examples of how these biases can affect the validity of clinical trial results.",
+        "question": "Randomization of study subjects in a clinical trial is most helpful for controlling for which of the following?",
+        "choices": [
+            "Placebo effect",
+            "Recall bias",
+            "Non-compliance",
+            "Effect modification (interaction)"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key characteristics that define quasi species viruses, including aspects such as high mutation rates, genetic diversity, and the ability to rapidly adapt, particularly in relation to the specific examples of influenza and HIV.",
+        "instruction 2": "Explore how these characteristics influence the behavior and management of quasi species viruses, including their implications for vaccine development and treatment strategies, particularly in the context of viral replication and evasion of the immune response.",
+        "question": "A quasi species virus such as influenza and HIV has which of the following characteristics?",
+        "choices": [
+            "A fragmented or segmented genome",
+            "Co-existence of innumerable genetic variants",
+            "Possesses RNA and DNA",
+            "A very large genome"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the defining features of positive stranded RNA viruses, such as their ability to be directly translated by host ribosomes into proteins and their single-stranded RNA genome characteristics.",
+        "instruction 2": "Examine the replication process of positive stranded RNA viruses, noting how they utilize the host's cellular machinery for replication and protein synthesis, differentiating this from other types of viruses such as negative stranded RNA viruses.",
+        "question": "Positive stranded RNA viruses have which of the following characteristics?",
+        "choices": [
+            "Their genome RNA can be translated directly as mRNA",
+            "They have to transcribe their genome RNA to a mirror image copy as a mRNA",
+            "This genome is circular",
+            "Their RNA genome is segmented"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the components of the genetic structure of rotavirus, including its type of nucleic acid (e.g., RNA), number of segments, and overall genome organization, ensuring to highlight the distinctions from other viruses.",
+        "instruction 2": "Investigate the implications of the rotavirus genetic structure on its replication and pathology, considering how features such as reassortment or genome segmentation might influence its behavior and interaction with host organisms.",
+        "question": "What is the genetic structure of rotavirus?",
+        "choices": [
+            "Circular DNA containing virus",
+            "RNA virus with RT",
+            "ds RNA virus",
+            "ds RNA virus in segments"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the context of the question by identifying whether it is asking about the classification of viruses (i.e., are they living or non-living entities), or if it involves their historical significance or role in biology and medicine.",
+        "instruction 2": "Explore both scientific definitions and historical perspectives on viruses, considering aspects such as their biological characteristics, modes of replication, and the implications for understanding life forms in the microbiological context.",
+        "question": "Are/were viruses:",
+        "choices": [
+            "The most abundant form of life on earth?",
+            "Discovered before bacteria?",
+            "Grown in animals in the laboratory?",
+            "The cause of all human disease?"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the current understanding of HIV as a virus, particularly focusing on its ability to mutate, establish latency in the body, and develop resistance to therapies, which complicates efforts to find a definitive cure.",
+        "instruction 2": "Explore the limitations of existing antiretroviral therapies in fully eliminating the virus from an individual's system, including challenges related to viral reservoirs and the need for lifelong treatment, highlighting the implications for a potential cure.",
+        "question": "It is unlikely that a 'cure' of HIV is possible with current drugs because:",
+        "choices": [
+            "Even in combination current drugs do not completely block viral replication",
+            "They do not penetrate to cells",
+            "They cannot block viral transcription from integrated viral DNA",
+            "They cannot penetrate to the CNS"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and define hypermutation in the context of virology, explaining how certain viruses exhibit higher mutation rates compared to others, and noting the biological mechanisms that contribute to this phenomenon.",
+        "instruction 2": "Compile a list of specific viruses known for their hypermutability, discussing examples such as HIV, Influenza, and others, while providing details about their mutation rates and the implications for treatment and vaccine development.",
+        "question": "Which viruses appear to be hypermutable?",
+        "choices": [
+            "DNA viruses",
+            "'Emerging' viruses",
+            "Influenza and HIV",
+            "RNA viruses"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the primary methods of controlling herpes infections, which may include antiviral medications, lifestyle modifications, and preventive measures such as safe sex practices to reduce transmission.",
+        "instruction 2": "Evaluate the role of public health education and awareness campaigns in informing individuals about herpes management and prevention strategies, ensuring to consider the impact of these measures on overall infection rates.",
+        "question": "How are herpes infections controlled?",
+        "choices": [
+            "Chemotherapy",
+            "Vaccines",
+            "Hygiene and social distancing",
+            "No method"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the type of study design being described, focusing on the elements of randomization, control groups, and the blinding of participants and healthcare providers, as these features are crucial in classifying the study correctly.",
+        "instruction 2": "Consider how the outcomes of the study are measured, particularly the significance of CD4+ T cell counts in evaluating the efficacy of the drug, and assess how these elements contribute to establishing the study as either a clinical trial or a different research design.",
+        "question": "A new drug with in vitro activity against HIV is tested on a population of patients with Western-blot confirmed HIV infections. Out of the 200 individuals in the patient population, 100 are chosen by lottery to receive the drug. The drug, which is tasteless, is administered in a cup of orange juice; the other patients receive pure orange juice. Neither the nurses, doctors, nor the patients know which patients receive the drug. At the end of the study period, the number of CD4+ T cells is determined for all of the subjects. This is an example of a",
+        "choices": [
+            "Case-control study",
+            "Case report",
+            "Cohort study",
+            "Cross-sectional study"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the most common travel vaccines recommended for international travelers, specifically focusing on those that are required or highly recommended based on various regions and health authorities’ guidelines.",
+        "instruction 2": "Evaluate the effectiveness and usage statistics of these vaccines among travelers, considering both personal health benefits and public health data that may indicate widespread acceptance and success in preventing disease.",
+        "question": "What is the most successful and most widely used 'travel' vaccine for international visitors?",
+        "choices": [
+            "Influenza",
+            "MMR",
+            "Yellow Fever",
+            "Rabies"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define a virus pandemic by explaining it as an outbreak of a viral infection that occurs over a wide geographical area, affecting a large proportion of the global population, and distinguish it from localized outbreaks or epidemics.",
+        "instruction 2": "Discuss the criteria used by health organizations, such as the World Health Organization (WHO), to declare a pandemic, including the characteristics of the virus, its transmission potential, and the impact on public health.",
+        "question": "What is a virus pandemic?",
+        "choices": [
+            "A sharp and rapid epidemic involving more than one country",
+            "An outbreak which recurs again and again",
+            "A rapid global outbreak starting from a single focus",
+            "A characteristic of common cold virus and HIV"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and analyze the specific benefits of opioid replacement therapy in the context of HIV prevention, focusing on aspects such as reducing risky behaviors, increasing access to healthcare, and improving overall health outcomes for individuals with opioid dependency.",
+        "instruction 2": "Evaluate how opioid replacement therapy can integrate with broader public health strategies for HIV prevention, considering any synergies with harm reduction programs and the importance of addressing the social determinants of health that may affect both substance use and HIV transmission.",
+        "question": "Benefits of opioid replacement therapy as an approach for HIV prevention include:",
+        "choices": [
+            "Reducing craving for and use of illicit opioids",
+            "More sharing of injecting paraphernalia",
+            "Reducing frequency of injection drug use",
+            "Both a and c"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific genetic characteristics associated with papilloma viruses, focusing on their structure, such as whether they are DNA or RNA viruses, and any notable patterns in their genome, like being double-stranded or single-stranded.",
+        "instruction 2": "Examine how the genetic features of papilloma viruses contribute to their classification within the virus family and their pathogenic mechanisms, giving context to how these features influence their interactions with host cells.",
+        "question": "Papilloma viruses are characterised by what genetic feature?",
+        "choices": [
+            "A genome of ds circular DNA encoding around 8 ORF",
+            "A virus with RT able to integrate and cause cancer",
+            "A variable ds RNA virus",
+            "A large DNA containing virus"
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the relative risk estimates provided in the table for each quintile of C-reactive protein (CRP) levels, specifically focusing on how the risk of cardiovascular events increases with higher levels of CRP in comparison to the reference category.",
+        "instruction 2": "Formulate a conclusion based on the observed trends in the relative risk data by considering statistical significance, potential confounding factors, and the implications of these findings on the relationship between systemic inflammation and cardiovascular disease.",
+        "question": "As part of the Women’s Health Study, researchers investigated the role of systemic inflammation in predicting cardiovascular disease in women (N Engl J Med. 2002;347[20]:1557-1565). Researchers used a prospective study design with a large sample size. Blood levels of C-reactive protein (CRP) were measured at baseline and women were followed for an average of 8 years. The following table shows the relative risk estimates of cardiovascular event (heart attack or stroke) within 5 years by quintile of CRP level for the 30,000 women. The first quintile is used as the reference category.  1 0.49 mg/dL Relative Risk Number of women  1.0 6000  2 >0.49-1.08 mg/dL 1.8 6000  Quintile of CRP Level 3 >1.08-2.09 mg/dL 2.3 6000  4 >2.09-4.19 mg/dL 3.2 6000  5 >4.19 mg/dL 4.5 6000  Based on the relative risk data above, one can conclude:",
+        "choices": [
+            "There is no risk of heart attack/stroke for women with CRP levels in the first quintile.",
+            "Decreasing CRP level appears to increase the risk of heart attack/stroke.",
+            "Increasing CRP level appears to increase the risk of heart attack/stroke.",
+            "There appears to be no association between CRP levels and heart attack/stroke."
+        ],
+        "subject": "virology",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the morphology of the Dane particle by describing its physical characteristics such as size, shape, and structural composition, which may include information on any lipid and protein components present within the particle.",
+        "instruction 2": "Contextualize the Dane particle's morphology within its biological role, including its relationship to hepatitis B virus and how its structure affects its function and interaction within a host.",
+        "question": "What is the morphology of the Dane particle?",
+        "choices": [
+            "Double shelled icosahedron",
+            "Lipid membrane free icosahedron",
+            "Flexuous and filamentous morphology",
+            "Numerous small particles"
+        ],
+        "subject": "virology",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and describe the key structural components of the adenovirus virion, focusing on its capsid structure and any unique characteristics that differentiate it from other viral types.",
+        "instruction 2": "Examine the significance of these unique structural features in relation to the adenovirus's function and ability to infect host cells, considering how these features contribute to its stability and recognition by the immune system.",
+        "question": "The adenovirus virion has which unique structural feature?",
+        "choices": [
+            "Icosahedron",
+            "Icosahedron with slender fibres",
+            "'Complex' structure not yet fully explored",
+            "Flexuous lipid containing structure"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the prevalence of the disease by dividing the number of cases specific to the disease (250,000) by the total population of the city (250,000 cases plus those not affected). This will provide the prevalence rate as a proportion or percentage.",
+        "instruction 2": "Ensure to clarify the definition of prevalence being used, distinguishing it from incidence and ensuring that it is calculated within the context of the relevant population figure, accounting for how this figure relates to the overall mortality from all causes.",
+        "question": "A city has a population of 250,000 cases and 400 deaths each year from this disease. There are 2,500 deaths per year from all causes. The prevalence of this disease is given by",
+        "choices": [
+            "400/250,000",
+            "600/250,000",
+            "1,000/250,000",
+            "2,500/250,000"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Investigate the specific morphology of the rabies virus, focusing on its structural characteristics, including its shape, size, and composition, to accurately describe the unique form it takes among other viruses.",
+        "instruction 2": "Examine the classification of the rabies virus within the broader context of viral taxonomy, noting its distinct characteristics that set it apart from both structurally similar and different viruses.",
+        "question": "Which unique form does the rabies virus take?",
+        "choices": [
+            "The virion has a dumbbell appearance",
+            "It is shaped like a bullet from a gun",
+            "The virus is star shaped",
+            "The virion is very pleomorphic"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the list of diseases provided and identify those that are caused by togaviruses, using knowledge of viral classifications and the specific diseases associated with this family of viruses.",
+        "instruction 2": "Determine which disease does not belong to the togavirus category by contrasting it with known viral families and their associated diseases, ensuring to clarify the defining characteristics that exclude it from being causers by togaviruses.",
+        "question": "Which of the following diseases is not caused by togaviruses?",
+        "choices": [
+            "Chikungunya",
+            "Rubella (German measles)",
+            "Western Equine encephalitis",
+            "Yellow Fever"
+        ],
+        "subject": "virology",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Investigate the etymology of the term 'astrovirus', focusing on the language roots, including Greek or Latin, that contribute to the name, and how these roots relate to the characteristics or morphology of the viruses in question.",
+        "instruction 2": "Explore the specific features of the viruses that led to their naming, particularly any visual or structural traits that resemble stars, which is implied by the 'astro-' prefix, and discuss how such features correlate with their classification.",
+        "question": "Why are the viruses of this family called astroviruses?",
+        "choices": [
+            "Because of the nucleotide sequence of their genomes",
+            "The superficial appearance of a 'star' on negative straining electron microscopy",
+            "Because of isolation in very large numbers of mammals including dromedaries, cats and cattle",
+            "Because they are more common in developing countries with poor hygiene"
+        ],
+        "subject": "virology",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the biological and ecological factors that contribute to the emergence and persistence of viruses like Zika and Ebola, including their transmission modes, reservoirs, and the role of changing environments in facilitating outbreaks.",
+        "instruction 2": "Examine the societal and health infrastructure challenges, such as public health responses, vaccination availability, and global travel, that hinder effective management and control of these viruses, ensuring to identify how these factors interact with the biological characteristics of the viruses.",
+        "question": "Why do emerging viruses like Zika and Ebola continue to plague us?",
+        "choices": [
+            "These viruses mutate and hence emerge",
+            "We disturb forests where they quietly exist as a zoonosis",
+            "Mosquitoes are the main culprit to encourage virus spread",
+            "The viruses can be halted by new vaccines"
+        ],
+        "subject": "virology",
+        "answer": 1
+    }
+]

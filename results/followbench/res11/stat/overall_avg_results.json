@@ -1,0 +1,57 @@
+{
+    "HSR Levels": {
+        "Level 1": 71.402,
+        "Level 2": 60.782000000000004,
+        "Level 3": 53.251999999999995,
+        "Level 4": 48.413999999999994,
+        "Level 5": 40.461999999999996,
+        "Overall": 54.862399999999994
+    },
+    "SSR Levels": {
+        "Level 1": 71.402,
+        "Level 2": 67.478,
+        "Level 3": 63.81,
+        "Level 4": 59.508,
+        "Level 5": 59.064,
+        "Overall": 64.2524
+    },
+    "CSL Average": 1.95,
+    "Type Completion Values": {
+        "content": {
+            "HSR": 38.4,
+            "SSR": 45.894000000000005,
+            "CSL": 1.7,
+            "AverageCompletion": 42.147000000000006
+        },
+        "situation": {
+            "HSR": 63.638,
+            "SSR": 69.758,
+            "CSL": 2.7,
+            "AverageCompletion": 66.698
+        },
+        "style": {
+            "HSR": 81.99799999999999,
+            "SSR": 92.32199999999999,
+            "CSL": 3.5,
+            "AverageCompletion": 87.16
+        },
+        "format": {
+            "HSR": 57.33399999999999,
+            "SSR": 73.956,
+            "CSL": 2.3,
+            "AverageCompletion": 65.645
+        },
+        "example": {
+            "HSR": 0.0,
+            "SSR": 0.0,
+            "CSL": 0.0,
+            "AverageCompletion": 0.0
+        },
+        "mixed": {
+            "HSR": 32.942,
+            "SSR": 39.332,
+            "CSL": 1.5,
+            "AverageCompletion": 36.137
+        }
+    }
+}

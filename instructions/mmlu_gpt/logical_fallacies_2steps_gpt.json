@@ -1,0 +1,2121 @@
+[
+    {
+        "instruction 1": "Define the structure of a valid disjunctive syllogism, identifying the major premise as a statement that presents two alternatives (A or B) and indicates that one of them is false (not A), leading to the conclusion that the other must be true (B).",
+        "instruction 2": "Explain how a valid disjunctive syllogism is constructed using logical notation, ensuring clarity in distinguishing between valid and invalid forms, and illustrating the role of the major premise in reaching the logical conclusion.",
+        "question": "A valid disjunctive syllogism has a major premise that:",
+        "choices": [
+            "includes two or more alternatives",
+            "classifies subjects",
+            "affirms the antecedent or denies the consequent",
+            "leads to a valid conclusion"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the concept of 'style over substance' while identifying the characteristics of this fallacy, focusing on how it prioritizes aesthetics or superficial qualities over meaningful content or genuine value.",
+        "instruction 2": "Differentiate this fallacy from related concepts by providing examples that illustrate the distinction, ensuring to clarify how the emphasis on style detracts from the actual efficacy or truth of the argument or situation.",
+        "question": "Which of the following best describes the fallacy of style over substance?",
+        "choices": [
+            "Changing the meaning of a word or phrase from one part of the argument to another.",
+            "Confusing figurative language with literal language.",
+            "Reasoning that ideas presented in an appealing manner are correct, regardless of the content of the message.",
+            "Using emotionally charged language to create an impression about the subject of a claim, without making an argument that the language fits the subject."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the definition of the specific fallacy related to suppressing evidence by discrediting the source, ensuring to understand its characteristics and how it operates within logical reasoning.",
+        "instruction 2": "Examine examples of this fallacy in practice to clarify its application and differentiate it from other fallacies that might also involve source evaluation, ensuring to consider the context in which the fallacy occurs.",
+        "question": "Which of the following fallacies is a way of suppressing evidence that eliminates a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source?",
+        "choices": [
+            "significance",
+            "snob appeal",
+            "poisoning the well",
+            "appeal to anonymous authority"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the false analogy fallacy by explaining how it occurs when an argument is made based on misleading comparisons between two ideas or situations that are not sufficiently similar, highlighting the importance of the relevant similarities and differences involved.",
+        "instruction 2": "Provide examples that illustrate the false analogy fallacy in practice, showcasing how arguments can be incorrectly supported by skewed comparisons to clarify its implications in reasoning and critical thinking.",
+        "question": "The false analogy fallacy is",
+        "choices": [
+            "a specific type of false cause fallacy that argues that since two event happened at the same time one event must have caused the other",
+            "arguing that an event that preceded another event necessarily is the cause of the second event",
+            "arguing that since something is new it is necessarily good",
+            "drawing a conclusion based on a comparison when the items being compared are not similar enough to support the conclusion."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the _ad nauseam_ fallacy by explaining its characteristics as a logical fallacy that involves repeating an argument or statement to the point of annoyance, rather than providing substantive evidence or reasoning.",
+        "instruction 2": "Explore examples of the _ad nauseam_ fallacy in discourse to illustrate how it operates in debates or discussions, highlighting the implications of relying on repetition as a persuasive technique rather than logical reasoning.",
+        "question": "The _ad nauseam_ fallacy is",
+        "choices": [
+            "arguing that something should be done because that's the way it's been done in the past.",
+            "arguing that an act should be carried out because it will not have any significant consequences, when there is no evidence of the effects",
+            "reasoning that a conclusion is true because it's been claimed so often",
+            "reasoning that a claim is true because so many people believe it is true"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy being referred to in the question, which is known as the fallacy of composition, wherein one incorrectly assumes that what is true for the whole must also be true for its individual parts.",
+        "instruction 2": "Provide a clear explanation or example of the fallacy of composition, illustrating its implications in reasoning and distinguishing it from related fallacies such as the fallacy of division, which is the opposite assumption.",
+        "question": "Arguing that what is true of an entire object is also true of each part of that object is the fallacy of",
+        "choices": [
+            "false criteria",
+            "hasty generalization",
+            "ad crumenam",
+            "division"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the horse laugh fallacy clearly, explaining the reasoning flaw it represents within the context of arguments or discourse, particularly focusing on how it dismisses a position by mocking it rather than addressing the argument itself.",
+        "instruction 2": "Provide examples or scenarios where the horse laugh fallacy might occur, illustrating how this fallacy may undermine rational debate or discussion by prioritizing ridicule over substantive critique.",
+        "question": "Which of the following describes the horse laugh fallacy?",
+        "choices": [
+            "responding to an argument with an expression of derision instead of a counter argument",
+            "attempts to gain agreement based solely the feelings aroused by the message",
+            "characterizing an opponent's position in such way to make it or its consequences appear to be ridiculous",
+            "arguing actions should be taken to avoid negative results, when those results are exaggerated, unlikely, or irrelevant"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define the fallacy involved in asserting that a lack of evidence serves as proof for a claim. Consider providing examples of this fallacy to illustrate its nature.",
+        "instruction 2": "Explain the implications of this fallacy within logical reasoning, particularly how it can mislead arguments and affect conclusions drawn from incomplete information.",
+        "question": "Arguing that a lack of evidence proves something is the fallacy of...",
+        "choices": [
+            "Appeal to ignorance",
+            "Double negative",
+            "Equivocation",
+            "Burden of proof"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the context of the argument being presented against the person by identifying the specific claims or premises that form the basis of the argument, including any logical connections or rhetorical strategies involved.",
+        "instruction 2": "Analyze the potential counterarguments to the points made against the person, considering the implications of these arguments and how they might be addressed or rebutted, to provide a well-rounded perspective on the issue.",
+        "question": "The argument against the person consists of",
+        "choices": [
+            "ignoring another person's arguments and attacking her character instead",
+            "asserting an opposing arguer has taken an easily defeated position, which she has not really taken",
+            "causing confusion during an argument by a lack of ability to engage in refutation",
+            "using threats of harm instead of reasoning to gain agreement"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific type of fallacy involved in attributing someone's honesty solely based on the perceived honesty of their associates, highlighting the logical error in assuming that individual character traits can be inferred from social connections.",
+        "instruction 2": "Clarify the implications of this fallacy in reasoning, such as discussing the fallacy's name (e.g., 'guilt by association'), and how it reflects a misunderstanding of personal accountability and the complexity of human relationships.",
+        "question": "Which of the following fallacies happens when someone concludes that someone must be honest because the people he hangs around with are honest?",
+        "choices": [
+            "Laudatory personality",
+            "Guilt by association",
+            "Reprehensible personality",
+            "Circular reasoning"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the unproven assumption present in the question, focusing on how it implicitly influences the validity of the conclusions drawn from the question.",
+        "instruction 2": "Analyze different types of logical fallacies that arise from unproven assumptions, determining which fallacy most directly correlates with the nature of the assumption made in the question.",
+        "question": "Asking a question that includes an unproven assumption may lead to which of the following fallacies?",
+        "choices": [
+            "Appeal to ignorance",
+            "Extension",
+            "a priori",
+            "Complex question"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the quote to unpack Polonius's definition of madness, focusing on the relationship he establishes between madness and the inability to be anything other than mad, which emphasizes subjective interpretations of mental states.",
+        "instruction 2": "Consider the broader context of the play and how Polonius's remarks reflect themes of perception, reality, and the nature of sanity within the character dynamics and plot development in Hamlet.",
+        "question": "Polonius in William Shakespeare's Hamlet: \"Your noble son is mad: Mad call I it, for to define true madness, What is't but to be nothing else but mad?\"",
+        "choices": [
+            "Attacking the Person (ad hominem)",
+            "Equivocation",
+            "Begging the Question",
+            "Appeal to Pity"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the implications of 'space-available basis' in the context of hotel reservations, focusing on conditions under which a reservation may not be honored if the hotel reaches full capacity.",
+        "instruction 2": "Consider how this notice affects the customer's planning and what steps they might take to ensure their accommodation, such as confirming the reservation closer to the date or exploring alternative lodging options.",
+        "question": "Notice from the Hyatt Regency Hotel in New Orleans: We are pleased to confirm your reservation. It will be held on a space-available basis.",
+        "choices": [
+            "Equivocation",
+            "Affirming the Consequent",
+            "Gambler's Fallacy",
+            "Inconsistency"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the natural law fallacy by explaining its key elements, which include the assumption that what is 'natural' is inherently 'good' or 'right', and identify common examples or contexts where this fallacy may occur.",
+        "instruction 2": "Analyze the implications of the natural law fallacy in ethical discussions, such as how it can lead to misleading conclusions in moral reasoning or influence debates on social and legal issues.",
+        "question": "The natural law fallacy is",
+        "choices": [
+            "arguing that something is necessarily bad because it doesn't cost very much",
+            "substituting individual stories for a larger sample when supporting a generalization",
+            "arguing that what is true in nature must be true about humans",
+            "the same thing as the  post hoc  fallacy"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy being described, which involves substituting a restatement of the original claim for actual evidence or reasoning, and determine the name of that particular fallacy commonly associated with emotional appeal.",
+        "instruction 2": "Analyze how the use of emotionally charged language distracts from logical arguments, highlighting the importance of providing substantial support rather than relying on persuasive rhetoric that plays on emotions.",
+        "question": "If someone uses an emotionally charged restatement of a claim in place of support for the claim, that person may have committed which of the following fallacies?",
+        "choices": [
+            "Style over substance",
+            "Question begging epithets",
+            "Hypostatization",
+            "Amphiboly"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific fallacy that is being referenced, which typically involves reasoning that relies on the popularity of a belief as evidence for its truth, commonly known as the appeal to popularity or ad populum fallacy.",
+        "instruction 2": "Consider how this fallacy can impact critical thinking and argumentation, highlighting the importance of distinguishing between truth and consensus, and discussing examples where this fallacy may arise in public discourse.",
+        "question": "Arguing that a claim must be true merely because a substantial number of people believe it is called the fallacy of...",
+        "choices": [
+            "Tu quoque",
+            "Composition",
+            "Appeal to the masses",
+            "Appeal to reason"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy referred to by the term 'ad populum', clarifying the definition and context in which it is used in logical reasoning and argumentation.",
+        "instruction 2": "Examine examples of ad populum reasoning in arguments to understand how it appeals to the emotions or beliefs of the majority rather than relying on logical evidence, ensuring to highlight the implications of using this fallacy in debates.",
+        "question": "_Ad populum_. is another name for which fallacy?",
+        "choices": [
+            "poisoning the well",
+            "suppressed evidence",
+            "appeal to pride",
+            "appeal to the people"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the structure of a disjunctive syllogism, which consists of a major premise presenting a disjunction, a minor premise that negates one of the disjuncts, and a conclusion that affirms the other disjunct.",
+        "instruction 2": "Clarify the requirement that the minor premise must contain a negation of one of the alternatives presented in the major premise, leading to a logically valid conclusion based on this negation.",
+        "question": "In a valid disjunctive syllogism the minor premise must",
+        "choices": [
+            "accept one choice",
+            "reject all but one choice",
+            "either A or B",
+            "none of the above"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the appeal to spite fallacy clearly, emphasizing how it attempts to persuade by invoking feelings of spite or animosity towards an opposing argument or individual rather than presenting logical evidence or reasoning.",
+        "instruction 2": "Provide examples of situations where the appeal to spite fallacy might occur, illustrating how it diverts attention from the actual topic and undermines rational discourse by leveraging emotional responses.",
+        "question": "Which of the following describes the fallacy of appeal to spite?",
+        "choices": [
+            "responding to an argument with an expression of derision instead of a counter argument",
+            "arguing against a position based only on negative personal feelings toward the position",
+            "arguing someone should do something only because that person dislikes someone else",
+            "saying someone shouldn't do something because if he or she does it people won't like him or her"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the definition and characteristics of the ad hominem fallacy, focusing on how it involves attacking an opponent's character or traits instead of engaging with their argument or position.",
+        "instruction 2": "Explore the types of ad hominem fallacies, such as abusive ad hominem and circumstantial ad hominem, and understand how they differ from other logical fallacies to provide a comprehensive answer.",
+        "question": "_Ad hominem_ is another name for the fallacy of",
+        "choices": [
+            "appeal to loyalty",
+            "reducing to an absurdity",
+            "ignorance of refutation",
+            "argument against the person"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the fallacy of appeal to the person (ad hominem) clearly, emphasizing that it occurs when an argument is dismissed based on characteristics or actions of the person making the claim rather than addressing the claim itself.",
+        "instruction 2": "Provide examples of situations where this fallacy might be used, illustrating how it detracts from logical reasoning and critical thinking in discussions or debates.",
+        "question": "The fallacy of appeal to the person is rejecting a claim by...",
+        "choices": [
+            "Using rhetoric",
+            "Making false statements",
+            "Ignoring the person",
+            "Criticizing the person who makes it"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and define the term that represents a hasty conclusion, commonly known in logical reasoning as a specific type of fallacy, and explore related terminologies that share similar meanings or contexts.",
+        "instruction 2": "Consider the nuances of how the term is used in argumentation and critical thinking, and investigate any relevant examples or scenarios that illustrate the application of this concept in real-life reasoning.",
+        "question": "Another name for hasty conclusion is",
+        "choices": [
+            "hasty generalization",
+            "post hoc ergo prompter hoc",
+            "jumping to a conclusion",
+            "ad novitatem"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the definitions of capitalism and socialism as presented in the excerpt, focusing on their fundamental principles, particularly regarding ownership and profit motives, to ensure a clear understanding of each economic system's core characteristics.",
+        "instruction 2": "Consider the implications of the contrasting definitions on societal structure and economic outcomes, evaluating how each system addresses issues of resource allocation, labor distribution, and the potential benefits and drawbacks for members of society.",
+        "question": "John S. Knight, Detroit Free Press (3 July 1970): ...Capitalism is the economic system in which the means of production and distribution are privately owned and operated for profit. The alternative system is called socialism, the theory of the ownership and operation of the means of production by society, with all members sharing in the work and the products.",
+        "choices": [
+            "Begging the Question",
+            "False Dilemma",
+            "Straw Man",
+            "Appeal to Gallery (Provicialism)"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the fallacy of composition clearly, focusing on how it erroneously assumes that what is true for individual members of a group is also true for the group as a whole.",
+        "instruction 2": "Provide examples of the fallacy of composition in various contexts, illustrating how this logical error can arise in arguments involving groups, sets, or collections, and emphasize the importance of distinguishing between individual properties and collective properties.",
+        "question": "The fallacy of composition is",
+        "choices": [
+            "attributing the cause of an event to a simple cause when the cause is more complex",
+            "arguing that what is true of part of an object must be true of the entire object",
+            "drawing a conclusion without enough evidence to support that conclusion",
+            "drawing a conclusion based on sign reasoning when there is not really a direct relationship between the alleged sign and the subject of the conclusion"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the meaning of _Ad crumenam_ by researching its definition and usage in various contexts, ensuring to explain how it relates to its classifications or categories within linguistics or legal terminology.",
+        "instruction 2": "Identify the broader context or field where _Ad crumenam_ is most commonly applied, such as philosophy, law, or rhetoric, to provide a comprehensive understanding of its significance and implications.",
+        "question": "\" _Ad crumenam_ \" is a specific kind of",
+        "choices": [
+            "False analogy",
+            "Hasty Generalization",
+            "False sign",
+            "Hasty Conclusion"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific type of logical fallacy known as 'circular reasoning' or 'begging the question,' whereby the conclusion is just a rephrasing of one of the premises without providing additional support or evidence.",
+        "instruction 2": "Examine examples of circular reasoning to clarify how it operates within arguments, ensuring to differentiate it from other fallacies that might involve faulty logic.",
+        "question": "Which of the following fallacies happens when someone draws a conclusion that is simply a restatement of one of the premises?",
+        "choices": [
+            "Laudatory personality",
+            "Guilt by association",
+            "Accident",
+            "Begging the question"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the context provided in the statement to understand the specific problem or scenario being referenced, particularly focusing on what 'number 8' refers to and how the options relate to it.",
+        "instruction 2": "Evaluate and clarify the reasoning that links Heather's actions regarding the options and the fallacy of Composition, making sure to differentiate between personal opinions and established logical principles.",
+        "question": "I don't know what the answer is to number 8. But Heather hasn't made the third option into the correct answer for a while, and even then only once, so I'm guessing that this is the fallacy of Composition!",
+        "choices": [
+            "Gambler's Fallacy",
+            "Equivocation",
+            "Fallacy of Composition",
+            "Appeal to Pity"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific logical fallacy that arises from the lack of evidence and reliance on a negative assumption, focusing on how the argument dismisses potential significant effects without substantiation.",
+        "instruction 2": "Evaluate the broader context of the argument, considering common fallacies related to assumptions about significance and evidence, such as the appeal to ignorance or the burden of proof fallacy, to articulate the reasoning behind the conclusion.",
+        "question": "When someone argues that making a change will have no significant effect, but there is no evidence that the effect will not be significant, that person has committed which of the following fallacies?",
+        "choices": [
+            "poisoning the well",
+            "solid slope",
+            "appeal to tradition",
+            "argument from authority"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the definition of question begging epithets, ensuring to explain how it involves using emotionally charged language in a way that presupposes the truth of a contested claim, thereby affecting the argument's validity.",
+        "instruction 2": "Analyze examples of question begging epithets in context to illustrate how they manipulate opinion rather than provide logical reasoning, and distinguish them from other types of fallacies to highlight their unique characteristics.",
+        "question": "Which of the following best describes the fallacy of question begging epithets?",
+        "choices": [
+            "Treating something that exists in the mind as if it was a real object.",
+            "A form of loaded language that uses an emotionally charged restatement of the claim, often in the form of name calling, in place of support for the claim.",
+            "Changing the meaning of a word or phrase from one part of the argument to another.",
+            "Reasoning that ideas presented in an appealing manner are correct, regardless of the content of the message."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Explain the concept of the fallacy of appeal to pride, clarifying how it occurs when someone attempts to persuade by appealing to the audience's pride, often resulting in emotional manipulation rather than logical reasoning.",
+        "instruction 2": "Identify examples of the appeal to pride fallacy in arguments or statements, illustrating how it can be used to distract from the actual issue and lead to flawed conclusions based on the audience's desire to feel superior or esteemed.",
+        "question": "Which of the following describes he fallacy of appeal to pride?",
+        "choices": [
+            "arguing a claim should be accepted based only on evidence that unidentified authorities accept it.",
+            "arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.",
+            "arguing something should be done based only on evidence that it's been done that way in the past, or should be believed only because it's been believed for a long time.",
+            "arguing that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence for the lack of significant effects."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the structure of a syllogism and determine the criteria for validity, focusing on understanding how the premises relate to the conclusion and the rules of logical deduction that must be satisfied.",
+        "instruction 2": "Construct or analyze a specific example of a syllogism that violates these criteria, ensuring to clearly state the premises and the conclusion while demonstrating how the conclusion does not necessarily follow from the premises.",
+        "question": "A syllogism that is formally invalid",
+        "choices": [
+            "cannot be materially true",
+            "might be materially true",
+            "might be materially untrue",
+            "both B and C"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify common synonyms or alternative names for the fallacy of false dilemma, ensuring that the terminology accurately reflects the logical definition of the fallacy as it pertains to presenting limited options in an argument.",
+        "instruction 2": "Research the context in which the false dilemma fallacy is most frequently discussed to gain insight into how it is referenced in various fields such as philosophy, debate, and rhetoric, reinforcing the accuracy of the alternative name found.",
+        "question": "Another name for the fallacy of false dilemma is",
+        "choices": [
+            "Guilt by association",
+            "Circular reasoning",
+            "Laudatory personality",
+            "False dichotomy"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the type of fallacy being committed by analyzing the sarcastic response in terms of dismissiveness and a lack of engagement with the argument itself, which may indicate a reliance on a straw man fallacy or ad hominem attacks that avoid addressing the actual point.",
+        "instruction 2": "Examine the context and intention behind the sarcastic remark, evaluating how it undermines rational discourse by employing ridicule rather than providing a substantive counter-argument to the initial claim.",
+        "question": "When someone responds to your argument with a sarcastic statement such as, \"Yeah, right. Like that's ever going to happen,\" that person may have committed which fallacy?",
+        "choices": [
+            "appeal to indignation",
+            "appeal to spite",
+            "horse laugh",
+            "tu quoque"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the _post hoc_ fallacy by explaining its basic premise, which involves assuming that because one event follows another, the first event must have caused the second, thereby elucidating the logical error in this reasoning.",
+        "instruction 2": "Provide examples or scenarios that illustrate the _post hoc_ fallacy in action, helping to clarify how this fallacy manifests in arguments or reasoning, and how it can lead to incorrect conclusions.",
+        "question": "The _post hoc_ fallacy is",
+        "choices": [
+            "arguing that a single event caused another when the cause is really several events",
+            "arguing that since two things happened at the same time one must have caused the other",
+            "drawing a conclusion about a causal relationship when there is no evidence of a causal relationship",
+            "arguing that since one event preceded another event the first event must have caused the second event"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the definition of the fallacy of reprehensible personality by identifying its characteristics, including how it attributes an argument’s validity or invalidity to the character of the person making the claim rather than the argument itself.",
+        "instruction 2": "Examine examples of the fallacy of reprehensible personality in practice, illustrating how it contrasts with sound reasoning by demonstrating the error of dismissing arguments based solely on the perceived morality or character of the speaker.",
+        "question": "The fallacy of reprehensible personality is a specific type of",
+        "choices": [
+            "the fallacy of accident",
+            "False dilemma",
+            "Begging the question",
+            "Circular reasoning"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the term _a priori_ in the context of logic and philosophy, emphasizing its distinction from _a posteriori_ reasoning, which relies on empirical evidence rather than prior assumptions.",
+        "instruction 2": "Explore the specific nature of the _a priori_ fallacy by examining common instances where conclusions are drawn without sufficient evidence, and discuss its implications for sound argumentation and reasoning.",
+        "question": "_A priori_ is a fallacy that involves",
+        "choices": [
+            "asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.",
+            "arguing something is inferior just because it doesn't do something it was never intended to do.",
+            "arguing that a claim must be true because there is no evidence that it is false.",
+            "reasoning that determines the conclusion one wants first, then accepts only evidence supporting that conclusion, or interprets all evidence as support for that conclusion."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific fallacy described, focusing on the misrepresentation of the opposing arguer's position, which is known as a straw man fallacy, where one creates a distorted version of an argument to easily refute it.",
+        "instruction 2": "Analyze the broader context in which this fallacy is used, considering the implications of arguing against a position that was not actually held by the opponent and how this undermines the integrity of the debate.",
+        "question": "If you say an opposing arguer has taken a position that you can easily defeat, when he or she has not taken that position, then you go on to defeat that position and claim to have done significant damage to that arguer's overall argument, you are probably guilty of which of the following fallacies?",
+        "choices": [
+            "genetic fallacy",
+            "appeal to emotions",
+            "straw person",
+            "ignorance of refutation"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the logical structure involving the minor premise, specifically understanding how it functions in syllogisms, particularly in relation to the modus ponens and modus tollens arguments, which are key forms of deductive reasoning.",
+        "instruction 2": "Analyze how the given statement regarding the minor premise relates to the broader context of formal logic, determining its implications for evaluating the validity of both hypothetical syllogisms and categorical syllogisms.",
+        "question": "\"The minor premise must affirm the antecedent or deny the consequent\" is a way to determine the validity of which type of argument?",
+        "choices": [
+            "Categorical syllogism",
+            "Disjunctive syllogism",
+            "Hypothetical syllogism",
+            "Toulmin model"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific name of the fallacy associated with discrediting someone's action based on their perceived character or capabilities, ensuring to clarify the distinction between the individual's actions and their inherent nature.",
+        "instruction 2": "Examine the implications of this fallacy in logical reasoning, particularly how it undermines valid arguments by introducing an irrelevant character judgment instead of focusing solely on the actions taken.",
+        "question": "Arguing that someone couldn't have done something good because he is incapable of doing good commits the fallacy of",
+        "choices": [
+            "Begging the question",
+            "False dilemma",
+            "Accident",
+            "False dichotomy"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the complex proposition fallacy by explaining how it occurs when an argument includes a compound proposition that leads to confusion or misinterpretation, often by presenting the premises in such a way that they appear to imply a conclusion that they do not logically support.",
+        "instruction 2": "Examine examples of complex proposition fallacies to illustrate how they can mislead reasoning and affect the validity of conclusions drawn from premises, ensuring to clarify the distinctions between valid compound propositions and those that fall into this fallacy.",
+        "question": "The complex proposition fallacy involves",
+        "choices": [
+            "including more than one claim in the proposition and treating proof for one claim as proof for all the claims.",
+            "asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.",
+            "arguing that a claim must be true because there is no evidence that it is false.",
+            "arguing something is inferior just because it doesn't do something it was never intended to do."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define anecdotal evidence by distinguishing it from other forms of evidence, emphasizing its nature as personal accounts or individual testimonies that lack rigorous scientific validation.",
+        "instruction 2": "Explore the implications of relying on anecdotal evidence in reasoning or decision-making processes, including its role in influencing public perception and the risks associated with generalizing from limited or non-representative samples.",
+        "question": "Anecdotal evidence is a specific kind of",
+        "choices": [
+            "False sign",
+            "False criteria",
+            "False cause",
+            "Hasty Generalization"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify common types of fallacies that can influence human reasoning and decision-making, noting their psychological appeal despite lacking logical validity.",
+        "instruction 2": "Analyze the impact of emotional and cognitive biases on the effectiveness of fallacies in communication, reinforcing how they can mislead audiences regardless of their flawed reasoning.",
+        "question": "Fallacies can be psychologically persuasive even though they are...",
+        "choices": [
+            "Psychologically impotent",
+            "Logically flawed",
+            "Deductively valid",
+            "Inductively valid"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the fallacy being described, which relates to the unequal treatment of similar actions by opposing parties, and clearly define it in terms of its characteristics and implications for argumentation.",
+        "instruction 2": "Explore the broader context of this fallacy, such as how it affects the perception of bias in arguments and the importance of consistent language in ethical debate, to underscore its significance in rhetorical discussions.",
+        "question": "Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms describes which of the following fallacies?",
+        "choices": [
+            "Ambiguity",
+            "Special pleading",
+            "Reification",
+            "Hypostatization"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the concept of the fallacy of ignorance of refutation, focusing on the definition and key characteristics that differentiate it from other logical fallacies, such as asserting that a claim is true simply because it has not been proven false.",
+        "instruction 2": "Evaluate the provided explanations by comparing how well each aligns with the fundamental principles of this fallacy, ensuring to identify any specific elements that exemplify misunderstanding or misapplication of the notion of refutation.",
+        "question": "Which of the following explanations best fits the fallacy of ignorance of refutation?",
+        "choices": [
+            "asserting an argumentative opponent has taken an easily defeated position, which the opponent has not really taken, defeating the position, and acting as if you've done significant damage to that person's overall argument.",
+            "causing confusion during refutation because of a real or feigned lack of the ability to engage in refutation",
+            "characterizing an opposing argument in such a way to make it or its consequences appear to be ridiculous",
+            "arguing an action should be taken based only on the need to be loyal to someone or to a group"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and define the fallacy of reducing to an absurdity, also known as the reductio ad absurdum, emphasizing its role in argumentation and logical discourse.",
+        "instruction 2": "Consider synonyms or alternative terms that are commonly used in philosophical and rhetorical contexts to refer to this particular logical fallacy, verifying their usage and relevance in discussions of reasoning.",
+        "question": "Another name for the fallacy of reducing to an absurdity is",
+        "choices": [
+            "tu quoque",
+            "ad baculum",
+            "ad hominem",
+            "reductio ad absurdum"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the formal term used to describe the fallacy of complex questions, which often involves posing a question that contains a presumption that may not be true, thus challenging the respondent's ability to answer without addressing the underlying assumption.",
+        "instruction 2": "Research the distinctions between the fallacy of complex questions and other related fallacies, ensuring to highlight how this fallacy is categorized within logical fallacies and its implications in argumentation.",
+        "question": "Another name for the fallacy of complex question is",
+        "choices": [
+            "Fallacy of interrogation",
+            "Compound proposition",
+            "Appeal to ignorance",
+            "Extension"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the 'appeal to joy' fallacy by identifying its structure and characteristics, focusing on how it may incorrectly link an emotional response of joy to the validity of an argument or proposition, rather than relying on logical reasoning.",
+        "instruction 2": "Examine examples of the appeal to joy fallacy in various contexts, analyzing how it manifests in arguments or discussions, and contrasting it with sound reasoning to highlight potential pitfalls in its use.",
+        "question": "The appeal to joy fallacy involves",
+        "choices": [
+            "arguing that someone should do something based only on the assertion that it will make him or her feel happier",
+            "causing confusion during refutation because of a lack of ability to engage in refutation",
+            "arguing for a conclusion based only on feeling sorry for someone when that feeling is irrelevant to the conclusion",
+            "arguing someone should do something only because other people will like him or her for doing it"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and define the fallacy of accident, ensuring to understand how it applies to generalizations that do not account for exceptions, which leads to misinterpretations or erroneous conclusions.",
+        "instruction 2": "Research and specify the alternate terminologies or names that are commonly used to refer to the fallacy of accident, including how these terms relate to the principles of logic and reasoning.",
+        "question": "Another name for the fallacy of accident is",
+        "choices": [
+            "Laudatory personality",
+            "Guilt by association",
+            "Either-or fallacy",
+            "Dicto simpliciter"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the concept of the fallacy of evading the issue, ensuring to highlight its characteristics, such as shifting the focus away from the argument at hand to avoid directly addressing the original question or point of contention.",
+        "instruction 2": "Provide examples of how this fallacy manifests in arguments or discussions, contrasting it with other logical fallacies to clarify its unique nature and implications in reasoning.",
+        "question": "Which of the following describes the fallacy of evading the issue?",
+        "choices": [
+            "arguing that someone should do something only because of ill will towards someone else",
+            "characterizing an opponent's position in a way that makes it seem ridiculous",
+            "supporting a claim with evidence or reasoning that is not relevant to the proposition, or responding to another's argument by changing the subject",
+            "attempting to gain agreement based only on the feelings aroused in the message"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify specific logical fallacies that arise from including multiple claims within a single proposition, such as 'begging the question' or 'complex question', which can obscure or mislead the argument being made.",
+        "instruction 2": "Examine how the complexity introduced by having more than one claim can cause confusion in reasoning, leading to difficulties in assessing the validity of each individual claim or the overall proposition.",
+        "question": "Including more than one claim in a proposition may lead to which of the following fallacies?",
+        "choices": [
+            "Complex question",
+            "Appeal to ignorance",
+            "Compound proposition",
+            "Extension"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy being referred to in the question, which is the appeal to the good qualities of a person to negate the possibility of wrongdoing, and provide a clear definition of it.",
+        "instruction 2": "Analyze the logical structure of the argument and illustrate how this fallacy operates by providing examples or scenarios where good qualities are erroneously used to dismiss accusations or misdeeds.",
+        "question": "Which of the following fallacies happens when someone concludes that someone couldn't have done something bad because he or she has good qualities?",
+        "choices": [
+            "Laudatory personality",
+            "Guilt by association",
+            "Reprehensible personality",
+            "Circular reasoning"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the fallacy of appeal to popularity (also known as the bandwagon fallacy) by explaining it as the argument that a proposition is true simply because many people believe it to be true, highlighting the key characteristic of relying on popularity rather than evidence.",
+        "instruction 2": "Provide examples that illustrate the fallacy of appeal to popularity in different contexts to demonstrate how this reasoning fails to establish the validity of an argument, thereby reinforcing the distinction between popular belief and actual truth.",
+        "question": "Which of the following describes the fallacy of appeal to popularity?",
+        "choices": [
+            "saying someone should do something because he or she dislikes someone else",
+            "saying someone should do something to be better liked by others",
+            "saying someone should do something because it will make him or her feel good",
+            "saying someone should accept an idea because of the source of the idea"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific fallacy associated with the belief that the alternatives provided are mutually exclusive, focusing on the nature of false dilemmas and the impact of overlooking other viable options that may exist.",
+        "instruction 2": "Clarify the concept of non-mutually exclusive alternatives, ensuring to explain how the lack of recognition of these alternatives can lead to flawed reasoning in arguments, often resulting in an oversimplified view of complex issues.",
+        "question": "Which fallacy happens because of a failure to recognize the alternatives presented are not mutually exclusive?",
+        "choices": [
+            "Begging the Question",
+            "Accident",
+            "Circular reasoning",
+            "False dilemma"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the structure of a conditional syllogism, focusing specifically on identifying the antecedent and consequent in the statements, and understand the implications of denying the antecedent in the minor premise.",
+        "instruction 2": "Explore the logical consequences of denying the antecedent, applying relevant logical rules to determine whether this leads to a valid conclusion or if it results in a fallacy, such as the fallacy of denying the antecedent.",
+        "question": "In a conditional syllogism, when the minor premise denies the antecedent",
+        "choices": [
+            "no valid conclusion can be drawn",
+            "the conclusion must affirm the consequent",
+            "the conclusion must deny the consequent",
+            "the conclusion must affirm the antecedent"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Interpret the Dean's response to determine if the fraction 'one in a hundred' refers to the overall student population or a specific subgroup, and consider how this might imply the total number of students by contextualizing it relative to a likely larger base number.",
+        "instruction 2": "Assess the context of the conversation for any implicit information about the campus size, such as known enrollment figures or general knowledge about similar institutions, to refine the estimate of how many students are represented by 'about one in a hundred.'",
+        "question": "The Dean was showing a visitor around the campus. The visitor asked, \"About how many students do you have here?\" After a moment of reflection the Dean replied, \"Oh, I'd guess about one in a hundred.\"",
+        "choices": [
+            "Equivocation",
+            "Fallacy of Division",
+            "Appeal to Authority",
+            "Denying the Antecedent"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the anonymous authority fallacy by explaining its key characteristics, including the reliance on unnamed or unspecified sources to support an argument without providing evidence of credibility or expertise.",
+        "instruction 2": "Provide examples of situations where this fallacy may occur, illustrating how it detracts from logical reasoning and can lead to misinformation due to the lack of verifiable sources.",
+        "question": "The appeal to anonymous authority fallacy consists of",
+        "choices": [
+            "reasoning that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence there will be no consequences.",
+            "arguing that a claim should be accepted based on the evidence that a large number of people accept it",
+            "arguing that something should be done because it has been done in the past",
+            "arguing a claim should be accepted based only on the assertion that unidentified authorities accept it"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the concept of a hasty generalization as it pertains to logical fallacies, emphasizing that it involves drawing a broad conclusion based on a limited or insufficient sample size.",
+        "instruction 2": "Provide examples of hasty generalizations, illustrating how they can lead to erroneous conclusions in reasoning, and contrast them with sound reasoning practices that utilize adequate evidence.",
+        "question": "A hasty generalization is a fallacy of...",
+        "choices": [
+            "Acceptable premises",
+            "Unacceptable premises",
+            "Deduction",
+            "Acceptable but untrue premises"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the definition of the fallacy of figure of speech by exploring how it involves misinterpretation or misuse of figurative language, and how this can lead to logical errors in reasoning.",
+        "instruction 2": "Differentiate this fallacy from other types of fallacies by examining examples that illustrate how a figure of speech might be incorrectly applied or understood, misrepresenting the intended meaning or logic behind an argument.",
+        "question": "Which of the following best describes the fallacy of figure of speech?",
+        "choices": [
+            "Using emotionally charged language to create an impression about the subject of a claim, without making an argument that the language fits the subject.",
+            "Treating something that exists in the mind as if it was a real object.",
+            "Confusing figurative language with literal language.",
+            "A form of loaded language that uses an emotionally charged restatement of the claim in place of support for the claim."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the fallacy of extension by examining how it involves mistakenly assuming that what is true of a part or member of a group is also true of the whole group or other members.",
+        "instruction 2": "Provide examples or contexts where the fallacy of extension may occur, clarifying its implications in logical reasoning and the importance of distinguishing between individual cases and broader generalizations.",
+        "question": "The fallacy of extension consists of",
+        "choices": [
+            "asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.",
+            "arguing something is flawed because it doesn't do what it was never intended to do.",
+            "arguing about something when you don't know what you're talking about",
+            "including more than one claim in the proposition and treating proof for one claim as proof for all the claims."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific logical fallacy being referenced, particularly focusing on the reasoning structure that assumes a lack of evidence against a claim as a basis for its truth, such as the appeal to ignorance fallacy (argumentum ad ignorantiam).",
+        "instruction 2": "Analyze the implications of this fallacy in arguments, considering how it misrepresents the burden of proof and why the absence of evidence does not equate to proof of validity for a claim.",
+        "question": "Arguing that a claim must be true because there is no evidence that it is false is which of the following fallacies?",
+        "choices": [
+            "a priori",
+            "Extension",
+            "Appeal to ignorance",
+            "plurium interrogationum"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of 'appeal to common practice' by examining how this fallacy occurs when a claim is deemed valid simply because it is commonly accepted or practiced by a majority, rather than based on logical reasoning or evidence.",
+        "instruction 2": "Provide examples that illustrate the fallacy in action, showcasing scenarios where an argument relies on popularity or normalcy rather than sound reasoning, thereby clarifying the distinction between appeal to common practice and valid arguments.",
+        "question": "Which of the following describes the fallacy of appeal to common practice?",
+        "choices": [
+            "eliminating a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source",
+            "reasoning that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence there will be no consequences",
+            "drawing a conclusion after purposely leaving out evidence or ignoring known evidence that might contradict a claim",
+            "arguing that something is the right thing to do based only on evidence that other people are already doing it."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify linguistic terms or phrases that are synonymous with 'evading the issue', such as 'dodge the question' or 'avoid addressing the topic', and assess their contextual usage in discussions or arguments.",
+        "instruction 2": "Evaluate the implications of these synonymous terms in the context of communication, focusing on their relevance in the discourse of logical fallacies or debate techniques where direct engagement with the issue is sidestepped.",
+        "question": "Which of the following is another name for evading the issue?",
+        "choices": [
+            "\"you too\" fallacy",
+            "irrelevant conclusion",
+            "appeal to fear",
+            "argument against the person"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the underlying assumptions in the statement regarding intelligence and success, particularly examining the belief that college attendance is solely determined by intelligence and does not consider other skills, motivations, or societal factors that contribute to a person's ability to succeed in college and beyond.",
+        "instruction 2": "Explore the broader context of education, including the diverse reasons individuals may pursue college, such as personal growth, career aspirations, social expectations, and the value of education beyond mere intelligence, to understand the complexity of the college experience and the varied definitions of success.",
+        "question": "I don't understand why everyone thinks they belong in college. After all, everyone knows that when you are intelligent you'll succeed. But so many people that elect to attend college don't have even the most basic intelligence. How do they expect to get anywhere here?",
+        "choices": [
+            "Attacking the Person (ad hominem)",
+            "Straw Man",
+            "Denying the Antecedent",
+            "Begging the Question"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy that occurs when abstract or imaginary concepts are treated as if they possess physical, tangible characteristics. This may involve examining common logical fallacies to determine the correct term that fits this description.",
+        "instruction 2": "Analyze the implications of committing this fallacy in reasoning and argumentation, considering how it can lead to misunderstandings or misinterpretations of concepts that do not have a physical existence.",
+        "question": "When someone treats an imaginary concept as if it was something tangible that person might commit the fallacy of",
+        "choices": [
+            "Question begging epithets",
+            "Misusing ambiguity",
+            "Hypostatization",
+            "Amphiboly"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify synonymous terms related to logical fallacies, specifically focusing on hasty generalization and its alternative names, such as 'sweeping generalization' or 'fallacy of insufficient statistics'.",
+        "instruction 2": "Consider the context in which hasty generalization arises, examining how its alternative names may reflect different emphases on the flaws inherent in making broad conclusions from limited evidence.",
+        "question": "Another name for hasty generalization is",
+        "choices": [
+            "false criteria",
+            "secundum quid",
+            "anecdotal evidence",
+            "ad crumenam"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific fallacy that occurs when an arguer uses threats or intimidation to coerce agreement, commonly known as the appeal to force or argumentum ad baculum.",
+        "instruction 2": "Consider the implications of this fallacy in the context of logical reasoning and debate, evaluating how it undermines rational discourse by prioritizing coercion over genuine argumentation.",
+        "question": "An arguer who threatens another to gain agreement commits the fallacy of",
+        "choices": [
+            "appeal to force",
+            "tu quoque",
+            "ignorance of refutation",
+            "straw person"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and classify the type of syllogism that utilizes a major premise structured as 'All A's are B', noting that this format indicates a universal affirmative proposition that leads to conclusions based on categorical logic.",
+        "instruction 2": "Examine the implications of this major premise within the context of categorical syllogisms, including which specific syllogistic forms, like the Barbara syllogism, correlate with this structure and how conclusions are drawn from the premises.",
+        "question": "Which type of syllogism's major premise takes the form, \"All A's are B\"?",
+        "choices": [
+            "categorical",
+            "disjunctive",
+            "conditional",
+            "hypothetical"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific type of fallacy being discussed, known as a false dilemma or false dichotomy, by defining it and analyzing how it limits the perception of available choices to a narrow set.",
+        "instruction 2": "Provide examples or scenarios where this fallacy may occur in arguments, illustrating how the fallacy misrepresents the number of options and the implications of overlooking additional alternatives.",
+        "question": "Which of the following fallacies happens when someone argues that a choice must be made among a certain set of alternatives, when there are really other alternatives to choose from?",
+        "choices": [
+            "Laudatory personality",
+            "Accident",
+            "False dilemma",
+            "Circular reasoning"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy that is being referred to, which is commonly known as the 'appeal to authority' or 'argumentum ad verecundiam', where one believes the argument's strength is derived from the speaker's eloquence rather than the argument's actual substance or evidence.",
+        "instruction 2": "Examine how the persuasive techniques, such as language and delivery, can create a cognitive bias that leads to the fallacy, contrasting it with the importance of evaluating arguments on their logical merits and factual basis instead of the presenter's style.",
+        "question": "If you think that someone's argument is strong based on their compelling use of language and confident delivery, you've probably committed which fallacy?",
+        "choices": [
+            "Amphiboly",
+            "Equivocation",
+            "Special pleading",
+            "Style over substance"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the fallacy of appeal to indignation, focusing on how it involves invoking emotional responses such as anger or outrage to persuade others, rather than relying on logical reasoning or evidence.",
+        "instruction 2": "Examine examples or scenarios where this fallacy may occur, highlighting how it contrasts with valid argumentation by demonstrating the reliance on emotional appeals instead of factual information.",
+        "question": "Which of the following describes the fallacy of appeal to indignation?",
+        "choices": [
+            "attacking the character or background of someone making an argument instead of his or her evidence and reasoning",
+            "responding to charges of wrongdoing by saying other people do the same thing",
+            "arguing against a position only based on personal feelings toward the position",
+            "responding to an argument with an expression of derision instead of a counter argument"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy associated with evading the burden of proof, focusing on the characteristics that define this logical fallacy and how it manifests in arguments.",
+        "instruction 2": "Examine how this fallacy relates to the broader context of debating or argumentative discourse, considering the implications of shifting the burden of proof onto the opponent instead of providing evidence for one's own claims.",
+        "question": "Evading burden of proof is another name for the fallacy of",
+        "choices": [
+            "Extension",
+            "Appeal to ignorance",
+            "Complex question",
+            "Complex proposition"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the structure of a hypothetical syllogism, specifically identifying the roles of the major premise, the minor premise, and the conclusion in relation to affirming the antecedent, ensuring to define key terms such as 'antecedent' and 'consequent.'",
+        "instruction 2": "Analyze how affirming the antecedent in the minor premise leads to a valid conclusion, and differentiate this from other forms of reasoning, such as denying the antecedent, to highlight the validity of the argument.",
+        "question": "In a hypothetical syllogism, when the minor premise affirms the antecedent",
+        "choices": [
+            "no valid conclusion can be drawn",
+            "the conclusion must affirm the consequent",
+            "the conclusion must deny the consequent",
+            "the conclusion must deny the antecedent"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the philosophical implications of Maimonides' statement regarding creation ex nihilo (out of nothing) and the relationship between God, beings, and time, focusing on the concepts of independence and interdependence.",
+        "instruction 2": "Evaluate how Maimonides perceives the mechanics of motion and time in the context of creation, specifically how these concepts interact with the existence of entities and the overarching divine will.",
+        "question": "Moses Maimonides, \"The Guide of the Perplexed\": God, may He be exalted ... existed alone, and nothing else. ...Afterwards, through His will and His volition, He brought into existence out of nothing all the beings as they are, time itself being one of the created things. For time is consequent upon motion, and motion is an accident of what is moved. Furthermore, what is moved...is itself created in time ....",
+        "choices": [
+            "Equivocation",
+            "Appeal to Authority",
+            "Inconsisteny",
+            "Slippery Slope"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the concept of happiness as defined by John Stuart Mill, focusing on the relationship between individual happiness and collective well-being, and how this reflects utilitarian principles.",
+        "instruction 2": "Examine the implications of Mill's statement regarding the balance between personal and general happiness, considering how this philosophy guides ethical decision-making and social policies aimed at promoting the greatest good for the greatest number.",
+        "question": "John Stuart Mill: Each person's happiness is a good to that person, and the general happiness, therefore, a good to the aggregate of all persons.",
+        "choices": [
+            "Fallacy of Composition",
+            "Fallacy of Division",
+            "Gambler's Fallacy",
+            "Equivocation"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the context in which the term '_Circulus in probando_' is typically used, specifically focusing on its application in logical reasoning, legal contexts, or philosophy, to clarify its meaning and implications.",
+        "instruction 2": "Research synonyms or alternative terms that are associated with '_Circulus in probando_', including their definitions and how they relate to circular reasoning or argumentation, to provide a comprehensive answer.",
+        "question": "_Circulus in probando_ is another name for",
+        "choices": [
+            "The fallacy of accident",
+            "False dilemma",
+            "Begging the question",
+            "Guilt by association"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the fallacy associated with evaluating an idea based solely on its source rather than the merits of the idea itself, ensuring to define the specific fallacy known as 'ad hominem' or another related fallacy that applies.",
+        "instruction 2": "Consider the implications of this fallacy in logical reasoning and discourse, including how it can undermine rational argumentation and lead to flawed conclusions by dismissing valid ideas solely due to their origin.",
+        "question": "Arguing that an idea should be accepted or rejected only because of the source of the idea commits which of the following fallacies?",
+        "choices": [
+            "genetic fallacy",
+            "appeal to popularity",
+            "scare tactics",
+            "appeal to emotions"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the reasoning presented in the argument, identifying the logical fallacies such as hasty generalization and appealing to authority, as the author assumes that a positive statement about the class directly negates the possibility of individual failures.",
+        "instruction 2": "Evaluate the implications of grade distribution and academic standards, considering that the professor's opinion about the class as a whole does not necessarily reflect the performance of each individual student, which can help clarify the distinction between collective and individual assessments.",
+        "question": "At the end of the course, Professor Jones told us that we were the best class he had ever had. That's why I'm sure that the 0.0 the appeared on my grade report is a mistake. Surely, if we were as good a class as Professor Jones said we were, none of us deserved to fail.",
+        "choices": [
+            "Fallacy of Composition",
+            "Fallacy of Division",
+            "Questionable Cause",
+            "Appeal to Gallery (Provicialism)"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the definition of the fallacy of equivocation by identifying how it involves using ambiguous language or terms with multiple meanings in an argument, leading to a misleading or erroneous conclusion.",
+        "instruction 2": "Provide examples of equivocation in arguments to illustrate how the fallacy operates, ensuring to differentiate it from other types of logical fallacies to emphasize its unique characteristics.",
+        "question": "Which of the following best describes the fallacy of equivocation?",
+        "choices": [
+            "A form of loaded language that uses an emotionally charged restatement of the claim in place of support for the claim.",
+            "Changing the meaning of a word or phrase from one part of the argument to another.",
+            "Confusing figurative language with literal language.",
+            "Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the appeal to emotion fallacy by outlining its key characteristics, such as the use of emotional manipulation instead of logical reasoning in arguments, and explain why this undermines sound argumentation.",
+        "instruction 2": "Provide examples of the appeal to emotions fallacy, illustrating how it can manifest in different contexts, and discuss its potential effects on audience perception and decision-making.",
+        "question": "The fallacy of appeal to emotions consists of",
+        "choices": [
+            "trying to make an opponent's argument seem ridiculous",
+            "defending wrongdoing by claiming the opposing arguer does the same thing",
+            "arguing that an argument should be rejected because the source of the argument",
+            "trying to get someone else to agree to a claim only by arousing that person's feelings about the subject"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the logical framework or argument structure being discussed, specifically focusing on the terms 'minor premise', 'antecedent', and 'consequent' to clarify how they relate within the context of syllogistic reasoning.",
+        "instruction 2": "Analyze the implications of the requirement stated in the question, determining how this condition affects the validity of the logical argument and connects to broader principles in formal logic.",
+        "question": "\"To be valid, the minor premise must either agree with the antecedent, or disagree with the consequent\" is a requirement for",
+        "choices": [
+            "a disjunctive syllogism",
+            "a categorical syllogism",
+            "a conditional syllogism",
+            "disjunctive enthymeme"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy being discussed, which involves dismissing someone's positive actions based on their negative traits, often referred to as 'ad hominem' or more specifically an 'ad hominem circumstantial' fallacy.",
+        "instruction 2": "Analyze how this fallacy undermines logical reasoning by focusing on personal characteristics rather than the merits of the action in question, and provide examples to illustrate this misuse of logical argumentation.",
+        "question": "Which of the following fallacies happens when someone concludes that someone couldn't have done something good because he or she has negative qualities?",
+        "choices": [
+            "Laudatory personality",
+            "Guilt by association",
+            "Reprehensible personality",
+            "Circular reasoning"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research alternative names or terms used in rhetoric that describe the bandwagon appeal, which refers to the persuasive technique that suggests one should do something because many others are doing it.",
+        "instruction 2": "Consider the context in which the bandwagon appeal is typically used, such as marketing or political campaigns, and how these contexts might influence the terminology used to describe it.",
+        "question": "Another name for the bandwagon appeal is",
+        "choices": [
+            "appeal to beliefs",
+            "appeal to authority",
+            "appeal to the people",
+            "common man appeal"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the structure of a valid disjunctive syllogism, highlighting its essential components: one disjunction (A or B), and one negation (not A), leading to the conclusion (therefore B).",
+        "instruction 2": "Evaluate examples of disjunctive syllogisms to ensure the understanding of how the logical flow operates, emphasizing that for the syllogism to be valid, the premises must clearly allow for the conclusion to be drawn without ambiguity.",
+        "question": "A valid disjunctive syllogism has which of the following characteristics?",
+        "choices": [
+            "The minor premise must either affirm the antecedent or deny the consequent",
+            "The minor premise must either accept an alternative or reject an alternative",
+            "One of the premises is missing",
+            "It reaches a truthful conclusion"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific fallacy that is synonymous with 'appeal to beliefs,' focusing on its definition in the context of logical reasoning and argumentation.",
+        "instruction 2": "Analyze how this fallacy operates within arguments, particularly looking at how it appeals to the audience's pre-existing beliefs or emotions rather than logical evidence, and ensure to provide any alternative names or related fallacies in the explanation.",
+        "question": "Appeal to beliefs is another name for which of the following fallacies?",
+        "choices": [
+            "ad nauseam",
+            "appeal to tradition",
+            "solid slope",
+            "self evident truths"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific fallacy associated with relying on unnamed or unidentified experts to support a claim, commonly known as the 'appeal to authority' fallacy, and explain how this undermines the argument's validity.",
+        "instruction 2": "Examine the implications of this fallacy in the context of critical thinking and argumentation, emphasizing the importance of providing credible sources and evidence rather than vague references to authority.",
+        "question": "When a claim is supported only by asserting that unidentified experts accept the claim the arguer has committed which of the following fallacies?",
+        "choices": [
+            "appeal to tradition",
+            "ad vericundiam",
+            "appeal to anonymous authority",
+            "snob appeal"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the various informal logical fallacies that may be synonymous with the black-or-white fallacy, ensuring to explore their definitions and contexts of usage to establish clear alternatives.",
+        "instruction 2": "Contextualize the black-or-white fallacy within the broader spectrum of logical reasoning, analyzing how it simplifies complex issues into two extremes and note any common scenarios in which this fallacy is often employed.",
+        "question": "The black-or-white fallacy is another name for",
+        "choices": [
+            "The fallacy of accident",
+            "False dilemma",
+            "Begging the question",
+            "Circular reasoning"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the false sign fallacy by explaining its general concept and how it misleads reasoning, often by incorrectly inferring a relationship or causation from correlation in signs or indicators.",
+        "instruction 2": "Provide examples of the false sign fallacy in various contexts, illustrating how the fallacy operates and emphasizing its implications for logical reasoning and argumentation.",
+        "question": "The false sign fallacy is",
+        "choices": [
+            "arguing that what is true of part of an object is necessarily true of the entire object",
+            "arguing that two things are similar enough that what is true of one is true of the other",
+            "arguing that since something is inexpensive it is necessarily of low quality",
+            "reasoning by sign when there is really not a direct relationship between the alleged sign and the subject of the argument"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the meaning and context of the phrase 'Ad novitatem', considering its origins and its relevance in philosophical or literary discussions to provide a thorough definition.",
+        "instruction 2": "Analyze how 'Ad novitatem' fits within broader themes, such as innovation or change, and explore its implications or use in contemporary discourse, ensuring to reference potential applications or interpretations.",
+        "question": "\" _Ad novitatem_ \" is",
+        "choices": [
+            "arguing that what is true of a few members of a class is true of all members of the class",
+            "drawing a conclusion by applying irrelevant criteria to a subject",
+            "substituting individual stories for a larger sample as support for a claim",
+            "arguing that something must be good because it is new, or must be bad because it is old"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the nature of the fallacies that involve irrelevant information and identify examples of such fallacies, such as 'red herring' or 'non sequitur', to discern which best fits the provided scenario.",
+        "instruction 2": "Analyze the relationship between the proposition and the supporting information to determine how the lack of relevance contributes to the validity of the argument, ensuring a clear understanding of how fallacious reasoning undermines logical discourse.",
+        "question": "When someone tries to support a proposition with information that really has nothing to do with the claim being made, that person has probably committed which of the following fallacies?",
+        "choices": [
+            "straw person",
+            "genetic fallacy",
+            "irrelevant conclusion",
+            "ignoratio elenchi"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy that occurs when irrelevant standards are applied to justify or critique an argument, often focusing on how this deviation from relevant criteria undermines the integrity of the argument.",
+        "instruction 2": "Consider examples of this fallacy in practice, analyzing how it manifests in debates or discussions, and clarify the implications of using inappropriate standards in evaluating the argument's validity.",
+        "question": "Applying irrelevant standards to the subject of the argument is the fallacy of",
+        "choices": [
+            "ad crumenam",
+            "ad antiquitatem",
+            "false criteria",
+            "hasty generalization"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy in question by analyzing the argument's structure, particularly focusing on the incorrect expectation placed upon the argument where it is criticized for not fulfilling a purpose it was not designed to address.",
+        "instruction 2": "Clarify the implications of this fallacy, ensuring to illustrate how this misinterpretation detracts from logical reasoning and establishes a false basis for criticism.",
+        "question": "If you argued something is flawed because it fails to do something, when it was never intended to do that, you may have committed which of the following fallacies?",
+        "choices": [
+            "ad ignorantium",
+            "Many questions",
+            "Extension",
+            "Compound proposition"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine the context and standard use of the phrase \"_Ad antiquitatem_\" in various fields, such as law, philosophy, or historical analysis, in order to provide a comprehensive understanding of its significance and application.",
+        "instruction 2": "Explore the historical origins and meanings associated with \"_Ad antiquitatem_\", including its etymology and how it relates to arguments or theories that appeal to long-standing traditions or historical precedent.",
+        "question": "\" _Ad antiquitatem_ \" is",
+        "choices": [
+            "a specific type of false cause fallacy that argues that since two event happened at the same time one event must have caused the other",
+            "a specific type of false sign fallacy that reasons something is necessarily better because it is old, or is worse because it is new",
+            "a specific type of false sign fallacy that reasons something is necessarily better because it is new, or is worse because it is old",
+            "arguing that what is true of an individual part of an object must be true of the entire object"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the context in which the phrase 'Ad crumenam' is used, identifying whether it references a specific literary, historical, or cultural origin, to provide a comprehensive understanding of its meaning.",
+        "instruction 2": "Explore the translation and implications of 'Ad crumenam' in relation to common phrases or concepts, ensuring to clarify any nuances that might be significant for understanding its use.",
+        "question": "\" _Ad crumenam_ \" is",
+        "choices": [
+            "basing a conclusion on an analogy when the items being compared are not similar enough to sustain the analogy",
+            "a specific type of false sign fallacy that reasons someone is necessarily better because he or she is wealthy, or is worse because he or she is poor",
+            "drawing a firm conclusion without enough evidence to support that conclusion",
+            "a specific type of false cause that involves mistakenly attributing the cause of an event to a simple cause when the cause is more complex"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the fallacy of laudatory personality by explaining its meaning in the context of logical reasoning, particularly how it involves attributing positive traits to an individual based on their personality rather than their actions or arguments.",
+        "instruction 2": "Explore examples of the laudatory personality fallacy in discussions or debates to illustrate how it can manifest, and assess its implications for critical thinking and argumentation.",
+        "question": "The fallacy of laudatory personality is a specific type of",
+        "choices": [
+            "The fallacy of accident",
+            "False dilemma",
+            "Begging the question",
+            "Circular reasoning"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the concept of the appeal to ignorance fallacy, highlighting its reliance on the absence of evidence as justification for a claim, and clarify how it differs from valid reasoning.",
+        "instruction 2": "Provide examples that illustrate the appeal to ignorance fallacy in various contexts, ensuring to outline the implications of making conclusions based solely on a lack of evidence.",
+        "question": "Appeal to ignorance is a fallacy that involves",
+        "choices": [
+            "determining the conclusion one wants first, then accepting only evidence supporting that conclusion, or interpreting all evidence as support for that conclusion.",
+            "arguing something is inferior just because it doesn't do something it was never intended to do.",
+            "arguing that a claim must be true because there is no evidence that it is false.",
+            "arguing about something when you are ignorant about the subject"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the context within which the statements are provided by identifying the overarching theme or subject matter to which the statements relate, ensuring a comprehensive understanding of the content and significance of each statement.",
+        "instruction 2": "Evaluate each statement individually for its truthfulness based on factual accuracy or logical consistency, while considering any assumptions or common misconceptions that may influence the interpretation of the statements.",
+        "question": "Which of the following statements is **not** true?",
+        "choices": [
+            "A formally valid syllogism may be materially untrue",
+            "A formally valid syllogism must be materially true",
+            "A materially true conclusion may arise from a formally valid syllogism",
+            "The formal validity of a syllogism does not guarantee it is materially true"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific type of logical argument being referenced, paying attention to terms such as 'antecedent' and 'consequent' which are integral to deductive reasoning frameworks, particularly focusing on understanding syllogisms.",
+        "instruction 2": "Analyze how the structure of the argument operates according to formal logic principles, considering the role of the minor premise within the overall validity of the argument type in question.",
+        "question": "\"The minor premise must affirm the antecedent or deny the consequent\" is a validity requirement of which type of argument?",
+        "choices": [
+            "Toulmin",
+            "Categorical",
+            "Disjunctive",
+            "Conditional (or hypothetical)"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the fallacy of appeal to loyalty, emphasizing how it involves persuading someone based on their allegiance or commitment to a group, rather than on sound reasoning or evidence pertaining to the argument at hand.",
+        "instruction 2": "Identify examples or scenarios that illustrate the appeal to loyalty fallacy, contrasting it with valid arguments that do not rely on group loyalty but rather on logical reasoning or factual information.",
+        "question": "Which of the following describes the fallacy of appeal to loyalty?",
+        "choices": [
+            "arguing that someone should do something because it will make him or her better liked by others",
+            "responding to an argument with an expression of derision",
+            "arguing that an idea should be accepted only because of who originated the idea",
+            "arguing that someone should do something to be loyal to a person or a group"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the fallacy associated with appealing to the beliefs of regular people as evidence for a claim, specifically focusing on the concept of 'ad populum' or 'appeal to popularity', where one argues that a claim is true simply because many people believe it.",
+        "instruction 2": "Analyze the implications of relying on public opinion without substantive evidence in constructing arguments, emphasizing the importance of presenting objective evidence and logical reasoning rather than merely counting opinions.",
+        "question": "Arguing in favor of a claim based only on the evidence that some regular people believe the claim is one way to commit which of the following fallacies?",
+        "choices": [
+            "poisoning the well",
+            "common person appeal",
+            "ad numerum",
+            "suppressed evidence"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept of 'appeal to fear' in the context of argumentation, emphasizing how it utilizes fear as a persuasive tactic to influence people's beliefs or actions.",
+        "instruction 2": "Explore examples of how the appeal to fear is used in various forms of communication, such as political discourse, advertising, or social commentary, and evaluate its effectiveness and ethical implications.",
+        "question": "The appeal to fear involves",
+        "choices": [
+            "arguing something should be done only because it will make the person doing it feel good",
+            "arguing someone should do something only because of ill will towards someone else",
+            "arguing actions should be taken to avoid exaggerated, unlikely, or irrelevant negative results",
+            "characterizing an opponents position in a way that makes it seem silly"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the argument presented in the statement regarding the nature of discrimination, specifically distinguishing between normative discrimination (which is often harmful and unjust) and benign forms of discrimination based on preference (such as taste or aesthetics) to better understand the implications of the argument.",
+        "instruction 2": "Evaluate the underlying assumptions of the assertion that passing laws against discrimination is 'silly,' considering the context in which discrimination occurs, and the potential societal impacts such laws aim to address, differentiating between types of discrimination that are socially acceptable and those that are not.",
+        "question": "It's silly to pass laws against discrimination, since it is obvious that we can't live without it. We discriminate between pleasant and unpleasant tastes in selecting our food, between pleasant and unpleasant sounds in selecting our music, between harmonious and unharmonious colors in decorating our homes, between interesting and uninteresting people in choosing our friends, and so on. We can't live without discriminating.",
+        "choices": [
+            "Prejudicial Language",
+            "Equivocation",
+            "Inconsistency",
+            "Straw Man"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the fallacy of guilt by association, clearly explaining its structure and how it operates in argumentation by highlighting the fallacy's reliance on irrelevant connections to discredit a person or argument.",
+        "instruction 2": "Identify examples of the guilt by association fallacy in common discourse, analyzing situations where this fallacy may be applied and differentiating it from other logical fallacies to ensure a robust understanding of its implications.",
+        "question": "The fallacy of guilt by association is a specific type of",
+        "choices": [
+            "Fallacy of accident",
+            "Laudatory personality",
+            "Begging the question",
+            "Circular reasoning"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the definition of 'appeal to compassion' within the context of persuasive communication, identifying its role in influencing emotions and decision-making.",
+        "instruction 2": "Examine the effectiveness of compassion appeals in various contexts, such as in marketing, social campaigns, or public speaking, and compare its impact to other rhetorical strategies to fully understand its significance.",
+        "question": "Appeal to compassion is",
+        "choices": [
+            "an appeal to emotion that argues against a position based only on negative personal feelings toward the position",
+            "an appeal to emotion that argues a conclusion should be made based only on feeling sorry for someone",
+            "an appeal to emotion that argues an action should be taken based only on the need to be loyal to someone",
+            "arguing that an idea should be accepted based only on who originated the idea"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific logical fallacy that corresponds to the use of emotionally charged language without substantiation, focusing on terms such as 'appeal to emotion' or 'pathos' in argumentation, and how this can distract from logical reasoning.",
+        "instruction 2": "Examine how the rhetorical strategy of using emotionally charged terms can influence the audience's perception and response, and define the consequences of employing this tactic in a debate or discussion.",
+        "question": "When someone uses highly emotionally charged terms during an argument, without giving any reasons why those terms fit the subject, that person may have committed which of the following fallacies?",
+        "choices": [
+            "Special pleading",
+            "Amphiboly",
+            "Equivocation",
+            "Loaded language"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific logical fallacy that is being referenced, which involves discrediting a person's actions based on their position or affiliation rather than on the merits of the action itself, known as the 'ad hominem' fallacy.",
+        "instruction 2": "Explain how this fallacy undermines rational discourse by focusing on the individual's attributes or circumstances, rather than addressing the actual actions or the context of those actions.",
+        "question": "Arguing that someone couldn't have done something good because she holds a particular position commits the fallacy of",
+        "choices": [
+            "Guilt by association",
+            "False dilemma",
+            "Reprehensible personality",
+            "False dichotomy"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the term '_Ad antiquitatem_' and its relevance within logical or rhetorical contexts, ensuring to clarify how it represents an appeal to tradition or the past.",
+        "instruction 2": "Explore examples where '_Ad antiquitatem_' is applied in arguments or discussions, highlighting its implications and effectiveness compared to other types of reasoning.",
+        "question": "\" _Ad antiquitatem_ \" is a specific kind of",
+        "choices": [
+            "False cause",
+            "False sign",
+            "False analogy",
+            "Hasty Generalization"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the hasty conclusion fallacy clearly, emphasizing that it involves making a conclusion based on insufficient or unrepresentative evidence, and explain why this reasoning is flawed.",
+        "instruction 2": "Provide examples of the hasty conclusion fallacy in real-life contexts to illustrate how it can manifest in arguments or discussions, highlighting the importance of thorough evidence evaluation before drawing conclusions.",
+        "question": "The hasty conclusion fallacy is",
+        "choices": [
+            "arguing that a single event caused another when the cause is really several events",
+            "making an argument without enough evidence to support the conclusion",
+            "substituting individual stories for a larger sample in support of a claim",
+            "reasoning that applies irrelevant criteria to the subject of the argument."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the term '_Ad lazarum_' to identify its origins and meanings, considering its use in religious, literary, or historical contexts to provide a comprehensive understanding.",
+        "instruction 2": "Examine the implications or significance of '_Ad lazarum_' in relation to its usage, ensuring to discuss how it relates to broader themes, such as redemption, social commentary, or critiques present in various works.",
+        "question": "\" _Ad lazarum_ \" is",
+        "choices": [
+            "a specific type of false sign that argues there is necessarily an inverse relationship between cost and quality, so something is necessarily a better value because it costs less",
+            "arguing that what is true of an entire object must also be true of every individual part of that object",
+            "a specific type of false analogy that reasons what is true about nature must be true about humans",
+            "drawing a conclusion without enough evidence to support that conclusion"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the logical structure of the argument, specifically recognizing that it follows a syllogism format where the premises lead to a conclusion based on the categorical relationship between 'spoiled' and 'inedible'.",
+        "instruction 2": "Verify the definitions of the terms used in the premises and ensure that the relationship implied is universally accepted, thus affirming the correctness of the conclusion that Timothy being spoiled directly implies he is inedible.",
+        "question": "All things that are spoiled are inedible. Timothy is spoiled. So, Timothy is inedible.",
+        "choices": [
+            "Equivocation",
+            "Attacking the Person (ad hominem)",
+            "Fallacy of Division",
+            "Questionable Cause"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the structure of the argument to determine whether it follows a valid logical form, such as modus ponens, which asserts that if 'P implies Q' and 'P' is true, then 'Q' must also be true.",
+        "instruction 2": "Evaluate the truth of the premises: the relationship between the condition of the sky being blue and the absence of rain, and whether the conclusion logically follows based on the information given in the argument.",
+        "question": "Which of the statements below is correct about the following argument?\n\n\"If the sky is blue there won't be rain. The sky is blue today. Therefore, there won't be rain.\"",
+        "choices": [
+            "It is a formally valid categorical syllogism",
+            "It is a formally invalid disjunctive syllogism",
+            "It is a formally valid conditional syllogism",
+            "It is a formally invalid conditional syllogism"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the snob appeal fallacy by explaining its core concept, which often relies on the authority or superiority that certain individuals or groups claim based on an exclusive or elite status, rather than the quality of the argument presented.",
+        "instruction 2": "Analyze examples of the snob appeal fallacy in context, highlighting how it contrasts with logical reasoning by manipulating feelings of exclusivity or prestige to persuade an audience, rather than providing substantive evidence.",
+        "question": "Which of the following best describes the snob appeal fallacy?",
+        "choices": [
+            "reasoning that a claim is true based only on the evidence that it has been made so often.",
+            "arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.",
+            "arguing a claim should be accepted based only on evidence that unidentified authorities accept it.",
+            "arguing that someone should accept an idea or product based only on evidence that prestigious people accept it, or that non-prestigious people reject it."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the specific type of syllogism being referenced, focusing on the structure of the premises and conclusion, and identifying the rules that govern the use of terms in that syllogism type.",
+        "instruction 2": "Analyze how the requirement for each term to appear twice relates to the validity of the syllogism, particularly in terms of ensuring that the arguments presented adhere to the logical form and categorizations typical of that specific type.",
+        "question": "\"Each term must be used twice, no more and no less,\" is a test of validity for which type of syllogism?",
+        "choices": [
+            "Enthymeme",
+            "Categorical",
+            "Disjunctive",
+            "Conditional"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the analogy presented by comparing the universe to a watch, focusing on the implications of design and purpose that suggest an intelligent creator, and the philosophical arguments that stem from this comparison.",
+        "instruction 2": "Evaluate the underlying assumptions in the statement regarding the necessity of a maker, considering alternative viewpoints such as naturalism, the laws of physics, and the origins of the universe as explained by scientific theories.",
+        "question": "The universe, like a watch, must have a maker.",
+        "choices": [
+            "Fallacy of Accident",
+            "Questionable Analogy",
+            "Questionable Cause",
+            "Fallacy of Composition"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the natural law fallacy by identifying its characteristics, ensuring to explain how it misapplies natural law principles in arguments or reasoning, particularly in moral or ethical contexts.",
+        "instruction 2": "Explore examples of the natural law fallacy in arguments, detailing how it is used incorrectly, and differentiate it from related logical fallacies to clarify its unique implications in discourse.",
+        "question": "The natural law fallacy is a specific type of",
+        "choices": [
+            "false analogy",
+            "false cause",
+            "false criteria",
+            "false sign"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the structure of the major premise, which presents a logical disjunction ('Either A or B'), and identify possible minor premises that can affirm or negate each component of the disjunction, ensuring that they logically lead to a valid conclusion.",
+        "instruction 2": "Evaluate the implications of each minor premise by considering how they relate to the major premise, specifically identifying if they confirm that one option is true, thus allowing the conclusion to follow logically from the chosen minor premise.",
+        "question": "Given the following major premise, which of the following minor premises could lead to a valid conclusion?\n\n\"Either I'm going to do well on this test or I'm going to be mad.\"",
+        "choices": [
+            "\"I won't do well on the test\"",
+            "\"I won't take the test\"",
+            "\"My birthday is today\"",
+            "both A and B"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the claim critically by evaluating the evidence available regarding driving capabilities between men and women, considering factors such as accident rates, driving behavior, and physiological differences that may impact driving skills.",
+        "instruction 2": "Explore the social and cultural biases that may influence perceptions of driving ability between genders, ensuring to differentiate between anecdotal evidence and statistically supported findings.",
+        "question": "Men are better drivers than women are. The proof of this is that men are more capable than women of managing cars on the road.",
+        "choices": [
+            "Begging the question",
+            "Ad hominem (Attacking the Person)",
+            "False Dilemma",
+            "Appeal to Pity"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define what constitutes a faulty analogy by examining how the dissimilarities between the compared items outweigh their similarities, leading to misleading or incorrect conclusions.",
+        "instruction 2": "Identify common examples of faulty analogies and analyze why they fail logically, focusing on the nature of the comparisons made and the implications of employing such reasoning in arguments.",
+        "question": "In a faulty analogy, the things being compared are...",
+        "choices": [
+            "Sufficiently similar",
+            "Sufficiently similar in irrelevant ways",
+            "Complete opposites",
+            "Not sufficiently similar in relevant ways"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the _tu quoque_ fallacy by explaining its nature as a type of ad hominem argument, where a person's response to an accusation is to turn the accusation back on the accuser, suggesting hypocrisy and shifting the focus rather than addressing the original issue.",
+        "instruction 2": "Provide examples or scenarios that illustrate how the _tu quoque_ fallacy occurs in discourse, demonstrating its impact on argumentation by diverting attention from the validity of the argument or claim being made.",
+        "question": "Which of the following describes the _tu quoque_ fallacy?",
+        "choices": [
+            "summarizing an opponent's position in a way that makes it seem silly",
+            "attempting to gain agreement based only on the feelings aroused in the argument",
+            "responding to charges of wrongdoing by saying the accuser does the same thing",
+            "arguing against a position based only on negative personal feelings toward the position"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy being referred to in the question, focusing on the logical structure of the response that deflects attention from the wrongdoing by asserting that others are guilty of similar actions, which is commonly known as the 'tu quoque' fallacy or appeals to hypocrisy.",
+        "instruction 2": "Examine examples or contexts where this fallacy might occur in discussions or arguments, thereby enriching the understanding of its implications and effectiveness in argumentative situations.",
+        "question": "Responding to charges of wrongdoing by saying the accuser or others do the same thing describes which of the following fallacies?",
+        "choices": [
+            "ignoratio elenchi",
+            "ad baculum",
+            "ad misericordiam",
+            "tu quoque"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific logical fallacy being described, ensuring to understand the definition and characteristics of the fallacy in question, which includes biased reasoning and selective evidence interpretation.",
+        "instruction 2": "Examine examples of this fallacy in various contexts to better illustrate its implications, noting how it skews judgment and undermines objective reasoning in discussions or arguments.",
+        "question": "The fallacy that involves reasoning that determines the conclusion one wants first, then accepts only evidence supporting that conclusion, or interprets all evidence as support for that conclusion is known as",
+        "choices": [
+            "ad ignorantium",
+            "a priori",
+            "plurium interrogationum",
+            "Extension"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the genetic fallacy by identifying its core principle, which involves judging a claim based on its origin rather than its merit. Provide examples that illustrate how this fallacy manifests in arguments or discussions.",
+        "instruction 2": "Examine the implications of the genetic fallacy in reasoning, clarifying why it is considered a logical fallacy and how it detracts from objective evaluation of arguments by shifting focus to the source instead of the content.",
+        "question": "The genetic fallacy consists of",
+        "choices": [
+            "arguing that a conclusion should be made based on feeling sorry for someone when that feeling is irrelevant to the conclusion",
+            "responding to charges of wrongdoing by saying the accuser does something just as bad",
+            "arguing that an idea should be accepted or rejected based only on who originated the idea.",
+            "causing confusion during refutation because of a real or feigned lack of ability to engage in refutation"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and define the term 'begging the question', exploring its characteristics and how it operates within an argument to ensure the accurate identification of its alternative name.",
+        "instruction 2": "Consult established logical terminology and resources to find synonyms or alternative names for the fallacy of begging the question, ensuring to cross-verify with credible sources on logical fallacies.",
+        "question": "Another name for the fallacy of begging the question is",
+        "choices": [
+            "Dito simpliciter",
+            "Bifurcation",
+            "Reprehensible personality",
+            "Circular reasoning"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the definition of the fallacy known as _ignoratio elenchi_ and explore its alternative names or terms used to describe it, ensuring that any synonymous terminology captures its essence within the context of logical reasoning.",
+        "instruction 2": "Examine examples of _ignoratio elenchi_ to illustrate how this fallacy operates in logical arguments, confirming that the explanation provided aligns with the characteristics that distinguish it from other types of logical fallacies.",
+        "question": "The fallacy of _ignoratio elenchi_ is also known as",
+        "choices": [
+            "argument against the person",
+            "appeal to compassion",
+            "ignorance of refutation",
+            "the \"you too\" fallacy"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the context and argument presented by William Safire, focusing on the implications of secession on democracy and the Union, to understand the central theme of purposefulness in Lincoln's leadership.",
+        "instruction 2": "Consider the historical context of Lincoln's presidency and how Safire's perspective reflects broader themes of governance, unity, and the challenges of maintaining a democratic system amidst divisions.",
+        "question": "William Safire in American Heritage Magazine (December 1987): ...The greatness of Lincoln was his purposefulness. He saw something that few others saw: that the democratic experiment centered on the Union and that majority rule was everything. The minute you allowed secession, you made democracy an absurdity---because what would happen would be continued subdivision.",
+        "choices": [
+            "Slippery Slope",
+            "Questionable Analogy",
+            "Appeal to Authority",
+            "Straw Man"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Recognize that the question implies a negative assumption or accusation about domestic violence and needs to be approached sensitively, addressing the ethical issues surrounding the question and reframing the context to avoid perpetuating harmful stereotypes.",
+        "instruction 2": "Clarify the intent of the question, focusing on the importance of discussing domestic relationships without making unfounded assumptions, and consider redirecting the conversation towards promoting healthy relationship practices instead.",
+        "question": "So, how long have you been beating your wife?",
+        "choices": [
+            "Attacking the Person (ad hominem)",
+            "False Dilemma",
+            "Prejudicial Language",
+            "Appeal to Force"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific logical fallacy related to the misuse or misinterpretation of statistical data, ensuring to reference common terminology used in discussions about misleading statistics.",
+        "instruction 2": "Explore the implications of this fallacy in critical thinking and argumentation, considering how it affects decision-making and the evaluation of evidence in various contexts.",
+        "question": "\"Misuse of statistics,\" \"questionable statistics,\" and \"questionable use of statistics\" are all other names for the fallacy of",
+        "choices": [
+            "appeal to a pride",
+            "significance",
+            "poisoning the well",
+            "slippery slope"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the context of E.F. Schumacher's argument regarding intermediate versus appropriate technology, focusing on the underlying principles that drive his perspective on technology suitability for rural India.",
+        "instruction 2": "Examine the rhetoric used in Schumacher's statement, particularly the implications of labeling technology as 'inappropriate', to understand how it serves to challenge the perceptions of technological advancement in developing regions.",
+        "question": "E.F. Schumacher, famous economist, in an article in the Atlantic (April 1979): Fifteen months [after I had advised that rural India should have a technology intermediate between the hoe and the tractor,] an all-India conference on intermediate technology was arranged. (They still didn't like the term [intermediate], so they called it appropriate technology. That's all right: when I come to India and somebody says, \"Oh, Mr. Schumacher, I don't believe in appropriate technology\", I just look him straight in the face and say, \"Oh, that's splendid. Do you believe in inappropriate technology?\")",
+        "choices": [
+            "Equivocation",
+            "Inconsistency",
+            "Appeal to Authority",
+            "Prejudicial Language"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the logical reasoning behind the assumption that someone who denies being a Communist might actually be one, focusing on the premise that Communists are conditioned to lie about their membership. Analyze the implications of this logic on the credibility of the person's claim.",
+        "instruction 2": "Evaluate the broader context of the argument, considering any historical or ideological instances where similar reasoning has been applied, and discuss the validity of using this type of reasoning in forming conclusions about an individual's political beliefs.",
+        "question": "We must assume that he is a Communist, because he says that he is not, and we know that Communists are taught always to deny party membership.",
+        "choices": [
+            "Argument from Ignorance",
+            "Affirming the Consequent",
+            "Denying the Antecedent",
+            "Begging the Question"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific fallacy that is committed when someone argues for a course of action based solely on tradition, recognizing this as the ad populum or appeal to tradition fallacy. Clearly define this fallacy to understand its implications in reasoning.",
+        "instruction 2": "Analyze the context in which the argument is made, considering the logical weaknesses inherent in relying on historical precedent without evaluating the current validity or relevance of that method or approach.",
+        "question": "If someone argues that something should be done in a certain way because that's the way it's always been done, that person has committed which of the following fallacies?",
+        "choices": [
+            "slippery slope",
+            "appeal to tradition",
+            "argument from authority",
+            "ad nauseam"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific logical fallacy that corresponds to the term 'false analogy', focusing on its definition and characteristics to determine the correct name it is commonly associated with.",
+        "instruction 2": "Consider examples of false analogies in reasoning or arguments, and analyze how they mislead by presenting superficial similarities that do not hold under scrutiny, to reinforce the understanding of the fallacy's implications.",
+        "question": "False analogy is another name for which fallacy?",
+        "choices": [
+            "Over generalization",
+            "Composition",
+            "Concomitant variation",
+            "Imperfect analogy"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the type of fallacy being committed in the argument, focusing on the reasoning error that arises from assuming that someone's intelligence or character automatically validates the truth of their claim, often referred to as an appeal to authority or ad hominem fallacy.",
+        "instruction 2": "Examine similar fallacies or errors in reasoning that may be present in the argument, including how emotional appeals or personal characteristics should not influence the evaluation of a claim's validity based on logical reasoning alone.",
+        "question": "Which of the following fallacies happen if someone argues that you are a reasonable and intelligent person, so of course you understand his claim is true?",
+        "choices": [
+            "significance",
+            "argument from authority",
+            "appeal to pride",
+            "slippery slope"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy referred to in the question, which is often recognized as the 'fallacy of incomplete evidence' or 'cherry-picking', by analyzing how arguments are constructed and the logical missteps involved in neglecting to support all necessary components of a proposition.",
+        "instruction 2": "Explain how this fallacy impacts the validity of the argument, highlighting that supporting only one part of a two-part proposition does not provide sufficient evidence for the entire argument, and discuss the importance of comprehensive support in logical reasoning.",
+        "question": "Which fallacy happens when someone argues in favor of a two part proposition, only supports one part of the proposition, then asserts that the entire proposition has been supported.",
+        "choices": [
+            "a priori",
+            "Complex proposition",
+            "Extension",
+            "Appeal to ignorance"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the structure of a conditional syllogism and analyze the tests that can evaluate its validity, focusing on aspects such as affirming the antecedent or denying the consequent.",
+        "instruction 2": "Consider the specific logical forms and examples of conditional syllogisms that can be used to determine validity, as well as any possible fallacies that could arise in the evaluation process.",
+        "question": "Which of the following is a test of the validity of a conditional syllogism?",
+        "choices": [
+            "Every term must be used twice--no more and no less",
+            "If one premise is negative, the conclusion must be negative",
+            "The minor premise must affirm the antecedent or deny the consequent",
+            "The alternatives presented must be mutually exclusive"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy that involves oversimplifying the cause of an event, understanding the terminology associated with this logical error to differentiate it from other fallacies.",
+        "instruction 2": "Analyze examples of this fallacy in various contexts to illustrate how it manifests in reasoning, ensuring to clarify the difference between simple and complex causation in arguments.",
+        "question": "Which of the following fallacies happens when someone attributes the cause of an event to a simple cause when the cause is actually more complicated?",
+        "choices": [
+            "complex cause",
+            "hasty generalization",
+            "post hoc",
+            "division"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the meaning of the fallacy of amphiboly by examining its definition, including how it arises from ambiguous grammar or sentence structure that leads to misinterpretation, while looking for synonymous terms used in logical discussions.",
+        "instruction 2": "Explore various logical fallacies, identifying their characteristics, and particularly focus on any terminology associated with the fallacy of amphiboly to provide contextual clues for its alternate name.",
+        "question": "Which of the following is another name for the fallacy of amphiboly?",
+        "choices": [
+            "Misusing ambiguity",
+            "Reification",
+            "Figure of speech",
+            "Special pleading"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the legal implications of Tan ah Tiat's defense, specifically how personal circumstances such as age and reliance on familial support may be viewed in the context of drug possession charges and individual responsibility.",
+        "instruction 2": "Evaluate the judge's perspective regarding the argument presented, considering legal precedents or societal norms that may influence the perception of addiction's impact on a defendant's culpability, particularly regarding harm and dependency.",
+        "question": "Tan ah Tiat, forty-nine years old, a native of Kuala Lumpar, Malaysia, was charged with possession of opium. Arguing for acquittal, he told the judge that his opium habit did no harm, as he was too old to work anyway. Asked how he lived, he replied that he lived on the earnings of his grandmother.",
+        "choices": [
+            "Straw Man",
+            "False Dilemma",
+            "Inconsistency",
+            "Appeal to Authority"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of self-evident truths in the context of logical reasoning and argumentation, highlighting how they are often used to assert claims without further evidence or justification.",
+        "instruction 2": "Examine examples of common arguments that may illustrate this fallacy, ensuring to analyze why these assertions can be problematic or misleading in rational discourse.",
+        "question": "Which of the following best describes the fallacy of self-evident truths?",
+        "choices": [
+            "arguing that a claim is true based only on evidence that an authority figure accepts the claim.",
+            "arguing a claim should be accepted based only on evidence that unidentified authorities accept it.",
+            "arguing that a claim should be accepted based on evidence that is not presented, but is asserted to be well known or obvious.",
+            "arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the term 'Ad lazarum' by identifying its historical or contextual significance, particularly looking into its meanings or associations in relevant literature or studies.",
+        "instruction 2": "Explore the characteristics that define this specific kind of concept or phenomenon compared to other similar terms, ensuring to provide a clear differentiation that highlights its unique features.",
+        "question": "\" _Ad lazarum_ \" is a specific kind of",
+        "choices": [
+            "Anecdotal evidence",
+            "Complex cause",
+            "False criteria",
+            "False sign"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the philosophical underpinnings of the statement, focusing on the concept of belief versus empirical evidence, and consider arguments presented by both theists and atheists regarding the existence of God.",
+        "instruction 2": "Evaluate the implications of asserting a right to belief in God in light of the failure of atheistic arguments, including the impact of subjective experience, cultural influences, and the nature of faith in the discourse surrounding religion.",
+        "question": "We're perfectly entitled to believe there is a God. After all, every effort by atheists to prove otherwise has failed.",
+        "choices": [
+            "Appeal to Authority",
+            "Denying the Antecedent",
+            "Attacking the Person (ad hominem)",
+            "Argument from Ignorance"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific fallacy being discussed, which is often referred to as 'appeal to authority.' Clarify that this fallacy occurs when an argument relies solely on the credibility of the authority figure without providing substantial evidence or reasoning to support the claim.",
+        "instruction 2": "Differentiate this fallacy from legitimate appeals to authority, emphasizing that valid authority can bolster an argument when it is supported by additional evidence and reasoning, rather than being the sole basis for the claim.",
+        "question": "When someone makes an argument, and the only evidence he or she uses to support the claim is the testimony that an authority figure believes the claim, the arguer has committed which fallacy?",
+        "choices": [
+            "Questionable use of statistics",
+            "Apple polishing",
+            "Self evident truths",
+            "Argument from authority"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific fallacy involved when the meaning of a word or phrase shifts in an argument, focusing on fallacies such as equivocation where the meaning becomes ambiguous across different parts of the argument.",
+        "instruction 2": "Analyze the context of the argument to determine how the change in meaning affects the overall logic, and assess whether this shift undermines the argument's validity or leads to a misleading conclusion.",
+        "question": "When someone changes the meaning of a word or phrase from one part of the argument to another that person may have committed which of the following fallacies?",
+        "choices": [
+            "Special pleading",
+            "Hypostatization",
+            "Question begging epithets",
+            "Equivocation"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and define the fallacy of accident, ensuring to understand how it applies to generalizations that do not account for exceptions, which leads to misinterpretations or erroneous conclusions.",
+        "instruction 2": "Research and specify the alternate terminologies or names that are commonly used to refer to the fallacy of accident, including how these terms relate to the principles of logic and reasoning.",
+        "question": "Another name for the fallacy of accident is",
+        "choices": [
+            "Laudatory personality",
+            "Guilt by association",
+            "Either-or fallacy",
+            "Dicto simpliciter"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify that the statement specifies a linguistic or logical constraint regarding the use of terms within a specific context, such as a puzzle, game, or coding challenge, requiring careful analysis of how terms are employed.",
+        "instruction 2": "Examine the implications of the requirement on the structure or rules of the task at hand, ensuring that any examples or scenarios adhere strictly to the condition of using each term exactly twice without exceeding or falling short of this specification.",
+        "question": "\"Each term must be used twice, no more and no less\" is a requirement for",
+        "choices": [
+            "valid categorical syllogism",
+            "a valid disjunctive syllogism",
+            "a valid conditional syllogism",
+            "a materially true hypothetical syllogism"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the false cause fallacy by explaining how it occurs when a cause-and-effect relationship is incorrectly assumed between two events, often due to temporal or correlational proximity, rather than definitive evidence.",
+        "instruction 2": "Provide examples of the false cause fallacy in various contexts, such as everyday reasoning or debates, to illustrate how it can lead to misleading conclusions and demonstrate the importance of critical analysis in identifying such fallacies.",
+        "question": "The false cause fallacy is",
+        "choices": [
+            "arguing that since someone is poor she must have high moral character",
+            "arguing that two things are causally related without evidence of a causal relationship",
+            "arguing that since something is new it is necessarily bad",
+            "substituting individual stories for a larger sample in support of a claim"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific fallacy associated with the argument that suggests an action is warranted simply because others are engaging in it, ensuring to clearly define the nature of this fallacy based on established logical reasoning principles.",
+        "instruction 2": "Examine examples or variations of this fallacy in common discourse to illustrate its application and the reasoning behind why it might be persuasive, despite lacking robust justification for the action itself.",
+        "question": "Arguing that someone should do something because other people are doing it is a description of which of the following fallacies?",
+        "choices": [
+            "appeal to common practice",
+            "snob appeal",
+            "argument by consensus",
+            "appeal to tradition"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the definition of the fallacy of false consolation, focusing on how it is a logical error that occurs when someone dismisses a negative situation by suggesting that things could be worse, thereby negating the validity of the original concern.",
+        "instruction 2": "Identify examples that illustrate the fallacy of false consolation, noting how this fallacy can undermine dialogue and understanding by shifting attention away from the original issue instead of providing constructive solutions.",
+        "question": "Which of the following describes the fallacy of false consolation?",
+        "choices": [
+            "arguing against a position based only on negative personal feelings toward the position",
+            "responding to charges of wrongdoing by saying others do things as bad or worse",
+            "arguing that someone is not really harmed because things could be worse or by pointing out what they have to be thankful for",
+            "using threats of harm instead of reasoning to get agreement"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific fallacy that occurs when a generalization is incorrectly applied to a particular case without considering the unique circumstances of that case, focusing on the distinction between legitimate generalizations and exceptions.",
+        "instruction 2": "Consider examples of this fallacy in practice, analyzing how it can lead to flawed reasoning or misinterpretations in arguments, and ensure to differentiate it from other related logical fallacies.",
+        "question": "Which of the following fallacies happens when someone concludes that a legitimate generalization necessarily applies to a particular case?",
+        "choices": [
+            "False dilemma",
+            "Circular reasoning",
+            "Accident",
+            "Bifurcation"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the fallacy of poisoning the well, focusing on how it involves discrediting a source or argument before it can be presented, effectively biasing the audience against it based on irrelevant information about the source.",
+        "instruction 2": "Provide examples of situations where this fallacy might occur, illustrating how it manipulates perception and hinders rational discourse by attacking the character or credibility of the individual rather than addressing the actual argument.",
+        "question": "Which of the following best describes the fallacy of poisoning the well?",
+        "choices": [
+            "a way of suppressing evidence that eliminates a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source",
+            "arguing that a claim should be accepted based on evidence that is not presented, but asserted to be well known or obvious.",
+            "arguing something should be done based only on evidence that it's been done that way in the past, or should be believed only because it's been believed for a long time.",
+            "reasoning that a claim is true based only on the evidence that it has been made so often."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the straw person fallacy clearly, focusing on the tactic of misrepresenting or oversimplifying an opponent's argument to make it easier to attack, and provide examples illustrating this misrepresentation.",
+        "instruction 2": "Identify common contexts or scenarios in which the straw person fallacy typically occurs in debates or arguments, emphasizing its impact on discourse and the importance of accurately representing opposing viewpoints.",
+        "question": "Which of the following describes the straw person fallacy?",
+        "choices": [
+            "arguing someone should do something only because it will make him or her better liked",
+            "saying an opposing arguer has taken a position that you can easily defeat, when he or she has not taken that position, then going on to defeat that position and claim to have done significant damage to that arguer's overall argument",
+            "attacking the character or background of an opposing arguer instead of responding to that person's arguments with good evidence and sound reasoni",
+            "responding to an argument with an expression of derision instead of a counter argument"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define 'appeal to the people' in the context of logical fallacies and identify its common synonyms, such as 'ad populum fallacy', ensuring to understand its implications in arguments and rhetoric.",
+        "instruction 2": "Analyze the context in which the term is used, considering how it relates to emotional appeals and groupthink, which may help clarify its meaning and associated terminology.",
+        "question": "Which of the following is another name for appeal to the people?",
+        "choices": [
+            "argument by consensus",
+            "appeal to beliefs",
+            "no true Scotsman",
+            "overlooked evidence"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the appeal to tradition fallacy clearly, distinguishing it from similar fallacies by emphasizing how it relies on the argument that a practice or belief is valid simply because it has a historical precedent.",
+        "instruction 2": "Provide examples that illustrate appeal to tradition in various contexts, highlighting the importance of evaluating arguments based on current evidence and reasoning rather than solely on historical acceptance.",
+        "question": "Which of the following describes the fallacy of appeal to tradition?",
+        "choices": [
+            "reasoning that a claim must be true because it's been made so often",
+            "reasoning that a claim must be true because a regular person believes it",
+            "reasoning that a claim must be true because it's been believed in the past",
+            "reasoning that a claim must be true because a lot of people believe it"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define loaded language and identify its characteristics, focusing on how it uses emotionally charged words or phrases to sway opinions, often bypassing logical reasoning.",
+        "instruction 2": "Evaluate the given options against the definition of loaded language to determine which explanation best encapsulates its purpose and effect in argumentation or debate.",
+        "question": "Which of the following is the best explanation of the fallacy of loaded language?",
+        "choices": [
+            "Using emotionally charged language to create an impression about the subject of a claim, without making an argument that the language fits the subject.",
+            "Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms.",
+            "Using language and punctuation in a way that a statement can have multiple interpretations, so it's not really clear what is meant.",
+            "Confusing figurative language with literal language"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the concept of tradition in the context of claims by evaluating the reasons for considering or rejecting traditional claims, focusing on the potential benefits or drawbacks of adhering to traditional perspectives versus adopting new evidence-based approaches.",
+        "instruction 2": "Consider the implications of automatically rejecting claims based solely on their traditional status, including the potential loss of valuable insights and the criteria that should be used to evaluate the validity of claims regardless of their traditional roots.",
+        "question": "Automatically rejecting a claim just because it's traditional is...",
+        "choices": [
+            "Not reasonable",
+            "An appeal to tradition",
+            "An appeal to the masses",
+            "Reasonable"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the slippery-slope fallacy, outlining the criteria under which an argument fits this pattern, particularly focusing on how it incorrectly asserts that a relatively small first step inevitably leads to a chain of related events culminating in significant (often negative) consequences.",
+        "instruction 2": "Analyze examples of slippery-slope arguments to demonstrate how they can mislead by failing to provide adequate evidence for the inevitable progression from the initial action to the extreme outcome, ensuring to clarify when this reasoning becomes fallacious.",
+        "question": "A slippery-slope pattern of argument is fallacious when...",
+        "choices": [
+            "It is hypothetical",
+            "There is good reason to think that doing one action will inevitably lead to another undesirable action",
+            "There are only two possible results",
+            "There is no good reason to think that doing one action will inevitably lead to another undesirable action"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the fallacy of special pleading, focusing on how it involves applying standards, principles, or rules to one side of an argument while exempting the other side without justification.",
+        "instruction 2": "Provide examples that illustrate the fallacy of special pleading, ensuring to highlight situations where a person claims an exception to a general rule based on an arbitrary or biased criteria.",
+        "question": "Which of the following best describes the fallacy of special pleading?",
+        "choices": [
+            "Reasoning that ideas presented in an appealing manner are correct, regardless of the content of the message.",
+            "Using language and punctuation in a way that a statement can have multiple interpretations, so it's not really clear what is meant.",
+            "Confusing figurative language with literal language.",
+            "Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the context and content of the claims made by the individual, focusing on whether there is a discrepancy between their stated beliefs or values and their actual behavior or actions, which could indicate hypocrisy.",
+        "instruction 2": "Evaluate the criteria that constitute hypocrisy in the given scenario, such as the consistency of beliefs over time, the presence of double standards, or the implications of their claims in relation to societal norms or expectations.",
+        "question": "Whether someone is hypocritical regarding her claims is...",
+        "choices": [
+            "Irrelevant to her character",
+            "Evidence that the claims are false",
+            "Irrelevant to the truth of the claims",
+            "Relevant only in court"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the logical fallacy that occurs when a conclusion is drawn based on insufficient evidence of causation between an action and its purported extreme consequences, commonly known as the slippery slope fallacy.",
+        "instruction 2": "Evaluate how the lack of evidence undermines the argument, focusing on the importance of establishing a clear causal link before asserting that an action will inevitably lead to extreme negative outcomes.",
+        "question": "If someone says if you do something it will lead to extreme consequences, but doesn't provide you with any evidence of a cause and effect relationship between your act and those consequences, that person has probably committed which of the following fallacies?",
+        "choices": [
+            "ad nauseam",
+            "self evident truths",
+            "slippery slope",
+            "suppressed evidence"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concomitant variation fallacy, explaining its meaning in the context of logic and reasoning, and how it relates to misinterpretations of correlation versus causation.",
+        "instruction 2": "Provide examples or scenarios where this fallacy might occur, illustrating its implications in argumentation or decision-making processes, to clarify why it is considered a fallacy.",
+        "question": "The concomitant variation fallacy is",
+        "choices": [
+            "attributing the cause of an event to a single cause when the cause is more complicated",
+            "arguing that since two events happened at the same time, one event must have caused the other",
+            "arguing that since one event preceded another event it must have caused the second event",
+            "drawing a conclusion based on sign reasoning when there is not really a direct relationship between the alleged sign and the subject of the conclusion"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the formal definition of the fallacy referred to as _Ad novitatem_ and explain how it relates to arguments or reasoning based on the idea that something is better or true simply because it is new.",
+        "instruction 2": "Explore examples of _Ad novitatem_ in various contexts (e.g., advertising, policy-making), highlighting how this fallacy might lead to flawed decision-making based on a preference for the new over what may be established or traditional.",
+        "question": "\" _Ad novitatem_ \" is a specific kind of fallacy of",
+        "choices": [
+            "Division",
+            "False sign",
+            "False cause",
+            "Hasty Generalization"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific name of the fallacy that involves rejecting a claim based on discrediting the person who presented it, ensuring to understand the definition and characteristics of this logical fallacy.",
+        "instruction 2": "Examine examples and applications of this fallacy in arguments or debates to illustrate how it operates in practice, distinguishing it from other types of fallacies.",
+        "question": "Rejecting a claim by criticizing the person who makes it rather than the claim itself is known as the fallacy of...",
+        "choices": [
+            "Division",
+            "Appeal to emotion",
+            "Composition",
+            "Appeal to the person"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define amphiboly by examining its characteristics, such as its reliance on ambiguous grammar or syntax that can lead to multiple interpretations of a statement, thus creating confusion or misrepresentation.",
+        "instruction 2": "Provide examples of amphiboly in context, illustrating how such ambiguity can mislead reasoning or arguments, and differentiate it from other types of fallacies that rely on different sources of ambiguous meaning.",
+        "question": "Which of the following best describes the fallacy of amphiboly?",
+        "choices": [
+            "Using emotionally charged languages to create an impression about the subject of a claim, without making an argument that the language fits the subject.",
+            "Referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms.",
+            "Using grammar and punctuation in a way that a statement may have multiple interpretations, so it's not really clear what is meant.",
+            "Changing the meaning of a word or phrase from one part of the argument to another."
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the fallacy that occurs when language or punctuation leads to ambiguity in interpretation. Focus on terms commonly associated with such misunderstandings, such as 'ambiguity' or 'equivocation.'",
+        "instruction 2": "Analyze examples of how improper grammar or punctuation can obscure clarity, ensuring to connect these examples to the broader concept of fallacies tied to misinterpretation or unclear reasoning.",
+        "question": "When someone uses grammar or punctuation in a way that makes a statement have more than one possible interpretation, that person may have committed which of the following fallacies?",
+        "choices": [
+            "Amphiboly",
+            "Hypostatization",
+            "Question begging epithets",
+            "Style over substance"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the fallacy present in the given statement, focusing on concepts such as logical fallacies related to minimizing harm or oversimplifying complex situations, potentially leading to denial of valid grievances.",
+        "instruction 2": "Analyze the statement's structure, determining how it leverages a 'no harm, no foul' argument to shift focus from legitimate concerns to reasons for gratitude, thereby potentially diverting attention from the real issue at hand.",
+        "question": "Telling people that they haven't been harmed because there is something they should be thankful for commits which of the following fallacies?",
+        "choices": [
+            "genetic fallacy",
+            "horse laugh",
+            "false consolation",
+            "appeal to joy"
+        ],
+        "subject": "logical_fallacies",
+        "answer": 2
+    }
+]

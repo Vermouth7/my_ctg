@@ -1,0 +1,1705 @@
+[
+    {
+        "instruction 1": "Identify and list the various methods commonly used for detecting breast cancer, highlighting those that involve radiation exposure, such as mammography or other imaging techniques that utilize X-rays or similar technologies.",
+        "instruction 2": "Clarify the mechanism of action for each method identified, explaining how the technique works and the specific role that radiation plays in the detection process, ensuring to differentiate between non-invasive and invasive methods.",
+        "question": "Which of the following methods of detecting breast cancer involves exposure to radiation?",
+        "choices": [
+            "Needle aspiration",
+            "Mammography",
+            "Mastectomy",
+            "Lumpectomy"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific regions of the human body known to be associated with sexual arousal, taking into account anatomical, physiological, and psychological factors that contribute to erotic responses.",
+        "instruction 2": "Consider the variability of responses among different individuals, including cultural, contextual, and personal significance that may influence which body regions are perceived as sexually exciting.",
+        "question": "The regions of the body that, when touched, are sexually exciting:",
+        "choices": [
+            "vary from person to person",
+            "vary for women depending on the phases of the menstrual cycle",
+            "are mainly on the lower portion of the body",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the various characteristics, symptoms, causes, and treatment methods associated with gonorrhea to evaluate the statements provided and determine their accuracy.",
+        "instruction 2": "Refer to current medical guidelines and research on gonorrhea, including its transmission methods and potential complications, to validate the truthfulness of each of the options listed.",
+        "question": "Which of the following is/are true of gonorrhea?",
+        "choices": [
+            "can be treated with antibiotics",
+            "has a high risk of infection with a single exposure",
+            "is asymptomatic (without symptoms) in only a small percentage of those infected",
+            "infections are limited to genital areas"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the scenario in terms of Freudian psychology, identifying the conflicting forces represented by the id (pleasure-seeking, instinctual urges) and the superego (moral considerations, duties and societal expectations), to determine which aspect was more dominant during the decision-making process.",
+        "instruction 2": "Evaluate how the situation illustrates the balance between the id's desire for immediate gratification (represented by the attraction to Jacques and the dairy bar) versus the superego's inclination towards responsibility (such as studying for the test), to establish which group influenced the decision most significantly.",
+        "question": "You are a homosexual male: Last night, you were tempted by lusty, swarthy Jacques (the king of fraternity row) to join him at the local dairy bar for a tall cool glass of milk. You also briefly considered studying for this test, but Jacques won out. In Freudian terms, which of the following was dominant?",
+        "choices": [
+            "the id",
+            "the ego",
+            "the superego",
+            "the Oedipus complex"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the underlying theories and empirical evidence that sociobiologists use to support the claim of a higher prevalence of paraphilias in males compared to females, considering biological, psychological, and social factors.",
+        "instruction 2": "Assess the implications of these beliefs on societal perceptions of paraphilias and gender, analyzing how cultural, environmental, and evolutionary aspects may contribute to this belief and its potential influence on research and treatment perspectives.",
+        "question": "Sociobiologists believe that there are more males than females with paraphilias because:",
+        "choices": [
+            "paraphilias guarantee survival of the species",
+            "evolutionary selection has favored the development of males who respond to novel sexual stimuli",
+            "of left brain/right brain differences between the genders",
+            "male brains are better developed than are female brains"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the findings and conclusions of the study by Sprecher, Barbee, and Schwartz (1995) to identify the specific emotional or psychological response that women reported after their first act of intercourse, clarifying the context and significance of these responses in comparison to men's experiences.",
+        "instruction 2": "Consider the sociocultural factors that may influence women's reported feelings following their first act of intercourse, including societal expectations, personal beliefs, and previous sexual education, and how these factors might differ from those impacting men.",
+        "question": "According to a study by Sprecher, Barbee, and Schwartz (1995), women were more likely than men to have ________ following their first act of intercourse.",
+        "choices": [
+            "felt glad",
+            "felt fear",
+            "experienced guilt",
+            "experienced regret"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the physiological and psychological effects of cocaine abuse during pregnancy on both the mother and the fetus, focusing on potential health risks and developmental issues associated with prenatal exposure to cocaine.",
+        "instruction 2": "Consider the broader social and public health implications of cocaine abuse during pregnancy, including the impact on maternal care, neonatal outcomes, and the need for interventions to support affected families.",
+        "question": "What is cocaine abuse during pregnancy related to?",
+        "choices": [
+            "an increased risk of low birth weight babies",
+            "poorer growth and lower intelligence",
+            "smaller head circumference",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze Joe's behavior and relationship patterns with women through the lens of attachment theory, identifying the specific attachment style that corresponds to his desperation and the negative response it elicits from Helen.",
+        "instruction 2": "Consider the characteristics of the various attachment styles (secure, anxious, avoidant) and evaluate how Joe's actions align with an anxious attachment style, which often stems from fear of rejection and leads to clinginess or desperation in relationships.",
+        "question": "Joe wants desperately to get close to Helen. Helen appears to be put off by Joe's desperate advances. This is typical of Joe's relationships with women. According to attachment theory Joe would best be described as:",
+        "choices": [
+            "a secure lover",
+            "an avoidant lover",
+            "an anxious-ambivalent lover",
+            "a passionate lover"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the developmental and social factors that may influence the understanding and expression of sexual orientation in children, including societal norms and peer interactions, to assess the expected behaviors or traits of Bruce and Chuck as children.",
+        "instruction 2": "Consider how childhood friendships and social dynamics may reflect or challenge the conventional expectations associated with Bruce and Chuck's sexual orientations, analyzing potential scenarios based on their experiences and the sociocultural context.",
+        "question": "Bruce is a homosexual man. His friend Chuck is a heterosexual man. If we could have observed Bruce and Chuck as children we might have expected which of the following?",
+        "choices": [
+            "Bruce likely participated in more female-typical play than Chuck.",
+            "Bruce likely participated in more male-typical play than Chuck.",
+            "Bruce and Chuck likely participated in more male-typical play than female-typical play.",
+            "Bruce's father was more likely to have homosexual tendencies than Chuck's father."
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine how Judaism views sexuality through religious texts, traditions, and teachings, focusing on aspects such as the moral, ethical, and cultural dimensions that inform Jewish perspectives on sexual behavior and relationships.",
+        "instruction 2": "Consider the diversity within Jewish thought, including different movements (e.g., Orthodox, Conservative, Reform) and how their interpretations of sexuality may vary, ensuring to reflect this variety in the response.",
+        "question": "Judaism regards sexuality as",
+        "choices": [
+            "inherently evil",
+            "God's afterthought and has become an aberration",
+            "a gift from God",
+            "primarily a biological function"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Explore Freud's theories on psychosexual development to identify the specific stage where the penis becomes a significant focus of pleasure, particularly referencing the phallic stage, which occurs around ages 3 to 6.",
+        "instruction 2": "Examine the context of Freud's statement within his broader theories on sexuality and psychoanalysis, ensuring to clarify how this focus on the penis relates to his concepts of libido and gender identity during the phallic stage.",
+        "question": "Freud said that the penis first becomes the major focus of pleasure-seeking at:",
+        "choices": [
+            "birth",
+            "about age 1",
+            "between the ages of 3 and 6",
+            "puberty"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and analyze the key components of Sternberg's Triangular Theory of Love, focusing on the three primary dimensions: intimacy, passion, and commitment, and how their balance contributes to the longevity of relationships.",
+        "instruction 2": "Examine the factors that influence the dynamics of these dimensions over time, considering how maintaining or evolving these elements can affect the stability and endurance of a relationship.",
+        "question": "What makes a relationships last, according to Sternberg?",
+        "choices": [
+            "intimacy",
+            "commitment",
+            "decision",
+            "passion"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific religious positions and doctrines regarding abortion, focusing on those that unequivocally classify it as murder, and highlight any key texts or teachings that support this stance.",
+        "instruction 2": "Understand the theological and ethical arguments presented by adherents of these religions against abortion, examining how these beliefs influence their followers' views on the moral status of embryos and fetuses.",
+        "question": "The position that abortion is murder is held by certain people in which religion?",
+        "choices": [
+            "Orthodox Jews",
+            "Fundamentalist Protestants",
+            "Eastern Orthodox Christians",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the ethical system that emphasizes celibacy, virginity, and poverty, drawing from both Eastern religious traditions (such as Buddhism) and Christian monasticism, and understand the underlying values that promote a communal lifestyle focused on spiritual growth.",
+        "instruction 2": "Explore how this ethical system shapes the practices and beliefs of monastic orders, including the implications for individual conduct and community interaction, and consider the philosophical and theological foundations that support such a way of life.",
+        "question": "Orders of monks and nuns found both in Eastern religions and in Christianity who affirm celibacy, virginity, and poverty follow the ethical system of:",
+        "choices": [
+            "legalism",
+            "asceticism",
+            "situationism",
+            "hedonism"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Explain the biological roles of ovaries and testes in the reproductive system, emphasizing their function in gamete production and hormone secretion, and how these roles contribute to sexual reproduction in humans.",
+        "instruction 2": "Describe the differences between ovaries and testes in terms of structure, location, and hormonal regulation, while also considering their implications for sexual differentiation and reproductive health.",
+        "question": "Ovaries and testes",
+        "choices": [
+            "are homologous",
+            "produce gametes",
+            "produce sex hormones",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific aspects of brain structure or function that Simon LeVay researched, focusing on any key findings that highlight differences between heterosexual and homosexual individuals, such as variations in size of certain brain regions or neural pathways.",
+        "instruction 2": "Consider the implications of these findings in relation to sexual orientation, evaluating how such differences may contribute to understanding the biological underpinnings of sexual attraction and identity, while ensuring to acknowledge the complexity of human sexuality.",
+        "question": "Simon LeVay studied the brains of heterosexuals and homosexuals. He found differences in:",
+        "choices": [
+            "the cortical activity of these two groups",
+            "the overall brain weights of these two groups",
+            "the cell structure in the hypothalamus of these two groups",
+            "blood volume and metabolism of sugars in the brains of these two groups"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine which psychological or sociological theories specifically utilize the concepts of 'modelling' and 'imitation' in relation to behavioral changes due to exposure to erotica, and identify their main proponents or foundational studies.",
+        "instruction 2": "Evaluate the context and outcomes of these theories by considering empirical evidence or case studies that illustrate how modeling and imitation influence behavior after exposure to erotic content.",
+        "question": "Which of the following theories uses terms such as \"modelling\" and \"imitation\" to explain the effects of exposure to erotica on a person's behaviour?",
+        "choices": [
+            "sociobiology",
+            "psychoanalytic theory",
+            "script theory",
+            "social learning theory"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific groups of men implied in the statement, determining the demographic or cultural context that explains the difference in the age of first sexual intercourse.",
+        "instruction 2": "Investigate factors such as social norms, education, and access to information regarding sexual health that could contribute to the differing timelines for the initiation of sexual activity between the two groups.",
+        "question": "________ men, on the average, begin engaging in sexual intercourse approximately two years later than ________ men do.",
+        "choices": [
+            "Mexican Americans and whites; African Americans",
+            "Mexican Americans; African Americans and whites",
+            "African Americans; whites and Latinos",
+            "Whites; African Americans and Latinos"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Research historical studies and publications related to women's sexuality, specifically focusing on key figures and breakthroughs in understanding female sexual response, particularly concerning multiple orgasms.",
+        "instruction 2": "Identify the contributions of specific researchers or scientists who played a pivotal role in this discovery, ensuring to give attention to any significant work done in the mid to late 20th century that shaped current understanding.",
+        "question": "In the scientific community, women's capacity for multiple orgasms was originally discovered by:",
+        "choices": [
+            "Kinsey",
+            "Freud",
+            "Masters and Johnson",
+            "Kaplan"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key characteristics that define date rape, focusing on elements such as consent, the relationship between the individuals involved, and the circumstances surrounding the incident to establish a clear understanding of the term.",
+        "instruction 2": "Examine the broader context of sexual assault, distinguishing date rape from other forms of assault by considering factors like the setting, social dynamics, and prevalence of these incidents to provide a comprehensive perspective.",
+        "question": "Which of the following characteristics are generally consistent with date rape?",
+        "choices": [
+            "use of excessive force",
+            "premeditated",
+            "sexually motivated",
+            "involves use of a weapon"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the term that John Money uses to describe an individual's internal perception of their gender, ensuring an understanding of the distinction between biological sex and gender identity.",
+        "instruction 2": "Consider the implications of this definition on the broader context of gender studies and how such a perspective influences discussions around gender identity and expression.",
+        "question": "According to John Money, __________ refers to a person's private internal sense of maleness or femaleness.",
+        "choices": [
+            "Gender identity",
+            "Sexual nomenclature",
+            "Gender schema",
+            "Intrapsychic sexual orientation"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate credible scientific studies or surveys that document the average size of male genitalia, ensuring to focus on the most accurate and widely accepted data sources to support the response.",
+        "instruction 2": "Consider the variability of measurements such as length and circumference, and how these sizes may differ geographically or across different demographics, ensuring to provide context to the average measurements found.",
+        "question": "The average male genital size is approximately",
+        "choices": [
+            "4 inches",
+            "5 inches",
+            "7 inches",
+            "1 foot"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze the definitions of sexual abnormality or deviance to determine how they categorize behaviors based on societal norms, focusing particularly on what constitutes typical sexual functioning and the implications of needing a specific object, such as a shoe, for sexual arousal.",
+        "instruction 2": "Consider the psychological and social implications of this behavior, evaluating how it fits into the broader context of paraphilias and the criteria used in clinical settings or by mental health professionals when assessing sexual behaviors.",
+        "question": "People who cannot reach orgasm without touching a woman's shoe would certainly be considered sexually abnormal or deviant by which of the following definitions?",
+        "choices": [
+            "psychological",
+            "sociological",
+            "statistical",
+            "b and c"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the psychological implications of pain during intercourse, focusing on how it may create a negative association with the act, potentially leading to avoidance behavior or reduced frequency of sexual activity.",
+        "instruction 2": "Examine the perspectives of behavioral theories, particularly how individuals may interpret the experience of pain as a form of punishment, impacting their willingness to engage in sexual relations in the future.",
+        "question": "If a woman or man repeatedly experiences pain during intercourse, she will probably want to have intercourse infrequently or not all. In this situation, __________ would likely classify the pain as a punishment.",
+        "choices": [
+            "Sigmund Freud",
+            "John Money",
+            "B. F. Skinner",
+            "Havelock Ellis"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the current literature on interpersonal attraction to identify findings that support or contradict the folk saying 'opposites attract,' focusing on research that analyzes personality traits, values, and attitudes in relationships.",
+        "instruction 2": "Evaluate the implications of dissimilarities in attitudes on relationship dynamics by considering factors such as compatibility, conflict, and the role of shared interests, contrasting these with the traditional notion of opposites attracting.",
+        "question": "What seems to be the case when the folk saying \"opposites attract\" (i.e., dissimilar attitudes tend to cause liking) when it is considered in light of current research?",
+        "choices": [
+            "It does not seem to be true.",
+            "It seems to be true for heterosexuals but not for homosexuals.",
+            "It seems to be true for homosexuals but not for heterosexuals.",
+            "It seems to be true for women but not for men"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the biological processes surrounding ovulation and fertilization, specifically determining the time frame during which an egg is viable for fertilization post-ovulation.",
+        "instruction 2": "Research the scientific literature or credible sources regarding the lifespan of an ovulated egg and the viability period for fertilization to provide an accurate representation of this time frame.",
+        "question": "The egg can be fertilized until about _______ after ovulation.",
+        "choices": [
+            "6 hours",
+            "24 hours",
+            "72 hours",
+            "1 week"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the biological term that describes the glandular mass of cells formed from the follicle after an egg is released, which is known as the corpus luteum, and understand its role in hormone production.",
+        "instruction 2": "Consider the physiological significance of the corpus luteum in the menstrual cycle, specifically how its function and hormonal output relate to fertility and pregnancy.",
+        "question": "After releasing an egg, the follicle, under stimulation of luteinizing hormone, turns into a a glandular mass of cells called the __________",
+        "choices": [
+            "corpus cavernosum",
+            "corpus luteum",
+            "corpus callosum",
+            "corpus glandula"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the standard treatment options available for endometriosis, such as medications (hormonal therapy, pain relief), surgical options, and lifestyle changes, while also considering the effectiveness and suitability of each treatment based on the severity of the condition.",
+        "instruction 2": "Discuss alternative therapies and support measures that can complement conventional treatment, taking into account patient preferences and the potential side effects of different treatments.",
+        "question": "How is endometriosis generally treated?",
+        "choices": [
+            "antiprosaglandin drugs",
+            "prostaglandin drugs",
+            "hormones",
+            "aspirin"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the historical beliefs surrounding vaginal lubrication prior to the Masters and Johnson research, focusing on the medical and psychological assumptions about women’s sexual physiology and the role of external factors in lubrication.",
+        "instruction 2": "Analyze the contributions of the Masters and Johnson research to the understanding of vaginal lubrication, including any scientific methodologies or findings that challenged earlier beliefs and clarified the physiological processes involved.",
+        "question": "Before the Masters and Johnson research, it was thought that vaginal lubrication was due to secretions of",
+        "choices": [
+            "Cowper's gland",
+            "Prostate gland",
+            "Bartholin glands",
+            "Adrenal gland"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze Buffy's stated fantasies to determine underlying themes of sexual fluidity and openness, considering how her attraction to women, despite primarily being attracted to men, may indicate a broader range of sexual interests.",
+        "instruction 2": "Evaluate the implications of group sex fantasies, relating them to social and psychological aspects of Buffy’s personality or desires, while recognizing that such fantasies do not necessarily reflect her actual behaviors or preferences in real life.",
+        "question": "Buffy and Willow were discussing their sexual fantasies. Buffy revealed that she sometimes fantasizes about sex with other women even though she normally finds herself attracted to men. She also fantasizes about group sex. Which of the following statements can be inferred from Buffy's fantasies?",
+        "choices": [
+            "Buffy's fantasies suggest that she must be a latent homosexual or bisexual.",
+            "Buffy's fantasies are indicative of a paraphilia.",
+            "Buffy's fantasies indicate that she is not getting enough sex to keep her satisfied.",
+            "Buffy's fantasies are fairly typical and tell us little about her sexual tendencies."
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the specific physiological and environmental conditions that optimize sperm passage, such as temperature, pH levels, and the presence of specific nutrients or fluids that facilitate the movement and viability of sperm.",
+        "instruction 2": "Identify the anatomical structures involved in sperm passage, particularly focusing on the timing and conditions within the female reproductive system that create the most favorable environment for sperm survival and motility.",
+        "question": "The environment for sperm passage is most hospitable just at",
+        "choices": [
+            "preovulation",
+            "proliferation",
+            "ovulation",
+            "menstruation"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the biological function of Cowper's gland (bulbourethral gland) and its role in the male reproductive system, particularly in terms of pre-ejaculatory fluid and its purpose in lubrication and neutralizing acidity in the urethra.",
+        "instruction 2": "Explore the physiological timeline of male sexual development, focusing on the stages of puberty during which the secretion of Cowper's gland fluid becomes evident, determining any relevant markers or milestones in male reproductive maturation.",
+        "question": "Secretions of Cowper's gland fluid at the tip of the penis are first evident:",
+        "choices": [
+            "following orgasm",
+            "immediately before orgasm",
+            "prior to vasocongestion",
+            "during the plateau phase"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze historical and cultural contexts to identify various restrictions on sexual activity, focusing on at least one specific culture or society where such restrictions were imposed and the reasons behind them.",
+        "instruction 2": "Explore the implications and effects of these restrictions on the social structure, gender roles, and individual behaviors within the identified culture, including how they were enforced and who was affected.",
+        "question": "Which of the following restrictions existed in at least one culture? No sex",
+        "choices": [
+            "for a period of time following childbirth",
+            "during menstruation",
+            "between parents and children",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the demographic or specific group of teenagers being referenced, such as age range, geographic location, or social/economic factors that may influence pregnancy rates, to ensure accurate data is being analyzed.",
+        "instruction 2": "Examine credible sources or research studies that provide statistics on teenage pregnancy rates across different groups, ensuring to compare the data for accurate conclusions regarding which teens have the highest rates.",
+        "question": "Which of the following teenagers have the highest pregnancy rates?",
+        "choices": [
+            "U.S.",
+            "Canadian",
+            "Swedish",
+            "French"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the physiological and hormonal changes that occur in the body leading up to the onset of labor, such as the role of oxytocin and prostaglandins in signaling contractions and cervical dilation.",
+        "instruction 2": "Consider external factors that may contribute to the initiation of labor, including maternal health, gestational age, and environmental influences, ensuring a comprehensive understanding of the labor onset process.",
+        "question": "The onset (the very beginning) of labor is first triggered by",
+        "choices": [
+            "hormones secreted by the Mother's ovaries",
+            "hormones secreted by the Mother's hypothalamus",
+            "hormones secreted by the fetus' adrenal gland",
+            "the placenta and uterus secretion of prostaglandins"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify key researchers or theorists in the field of human sexual response and their contributions, focusing specifically on early models that explain physiological changes during sexual activity.",
+        "instruction 2": "Examine historical context and significance of the proposed model in relation to contemporary understanding of human sexuality, considering how these early perspectives may have influenced or contrasted with later developments in sexual response theory.",
+        "question": "One of the first models of the physiology of the human sexual response was provided by",
+        "choices": [
+            "Henry Havelock Ellis",
+            "Sigmund Freud",
+            "Linda George and Stephen Weiler",
+            "William Masters and Virginia Johnson"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the emotional and cognitive processes involved in the situation described, focusing on how the recognition of inappropriateness can lead to anxiety, rather than the anticipated arousal response, within the context of Walen and Roth's cognitive model.",
+        "instruction 2": "Research the terms and concepts used by Walen and Roth in their cognitive model of sexual response to accurately fill in the blank in the question, ensuring to clarify how anxiety can manifest as a consequence of cognitive dissonance in sexual responses.",
+        "question": "An adult feels himself becoming aroused when looking at a child and realizes that the response is totally inappropriate, as a result he feels anxiety rather than arousal. This is an example of __________ according to Walen and Roth's cognitive model of the sexual response.",
+        "choices": [
+            "negative perception",
+            "negative evaluation",
+            "negative arousal",
+            "cognitive dissonance"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the psychological and sociological theories that explain the phenomenon of attraction based on similarity, focusing on concepts such as the similarity-attraction hypothesis and how shared attitudes can facilitate interpersonal connections.",
+        "instruction 2": "Evaluate the role that shared values and beliefs play in forming relationships, considering how these similarities contribute to mutual understanding and compatibility in various forms of relationships.",
+        "question": "We are attracted to a person who is similar to us in attitudes because:",
+        "choices": [
+            "we get positive reinforcement from that person agreeing with us",
+            "the other person's agreement bolsters our sense of rightness",
+            "we anticipate positive interactions with that person",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the ethnocultural context discussed in the study, paying attention to the demographic characteristics of the groups being compared, including cultural, social, and behavioral factors that may influence sexual partnership patterns among single men and women.",
+        "instruction 2": "Examine the implications of having multiple sexual partners, considering how these patterns can be affected by ethnocultural factors and how they relate to the risk of HIV/AIDS transmission within the communities studied.",
+        "question": "According to the Ethnocultural Communities Facing AIDS study, single _________ men are more likely than single _________ to report having had more than one sexual partner in the previous year.",
+        "choices": [
+            "Chinese; North African Muslim",
+            "South Asian; English-speaking Caribbean",
+            "South Asian; Chinese",
+            "North African Muslim; Latin American"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific physiological system responsible for penile or clitoral erection, focusing on the role of the autonomic nervous system, particularly the parasympathetic division that facilitates the vascular changes leading to erection.",
+        "instruction 2": "Consider the broader implications and interactions of this system with hormonal and psychological factors that contribute to sexual arousal and response, ensuring to highlight the involvement of neurotransmitters and vascular response mechanisms.",
+        "question": "Penile or clitoral erection occurs because of activation of the _________ system.",
+        "choices": [
+            "pathetic",
+            "apathetic",
+            "sympathetic",
+            "parasympathetic"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the anatomical structures that are homologous across various species, specifically focusing on the developmental origins and structures derived from the same embryonic tissues, in order to accurately determine which option corresponds to the glans of the penis.",
+        "instruction 2": "Examine the characteristics and functions of the potential homologous structures listed in the options, considering their evolutionary relationships and developmental biology to provide a clear and accurate answer.",
+        "question": "Which of the following is homologous to the glans of the penis?",
+        "choices": [
+            "labia minora",
+            "labia majora",
+            "mons",
+            "clitoris"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the typical phases of a 28-day menstrual cycle, focusing specifically on the timing of ovulation, which usually occurs around the midpoint, specifically on day 14.",
+        "instruction 2": "Consider variability in menstrual cycles, acknowledging that while day 14 is standard for a 28-day cycle, individual cycles may differ in length and may affect the exact day of ovulation.",
+        "question": "What day of a typical 28-day menstrual cycle is a woman likely to ovulate?",
+        "choices": [
+            "4",
+            "10",
+            "14",
+            "22"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific principles that govern debates concerning values, focusing on distinguishing between normative ethics and descriptive ethics as they relate to value judgments.",
+        "instruction 2": "Consider providing contextual examples or scenarios that illustrate how these principles operate in real-world situations, to better clarify their relevance and application in discussions about values.",
+        "question": "The two principles that deal with questions of values are:",
+        "choices": [
+            "religion and ethics",
+            "faith and science",
+            "legal and ethics",
+            "legal and religion"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key findings or conclusions of the studies conducted by Bailey and Pillard (1991), emphasizing their contributions to the understanding of sexual orientation and the nature versus nurture debate.",
+        "instruction 2": "Consider the broader implications of their research in the context of later studies on genetics and sexual orientation, evaluating how their findings have influenced subsequent discourse and research in the field.",
+        "question": "Studies conducted by Bailey and Pillard (1991) have shown that:",
+        "choices": [
+            "the homosexuality concordance rate for identical twins is 100%",
+            "the homosexuality concordance rate for identical twins and fraternal twins is approximately the same",
+            "the homosexuality concordance rate for identical twins is higher than for fraternal twins",
+            "the homosexuality concordance rate for adoptive brothers differs little from that of biological brothers"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the anatomical and physiological factors that influence erectile function in individuals with spinal cord injuries, focusing on how the level and severity of the injury impact the neural pathways involved in arousal and erection.",
+        "instruction 2": "Examine the role of psychological, hormonal, and vascular factors that may also contribute to erectile function in spinal-cord injured individuals, and consider how these factors interact with the specific limitations imposed by the injury.",
+        "question": "The capacity of a spinal-cord injured man to have erections depends on:",
+        "choices": [
+            "the level of the spinal cord at which the injury occurred",
+            "whether the spinal cord was partially or completely severed",
+            "the man's age",
+            "both a and b"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the context and findings of research studies focused on sexually explicit material, paying attention to the subjective nature of what is considered acceptable material for different viewers, and how this acceptance influences the psychological or social outcomes observed in the studies.",
+        "instruction 2": "Discuss the methodologies used in these studies to assess the effects of sexually explicit material, particularly how viewer acceptance is measured and how it correlates with the conclusions drawn about the impact of such materials.",
+        "question": "Research on the effects of sexually explicit material using material that the viewer finds acceptable has shown that:",
+        "choices": [
+            "erotica has no effect on sexual behavior",
+            "erotica may lead to increases in sexual arousal for men and women",
+            "nonaggressive erotica leads to massive increases in aggressive behavior",
+            "erotica decreases sexual arousal and sexual interest"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine psychological and sociological research that discusses the development of fetishism, particularly focusing on typical age ranges and factors influencing its formation during adolescence or early adulthood.",
+        "instruction 2": "Consider variations in individual experiences and cultural influences that may affect the onset age of fetishism, acknowledging that while there may be common trends, personal and contextual factors can lead to different development patterns.",
+        "question": "Fetishism typically develops at the age of:",
+        "choices": [
+            "30 through 50",
+            "at birth",
+            "10 through 20",
+            "20 through 30"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the common complications associated with chlamydia infections, particularly those that can affect pregnancy and women's reproductive health, such as infertility, ectopic pregnancy, and risks to the baby during delivery.",
+        "instruction 2": "Research the significance of early detection and treatment of chlamydia in pregnant women, considering how these complications may impact both the mother's health and the health of the unborn child.",
+        "question": "Hillary just found out that she is pregnant but she suspects that her husband has been fooling around. It is important that she be tested for chlamydia because chlamydia can cause which of the following complications?",
+        "choices": [
+            "tubal pregnancies",
+            "premature delivery",
+            "spontaneous abortion",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific moral or ethical teachings of Roman Catholicism that pertain to sinfulness, focusing on key doctrines, commandments, and theological principles that define what is considered sinful behavior.",
+        "instruction 2": "Analyze how the concept of sin in Roman Catholicism is rooted in its interpretation of scripture, tradition, and the Catechism of the Catholic Church, ensuring to clarify the implications of these teachings on the moral obligations of adherents.",
+        "question": "Roman Catholicism takes the position that it is sinful to",
+        "choices": [
+            "engage in homosexual acts",
+            "engage in heterosexual acts outside of marriage",
+            "take the birth control pill",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and examine the various methods of birth control available to married couples in the U.S., focusing on statistical data regarding their usage rates to determine which method is most commonly practiced.",
+        "instruction 2": "Evaluate the demographic factors influencing the choice of birth control methods among married couples, such as cultural, religious, and educational backgrounds, to provide context for the prevalence of the identified method.",
+        "question": "Which of the following is the most common method of birth control for married couples in the U.S..",
+        "choices": [
+            "Sterilization",
+            "The IUD",
+            "The diaphragm",
+            "The rhythm method"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific theory relevant to sociobiology that addresses the evolution of gender differences, providing clarity on how this theory connects to the evolutionary processes and adaptations observed in gender roles.",
+        "instruction 2": "Examine the major tenets and implications of the identified theory, considering how it explains behavioral and biological differences between genders in the context of evolutionary biology.",
+        "question": "The theory of _______ is used by sociobiologists specifically to explain the evolution of gender differences.",
+        "choices": [
+            "natural selection",
+            "the new synthesis",
+            "sexual selection",
+            "the gender schema"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key historical figures, organizations, or research facilities involved in the development and experimental work on the birth control pill, which may include names such as Gregory Pincus, John Rock, and the roles of pharmaceutical companies.",
+        "instruction 2": "Consider the social and ethical implications of the experimental work, including public acceptance, clinical trials, and the regulatory processes that preceded the introduction of the birth control pill to ensure a comprehensive understanding of its development.",
+        "question": "Experimental work on the introduction of the birth control pill was done with",
+        "choices": [
+            "middle- and upper-class American women",
+            "white American women",
+            "poor Puerto Rican women",
+            "Asian American women"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the biological criteria that define organisms capable of having menstrual cycles, focusing on species that exhibit this physiological process, such as humans and some primates.",
+        "instruction 2": "Evaluate the context of the question to determine if it is asking about specific animals or a general understanding of menstrual cycles in various species, ensuring to consider common misconceptions and clarify the details surrounding reproductive cycles in differing organisms.",
+        "question": "Which of the following have menstrual cycles?",
+        "choices": [
+            "some monkey species",
+            "some ape species",
+            "some breeds of dogs",
+            "a and b only"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the sexual acts that are commonly considered taboo or illegal across various cultures and societies, focusing on behaviors that lead to legal restrictions or moral condemnation.",
+        "instruction 2": "Explore the sociocultural rationale behind the prohibition of certain sexual acts, considering factors such as historical context, religious beliefs, and societal norms that influence perceptions of sexuality.",
+        "question": "What sexual act is prohibited in most societies?",
+        "choices": [
+            "masturbation",
+            "incest",
+            "sex during menstruation",
+            "sex with a non-spouse if the person is married."
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the anatomical structure that is typically removed during male circumcision, which is the foreskin (prepuce) that covers the glans of the penis.",
+        "instruction 2": "Consider the reasons and cultural significance behind circumcision, including medical, religious, and social factors that may influence the decision to perform the procedure.",
+        "question": "Which of the following is removed when a male is circumcised?",
+        "choices": [
+            "sunna",
+            "corpus spongiosum",
+            "septum",
+            "prepuce"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Establish the context by identifying the significance of Staphylococcus aureus in microbiology, including its classification as a bacterium and its relevance in healthcare and infectious diseases.",
+        "instruction 2": "Explore key characteristics of Staphylococcus aureus, such as its morphology, pathogenicity, antibiotic resistance, and common infections it causes, in order to provide a comprehensive overview of this organism.",
+        "question": "Staphylococcus aureus is...",
+        "choices": [
+            "...a hormone released during menstruation",
+            "...the term for the follicle after it has ruptured",
+            "...a bacterium associated with Toxic Shock Syndrome",
+            "...the term for the mass of cells in the corpus luteum"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze Jeffrey Dahmer's actions and psychological profile to determine which category best encapsulates his behavior, considering the definitions of various behavioral categories such as criminal pathology, antisocial behavior, or psychopathy.",
+        "instruction 2": "Examine the context of Dahmer's crimes, including motivations, methods, and consequences, to provide a comprehensive understanding of how his behavior aligns with established classifications in criminology.",
+        "question": "Jeffrey Dahmer's behaviour might best fit into the category of:",
+        "choices": [
+            "zoophilia",
+            "necrophilia",
+            "urophilia",
+            "scoptophilia"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify specific anatomical structures or characteristics that differ between males and females, focusing on areas such as reproductive organs, skeletal structure, and secondary sexual characteristics.",
+        "instruction 2": "Consider the implications of these anatomical differences in aspects such as physiology, health, and behavior, ensuring to provide a comprehensive understanding of how these differences manifest in both biological and social contexts.",
+        "question": "An anatomical difference between males and females is:",
+        "choices": [
+            "males have one exit structure for urine and reproductive fluids, whereas females have two",
+            "males have an external sexual organ that gets engorged with blood, whereas females do not",
+            "males have many times the number of nerve endings in the penis that females have in the clitoris.",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the functions typically affected by a spinal cord injury, particularly at the upper back level, and determine which specific motor and sensory capabilities would be impaired in someone who is quadriplegic.",
+        "instruction 2": "Evaluate the different bodily systems and activities of daily living that may be impacted by quadriplegia, considering both physical mobility and potential disruptions to autonomic functions.",
+        "question": "Kenny fell off a ladder while trying to change a lightbulb. He suffered an injury his upper back transecting his spinal cord and leaving him quadraplegic. Which of the following are probably impaired in Kenny?",
+        "choices": [
+            "ejaculation",
+            "erection",
+            "genital sensation",
+            "both A and C"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the components of the feedback loop in male hormone regulation, including key hormones such as testosterone, luteinizing hormone (LH), and follicle-stimulating hormone (FSH), to determine which of the options provided does not fit into this regulatory system.",
+        "instruction 2": "Review the physiological processes involved in hormone regulation, including the roles of the hypothalamus and pituitary gland, to critically analyze each option and ascertain which one is not involved in the feedback loop controlling sex hormone production.",
+        "question": "The feedback loop in men which regulates the production of sex hormones includes all but which of the following?",
+        "choices": [
+            "oxytocin",
+            "gonadotropin-releasing hormone",
+            "follicle-stimulating hormone",
+            "pituitary gland"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific themes or perspectives on sexuality presented in the Old Testament, considering various passages and interpretations that illustrate how sexuality is viewed in relation to morality, relationships, and societal norms.",
+        "instruction 2": "Analyze how these themes can vary across different books of the Old Testament and how cultural historical context may influence the understanding of sexuality, ensuring to reference key texts and scholarly interpretations.",
+        "question": "The Old Testament presents the view that sexuality is",
+        "choices": [
+            "fundamentally positive",
+            "to be considered in light of its social consequences",
+            "comparable to other biological functions",
+            "a and b"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Explore the biological and physiological implications of castration in adulthood, including its effects on hormone levels, reproductive health, and overall physical and psychological well-being.",
+        "instruction 2": "Investigate the social and ethical considerations surrounding adult castration, particularly in terms of consent, reasoning for the procedure, and its impact on gender identity and interpersonal relationships.",
+        "question": "Castration in adulthood",
+        "choices": [
+            "will produce a high voice because of decreased testosterone production.",
+            "will produce a high voice because of the pain that accompanies the procedure.",
+            "will not produce a high voice because the larynx has already grown.",
+            "will not produce a high voice because castration does not affect testosterone production."
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the potential medical, genetic, or lifestyle factors that could contribute to recurrent miscarriages in Xena's case, considering how these factors might influence her best option for achieving a successful pregnancy.",
+        "instruction 2": "Evaluate the available reproductive options that could help Xena have a child, such as consulting a fertility specialist, exploring assisted reproductive technologies (like IVF), or considering potential treatments that address underlying causes of her miscarriages.",
+        "question": "Xena has been able to conceive but has repeatedly miscarried early in her pregnancies. Which of the following would be her best option for having a child?",
+        "choices": [
+            "artificial insemination",
+            "in vitro fertilization",
+            "zygote intra-fallopian transfer",
+            "embryo transfer"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the physiological factors that influence the duration of the refractory period in men, such as age, health, and arousal level, in order to clarify variables that may affect individual experiences.",
+        "instruction 2": "Evaluate and differentiate between common misconceptions and scientifically supported facts regarding the refractory period, ensuring that the answer addresses the true nature of this phenomenon as it relates specifically to male physiology.",
+        "question": "Which of the following is TRUE of the duration of the refractory period experienced by men?",
+        "choices": [
+            "it is consistent across men and lasts 20 minutes",
+            "it varies across men lasting from a few minutes to 24 hours",
+            "it tends to be shorter with alcohol consumption",
+            "it tends to be longer in younger men"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the typical timeline of fetal development, specifically focusing on when the differentiation of external genitalia occurs in the human gestation process, to determine the approximate gestational age when gender becomes identifiable.",
+        "instruction 2": "Cross-reference medical or biological literature to establish a consensus among experts regarding the age at which external genitalia are visually distinguishable, ensuring to mention any variances due to individual or environmental factors if relevant.",
+        "question": "At about _________ months after conception, the gender of the fetus is clear from the appearance of external genitals.",
+        "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the medical term or condition that refers to the process of shedding the inner lining of the uterus, focusing on its biological significance and any related terminology, to appropriately fill in the blank.",
+        "instruction 2": "Consider the context in which this process occurs, such as the menstrual cycle, and integrate relevant details regarding normal physiological functions or any disorders associated with this shedding.",
+        "question": "__________ is a shedding of the inner lining of the uterus.",
+        "choices": [
+            "Menstruation",
+            "Ovulation",
+            "The luteal phase",
+            "The follicular phase"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the psychological and social context in which a woman may question her sexual orientation, focusing on the stages of self-awareness and identity exploration that accompany this thought process.",
+        "instruction 2": "Consider the implications of societal acceptance and individual experiences of sexual identity, including the potential internal conflicts and external influences that could impact her understanding and acceptance of her identity as a lesbian.",
+        "question": "When a woman thinks that she probably is a lesbian, she is at the:",
+        "choices": [
+            "pride stage",
+            "tolerance stage",
+            "acceptance stage",
+            "confusion stage"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and list the sexually transmitted diseases (STDs) that are known to have vertical transmission routes, specifically those that can be passed from mother to child via the placenta during pregnancy.",
+        "instruction 2": "Investigate the medical literature or guidelines that detail how these STDs impact pregnancy and the potential risks associated with transmission to the fetus, ensuring that the information is based on current health recommendations.",
+        "question": "Which of the following STDs can be passed from mother to child through the placenta?",
+        "choices": [
+            "gonorrhea",
+            "syphilis",
+            "genital herpes",
+            "chlamydia"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the sociocultural factors contributing to liberal attitudes towards premarital sex, such as exposure to diverse viewpoints, education levels, and individual belief systems, to determine likely behaviors or opinions of this demographic.",
+        "instruction 2": "Consider the implications of liberal attitudes on personal relationships, including expectations around consent, communication, and sexual health, to better understand the potential behaviors or decisions that arise from these attitudes.",
+        "question": "Persons with liberal attitudes about premarital sex are likely to:",
+        "choices": [
+            "have liberal attitudes about extramarital sex",
+            "engage in accidental extramarital sexual activity",
+            "engage in open swinging",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the physiological factors that lead to menstrual cramps, such as the role of prostaglandins in uterine contractions, and how these factors contribute to the sensation of pain during menstruation.",
+        "instruction 2": "Explore different potential causes of menstrual cramps, including hormonal changes, underlying medical conditions, and lifestyle factors, to provide a comprehensive understanding of the topic.",
+        "question": "Menstrual cramps may be caused, in part, by:",
+        "choices": [
+            "low levels of prostaglandin",
+            "an increased oxygen supply to the uterus",
+            "highly sensitive nerve endings",
+            "frequent masturbation"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Research and define genital herpes, focusing on its causes, symptoms, and modes of transmission to provide a foundational understanding of the condition.",
+        "instruction 2": "Evaluate the social and health implications of genital herpes, including stigma, treatment options, and the importance of communication in sexual relationships, ensuring to present factual and sensitive information.",
+        "question": "Avalon had a wild time during spring break. Unfortunately the guy she hooked up with in Palm Beach had genital herpes. Which of the following is true about genital herpes?",
+        "choices": [
+            "Avalon could not contract genital herpes from performing fellatio (oral-genital sex) on the guy.",
+            "If Avalon contracted genital herpes she can be cured with antibiotics if administered immediately after the first occurrence.",
+            "If Avalon contracted genital herpes she will only be contagious when she has a break out.",
+            "none of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the biological or physiological factors that may be affected by the consumption of alcohol, specifically focusing on how the intake of only one beer might impact variables such as blood alcohol concentration, cognitive function, or motor skills.",
+        "instruction 2": "Analyze the context of the question by considering what aspects of Stan's abilities or health might be relevant to the consumption of alcohol, ensuring to explore both immediate effects and longer-term implications of consuming only a single beer.",
+        "question": "Stan is out having a few beers with some friends. Which of the following will be DECREASED if Stan only consumes 1 beer?",
+        "choices": [
+            "arousal",
+            "erection",
+            "inhibition",
+            "orgasm"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define vasocongestion by explaining the physiological process it involves, particularly focusing on how blood vessels expand and cause increased blood flow to specific areas of the body, often related to sexual arousal.",
+        "instruction 2": "Explore the implications of vasocongestion in various contexts, such as its role in the human body's response mechanisms, its impact on sexual function, and the potential consequences of impaired or excessive vasocongestion.",
+        "question": "Vasocongestion is a process of :",
+        "choices": [
+            "muscle contraction",
+            "blood accumulation in the genitals",
+            "muscle relaxation",
+            "detumescence"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define what secondary sex characteristics are, and distinguish between those that are common to both males and females, such as breast development in females and increased body hair in males, while also clarifying characteristics specifically unique to each gender.",
+        "instruction 2": "Analyze the provided options to determine which characteristics fit the definition of secondary sex characteristics for both males and females, ensuring they align with the biological and physiological roles of those characteristics in each gender.",
+        "question": "Which of the following is/are secondary sex characteristics in males AND females?",
+        "choices": [
+            "underarm hair",
+            "sweat and oil glands",
+            "deepening of the voice",
+            "both A and B"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the symptoms described in the scenario, such as extreme pain, a burning sensation, and a yellowish discharge, and consider the common medical conditions associated with these symptoms, focusing particularly on sexually transmitted infections (STIs) or urinary tract infections (UTIs).",
+        "instruction 2": "Evaluate potential diagnoses based on the symptoms presented, ensuring to mention the urgency of seeking medical attention and the importance of discussing symptoms with a healthcare professional for accurate diagnosis and treatment.",
+        "question": "It's 3:00 A.M. You are male. You awaken to urinate. Standing at the commode you are in extreme agony. Your penis feels as if it is on fire. You notice a yellowish discharge coming out of your penis after you finish urinating. Your moans have awakened your significant other. She comes running into the bathroom and asks you what is wrong. You tell her you probably have:",
+        "choices": [
+            "genital herpes",
+            "AIDS",
+            "syphilis",
+            "gonorrhea"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the common norms and etiquette associated with swinging, focusing on aspects such as consent, communication, and boundaries that are crucial to ensure a respectful and enjoyable experience for all participants.",
+        "instruction 2": "Evaluate how these norms compare and contrast with social norms in other relationship dynamics or lifestyle choices, considering the unique aspects of swinging that influence its community standards.",
+        "question": "Which of these statements is accurate concerning the norms of swinging?",
+        "choices": [
+            "Male and female homosexual acts are common and widely accepted.",
+            "It is expected that couples will engage in sex with the same partners on several occasions.",
+            "The combination of two men with one woman is the typical introduction to swinging.",
+            " Most swingers also tend to have tolerant attitudes towards various forms of \"exotic\" sexuality."
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the context in which Romulo's actions take place to determine the social and ethical implications of his behavior, focusing on concepts such as consent, respect, and boundaries in public spaces.",
+        "instruction 2": "Categorize Romulo's behavior using psychological or sociological terms related to inappropriate conduct, such as sexual harassment or groping, by considering the societal norms that govern acceptable interactions between individuals in crowded environments.",
+        "question": "Romulo is on a crowded bus and he sees a woman near the door. Feeling a little saucy Romulo proceeds to rub up against the woman and is immediately aroused. Romulo's inappropriate behavior would be characterized as:",
+        "choices": [
+            "Frotteurism",
+            "Exhibitionism",
+            "Voyeurism",
+            "Sadomasochism"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the common ingredients or components typically found in mini-pills, which may include active pharmaceutical ingredients, excipients, or any special coatings that aid in delivery or absorption.",
+        "instruction 2": "Consider the purpose of the mini-pill, whether it is a medication, dietary supplement, or another type of pill, to accurately contextualize the ingredients and their functions within the product.",
+        "question": "Mini-pills contain:",
+        "choices": [
+            "estrogen only",
+            "progestin only",
+            "synthetic androgens and estrogen",
+            "synthetic estrogen"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the construction of the sentence to determine the structural and contextual implications of the terms 'heterosexual' and 'gay/lesbian' fantasies, focusing on the nature of sexual attraction and the typical characteristics associated with each orientation.",
+        "instruction 2": "Identify the societal norms and expectations regarding sexual fantasies that inform the missing terms, ensuring to consider the psychological and cultural aspects that influence how fantasies are conceived based on one's sexual orientation.",
+        "question": "Heterosexual fantasies about sexual activity never involve someone _________, and gay and lesbian fantasies never involve persons of __________",
+        "choices": [
+            "Both heterosexual and homosexual fantasies may involve persons of the same or other gender",
+            "of the other gender; of the same gender",
+            "of the same gender; of the same gender",
+            "of the same gender; of the other gender"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the medical and physiological implications of a vasectomy, focusing on how this surgical procedure affects male fertility and hormonal levels, and highlight any common misconceptions or facts associated with the procedure.",
+        "instruction 2": "Consider the social and psychological aspects linked to having a vasectomy, including the reasons men might choose the procedure, potential impacts on relationships, and how it is viewed in different cultural contexts.",
+        "question": "Which of the following is typically associated with having a vasectomy?",
+        "choices": [
+            "decreased testosterone production",
+            "reduced rigidity of erections",
+            "decreased sperm production",
+            "normal orgasm"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the definition of reflexes, distinguishing them from other types of responses, and establish criteria to determine what qualifies as a reflex.",
+        "instruction 2": "Compile a list of the options provided and systematically evaluate each one against the established criteria to determine which of them are classified as reflexes.",
+        "question": "Which of the following are reflexes?",
+        "choices": [
+            "ejaculation",
+            "erection",
+            "orgasm",
+            "both A and B"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Evaluate the context of 'sexual variations' and establish the criteria for determining what constitutes 'dangerous.' This may include assessing health risks, societal stigma, legal implications, and psychological effects associated with different sexual variations.",
+        "instruction 2": "Analyze the list of sexual variations provided, comparing them based on the previously established criteria to identify which variation poses the highest level of danger in terms of health risks or negative societal impact.",
+        "question": "Which of the following sexual variations is probably the most dangerous?",
+        "choices": [
+            "troilism",
+            "asphyxiophilia",
+            "zoophilia",
+            "necrophilia"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the relationships between the phases of the menstrual cycle, specifically identifying which phase corresponds to the follicular phase, focusing on the ovulatory and menstrual cycles.",
+        "instruction 2": "Analyze the terminology associated with each phase to confirm that the secretory phase relates to the luteal phase, ensuring that you identify the correct physiological processes and hormonal changes that characterize these phases.",
+        "question": "The follicular phase is to the __________ as the luteal phase is to the secretory phase.",
+        "choices": [
+            "postovulatory",
+            "menstrual",
+            "proliferative",
+            "myometrial"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and analyze the various positions for intercourse that are commonly discussed in terms of optimizing the chances of conception, focusing on anatomical considerations and the role of gravity in sperm deposition.",
+        "instruction 2": "Consider the implications of timing related to ovulation cycles and how different sexual positions may interact with this timing to influence conception rates, ensuring to also reference any relevant studies or expert recommendations.",
+        "question": "For purposes of conception, the best position for intercourse is:",
+        "choices": [
+            "woman-on-top",
+            "man-on-top",
+            "rear entry",
+            "side-to-side"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Evaluate the context of the statement made by Sandy, considering factors such as the nature of their relationship, the workplace environment, and the potential impact of the comment on Danny's comfort and sense of professionalism.",
+        "instruction 2": "Assess the broader understanding of harassment definitions, including whether the comment creates a hostile work environment or if it is perceived as unwelcome and inappropriate by Danny, regardless of Sandy's intentions.",
+        "question": "Danny and Sandy are coworkers. Sandy sees Danny in the break room and says \"Hey Stud! Nice buns! Wanna do it?\" This would be considered harrassment if:",
+        "choices": [
+            "Sandy is Danny's supervisor",
+            "Danny has previously told Sandy that he does not appreciate her advances",
+            "Danny responds with \"Sure baby your office or mine?\"",
+            "both A and B"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific physiological stage of the sexual response cycle that corresponds to the mentioned changes in male and female anatomy, focusing on the terms used within the context of human sexuality.",
+        "instruction 2": "Consider the broader sexual response cycle model, including the phases of excitement, plateau, orgasm, and resolution, to place the identified stage within the correct sequence and clarify its significance in the overall sexual response process.",
+        "question": "Erection in the male and vaginal lubrication in the female mark the __________ stage of sexual response.",
+        "choices": [
+            "excitement",
+            "resolution",
+            "plateau",
+            "orgasm"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and list the primary functions of the placenta in fetal development, such as nutrient transfer, waste elimination, and hormone production, to establish a clear understanding of its roles.",
+        "instruction 2": "Determine which functions are not performed by the placenta by comparing the identified functions against common misconceptions or facts about the placenta's role, ensuring to clearly delineate what it does not do.",
+        "question": "The placenta does all of the following except:",
+        "choices": [
+            "supplies oxygen to the fetus",
+            "supplies nutrients to the fetus",
+            "supplies blood to the fetus",
+            "secretes hormones"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the various types of menstrual problems that exist, such as dysmenorrhea, amenorrhea, and irregular periods, and compare their prevalence rates based on medical studies or surveys to determine which is the most common.",
+        "instruction 2": "Consider demographic factors that may influence the occurrence of menstrual problems, such as age, lifestyle, and health conditions, to provide a well-rounded answer that reflects the current understanding of menstrual health.",
+        "question": "Which of the following is the MOST COMMON menstrual problem?",
+        "choices": [
+            "painful menstruation",
+            "absence of menstruation",
+            "menstruation without ovulation",
+            "ovulation without menstruation"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the characteristics of attachment styles as defined by attachment theory, particularly focusing on the traits associated with insecure attachment styles such as avoidant attachment, which manifest in discomfort with closeness and intimacy in relationships.",
+        "instruction 2": "Evaluate the specific behaviors and feelings described in Helen's relationships to determine which attachment style aligns with her discomfort, ensuring to draw clear connections to the definitions provided by attachment theory.",
+        "question": "In all of her relationships Helen is typically uncomfortable feeling close to another person or having that person feel close to her. According to attachment theory Helen would best be described as:",
+        "choices": [
+            "a secure lover",
+            "an avoidant lover",
+            "an anxious-ambivalent lover",
+            "a passionate lover"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Research and identify the average sperm count in a typical ejaculate, noting the range provided by medical literature, such as the World Health Organization, to establish a baseline figure.",
+        "instruction 2": "Consider the factors that can influence sperm count, including individual health, lifestyle factors, and environmental impacts, ensuring to highlight the variability that exists in the sperm count among different individuals.",
+        "question": "Approximately how many sperm are in the typical ejaculate?",
+        "choices": [
+            "300,000",
+            "300 million",
+            "3 million",
+            "30 million"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze Bill's behavior in the context of sexual identity and expression, focusing on the implications of cross-dressing and its psychological aspects of sexual arousal and identity formation.",
+        "instruction 2": "Consider the societal perceptions and labels associated with such behavior, exploring terms such as 'cross-dresser,' 'transvestite,' or 'gender non-conforming,' and determine which label most accurately describes Bill based on the context provided.",
+        "question": "Bill is a successful ad executive for a computer company. He is 32 married and the father of two children. When Bill's wife is not home he puts on her satin stockings garter belt bra skirt blouse and red stilettos. While dressing he becomes sexually excited and proceeds to masturbate. Which of the following descriptions best fits Bill?",
+        "choices": [
+            "female impersonator",
+            "drag queen",
+            "transsexual",
+            "transvestite"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and articulate the primary assumption made by sociobiologists regarding the evolutionary significance of sex, focusing on concepts like reproduction, genetic diversity, and the survival of species.",
+        "instruction 2": "Examine how this assumption relates to behaviors observed in various species, considering examples that illustrate the implications of sexual reproduction on social structures and mating strategies in the context of sociobiological theory.",
+        "question": "Sociobiologists assume that the central function of sex is:",
+        "choices": [
+            "pleasure",
+            "reproduction",
+            "to maintain the double standard",
+            "to relieve tension"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the different approaches to psychotherapy and categorize them based on their focus areas, particularly noting which approaches emphasize problem behavior and behavior modification techniques.",
+        "instruction 2": "Analyze the methodologies used in the identified approaches, examining how they address problem behavior specifically, as opposed to those that may consider underlying issues or emotional processes.",
+        "question": "Which of the following approaches to psychotherapy focuses only the problem behaviour and how to modify it?",
+        "choices": [
+            "Behaviour modification",
+            "psychoanalytic",
+            "sociological",
+            "evolutionary"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the main thesis or argument presented by JD Unwin in his book _Sex and Culture_, specifically focusing on the two aspects he claims are interrelated, such as the connection between societal sexual practices and cultural development.",
+        "instruction 2": "Examine how Unwin correlates the levels of sexual restraint and the flourishing of cultures, ensuring to capture the nuances of his claims and any examples he provides to illustrate the linkage he proposes.",
+        "question": "JD Unwin's book _Sex and Culture_ argues what two things are linked?",
+        "choices": [
+            "homosexuality in sons with distant fathers",
+            "sexual abuse and Christianity",
+            "civilizational collapse and promiscuity",
+            "anthropology and evolution"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the encyclical 'Humanae Vitae' as a specific document released by the Catholic Church that addresses its teachings on artificial birth control, including its historical context and significance within Catholic doctrine.",
+        "instruction 2": "Examine the main arguments and theological reasoning presented in 'Humanae Vitae' regarding human sexuality and procreation, highlighting how these teachings reflect the Church's stance on the morality of artificial means of birth control.",
+        "question": "The official condemnation by the Catholic Church of artificial birth control is set forth in _______ encyclical called Humanae Vitae.",
+        "choices": [
+            "Pope John II's",
+            "Pope Paul VI's",
+            "Pope John Paul I's",
+            "Pope John Paul II's"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the fundamental principles of Byrne's law of attraction, particularly focusing on factors that contribute to interpersonal attraction, such as similarity in attitudes, interests, and values between individuals.",
+        "instruction 2": "Evaluate how Byrne's formula quantifies attraction based on these principles, considering the various elements of attraction that the formula incorporates and how these elements relate to social psychology.",
+        "question": "According to Byrne's law of attraction and his formula, we are attracted to people who:",
+        "choices": [
+            "provide a lot of reinforcement and a small amount of punishment",
+            "provide more punishment than reinforcement",
+            "provide an equal balance of punishment and reinforcement",
+            "are extremely attractive and provide a lot of reinforcement"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze Benny's psychological state by considering factors such as power dynamics, stress relief, and the role of consensual submission in intimate relationships, highlighting how these elements contribute to the allure of the described scenario.",
+        "instruction 2": "Explore relevant psychological theories related to BDSM and kink, including the concepts of safe spaces for vulnerability and the ways in which engaging in power exchange can provide emotional satisfaction or a release from everyday pressures.",
+        "question": "Benny is the head of a successful corporation. After a hard day at work during which he is under incredible pressure to perform well, he goes home to his wife who proceeds to spank him, tie him to their four poster bed, and tease him until he begs for intercourse. According to psychological theory, what is the most likely reason Benny finds this alluring?",
+        "choices": [
+            "As a child be became sexually aroused pretending to be a powerful executive, so he now becomes aroused at work and must discharge this when he gets home.",
+            "He is overcome with feelings of self doubt and his sadomasochistic behaviour allows him a safe outlet for that self doubt.",
+            "He is overwhelmed with pressures and responsibilities at work, and the masochistic behaviour allows him to escape from being an autonomous, separate individual.",
+            "He is secretly fascinated by violence and engaging in sadomasochistic behaviour is a relatively safe outlet for it."
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the implications of having two moms on Timmy's upbringing, considering aspects of family dynamics, social environment, and potential societal perceptions, which may contribute to his identity and experiences.",
+        "instruction 2": "Evaluate common characteristics associated with children raised in non-traditional family structures, emphasizing emotional development, resilience, and adaptability, and how these may uniquely characterize Timmy in this scenario.",
+        "question": "Darla and Janice are two moms raising a son Timmy. Which of the following most likely characterizes Timmy?",
+        "choices": [
+            "He will probably grow up to be gay.",
+            "He will not be popular with his peers.",
+            "As long as Timmy has at least one supportive and accepting caregiver he will have a healthy development.",
+            "His social skills will lag behind his peers who are raised in heterosexual families."
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the psychological and emotional responses that individuals may experience after completing a sexual act, particularly in the context of sexual addiction, such as feelings of guilt, shame, or emptiness.",
+        "instruction 2": "Analyze the behavioral patterns associated with sexual addiction, including the potential for compulsive actions and the subsequent need for repeat behaviors, as well as how these experiences impact the addict's relationships and overall well-being.",
+        "question": "What are the experiences when a sexual addict has completed the sexual act?",
+        "choices": [
+            "(s)he experiences feelings of hopelessness and despair",
+            "(s)he uses the fantasy of the behaviour just completed to become aroused again",
+            "(s)he feels relaxed and emotionally relieved",
+            "(s)he immediately becomes sexually aroused again and feels good about the behaviour"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify common physical and psychological factors that can lead to coital pain in both men and women, such as physiological conditions, emotional stress, and relational aspects that may contribute to discomfort during intercourse.",
+        "instruction 2": "Explore how anatomical differences between men and women can influence the experience of coital pain but recognize that certain conditions or situations can affect both genders similarly, ensuring to consider medical and sexual health perspectives.",
+        "question": "Which of the following is/are likely to cause coital pain for BOTH men and women?",
+        "choices": [
+            "infections",
+            "foreskin too tight",
+            "vaginismus",
+            "both A and C"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific phase of the menstrual cycle during which the endometrium undergoes growth and thickening, specifically focusing on the role of hormonal changes, particularly estrogen, during the follicular phase.",
+        "instruction 2": "Consider the implications of this endometrial growth in relation to its function in preparing for possible implantation of a fertilized egg, and how these biological changes correlate with the overall menstrual cycle.",
+        "question": "The endometrium grows and thickens during:",
+        "choices": [
+            "menstruation",
+            "the follicular phase",
+            "the luteal phase",
+            "ovulation"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the biological and hormonal processes that mark the beginning of puberty, focusing specifically on the triggers that initiate these changes in the body, such as the release of gonadotropin-releasing hormone (GnRH) from the hypothalamus.",
+        "instruction 2": "Examine the list of events provided to determine which of them is most directly linked to the initiation of puberty, distinguishing it from other processes or events that occur during puberty or are related but do not initiate the process.",
+        "question": "Which of the following events INITIATES puberty?",
+        "choices": [
+            "pituitary gland releases FSH",
+            "pituitary gland releases growth hormone",
+            "hypothalamus releases GNRS",
+            "hypothalamus releases LH"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the context or specific aspect of Alexander the Great that is being queried, such as his military strategies, achievements, or historical significance, to formulate a comprehensive response.",
+        "instruction 2": "Explore the broader impact of Alexander the Great's conquests on subsequent historical events or civilizations, considering both immediate effects and long-term influences on culture, politics, and geography.",
+        "question": "Alexander the Great was probably",
+        "choices": [
+            "bisexual",
+            "asexual",
+            "heterosexual",
+            "pedosexual"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the psychological methods employed in therapy to address sexual fantasies, specifically focusing on the technique of substitution where an individual replaces a problematic fantasy with a more acceptable one at a critical moment.",
+        "instruction 2": "Consider how this process relates to concepts in sexual health, therapy techniques, and the ethical implications of fantasizing about non-consenting individuals, ensuring to examine the therapeutic goal of promoting healthier sexual attitudes and behaviors.",
+        "question": "Shaggy has a fantasy about digging up a recently buried woman and having sex with her. He told his friends this and they encouraged him to get therapy. As part of the treatment he masturbates to his fantasy and at the last moment before orgasm he switches to a fantasy about having sex with a living woman. This procedure is part of the process of:",
+        "choices": [
+            "orgasmic reconditioning",
+            "aversive conditioning",
+            "covert sensitization",
+            "desensitization therapy"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the various sources through which girls typically receive information about masturbation, including personal experiences, peer discussions, educational resources such as school health classes, and media influences.",
+        "instruction 2": "Consider the role of cultural, social, and familial attitudes toward sexuality and masturbation, as these factors may influence the accessibility and quality of information that girls acquire on the topic.",
+        "question": "How do girls most frequently learn about masturbation?",
+        "choices": [
+            "through reading about it",
+            "being told by peers",
+            "self-discovery",
+            "observing others doing it."
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific degree of dilation required for the cervix during labor, which is typically measured in centimeters, and establish the standard medical consensus on this threshold for a vaginal delivery.",
+        "instruction 2": "Consider any variations in cervical dilation requirements based on different circumstances, such as whether the birth is the mother's first or subsequent child, or if there are any medical conditions that may influence the birthing process.",
+        "question": "How many centimetres must the cervix dilute to before a baby can be born?",
+        "choices": [
+            "5",
+            "10",
+            "15",
+            "20"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the data trends related to the reported behavior of unmarried heterosexual adults aged 20 to 45 during the specified period (1988 to 1990), focusing on any statistical changes in the prevalence of multiple partnerships.",
+        "instruction 2": "Identify and consider the sociocultural factors that may have influenced relationship patterns and partner numbers during this time frame, including shifts in societal attitudes towards dating and relationships.",
+        "question": "From 1988 to 1990 among heterosexuals in the US, the number of unmarried adults aged 20 to 45 who report having multiple partners has:",
+        "choices": [
+            "declined for both men and women",
+            "declined for men, but not for women",
+            "declined for women, but not for men",
+            "declined for men, and remained the same for women"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define voyeurism in the context of psychological and social perspectives, ensuring to differentiate between consensual observation and non-consensual invasion of privacy, as well as its legal implications.",
+        "instruction 2": "Examine the motivations behind voyeuristic behavior, considering factors such as curiosity, thrill-seeking, and the impact of societal norms on perceptions of voyeurism in various contexts.",
+        "question": "Which is true with regard to voyeurs?",
+        "choices": [
+            "They are generally middle-aged.",
+            "They are usually dangerous.",
+            "They typically want to view friends' sexual behaviours.",
+            "They typically want to observe strangers' activities."
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the three key dimensions of intimacy commonly recognized in psychological literature, such as emotional intimacy, physical intimacy, and intellectual intimacy, and explain how each dimension contributes to the overall closeness in romantic relationships.",
+        "instruction 2": "Examine how these dimensions interrelate and how they can be fostered or hindered in romantic relationships, considering factors that promote healthy intimacy and those that may create barriers.",
+        "question": "What are the three dimensions of intimacy in romantic relationships that outline closeness and sharing?",
+        "choices": [
+            "affective, trusting, and friendship",
+            "becoming emotional, caring, and physical",
+            "affective, cognitive, and physical",
+            "mutual self-disclosure, sexuality, and trusting"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the nature of Mike's difficulty in arousal by considering the context of his relationship with Carol versus his reaction to his secretary, distinguishing between psychological factors and potential medical issues that might contribute to his dysfunction.",
+        "instruction 2": "Analyze how Mike's limited arousal with Carol could indicate potential relationship dynamics, such as emotional connection or attraction issues, while contrasting this with the implications of his arousal towards another individual outside the marriage, assessing factors like attraction and situational context.",
+        "question": "Mike and Carol have been married for 5 years. Recently Mike has found that although he wants to have sex with Carol he has trouble getting aroused. However he does not have trouble getting aroused when he sees his secretary at work. Which of the following describe(s) Mike's dysfunction?",
+        "choices": [
+            "Mike suffers from a global dysfunction.",
+            "Mike suffers from erectile dysfunction.",
+            "Mike suffers from lubrication inhibition.",
+            "Mike must be having an affair with his secretary."
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the medical term related to the condition described, commonly known as an ectopic pregnancy, ensuring to explain the implications of the fertilized egg implanting outside the uterus rather than within the normal gestational location.",
+        "instruction 2": "Discuss the potential risks and complications associated with this condition, including symptoms, diagnosis methods, and the required medical interventions that are distinct from a typical intrauterine pregnancy.",
+        "question": "__________ occurs when the fertilized egg implants somewhere other than the uterus.",
+        "choices": [
+            "Pseudocystitis",
+            "Ectopic pregnancy",
+            "Pre-eclamptic pregnancy",
+            "Eclamptic pregnancy"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and define the roles and behaviors typically associated with a pimp, focusing on their function in relation to sex work and the dynamics of power, control, and exploitation that may be involved.",
+        "instruction 2": "Consider the social, legal, and cultural implications of the term 'pimp,' including how it is perceived within various contexts and the broader societal issues of gender, consent, and human trafficking that may influence this definition.",
+        "question": "A pimp can be best described as ",
+        "choices": [
+            "...a male companion-master of a prostitute",
+            "...a gigolo who works with a street walker",
+            "...an experienced male prostitute",
+            "...an escort to a female prostitute"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the biological processes and hormonal changes that initiate menstruation, specifically focusing on the role of the menstrual cycle's phases, including the follicular phase, ovulation, and luteal phase.",
+        "instruction 2": "Consider the environmental and physiological factors that can influence the initiation of menstruation, such as nutrition, stress, and health conditions, to provide a comprehensive understanding of what triggers this biological process.",
+        "question": "Menstruation is triggered by...",
+        "choices": [
+            "...a sharp increase in estrogen levels",
+            "...a sharp increase in progesterone levels",
+            "...a sharp decrease in estrogen and progesterone levels",
+            "...a sharp increase in estrogen and progesterone levels"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Review existing literature on self-disclosure in relationships to identify key findings and trends, focusing on the implications of self-disclosure for relationship satisfaction and intimacy as supported by empirical studies.",
+        "instruction 2": "Evaluate various contexts and types of relationships (e.g., friendships, romantic relationships, professional relationships) to determine how self-disclosure may differ and what the research indicates about its effects in these varied settings.",
+        "question": "Which of the following concerning self-disclosure in relationships is supported by research?",
+        "choices": [
+            "when one partner in a relationship self-discloses, the other is unlikely to do so",
+            "self-disclosure on the part of one partner often leads to self-disclosure on the part of the other",
+            "there is a negative correlation between amount of self-disclosure and relationship satisfaction",
+            "there is no relationship between amount of self-disclosure and relationship satisfaction"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the key stages in the development of attachment theory, particularly focusing on the phases of attachment as proposed by researchers such as John Bowlby or Mary Ainsworth, and how these contribute to the caregiver-child relationship.",
+        "instruction 2": "Explore the factors that influence the establishment of attachment, including consistent caregiver responsiveness, the child's developmental needs, and the sociocultural context, to provide a comprehensive understanding of how and when attachment forms.",
+        "question": "Attachment to a care-giver begins:",
+        "choices": [
+            "in the hours immediately following birth",
+            "several weeks after birth",
+            "several months after birth",
+            "when the child learns to speak"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific biological process that is inhibited by female sterilization, focusing on how this form of contraception affects the reproductive system and hormone production.",
+        "instruction 2": "Determine the implications of inhibited production in relation to female reproductive health, specifically considering the impact on menstrual cycles and ovulation.",
+        "question": "Female sterilization inhibits _________ production.",
+        "choices": [
+            "egg",
+            "estrogen",
+            "progesterone",
+            "none of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify synonymous terms for sexual self-stimulation, ensuring to avoid any euphemisms or colloquial terms unless they are widely accepted in formal language, such as 'masturbation'.",
+        "instruction 2": "Consider the context in which the term is used, recognizing that variations may exist across different cultures, languages, or disciplines, and ensure the response is suitable for a general audience.",
+        "question": "Another term for sexual self-stimulation is:",
+        "choices": [
+            "masturbation",
+            "autoeroticism",
+            "self-eroticism",
+            "a and b"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine LeVay's research methodology, including sample size, selection criteria of participants, and potential biases that may affect the validity of his conclusions regarding brain differences between heterosexuals and homosexuals.",
+        "instruction 2": "Consider the broader implications of LeVay's findings on the understanding of sexual orientation, including any ethical concerns, the potential for misinterpretation of data, and counterarguments that may arise from alternative studies or perspectives in the field of sexual orientation research.",
+        "question": "You have been asked to write a response paper to LeVay's research on brain differences between heterosexuals and homosexuals. Which are plausible criticisms of LeVay's work?",
+        "choices": [
+            "Sample size was relatively small.",
+            "Gay and straight groups were not equivalent in terms of the number of deaths due to AIDS.",
+            "Lesbians were omitted from the study.",
+            "all of the above"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research and identify reputable sources or studies that provide statistical data on the percentage of adolescent males who have had homosexual experiences during their teenage years, ensuring to contextualize the data within broader discussions on sexual orientation and adolescent behaviors.",
+        "instruction 2": "Consider the variability in percentages based on different demographics or research methodologies, and be prepared to present a range of estimates to reflect the complexities of measuring sexual experiences among adolescents.",
+        "question": "About ___ % of adolescent males have homosexual experiences during their teenage years.",
+        "choices": [
+            "5",
+            "10",
+            "20",
+            "30"
+        ],
+        "subject": "human_sexuality",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the main sources of hormone secretion within the body, identifying key glands such as the pituitary, adrenal, thyroid, and pancreas, and their roles in releasing specific hormones.",
+        "instruction 2": "Examine the processes and stimuli that trigger hormone secretion, including feedback mechanisms and the role of the endocrine system, to provide a comprehensive understanding of where and how hormones are secreted in the body.",
+        "question": "Hormones are secreted:",
+        "choices": [
+            "directly into the bloodstream",
+            "into the tissues surrounding the glands where they were manufactured",
+            "into the stomach and then are digested and travel throughout the body",
+            "into the ovaries and testes"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Research the typical growth milestones of an embryo during the first month of pregnancy, specifically noting the length of the embryo around 28 days after conception, and find reputable medical or biological sources that provide this data.",
+        "instruction 2": "Ensure to convert any measurements into centimeters if they are provided in different units, maintaining accuracy and clarity in reporting the size of the embryo.",
+        "question": "By 28 days after conception, the embryo is about __________ centimetres long.",
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the context and significance of the quote, which pertains to personal privacy and government intervention, and explore the historical and political landscape in which the former Prime Minister made this statement.",
+        "instruction 2": "Research specific details about the former Prime Minister's policies or actions related to civil liberties and personal freedoms, as this information may provide insight into their perspective and the legacy of the quote.",
+        "question": "\"The state has no business in the bedrooms of the nation,\" is a famous quote by this former Canadian Prime Minister.",
+        "choices": [
+            "Clark",
+            "Mulroney",
+            "King",
+            "Trudeau"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the psychological connection between anxiety and erectile dysfunction, focusing on how stress and nervousness can affect physiological responses, including sexual arousal.",
+        "instruction 2": "Evaluate the specific context of the presentation, considering factors such as performance anxiety or fear of judgment, and how these may intensify Keith's overall anxiety, ultimately impacting his ability to maintain an erection.",
+        "question": "Keith is really anxious about a big presentation he has to give at work tomorrow. As a result tonight he is having trouble getting an erection. Which of the following BEST explains why Keith might be having this problem?",
+        "choices": [
+            "relaxation is necessary for vasocongestion",
+            "anxiety inhibits the sympathetic system",
+            "anxiety causes retrograde ejaculation which inhibits arousal",
+            "anxiety decreases blood flow to the upper spinal cord inhibiting vasocongestion"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Understand the Kinsey scale and its classification system, focusing on the definitions associated with each rating from 0 to 6, to accurately interpret what a rating of 4 signifies in the context of sexual orientation.",
+        "instruction 2": "Consider the implications of a rating of 4 in terms of sexual attraction and behavior, and how it reflects a predominant attraction toward the same sex while still allowing for some attraction to the opposite sex.",
+        "question": "A person with a rating of 4 on the Kinsey scale would be classified as:",
+        "choices": [
+            "mostly heterosexual with incidental homosexual experience",
+            "heterosexual with substantial homosexual experience",
+            "homosexual with substantial heterosexual experience",
+            "mostly homosexual with incidental heterosexual experience"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the stages of the sexual response cycle, particularly focusing on the physiological and psychological processes that occur during each stage, to determine at which stage the refractory period is specifically defined.",
+        "instruction 2": "Clarify the characteristics of the refractory period, including its duration and implications for subsequent sexual arousal and performance in males, differentiating it from the other stages such as excitement, plateau, and orgasm.",
+        "question": "The refractory period occurs in males during the ______ stage.",
+        "choices": [
+            "resolution",
+            "orgasm",
+            "plateau",
+            "excitement"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the zona pellucida in the context of human biology, detailing its role in reproduction and fertilization, including its structure and significance in the process of oocyte maturation and embryo development.",
+        "instruction 2": "Discuss the functions of the zona pellucida beyond its structural components, such as its involvement in species-specific sperm binding and prevention of polyspermy during fertilization, while also considering its relevance in assisted reproductive technologies.",
+        "question": "The zona pellucida is...",
+        "choices": [
+            "...a protective layer surrounding the egg",
+            "...the fertilized egg",
+            "...an enzyme secreted by sperm to break down the protective coating on the egg.",
+            "...the area where sperm collect before attempting to fertilize the egg."
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific anatomical areas in males most commonly affected by gonorrhea and chlamydia infections, such as the urethra, and discuss the implications of these infections on male reproductive health.",
+        "instruction 2": "Explore the prevalence rates and risk factors associated with these sexually transmitted infections among men, considering demographic factors that may influence infection rates.",
+        "question": "In men gonorrhea and chlamydia most often infect the:",
+        "choices": [
+            "penis",
+            "scrotum",
+            "urethra",
+            "bladder"
+        ],
+        "subject": "human_sexuality",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and compare different methods of abortion, focusing on the associated costs, risks of complications, and any relevant medical data that outlines these factors for each method.",
+        "instruction 2": "Consider the contexts in which these abortions might be performed (e.g., facility type, geographical location, legal restrictions) as these can influence the overall cost and risk levels associated with each method.",
+        "question": "Which method of abortion is most costly and carries the greatest risk of complications?",
+        "choices": [
+            "hysterotomy",
+            "saline-induced abortion",
+            "prostaglandin abortion",
+            "dilation and curettage"
+        ],
+        "subject": "human_sexuality",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the potential health conditions that could cause itching and skin irritation in the genital area, considering factors such as sexually transmitted infections (STIs) and common dermatological issues, while also taking into account her sexual history.",
+        "instruction 2": "Evaluate the importance of seeking medical advice for accurate diagnosis and treatment, emphasizing the need for a professional consultation to determine the specific condition and appropriate care.",
+        "question": "Miss Jones has been concerned about her health lately. She has noticed some itching and skin irritation around her genitals. Given her promiscuous sexual history she suspects that she has contracted:",
+        "choices": [
+            "chlamydia",
+            "genital warts",
+            "gonorrhea",
+            "pubic lice"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Review the anatomy of the female breast, identifying components such as lobules, ducts, connective tissue, and adipose tissue to establish a clear understanding of its internal structure.",
+        "instruction 2": "Consider common misconceptions or less known facts about breast anatomy, as well as typical external features, to accurately determine which option does not belong to the internal structure.",
+        "question": "Which of the following is NOT part of the internal structure of a female's breast?",
+        "choices": [
+            "Breast lobule",
+            "Lactiferous duct",
+            "Lactiferous sinus",
+            "Dartos Muscle"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the trends in societal attitudes toward premarital and extramarital sex over recent decades, considering historical, cultural, and sociological data that highlight any shifts in acceptance or disapproval.",
+        "instruction 2": "Analyze the implications of these changes in attitudes, including how they may reflect broader societal values and norms, and consider potential factors influencing these attitudes such as generational changes, media representation, and legal developments.",
+        "question": "Over the past several decades, attitudes toward premarital sex have __________; attitudes toward extramarital sex have __________.",
+        "choices": [
+            "remained constant; remained constant",
+            "become less permissive; become more accepting",
+            "remained constant; become less accepting",
+            "become more more permissive; become less accepting"
+        ],
+        "subject": "human_sexuality",
+        "answer": 3
+    }
+]

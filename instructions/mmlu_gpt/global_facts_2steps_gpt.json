@@ -1,0 +1,1300 @@
+[
+    {
+        "instruction 1": "Find reliable health statistics or reports from reputable sources that provide data on the percentage of adults aged 18 and older who were classified as overweight in 2016, ensuring to identify the definitions and criteria used for 'overweight.'",
+        "instruction 2": "Consider the context of the data, such as geographic location, demographic factors, and any relevant health trends, to provide a more comprehensive understanding of the prevalence of overweight adults in 2016.",
+        "question": "As of 2016, about what percentage of adults aged 18 years or older were overweight?",
+        "choices": [
+            "10%",
+            "20%",
+            "40%",
+            "80%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the historical economic data sources that provide GDP per capita figures for the United States in 1850, ensuring that the data is appropriate for inflation adjustments and conversion to purchasing power parity (PPP) terms for 2011 prices.",
+        "instruction 2": "Calculate the GDP per capita by applying the appropriate inflation adjustment and PPP conversion methods to the base year data, while accounting for any significant economic factors or historical context that might influence the calculations.",
+        "question": "What was GDP per capita in the United States in 1850 when adjusting for inflation and PPP in 2011 prices?",
+        "choices": [
+            "About $300",
+            "About $3k",
+            "About $8k",
+            "About $15k"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific surveys or studies conducted in 2019 that measure public opinion on the acceptance of homosexuality in the United States, focusing on credible sources such as Gallup or Pew Research Center.",
+        "instruction 2": "Analyze the data collected in these studies to determine the percentage of respondents who expressed acceptance of homosexuality, taking into account demographic factors such as age, location, and political affiliation that may influence these views.",
+        "question": "As of 2019, about what percentage of people from the United States says homosexuality should be accepted by society?",
+        "choices": [
+            "52%",
+            "62%",
+            "72%",
+            "82%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the countries with significant solar energy production in 2019 by researching data from credible energy reports or databases that specify total energy generated from solar sources.",
+        "instruction 2": "Compare the solar energy output figures of these countries to determine which country had the highest total energy generation from solar, ensuring to analyze and cite the relevant statistics.",
+        "question": "Which of the following countries generated the most total energy from solar sources in 2019?",
+        "choices": [
+            "China",
+            "United States",
+            "Germany",
+            "Japan"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine historical GDP per capita data for Japan from 1950 to 2016, ensuring to adjust figures for inflation and purchasing power parity (PPP) to derive accurate and comparable values over the time period.",
+        "instruction 2": "Calculate the percentage increase in GDP per capita by determining the difference between the GDP per capita values in 1950 and 2016 after making the necessary adjustments, then express this difference as a percentage of the 1950 value.",
+        "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita increase from 1950 to 2016 in Japan?",
+        "choices": [
+            "by 5 fold",
+            "by 10 fold",
+            "by 15 fold",
+            "by 20 fold"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate global health reports and statistics from reputable sources such as the World Health Organization to identify leading causes of mortality in children under five years old, focusing on data specifically from 2017 for accurate context.",
+        "instruction 2": "Analyze the prevalence and impact of various health issues affecting children in this age group, including factors like infectious diseases, malnutrition, and environmental conditions, to determine which condition was the most significant cause of death.",
+        "question": "What is the biggest cause of death in children under five years old (as of 2017)?",
+        "choices": [
+            "Lower respiratory infections",
+            "Preterm birth complications",
+            "Diarrheal diseases",
+            "Malaria"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and reference credible sources, such as data from the World Health Organization or UNICEF, that provide statistics on global access to safe drinking water, ensuring to specify the year or period the data pertains to for context.",
+        "instruction 2": "Analyze the data regarding the global population and the number of people without access to safe drinking water, calculating the percentage based on the total population figures to determine an accurate representation of the issue.",
+        "question": "As of 2019, about what percentage of the global population does not have access to safe drinking water?",
+        "choices": [
+            "10%",
+            "20%",
+            "30%",
+            "40%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Locate reliable survey data or reports from 2017 that specifically focus on corruption and bribery in India, ensuring to extract the percentage of respondents who indicated they paid bribes for public services, while verifying the credibility of the sources.",
+        "instruction 2": "Analyze the breakdown of the data to identify which specific public services had higher incidences of bribery, contextualizing the findings within the broader issue of corruption in India during that time period.",
+        "question": "About what percentage of survey respondents from India report having paid a bribe in the last year to access public services (such as education; judiciary; medical and health; police; registry and permit services; utilities; tax revenue and customs; and land service) as of 2017?",
+        "choices": [
+            "29%",
+            "49%",
+            "69%",
+            "89%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific source or study providing data on internet usage in Brazil as of 2017, ensuring to extract statistics related to the fraction of the population that engaged with the internet in the last three months.",
+        "instruction 2": "Analyze the demographic factors that might influence internet usage rates in Brazil, such as age, socio-economic status, and urban versus rural residency, to provide context for the reported fraction and understand its implications.",
+        "question": "As of 2017, what fraction of the population in Brazil used the internet in the past three months?",
+        "choices": [
+            "18%",
+            "38%",
+            "58%",
+            "78%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Locate and reference credible data sources or reports from that time period, such as surveys or studies conducted by the government or reputable organizations, to determine the percentage of the Indian population that reported internet usage in the past three months in 2017.",
+        "instruction 2": "Ensure to verify the methodology used in gathering this data to establish the reliability of the internet usage statistics, taking into account demographic factors that may influence internet access and use.",
+        "question": "As of 2017, what fraction of the population in India used the internet in the past three months?",
+        "choices": [
+            "11%",
+            "26%",
+            "41%",
+            "56%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify relevant survey data or public opinion research conducted in India as of 2018 that explores attitudes towards diversity and multiculturalism, focusing specifically on the percentage of respondents who view it positively.",
+        "instruction 2": "Examine contextual factors that may influence public opinion in India regarding diversity, such as socio-political climate, historical events, or demographic changes, to provide a more nuanced understanding of the percentage reported.",
+        "question": "As of 2018, about what percentage of Indians say that having an increasing number of people of many different races, ethnic groups and nationalities in their country makes it a better place to live (as opposed to worse or no difference)?",
+        "choices": [
+            "23%",
+            "38%",
+            "53%",
+            "68%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and source the most recent global statistics on extreme poverty from reputable organizations, such as the World Bank or United Nations, to determine the percentage of the world population living on less than $1.90 a day in 2019.",
+        "instruction 2": "Evaluate the criteria used by these organizations to define extreme poverty and consider any regional disparities that may influence the overall percentage reported, ensuring to provide context about the global poverty landscape in 2019.",
+        "question": "As of 2019, about what percentage of the world population lives in extreme poverty (less than $1.90 a day)?",
+        "choices": [
+            "5%",
+            "10%",
+            "15%",
+            "25%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate global statistics on sanitation practices, focusing on data related to open defecation as reported by organizations such as the World Health Organization (WHO) and UNICEF, to identify their estimates for the percentage of the world population engaged in this practice as of 2020.",
+        "instruction 2": "Analyze regional disparities and demographic factors influencing open defecation rates, ensuring to contextualize the findings within broader discussions about public health, sanitation improvements, and related international initiatives.",
+        "question": "As of 2020, about what percentage of the world population practices open defecation?",
+        "choices": [
+            "2%",
+            "4%",
+            "9%",
+            "18%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and define the key elements that are typically associated with the redistribution-with-growth policy approach, including aspects like progressive taxation, social investments, and economic growth strategies aimed at reducing inequality.",
+        "instruction 2": "Analyze the provided options to determine which one does not align with the core principles of redistribution-with-growth, focusing on how each option fits or does not fit within the stated approach to economic and social policy.",
+        "question": "Which of the following is not an element of the redistribution-with-growth policy approach?",
+        "choices": [
+            "minimum wage legislation",
+            "land reform",
+            "progressive taxation",
+            "increased access to education"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Research historical literacy rates from credible sources that document global educational statistics in 1950, focusing on the definition of literacy at that time and how it may differ from current standards.",
+        "instruction 2": "Consider the geographical variations in literacy rates in 1950, as they may significantly differ between regions or countries, ensuring to contextualize the percentage within the global population at that time.",
+        "question": "About what percentage of the global population was literate in 1950?",
+        "choices": [
+            "36%",
+            "56%",
+            "76%",
+            "96%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Locate reliable health statistics and reports from national health organizations or studies that present obesity rates among adults aged 18 years or older for the year 2016, ensuring that the data is specific and accurately reflects the population in question.",
+        "instruction 2": "Verify the definition of obesity used in the data to ensure clarity in understanding the metrics, such as the body mass index (BMI) threshold, and assess any demographic breakdowns that may influence the overall percentage reported.",
+        "question": "As of 2016, about what percentage of adults aged 18 years or older were obese?",
+        "choices": [
+            "6%",
+            "13%",
+            "27%",
+            "46%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify relevant surveys or polls conducted in 2019 that specifically measure German public opinion regarding the relationship with the U.S., ensuring to focus on questions that assess perceived quality of the relationship.",
+        "instruction 2": "Examine the context of the responses by considering any significant political, economic, or cultural events in 2019 that may have influenced German perceptions of the U.S., making sure to note the percentage of respondents who deemed the relationship as 'good.'",
+        "question": "As of 2019, about what percentage of Germans say the relationship between the U.S. and Germany is good?",
+        "choices": [
+            "34%",
+            "49%",
+            "64%",
+            "79%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate reliable sources, such as the U.S. Census Bureau or other governmental statistics, to determine the most recent data available on the percentage of Americans living in urban areas as of 2017, taking into account criteria that define urban locales.",
+        "instruction 2": "Analyze the historical trends of urbanization in the United States to contextualize the 2017 data, ensuring that any comparisons or implications drawn from the percentage reflect broader social and economic patterns affecting urban and rural populations.",
+        "question": "As of 2017, what percentage of Americans live in urban areas?",
+        "choices": [
+            "62%",
+            "72%",
+            "82%",
+            "92%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify reliable historical economic databases or resources that provide GDP per capita figures for the United States in 1950, ensuring to specify sources that adjust for inflation and purchasing power parity (PPP) using 2011 prices.",
+        "instruction 2": "Calculate or extract the GDP per capita value, making sure to consider the methodological adjustments needed for inflation and PPP, and cross-reference differing studies to ensure accuracy in the data presented.",
+        "question": "What was GDP per capita in the United States in 1950 when adjusting for inflation and PPP in 2011 prices?",
+        "choices": [
+            "About $3k",
+            "About $8k",
+            "About $15k",
+            "About $30k"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Look for statistical data or studies from reputable sources, such as government reports or nonprofit organizations, that specifically outline the number of homeless individuals in the United States during the year 2016.",
+        "instruction 2": "Ensure to account for and clarify the different definitions of homelessness (e.g., sheltered vs. unsheltered) that might affect the reported numbers, along with any relevant contextual factors that could provide insight into trends or changes in homelessness during that year.",
+        "question": "In 2016, about how many people in the United States were homeless?",
+        "choices": [
+            "55,000",
+            "550,000",
+            "5,500,000",
+            "55,000,000"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and research historical public opinion polls conducted in 1965 regarding the Vietnam War, focusing specifically on data that reflects the percentage of Americans who believed sending troops to Vietnam was a mistake.",
+        "instruction 2": "Examine the context surrounding the 1965 Vietnam War involvement, including media coverage and political statements, to better understand the factors influencing public opinion and how they may have affected the results of the polls.",
+        "question": "In 1965 how many Americans thought that sending troops to Vietnam was a mistake?",
+        "choices": [
+            "25%",
+            "45%",
+            "65%",
+            "85%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific survey or research source that provides data on public perception of political party corruption in Ethiopia as of 2013, ensuring to check for reliability and relevance in context.",
+        "instruction 2": "Summarize the findings clearly, quantifying the share of people who perceive political parties as corrupt, and explore the socio-political context in Ethiopia during that time that might influence these perceptions.",
+        "question": "As of 2013, share of people in the Ethiopia who think political parties are corrupt is",
+        "choices": [
+            "24%",
+            "44%",
+            "64%",
+            "84%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Find the specific data reported by the World Bank in 1997 regarding the fraction of the global population residing in low and lower-middle income countries, ensuring to clarify the definitions and income thresholds used to categorize these countries.",
+        "instruction 2": "Analyze the implications of this fraction in the context of global economic development, considering the socio-economic conditions that define low and lower-middle income countries and how they compare to higher-income countries.",
+        "question": "In 1997, the World Bank found that the fraction of the world’s population living in low and lower-middle income countries—that is, countries with per capita incomes of $1230 or less—was approximately",
+        "choices": [
+            "25%",
+            "40%",
+            "55%",
+            "75%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and retrieve economic data regarding the contribution of agriculture to India's GDP as of 2015 from reputable sources, such as government publications or international economic reports.",
+        "instruction 2": "Analyze the context of the agricultural sector within the broader economic framework of India in 2015, considering factors that may have influenced its percentage contribution to GDP, such as technological advancements, policy changes, and market dynamics.",
+        "question": "As of 2015, agriculture made up about what percentage of total Indian GDP?",
+        "choices": [
+            "8%",
+            "16%",
+            "32%",
+            "64%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the context of the question by determining the list of statements or options provided, ensuring to analyze them with respect to credible sources or data as of the year 2020 to ascertain their truthfulness.",
+        "instruction 2": "Evaluate each option against established facts and statistics from reliable references, such as governmental reports or research studies, to confirm or refute the claims made in the statements for accuracy as of 2020.",
+        "question": "Which of the following is true as of 2020?",
+        "choices": [
+            "males are more likely to have depression and are more likely to have an alcohol use disorder than females.",
+            "females are more likely to have depression and are more likely to have an alcohol use disorder than males.",
+            "males are more likely than females to have depression while females are more likely than males to have an alcohol use disorder.",
+            "females are more likely than males to have depression while males are more likely than females to have an alcohol use disorder."
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify relevant surveys or studies conducted in Brazil regarding public acceptance of homosexuality, focusing on data from 2019 to determine what percentage of the population expressed acceptance.",
+        "instruction 2": "Consider the context in which acceptance is measured, including cultural, social, and political factors that may influence public opinion on homosexuality in Brazil during that time period.",
+        "question": "As of 2019, about what percentage of people from Brazil says homosexuality should be accepted by society?",
+        "choices": [
+            "37%",
+            "47%",
+            "57%",
+            "67%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the relevant data sources, such as government reports or international organizations, to find the most current percentage of GDP that Saudi Arabia allocates to military spending as of 2017.",
+        "instruction 2": "Consider the historical context of military expenditures in Saudi Arabia, including global trends or regional conflicts, to better understand how this percentage may have changed over time and its implications for the country's economy.",
+        "question": "As of 2017, the share of GDP spent on the military by Saudi Arabia is about",
+        "choices": [
+            "1%",
+            "3%",
+            "6%",
+            "10%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the relevant statistics or reports from energy authorities, such as the U.S. Energy Information Administration (EIA), that provide data on the share of electricity generation from fossil fuels for the year 2019.",
+        "instruction 2": "Analyze the historical trends and shifts in energy production sources in the U.S. leading up to 2019, including the contributions of renewable energy sources and nuclear power, to contextualize the role of fossil fuels in the overall energy mix.",
+        "question": "As of 2019, about what share of electricity came from fossil fuels in the United States?",
+        "choices": [
+            "23%",
+            "43%",
+            "63%",
+            "83%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify reliable sources such as surveys, studies, or reports specific to bullying in Egypt from the year 2015, focusing on data that includes the percentage of children aged 13-15 who reported experiences of bullying.",
+        "instruction 2": "Analyze the parameters of the data collection process, including sample size and methodology, to ensure accurate interpretation of the percentage regarding bullying prevalence among the specified age group in Egypt.",
+        "question": "What is the percentage of children aged 13-15 in Egypt who reported being bullied at least once in the past couple of months as of 2015?",
+        "choices": [
+            "10%",
+            "30%",
+            "50%",
+            "70%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Look for survey data or reputable reports that specifically address public opinion on algorithmic decision-making in the context of criminal risk assessments, focusing on statistics related to US adults and their perceptions from 2018.",
+        "instruction 2": "Examine any factors that might influence opinions on this issue, such as discussions surrounding fairness, bias in algorithms, or the ethics of using technology in criminal justice settings, to understand the broader context of the statistics.",
+        "question": "As of 2018, about what percentage of US adults say criminal risk assessment for people up for parole is an unreasonable application of algorithmic decision making?",
+        "choices": [
+            "26%",
+            "41%",
+            "56%",
+            "71%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Consult statistical data or reports from relevant agricultural or food production organizations to find the total number of chickens that were killed for meat production in 2018, ensuring the use of credible sources for accuracy.",
+        "instruction 2": "Take into account any regional or global trends in chicken meat consumption and production that may affect the overall figures, while also considering variations in reporting methods between different organizations.",
+        "question": "In 2018, about how many chickens were killed for meat production?",
+        "choices": [
+            "690 million",
+            "6.9 billion",
+            "69 billion",
+            "690 billion"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Look up reliable data sources or reports from reputable organizations that provide information on electricity access in South Sudan for the year 2016, focusing specifically on statistics about the percentage of the population with access to electricity.",
+        "instruction 2": "Ensure to cross-reference the data for accuracy, considering potential discrepancies in statistics from different sources, and highlight any limitations or context provided in the reports that may influence the interpretation of the percentage figure.",
+        "question": "In 2016, what percentage of the population of South Sudan had access to electricity?",
+        "choices": [
+            "9%",
+            "29%",
+            "59%",
+            "79%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and review the relevant survey data from 2017 that pertains to bribery and corruption in Mexico, focusing specifically on the percentage of respondents who reported paying bribes for public services.",
+        "instruction 2": "Analyze the context of the survey, including the methodology used, sample size, and specific public services mentioned, to provide a precise answer regarding the reported percentage of bribe payment among respondents.",
+        "question": "About what percentage of survey respondents from Mexico report having paid a bribe in the last year to access public services (such as education; judiciary; medical and health; police; registry and permit services; utilities; tax revenue and customs; and land service) as of 2017?",
+        "choices": [
+            "31%",
+            "51%",
+            "71%",
+            "91%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Review historical GDP data for China from 1950 to 2016, ensuring to adjust for inflation and purchasing power parity (PPP) to provide an accurate comparison of GDP per capita across the specified years.",
+        "instruction 2": "Analyze trends in economic growth in China during this period, considering external factors such as policy changes, economic reforms, and global economic conditions that may have influenced the GDP per capita, and document your findings with relevant statistical sources.",
+        "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita increase from 1950 to 2016 in China?",
+        "choices": [
+            "by 4 fold",
+            "by 8 fold",
+            "by 16 fold",
+            "by 32 fold"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the final popular vote percentage that Ross Perot received in the 1992 presidential election, as well as any significant events or factors that may have influenced his candidacy and public support leading up to the election.",
+        "instruction 2": "Distinctly differentiate between his polling percentage at different stages of the race and the actual results at the end of the election, considering the role of third-party candidates in U.S. elections and how it may affect the overall distribution of votes.",
+        "question": "Ross Perot makes polling history by leading the presidential race briefly in June as a third-party candidate with 39%. He winds up with _% of the popular vote.",
+        "choices": [
+            "1",
+            "7",
+            "13",
+            "19"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Locate reliable survey data or research studies that focus on religious beliefs in Turkey, specifically those that address the role of God in the lives of Turkish citizens as of 2019.",
+        "instruction 2": "Analyze the findings of the surveys to accurately determine the percentage of Turks who affirm that God plays an important role in their life, taking into account different demographic factors such as age, education, and urban versus rural residence.",
+        "question": "As of 2019, about what percentage of Turks say God plays an important role in their life?",
+        "choices": [
+            "59%",
+            "69%",
+            "79%",
+            "89%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and analyze the major causes of death in the 20th century by researching key historical events, including wars, famines, pandemics, and genocides, to determine which events had the highest mortality rates.",
+        "instruction 2": "Evaluate the sources of data available that quantify deaths associated with these causes, ensuring to compare statistics from reliable historical and demographic studies to determine the one responsible for the most deaths.",
+        "question": "Which of the following was responsible for the most death in the 20th century?",
+        "choices": [
+            "Earthquakes",
+            "Volcanic activity",
+            "Wildfires",
+            "Floods"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Look for reliable survey data or studies conducted in 2015 that focus specifically on the behaviors of children aged 13-15 in the United States, with an emphasis on the incidence of physical fights occurring in school settings during the previous 12 months.",
+        "instruction 2": "Analyze the findings to identify the percentage of this age group reporting involvement in physical fights, ensuring to verify the source and the methodology used in the study for accuracy and relevance.",
+        "question": "What is the percentage of children aged 13-15 in the United States who reported being in a physical fight at school, one or more times during the past 12 months as of 2015?",
+        "choices": [
+            "15%",
+            "35%",
+            "55%",
+            "75%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Gather historical economic data specific to South Korea for the years 1950 and 2016, focusing on nominal GDP figures and adjustments for inflation and purchasing power parity (PPP) to ensure consistent comparison.",
+        "instruction 2": "Calculate the percentage increase in GDP per capita by applying the appropriate inflation and PPP adjustments to the GDP figures from 1950 and 2016, ensuring to document the methodology used in the calculation for clarity.",
+        "question": "Controlling for inflation and PPP-adjustment, about how much did GDP per capita increase from 1950 to 2016 in South Korea?",
+        "choices": [
+            "by 4 fold",
+            "by 8 fold",
+            "by 16 fold",
+            "by 32 fold"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify reliable sources of public opinion data or surveys conducted in Turkey around 2019 that assess citizen perceptions of government effectiveness and whether they believe the state serves the interests of all its people.",
+        "instruction 2": "Analyze the results gathered from these surveys, ensuring to correctly interpret the statistical percentage of respondents who agree with the statement about the state's function, while noting any potential biases or limitations in the data.",
+        "question": "As of 2019, about what percentage of people from Turkey agree that the state is run for the benefit of all the people?",
+        "choices": [
+            "36%",
+            "51%",
+            "66%",
+            "81%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the relevant data sources or reports that provide statistics on global literacy rates, specifically for the population over 15 years old, as of the year 2015.",
+        "instruction 2": "Examine the methodology used to calculate literacy rates and ensure that the statistics consider variables such as geographic regions and gender differences in literacy among the population over 15 years old.",
+        "question": "As of 2015, what percentage of the global population over 15 years old was literate?",
+        "choices": [
+            "81%",
+            "86%",
+            "91%",
+            "96%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific survey data related to bribery in public services conducted in China, focusing on the year 2017 and ensuring the inclusion of various service sectors mentioned.",
+        "instruction 2": "Evaluate how the percentage is calculated in relation to the total number of respondents, and consider contextual factors such as regional variations or demographic influences on bribery perceptions among the survey respondents.",
+        "question": "About what percentage of survey respondents from China report having paid a bribe in the last year to access public services (such as education; judiciary; medical and health; police; registry and permit services; utilities; tax revenue and customs; and land service) as of 2017?",
+        "choices": [
+            "26%",
+            "46%",
+            "66%",
+            "86%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the countries or regions presented in the options and gather relevant data on life expectancy figures for each as of 2019 to determine which had the lowest value.",
+        "instruction 2": "Analyze the sources of information on life expectancy, ensuring that the comparison is based on credible and up-to-date statistics from recognized organizations, such as the World Health Organization or the United Nations.",
+        "question": "As of 2019, which of the following had the lowest life expectancy?",
+        "choices": [
+            "Brazil",
+            "China",
+            "Mexico",
+            "Iran"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research reliable statistics or reports regarding global health impacts of unsafe water, aiming to find specific data on annual mortality rates attributed to waterborne diseases and unsafe drinking water as of 2019.",
+        "instruction 2": "Examine credible sources such as the World Health Organization or other public health organizations to confirm the figure and determine if it applies uniformly across different regions or if there are variations based on location and other factors.",
+        "question": "As of 2019, unsafe water is responsible for about how many deaths each year?",
+        "choices": [
+            "1.2 million",
+            "2.4 million",
+            "3.6 million",
+            "4.8 million"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific causes of death listed in the options and research their global mortality statistics for the year 2017, ensuring to gather reliable data from reputable health organizations or studies.",
+        "instruction 2": "Analyze the data to compare the number of deaths caused by each option, taking into account factors such as prevalence, risk factors, and geographical influences that may affect mortality rates.",
+        "question": "Which of the following causes more deaths globally each year (as of 2017)?",
+        "choices": [
+            "Diarrheal diseases",
+            "Diabetes",
+            "Dementia",
+            "Road injuries"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Look for reliable statistics or reports from credible organizations such as the World Health Organization (WHO) or the Joint United Nations Programme on HIV/AIDS (UNAIDS) to find the estimated number of people living with HIV/AIDS as of 2020.",
+        "instruction 2": "Analyze the data carefully to ensure it includes relevant parameters such as global prevalence, demographic breakdowns, and any trends or changes from previous years that may clarify the context behind the figures provided.",
+        "question": "About how many people are infected by HIV/AIDS as of 2020?",
+        "choices": [
+            "3 million",
+            "14 million",
+            "42 million",
+            "124 million"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify reliable sources or studies that specifically report on bullying statistics among children aged 13-15 in the United States for the year 2015, ensuring to focus on the methodology used to collect this data.",
+        "instruction 2": "Analyze the reported figures or survey results to determine the percentage of children within the specified age group who experienced bullying, taking into account any contextual factors such as differences in definitions of bullying or demographic variations.",
+        "question": "What is the percentage of children aged 13-15 in the United States who reported being bullied at least once in the past couple of months as of 2015?",
+        "choices": [
+            "26%",
+            "46%",
+            "66%",
+            "86%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and consult reputable survey data or studies conducted in 2019 that specifically measure the percentage of South Koreans who believe that belief in God is essential for morality and good values.",
+        "instruction 2": "Analyze the cultural and sociological context of South Korea during 2019, including factors such as religious diversity, secular trends, and their impacts on public perceptions of morality and ethics, to provide a comprehensive answer.",
+        "question": "As of 2019, about what percentage of South Koreans say it is necessary to believe in God in order to be moral and have good values?",
+        "choices": [
+            "25%",
+            "45%",
+            "65%",
+            "85%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate available statistics or surveys conducted in Japan regarding bullying among children aged 13-15, specifically focusing on the year 2015, to find a credible source that provides the percentage of reported bullying cases among this age group.",
+        "instruction 2": "Cross-reference the data to ensure accuracy and context, considering the methodology used in the surveys or studies, and any additional details such as demographic factors or the definitions of bullying employed in the research.",
+        "question": "What is the percentage of children aged 13-15 in Japan who reported being bullied at least once in the past couple of months as of 2015?",
+        "choices": [
+            "6%",
+            "16%",
+            "36%",
+            "66%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify reliable sources of public opinion data such as surveys or studies conducted by reputable organizations regarding perceptions of computer programs and human bias, focusing on data from 2018.",
+        "instruction 2": "Analyze the survey results to determine the percentage of US adults who perceive a consistent reflection of human bias in computer programs, ensuring to verify the context and methodology behind the data gathering for accuracy.",
+        "question": "As of 2018, about what percentage of US adults say computer programs will always reflect human bias?",
+        "choices": [
+            "43%",
+            "58%",
+            "73%",
+            "88%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Find reliable economic resources or reports that provide data on China's military spending as a percentage of GDP for the year 2017, ensuring the information is up-to-date and from authoritative sources.",
+        "instruction 2": "Consider the broader context of military expenditure in relation to China's overall economic growth during 2017, evaluating how this spending compares to other nations and its implications for China's economic policy.",
+        "question": "As of 2017, the share of GDP spent on the military by China is about",
+        "choices": [
+            "0.50%",
+            "2%",
+            "6%",
+            "12%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the historical context and empirical evidence surrounding the inverted U hypothesis, focusing on specific case studies or data that illustrate how inequality changes in relation to economic development over time.",
+        "instruction 2": "Examine critiques and support for the inverted U hypothesis within academic literature, assessing various perspectives on whether it holds true across different countries or regions and considering implications for policy.",
+        "question": "The conjecture that inequality first increases with development, then decreases with further development (known as the “inverted U hypothesis”) has, as of 2020, been",
+        "choices": [
+            "strongly supported by most studies",
+            "supported mainly by cross-section, not time-series studies",
+            "supported mainly by time-series, not cross-section studies",
+            "generally repudiated by empirical studies"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate educational attainment statistics for 30-year-old women, focusing on average years of schooling and considering any available comparative data to understand gender disparities in education.",
+        "instruction 2": "Examine the broader context of gender education trends and societal factors that might influence women's educational opportunities compared to men, ensuring to reference credible sources or studies that highlight these differences as of 2020.",
+        "question": "Worldwide, 30 year old men have spent 10 years in school, on average. How many years have women of the same age spent in school, as of 2020?",
+        "choices": [
+            "12 years",
+            "9 years",
+            "6 years",
+            "3 years"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific statistics related to suicide rates in Greenland, focusing on the share of deaths attributed to suicide, and ensure to examine reliable sources such as health reports or national statistics to gather accurate data for 2017.",
+        "instruction 2": "Consider the contextual factors surrounding suicide in Greenland, including social, cultural, and economic influences, which may provide a deeper understanding of the significance of the rates reported.",
+        "question": "As of 2017, the share of deaths in Greenland by suicide is about",
+        "choices": [
+            "0.90%",
+            "1.80%",
+            "3.60%",
+            "7.20%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify reliable sources that provide public opinion data on attitudes towards homosexuality in Russia, particularly focusing on surveys or studies conducted around 2019 to determine the acceptance percentage.",
+        "instruction 2": "Analyze the cultural, social, and political contexts that may influence public opinion in Russia regarding homosexuality, ensuring that the findings reflect the sentiments of the population accurately and are represented in context.",
+        "question": "As of 2019, about what percentage of people from Russia says homosexuality should be accepted by society?",
+        "choices": [
+            "14%",
+            "24%",
+            "34%",
+            "44%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific sources of public opinion data regarding U.S.-Germany relations, such as surveys or polls conducted by reputable organizations, to determine the percentage of Americans who perceive the relationship as good in 2019.",
+        "instruction 2": "Evaluate the context and parameters of the survey data collected, including sample size, methodology, and demographic information, to ensure that the percentage reflects a representative view of the American population in 2019.",
+        "question": "As of 2019, about what percentage of Americans say the relationship between the U.S. and Germany is good?",
+        "choices": [
+            "60%",
+            "75%",
+            "90%",
+            "45%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Locate survey data or statistics regarding American public opinion on the importance of free media, focusing specifically on responses from 2019 that address perceptions of government or state censorship.",
+        "instruction 2": "Analyze the sources of this data to ensure credibility, and summarize the findings to determine what percentage of Americans express that having free media is very important, while noting any context or nuances in the responses.",
+        "question": "As of 2019, about what percentage of Americans say it is very important to have free media in our country without government/state censorship?",
+        "choices": [
+            "50%",
+            "60%",
+            "70%",
+            "80%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific public opinion polls conducted during the Iran-Contra affair in 1987, focusing on those that gauge American perceptions of President Reagan's transparency and information withholding related to the scandal.",
+        "instruction 2": "Analyze the results of these polls to determine the percentage of Americans who believed Reagan was withholding information, ensuring to provide context on the methodology and timing of the polls for accurate representation.",
+        "question": "In 1987 during Iran Contra what percent of Americans believe Reagan was witholding information?",
+        "choices": [
+            "2%",
+            "25%",
+            "50%",
+            "75%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the specific context or topic of inquiry related to Sub-Saharan Africa in 2020, such as demographics, economic conditions, health statistics, or educational access, to ensure a focused and relevant response.",
+        "instruction 2": "Research reliable data sources and reports to gather information pertinent to the specified context, ensuring to include relevant statistics, trends, and insights that accurately reflect the state of Sub-Saharan Africa in the year 2020.",
+        "question": "In Sub-Saharan Africa, as of 2020,",
+        "choices": [
+            "no nation has been able to grow in the past years.",
+            "the Democratic Republic of Congo has become poorer than it initially was in 1980.",
+            "some countries have had relatively significant growth rates.",
+            "some countries have had relatively significant growth rates, but the Democratic Republic of Congo has become poorer than it initially was in 1980."
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the cumulative income share of the bottom 60% of households by adding the income shares of the first three groups: the poorest 20% (7.5%), the next 20% (11.8%), and the middle 20% (15.5%). This requires performing simple arithmetic to obtain the total share for these three segments.",
+        "instruction 2": "Ensure to interpret the income distribution accurately, confirming that the groups account for the bottom 60% of households and do not include any overlapping or excluded categories in the calculation.",
+        "question": "World Bank data show that in 1995, the poorest 20% of households accounted for 7.5% of household income in Niger, the next 20% of households accounted for 11.8% of income, the middle 20% accounted for 15.5% of income, the second richest 20% accounted for 21.1% of income, and the top 20% accounted for 44.1% of income. What was the cumulative income share of the bottom 60% of households in Niger?",
+        "choices": [
+            "15.50%",
+            "34.80%",
+            "48.10%",
+            "65.20%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and review global reports or databases from reputable organizations, such as the International Labour Organization (ILO) or UNICEF, to find statistics on child labor specifically for the age group of 5-14 years in 2012.",
+        "instruction 2": "Analyze the context surrounding child labor in 2012, including factors contributing to the prevalence of child labor, variations by region, and the definitions used to categorize children as 'working' based on international standards.",
+        "question": "How many children between the ages of 5-14 worked globally as of 2012?",
+        "choices": [
+            "5 million",
+            "30 million",
+            "150 million",
+            "500 million"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify specific examples of less developed countries that have reported high levels of secondary school enrollment as of 2020, using reliable data sources such as UNESCO or World Bank statistics to ensure accuracy.",
+        "instruction 2": "Analyze the factors contributing to high secondary school enrollment in these countries, considering influences such as government policies, cultural attitudes towards education, and international assistance programs.",
+        "question": "Different less developed countries have different levels of secondary school enrollment. Some countries with high secondary-school enrollment are, as of 2020,",
+        "choices": [
+            "Colombia, Peru, Uruguay, and Costa Rica.",
+            "Bhutan, Niger, Cambodia, and Costa Rica.",
+            "Uruguay, Costa Rica, Timor-Leste, and Pakistan.",
+            "Bhutan, Cambodia, Uruguay and Costa Rica."
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Look for research studies, surveys, or reports from reputable sources that specifically address the incidence of physical punishment among children in Vietnam around the year 2009, ensuring to capture the percentage of 8-year-olds affected.",
+        "instruction 2": "Examine the context and methodology of the data collection to understand how the question is framed, including factors such as the sample size, definition of physical punishment, and any regional variations that may influence the reported percentage.",
+        "question": "The percentage of children in Vietnam (age 8) who reported physical punishment by teachers in the past week in 2009 was about what?",
+        "choices": [
+            "10%",
+            "20%",
+            "40%",
+            "80%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the source of data regarding the reported percentage of children in India who experienced physical punishment by teachers in 2009, focusing on credible surveys or studies conducted during that time period.",
+        "instruction 2": "Consider the context of the findings, such as the implications of cultural norms around discipline in schools, and how these factors may influence the rates of reported physical punishment among children.",
+        "question": "The percentage of children in India (age 8) who reported physical punishment by teachers in the past week in 2009 was about what?",
+        "choices": [
+            "38%",
+            "58%",
+            "78%",
+            "98%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the first statement by evaluating psychological and sociological studies on subjective well-being and public perception of happiness in different cultures, focusing on whether individuals tend to underestimate the happiness of others in their country.",
+        "instruction 2": "Investigate statistical data regarding happiness trends in the United States, particularly gender differences over time, to assess the accuracy of the second statement concerning women's happiness relative to men and identify the sources of this data.",
+        "question": "Consider the following statements: (1) In every country, people think other individuals in their country are less happy than they actually are. (2) In the United States, women’s happiness has increased both absolutely and relative to men. Which of these statements is True/False?",
+        "choices": [
+            "True, True",
+            "True, False",
+            "False, True",
+            "False, False"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Gather data from credible sources, such as global reports on terrorism, to determine the estimated number of deaths caused by terrorism in 2017, ensuring to consider various types of terrorist incidents that may have contributed to the total figure.",
+        "instruction 2": "Evaluate the context surrounding the data, such as geographic regions affected, major terrorist events of the year, and trends in terrorism-related fatalities, to provide a comprehensive understanding of the impact of terrorism in that year.",
+        "question": "In 2017, about how many people died from terrorism globally?",
+        "choices": [
+            "260",
+            "2,600",
+            "26,000",
+            "260,000"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate historical public opinion data or surveys from 1935 concerning the Social Security Act, focusing on the percentage or number of Americans in favor, and cite any relevant sources that reflect public sentiment at that time.",
+        "instruction 2": "Analyze the context and events surrounding the introduction of the Social Security Act in 1935, such as economic conditions during the Great Depression, to understand factors influencing public support for the legislation.",
+        "question": "In 1935 roughly how many Americans were in favor of Social Security act?",
+        "choices": [
+            "90%",
+            "70%",
+            "50%",
+            "30%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific countries being referenced in the question that published CO2 emissions data for the year 2017, focusing on finding reliable sources or databases that rank countries based on per capita CO2 emissions.",
+        "instruction 2": "Examine the available CO2 emission statistics, ensuring to differentiate between total emissions and per capita emissions, in order to accurately determine which country had the highest CO2 emissions per person in that year.",
+        "question": "Which of the following countries emitted the most CO2 per capita in 2017?",
+        "choices": [
+            "Japan",
+            "Canada",
+            "Russia",
+            "Iran"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Locate and review survey data or research studies conducted around 2019 that specifically address Indian attitudes toward the necessity of belief in God for morality and value systems, focusing on the methodology and sample size to ensure the data's reliability.",
+        "instruction 2": "Analyze the socio-cultural context of India that may influence these beliefs, considering factors such as regional differences, religious diversity, and historical perspectives on morality and ethics to provide a well-rounded answer.",
+        "question": "As of 2019, about what percentage of Indians say it is necessary to believe in God in order to be moral and have good values?",
+        "choices": [
+            "59%",
+            "69%",
+            "79%",
+            "89%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific dataset or study that contains information regarding physical fights among children aged 13-15 in China, ensuring that this data is from 2015 and pertains to school-related incidents.",
+        "instruction 2": "Determine the method of calculating the percentage by understanding the total number of respondents within the specified age group and extracting the number of those who reported being involved in a physical fight, then applying the percentage formula.",
+        "question": "What is the percentage of children aged 13-15 in China who reported being in a physical fight at school, one or more times during the past 12 months as of 2015?",
+        "choices": [
+            "9%",
+            "19%",
+            "39%",
+            "59%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate credible sources or datasets that specifically provide information on instances of physical punishment reported by children in Ethiopia in 2009, especially focusing on surveys or studies conducted during that time period.",
+        "instruction 2": "Analyze the findings to extract the precise percentage of children aged 8 who experienced physical punishment by teachers, ensuring to contextualize this data with respect to the socio-educational environment in Ethiopia at that time.",
+        "question": "The percentage of children in Ethiopia (age 8) who reported physical punishment by teachers in the past week in 2009 was about what?",
+        "choices": [
+            "18%",
+            "38%",
+            "58%",
+            "78%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and review survey data or public opinion polls conducted in Tunisia around 2018 that specifically address perceptions of diversity and multiculturalism, focusing on the question of whether the presence of various races, ethnic groups, and nationalities enhances the quality of life in the country.",
+        "instruction 2": "Extract the percentage from these findings that reflects the portion of respondents who believe that an increasing number of diverse groups positively contributes to their country, ensuring to verify the credibility of the sources and the sample size of the survey.",
+        "question": "As of 2018, about what percentage of people from Tunisia say that having an increasing number of people of many different races, ethnic groups and nationalities in their country makes it a better place to live (as opposed to worse or no difference)?",
+        "choices": [
+            "24%",
+            "39%",
+            "54%",
+            "69%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific global fertility rate mentioned for 2015 from reputable data sources, focusing on the most widely recognized reports or databases such as the World Bank or the United Nations, to provide an accurate figure.",
+        "instruction 2": "Consider the historical trends and factors that might have influenced the global fertility rate in 2015, such as economic conditions, education levels, and access to reproductive health services, to give context to the statistic provided.",
+        "question": "As of 2015, the global fertility rate was about",
+        "choices": [
+            "1.5 children per woman",
+            "2.5 children per woman",
+            "3.5 children per woman",
+            "4.5 children per woman"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and define the concept of median income in an international context, ensuring understanding of how it differs from average income and why it is a more accurate representation for comparative analysis across countries.",
+        "instruction 2": "Research credible sources, such as global economic reports or databases from organizations like the World Bank or the International Monetary Fund, to find the specific statistic for median international income as of 2020, while being mindful of the methodology used in calculating this figure.",
+        "question": "What is the median international income as of 2020?",
+        "choices": [
+            "$300 ",
+            "$1,000 ",
+            "$10,000 ",
+            "$30,000 "
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific polling data or surveys conducted prior to the election that gauged American public opinion regarding the president's bid for a third term, including the time frame and sample size of those polls.",
+        "instruction 2": "Analyze the approval ratings and their context, considering factors such as political climate, economic conditions, and the president's past performance, to understand the sentiment of the electorate at that time.",
+        "question": "Before being reelected for a third term as president how many Americans approved of running a third time?",
+        "choices": [
+            "20%",
+            "40%",
+            "60%",
+            "80%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate polls or surveys conducted in Italy around 2019 that gauge public opinion on the importance of free media, ensuring to focus on specific questions related to government influence and censorship.",
+        "instruction 2": "Analyze the data obtained to determine the percentage of Italians who consider free media without government censorship 'very important,' paying attention to the methodology and sample size of the surveys to ensure accuracy.",
+        "question": "As of 2019, about what percentage of Italians say it is very important to have free media in our country without government/state censorship?",
+        "choices": [
+            "41%",
+            "56%",
+            "71%",
+            "86%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Locate reports or data sources that specifically detail public spending on education as a percentage of global GDP for the year 2017, ensuring to focus on credible and recognized organizations such as UNESCO or the World Bank.",
+        "instruction 2": "Analyze the context of the data, considering variations in public spending across different countries or regions, and explore how these might affect the overall percentage of global GDP spent on education.",
+        "question": "Public spending on education in the world is about what percentage of global GDP as of 2017?",
+        "choices": [
+            "1%",
+            "2%",
+            "4%",
+            "8%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research historical data regarding per capita rates of homelessness from various countries as of 2013, focusing on credible sources such as government reports, NGOs, or academic studies to identify the country with the highest rate.",
+        "instruction 2": "Compare and contrast the methodologies used in different studies to quantify homelessness, ensuring to consider definitions of homelessness, data collection methods, and potential biases that could affect the reported rates.",
+        "question": "As of 2013, which of the following countries had the highest per capita rate of homelessness?",
+        "choices": [
+            "US",
+            "Chile",
+            "Ireland",
+            "Spain"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the statistical data or economic studies that provide insight into income growth rates in less developed countries during the specified time frame, focusing on the percentage increase in average incomes from 1960 to 1995.",
+        "instruction 2": "Analyze the socio-economic factors that may have influenced income growth in less developed countries during this period, including education, industrialization, and international trade dynamics, to provide a comprehensive understanding of the growth rate.",
+        "question": "Overall, the growth rate of average incomes in less developed countries between 1960 and 1995",
+        "choices": [
+            "was approximately zero",
+            "exceeded that of high income countries",
+            "exceeded that of Britain during the industrial revolution",
+            "was approximately 3.0% per year"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "question": "As of 2015, about what percentage of the world’s land area is forested?",
+        "subject": "global_facts",
+        "choices": [
+            "15%",
+            "30%",
+            "45%",
+            "60%"
+        ],
+        "answer": 1
+    },
+    {
+        "instruction 1": "Clarify the context of the population growth rate by identifying specific regions or countries where substantial growth has occurred, considering historical or recent population data to support the claim.",
+        "instruction 2": "Analyze factors that contribute to significant population growth rates, such as economic development, fertility rates, migration patterns, and public health improvements, which may provide a comprehensive understanding of the phenomenon.",
+        "question": "The greatest population growth rate has taken place",
+        "choices": [
+            "in Africa, which is the poorest region of the world with the lowest overall economic growth.",
+            "in Asia, which is the poorest region of the world with a steady overall economic growth.",
+            "in Asia, which is the poorest region of the world with the lowest overall economic growth.",
+            "in Africa, which is the poorest region of the world with a steady overall economic growth."
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze and compare the age group data related to the global HIV/AIDS death rate, focusing on demographic studies or health reports to identify which specific age group exhibits the highest mortality rate due to HIV/AIDS.",
+        "instruction 2": "Consider regional variations and factors that may influence the HIV/AIDS death rate in different age groups, such as access to healthcare, prevalence of the disease, and social determinants affecting various populations.",
+        "question": "The global HIV/AIDS death rate is highest for which of these age groups?",
+        "choices": [
+            "Under 5",
+            "14-May",
+            "15-49",
+            "over 50"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the most recent and relevant data regarding the contribution of agriculture to the total US GDP as of 2015, using reliable economic sources such as government reports or economic databases.",
+        "instruction 2": "Consider the context of the agricultural sector within the broader economy, analyzing how fluctuations in agricultural output and market conditions may have affected its percentage contribution to GDP during that year.",
+        "question": "As of 2015, agriculture made up about what percentage of total US GDP?",
+        "choices": [
+            "1%",
+            "3%",
+            "9%",
+            "20%"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the latest census or demographic data available as of 2017 regarding urbanization in India, ensuring to locate specific statistics on the percentage of the population residing in urban areas.",
+        "instruction 2": "Analyze trends in urbanization leading up to 2017, taking into account factors such as migration, economic development, and government policies that contribute to population shifts from rural to urban areas.",
+        "question": "As of 2017, what percentage of Indians live in urban areas?",
+        "choices": [
+            "19%",
+            "34%",
+            "49%",
+            "64%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Evaluate the relationship between economic status and life satisfaction by referencing psychological research and economic studies that investigate the correlation between wealth and reported happiness levels, specifically analyzing results up to the year 2020.",
+        "instruction 2": "Examine the research on the long-term impact of significant life events on happiness, focusing on studies that quantify changes in life satisfaction pre- and post-events like marriage and divorce, to determine the validity of the claim regarding their long-term effects.",
+        "question": "Consider the following statements: (1) As countries get richer, the population tends to report higher average life satisfaction. (2) Important life events such as marriage or divorce do affect our happiness, but have surprisingly little long-term impact. Which of these statements is True/False, as of 2020?",
+        "choices": [
+            "True, True",
+            "True, False",
+            "False, True",
+            "False, False"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify key historical events and data sources that highlight the differing public opinions on school desegregation in the South compared to the rest of the U.S., focusing on approval ratings and polls conducted during the peak of the desegregation movement.",
+        "instruction 2": "Analyze and quantify the differences in approval ratings by comparing specific statistics from credible studies or surveys, while considering the socio-cultural context of the time to understand the reasons behind regional disparities in attitudes toward school desegregation.",
+        "question": "At its peak, what was the approximate difference in approval of school desegration from the South and the rest of the U.S.?",
+        "choices": [
+            "80%",
+            "40%",
+            "-40%",
+            "-80%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate historical survey data or reports from reliable sources, such as research organizations or public opinion polls, to determine the percentage of people in the United States who believed political parties were corrupt as of 2013.",
+        "instruction 2": "Analyze trends over time to provide context to the 2013 data by comparing it with similar findings from other years, which may illustrate whether the perception of corruption in political parties has increased or decreased.",
+        "question": "As of 2013, share of people in the United States who think political parties are corrupt is",
+        "choices": [
+            "36%",
+            "56%",
+            "76%",
+            "96%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the countries in question and gather data on their GDP and renewable energy investments for the year 2015, determining the relevant statistics that will allow for a comparison of these investments as a fraction of GDP.",
+        "instruction 2": "Evaluate the gathered data to calculate the fraction of GDP invested in renewable energy for each country and identify the country with the largest fraction, taking care to ensure the accuracy of the calculations and the data used.",
+        "question": "Which of the following countries invested the largest fraction of its GDP in renewable energy in 2015?",
+        "choices": [
+            "China",
+            "Japan",
+            "Chile",
+            "India"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate and identify the specific income threshold defined by economic studies or reports that indicates an annual income sufficient to place an individual in the top one percent of earners globally as of 2020, considering factors such as currency conversion and purchasing power parity.",
+        "instruction 2": "Analyze the variations in income levels across different countries and regions, factoring in socio-economic conditions that may influence the definition of wealth and the criteria used to classify the richest one percent.",
+        "question": "As of 2020, about how much do you need to make annually to be among the richest one percent in the world?",
+        "choices": [
+            "$150,000 ",
+            "$75,000 ",
+            "$35,000 ",
+            "$15,000 "
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate historical surveys or studies conducted during 1943 that assessed public opinion on the Holocaust among Americans, focusing on the methodology and sample size of those surveys to understand the context of the findings.",
+        "instruction 2": "Take into account the socio-political environment of the time, including media coverage, government narratives, and societal attitudes towards Jews and wartime events, which may have influenced Americans' beliefs regarding the Holocaust.",
+        "question": "In 1943 how many Americans believed in the Holocaust?",
+        "choices": [
+            "30%",
+            "50%",
+            "70%",
+            "90%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the list of countries provided and examine the available data for CO2 emissions in 2017, ensuring to reference reliable sources such as the Global Carbon Project or relevant government environmental reports to determine the exact figures.",
+        "instruction 2": "Consider contextual factors that may have influenced emissions levels in each country, such as industrial activity, population size, and energy sources, to better understand the reasons behind the emissions data.",
+        "question": "Which of the following countries emitted the most CO2 in 2017?",
+        "choices": [
+            "Canada",
+            "Russia",
+            "Iran",
+            "Japan"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the two locations being compared, analyzing historical educational statistics at the time of independence to understand the disparities in the number of university graduates present in each location.",
+        "instruction 2": "Assess the socio-economic and historical context surrounding education in both locations to determine the factors that contributed to the existence of a large number of graduates in one area while leading to a significant lack of graduates in the other.",
+        "question": "At the time of independence, there were already hundreds of thousands of university graduates in ____, but hardly any at all in ____.",
+        "choices": [
+            "India, Congo",
+            "India, South Korea",
+            "Congo, South Korea",
+            "South Korea, India"
+        ],
+        "subject": "global_facts",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify reliable sources of public opinion data regarding the perception of political party corruption in India as of 2013, ensuring to focus on surveys or studies that quantify the level of distrust among the population towards political parties.",
+        "instruction 2": "Analyze the context in which the perceptions of corruption were formed, considering historical events, political scandals, and public sentiment during that time period that may have influenced the 2013 opinions on political parties.",
+        "question": "As of 2013, share of people in the India who think political parties are corrupt is",
+        "choices": [
+            "26%",
+            "46%",
+            "66%",
+            "86%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Investigate public opinion surveys or studies conducted in France regarding the role of religion and belief in God in people's lives, particularly focusing on data collected around 2019 to accurately determine the percentage of respondents acknowledging God's significance.",
+        "instruction 2": "Analyze the context surrounding religious beliefs in France, including cultural, historical, and societal influences that may affect people's perception of the importance of God, ensuring the response reflects the nuances of public sentiment.",
+        "question": "As of 2019, about what percentage of French people say God plays an important role in their life?",
+        "choices": [
+            "11%",
+            "31%",
+            "51%",
+            "71%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific statistics or data sources that record the percentage of GDP allocated to military spending by the United States in 2017, ensuring to consider reports from relevant financial institutions or governmental bodies.",
+        "instruction 2": "Examine historical trends in military spending to provide context for the 2017 figure, noting any factors that may have influenced changes in military expenditure as a proportion of GDP over time.",
+        "question": "As of 2017, the share of GDP spent on the military by the United States is about",
+        "choices": [
+            "1%",
+            "3%",
+            "6%",
+            "10%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Research the most recent statistics and reports published by reliable sources, such as the World Health Organization or other relevant health agencies, to determine the percentage of global deaths attributed to suicide as of 2017.",
+        "instruction 2": "Analyze the context in which this data is presented, considering factors such as regional variations, demographic influences, and possible trends over time that may affect the interpretation of suicide statistics.",
+        "question": "As of 2017, the share of global deaths by suicide is about",
+        "choices": [
+            "0.70%",
+            "1.40%",
+            "2.80%",
+            "5.60%"
+        ],
+        "subject": "global_facts",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify specific aspects of colonialism that negatively affected economic development in newly independent countries, considering factors such as infrastructure, education, resource extraction, and political instability resulting from colonial policies.",
+        "instruction 2": "Analyze the long-term economic consequences of these colonial legacies, focusing on how they have affected governance, investment, and social structures in post-colonial nations, ensuring to provide concrete examples or historical contexts to support the analysis.",
+        "question": "Many countries that became independent after World War II found that the legacy of colonialism hindered their economic development. The list of hindrances included",
+        "choices": [
+            "artificial political boundaries that covered diverse ethnic groups with little in common",
+            "inadequate access to higher education and training for nationals under the colonial administration",
+            "control of domestic commerce by foreign minority groups which had been brought in by the colonial power",
+            "all of the above"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific mental disorders being considered in the question and verify their prevalence rates through reputable sources such as the World Health Organization or relevant epidemiological studies to determine which has the highest occurrence globally.",
+        "instruction 2": "Consider the demographic factors such as age, gender, and region that may influence the prevalence of certain mental disorders, ensuring that the comparison of prevalence rates accounts for these variables to derive an accurate conclusion.",
+        "question": "Which of the following mental disorders is most prevalent in the world?",
+        "choices": [
+            "Bipolar disorder",
+            "Schizophrenia",
+            "Alcohol use disorders",
+            "Anxiety disorders"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research and identify the most recent global statistics on electricity access as of 2017, focusing on the percentage of the world's population that has some level of access to electricity, and the sources of this data, such as the International Energy Agency or World Bank reports.",
+        "instruction 2": "Examine the regional disparities in electricity access, considering how factors like urbanization, economic development, and infrastructure investments in various countries or regions may influence the overall number of people with access to electricity.",
+        "question": "As of 2017, how many people in the world have some access to electricity?",
+        "choices": [
+            "60%",
+            "70%",
+            "80%",
+            "90%"
+        ],
+        "subject": "global_facts",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate historical polls and surveys conducted prior to Nixon's resignation to determine public opinion on whether he should be removed from office, paying particular attention to the timeframe leading up to his resignation in 1974.",
+        "instruction 2": "Examine the context of political events and public sentiment surrounding the Watergate scandal, as these factors may have influenced the percentage of individuals believing Nixon should resign, ensuring to reference credible sources or studies from that era.",
+        "question": "Before Nixon resigned how many believed he should be removed from office?",
+        "choices": [
+            "79%",
+            "98%",
+            "33%",
+            "57%"
+        ],
+        "subject": "global_facts",
+        "answer": 3
+    }
+]

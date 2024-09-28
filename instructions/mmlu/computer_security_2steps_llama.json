@@ -1,0 +1,1302 @@
+[
+    {
+        "question": "Which of the following styles of fuzzer is more likely to explore paths covering every line of code in the following program?",
+        "answer": 2,
+        "choices": [
+            "Generational",
+            "Blackbox",
+            "Whitebox",
+            "Mutation-based"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the type of program and its characteristics, such as its size, complexity, and functionality, to determine the most effective fuzzer style.",
+        "instruction 2": "Consider the strengths and weaknesses of different fuzzer styles, such as mutation-based, generation-based, and path-based fuzzing, to determine which one is more likely to explore paths covering every line of code in the given program."
+    },
+    {
+        "question": "Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate and executing a DiffieHelmann exchange, but the client did not provide a client certificate. Further, assume that the client and server are honest, that the client and server don’t leak their keys, and that the cryptography is good. Which of the following attacks does TLS protect against?\n1. An attacker replaying bytes that a client sent earlier.\n2. An attacker impersonating the server.",
+        "answer": 0,
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific security threats that TLS is designed to prevent, considering the established connection between the client and server, including the absence of a client certificate.",
+        "instruction 2": "Determine which of the listed attacks (replaying bytes or impersonating the server) is specifically addressed by TLS, given the established connection and the absence of a client certificate."
+    },
+    {
+        "question": "MIT’s Kerberos KDC server has a maximum ticket lifetime of 24 hours (for most user principals). What ensures that an expired Kerberos ticket can no longer be used?",
+        "answer": 2,
+        "choices": [
+            "The Kerberos server (KDC) refuses to establish new connections between clients and servers for expired tickets.",
+            "When a client connects to a server, the server sets a 24-hour timer to terminate the connection, which ensures a client cannot remain connected past the ticket’s maximum lifetime.",
+            "When a client connects to a server, the server compares the ticket’s expiration time to the server’s current clock, and refuses to authenticate the user if the ticket expiration time is in the past.",
+            "When a client connects to a server, the server sends a query to the KDC to check if the ticket is still valid with respect to the KDC’s clock, and refuses to authenticate the user if the KDC reports that the ticket is expired."
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the mechanism that prevents an expired Kerberos ticket from being used, such as the KDC server's ability to reject expired tickets or the client's inability to authenticate with an expired ticket.",
+        "instruction 2": "Consider the role of the KDC server and the client in the Kerberos authentication process, including the ticket-granting ticket (TGT) and the service ticket, to understand how the ticket lifetime affects the authentication process and why an expired ticket cannot be used."
+    },
+    {
+        "question": "In Message Condentiality, the transmitted message must make sense to only intended",
+        "answer": 0,
+        "choices": [
+            "Receiver",
+            "Sender",
+            "Modulor",
+            "Translator"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key concept of Message Confidentiality, which is to ensure that only authorized parties can understand the transmitted message.",
+        "instruction 2": "Consider the various techniques and methods used to achieve Message Confidentiality, such as encryption, digital signatures, and access control, and how these mechanisms work together to prevent unauthorized access and maintain message secrecy."
+    },
+    {
+        "question": "Which of the following is a remote Trojan?",
+        "answer": 0,
+        "choices": [
+            "Troya",
+            "DaCryptic",
+            "BankerA",
+            "Game-Troj"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Review the definitions and characteristics of remote Trojans, identifying their key features that allow unauthorized remote access to a user's system, and consider how these characteristics differentiate them from other types of malware.",
+        "instruction 2": "Analyze the provided options critically, cross-referencing each one against established criteria for remote Trojans, to determine which option accurately fits the classification based on the specific functionalities and behaviors associated with them."
+    },
+    {
+        "question": "______________ is a widespread app’s coding mistake made by developers which could be exploited by an attacker for gaining access or malfunctioning your system.",
+        "answer": 1,
+        "choices": [
+            "Memory leakage",
+            "Buffer-overrun",
+            "Less processing power",
+            "Inefficient programming"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the type of coding mistake that could lead to a security vulnerability, such as an unvalidated user input or an unsecured data storage mechanism.",
+        "instruction 2": "Consider how an attacker could exploit this mistake, potentially using techniques like SQL injection or cross-site scripting, to compromise the system's security or disrupt its functionality."
+    },
+    {
+        "question": "Consider the paper Native Client: A Sandbox for Portable, Untrusted x86 Native Code by Yee et al. Ben Bitdiddle notes that NaCl uses Intel x86 segmentation to ensure that the sandboxed module does not read or write memory outside its own data area, and does not execute instructions outside its own code. Ben thinks that with these restrictions alone, executing the sandboxed module must be safe; that is, he thinks validation is not needed. Ben is wrong. Circle the types of x86 machine instructions that the validator always forbids in sandboxed code. Please ignore trampoline and springboard code.",
+        "answer": 0,
+        "choices": [
+            "all instructions that modify segment state",
+            "all loads or stores to addresses that are not 0 mod 32",
+            "all indirect loads or stores (via an address in a register or variable)",
+            "all indirect jumps (via an address in a register or variable)"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific x86 machine instructions that, if executed by the sandboxed module, could potentially allow it to access or modify memory outside its designated area or execute code outside its designated code area.",
+        "instruction 2": "Consider the specific constraints and restrictions imposed by Intel x86 segmentation in NaCl, including the use of segmentation registers and the limitations on accessing memory and executing instructions, to determine which instructions would be prohibited by the validator."
+    },
+    {
+        "question": "____________ is also a part of darknet that is employed for transferring files anonymously.",
+        "answer": 0,
+        "choices": [
+            "Freenet",
+            "ARPANET",
+            "Stuxnet",
+            "Internet"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the type of file transfer method being referred to, focusing on the anonymous nature of the transfer and its connection to the darknet.",
+        "instruction 2": "Research and describe the specific protocol or technology used for this type of file transfer, highlighting its role in maintaining user anonymity and its potential implications for data security and privacy."
+    },
+    {
+        "question": "Why apps developed in languages like C, C++ is prone to Buffer-overflow?",
+        "answer": 0,
+        "choices": [
+            "No string boundary checks in predefined functions",
+            "No storage check in the external memory",
+            "No processing power check",
+            "No database check"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific programming languages, C and C++, which are prone to buffer overflow due to their lack of runtime checks and manual memory management.",
+        "instruction 2": "Explain how buffer overflow occurs in these languages, highlighting the potential consequences of unchecked memory allocation and the importance of proper memory management in preventing such vulnerabilities."
+    },
+    {
+        "question": "Man in the middle attack can endanger the security of Diffie Hellman method if two parties are not",
+        "answer": 1,
+        "choices": [
+            "Joined",
+            "Authenticated",
+            "Submitted",
+            "Shared"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific vulnerability in the Diffie-Hellman key exchange protocol that allows for a man-in-the-middle attack, such as the lack of authentication or the potential for an attacker to intercept and manipulate public keys.",
+        "instruction 2": "Explain how this vulnerability can be exploited by an attacker to compromise the security of the key exchange, and discuss potential countermeasures that can be implemented to mitigate this risk, such as the use of digital signatures or secure communication channels."
+    },
+    {
+        "question": "An integer overflow occurs when",
+        "answer": 3,
+        "choices": [
+            "an integer expression's result \"wraps around\"; instead of creating a very large number, a very small (or negative) number ends up getting created",
+            "an integer is used as if it was a pointer",
+            "an integer is used to access a buffer outside of the buffer's bounds",
+            "there is no more space to hold integers in the program"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific condition or scenario that leads to an integer overflow, such as when the value of an integer variable exceeds its maximum possible value, causing the program to produce an incorrect result.",
+        "instruction 2": "Consider the implications of integer overflow on program behavior, including potential issues with data integrity, calculation accuracy, and system stability, and how it can be mitigated through proper programming practices and data type selection."
+    },
+    {
+        "question": "Let HH be a Merkle-Damgard hash function is H:X^{\\leq L} \\to TH:X^≤L  →T. Construct a MAC from this HH as follows: \\ \\ S(k,m) = H(k \\| m)  S(k,m)=H(k∥m). This mac is insecure because:",
+        "answer": 2,
+        "choices": [
+            "Given H(k \\| m)H(k∥m) anyone can compute H(w \\| k \\| m \\| \\text{PB})H(w∥k∥m∥PB) for any ww",
+            "Given H(k \\| m)H(k∥m) anyone can compute H(k \\| m \\| w)H(k∥m∥w) for any ww",
+            "Given H(k \\| m)H(k∥m) anyone can compute H(k \\| m \\| \\text{PB} \\| w)H(k∥m∥PB∥w) for any ww",
+            "Anyone can compute H( k \\| m )H(k∥m) for any mm"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific properties or weaknesses of the Merkle-Damgard hash function HH that make it vulnerable to attacks, such as its collision resistance or preimage resistance.",
+        "instruction 2": "Consider how the construction of the MAC S(k,m) = H(k \\| m) exploits these weaknesses, highlighting the specific attack vectors or potential vulnerabilities that render the MAC insecure."
+    },
+    {
+        "question": "Suppose that Alice and Bob sent confidential text messages to one another last month through an encrypted messaging system. Alice and Bob are worried that an adversary might compromise one of their computers today, while they are taking the 6.858 final exam, and would then be able to decrypt those messages. Which of the following security properties can address Alice and Bob’s concern?",
+        "answer": 2,
+        "choices": [
+            "Authentication.",
+            "Deniability.",
+            "Forward secrecy",
+            "Backward secrecy."
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific security threat that Alice and Bob are facing, which is the potential compromise of one of their computers, and the subsequent decryption of their confidential messages.",
+        "instruction 2": "Consider the security properties that would provide protection against this threat, such as forward secrecy or perfect forward secrecy, which ensure that even if an adversary gains access to the encrypted messages, they will not be able to decrypt them without the private keys."
+    },
+    {
+        "question": "The AH Protocol provides source authentication and data integrity, but not",
+        "answer": 1,
+        "choices": [
+            "Integrity",
+            "Privacy",
+            "Nonrepudiation",
+            "Both A & C"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary goals of the AH Protocol, specifically focusing on its capabilities regarding source authentication and data integrity.",
+        "instruction 2": "Consider the limitations of the AH Protocol, evaluating whether it provides any additional security features beyond source authentication and data integrity, and identifying the specific areas where it falls short."
+    },
+    {
+        "question": "Which of the following is not a security exploit?",
+        "answer": 2,
+        "choices": [
+            "Eavesdropping",
+            "Cross-site scripting",
+            "Authentication",
+            "SQL Injection"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the types of security exploits that are commonly recognized, such as buffer overflow, SQL injection, and cross-site scripting, to establish a baseline for comparison.",
+        "instruction 2": "Consider the characteristics of each exploit, such as the method of attack and the vulnerability exploited, to determine which one does not fit the typical definition of a security exploit, and why it is not considered an exploit."
+    },
+    {
+        "question": "_______________ is the central node of 802.11 wireless operations.",
+        "answer": 1,
+        "choices": [
+            "WPA",
+            "Access Point",
+            "WAP",
+            "Access Port"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key components of the 802.11 wireless protocol, such as the Media Access Control (MAC) and Physical (PHY) layers, to understand the role of the central node.",
+        "instruction 2": "Consider how the central node, typically the Access Point (AP), facilitates communication between devices, manages channel allocation, and provides a common reference point for wireless communication."
+    },
+    {
+        "question": "In MD-5 the length of the message digest is",
+        "answer": 1,
+        "choices": [
+            "160",
+            "128",
+            "64",
+            "54"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Research the specific cryptographic hash function being referred to (MD-5), its characteristics, and the typical output size of its message digest.",
+        "instruction 2": "Consider the implications of the message digest's length on its use in cryptographic applications, such as data integrity and authenticity verification."
+    },
+    {
+        "question": "What is Nmap?",
+        "answer": 0,
+        "choices": [
+            "It is a scanner which works by injecting packets to a range of addresses, and inferring what hosts and services might be at those addresses, based on the responses",
+            "It is a network fuzz testing tool",
+            "It is a map of the Internet",
+            "It is a suite of tools for scripting attacks: probe, construct, encode, inject, wait for response"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary function or purpose of Nmap, which is to scan and gather information about network hosts and services.",
+        "instruction 2": "Consider the various features and tools within Nmap, such as port scanning, OS detection, and version detection, and how they contribute to its overall functionality and usefulness in network exploration and security."
+    },
+    {
+        "question": "How do you prevent SQL injection?",
+        "answer": 0,
+        "choices": [
+            "Escape queries",
+            "Interrupt requests",
+            "Merge tables",
+            "All of the above"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary methods for preventing SQL injection, such as parameterized queries, prepared statements, and input validation, to ensure secure data manipulation and retrieval.",
+        "instruction 2": "Consider the importance of proper coding practices, including escaping special characters and using stored procedures, to mitigate the risk of SQL injection attacks and maintain data integrity."
+    },
+    {
+        "question": "What does it mean to \"be stealthy\" during a penetration test?",
+        "answer": 3,
+        "choices": [
+            "Performing the tests from an undisclosed location",
+            "Using encryption during tests to make the source of attacks impossible to determine",
+            "Performing penetration testing without the target organization knowing",
+            "Taking care to avoid activities during a penetration test that might attract attention, e.g., by operators or IDS services"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key aspects of stealthiness in the context of penetration testing, such as avoiding detection by the target system or network, and maintaining a low profile to minimize the risk of triggering security measures.",
+        "instruction 2": "Consider the implications of stealthiness on the penetration testing process, including the importance of careful planning, execution, and communication to ensure the success of the test while minimizing potential risks and consequences."
+    },
+    {
+        "question": "Which of the following is not a transport layer vulnerability?",
+        "answer": 3,
+        "choices": [
+            "Mishandling of undefined, poorly defined variables",
+            "The Vulnerability that allows “fingerprinting” & other enumeration of host information",
+            "Overloading of transport-layer mechanisms",
+            "Unauthorized network access"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary categories of transport layer vulnerabilities, such as buffer overflow, fragmentation, and sequence prediction attacks.",
+        "instruction 2": "Consider the specific characteristics of each vulnerability, evaluating which one does not primarily affect the transport layer and instead impacts a different layer of the OSI model, such as the application or network layer."
+    },
+    {
+        "question": "In Brumley and Boneh’s paper on side-channel attacks, why does blinding prevent the timing attack from working?",
+        "answer": 2,
+        "choices": [
+            "Blinding prevents the server from using the CRT optimization, which is essential to the timing attack.",
+            "Blinding changes the p and q primes that are used, so an adversary cannot learn the server’s true p and q values.",
+            "Blinding randomizes the ciphertext being decrypted, thus obscuring the correlation between an adversary’s input and the timing differences.",
+            "Blinding adds a random amount of time to the decryption due to the multiplication and division by the blinding random value r, which obscures the timing differences used in the attack."
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific technique used in the paper to prevent the timing attack, namely blinding, and understand its purpose.",
+        "instruction 2": "Consider how the blinding mechanism modifies the timing of the operations, making it difficult for the attacker to infer the secret information, and analyze how this prevents the timing attack from being successful."
+    },
+    {
+        "question": "The openSSL implementation described in “Remote Timing Attacks are Practical” (by Brumley and Boneh) uses the following performance optimizations: Chinese Remainder (CR), Montgomery Representation (MR), Karatsuba Multiplication (KM), and Repeated squaring and Sliding windows (RS). Which of the following options would close the timing channel attack described in the paper if you turned the listed optimizations off?\n1. RS and KM\n2. RS and MR",
+        "answer": 3,
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific performance optimizations mentioned in the paper that could potentially introduce timing differences, such as Repeated squaring and Sliding windows (RS) and Karatsuba Multiplication (KM).",
+        "instruction 2": "Consider how disabling these optimizations could potentially eliminate the timing channel attack, focusing on the interaction between the remaining optimizations and the attack's mechanism."
+    },
+    {
+        "question": "Public key encryption is advantageous over Symmetric key Cryptography because of",
+        "answer": 2,
+        "choices": [
+            "Speed",
+            "Space",
+            "Key exchange",
+            "Key length"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary difference between public key encryption and symmetric key cryptography, focusing on the type of keys used for encryption and decryption, and how this affects the distribution and management of keys.",
+        "instruction 2": "Consider the benefits of public key encryption, such as the ability to securely share public keys without compromising the confidentiality of the private key, and evaluate how this addresses potential vulnerabilities in symmetric key cryptography."
+    },
+    {
+        "question": "The __________ was a huge marketplace of Dark Web specifically famous for selling of illegal drugs & narcotics as well as you can find a wide range of other goods for sale.",
+        "answer": 0,
+        "choices": [
+            "Silk Road",
+            "Cotton Road",
+            "Dark Road",
+            "Drug Road"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific Dark Web marketplace being referred to, focusing on its notorious reputation for illegal activities, particularly drug trafficking.",
+        "instruction 2": "Consider the various types of illegal goods and services that were allegedly available on this marketplace, including the potential risks and consequences associated with engaging with such platforms."
+    },
+    {
+        "question": "The ______________ is categorized as an unknown segment of the Deep Web which has been purposely kept hidden & is inaccessible using standard web browsers.",
+        "answer": 2,
+        "choices": [
+            "Haunted web",
+            "World Wide Web",
+            "Dark web",
+            "Surface web"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific characteristic of the unknown segment of the Deep Web that distinguishes it from other parts of the web, such as its intentional hiding or lack of accessibility through standard browsers.",
+        "instruction 2": "Consider the implications of this hidden segment, including potential security risks, data protection concerns, and the challenges of accessing and navigating this hidden content."
+    },
+    {
+        "question": "What does EXE do when the STP solver times out on a constraint query for a particular path?",
+        "answer": 1,
+        "choices": [
+            "Assume that the query is satisfiable and continue executing the path.",
+            "Assume that the query is not satisfiable and stop executing the path",
+            "Restart STP and retry the query, up to a limited number of retries.",
+            "Remove a subset of the constraints and retry the query."
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the purpose of the STP solver in the context of constraint queries and path analysis, including its role in resolving ambiguities and ensuring the correctness of the results.",
+        "instruction 2": "Consider the implications of a timeout event, such as the potential for incorrect or incomplete results, and how EXE might handle this situation, possibly by re-running the query or providing alternative solutions."
+    },
+    {
+        "question": "To verify a digital signature we need the",
+        "answer": 1,
+        "choices": [
+            "Sender’s Private key",
+            "Sender’s Public key",
+            "Receiver’s Private key",
+            "Receiver’s Public key"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the essential components of a digital signature, including the cryptographic hash function, digital certificate, and private key, to understand the verification process.",
+        "instruction 2": "Describe the steps involved in verifying a digital signature, including checking the digital certificate, calculating the hash value, and comparing it to the original message, to ensure authenticity and integrity."
+    },
+    {
+        "question": "Suppose you want to use fuzzing on a program to try to find memory errors; which of the following statements is true?",
+        "answer": 2,
+        "choices": [
+            "You should not use a grammar-based fuzzer, because its adherence to the grammar means it will not find memory errors",
+            "Compiling the program with address sanitizer (ASAN) will make errors harder to reproduce",
+            "Compiling the program with address sanitizer (ASAN) will make the source of a memory error easier to find",
+            "Fuzzing doesn't find memory errors, it finds crashes and hangs"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the concept of fuzzing and its purpose in testing software, specifically focusing on its application in detecting memory errors.",
+        "instruction 2": "Consider how fuzzing works by introducing random or semi-random input data into the program, and how this can help uncover memory-related issues, such as buffer overflows or memory leaks."
+    },
+    {
+        "question": "Based on the paper “SoK: SSL and HTTPS: Revisiting past challenges and evaluating certificates trust model enhancements”, which of the following statements are false?",
+        "answer": 0,
+        "choices": [
+            "Valid DV certificates provide more confidence to a user that she is connecting to the intended party than valid EV certificates.",
+            "OCSP stapling allows a server to prove to a browser that its certificate hasn’t been revoked.",
+            "DANE makes it difficult for an adversary to launch a SSL stripping attack.",
+            "Server key-pinning makes it harder for an adversary to convince a CA to mint a certificate for a site and launch an MITM attack on that site."
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the main arguments and claims presented in the paper, focusing on SSL and HTTPS, and the challenges and enhancements discussed in the context of certificate trust models.",
+        "instruction 2": "Evaluate each statement provided, carefully comparing them to the content and findings presented in the paper, and identifying which statements are false or unsupported by the evidence provided."
+    },
+    {
+        "question": "What tool can be used to perform SNMP enumeration?",
+        "answer": 3,
+        "choices": [
+            "DNSlookup",
+            "Whois",
+            "Nslookup",
+            "IP Network Browser"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary purpose of SNMP enumeration, which is to scan and gather information about devices on a network, and the type of data that is typically collected (e.g., device names, IP addresses, system descriptions).",
+        "instruction 2": "Research and recommend a specific tool or software that can be used to perform SNMP enumeration, such as a network scanning tool or an SNMP walk utility, providing an example of how it can be used to gather information about network devices."
+    },
+    {
+        "question": "Which among them has the strongest wireless security?",
+        "answer": 3,
+        "choices": [
+            "WEP",
+            "WPA",
+            "WPA2",
+            "WPA3"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Research and identify the key wireless security protocols being compared, such as WPA2, WPA3, and others, and understand their respective strengths and weaknesses.",
+        "instruction 2": "Evaluate the specific features and vulnerabilities of each protocol, considering factors such as encryption methods, key exchange mechanisms, and potential attack vectors, to determine which one has the strongest wireless security."
+    },
+    {
+        "question": "Suppose Unix did not provide a way of passing file descriptors between processes, but still allowed inheriting file descriptors from a parent on fork and exec. What aspects of the OKWS design would break without file descriptor passing?\n1. It would be impossible for services to get a TCP connection to the client web browser.\n2. It would be impossible for okd to run as a non-root user.",
+        "answer": 2,
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key components of the OKWS design that rely on file descriptor passing, such as the communication between services and the client web browser, or the ability for okd to run as a non-root user.",
+        "instruction 2": "Consider how the lack of file descriptor passing would impact these components, evaluating the specific consequences for each aspect of the design."
+    },
+    {
+        "question": "Failed sessions allow brute-force attacks on access credentials. This type of attacks are done in which layer of the OSI model?",
+        "answer": 2,
+        "choices": [
+            "Physical layer",
+            "Data-link Layer",
+            "Session layer",
+            "Presentation layer"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the OSI model layer where authentication and authorization typically occur, such as the Application Layer or the Session Layer.",
+        "instruction 2": "Consider how failed sessions can potentially expose access credentials, and how this vulnerability can be exploited by attackers to gain unauthorized access, highlighting the importance of secure session management."
+    },
+    {
+        "question": "Which of the following is an authentication method?",
+        "answer": 3,
+        "choices": [
+            "Secret question",
+            "Biometric",
+            "SMS code",
+            "All of the above"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key characteristics of an authentication method, such as verifying the identity of a user, device, or entity, and ensuring that it is secure and trustworthy.",
+        "instruction 2": "Consider the various types of authentication methods, such as password-based, biometric, or token-based, and evaluate which of the given options best fits the definition of an authentication method."
+    },
+    {
+        "question": "When does a buffer overflow occur, generally speaking?",
+        "answer": 2,
+        "choices": [
+            "when writing to a pointer that has been freed",
+            "when copying a buffer from the stack to the heap",
+            "when a pointer is used to access memory not allocated to it",
+            "when the program notices a buffer has filled up, and so starts to reject requests"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the typical situation where a buffer overflow can occur, such as when an application or program attempts to write data to a buffer that is too small to hold the data, often resulting in memory corruption or system crashes.",
+        "instruction 2": "Consider the common causes of buffer overflows, including programming errors, insufficient memory allocation, or malicious attacks, and how these can lead to security vulnerabilities and system instability."
+    },
+    {
+        "question": "A digital signature needs a",
+        "answer": 2,
+        "choices": [
+            "Private-key system",
+            "Shared-key system",
+            "Public-key system",
+            "All of them"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the essential components of a digital signature, such as encryption, authentication, and non-repudiation, to understand the requirements for secure electronic transactions.",
+        "instruction 2": "Consider the specific technical and security measures that ensure the integrity and authenticity of digital communications, including public-key cryptography and digital certificates, to better understand the role of a digital signature in secure online transactions."
+    },
+    {
+        "question": "A packet filter firewall filters at the",
+        "answer": 3,
+        "choices": [
+            "Application or transport",
+            "Data link layer",
+            "Physical Layer",
+            "Network or transport layer"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the layer of the OSI model where packet filtering occurs, which is typically the Network Layer (Layer 3) or the Transport Layer (Layer 4), depending on the specific type of packet filtering.",
+        "instruction 2": "Consider the types of traffic that are typically filtered by a packet filter firewall, such as IP addresses, ports, or protocols, and how this filtering affects the flow of network traffic."
+    },
+    {
+        "question": "Let I = (S,V)I=(S,V) be a MAC. Suppose S(k,m)S(k,m) is always 5 bits long. Can this MAC be secure?",
+        "answer": 0,
+        "choices": [
+            "No, an attacker can simply guess the tag for messages",
+            "It depends on the details of the MAC",
+            "Yes, the attacker cannot generate a valid tag for any message",
+            "Yes, the PRG is pseudorandom"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific security concerns related to the MAC's structure, such as the fixed length of the S(k,m)S(k,m) value, which could potentially lead to attacks or vulnerabilities.",
+        "instruction 2": "Consider the potential impact of the fixed length on the MAC's ability to resist various attacks, such as collision attacks or replay attacks, and evaluate whether this MAC can be considered secure in light of these concerns."
+    },
+    {
+        "question": "Which of the following deals with network intrusion detection and real-time traffic analysis?",
+        "answer": 2,
+        "choices": [
+            "John the Ripper",
+            "L0phtCrack",
+            "Snort",
+            "Nessus"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key features and functionalities of network security systems, focusing on real-time traffic analysis and intrusion detection capabilities.",
+        "instruction 2": "Consider the specific technologies, protocols, or tools used in network security systems that enable real-time monitoring and detection of potential threats, such as network traffic analysis software, firewalls, or intrusion detection systems."
+    },
+    {
+        "question": "The Message condentiality or privacy means that the sender and the receiver expect",
+        "answer": 1,
+        "choices": [
+            "Integrity",
+            "Condentiality",
+            "Authentication",
+            "Nonrepudiation"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key elements of message confidentiality, such as the expectation of secrecy and the intention to restrict access to the message, and consider how these elements relate to privacy.",
+        "instruction 2": "Examine the context in which message confidentiality or privacy is relevant, such as in personal or professional communication, and evaluate how the level of confidentiality or privacy is determined, including any relevant legal or regulatory considerations."
+    },
+    {
+        "question": "When a wireless user authenticates to any AP, both of them go in the course of four-step authentication progression which is called _____________",
+        "answer": 1,
+        "choices": [
+            "AP-handshaking",
+            "4-way handshake",
+            "4-way connection",
+            "wireless handshaking"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the four-step authentication process used by wireless users to authenticate with an AP, focusing on the specific sequence of events and the roles of the user and the AP in this process.",
+        "instruction 2": "Consider the security implications of this authentication process, evaluating any potential vulnerabilities or risks associated with each step and how they can be mitigated through proper configuration and security measures."
+    },
+    {
+        "question": "Message authentication is a service beyond",
+        "answer": 1,
+        "choices": [
+            "Message Condentiality",
+            "Message Integrity",
+            "Message Splashing",
+            "Message Sending"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary function of message authentication, which is to verify the integrity and authenticity of messages or data, and distinguish it from other security services.",
+        "instruction 2": "Consider how message authentication differs from other services, such as confidentiality, integrity, or non-repudiation, in terms of its purpose and implementation, highlighting the specific benefits and applications of message authentication in various contexts."
+    },
+    {
+        "question": "Which of the following are most vulnerable to injection attacks?",
+        "answer": 3,
+        "choices": [
+            "Session IDs",
+            "Registry keys",
+            "Network communications",
+            "SQL queries based on user input"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key characteristics of injection attacks, such as the exploitation of user input to execute malicious code, and consider how different types of applications may be more susceptible to these attacks.",
+        "instruction 2": "Consider the specific vulnerabilities in the listed options, such as the use of dynamic SQL queries or the lack of proper input validation, and evaluate which options are most likely to be vulnerable to injection attacks."
+    },
+    {
+        "question": "Assume that a TLS connection has been established successfully between a client and a server. Establishing the session included checking the server certificate and executing a DiffieHelmann exchange, but the client did not provide a client certificate. Further, assume that the client and server are honest, that the client and server don’t leak their keys, and that the cryptography is good. Which of the following attacks does TLS protect against?\n1. An attacker replacing bytes sent by a client with bytes of the attacker’s own choosing.\n2. An attacker reading the plaintext bytes sent by a client.",
+        "answer": 0,
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the potential threats to the TLS connection, focusing on the client-server interaction and potential attacks that could compromise the security of the connection.",
+        "instruction 2": "Evaluate the security measures implemented during the session establishment, such as the Diffie-Hellman exchange and server certificate verification, to determine which attacks are prevented or mitigated by TLS."
+    },
+    {
+        "question": "Which of the following is a Wireless traffic Sniffing tool?",
+        "answer": 3,
+        "choices": [
+            "Maltego",
+            "BurpSuit",
+            "Nessus",
+            "Wireshark"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Research and identify common Wireless traffic Sniffing tools used in the field of cybersecurity, such as Wireshark, Airodump-ng, or Kismet, and determine which one is being referred to in the question.",
+        "instruction 2": "Verify the tool's capabilities and features, such as packet capture, protocol analysis, and intrusion detection, to confirm its relevance to wireless traffic sniffing."
+    },
+    {
+        "question": "A ___________ is a method in which a computer security mechanism is bypassed untraceable for accessing the computer or its information.",
+        "answer": 1,
+        "choices": [
+            "front-door",
+            "backdoor",
+            "clickjacking",
+            "key-logging"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the term that describes a method used in computer security contexts for bypassing security mechanisms, ensuring to understand the context around both covert actions and their implications for access to information.",
+        "instruction 2": "Consider the characteristics and techniques associated with such a method, including how it avoids detection and the potential motivations behind its use within cybersecurity discussions."
+    },
+    {
+        "question": "Which of the following is not a block cipher operating mode?",
+        "answer": 2,
+        "choices": [
+            "ECB",
+            "CFB",
+            "CBF",
+            "CBC"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the different block cipher operating modes, including popular ones like CBC, CFB, and OFB, and distinguish them based on their encryption and decryption processes.",
+        "instruction 2": "Research and compare the encryption and decryption processes of each mode, identifying any mode that does not operate by encrypting and decrypting fixed-size blocks of plaintext."
+    },
+    {
+        "question": "What is a web proxy?",
+        "answer": 0,
+        "choices": [
+            "A piece of software that intercepts and possibly modifies requests (and responses) between a web browser and web server",
+            "An agent that makes decisions on the client's behalf when interacting with web applications",
+            "A piece of software that makes a web application look like a standalone application, making it easier to test",
+            "A simulator for the web, for use when off-line"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary function of a web proxy, which is to act as an intermediary between a client and a server, allowing the client to access the server without revealing its own IP address or location.",
+        "instruction 2": "Consider the benefits of using a web proxy, such as enhanced security, improved performance, and the ability to bypass geographical restrictions, and how these advantages contribute to its widespread adoption in various contexts."
+    },
+    {
+        "question": "Buffer-overflow may remain as a bug in apps if __________ are not done fully.",
+        "answer": 2,
+        "choices": [
+            "boundary hacks",
+            "memory checks",
+            "boundary checks",
+            "buffer checks"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific actions or steps necessary to fully address buffer-overflow vulnerabilities in an application, such as implementing secure coding practices, using memory-safe languages, or incorporating input validation mechanisms.",
+        "instruction 2": "Consider the potential consequences of incomplete or inadequate buffer-overflow mitigation, including the potential for exploitation by malicious actors or the introduction of security risks, and evaluate the importance of thorough and comprehensive remediation."
+    },
+    {
+        "question": "Applications developed by programming languages like ____ and ______ have this common buffer-overflow error.",
+        "answer": 2,
+        "choices": [
+            "C, Ruby",
+            "Python, Ruby",
+            "C, C++",
+            "Tcl, C#"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the programming languages mentioned, focusing on their characteristics and common use cases, to understand how they might be related to the buffer-overflow error.",
+        "instruction 2": "Research common pitfalls and vulnerabilities in programming languages, particularly those related to memory management and buffer handling, to determine how these languages might be prone to this specific error."
+    },
+    {
+        "question": "Encryption and decryption provide secrecy, or condentiality, but not",
+        "answer": 1,
+        "choices": [
+            "Authentication",
+            "Integrity",
+            "Privacy",
+            "All of the above"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary purpose of encryption and decryption, which is to ensure secrecy or confidentiality of information.",
+        "instruction 2": "Consider the limitations of encryption and decryption in providing absolute security, and how other factors such as authentication, integrity, and non-repudiation may be necessary to ensure the overall security of the information."
+    },
+    {
+        "question": "A/an ___________ is a program that steals your logins & passwords for instant messaging applications.",
+        "answer": 0,
+        "choices": [
+            "IM – Trojans",
+            "Backdoor Trojans",
+            "Trojan-Downloader",
+            "Ransom Trojan"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the type of malicious software or program that targets instant messaging applications, focusing on its primary function of stealing login credentials.",
+        "instruction 2": "Consider the potential risks and consequences associated with this type of malware, such as unauthorized access to personal accounts, compromised security, and potential financial losses."
+    },
+    {
+        "question": "The sub key length at each round of DES is__________",
+        "answer": 1,
+        "choices": [
+            "32",
+            "56",
+            "48",
+            "64"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the DES algorithm and its key length, which is typically 64 bits.",
+        "instruction 2": "Consider how the DES algorithm iteratively applies a series of permutations and substitutions to the input data, and how the key length is reduced at each round through the process of key whitening, to determine the sub-key length at each round."
+    },
+    {
+        "question": "Which of the following is true of mutation-based fuzzing?",
+        "answer": 0,
+        "choices": [
+            "It generates each different input by modifying a prior input",
+            "It works by making small mutations to the target program to induce faults",
+            "Each input is mutation that follows a given grammar",
+            "It only makes sense for file-based fuzzing, not network-based fuzzing"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key concept of mutation-based fuzzing, focusing on the process of introducing small, random changes to an input or test case to create new, potentially valid inputs.",
+        "instruction 2": "Consider how this approach differs from other fuzzing techniques, such as generating random inputs or using a predefined set of test cases, and evaluate the potential benefits and limitations of mutation-based fuzzing in software testing."
+    },
+    {
+        "question": "What are the types of scanning?",
+        "answer": 1,
+        "choices": [
+            "Port, network, and services",
+            "Network, vulnerability, and port ",
+            "Passive, active, and interactive",
+            "Server, client, and network"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary categories of scanning, such as narrow, wide, and omnidirectional scanning, and their respective characteristics, such as the scope of coverage and the level of detail.",
+        "instruction 2": "Consider the specific applications and scenarios in which each type of scanning is typically used, such as in navigation, surveillance, or research, to better understand their distinct purposes and limitations."
+    },
+    {
+        "question": "A sender must not be able to deny sending a message that was sent, is known as",
+        "answer": 0,
+        "choices": [
+            "Message Nonrepudiation",
+            "Message Integrity",
+            "Message Condentiality",
+            "Message Sending"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the concept of sender authenticity, where the sender is accountable for sending the message, and consider how this relates to the idea of 'non-repudiation' in the context of digital communication.",
+        "instruction 2": "Explain how digital signature technologies, such as public-key cryptography, can be used to ensure the authenticity and integrity of digital messages, making it difficult for senders to deny sending the message."
+    },
+    {
+        "question": "A proxy rewall lters at the",
+        "answer": 1,
+        "choices": [
+            "Physical layer",
+            "Application layer",
+            "Data link layer",
+            "Network layer"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the context and purpose of a proxy rewall, such as filtering traffic or blocking certain domains, to determine the specific function of the proxy rewall.",
+        "instruction 2": "Consider the technical aspects of the proxy rewall's operation, including its role in the network architecture, the protocols it uses, and any relevant security implications, to better understand its function and potential applications."
+    },
+    {
+        "question": "Encapsulating Security Payload (ESP) belongs to which Internet Security Protocol?",
+        "answer": 1,
+        "choices": [
+            "Secure Socket Layer Protocol",
+            "Secure IP Protocol",
+            "Secure Http Protocol",
+            "Transport Layer Security Protocol"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Research the primary functions and protocols used for securing internet traffic, focusing on the specific features and applications of ESP.",
+        "instruction 2": "Consider the role of ESP within the overall architecture of the Internet Security Protocol, evaluating its position among other protocols and its contribution to ensuring secure data transmission."
+    },
+    {
+        "question": "A special tool is necessary for entering the network which is _______________ that helps the anonymous internet users to access into the Tor’s network and use various Tor services.",
+        "answer": 3,
+        "choices": [
+            "Opera browser",
+            "Firefox",
+            "Chrome",
+            "Tor browser"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific tool required for accessing the Tor network, focusing on its role in enabling anonymous internet users to connect to the network and use its services.",
+        "instruction 2": "Consider how the tool facilitates access to the Tor network, including the process of installing and configuring the tool, as well as any potential security risks or precautions associated with using the tool."
+    },
+    {
+        "question": "How does a buffer overflow on the stack facilitate running attacker-injected code?",
+        "answer": 0,
+        "choices": [
+            "By overwriting the return address to point to the location of that code",
+            "By writing directly to the instruction pointer register the address of the code",
+            "By writing directly to %eax the address of the code",
+            "By changing the name of the running executable, stored on the stack"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Explain how a buffer overflow occurs when more data is written to a buffer than it can hold, potentially overwriting adjacent memory locations on the stack, and how this can lead to the execution of attacker-injected code.",
+        "instruction 2": "Describe the specific conditions under which the buffer overflow can be exploited, such as the presence of a return address on the stack, and how the attacker's code can be executed by redirecting the program's control flow."
+    },
+    {
+        "question": "The digest created by a hash function is normally called a",
+        "answer": 0,
+        "choices": [
+            "Modication detection code (MDC)",
+            "Modify authentication connection",
+            "Message authentication control",
+            "Message authentication cipher"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the purpose of a hash function, which is to map variable-length input data to a fixed-length output, known as a digest or message digest.",
+        "instruction 2": "Consider the characteristics of a hash function that make it suitable for data integrity and authenticity verification, such as its deterministic nature and the fact that even slight changes to the input data result in a drastically different output."
+    },
+    {
+        "question": "Let F: K \\times R \\to MF:K×R→M be a secure PRF. For m \\in Mm∈M define E(k,m) = \\big[ r \\gets R,\\ \\text{output } \\big(r,\\ F(k,r) \\oplus m\\big)\\ \\big]E(k,m)=[r←R, output (r, F(k,r)⊕m) ] Is EE symantically secure under CPA?",
+        "answer": 2,
+        "choices": [
+            "Yes, whenever F is a secure PRF",
+            "No, there is always a CPA attack on this system",
+            "Yes, but only if R is large enough so r never repeats (w.h.p)",
+            "It depends on what F is used"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Understand the definition of a secure PRF (Pseudorandom Function) and its properties, particularly its security against chosen-plaintext attacks (CPA).",
+        "instruction 2": "Analyze the construction of the encryption function EE, considering how it combines the PRF F with the plaintext m, and evaluate whether this construction provides sufficient security against CPA attacks, taking into account the properties of the PRF and the encryption process."
+    },
+    {
+        "question": "Old operating systems like _______ and NT-based systems have buffer-overflow attack a common vulnerability.",
+        "answer": 3,
+        "choices": [
+            "Windows 7",
+            "Chrome",
+            "IOS12",
+            "UNIX"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific characteristics and examples of old operating systems that are typically associated with buffer-overflow vulnerabilities, focusing on how their architecture may contribute to this issue.",
+        "instruction 2": "Research and summarize the common vulnerabilities present in NT-based systems, ensuring to highlight any notable examples or case studies that illustrate how these vulnerabilities can be exploited in practice."
+    },
+    {
+        "question": "What is a replay attack?",
+        "answer": 3,
+        "choices": [
+            "When the attacker replies to a message sent to it by the system",
+            "An attack that continuously repeats, probing for a weakness",
+            "An attack that uses the system's own messages and so cannot be defended against",
+            "The attacker resends a captured message, and the site accept its and responds in the attacker's favor"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key elements of a replay attack, including the fact that an attacker captures and retransmits a valid authentication message or session key to gain unauthorized access to a system or network.",
+        "instruction 2": "Consider the various methods used to prevent or detect replay attacks, such as using sequence numbers, timestamps, or digital signatures to verify the authenticity and freshness of messages."
+    },
+    {
+        "question": "Statement 1| A U2F USB dongle prevents malware on the user’s computer from stealing the user’s second factor to authenticate as that user even when the user’s computer is turned off. Statement 2| A server using U2F can reliably determine that the user who is attempting to login is indeed behind the computer that sent the login request.",
+        "answer": 2,
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Analyze the functionality of U2F technology, specifically its ability to provide a second factor for authentication, and how this relates to the prevention of malware attacks and the assurance of user identity.",
+        "instruction 2": "Evaluate the implications of Statement 1 and Statement 2, considering the security benefits and limitations of U2F technology in different scenarios, such as offline and online authentication."
+    },
+    {
+        "question": "____________________ is the anticipation of unauthorized access or break to computers or data by means of wireless networks.",
+        "answer": 1,
+        "choices": [
+            "Wireless access",
+            "Wireless security",
+            "Wired Security",
+            "Wired device apps"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key concept of wireless network security threats, focusing on the potential vulnerabilities and risks associated with unauthorized access or break-ins.",
+        "instruction 2": "Consider how wireless network security measures, such as encryption, firewalls, and access controls, can mitigate these threats and protect against unauthorized access or break-ins."
+    },
+    {
+        "question": "Which of the following are benefits of penetration testing?",
+        "answer": 0,
+        "choices": [
+            "Results are often reproducible",
+            "Full evidence of security: a clean test means a secure system",
+            "Compositionality of security properties means tested components are secure even if others change",
+            "Makes an adversarial neural network converge more quickly"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary goals of penetration testing, such as identifying vulnerabilities, assessing the effectiveness of security measures, and improving overall system resilience.",
+        "instruction 2": "Consider the benefits of penetration testing, including the detection and remediation of security weaknesses, improved incident response planning, and enhanced threat intelligence gathering, to provide a comprehensive understanding of the advantages of this testing method."
+    },
+    {
+        "question": "1. _________ framework made cracking of vulnerabilities easy like point and click.",
+        "answer": 1,
+        "choices": [
+            ".Net",
+            "Metasploit",
+            "Zeus",
+            "Ettercap"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the framework or technology that made vulnerability exploitation more accessible, potentially allowing users to exploit vulnerabilities with minimal technical expertise.",
+        "instruction 2": "Consider the potential consequences of this increased accessibility, including the potential for increased exploitation and the importance of responsible disclosure and patching of vulnerabilities."
+    },
+    {
+        "question": "You are given a message (m) and its OTP encryption (c). Can you compute the OTP key from m and c ?",
+        "answer": 1,
+        "choices": [
+            "No, I cannot compute the key.",
+            "Yes, the key is k = m xor c.",
+            "I can only compute half the bits of the key.",
+            "Yes, the key is k = m xor m."
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the OTP encryption mechanism used to encrypt the message, such as a one-time pad, and determine the specific encryption algorithm or method used to generate the OTP key.",
+        "instruction 2": "Consider the properties of the OTP encryption, such as the requirement for a unique key for each message, and evaluate the feasibility of recovering the OTP key from the given message and its OTP encryption."
+    },
+    {
+        "question": "The openSSL implementation described in “Remote Timing Attacks are Practical” (by Brumley and Boneh) uses the following performance optimizations: Chinese Remainder (CR), Montgomery Representation (MR), Karatsuba Multiplication (KM), and Repeated squaring and Sliding windows (RS). Which of the following options would close the timing channel attack described in the paper if you turned the listed optimizations off?\n1. CR and MR\n2. CR",
+        "answer": 0,
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Understand the timing channel attack described in the paper, focusing on how the performance optimizations (CR, MR, KM, and RS) contribute to the vulnerability.",
+        "instruction 2": "Analyze the options and identify which combination of optimizations would effectively close the timing channel attack, considering the specific mechanisms by which each optimization influences the timing information leaked during the computation."
+    },
+    {
+        "question": "When the data must arrive at the receiver exactly as they were sent, its called",
+        "answer": 1,
+        "choices": [
+            "Message Condentiality",
+            "Message Integrity",
+            "Message Splashing",
+            "Message Sending"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific property of data transmission that requires the receiver to receive the data in its original, unaltered form, without any errors or modifications.",
+        "instruction 2": "Research and describe the term associated with this property, which is often used in communication protocols and data transmission standards to ensure the integrity of the transmitted data."
+    },
+    {
+        "question": "What is the difference between a direct leak and a side channel?",
+        "answer": 2,
+        "choices": [
+            "A direct leak creates a denial of service by failing to free memory, while a channel frees memory as a side effect",
+            "A direct leak is one that is intentional, rather than by unintentional",
+            "A direct leak comes via the software system's intended interaction mechanism, where as a side channel leak comes from measurements of other system features, like timing, power usage, or space usage",
+            "There is no difference"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary characteristics that distinguish direct leaks from side channels, such as the direct flow of sensitive information versus indirect exposure through unintended means.",
+        "instruction 2": "Consider how side channels, which may not involve direct access to sensitive information, can still compromise security by exploiting weaknesses in system design, implementation, or user behavior."
+    },
+    {
+        "question": "A session symmetric key between two parties is used",
+        "answer": 0,
+        "choices": [
+            "Only once",
+            "Twice",
+            "Multiple times",
+            "Conditions dependant"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the parties involved in the symmetric key exchange, including the roles they play and the purpose of the session key.",
+        "instruction 2": "Consider the security implications of using a symmetric key for this session, including the need for secure key exchange, key management, and encryption techniques to ensure confidentiality and integrity."
+    },
+    {
+        "question": "What is a nop sled",
+        "answer": 1,
+        "choices": [
+            "It is an anonymous version of a mop sled",
+            "It is a sequence of nops preceding injected shellcode, useful when the return address is unknown",
+            "It is a method of removing zero bytes from shellcode",
+            "It is another name for a branch instruction at the end of sequence of nops"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the context in which the term 'nop sled' is typically used, such as in the field of computer programming or cybersecurity, to better understand its meaning and significance.",
+        "instruction 2": "Research the definition and purpose of a nop sled, considering how it relates to code injection, exploit development, or other relevant concepts in the chosen context."
+    },
+    {
+        "question": "Which Nmap scan is does not completely open a TCP connection?",
+        "answer": 0,
+        "choices": [
+            "SYN stealth scan",
+            "TCP connect",
+            "XMAS tree scan",
+            "ACK scan"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific Nmap scan option that does not establish a full TCP connection, such as the '-sT' option, which is often used for scanning TCP ports without opening a full connection.",
+        "instruction 2": "Consider the purpose of this scan option, such as detecting open TCP ports without initiating a full connection, and how it differs from other scan options that may establish a full connection, such as the '-sS' option."
+    },
+    {
+        "question": "Based on the paper “Click Trajectories: End-to-End Analysis of the Spam Value Chain”, which of the following statements are true? “Spammers” here refer to operators of various parts of the “spam value chain.”",
+        "answer": 3,
+        "choices": [
+            "Spammers run their spam-advertised web sites on compromised user machines that are part of a botnet.",
+            "Spammers need to register domain names in order for their spam-based advertisements to be effective.",
+            "There is a high cost for spammers to switch acquiring banks.",
+            "B and C"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the main concepts and findings presented in the paper 'Click Trajectories: End-to-End Analysis of the Spam Value Chain', focusing on the role of 'spammers' within the spam value chain.",
+        "instruction 2": "Evaluate the statements provided, using the information gathered from the paper to determine which statements are true and which are false, considering the context and definitions provided in the paper."
+    },
+    {
+        "question": "In a _____________ attack, the extra data that holds some specific instructions in the memory for actions is projected by a cyber-criminal or penetration tester to crack the system.",
+        "answer": 2,
+        "choices": [
+            "Phishing",
+            "MiTM",
+            "Buffer-overflow",
+            "Clickjacking"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific type of attack being described, focusing on the concept of injecting malicious data into a system's memory to achieve a specific goal.",
+        "instruction 2": "Consider the potential methods and techniques used by cyber-criminals or penetration testers to execute this type of attack, such as exploiting vulnerabilities or using social engineering tactics."
+    },
+    {
+        "question": "_______________ is a popular tool used for network analysis in multiprotocol diverse network.",
+        "answer": 3,
+        "choices": [
+            "Snort",
+            "SuperScan",
+            "Burp Suit",
+            "EtterPeak"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the type of network analysis tool being referred to, such as a protocol analyzer or a network monitoring tool, and its role in analyzing multiprotocol diverse networks.",
+        "instruction 2": "Consider the specific features and capabilities of the tool, such as protocol identification, network visualization, and performance monitoring, that enable it to effectively analyze and troubleshoot complex network environments."
+    },
+    {
+        "question": "___________________ is alike as that of Access Point (AP) from 802.11, & the mobile operators uses it for offering signal coverage.",
+        "answer": 2,
+        "choices": [
+            "Base Signal Station",
+            "Base Transmitter Station",
+            "Base Transceiver Station",
+            "Transceiver Station"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key similarities between the concept being discussed and an Access Point (AP) from 802.11, focusing on their role in providing signal coverage and connectivity.",
+        "instruction 2": "Consider the specific context and application of the concept being discussed, evaluating how it is used by mobile operators to offer signal coverage and comparing it to the role of APs in wireless networks."
+    },
+    {
+        "question": "A __________ is a sequential segment of the memory location that is allocated for containing some data such as a character string or an array of integers.",
+        "answer": 3,
+        "choices": [
+            "stack",
+            "queue",
+            "external storage",
+            "buffer"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key characteristics of a memory allocation unit, such as its sequential nature and purpose of storing data, to establish a clear understanding of the concept.",
+        "instruction 2": "Consider the different types of data that can be stored in this memory allocation unit, such as character strings or arrays of integers, and how they are managed and accessed in a programming context."
+    },
+    {
+        "question": "Which form of encryption does WPA use?",
+        "answer": 2,
+        "choices": [
+            "Shared key",
+            "LEAP",
+            "TKIP",
+            "AES"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Research the cryptographic protocols used in WPA (Wi-Fi Protected Access) to identify the specific encryption method employed for securing wireless networks.",
+        "instruction 2": "Consider the evolution of WPA encryption methods over time, including any updates or changes that may have affected the encryption protocol used, and verify the information through reputable sources."
+    },
+    {
+        "question": "Let suppose a search box of an application can take at most 200 words, and you’ve inserted more than that and pressed the search button; the system crashes. Usually this is because of limited __________",
+        "answer": 0,
+        "choices": [
+            "buffer",
+            "external storage",
+            "processing power",
+            "local storage"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific resource or component that is being limited, which is causing the system to crash when the search box exceeds the 200-word limit.",
+        "instruction 2": "Consider the potential consequences of exceeding this limit, such as memory overflow or buffer overflow, and how these issues can impact the stability and performance of the application."
+    },
+    {
+        "question": "___________________ began to show up few years back on wireless access points as a new way of adding or connecting new devices.",
+        "answer": 2,
+        "choices": [
+            "WPA2",
+            "WPA",
+            "WPS",
+            "WEP"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific technology or method being referred to, such as Wi-Fi 6 or Wi-Fi Easy Connect, and research its introduction and adoption timeline.",
+        "instruction 2": "Consider the advantages and potential uses of this technology, such as improved network performance, increased device compatibility, or enhanced user experience, and how it may have impacted the wireless networking landscape."
+    },
+    {
+        "question": "What are the port states determined by Nmap?",
+        "answer": 2,
+        "choices": [
+            "Active, inactive, standby",
+            "Open, half-open, closed ",
+            "Open, filtered, unfiltered",
+            "Active, closed, unused"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary function of Nmap, which is to scan and gather information about network hosts and services, and how this relates to the concept of port states.",
+        "instruction 2": "Explain how Nmap determines port states, such as open, closed, or filtered, by analyzing responses from network hosts to specific TCP or UDP packets, and how this information is used to provide a comprehensive picture of network topology and services."
+    },
+    {
+        "question": "Which among the following is the least strong security encryption standard?",
+        "answer": 0,
+        "choices": [
+            "WEP",
+            "WPA",
+            "WPA2",
+            "WPA3"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary characteristics that define the strength of a security encryption standard, such as key length, algorithm complexity, and the number of iterations used for hashing.",
+        "instruction 2": "Compare the features of each encryption standard listed, evaluating their relative strengths and weaknesses, and identifying the one that is generally considered the least strong or most vulnerable to attacks."
+    },
+    {
+        "question": "Why is it that the compiler does not know the absolute address of a local variable?",
+        "answer": 2,
+        "choices": [
+            "Programs are not allowed to reference memory using absolute addresses",
+            "The size of the address depends on the architecture the program will run on",
+            "As a stack-allocated variable, it could have different addresses depending on when its containing function is called",
+            "Compiler writers are not very good at that sort of thing"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the key concept of stack-based memory allocation, where local variables are stored on the stack and their addresses are relative to the current program counter.",
+        "instruction 2": "Consider how the compiler generates machine code, taking into account the dynamic nature of stack allocation and the fact that the compiler does not have knowledge of the exact memory address at compile-time, making it impossible for the compiler to know the absolute address of a local variable."
+    },
+    {
+        "question": "The stack is memory for storing",
+        "answer": 0,
+        "choices": [
+            "Local variables",
+            "Program code",
+            "Dynamically linked libraries",
+            "Global variables"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary function of the stack in computer memory, focusing on its role in storing and retrieving data.",
+        "instruction 2": "Consider how the stack differs from other memory storage systems, such as the heap, in terms of its allocation and deallocation mechanisms, as well as its use in managing program execution and data retrieval."
+    },
+    {
+        "question": "Can a stream cipher have perfect secrecy?",
+        "answer": 3,
+        "choices": [
+            "Yes, if the PRG is really “secure”",
+            "No, there are no ciphers with perfect secrecy",
+            "Yes, every cipher has perfect secrecy",
+            "No, since the key is shorter than the message"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Explain the concept of perfect secrecy in cryptography, highlighting the requirements for achieving it, such as the need for an infinite key space and the inability to deduce the key from the ciphertext alone.",
+        "instruction 2": "Evaluate whether a stream cipher, which typically uses a random key stream to encrypt plaintext, can meet these requirements, considering potential limitations and vulnerabilities that may compromise its perfect secrecy."
+    },
+    {
+        "question": "Which of the following does authorization aim to accomplish?",
+        "answer": 0,
+        "choices": [
+            "Restrict what operations/data the user can access",
+            "Determine if the user is an attacker",
+            "Flag the user if he/she misbehaves",
+            "Determine who the user is"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary goal of authorization in a system, such as controlling access to resources, ensuring the integrity of data, or enforcing security policies.",
+        "instruction 2": "Consider how authorization interacts with other security components, such as authentication and auditing, to achieve its objectives and maintain system security."
+    },
+    {
+        "question": "The message must be encrypted at the sender site and decrypted at the",
+        "answer": 2,
+        "choices": [
+            "Sender Site",
+            "Site",
+            "Receiver site",
+            "Conferencing"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary goal of message encryption, which is to ensure secure transmission of data by converting it into a format that is unreadable to unauthorized parties.",
+        "instruction 2": "Consider the specific encryption and decryption processes, including the use of algorithms, keys, and protocols, that enable secure communication between the sender and receiver."
+    },
+    {
+        "question": "A _________________ may be a hidden part of a program, a separate infected program a Trojan in disguise of an executable or code in the firmware of any system’s hardware.",
+        "answer": 2,
+        "choices": [
+            "crypter",
+            "virus",
+            "backdoor",
+            "key-logger"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the characteristics of a malware that distinguishes it from other types of malicious code, such as its ability to disguise itself as a legitimate program or hardware component.",
+        "instruction 2": "Consider how the presence of a Trojan horse can compromise system security, including potential methods of detection and removal, as well as the consequences of failure to identify and address the threat."
+    },
+    {
+        "question": "How is IP address spoofing detected?",
+        "answer": 1,
+        "choices": [
+            "Installing and configuring a IDS that can read the IP header",
+            "Comparing the TTL values of the actual and spoofed addresses",
+            "Implementing a firewall to the network",
+            "Identify all TCP sessions that are initiated but does not complete successfully"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Investigate the common techniques and methods used to detect IP address spoofing, such as analyzing packet headers for inconsistencies, monitoring traffic patterns for anomalies, and implementing ingress and egress filtering.",
+        "instruction 2": "Evaluate the role of intrusion detection systems (IDS) and other network security tools in identifying potential spoofing attacks, paying attention to how these systems can utilize threshold-based alerts and heuristic analysis."
+    },
+    {
+        "question": "Which of the following is not an example of presentation layer issues?",
+        "answer": 3,
+        "choices": [
+            "Poor handling of unexpected input can lead to the execution of arbitrary instructions",
+            "Unintentional or ill-directed use of superficially supplied input",
+            "Cryptographic flaws in the system may get exploited to evade privacy",
+            "Weak or non-existent authentication mechanisms"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the presentation layer in the OSI model, which is responsible for formatting data for transmission and ensuring it is readable by the receiving device.",
+        "instruction 2": "Examine the provided options and determine which one is not related to the presentation layer, such as issues with data encryption or network congestion, which would fall under other layers of the OSI model."
+    },
+    {
+        "question": "Suppose Unix did not provide a way of passing file descriptors between processes, but still allowed inheriting file descriptors from a parent on fork and exec. What aspects of the OKWS design would break without file descriptor passing?\n1. It would be impossible for services to send messages to oklogd.\n2. It would be impossible for services to get a TCP connection to a database proxy.",
+        "answer": 1,
+        "choices": [
+            "True, True",
+            "False, False",
+            "True, False",
+            "False, True"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the specific components or interactions within the OKWS design that rely on the ability to pass file descriptors between processes, such as message passing or establishing connections.",
+        "instruction 2": "Consider how the absence of file descriptor passing would impact these components, evaluating the consequences for services communicating with oklogd or establishing connections to database proxies."
+    },
+    {
+        "question": "Why would a ping sweep be used?",
+        "answer": 0,
+        "choices": [
+            "To identify live systems",
+            "To locate live systems",
+            "To identify open ports",
+            "To locate firewalls"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the primary purpose of a ping sweep, which is to quickly scan a network or range of IP addresses to determine which hosts are active and responding to ping requests.",
+        "instruction 2": "Consider the potential use cases for ping sweeps, such as identifying available targets for further reconnaissance or penetration testing, or detecting rogue devices on a network."
+    },
+    {
+        "question": "The four Primary Security Principles related to messages are",
+        "answer": 0,
+        "choices": [
+            "Confidentiality, Integrity, Non repudiation and Authentication",
+            "Confidentiality, Access Control, Integrity, Non repudiation",
+            "Authentication, Authorization, Availability, Integrity",
+            "Availability, Authorization, Confidentiality, Integrity"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the four primary security principles related to messages, such as authenticity, integrity, confidentiality, and non-repudiation, and explain their importance in ensuring secure communication.",
+        "instruction 2": "Consider how these principles can be applied in various contexts, such as encryption, digital signatures, and secure communication protocols, to protect the confidentiality, integrity, and authenticity of messages."
+    },
+    {
+        "question": "What was the first buffer overflow attack?",
+        "answer": 2,
+        "choices": [
+            "Love Bug",
+            "SQL Slammer",
+            "Morris Worm",
+            "Code Red"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Research the history of buffer overflow attacks, focusing on the earliest known instances, and identify the specific circumstances and vulnerabilities that led to the first buffer overflow attack.",
+        "instruction 2": "Consider the impact and consequences of the first buffer overflow attack, including any security breaches, data losses, or system compromises that resulted from the exploit."
+    },
+    {
+        "question": "The ______________ can cost you money, by sending text messages from your mobile phone numbers.",
+        "answer": 2,
+        "choices": [
+            "IM – Trojans",
+            "Backdoor Trojans",
+            "SMS Trojan",
+            "Ransom Trojan"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the type of message that is being referred to, such as SMS or MMS, and consider how these messages are typically charged by mobile phone providers.",
+        "instruction 2": "Consider the potential costs associated with sending these messages, such as per-message fees, data charges, or any applicable international rates, and how these costs can add up over time."
+    },
+    {
+        "question": "Three of the following are classic security properties; which one is not?",
+        "answer": 1,
+        "choices": [
+            "Confidentiality",
+            "Availability",
+            "Correctness",
+            "Integrity"
+        ],
+        "subject": "computer_security",
+        "instruction 1": "Identify the three classic security properties that are commonly recognized in the field of computer security, such as confidentiality, integrity, and availability.",
+        "instruction 2": "Evaluate the fourth option presented, considering whether it aligns with the traditional understanding of security properties and whether it is a valid or commonly recognized concept in the field."
+    }
+]

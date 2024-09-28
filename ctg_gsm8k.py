@@ -89,7 +89,7 @@ def CTG_hs(args):
     batch_size = 2
     test_data=[]
     split_hiddens= get_split_hs(model,tokenizer)
-    prompt="You're a mathematician who's good at reasoning. Answer the following questions, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
+    prompt="You're a mathematician who's good at reasoning. Answer the following questions using detailed reasoning steps, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
     with open(os.path.join("/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_gpt.json".format()), 'r', encoding='utf-8') as test_file:
         test_data = json.load(test_file)
     # for i in test_data:
@@ -130,7 +130,7 @@ def vllm_gen(args):
     run_results = []
     batch_size = 1
     test_data=[]
-    prompt="You're a mathematician who's good at reasoning. Answer the following questions, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
+    prompt="You're a mathematician who's good at reasoning. Answer the following questions using detailed reasoning steps, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
     with open(os.path.join("/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_llama.json".format()), 'r', encoding='utf-8') as test_file:
         test_data = json.load(test_file)
     train_data=load_dataset("/data1/chh/datasets/openai/gsm8k",'main')

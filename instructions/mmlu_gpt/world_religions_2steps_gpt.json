@@ -1,0 +1,2225 @@
+[
+    {
+        "instruction 1": "Investigate the meaning of the term 'murtis' within the context of religious or cultural practices, focusing on its significance in Hinduism as it pertains to iconography and representation of deities.",
+        "instruction 2": "Explore the linguistic roots of the word 'murtis' and how its translations or interpretations may vary across different languages or cultural contexts, ensuring to consider any nuances in meaning.",
+        "question": " What can murtis be translated as?",
+        "choices": [
+            "Offerings",
+            "Prayers",
+            "Apparitions",
+            "Idols"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific field or discipline related to naturalists who focus on natural elements and processes, determining whether it pertains to ecology, biology, or another area of study that emphasizes observation and understanding of the natural world.",
+        "instruction 2": "Consider historical and contemporary influences of naturalists in shaping environmental science and conservation practices, evaluating how their work relates to fostering knowledge about ecosystems and biodiversity.",
+        "question": " Naturalists who concentrated on natural elements and processes are associated with which of the following?",
+        "choices": [
+            "Daoism",
+            "Yin-Yang School",
+            "Mengzi",
+            "Humanistic Buddhism"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the historical context and key events surrounding the introduction of Buddhism to Japan, specifically looking for the time period when the first Buddhist temple was established and any significant cultural influences.",
+        "instruction 2": "Identify the specific temple that is recognized as the first Buddhist temple in Japan, along with relevant details such as its location, founding figures, and any historical documentation that supports this claim.",
+        "question": " When was the first Buddhist temple constructed in Japan?",
+        "choices": [
+            "325 CE",
+            "119 CE",
+            "451 CE",
+            "596 CE"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific New Year festival celebrated by the ancient Babylonians, focusing on its cultural significance and any associated rituals or traditions that highlight its importance within Babylonian society.",
+        "instruction 2": "Research the historical context of the festival, including its name, duration, and how it reflects the values and beliefs of Babylonian culture, ensuring to provide any relevant details that might enhance understanding of its role in their society.",
+        "question": " What is the name of the ten day New Year festival that celebrated Babylon's culture?",
+        "choices": [
+            "Akitu",
+            "Wag and Thoth",
+            "Bast",
+            "Nehebkau"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific Japanese art form related to flower arranging, ensuring differentiation from other cultural practices that may involve floral decorations.",
+        "instruction 2": "Consider the historical and cultural context of this art form, including its principles and techniques, to provide a comprehensive understanding of its significance and distinguish it from similar practices in other cultures.",
+        "question": "Which of the following terms denote the Japanese art of flower arranging?",
+        "choices": [
+            "Zazen",
+            "Tariki",
+            "Kami",
+            "Ikebana"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the primary purpose of using Sikh Ragas as taught by Guru Nanak and his successors, focusing on the spiritual and cultural significance they hold within Sikhism, particularly in relation to enhancing devotion and fostering a sense of community.",
+        "instruction 2": "Explore how these Ragas are integrated into Sikh practices, such as in hymns or prayers, to determine their role in conveying messages of moral and ethical teachings that align with Sikh beliefs.",
+        "question": " Guru Nanak and his successors instructed the use of particular Sikh Ragas in order to promote which of the following?",
+        "choices": [
+            "Harmony and balance",
+            "Devotion and piety",
+            "Love and passion",
+            "Goodwill and love"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific term coined by Guru Nanak that refers to the 'divine word', paying close attention to the linguistic and spiritual significance of this term within the context of Sikhism.",
+        "instruction 2": "Explore the historical and theological implications of this term in Guru Nanak's teachings, including how it relates to the concept of divine revelation and its relevance in Sikh scripture.",
+        "question": " Guru Nanak used what term to denote the \"divine word\" as part of divine revelation?",
+        "choices": [
+            "Shabad",
+            "Khalse",
+            "Nam",
+            "Guru"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the concept of 'mi'raj' by exploring its historical and religious significance, particularly within Islamic tradition, and identify the key events that characterize this experience, including the journey to the heavens undertaken by the Prophet Muhammad.",
+        "instruction 2": "Examine the theological implications and interpretations of the mi'raj in Islamic thought, including its relevance to the understanding of faith, the nature of the divine, and how it is observed or commemorated in Muslim culture.",
+        "question": "What is the mi'raj?",
+        "choices": [
+            "Muhammad's miraculous ascent to heaven",
+            "Muhammad's migration to Mecca",
+            "Muhammad's first community in Mecca",
+            "Muhammad's revelations of the Qur'an"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific text known as the most famous dharmashastra, ensuring to mention its historical significance and the approximate time of its composition, around the first century.",
+        "instruction 2": "Explore the context and impact of this dharmashastra on Indian law and ethics, including its influence on later texts and its role in shaping social norms during the period.",
+        "question": "What is the name of the most famous dharmashastras, which probably dates from around the first century?",
+        "choices": [
+            "Laws of Dharma",
+            "Laws of Karma",
+            "Laws of Vishnu",
+            "Laws of Manu"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the etymology of the term 'Qur'an,' focusing on its roots in the Arabic language to determine its literal translation and implications regarding its meaning, such as 'the recitation' or 'that which is recited.'",
+        "instruction 2": "Consider the context in which the term 'Qur'an' is used within Islamic theology and literature, evaluating how its literal meaning relates to the broader significance of the text as a foundational spiritual and religious document.",
+        "question": "What does the term \"Qur'an\" literally mean?",
+        "choices": [
+            "The Holy Book",
+            "The Narrative",
+            "The Recitation",
+            "The Pillars"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the different names or titles by which God is referred to in Mani's teachings and writings, particularly focusing on historical context and theological significance within Manichaeanism.",
+        "instruction 2": "Explore how these names reflect the beliefs and practices of Mani and his followers, considering the broader implications of these titles in relation to other religious traditions and their views of the divine.",
+        "question": " Mani referred to God by which of the following names?",
+        "choices": [
+            "Mother of Light",
+            "Father of Goodness",
+            "Ineffable Lover",
+            "Eternal Spirit"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific tradition or philosophy that emphasizes the concept of 'gradual enlightenment,' focusing on key doctrines or practices that support this gradual approach to achieving understanding or spiritual awakening.",
+        "instruction 2": "Consider historical and cultural contexts in which this tradition developed, including influential texts, notable figures, and the comparative aspects of similar traditions that may also address enlightenment, to provide a comprehensive understanding.",
+        "question": " Which tradition is known to promote \"gradual enlightenment\"?",
+        "choices": [
+            "Bushido",
+            "Shinto",
+            "Nichiren",
+            "Soto Zen"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific term used within Sikhism to describe the communal meal shared by worshippers at a gurdwara. This includes understanding its significance and how it is integrated into religious practices.",
+        "instruction 2": "Explore the cultural and spiritual implications of this communal meal, known as 'Langar,' including its role in promoting equality and community service within the Sikh faith.",
+        "question": "What is the communal meal offered at the place of worship called in Sikhism?",
+        "choices": [
+            "Sangat",
+            "Langar",
+            "Gurdwara",
+            "Panth"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific characteristics and beliefs of the Celestial Masters, including the historical context and doctrines that define their anti-Han rebellion, in relation to Daoism and other spiritual traditions.",
+        "instruction 2": "Explore the broader socio-political landscape of the time to understand how the Celestial Masters' actions and ideologies relate to existing traditions and how they influenced or paralleled the cultural movements within the region.",
+        "question": "To which tradition do the anti-Han rebel group known as the Celestial Masters belong?",
+        "choices": [
+            "Buddhism",
+            "Daoism",
+            "Confucianism",
+            "Shamanism"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Explore the etymology of the word 'Islam' in Arabic, focusing on its root letters and the meanings associated with them, particularly analyzing how the term relates to concepts of submission and peace.",
+        "instruction 2": "Investigate the context in which the word 'Islam' is used within Arabic language and culture, considering its implications in religious, social, and historical contexts to provide a comprehensive understanding of its meaning.",
+        "question": "What does the word \"Islam\" mean in Arabic?",
+        "choices": [
+            "Worship",
+            "Submission",
+            "Obedience",
+            "Faith"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Explore the philosophical and cultural context of the term 'anatman,' which refers to the concept of 'non-self' in Buddhism, and contrast it with the notion of 'atman' found in Hindu philosophy, highlighting its significance in Buddhist teachings about the nature of identity and existence.",
+        "instruction 2": "Investigate how the concept of anatman relates to the Four Noble Truths and the path to enlightenment within Buddhism, emphasizing its implications for understanding suffering and the self.",
+        "question": "What does the term anatman mean?",
+        "choices": [
+            "Suffering",
+            "Soul",
+            "Impermanence",
+            "No-self"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the term 'janam-sakhis' within the context of Sikh literature, identifying its historical significance and the themes it encompasses, particularly focusing on its narrative style and the portrayal of the life and teachings of Guru Nanak.",
+        "instruction 2": "Explore the cultural and religious relevance of janam-sakhis in Sikh traditions, considering how they function as spiritual texts that guide adherents in understanding the principles and practices of Sikhism.",
+        "question": " What genre of Sikh literature is denoted by the term janam-sakhis?",
+        "choices": [
+            "Spiritual narratives",
+            "Redemption narratives",
+            "Birth narratives",
+            "Theological narratives"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify Pure Land Buddhism as a branch of Mahayana Buddhism and clarify its foundational beliefs, which focus on the creation of a Pure Land through faith in Amitabha Buddha.",
+        "instruction 2": "Research the different schools of Mahayana Buddhism to determine the specific classification of Pure Land Buddhism, including its various sects and their teachings, to provide a comprehensive answer.",
+        "question": "Pure Land Buddhism belongs to which school?",
+        "choices": [
+            "Vajrayana",
+            "Theravada",
+            "Mahayana",
+            "Mahavira"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific Jaina group that has laid down guidelines or doctrines regarding leadership roles for women, particularly focusing on the concept of semi-renunciation and the context in which it applies.",
+        "instruction 2": "Examine historical and cultural factors within Jainism that influence the roles of women in religious leadership, ensuring to differentiate this group from others that may have differing views on women's spiritual practices and leadership.",
+        "question": " Which Jaina group only allows women to lead a life of semi-renunciation?",
+        "choices": [
+            "Svetambara",
+            "Jina",
+            "Agama",
+            "Digambara"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the central prayers in Judaism and evaluate their significance in religious practice, focusing on the Shema as it is considered the most important prayer due to its fundamental declaration of monotheism and its role in Jewish worship.",
+        "instruction 2": "Examine the historical and cultural context of the Shema, including its literary sources in the Torah and its implications for Jewish identity, spirituality, and daily life to understand its esteemed status in the Jewish faith.",
+        "question": "What is the most important prayer in Judaism?",
+        "choices": [
+            "The Shema",
+            "The Sefirot",
+            "Deuteronomy",
+            "The Decalogue"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the context and historical significance of the socio-political alliance between the kshatriyas and shramanas, focusing on their shared values, beliefs, and ideologies that led to their opposition.",
+        "instruction 2": "Research and determine the specific entities, ideologies, or groups that the kshatriyas and shramanas opposed, analyzing how their collective stance influenced their alliance and social dynamics.",
+        "question": " The socio-political alliance between the kshatriyas and the shramanas was rooted in their shared opposition to which of the following?",
+        "choices": [
+            "Brahminic orthodoxy",
+            "Legalistic asceticism",
+            "Bhakti devotionals",
+            "Unorthodox practices"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key historical battles during the early Islamic period that had significant impacts on the city of Mecca, focusing on the events leading to its eventual conversion to Islam.",
+        "instruction 2": "Examine the timeline of early Islamic battles, specifically the Battle of Mecca, and analyze its significance in relation to Muhammad’s leadership and the broader context of Islamic expansion.",
+        "question": " Which early battle led to the conversion of Mecca?",
+        "choices": [
+            "The Battle of Uhud",
+            "The Battle of Camel",
+            "The Battle of the Trench",
+            "The Battle of Badr"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key interior disciplines emphasized in Sikhism that are essential for achieving spiritual liberation, such as meditation (Naam Simran), self-discipline (Sewa), and the importance of following the teachings of the Guru.",
+        "instruction 2": "Explore how these disciplines interact with the broader framework of Sikh beliefs and practices, including the significance of community (Sangat) and living a truthful life, while considering their role in fostering spiritual growth and connection with the divine.",
+        "question": " What interior discipline must be adopted to achieve spiritual liberation within Sikhism?",
+        "choices": [
+            "Remembering the Divine Name",
+            "Meditating on the sacred hymns",
+            "Remembering that death is inevitable",
+            "Meditating on the goodness of the created world"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific policies or measures that were implemented during Japan's occupation of Korea, focusing on cultural, social, and economic impacts imposed upon the Korean population during this period.",
+        "instruction 2": "Examine the various forms of oppression and control utilized by the Japanese government, such as language policies, land displacement, or forced labor, to answer how these impositions affected the Korean identity and society.",
+        "question": " During Japan's occupation of Korea (1910-1945), which of the following was imposed upon the Koreans?",
+        "choices": [
+            "Confucianism",
+            "Buddhism",
+            "Christianity",
+            "Daoism"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the etymology of the word 'Sikh' in Punjabi, considering its historical and cultural significance within the context of Sikhism and its derived meanings related to 'disciple' or 'learner'.",
+        "instruction 2": "Examine the broader implications of the term 'Sikh' within Sikh practices and teachings, including its relevance to community identity and the characteristics of those who identify as Sikhs.",
+        "question": "What is the meaning of the Punjabi word \"Sikh\"?",
+        "choices": [
+            "Disciple",
+            "Faithful",
+            "Devotee",
+            "Enlightened"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define what it means to 'shun politics' within the context of the question, considering interpretations that may range from avoidance of political engagement to an active rejection of political ideologies.",
+        "instruction 2": "Evaluate the options provided in the question by analyzing their historical or contemporary stances on political involvement, beliefs, or practices to accurately determine which entity or individual aligns with the concept of shunning politics.",
+        "question": " Which of the following shuns politics?",
+        "choices": [
+            "The sages of the Zhuangzi",
+            "The Songs of the South",
+            "The Duke of Zhou",
+            "The Confucian \"sage kings\""
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the linguistic roots and historical context of the Hebrew word 'mashiach' to determine its meaning, focusing on its etymology and usage in religious texts.",
+        "instruction 2": "Explore the theological implications of 'mashiach' within Judaism, including its association with the concept of anointed leaders and messianic expectations, to provide a comprehensive understanding of the term.",
+        "question": "What does the Hebrew word mashiach mean?",
+        "choices": [
+            "Anointed one",
+            "God",
+            "Prophet",
+            "The line of David"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the term 'ajiva' within the context of Jaina philosophy, emphasizing its significance as it pertains to the concept of non-sentient entities, contrasting it with 'jiva', which represents living beings.",
+        "instruction 2": "Examine the role of ajiva in the broader framework of Jaina ethics and cosmology, including its implications for understanding the nature of reality, karma, and the distinction between life and non-life.",
+        "question": "According to Jaina traditions, what does the term ajiva mean?",
+        "choices": [
+            "Soul",
+            "Sound",
+            "Non-matter",
+            "Non-soul"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define zazen within the context of the Japanese Zen tradition, focusing on its meaning as seated meditation and its role in Zen practice, including its purpose in achieving mindfulness and enlightenment.",
+        "instruction 2": "Explore the techniques and principles associated with zazen, such as posture, breathing, and mental focus, highlighting how these contribute to the overall practice and philosophy of Zen Buddhism.",
+        "question": " In the Japanese Zen tradition, what is zazen?",
+        "choices": [
+            "A collection of statues",
+            "Veneration of ancestors",
+            "Seated meditation",
+            "Funeral rituals"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and elaborate on key practices or beliefs that define tantric Buddhism, such as the use of rituals, meditation techniques, and the emphasis on transformation through harnessing sexual energy and deities.",
+        "instruction 2": "Consider the philosophical underpinnings of tantric Buddhism, including its views on enlightenment, the nature of reality, and the relationship between the practitioner and the universe, to gain a comprehensive understanding of its central components.",
+        "question": " What is a central component of tantric Buddhism?",
+        "choices": [
+            "Asceticism",
+            "Bodily pleasure",
+            "Music",
+            "Sexual union"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the textual elements of Ludul Bel Nemequi that depict Marduk's characteristics, focusing on descriptions of his wisdom, power, and role as a divine figure within the narrative structure of the composition.",
+        "instruction 2": "Examine the cultural and historical context in which Ludul Bel Nemequi was created, considering how the portrayal of Marduk reflects the values and beliefs of ancient Babylonian society regarding divinity and governance.",
+        "question": " How does the Egyptian composition Ludul Bel Nemequi (\"I will praise the Lord of wisdom) portray Marduk?",
+        "choices": [
+            "Loving and forgiving",
+            "Wrathful and merciful",
+            "Judging and vengeful",
+            "Transcendent and immanent"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the historical context surrounding the aftermath of the Bar Kochba revolt by examining the socio-political landscape of the Jewish community and its diaspora, particularly focusing on the period immediately following 135 CE.",
+        "instruction 2": "Research the geographic and cultural centers that emerged within the Jewish community during this time, paying attention to cities such as Tiberias and Yavneh, and how they became significant for Jewish religious and intellectual life in the post-revolt era.",
+        "question": " After the Bar Kochba revolt, where were the two main centres for Jewish development?",
+        "choices": [
+            "Palestine and Babylonia",
+            "Babylonia and Europe",
+            "Palestine and Spain",
+            "Spain and France"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and analyze other religious or philosophical traditions that share a common background of world-renouncing principles, similar to Jainism, by exploring their historical contexts and foundational beliefs.",
+        "instruction 2": "Examine the characteristics and teachings of these traditions, focusing on how their world-renouncing aspects influence their practices and community structures, ensuring to draw parallels and contrasts with Jainism.",
+        "question": " In addition to Jainism, which other tradition began as a world-renouncing movement?",
+        "choices": [
+            "Buddhism",
+            "Hinduism",
+            "Judaism",
+            "Islam"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the four Yugas (ages) in Hindu cosmology and determine which age we are currently in by analyzing the characteristics and durations of each Yuga, including the Satya Yuga, Treta Yuga, Dvapara Yuga, and Kali Yuga.",
+        "instruction 2": "Research the current interpretations and beliefs of scholars and practitioners regarding the timing of the Yugas, ensuring to contextualize the inquiry within Hindu tradition and teachings to provide a comprehensive answer.",
+        "question": "According to Hindu tradition, which age are we in currently?",
+        "choices": [
+            "Kali yuga",
+            "Maha yuga",
+            "Krita yuga",
+            "Satya yuga"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the term 'Gathas' within the context of Zoroastrianism, focusing on its significance as a collection of hymns or sacred texts attributed to the prophet Zoroaster, and provide insights into their content and purpose in Zoroastrian worship and philosophy.",
+        "instruction 2": "Examine the historical and cultural background of the Gathas to understand their contextual importance in Zoroastrian tradition, including how they influence religious practices and beliefs among followers of Zoroastrianism.",
+        "question": " In the Zoroastrian tradition, the term Gathas refers to which of the following?",
+        "choices": [
+            "Hymns",
+            "Laws",
+            "Ethics",
+            "Myths"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific tradition of Buddhism that emphasizes reliance on the saving grace of Amida Buddha, which is typically associated with Pure Land Buddhism, and explore its foundational beliefs and practices.",
+        "instruction 2": "Examine the teachings of Pure Land Buddhism regarding salvation and the role of faith, particularly how followers are encouraged to recite the Nembutsu as a means to attain rebirth in the Pure Land.",
+        "question": "Which form of Buddhism taught the only hope for salvation was in the saving grace of Amida?",
+        "choices": [
+            "Pure Land",
+            "Tendai",
+            "Shingon",
+            "Soto Zen"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key figure or archetype in Hindu tradition that represents the ideal wife, typically referencing figures such as Sita from the Ramayana, and explore their qualities and attributes that are celebrated in this role.",
+        "instruction 2": "Analyze the cultural and societal implications of this ideal, considering how the expectations of an ideal wife reflect broader themes of duty, fidelity, and virtue within Hindu philosophy and texts.",
+        "question": " According to Hindu tradition, who is considered to be the ideal wife?",
+        "choices": [
+            "Sita",
+            "Rama",
+            "Kali",
+            "Durga"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify notable women mystics known for their profound spiritual experiences and expressions of divine love, focusing on their teachings and writings that highlight the theme of all-consuming love.",
+        "instruction 2": "Consider the historical and cultural context of these mystics, examining how their lives and beliefs reflect their relationship with the divine and the impact of their work on spiritual traditions.",
+        "question": "Who is the woman mystic who exemplified the all-consuming love of the divine?",
+        "choices": [
+            "Rumi",
+            "Rabi'a",
+            "Fatimah",
+            "Khadija"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the historical context of female poets in the eighth century CE who are associated with worship practices in South Indian temples, particularly those dedicated to Vishnu, to narrow down potential candidates.",
+        "instruction 2": "Research and confirm the contributions and significance of the identified female poet within the framework of South Indian religious literature, acknowledging her influence on devotional practices and recognition in temple worship.",
+        "question": " Who is the eighth-century CE female poet worshipped throughout many South Indian temples dedicated to Vishnu?",
+        "choices": [
+            "Andal",
+            "Devi",
+            "Ganga",
+            "Kali"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify historical and religious figures known for experiencing stigmata and having a connection with nature, focusing specifically on any documented instances of preaching to birds or animals as part of their teachings or narratives.",
+        "instruction 2": "Consider the broader context of the individual's life and works, examining how their actions and experiences relate to themes of compassion, spirituality, and the relationship between humanity and the natural world.",
+        "question": " Who is associated with the stigmata and preaching to birds?",
+        "choices": [
+            "Paul of Tarsus",
+            "Clare of Assisi",
+            "Francis of Assisi",
+            "John of the Cross"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the central themes and focal points that Plato addresses in his final work, Laws, specifically looking for the shift from cosmological concerns to more specific social, political, or ethical issues reflected in the text.",
+        "instruction 2": "Examine the context of the dialogue within Laws, considering how Plato's philosophical approach evolves concerning governance, law, and morality, and determine how these themes differentiate it from his earlier cosmological writings.",
+        "question": " In his final work, Laws, Plato shifted from cosmology to which of the following issues?",
+        "choices": [
+            "Epistemology",
+            "Morality",
+            "Religion",
+            "Aesthetics"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key characteristics of Christian denominations that advocate for a simplified or essential interpretation of Christianity, focusing on their beliefs, practices, and theological principles.",
+        "instruction 2": "Examine historical and contemporary examples of such denominations, exploring how their approaches to worship, doctrine, and community life reflect a desire for a more straightforward expression of faith.",
+        "question": " Which Christian denomination promotes a stripped-down Christianity?",
+        "choices": [
+            "Greek Orthodox",
+            "Roman Catholic",
+            "Puritans",
+            "Quakers"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the historical figure recognized by the Catholic Church as the foundational leader whose role the pope is believed to continue, focusing on the significance of apostolic succession in this context.",
+        "instruction 2": "Consider the theological and historical implications of this claim, especially in relation to the authority and legitimacy of the pope within the Church and its teachings on the role of bishops.",
+        "question": " Rome claimed that their bishop (pope) was the director successor of which leader?",
+        "choices": [
+            "Peter",
+            "Paul",
+            "Jesus",
+            "Matthew"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the birth date of the current Dalai Lama (Tenzin Gyatso), considering historical records and reliable sources that confirm his date of birth.",
+        "instruction 2": "Ensure to verify the context of the Dalai Lama's birth, including his title and significance within Tibetan Buddhism, to provide a concise and accurate answer.",
+        "question": "When was the current Dalai Lama born?",
+        "choices": [
+            "1935",
+            "2000",
+            "1965",
+            "1975"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Research the historical and cultural context of the Jaina traditions, focusing on the specific role and characteristics of the caityavasis within the Jaina community, including their practices and beliefs.",
+        "instruction 2": "Explore the significance of caityavasis in relation to Jaina philosophy and religious practices, identifying how their actions and values reflect broader themes in Jainism such as asceticism, devotion to sacred spaces, and the pursuit of spiritual liberation.",
+        "question": " According to Jaina traditions, who were the caityavasis?",
+        "choices": [
+            "Householders who supported renouncers",
+            "Orthodox interpreters of the scriptures",
+            "Women ascetics who lived in communities",
+            "Temple-dwelling renouncers"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the philosophical context of the term 'ziran' within Zhuangzi's writings, paying particular attention to its implications regarding nature, spontaneity, and the natural state of being.",
+        "instruction 2": "Analyze the multiple interpretations of 'ziran' in both literal and metaphorical terms, considering how it may reflect Zhuangzi's views on the relationship between the self and the universe.",
+        "question": "Zhuangzi describes a state as ziran, which means which of the following?",
+        "choices": [
+            "Thoughtfulness",
+            "Non-action",
+            "Spontaneity",
+            "Meditation"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the correct terminology used to refer to mudras in the context of Buddhism, exploring their significance and the variations that may exist in naming these gestures in different schools of Buddhist thought or cultural contexts.",
+        "instruction 2": "Explore the relationship between mudras and their meanings or purposes within Buddhist practice or representation in art, ensuring to connect the concept with its cultural, religious, or historical significance.",
+        "question": " The mudras, which are an important feature of Buddhist art, are also known as what?",
+        "choices": [
+            "hand gestures",
+            "saints",
+            "religious clothing",
+            "temples"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the historical context of the Maccabean Revolt, including the specific time period it occurred and the key figures involved, particularly focusing on the ruler at the time who imposed policies that led to the revolt.",
+        "instruction 2": "Examine the characteristics of the ruling power during the Maccabean Revolt, including political, military, and cultural aspects that may have contributed to the unrest and subsequent uprising by the Maccabees.",
+        "question": " The Maccabean Revolt is associated with which ruler?",
+        "choices": [
+            "Julius Caesar",
+            "Alexander the Great",
+            "Cyrus of Persia",
+            "Antiochus IV Epiphanes"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research the historical timeline of Guru Nanak's life, particularly focusing on the age at which he began his spiritual journey and started to preach his teachings about the divine Name, including any significant events or milestones that mark the beginning of his public ministry.",
+        "instruction 2": "Examine various historical texts and sources that document the life of Guru Nanak, cross-referencing the information to determine a consensus on his age when he began preaching, while also considering any cultural or contextual factors that may influence interpretations of his life events.",
+        "question": " How old was Guru Nanak when he started to preach the message of the divine Name?",
+        "choices": [
+            "30",
+            "40",
+            "33",
+            "52"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the various representations of Hathor in Egyptian mythology, including her physical characteristics and attributes, such as her association with femininity, motherhood, love, and joy, while comparing them to other deities for context.",
+        "instruction 2": "Investigate the artistic styles and iconography used in the depictions of Hathor in ancient Egyptian art to understand the cultural significance and symbolism behind her image, including common forms such as a cow, woman with cow horns, or a solar disk.",
+        "question": "The widely adored Egyptian goddess Hathor was depicted as which of the following?",
+        "choices": [
+            "Serpent",
+            "Eagle",
+            "Cheetah",
+            "Cow"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research the etymology and historical context of the phrase Guru-Panth in Sikh traditions, focusing on its components, 'Guru' meaning teacher or spiritual guide, and 'Panth' meaning path or community, to understand its significance.",
+        "instruction 2": "Examine the role of the Guru-Panth in the framework of Sikh beliefs and practices, including its implications for community structure, collective guidance, and the importance of following the teachings of the Gurus within Sikhism.",
+        "question": "What does the phrase Guru-Panth mean within the Sikh traditions?",
+        "choices": [
+            "Community",
+            "Scripture",
+            "Worship",
+            "Apprenticeship"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key historical event that serves as a transition point marking the beginning of the Rabbinical period within Judaism, focusing on events such as the destruction of the Second Temple in 70 CE and its implications for Jewish practice and leadership.",
+        "instruction 2": "Consider the subsequent changes in religious authority and community structure that emerged after this event, analyzing how the role of rabbis evolved in relation to the Jewish community and law during the Rabbinical period.",
+        "question": " After what event did the Rabbinical period begin within Judaism?",
+        "choices": [
+            "Construction of the Second Temple",
+            "Destruction of the Second Temple",
+            "The Christianization of the Roman Empire",
+            "The emergence of Islam"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the historical context of Pure Land Buddhism, specifically looking for key figures associated with its development, and focus on the monk who played a significant role in its popularization and doctrinal formulation.",
+        "instruction 2": "Research the contributions of this monk, including his teachings, writings, and the impact of his work on the practices and beliefs of Pure Land Buddhism as it exists today.",
+        "question": "Which monk developed Pure Land Buddhism as we know it today?",
+        "choices": [
+            "Genshin",
+            "Dogen",
+            "Honen",
+            "Shinran"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the countries with significant Muslim populations and verify their current population statistics to determine which has more than 200 million Muslim adherents, focusing on the most recent demographic data available.",
+        "instruction 2": "Consider the definitions and criteria of what constitutes a 'Muslim country' and ensure to clarify whether the question refers to the total population of Muslims or the proportion of Muslims within the country’s overall population.",
+        "question": "Which is the largest Muslim country in the world with more than 200 million adherents?",
+        "choices": [
+            "Pakistan",
+            "Iraq",
+            "Indonesia",
+            "Turkey"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the historical context and significance of the cults of St. Peter and St. Paul in relation to papal authority, focusing on the key events or papacies that emphasized their veneration to reinforce the Pope's position in Rome.",
+        "instruction 2": "Research specific papal decrees, actions, or initiatives undertaken by popes who sought to promote these cults as a means of strengthening ecclesiastical power and unity among Christians in Rome, highlighting any notable pronouncements or practices.",
+        "question": "Which pope promoted the cults of St. Peter and St. Paul to bolster authority in Rome?",
+        "choices": [
+            "Gregory",
+            "Augustine",
+            "Athanasius",
+            "Francis"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the term 'Arhats' by identifying its cultural, religious, or philosophical context, specifically focusing on its significance within Buddhism and its meaning related to personal enlightenment and the path to Nirvana.",
+        "instruction 2": "Explore the difference between Arhats and other similar concepts, such as Bodhisattvas, to clarify the unique characteristics and roles attributed to Arhats in the context of Buddhist doctrines.",
+        "question": "Which of the following does the term \"Arhats\" refer to?",
+        "choices": [
+            "Enlightened being",
+            "Worthy ones",
+            "Saintly ones",
+            "Sages"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify which of the Sikh Gurus is known for being martyred due to their refusal to convert to Islam, focusing on historical accounts and the significant events leading up to this martyrdom.",
+        "instruction 2": "Consider the context of religious persecution during the period, including the political and social factors that influenced the Guru's decision and ultimately led to their martyrdom, ensuring to reference historical significance in the Sikh tradition.",
+        "question": "Which Guru was martyred when he refused to embrace Islam?",
+        "choices": [
+            "Guru Ram Das",
+            "Guru Tegh Bahadur",
+            "Guru Gobind Singh",
+            "Guru Har Rai"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific Guru from Sikh history who is known for donning two swords, focusing on their significance in representing both temporal (political/military) and spiritual authority within the Sikh tradition.",
+        "instruction 2": "Explore the historical context in which this Guru adopted the two swords, including the political and social circumstances of the time, as well as the symbolic meaning attributed to the swords in relation to leadership and protection of the faith.",
+        "question": " Which Guru donned the two swords symbolling temporal and spiritual authority?",
+        "choices": [
+            "Guru Nanak",
+            "Guru Arjan",
+            "Guru Hargobind",
+            "Guru Ram Das"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the core teachings and texts of Sikhism, particularly focusing on the concept of liberation (Mukti) and how it is understood within the religion, including references to the Guru Granth Sahib and the role of meditation and selfless service.",
+        "instruction 2": "Examine the principles of living a truthful life, practicing equality, and understanding the oneness of God as key elements that contribute to liberation in Sikhism, and how these principles guide followers towards achieving spiritual freedom.",
+        "question": " Where is the key to liberation found within Sikhism?",
+        "choices": [
+            "In the community",
+            "In faith in God",
+            "In ascetic renunciation",
+            "In the life of the householder"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify core values or concepts that are deeply embedded in Japanese culture, such as harmony, respect for nature, or community, and explore how these themes are manifested in societal practices, arts, and traditions.",
+        "instruction 2": "Examine historical and contemporary influences on Japanese civilization that contribute to these fundamental themes, considering factors such as Shinto and Buddhist beliefs, social structures, and Japan's unique historical context.",
+        "question": "Which is one of the most fundamental themes of Japanese culture and civilization?",
+        "choices": [
+            "God is eternal and merciful to those who offer worship",
+            "Humans can align themselves with life energy through worship of kami",
+            "Justice will be the final outcome in the next world",
+            "Power and force are the most divine attributes"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the main goddess associated with the festival of Divali, which is celebrated in Hinduism, paying attention to the cultural and regional variations that may affect the answer.",
+        "instruction 2": "Investigate the significance of the goddess in the context of Divali, including the rituals and beliefs associated with her worship during this festival, to provide a comprehensive answer.",
+        "question": " Which goddess is worshipped during the festival of Divali?",
+        "choices": [
+            "Durga",
+            "Sri Lakshmi",
+            "Kali",
+            "Mahavira"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the geographical regions or cultures historically associated with the belief in the goddess known as Holy Mother of Mount Fairy Peach, focusing on descriptions from folklore and religious texts.",
+        "instruction 2": "Investigate the historical context and significance of this goddess within those cultures, considering how local customs, ceremonies, or myths may have contributed to the veneration of Holy Mother of Mount Fairy Peach.",
+        "question": " Where did people believe in the goddess known as Holy Mother of Mount Fairy Peach?",
+        "choices": [
+            "China",
+            "Silla",
+            "Goguryeo",
+            "Joseon"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the historical and philosophical context of the Yoga Sutras, emphasizing the key figure associated with its authorship, which is traditionally attributed to Patanjali.",
+        "instruction 2": "Explore the implications of this attribution, including how Patanjali's works are situated within the broader landscape of Indian philosophy and yoga practices, and consider how this shapes interpretations of the Yoga Sutras.",
+        "question": " To whom is the Yoga Sutras attributed?",
+        "choices": [
+            "Madhva",
+            "Patanjali",
+            "Ramanuja",
+            "Aryabhatta"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the characteristics and significance of the Ka'ba in Islamic tradition to understand its key attributes such as its historical context, religious importance, and physical descriptions, thus enabling differentiation from unrelated descriptions.",
+        "instruction 2": "Review the provided options carefully to identify which statement does not align with the established understanding of the Ka'ba, ensuring a clear understanding of its role in Islamic rituals and beliefs.",
+        "question": " Which of the following does NOT describe the Ka'ba?",
+        "choices": [
+            "It was visited by Moses.",
+            "It is a haram.",
+            "It was built by Abraham.",
+            "It is a square building."
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify which elephant-headed Hindu deity is commonly referred to as the most beloved by examining historical and cultural contexts, focusing on attributes such as worship practices, festivals, and representations in literature and art.",
+        "instruction 2": "Consider the reasons for the popularity of this deity, such as relatable characteristics and the role in various aspects of life like wisdom, success, and the removal of obstacles, contrasting with other Hindu deities to clarify its unique status.",
+        "question": "Which elephant-headed Hindu deity is often described as the most beloved?",
+        "choices": [
+            "Parvati",
+            "Ganesha",
+            "Vishnu",
+            "Sita"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Research the historical context of sacred literature within the specific religious tradition associated with the concept of 'jina,' focusing on the contributions made by significant figures in that tradition to understand which jina is credited with the origin of sacred texts.",
+        "instruction 2": "Examine the specific characteristics and teachings attributed to the jina in question, analyzing how these influenced the development of sacred literature and its role within the broader framework of the religion.",
+        "question": "Sacred literature originated with which of the following jina?",
+        "choices": [
+            "Sri Lakshmi",
+            "Mahavira",
+            "Rsabha",
+            "Nanak"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research the background of the book 'Admonitions for Women,' including its historical context and the significance of the text in relation to gender issues and moral teachings, to ensure you have a comprehensive understanding of its content and impact.",
+        "instruction 2": "Identify the author by exploring reliable literary sources or historical records that specifically attribute the work to an individual, also considering any debates or discussions surrounding authorship if applicable.",
+        "question": " Who is the author of Admonitions for Women?",
+        "choices": [
+            "Ban Zhao",
+            "Laozi",
+            "Menicus",
+            "Liu Xiang"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the context regarding Chandanbala and her role as a mentor or teacher, focusing on the specific tradition or organization she is associated with in order to understand the significance of renouncers and their relationship to her.",
+        "instruction 2": "Research historical or textual sources that provide information about Chandanbala and the female renouncers under her tutelage, noting any numerical data or narratives that specify the number of her disciples.",
+        "question": "How many female renouncers were under the tutelage of Chandanbala?",
+        "choices": [
+            "36,000",
+            "12,000",
+            "24,000",
+            "7,000"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the key elements of the Mul Mantar in Sikh scripture to understand how it articulates the fundamental nature of God and the concept of oneness, including attributes such as eternal truth, creation, and the role of the divine in the universe.",
+        "instruction 2": "Analyze the historical and theological context of the Mul Mantar within the Sikh tradition, considering how it serves as a foundational statement of faith and reflects the core beliefs of Sikhism regarding spirituality and the relationship between the individual and the divine.",
+        "question": "According to the Sikh tradition, the Mul Mantar illuminates the nature of what?",
+        "choices": [
+            "Ultimate Reality",
+            "The gurus",
+            "The community",
+            "Sikh worship"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the term used in Sikhism that conveys the concept of a divine order or higher principle, ensuring to explore definitions and context within Sikh texts and teachings that reference this idea.",
+        "instruction 2": "Examine how this term is integrated into the broader philosophical and theological framework of Sikhism, including its implications for understanding the nature of God and the universe as perceived in Sikh beliefs.",
+        "question": " What term refers the divine order as an ell-embracing higher principle in Sikhism?",
+        "choices": [
+            "Sansar",
+            "Hukam",
+            "Mantar",
+            "Karam"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the total number of books included in the New Testament by referring to recognized religious texts or scholarly sources that define the New Testament canon, ensuring adherence to commonly accepted versions of Christian scriptures.",
+        "instruction 2": "Consider any variations in the number of books across different Christian denominations, acknowledging that certain groups may include additional texts or exclude certain books from their canon.",
+        "question": " How many books are in the New Testament?",
+        "choices": [
+            "30",
+            "29",
+            "27",
+            "47"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific branches or schools of Buddhism that emphasize social engagement and lay participation, such as Engaged Buddhism, and examine their principles and practices.",
+        "instruction 2": "Explore examples or case studies of social engagement within these branches, detailing how they attract and involve lay practitioners in community service, social justice, and environmental activism.",
+        "question": "Which form of Buddhism focuses on social engagement that attracts lay participation?",
+        "choices": [
+            "Zen Buddhism",
+            "Chan Buddhism",
+            "Humanistic Buddhism",
+            "Pure Land Buddhism"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify specific beliefs or practices unique to the Digambara sect of Jainism, focusing on their views regarding clothing, asceticism, and their interpretation of scripture that sets them apart from other Jain sects such as Svetambara.",
+        "instruction 2": "Analyze the historical context and philosophical foundations that inform these distinctive beliefs or practices, considering the implications for their lifestyle and religious observations.",
+        "question": " What was one of the distinctive beliefs or practices of the southerners (Digambara)?",
+        "choices": [
+            "They worshipped exclusively outside of the temple",
+            "They believed that nakedness was an elemental expression of non-attachment",
+            "They included women within the ranks of the leadership",
+            "They believed that the omniscient Jina must eat and sleep"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the name of the central prayer in Jainism, ensuring to focus on authoritative religious texts or teachings that highlight its significance and role within Jain practices.",
+        "instruction 2": "Consider the context in which this prayer is used, including any specific rituals or ceremonies associated with it in the practice of Jainism, to provide a comprehensive understanding of its importance.",
+        "question": "The central prayer in Jainism is known by which of the following names?",
+        "choices": [
+            "Namokar Mantra",
+            "The Liberation Mantra",
+            "Ahimsa",
+            "Archaryas"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the historical timeline of Jaina architecture, focusing on the earliest evidence of temple constructions, which includes identifying specific dates or periods that mark the establishment of the first Jaina temples.",
+        "instruction 2": "Consider the cultural and religious context during the time the first Jaina temples were built, including influences from contemporaneous architectural styles and the role of Jainism in society, to provide a more comprehensive understanding of their origins.",
+        "question": "When did the first Jaina temples appear?",
+        "choices": [
+            "Second century CE",
+            "Fifth century CE",
+            "Fifth century BCE",
+            "Eighteenth century CE"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific timeframe referred to as 'our age' within the context of Jain beliefs, and clarify what is meant by 'Jinas' or enlightened beings in Jainism, including their significance and the total count historically recognized before providing a final answer.",
+        "instruction 2": "Research authoritative Jain texts or contemporary interpretations of Jain history to provide an accurate answer about the number of Jinas, ensuring to consider any variations in belief among different sects within Jainism regarding the complete list or count of Jinas.",
+        "question": "How many Jinas have appeared during our age?",
+        "choices": [
+            "7",
+            "42",
+            "24",
+            "13"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the meaning of the title 'Dalai Lama,' breaking down the etymology of the words 'Dalai' and 'Lama' to clarify their significance within Tibetan Buddhism, including any historical context that contributes to the title's meaning.",
+        "instruction 2": "Consider the role and responsibilities associated with the Dalai Lama in Tibetan culture and Buddhism, exploring how the title reflects both spiritual leadership and cultural identity.",
+        "question": "The title Dalai Lama means which of the following?",
+        "choices": [
+            "Ocean of Love",
+            "Lover of Wisdom",
+            "Ocean of Wisdom",
+            "Stillness of Love"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the primary consort of Vishnu within Hindu mythology, focusing on her attributes, significance, and representations in various texts and traditions that relate to her role as the goddess of good fortune.",
+        "instruction 2": "Examine the various incarnations of Vishnu to understand how this consort manifests alongside him and the implications of her presence in each of those forms, emphasizing her qualities and importance in the context of dharma and auspiciousness.",
+        "question": "Who accompanies Vishnu in many of his incarnations as his consort, and is known as the goddess of good fortune?",
+        "choices": [
+            "Parvati",
+            "Sita",
+            "Sri (Lakshmi)",
+            "Sarasvati"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the term 'bhakti' in various spiritual and cultural contexts to identify its most common translations and meanings, emphasizing its significance in traditions such as Hinduism.",
+        "instruction 2": "Examine how 'bhakti' is understood in relation to devotion and love for a personal deity, differentiating it from other forms of spiritual practice or belief to clarify its essence and connotations.",
+        "question": "What is bhakti often translated as?",
+        "choices": [
+            "Gods",
+            "Yoga",
+            "Devotion",
+            "Religion"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific Hindu deity associated with speech, language, and knowledge, focusing on the traditional attributes and representations of this deity in the context of Hindu mythology and religious texts.",
+        "instruction 2": "Consider the cultural and historical significance of this deity, including their role as the embodiment of the Vedas and the broader implications of their worship within Hinduism, especially regarding education, communication, and the arts.",
+        "question": " Which Hindu god or goddess is speech incarnate, the power of the word, and the mother of the Vedas?",
+        "choices": [
+            "Vishnu",
+            "Ganesha",
+            "Sarasvati",
+            "Indra"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific Jewish prayer that has historically been associated with mourning practices, particularly focusing on its origins and significance since the Middle Ages.",
+        "instruction 2": "Consider the context in which this prayer is recited, including its use in rituals such as funerals or memorial services, and how it reflects the customs and traditions of Jewish mourning.",
+        "question": " What is the name of the Jewish prayer used for mourning since the Middle Ages?",
+        "choices": [
+            "The Shema",
+            "The Kaddish",
+            "The K'nesset",
+            "The Kippah"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the deity commonly associated with the incarnations of Krishna and Rama within Hinduism, focusing on the concept of 'avatar' as it relates to the divine manifestations of this god.",
+        "instruction 2": "Consider how these incarnations are depicted in Hindu texts, noting specific stories or attributes that highlight their roles and significance within the context of this god's overarching narrative.",
+        "question": "Krishna and Rama are incarnations of which Hindu god?",
+        "choices": [
+            "Shiva",
+            "Vishnu",
+            "Brahma",
+            "Ganesha"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Research the historical and cultural context of the kshatriya caste in India, including their roles and responsibilities within the traditional caste system, to provide a clear understanding of the group associated with this designation.",
+        "instruction 2": "Identify and elucidate the specific characteristics or attributes that distinguish the kshatriyas from other castes, such as their traditional association with governance, military service, and warrior roles within Indian society.",
+        "question": " The kshatriyas is the caste name assigned to which group?",
+        "choices": [
+            "Priests",
+            "Servants",
+            "Rulers, warriors",
+            "Merchants"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the historical context of the Old Babylonian version of Gilgamesh and its evolution over time, including key events, cultural influences, or scribes that contributed to the modifications leading to the standard version.",
+        "instruction 2": "Determine the approximate timeline of when these modifications occurred, focusing on relevant archaeological findings, historical records, or scholarly works that provide insights into the transition from the Old Babylonian version to the standard version.",
+        "question": "When was the Old Babylonian version of Gilgamesh modified into the standard version?",
+        "choices": [
+            "Toward the end of the first millennium BCE",
+            "Towards the middle of the first millennium BCE",
+            "Toward the end of the second millennium BCE",
+            "Toward the middle of the second millennium BCE"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Explore the context of 'samyak jnana' within Jaina philosophy, emphasizing its significance in Jainism as the right knowledge and understanding crucial for spiritual development and liberation from the cycle of birth and death.",
+        "instruction 2": "Analyze the interconnectedness of 'samyak jnana' with other key Jain concepts, such as 'samyak darshana' (right perception) and 'samyak charitra' (right conduct), to comprehend how these aspects collectively contribute to the Jain path of spiritual progression.",
+        "question": " What is the meaning ofsamyak jnanawithin the Jaina traditions?",
+        "choices": [
+            "Correct knowledge",
+            "Correct practice",
+            "Correct intiution",
+            "Correct belief"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research and identify the specific characteristics and objectives of the Bodu Bala Sena, which is known as a nationalist Buddhist organization in Sri Lanka, to determine its stance on Buddhism, society, and politics.",
+        "instruction 2": "Examine the historical context and activities of the Bodu Bala Sena to understand its influence and role within Sri Lankan society and how it aligns with other Buddhist organizations, assessing any controversies or affiliations.",
+        "question": " What type of Buddhist organization is the Bodu Bala Sena?",
+        "choices": [
+            "Activist and militant organization in Sri Lanka",
+            "Ecumenical organization in India",
+            "Modern organization in the United States",
+            "Peacekeeping organization in Japan"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the mystic or philosophical figure known for the perspective that evil serves to illuminate or contrast the understanding of divine love, looking into historical texts or teachings that articulate this view.",
+        "instruction 2": "Explore the context in which this viewpoint was articulated, examining the broader theological or philosophical framework surrounding the mystic's beliefs about the nature of good, evil, and divine love.",
+        "question": "Which mystic believed that evil was a distortion that reveals divine love more clearly?",
+        "choices": [
+            "Julian of Norwich",
+            "Catherine of Siena",
+            "Teresa of Avila",
+            "John of the Cross"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific term used in Jaina traditions that refers to 'bad karma', ensuring to consider any synonyms or related concepts that may also apply within the context of Jain philosophy.",
+        "instruction 2": "Examine the significance of the term within Jaina teachings, including its implications for spiritual development and how it contrasts with the concept of 'good karma' in the tradition.",
+        "question": "In the Jaina traditions \"bad karma\" is known by which of the following terms?",
+        "choices": [
+            "Paap",
+            "Punya",
+            "Pudgala",
+            "Akash"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the name of the Japanese festival characterized by the belief that the spirits of deceased family members return to their homes, focusing on the specific rituals and offerings made during this event.",
+        "instruction 2": "Research the cultural significance and traditional practices associated with this festival, including the types of food offered and any community activities involved in honoring the spirits of the deceased.",
+        "question": " During what Japanese festival do the spirits of deceased family members return to receive ritual offerings of food made by their loved ones?",
+        "choices": [
+            "Obon",
+            "Mikoshi",
+            "Omizutori",
+            "Tanabata"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the historical and religious significance of 'Mahavira' within Jainism, focusing on its meaning in the context of the teachings and life of Mahavira, the 24th Tirthankara.",
+        "instruction 2": "Examine the linguistic roots of the word 'Mahavira' in Sanskrit, breaking it down into its components to understand its literal translation and any associated connotations.",
+        "question": "What does \"Mahavira\" mean?",
+        "choices": [
+            "\"Great Hero\"",
+            "\"Master\"",
+            "\"The Lesser One\"",
+            "\"Mendicant\""
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Research the etymology of the term 'Tripitaka', breaking down its components to understand its literal meaning and how it relates to its broader context in Buddhist scripture.",
+        "instruction 2": "Explore the significance of the Tripitaka within Buddhist tradition, discussing its role as a canonical collection of texts and how it influences Buddhist teachings and practices.",
+        "question": " What does the Tripitaka mean?",
+        "choices": [
+            "Three gems",
+            "Three baskets",
+            "Three bodhisattvas",
+            "Three buddhas"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the geographical locations and historical significance of Confucian shrines around the world, paying particular attention to the largest networks known for their cultural and religious importance.",
+        "instruction 2": "Examine academic and cultural resources that may provide insights into the organizational structure and distribution of Confucian shrines, ensuring to highlight key sites and any associated historical contexts.",
+        "question": "Where is the largest network of Confucian shrines in the world?",
+        "choices": [
+            "Indonesia",
+            "China",
+            "Korea",
+            "Singapore"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the context of the terms Ghosa, Apala, and Lopamurda in relation to the early Vedas, focusing on their roles and significance within Vedic literature, particularly in the context of hymns, rituals, or mythological stories.",
+        "instruction 2": "Analyze the options provided in the question to determine which category or classification (such as sages, rivers, deities, etc.) these terms belong to, using textual evidence from the Vedas to support your reasoning.",
+        "question": " Ghosa, Apala and Lopamurda, all named in the early Vedas, are which of the following?",
+        "choices": [
+            "Female princesses",
+            "Female warriors",
+            "Female goddesses",
+            "Female poets"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific terminology used within the context of the religious and administrative successors to the Prophet, particularly focusing on the historical and cultural significance of the titles within varying Islamic traditions.",
+        "instruction 2": "Examine the roles and functions these leaders held in relation to the governance of the Muslim community, considering variations across different sects and historical periods to provide a comprehensive answer.",
+        "question": " What is the title for the religious and administrative leaders who succeeded the Prophet?",
+        "choices": [
+            "Rasul",
+            "Nabi",
+            "Caliph",
+            "Mahdi"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the main components that constitute Islamic jurisprudence (fiqh), including sources such as the Quran, Hadith, consensus (ijma), and analogy (qiyas), to understand what is typically included within this framework.",
+        "instruction 2": "Analyze the options provided in the question to evaluate which one does not fit within the established principles or sources of Islamic jurisprudence, confirming understanding of what is considered outside the scope of fiqh.",
+        "question": "Which of the following is NOT included in the Islamic understanding of jurisprudence?",
+        "choices": [
+            "Consensus",
+            "Personal reasoning",
+            "Interpretation",
+            "Divine inspiration"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the historical significance of Mahavira within Jainism, focusing on his role as the 24th Tirthankara and how his teachings contributed to the foundational principles of the Jaina tradition, including non-violence (ahimsa) and asceticism.",
+        "instruction 2": "Explore the impact of Mahavira's life and enlightenment on the evolution of Jain beliefs and practices, discussing how his teachings have shaped ethical conduct and community values within Jain society.",
+        "question": "Why is Mahavira a significant person in the Jaina traditions?",
+        "choices": [
+            "He is the last of the ascetic prophets.",
+            "He is the first of the ascetic prophets",
+            "He is the most learned of the ascetic prophets",
+            "He is the most holy of the ascetic prophets"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the alternative titles or translations commonly associated with the Tibetan Book of the Dead, focusing on its significance within Tibetan Buddhism and its recognition in different contexts.",
+        "instruction 2": "Consider the historical and cultural relevance of the text, ensuring to explore its influences on spiritual practices and how its name may vary in different languages or interpretations.",
+        "question": " The Tibetan Book of the Dead is also known as which of the following?",
+        "choices": [
+            "Bardo Thodol",
+            "Bardo Ngawang",
+            "Bardo Gyaltsen",
+            "Bardo Chogye"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key elements of the festival mentioned, such as the decoration of houses with lights, the setting off of firecrackers, and the practice of wearing new clothes, to ascertain their significance and whether they are unique to a specific Hindu festival.",
+        "instruction 2": "Research the cultural and religious context behind the identified festival, understanding its historical background and the specific rituals associated with it, ensuring to connect these aspects to the characteristics mentioned in the original question.",
+        "question": " Which Hindu festival involves decorating the house with lights, setting off firecrackers and wearing new clothes?",
+        "choices": [
+            "Deepavali",
+            "Holi",
+            "Diwali",
+            "Navaratri"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Research the specific time periods recognized within Sikhism as ambrosial hours, explaining their significance in relation to Sikh spiritual practices and beliefs, particularly focusing on the timing associated with prayer and meditation.",
+        "instruction 2": "Consider various interpretations or teachings regarding the ambrosial hours and how they may vary among different Sikh communities, ensuring to incorporate cultural and historical context in the analysis.",
+        "question": "What hours are set aside as the ambrosial hours for the Sikhs?",
+        "choices": [
+            "5–7 a.m.",
+            "9–11 p.m.",
+            "3–6 p.m.",
+            "3–6 a.m."
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify key Buddhist thinkers who have significantly discussed themes of self-sacrifice, particularly focusing on figures such as Siddhartha Gautama (Buddha) or later influential teachers who have articulated this principle in the context of Buddhist philosophy.",
+        "instruction 2": "Explore the context in which self-sacrifice is portrayed within Buddhist teachings, considering how it relates to concepts such as compassion, the path to enlightenment, and the alleviation of suffering for oneself and others.",
+        "question": " Self-sacrifice is an important theme for which Buddhist thinker?",
+        "choices": [
+            "Thich Nhat Hanh",
+            "The Dalai Lama",
+            "Daisetsu T. Suzuki",
+            "Shaku Soyen"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the significance of the Fatihah within Islamic practice and where it is typically recited, such as in daily prayers (Salah), to determine how many times it is recited throughout the day.",
+        "instruction 2": "Consider the different types of prayers in which the Fatihah is an obligatory component, including the number of daily prayers (Salah) performed by observant Muslims, to calculate the total recitations per day.",
+        "question": " How many times a day is the Fatihah recited?",
+        "choices": [
+            "Exactly 17",
+            "At least 17",
+            "At least 13",
+            "Exactly 24"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific branch of Judaism founded by Zacharias Frankel, focusing on the principles and beliefs that define 'Positive-Historical Judaism,' including its approach to tradition and modernity.",
+        "instruction 2": "Investigate the historical context and development of this branch, considering how it distinguishes itself from other branches of Judaism, like Reform or Orthodox Judaism, in terms of its interpretation of Jewish law and history.",
+        "question": "Which branch of Judaism founded by Zacharias Frankel is known for its \"Positive-Historical Judaism\"?",
+        "choices": [
+            "Conservative",
+            "Reformed",
+            "Reconstructionism",
+            "Orthodox"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific term that refers to the group of loyal Sikhs, focusing on its historical and cultural context within Sikhism and the significance of loyalty and commitment among its members.",
+        "instruction 2": "Explore the historical background of this group to understand its formation, principles, and contribution to Sikh community identity, ensuring to highlight how it distinguishes itself from other groups within Sikhism.",
+        "question": " What is the term used to describe the \"pure\" as an order of loyal Sikhs bound together?",
+        "choices": [
+            "Khalsa",
+            "Rahit",
+            "Panj Kakke",
+            "Shabad"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key historical figure associated with the establishment of Sikhism by researching the life and teachings of Guru Nanak, the first Guru and founder of the religion.",
+        "instruction 2": "Consider the broader context of Sikhism's founding, including the significant historical, cultural, and religious influences that shaped its emergence during the 15th century in the Punjab region of India.",
+        "question": "Who is the founder of Sikhism?",
+        "choices": [
+            "Guru Gobind Singh",
+            "Guru Nanak",
+            "Guru Kabir",
+            "Guru Hargobind"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify common terms used in Hindu traditions that are specifically associated with women, such as 'Devi' which denotes goddess or divine feminine, and analyze their cultural significance and roles within religious practices.",
+        "instruction 2": "Examine the historical and social contexts in which these terms are used to understand their implications for women's roles and status in Hindu communities, ensuring to consider varying interpretations and regional differences in usage.",
+        "question": "Which term is usually associated with women in Hindu traditions?",
+        "choices": [
+            "Polluted",
+            "Ideal",
+            "Auspiciousness",
+            "Kind"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research the historical and cultural context of the Enuma Elish to determine if it is commonly referred to by another name in scholarly literature or in relation to similar creation myths.",
+        "instruction 2": "Identify any alternative titles or translations that may be used to reference the Enuma Elish, considering variations in language or interpretation within different academic or religious traditions.",
+        "question": "What is another name for Enuma Elish?",
+        "choices": [
+            "Epic of Creation",
+            "Epic of Destruction",
+            "Epic of Egypt",
+            "Epic of Origins"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key female-centered festivals in ancient Greece, focusing on major celebrations such as the Thesmophoria and the Heraia, and evaluate their significance in relation to women's roles in society and religion.",
+        "instruction 2": "Analyze the historical and cultural context of these festivals, including their rituals, participants, and the societal values they promoted, to determine which festival held the most importance among Greek cities.",
+        "question": " What was the most important female-centered festival in cities throughout Greece?",
+        "choices": [
+            "Thesmophoria",
+            "Oracle Days",
+            "Isthmian Games",
+            "Feast of Athrodite"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific Christian denomination known for the practice of speaking in tongues, focusing on its theological beliefs and how they relate to this phenomenon, particularly the Pentecostal movement.",
+        "instruction 2": "Examine how the practice of speaking in tongues is viewed within the context of the denomination, including its origins, significance in worship, and any differences in interpretation among various groups within that denomination.",
+        "question": "Speaking in tongues is a feature of which Christian denomination?",
+        "choices": [
+            "Evangelicalism",
+            "Pietism",
+            "Pentecostalism",
+            "Fundamentalism"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the context in which 'charism' is being defined, distinguishing between its general meaning in various fields such as religious studies, psychology, or leadership, to ensure the definition reflects the appropriate usage.",
+        "instruction 2": "Identify common characteristics or traits associated with 'charism', such as the ability to inspire, motivate, or influence others, and explore how these traits manifest in different scenarios or contexts.",
+        "question": " Charism can be defined as which of the following?",
+        "choices": [
+            "An oil",
+            "Prophecy",
+            "A spiritual gift",
+            "Authority"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the term 'qiblah' within the context of Islamic practices, specifically its significance as the direction Muslims face during prayers, which is towards the Kaaba in Mecca.",
+        "instruction 2": "Explore the historical and religious importance of the qiblah, including its origins and how it plays a role in the daily rituals and community unity among Muslims.",
+        "question": " In Islam, what is the qiblah?",
+        "choices": [
+            "Almsgiving",
+            "Pilgrimage",
+            "Direction of prayer",
+            "Revelation"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the definition of the term 'honji' within the context of Tendai Buddhism, focusing on its implications for understanding the relationship between deities and their manifestations.",
+        "instruction 2": "Explore the historical and doctrinal significance of 'honji' in the Tendai tradition, considering how it relates to concepts of original nature, practice, and enlightenment, and its influence on Buddhist teachings and rituals.",
+        "question": "In Tendai Buddhism, what does the term honji mean?",
+        "choices": [
+            "Trace",
+            "Original ground",
+            "Manifestation",
+            "True sign"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the key aspects of the revivalist movement led by Fetullah Gülen, including its primary goals, ideological foundations, and the context within which it emerged in Turkey.",
+        "instruction 2": "Research the current status and influence of the movement, including its organizational structure and the impact it has had on Turkish society and politics, to provide a comprehensive answer.",
+        "question": " What is the name of a recent revivalist movement in Turkey led by Fetullah Gülen?",
+        "choices": [
+            "Hizmet",
+            "Nation of Islam",
+            "Muslim Brotherhood",
+            "Sufism"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary audience for the Hindu Vedas, focusing on groups such as scholars, practitioners of Hinduism, and specific castes or sects within the religion that hold the texts in high regard for spiritual, cultural, or educational purposes.",
+        "instruction 2": "Analyze the role of the Vedas in various aspects of Hindu life, including rituals, philosophy, and societal norms, to understand why they are considered significant by these particular groups.",
+        "question": "For whom are the Hindu Vedas most significant?",
+        "choices": [
+            "Brahmins",
+            "Kshatriyas",
+            "Shiva",
+            "Yogis"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the mythical figures involved in the Korean foundation myth, particularly focusing on the entity or being that transformed into a human to father Dangun, and any relevant characteristics that signify its importance in the myth.",
+        "instruction 2": "Investigate the context and themes surrounding the transformation and the resulting lineage, considering the cultural significance of Dangun as a foundational figure in Korean history and how this myth reflects broader cultural beliefs.",
+        "question": " According to the Korean foundation myth, who transformed into a human in order to father Dangun?",
+        "choices": [
+            "Hwanin",
+            "Hwanung",
+            "Joseon",
+            "Yi"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific term used to refer to ordained women in Buddhism, considering the different traditions within Buddhism that may have varying titles for these practitioners.",
+        "instruction 2": "Explore the significance of the role of ordained women within the Buddhist community, looking into their contributions to spiritual practice and teachings in relation to the monastic structure.",
+        "question": " In Buddhism, what are ordained women known as?",
+        "choices": [
+            "Bhikshus",
+            "Bhikshunis",
+            "The Sangha",
+            "Arhats"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the main texts considered authoritative within the study of Kabbalah, focusing on historical significance and their impact on Kabbalistic thought.",
+        "instruction 2": "Consider the context in which these texts are regarded as authoritative, examining factors such as the teachings they contain, their authorship, and their influence on both scholarly and spiritual practices within Kabbalah.",
+        "question": " What is the name of the most authoritative Kabbalah text?",
+        "choices": [
+            "Gemarah",
+            "Midrash",
+            "Zohar",
+            "Septuagint"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify which Confucian philosophers are associated with the concept of qi (or ch'i) in their teachings, examining their writings and philosophies to determine who emphasizes this concept and why it leads to their characterization as mystics.",
+        "instruction 2": "Explore the broader context of Confucian philosophy to understand how the focus on qi relates to mysticism, particularly in contrast to other Confucian thinkers who prioritize ethics, governance, or social harmony over mystical elements.",
+        "question": " Which Confucian philosopher is described as a mystic due to his focus on qi (or ch'i)?",
+        "choices": [
+            "Dao",
+            "Xunzi",
+            "Mencius",
+            "Confucius"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify key themes or topics presented in the Qur'an to understand the context of what actions or behaviors may be permitted, ensuring to reference specific verses that illustrate these permissions.",
+        "instruction 2": "Consider the interpretations of scholars and different sects within Islam regarding permissible actions, acknowledging that there may be variations in understanding and practice based on theological perspectives.",
+        "question": " Which of the following does the Qur'an permit?",
+        "choices": [
+            "Honor Killing",
+            "Stoning",
+            "Adultery",
+            "Polygyny"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the most prominent school or tradition of Buddhism practiced in Sri Lanka, focusing specifically on Theravada Buddhism, and understand its historical and cultural significance in the region.",
+        "instruction 2": "Consider the influence of Theravada Buddhism on Sri Lankan society, such as its impact on daily life, rituals, and governance, as well as its role in shaping the identity of the Sinhalese ethnic group.",
+        "question": " Which is the main form of Buddhism in Sri Lanka?",
+        "choices": [
+            "Theravada",
+            "Mahayana",
+            "Pure Land",
+            "Zen"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and analyze historical leaders renowned for advocating non-violence, considering their philosophies and methods of spreading the concept of dharma, with an emphasis on significant figures associated with this ideology.",
+        "instruction 2": "Evaluate the context in which these leaders operated, paying attention to their cultural, social, and political environments that influenced their approach to non-violence and the dissemination of dharma.",
+        "question": " Which leader is known for spreading the dharma of non-violence?",
+        "choices": [
+            "Ngo Dinh Diem",
+            "The Dalai Lama",
+            "Siddhartha",
+            "Ashoka"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the core sacraments recognized by Christian denominations, focusing specifically on the two sacraments that are universally accepted across major traditions, such as Baptism and Eucharist (Communion).",
+        "instruction 2": "Consider the theological significance and practices surrounding these sacraments within the context of Christian worship, exploring how they are celebrated and their role in the faith community.",
+        "question": "What are the two sacraments that all Christians celebrate?",
+        "choices": [
+            "Baptism and Eucharist",
+            "Baptism and Ordination",
+            "Eucharist and Marriage",
+            "Eucharist and Confession"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key festivals in Sikhism and assess their significance within the religion, focusing on their historical and cultural importance to the Sikh community.",
+        "instruction 2": "Evaluate the specific aspects of these festivals, such as rituals, community involvement, and teachings associated with them, to determine which festival is considered the most important by Sikhs.",
+        "question": "What is the most important festival for Sikhs?",
+        "choices": [
+            "Holi",
+            "Divali",
+            "Baisakhi Day",
+            "Hola Mahalla"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the historical context in which Muhammad was declared a prophet, including the role of key figures such as Khadijah and the angel Gabriel in the early Islamic tradition.",
+        "instruction 2": "Examine the implications of Muhammad's declaration as a prophet within the Islamic faith, including how this event influenced the subsequent development of Islam and its teachings.",
+        "question": " Who declared Muhammad a prophet?",
+        "choices": [
+            "Khadijah",
+            "Gabriel",
+            "Waraqah",
+            "Abu Bakr"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the classification of the Jataka tales by researching their historical and cultural context, focusing on their origins in Buddhist literature and how they serve as moral fables that convey teachings through narratives.",
+        "instruction 2": "Examine the characteristics of the genre to which the Jataka tales belong, paying attention to elements like their use of animals, parables, and instructive moral lessons, which help categorize them within the broader spectrum of folklore or spiritual storytelling.",
+        "question": "The Jataka tales are a collection of which genre of stories?",
+        "choices": [
+            "Life stories",
+            "Warrior stories",
+            "Birth stories",
+            "Hero stories"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the historical context of Japan's interactions with Christianity and European nations to establish the specific period during which Japan actively closed itself off from these influences, focusing on key events such as the Sakoku policy enacted in the 17th century.",
+        "instruction 2": "Analyze the implications of this closure, including the reasons for the isolationist stance and the effects on both Japan and foreign entities, ensuring to highlight the significance of the timespan identified in relation to global historical narratives.",
+        "question": " Which of the following is the timespan for Japan's closure to Christianity and Europe?",
+        "choices": [
+            "1749-1945",
+            "1052-1616",
+            "1641-1853",
+            "1517-1870"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research the Yiddish language to find the specific word that translates to 'covenant,' ensuring to provide the correct spelling and any relevant linguistic context that may affect its usage.",
+        "instruction 2": "Consider the cultural and historical significance of the term in Jewish tradition, as well as any variants or related terms that may also pertain to the concept of a covenant in Yiddish.",
+        "question": " In Yiddish, what is the word for covenant?",
+        "choices": [
+            "Haggadah",
+            "Halakhah",
+            "Brit",
+            "Bris"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the Sumerian King List to identify the narrative or mythological origins of kingship as described in the text, focusing on the context in which kingship is said to have arisen and any divine or supernatural aspects mentioned.",
+        "instruction 2": "Interpret the implications of where kingship comes from as presented in the Sumerian King List, considering how this origin impacts the legitimacy of rulers and the governance structure in ancient Sumerian society.",
+        "question": "According to the Sumerian King List, where does kingship come from?",
+        "choices": [
+            "Through initiation into the mystery cults",
+            "By military victories",
+            "Direct lineage of ancestors",
+            "Descends from heaven"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific Hindu community known for its environmental activism, considering organizations or movements that have established a reputation for promoting ecological awareness and sustainability within the context of Hindu teachings.",
+        "instruction 2": "Examine the principles and practices within this community that highlight their commitment to environmental issues, such as the integration of spiritual beliefs with ecological stewardship, and how these may differ from other activist groups.",
+        "question": "What is the name of the Hindu community associated with environmental activism?",
+        "choices": [
+            "Puranas",
+            "Bishnoi",
+            "Rajasthan",
+            "Jambho"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific bodhisattva associated with guiding the souls of deceased children to salvation, examining their attributes and teachings that pertain to compassion and mercy, particularly focusing on cultural variants within different Buddhist traditions.",
+        "instruction 2": "Explore the context and significance of the bodhisattva in relation to funerary practices and beliefs about the afterlife for children in various Buddhist cultures, ensuring to reflect on the emotional and spiritual implications for families.",
+        "question": " Which bodhisattva is known for conducting the souls of dead children to salvation?",
+        "choices": [
+            "Guan-yin",
+            "Kannon",
+            "Ojizo-sama",
+            "Amitabha"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key theological themes and concepts presented in the Gospel of John, such as the nature of Christ, the concept of eternal life, and the significance of belief and faith.",
+        "instruction 2": "Analyze how these themes reflect the overall message and purpose of the Gospel, considering theological implications like Logos (the Word) and the relationship between God and humanity.",
+        "question": " The Gospel of John is associated with which theological concept?",
+        "choices": [
+            "Incarnation",
+            "Logos of God",
+            "Jesus as messiah and saviour",
+            "All of the above"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research the historical religious changes in Mesopotamia, specifically identifying the timeline and circumstances under which the supremacy of the god Enil was challenged or replaced by another deity, detailing any potential sociocultural factors influencing this transition.",
+        "instruction 2": "Identify the characteristics and attributes of the god that ultimately supplanted Enil, focusing on their role and significance within the Mesopotamian pantheon, and how this reflects a shift in the society’s beliefs or practices.",
+        "question": "Which god supplanted the earlier Mesopotamian supreme god Enil?",
+        "choices": [
+            "Horus",
+            "Inanna",
+            "Marduk",
+            "Isis"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific movement founded by Mordechai Kaplan, ensuring to analyze how it aligns with his philosophies and contributions, such as the concept of Reconstructionist Judaism.",
+        "instruction 2": "Research the historical context and development of Kaplan's movement, exploring its founding principles and distinguishing features that set it apart from other Jewish movements.",
+        "question": "Which of the following movements was founded by Mordechai Kaplan?",
+        "choices": [
+            "Liberal Judaism",
+            "Reform Judaism",
+            "Conservative Judaism",
+            "Reconstructionist Judaism"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the historical context and key events leading up to the establishment of the State of Israel, focusing on the significance of the Balfour Declaration and the United Nations Partition Plan for Palestine.",
+        "instruction 2": "Determine the specific date of establishment, which is May 14, 1948, and confirm its recognition through the declaration issued by David Ben-Gurion, as well as its immediate impact on regional dynamics and conflicts.",
+        "question": "When was the State of Israel established?",
+        "choices": [
+            "1947",
+            "1948",
+            "1945",
+            "1949"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Research the significance of icons in various religious denominations, identifying specific churches that prominently feature icons as a central aspect of their worship and theology, such as the Eastern Orthodox Church.",
+        "instruction 2": "Explore the historical and cultural context in which these icons are used, considering how they contribute to the overall religious experience and artistic expression within the church, ensuring to contextualize the relationship between icons and church practices.",
+        "question": " Icons are a main feature of which church?",
+        "choices": [
+            "Anglican",
+            "Catholic",
+            "Orthodox",
+            "Lutheran"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the central tenet of the first of the Four Noble Truths in Buddhism, which emphasizes the concept of suffering (dukkha) as an inherent aspect of existence that all beings experience and cannot avoid.",
+        "instruction 2": "Analyze how this teaching contrasts with other beliefs about suffering and happiness, considering the implications for understanding suffering's role in the human experience and the path towards enlightenment.",
+        "question": "The first of the Four Noble Truths teaches which of the following cannot be escaped?",
+        "choices": [
+            "Pride",
+            "Hatred",
+            "Suffering",
+            "Fate"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the historical context and key events surrounding the Continental Reformation to pinpoint the specific year it began. Research major figures and movements associated with this period to provide clarity on its inception.",
+        "instruction 2": "Verify your findings by cross-referencing multiple historical sources or scholarly articles to ensure accuracy in determining the year of the start of the Continental Reformation.",
+        "question": " The Continental Reformation started in what year?",
+        "choices": [
+            "1545",
+            "1517",
+            "1492",
+            "1705"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the cultural and historical origins of Haiku poetry, focusing specifically on its connections to Japanese literary and artistic traditions, particularly Zen Buddhism, which emphasizes simplicity and nature.",
+        "instruction 2": "Explore how the principles of minimalism in Haiku reflect broader aesthetic values within Japanese art forms, considering the influence of earlier poetic styles like Tanka or Waka, to understand how these traditions shaped the development of Haiku.",
+        "question": "The minimalism of Haiku is said to be derived from which tradition?",
+        "choices": [
+            "Zen Buddhism",
+            "Shinto",
+            "Pure Land Buddhism",
+            "Confucianism"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the Greek god Zeus and analyze his attributes and roles in mythology to determine the Roman equivalent, considering aspects such as authority, domain, and associated symbols.",
+        "instruction 2": "Confirm the name of the Roman counterpart and provide historical or cultural context regarding how the two deities' roles may differ or overlap within their respective mythologies.",
+        "question": "Which deity is the Roman counterpart to the Greek god Zeus?",
+        "choices": [
+            "Jupiter",
+            "Juno",
+            "Dionysius",
+            "Neptune"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key philosophical concepts associated with Laozi, particularly focusing on the ideas of Daoism (Taoism), including its core principles like the 'Dao' (the Way) and naturalism.",
+        "instruction 2": "Consider the historical and cultural context in which Laozi's teachings emerged, recognizing how Daoism contrasts with other philosophical traditions in ancient China, such as Confucianism, to clarify the associations.",
+        "question": "The philosopher Laozi is associated with which tradition?",
+        "choices": [
+            "Jainism",
+            "Buddhism",
+            "Confucianism",
+            "Daoism"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key deities of the traditional Egyptian pantheon that were prominent before Akhenaten's reign, focusing particularly on those associated with polytheism and the worship practices that he sought to diminish or eradicate.",
+        "instruction 2": "Examine the historical context and reasoning behind Akhenaten's religious reforms, particularly his promotion of the worship of the sun god Aten, and how this movement directly opposed the existing worship of gods like Amun and Osiris.",
+        "question": " Which Egyptian gods did Akhenaten make a determined effort to eliminate?",
+        "choices": [
+            "Shu and Set",
+            "Horus and Isis",
+            "Amun and Mut",
+            "Khonsu and Nekhbet"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the context in which the term 'xin' is being used, as it may have multiple meanings based on cultural, linguistic, or situational factors; consider different domains such as language, philosophy, or regional usage.",
+        "instruction 2": "Investigate relevant definitions and interpretations of 'xin' from credible sources, ensuring to explore various contexts like Chinese language and culture, where 'xin' may refer to concepts like heart, mind, or trust.",
+        "question": "The term xin refers to which of the following?",
+        "choices": [
+            "Piety",
+            "Non-action",
+            "Heart-mind",
+            "World"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific term used in classical dharma texts that refers to the four stages of life, examining texts such as the Manusmriti or other relevant scriptures to pinpoint the terminology.",
+        "instruction 2": "Consider the significance of these four stages (ashramas) in the context of dharma, including their implications for individual duties and societal roles throughout a person's life.",
+        "question": " Which term in the dharma texts of the classical period denotes the four stages of life?",
+        "choices": [
+            "Kama",
+            "Samnyasin",
+            "Ashramas",
+            "Arthas"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific term used in Islamic scholarship that refers to commentary on the Qur'an, focusing on definitions and meanings that relate to the concept of 'unveiling'.",
+        "instruction 2": "Explore the context and significance of this term within Islamic studies, including its historical development and its role in understanding the Qur'an, ensuring clarity in the relationships with other forms of Qur'anic interpretation.",
+        "question": "What is the term for commentary on the Qur'an, which means \"unveiling\"?",
+        "choices": [
+            "fiqh",
+            "dhikr",
+            "ijtihad",
+            "tafsir"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the historical and theological roots of the Isma'ili branch of Islam, focusing on its origins from the Shia tradition and how it distinguishes itself from other sects, particularly the Twelver Shia.",
+        "instruction 2": "Consider the key beliefs, practices, and leadership structures that define Isma'ili Islam, including their interpretation of Islamic teachings and the significance of the Imamate in contrast to other branches.",
+        "question": " With which branch of Islam are the Isma'ilis are associated?",
+        "choices": [
+            "The Sunni",
+            "The Shi'a",
+            "The Sufi",
+            "The Ahmadiyya"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the cultural or contextual background that the term 'mappo' relates to, ensuring to explore its significance in the relevant fields such as Buddhism, philosophy, or social commentary.",
+        "instruction 2": "Investigate different interpretations or usages of the term across various texts or discussions to provide a comprehensive view of its meaning and implications.",
+        "question": " The term mappo is associated with which of the following?",
+        "choices": [
+            "The dharma",
+            "An age of decline",
+            "The golden age",
+            "Samurai"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the characteristics and attributes associated with the bodhisattva known for alleviating suffering in Japanese Buddhism, focusing on key names and representations in cultural contexts.",
+        "instruction 2": "Consider the various titles and epithets this bodhisattva may have in different Japanese texts and sects, including how they may be perceived in relation to other bodhisattvas within Mahayana Buddhism.",
+        "question": " What is the name of the bodhisattva in Japan known for a commitment to alleviating suffering?",
+        "choices": [
+            "Amaterasu",
+            "Izanami",
+            "Kannon",
+            "Guanyin"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research historical figures known as anchorite hermits, focusing on identifying the earliest documented individual who fits this role and highlighting their significance within the context of hermit traditions.",
+        "instruction 2": "Examine the cultural and religious implications of anchoritism during the time period of the first significant anchorite hermit, noting how their life and contributions may have influenced later hermitic practices and beliefs.",
+        "question": "Who was the first significant anchorite hermit?",
+        "choices": [
+            "Pachomius",
+            "Athanasius",
+            "Anthony",
+            "Basil"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and list the Gospels considered synoptic, which include Matthew, Mark, and Luke, and explain the basis for their classification as such due to their similar content and structure in contrast to the Gospel of John.",
+        "instruction 2": "Explore the significance of the term 'synoptic' in relation to the comparison and analysis of the Gospels, including discussions on the use of common sources and the differences in perspectives portrayed in each of the synoptic Gospels.",
+        "question": "Which are the synoptic Gospels?",
+        "choices": [
+            "Peter, John, Mark",
+            "Matthew, Mark, John",
+            "Matthew, Mark, Luke",
+            "John, Luke, Mark"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the English translation of the divination text known as the Yijing, recognizing that it is commonly referred to as the 'I Ching' in English literature.",
+        "instruction 2": "Consider the historical and cultural significance of the Yijing/I Ching in Chinese philosophy and its influence on various practices such as divination and decision-making, providing context for its relevance.",
+        "question": "What is the English title for the divination text also known as the Yijing?",
+        "choices": [
+            "The Classic of Documents",
+            "The Lotus Sutra",
+            "The Flower Garland Sutra",
+            "The Classic of Changes"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key locations in Greece historically associated with mystery cults, focusing on major sites such as Eleusis, Delphi, and others that were pivotal to these religious practices.",
+        "instruction 2": "Evaluate which of these sites is most often referenced in historical texts or archaeological findings as being particularly significant or well-known in the context of mystery cults, considering factors like cultural influence and rituals performed there.",
+        "question": " Where was the most famous site of the mystery cults in Greece?",
+        "choices": [
+            "Ephesus",
+            "Corinth",
+            "Athens",
+            "Eleusis"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Research historical timelines relating to the Babylonian captivity of the Israelites to pinpoint the specific year or event that marks the beginning of the Exile, ensuring to consider various sources for accuracy.",
+        "instruction 2": "Analyze the context surrounding the event, such as the political and social conditions of the time, which may help clarify the start of the Babylonian captivity and its significance in history.",
+        "question": "When did the Babylonian captivity of \"Exile\" begin?",
+        "choices": [
+            "515 BCE",
+            "535 BCE",
+            "586 BCE",
+            "70 CE"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the additional meanings or implications associated with the term 'vajra' in various contexts, such as its significance in Buddhism, Hinduism, or other spiritual practices, to provide a comprehensive understanding of the term.",
+        "instruction 2": "Consider how the cultural or historical context influences the interpretation of 'vajra' beyond its literal translation as 'diamond', including examining its symbolic representations in religious texts or teachings.",
+        "question": " The term vajrya means diamond and which of the following?",
+        "choices": [
+            "Emerald",
+            "Brilliance",
+            "Thunderbolt",
+            "Lightning"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific cycle mentioned in Jainism that relates to the concept of suffering and rebirth, known as samsara, and explain its significance in the context of liberation (moksha).",
+        "instruction 2": "Explore the teachings and practices in Jainism that facilitate liberation from this cycle, including the importance of right knowledge, right faith, and right conduct, as well as any relevance of karma in this process.",
+        "question": " In Jainism, what is the cycle that one must liberate oneself from?",
+        "choices": [
+            "Punya",
+            "Samsara",
+            "Samayika",
+            "Jiva"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the original Chinese title of the Daodejing and its significance to understand its themes and concepts, to ensure an accurate translation into English.",
+        "instruction 2": "Research commonly accepted translations and titles used in English-speaking contexts, reflecting on any variations and their implications for the text's interpretation.",
+        "question": " The classic text Daodejing is known by what title in English?",
+        "choices": [
+            "Classic of Changes",
+            "Classic of the Way and Power",
+            "Classic of Women",
+            "Classic of Philosophy"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the historical and social context of the Communidades de Base, focusing on their role in grassroots movements, particularly in Latin America, and how they relate to the broader themes of liberation theology and community organization.",
+        "instruction 2": "Determine the specific areas of focus or activities typically associated with the Communidades de Base, such as social justice, political activism, or community development, to pinpoint their associations clearly.",
+        "question": " The Communidades de Base is associated with which of the following?",
+        "choices": [
+            "Bishop Oscar Romero",
+            "Resistance and renewal",
+            "Dignity of all human beings",
+            "All of the above"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the term 'matsuri' by exploring its linguistic roots in the Japanese language, ensuring to include its cultural significance and the types of festivals it generally refers to.",
+        "instruction 2": "Investigate the various contexts in which matsuri are celebrated, considering regional variations, traditional practices, and the typical activities associated with these festivals to provide a comprehensive understanding.",
+        "question": "What does the term matsuri mean?",
+        "choices": [
+            "Amulets",
+            "Meditation",
+            "Rituals",
+            "Grand festivals"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the Roman statesman known for his philosophical contributions, particularly in the context of civic religion, and examine how his work 'The Laws' articulates the role of religion in public life and legal frameworks.",
+        "instruction 2": "Analyze the concepts presented in 'The Laws' that relate to the promotion of civic virtue and how civic religion is interwoven in the governance and social structure of Roman society.",
+        "question": " Which Roman statesman encouraged civic religion in his work The Laws?",
+        "choices": [
+            "Varro",
+            "Plato",
+            "Cicero",
+            "Augustus"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research the etymology and historical context of the term 'Svetambara', focusing on its significance within the Jain tradition, particularly its meaning in relation to the sect that emphasizes wearing white clothing.",
+        "instruction 2": "Explore the contrasting beliefs and practices of the Svetambara sect compared to other Jain sects, especially the Digambara, to provide a comprehensive understanding of the term and its implications within Jain philosophy.",
+        "question": " What does \"Svetambara\" mean?",
+        "choices": [
+            "\"Sky-clad\"",
+            "\"Naked\"",
+            "\"White-clad\"",
+            "\"Clothed\""
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the commonly recognized symbols associated with Islam and analyze their significance within both European and Muslim contexts, focusing particularly on the crescent moon and star as prominent representations.",
+        "instruction 2": "Consider the cultural and historical perspectives that influence how different groups perceive the symbol, examining any variations in interpretation or expression in various regions and communities.",
+        "question": "What is seen by Europeans, and many Muslims, as the symbol of Islam?",
+        "choices": [
+            "The Hijab",
+            "The Crescent",
+            "The Minaret",
+            "The Qur'an"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the significance of the Guru's Vak, focusing on its spiritual, cultural, and practical implications within the context of morning rituals or practices in relevant traditions, such as Sikhism or related faiths.",
+        "instruction 2": "Explore the psychological and motivational effects of starting the day with such teachings, considering how they might influence an individual's mindset, values, and actions throughout the day.",
+        "question": " What is the purpose for hearing the Guru's Vak in the morning?",
+        "choices": [
+            "Prayers on behalf of people outside of the Sikh community",
+            "Communal confession to cleanse the community",
+            "Inspiration for personal meditation throughout the day",
+            "Doctrinal instruction for discussion in the community"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific term used in Jewish literature to refer to the rabbinical commentaries that were developed after the compilation of the Mishnah, distinguishing it from earlier texts and commentaries.",
+        "instruction 2": "Consider the significance of these commentaries in the context of Jewish law and tradition, and how they interpret, expand upon, or apply the teachings found in the Mishnah.",
+        "question": " What are the rabbinical commentaries produced after the Mishnah called?",
+        "choices": [
+            "Septuagint",
+            "Talmud",
+            "Yeshiva",
+            "Gemarah"
+        ],
+        "subject": "world_religions",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the term 'mohel' in the context of Jewish tradition, specifically focusing on the role and religious responsibilities associated with performing circumcisions, as well as any pertinent cultural and historical significance.",
+        "instruction 2": "Explore the qualifications and training typically required for a mohel, and discuss any variations in practice or significance across different Jewish communities, such as Orthodox, Conservative, and Reform Judaism.",
+        "question": "What is a mohel?",
+        "choices": [
+            "A ritual circumciser",
+            "A type of oil lame",
+            "A teacher",
+            "A covenant"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific form of Buddhism that is commonly associated with the 'Flower Sermon' and its significance within that tradition, focusing on aspects such as teachings or historical context.",
+        "instruction 2": "Research any important figures or texts related to the 'Flower Sermon,' and explain how this teaching influences the beliefs and practices of the identified form of Buddhism.",
+        "question": "The \"Flower Sermon\" is associated with which form of Buddhism?",
+        "choices": [
+            "Theravada",
+            "Chan-Zen",
+            "Pure Land",
+            "Yogicara"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific time period or philosophical movement in ancient Greece that signifies the rejection of anthropomorphic views of the divine, analyzing the contributions of key philosophers such as Socrates, Plato, and Aristotle to this shift in thought.",
+        "instruction 2": "Examine the historical and cultural contexts that led to this major philosophical shift, including prior beliefs about the divine and how these philosophers' arguments and teachings reshaped the understanding of divinity.",
+        "question": " When was the major shift by Greek philosophers who rejected the anthropomorphic view of the divine?",
+        "choices": [
+            "Early Third Century BCE",
+            "Second and First Century BCE",
+            "Late Sixth Century BCE",
+            "Fourth and Third Century BCE"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the social, cultural, and religious factors that contribute to the decision of individuals to wear the hijab today, including motivations related to personal identity, faith, and societal norms.",
+        "instruction 2": "Analyze the diverse perspectives and interpretations within different communities regarding the hijab, considering how these views may vary by geographical, cultural, and individual contexts.",
+        "question": " What is the foremost reason for wearing the hijab in the present day?",
+        "choices": [
+            "Islamic identity",
+            "Islamic modesty",
+            "Islamic obedience",
+            "Islamic seclusion"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific term used to refer to the written form of the Oral Torah, which is known as the Mishnah, and ensure to contextualize it within the framework of Jewish texts and tradition.",
+        "instruction 2": "Consider the significance of the Mishnah in relation to other key texts in Judaism, such as the Talmud, and how it serves as a foundational element for Jewish law and teachings.",
+        "question": "The Oral Torah, in its written form, is known as what?",
+        "choices": [
+            "Mishnah",
+            "Midrash",
+            "Tanakh",
+            "Pentateuch"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the major religious traditions prevalent in China and Korea, such as Confucianism, Buddhism, and Daoism, and analyze their historical and cultural significance to understand their central focus.",
+        "instruction 2": "Explore how each of these traditions addresses core human concerns, moral values, and social harmony, examining the similarities and differences in their teachings and practices in both cultures.",
+        "question": "What has been a central focus of religious traditions in China and Korea?",
+        "choices": [
+            "Peace and harmony",
+            "Power and influence",
+            "Truth and love",
+            "Wisdom and ethics"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Investigate the historical context of the Han Dynasty, particularly the social hierarchies and religious practices of the time, to understand whom ordinary people might have turned to for assistance during a drought, such as local deities, ancestors, or government officials.",
+        "instruction 2": "Examine the cultural beliefs and practices related to drought and agriculture in ancient China, identifying specific figures or entities that represented hope or intervention during crises, and how these beliefs influenced the actions of ordinary citizens.",
+        "question": " To whom did ordinary folk appeal during a drought in the time of the Han Dynasty?",
+        "choices": [
+            "The Buddha",
+            "Laozi",
+            "The Queen Mother of the West",
+            "Confucius"
+        ],
+        "subject": "world_religions",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Investigate the historical and doctrinal significance of the term 'homoousios' within Christian theology, particularly focusing on its implications in the context of the Nicene Creed and discussions about the nature of Christ in relation to God the Father.",
+        "instruction 2": "Examine the various interpretations and usages of 'homoousios' across different Christian denominations to understand its meaning and the theological debates it has spurred, ensuring to clarify its etymology and relation to concepts like consubstantiality.",
+        "question": " The theological term homoousios means which of the following?",
+        "choices": [
+            "of a similar substance",
+            "of the same substance",
+            "of like substance",
+            "of human substance"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the central figures in the Japanese origin myth, specifically focusing on Izanagi, the male deity, and his acts that lead to the birth of Amaterasu, including the significance of his left eye in this context.",
+        "instruction 2": "Explore the broader implications of Amaterasu's birth within the mythological narrative, including her role in Shinto beliefs and how this event ties into the themes of creation and the relationships among deities.",
+        "question": "According to the Japanese origin myth, who gives birth to Amaterasu from his left eye?",
+        "choices": [
+            "Es",
+            "Izanagi",
+            "Izanami",
+            "Kami"
+        ],
+        "subject": "world_religions",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific attributes or meanings associated with the term 'numen' in the context of Augustus, focusing on its significance in Roman religion and governance, including how it relates to divine authority or power.",
+        "instruction 2": "Examine historical instances or interpretations of Augustus being associated with numen, considering the implications for his leadership and the political culture of ancient Rome.",
+        "question": " The numen of Augustus referred to which of the following characteristics?",
+        "choices": [
+            "Divine power",
+            "Sexual virility",
+            "Military acumen",
+            "Philosophical intellect"
+        ],
+        "subject": "world_religions",
+        "answer": 0
+    }
+]

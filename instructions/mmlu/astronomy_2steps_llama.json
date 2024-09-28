@@ -1,0 +1,1978 @@
+[
+    {
+        "question": "What is true for a type-Ia (\"type one-a\") supernova?",
+        "answer": 0,
+        "choices": [
+            "This type occurs in binary systems.",
+            "This type occurs in young galaxies.",
+            "This type produces gamma-ray bursts.",
+            "This type produces high amounts of X-rays."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the characteristics of type-Ia supernovae, focusing on the specific type of progenitor star that undergoes a thermonuclear explosion, leading to the observed supernova event.",
+        "instruction 2": "Consider the implications of the type-Ia supernova's consistent maximum brightness, which is used as a \"standard candle\" in cosmology, and how this property enables astronomers to estimate distances and measure the expansion rate of the universe."
+    },
+    {
+        "question": "If you know both the actual brightness of an object and its apparent brightness from your location then with no other information you can estimate:",
+        "answer": 3,
+        "choices": [
+            "Its speed relative to you",
+            "Its composition",
+            "Its size",
+            "Its distance from you"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key variables involved in the problem, including the actual brightness of the object, its apparent brightness from the observer's location, and any other relevant factors such as the distance between the object and the observer.",
+        "instruction 2": "Consider the inverse square law of light intensity, which relates the actual brightness of the object to its apparent brightness, and determine how this relationship can be used to estimate the distance between the object and the observer, given the provided information."
+    },
+    {
+        "question": "Why is the sky blue?",
+        "answer": 2,
+        "choices": [
+            "Because the molecules that compose the Earth's atmosphere have a blue-ish color.",
+            "Because the sky reflects the color of the Earth's oceans.",
+            "Because the atmosphere preferentially scatters short wavelengths.",
+            "Because the Earth's atmosphere preferentially absorbs all other colors."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Explain the basic principles of light scattering and absorption, specifically how shorter wavelengths of light, such as blue and violet, are scattered more efficiently by the tiny molecules of gases in the Earth's atmosphere.",
+        "instruction 2": "Consider the role of atmospheric conditions, such as the amount of water vapor and pollutants present, in influencing the apparent color of the sky, and discuss how these factors can affect the overall blue hue."
+    },
+    {
+        "question": "You’ve made a scientific theory that there is an attractive force between all objects. When will your theory be proven to be correct?",
+        "answer": 2,
+        "choices": [
+            "The first time you drop a bowling ball and it falls to the ground proving your hypothesis.",
+            "After you’ve repeated your experiment many times.",
+            "You can never prove your theory to be correct only “yet to be proven wrong”.",
+            "When you and many others have tested the hypothesis."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key elements of the scientific theory, specifically the attractive force between all objects, and how it can be tested or observed through experimentation and data collection.",
+        "instruction 2": "Consider the process of scientific verification, including the need for repeated experimentation, peer review, and replication, to establish the validity of the theory and its predictive capabilities."
+    },
+    {
+        "question": "Which of the following is/are true?",
+        "answer": 3,
+        "choices": [
+            "Titan is the only outer solar system moon with a thick atmosphere",
+            "Titan is the only outer solar system moon with evidence for recent geologic activity",
+            "Titan's atmosphere is composed mostly of hydrocarbons",
+            "A and D"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the statements that can be directly verified through evidence or logical deduction, separating them from those that require additional context or information to determine their validity.",
+        "instruction 2": "Evaluate the logical consistency and coherence of each statement, considering any potential relationships or contradictions between them, and assess which statements can be confirmed or disproven based on available information."
+    },
+    {
+        "question": "A comet of mass m impacts the earth (mass M radius R) at the minimum impact speed. What is the expression for the total energy released in the impact?",
+        "answer": 2,
+        "choices": [
+            "m*v",
+            "0.5*m/(R^3)",
+            "0.5*m*(2GM/R)",
+            "0.6*G(M^2)/R"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key variables involved in the impact, including the masses of the comet and the earth, the radius of the earth, and the minimum impact speed.",
+        "instruction 2": "Apply the principles of conservation of energy and momentum to derive the expression for the total energy released during the impact, considering the kinetic energy of the comet and the potential energy of the earth, as well as any relevant assumptions or simplifications.\" }\n\nPlease provide your response in the same format as the examples, with the \"key\" being the instruction number and the \"value\" including the specific associated instructions for the given question. Your response should include two new instructions. Question: A person is trying to decide between two job offers. Job A offers a higher salary, but Job B offers more flexible working hours. What should the person consider when making this decision?\nReasoning steps: {\n  \"instruction 1\": \"Identify the key factors that are important to the person, such as salary, working hours, work-life balance, career advancement opportunities, and personal goals."
+    },
+    {
+        "question": "Some of Mars'water is frozen in the soil and the ice caps and some was lost due to solar wind stripping but much of the original water is thought to have been lost through another mechanism. What happened to this \"lost\"water?",
+        "answer": 1,
+        "choices": [
+            "it was stripped away by the magnetic field when it rapidly decreased in strength",
+            "it was broken into hydrogen and oxygen by ultraviolet light and the hydrogen was lost through thermal escape",
+            "it was consumed by a civilization of thirsty Martians",
+            "it was vaporized during a period of intense volcanism and was lost to space through thermal escape"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the geological processes that could have led to the loss of water on Mars, such as atmospheric escape or geological activity, and consider the potential impact of solar wind stripping on the planet's water supply.",
+        "instruction 2": "Evaluate the evidence and theories related to the loss of water on Mars, including the role of atmospheric loss, geological activity, and other factors, to determine the most plausible explanation for the 'lost' water."
+    },
+    {
+        "question": "Most rocks on the Moon's surface are older than those on the Earth's surface. The best evidence for this is:",
+        "answer": 1,
+        "choices": [
+            "Lunar rocks are composed of fragments pulverized by many impacts.",
+            "Radioactive dating of lunar samples shows that they are older.",
+            "The Moon's surface is more heavily eroded than the Earth's surface.",
+            "The Moon's surface has more impact craters than the Earth's surface."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the geological history of the Moon, focusing on the age of the rocks and the processes that have shaped the lunar surface over time.",
+        "instruction 2": "Consider the differences in geological processes between the Moon and Earth, such as the lack of tectonic activity on the Moon, and how these differences affect the formation and preservation of rocks on each celestial body."
+    },
+    {
+        "question": "What is the second most common element in the solar system?",
+        "answer": 3,
+        "choices": [
+            "Iron",
+            "Hydrogen",
+            "Methane",
+            "Helium"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the most common element in the solar system, typically considered to be hydrogen, and understand its abundance and role in the solar system.",
+        "instruction 2": "Research the abundance and distribution of elements in the solar system, focusing on the second most common element, to determine its composition and significance within the solar system."
+    },
+    {
+        "question": "What is the source of the material that causes meteor showers?",
+        "answer": 3,
+        "choices": [
+            "Near-Earth asteroids gradually disintegrate and spread out along their orbital path. When the Earth passes through the orbit of an asteroid we are bombarded by sand-sized particles which cause a meteor shower.",
+            "Near-Earth asteroids disintegrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a single location in the sky.",
+            "The nuclei of comets disintigrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a central location in the sky.",
+            "The nuclei of comets gradually disintegrate and spread out along the comet's orbital path. When the Earth passes through the orbit of a comet we are bombarded by sand-sized particles which cause a meteor shower."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary source of the material responsible for meteor showers, which is typically the debris left behind by comets or asteroids as they pass close to the Sun.",
+        "instruction 2": "Consider the process by which this debris is dispersed into the Earth's orbit, resulting in the formation of meteoroids that eventually burn up in the atmosphere, producing the visual display of a meteor shower."
+    },
+    {
+        "question": "Why does the plasma (ion) tail of a comet always point away from the Sun?",
+        "answer": 3,
+        "choices": [
+            "Radiation pressure from the Sun's light pushes the ions away.",
+            "The conservation of the angular momentum in the tail keeps it always pointing away from the Sun.",
+            "The ions are following Keplerian orbits that lead away from the Sun.",
+            "The solar wind electromagnetically \"blows\" the ions directly away from the Sun."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Explain the fundamental physics behind the behavior of charged particles (plasma) in the presence of electromagnetic forces, specifically the interaction between the comet's ion tail and the Sun's radiation.",
+        "instruction 2": "Consider the solar wind's influence on the comet's ion tail, and how this interaction causes the tail to always point away from the Sun, highlighting any relevant scientific concepts or principles."
+    },
+    {
+        "question": "How did Eratosthenes estimate the size of Earth in 240 B.C.?",
+        "answer": 2,
+        "choices": [
+            "By observing the duration of a solar eclipse.",
+            "By measuring the size of Earth's shadow on the Moon in a lunar eclipse.",
+            "By comparing the maximum altitude of the Sun in two cities at different latitudes at the same time on the same day.",
+            "By sending fleets of ships around Earth."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the method Eratosthenes used to estimate the size of the Earth, specifically his observation of the angle of shadows cast by the Sun at different latitudes, and how he used this information to calculate the circumference of the Earth.",
+        "instruction 2": "Consider the assumptions and limitations of Eratosthenes' method, such as the accuracy of his measurements and the potential for errors in his calculations, and how these factors may have impacted the accuracy of his estimated Earth size."
+    },
+    {
+        "question": "The Large Magellanic Cloud is ...",
+        "answer": 0,
+        "choices": [
+            "a dwarf galaxy orbiting the Milky Way.",
+            "the closest planetary nebula to the Earth.",
+            "a bright star cluster discovered by Magellan.",
+            "the outer arm of the Milky Way named after Magellan."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the Large Magellanic Cloud as a satellite galaxy of the Milky Way, and research its physical properties, such as size, shape, and composition.",
+        "instruction 2": "Consider the Large Magellanic Cloud's position in the sky, its proximity to the Milky Way, and its relationship to other celestial objects, such as stars and nebulae, to provide a comprehensive understanding of its place within the galaxy."
+    },
+    {
+        "question": "Why do we look for water-ice in craters at Mercury's pole?",
+        "answer": 3,
+        "choices": [
+            "Actually water-ice is all over Mercury and not just at the poles.",
+            "The pole is the only place fortunate enough to have had comet impacts",
+            "Radar from the earth can only see Mercury's poles.",
+            "These craters contain the only permanently shadowed regions on Mercury"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Understand the unique characteristics of Mercury's polar craters, such as their permanently shadowed regions and extremely cold temperatures, which create an environment conducive to the presence of water-ice.",
+        "instruction 2": "Consider the scientific significance of discovering water-ice at Mercury's pole, including its potential implications for understanding the planet's geological history, searching for signs of life, and exploring the possibility of water as a resource for future human exploration and settlement."
+    },
+    {
+        "question": "The Milky Way is part of a giant supercluster with a diameter of 160 Mpc. What is the name of this supercluster?",
+        "answer": 1,
+        "choices": [
+            "Virgo",
+            "Laniakea",
+            "Sculptor",
+            "Boötes"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the structure of the universe, including the existence of superclusters and their properties, to identify the Milky Way's position within the cosmic hierarchy.",
+        "instruction 2": "Consult astronomical data and sources, such as NASA or the Sloan Digital Sky Survey, to determine the name of the supercluster that the Milky Way is a part of, considering factors like distance, size, and other relevant characteristics."
+    },
+    {
+        "question": "On which planet in our solar system can you find the Great Red Spot?",
+        "answer": 2,
+        "choices": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the planet known for its distinctive atmospheric feature, the Great Red Spot, which is a persistent anticyclonic storm.",
+        "instruction 2": "Research the planet's atmosphere and its unique characteristics to understand the context and conditions that allow the Great Red Spot to persist."
+    },
+    {
+        "question": "Why does Earth have the strongest magnetic field among the terrestrial worlds?",
+        "answer": 2,
+        "choices": [
+            "It is by far the largest terrestrial world.",
+            "It is the most volcanically active world.",
+            "It is the only one that has both a partially molten metallic core and reasonably rapid rotation.",
+            "It rotates much faster than any other terrestrial world."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary factors that contribute to the strength of Earth's magnetic field, such as the movement of molten iron in the Earth's outer core and the planet's rotation rate.",
+        "instruction 2": "Consider how these factors differ from those affecting the magnetic fields of other terrestrial planets, such as Mars and Venus, to explain why Earth's magnetic field is significantly stronger."
+    },
+    {
+        "question": "Which of the following is not true?",
+        "answer": 0,
+        "choices": [
+            "The Earth and Venus are in a 1:1 orbital resonance (for every 1 Earth orbit there is exactly 1 Venus orbit)",
+            "Neptune and Pluto are in a 3:2 orbital resonance (for every 3 Neptune orbits there are exactly 2 Pluto orbits)",
+            "The Kirkwood Gaps in the asteroid belt are due to resonances with Jupiter",
+            "Neptune and Pluto won't collide because of their orbital resonance"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the statement that appears to be false or contradictory, taking into account any context or background information provided.",
+        "instruction 2": "Evaluate each statement, considering any relevant evidence, data, or logical inconsistencies to determine which statement is indeed not true."
+    },
+    {
+        "question": "Which of the following is/are common feature(s) of all fresh (i.e. not eroded) impact craters formed on solid surfaces:",
+        "answer": 3,
+        "choices": [
+            "ejecta",
+            "raised rims",
+            "central peaks",
+            "A and B only"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the fundamental characteristics that define an impact crater, such as its circular shape, raised rim, and central uplift.",
+        "instruction 2": "Consider how these features are preserved in fresh impact craters, which have not undergone significant erosion, and how they can be distinguished from older, eroded craters."
+    },
+    {
+        "question": "From laboratory measurements we know that a particular spectral line formed by hydrogen appears at a wavelength of 486.1 nanometers (nm). The spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 485.9 nm. What can we conclude?",
+        "answer": 2,
+        "choices": [
+            "The star is getting hotter.",
+            "The star is getting colder.",
+            "The star is moving toward us.",
+            "The star is moving away from us."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key difference in the wavelength of the hydrogen spectral line between the laboratory measurement and the star's spectrum, noting that the star's wavelength is slightly shorter.",
+        "instruction 2": "Consider the implications of this difference, such as the possibility of redshift or blueshift, and evaluate the potential causes, such as the star's motion or composition, that could contribute to this observed shift."
+    },
+    {
+        "question": "The lithosphere of a planet is the layer that consists of",
+        "answer": 3,
+        "choices": [
+            "the softer rocky material of the mantle.",
+            "the lava that comes out of volcanoes.",
+            "material between the crust and the mantle.",
+            "the rigid rocky material of the crust and uppermost portion of the mantle."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key components of the Earth's structure, including the crust, mantle, and core, to understand the concept of the lithosphere and its relationship to the other layers.",
+        "instruction 2": "Consider the physical and chemical properties of the lithosphere, such as its composition, thickness, and tectonic activity, to provide a comprehensive definition of this planetary layer."
+    },
+    {
+        "question": "What is the Cassini division of Saturn's rings?",
+        "answer": 3,
+        "choices": [
+            "a dark ring visible from Earth composed of dark dusty particles",
+            "the most opaque ring of Saturn made of highly reflective ice particles",
+            "the widest ring of Saturn located between two large ring gaps",
+            "a large gap visible from Earth produced by an orbital resonance with the moon Mimas"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the major features of Saturn's ring system, including the gaps and divisions that distinguish it from other ring systems in the solar system.",
+        "instruction 2": "Focus on the Cassini division, specifically its origin, characteristics, and significance in understanding the dynamics and evolution of Saturn's rings, as well as any relevant observations or findings from space missions like the Cassini-Huygens mission."
+    },
+    {
+        "question": "Which of the following statements about sidereal and solar days is not true?",
+        "answer": 3,
+        "choices": [
+            "The time it takes for the Sun to make one circuit of our sky is one solar day.",
+            "A solar day is 4 minutes longer than a sidereal day.",
+            "A solar day represents more than 360° of rotation for the earth.",
+            "The time it takes for the Moon to make one circuit of our sky is one solar day."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Define sidereal and solar days, highlighting their respective time periods and the factors that influence their lengths.",
+        "instruction 2": "Compare and contrast the two time periods, identifying any key differences in their lengths, and evaluating which statement is not true based on the definitions provided."
+    },
+    {
+        "question": "Meteorites with high metal content probably are",
+        "answer": 1,
+        "choices": [
+            "pieces of comets rather than of asteroids.",
+            "chunks of large differentiated asteroids that were shattered by collisions.",
+            "chunks of rock chipped off the planet Mars.",
+            "leftover chunks of rock from the earliest period in the formation of the solar system."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the characteristic of meteorites that is being referenced, specifically the high metal content, and consider how this might relate to the composition of the meteorite or its origin.",
+        "instruction 2": "Research the types of meteorites that are known to have high metal content, such as stony-iron meteorites, and evaluate how this information might be used to infer the likely composition or origin of the meteorite."
+    },
+    {
+        "question": "Most people use C°(degree Celsius) to measure everyday temperatures. Astronomers prefer to use K (Kelvin) to measure temperatures. Approximately how many Kelvin are 25 C°?",
+        "answer": 2,
+        "choices": [
+            "200 Kelvin",
+            "250 Kelvin",
+            "300 Kelvin",
+            "350 Kelvin"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Determine the conversion factor between Celsius and Kelvin, as both scales have the same temperature difference but differ in their zero-point reference.",
+        "instruction 2": "Apply the conversion factor to the given temperature of 25 C° to calculate the equivalent temperature in Kelvin, considering the specific conversion formula and any necessary rounding or precision."
+    },
+    {
+        "question": "The four big moons of Jupiter are Callisto Europa Ganymede and Io. Which one of them has the smallest distance to Jupiter?",
+        "answer": 3,
+        "choices": [
+            "Callisto",
+            "Europa",
+            "Ganymede",
+            "Io"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the orbital characteristics of each of the four big moons, focusing on their average distance from Jupiter, to identify the one with the smallest distance.",
+        "instruction 2": "Consider any potential orbital patterns or irregularities that may affect the distance between the moon and Jupiter, ensuring to reference credible sources such as NASA or scientific articles for accurate information."
+    },
+    {
+        "question": "Why are the season's in Mars' southern hemisphere so extreme?",
+        "answer": 2,
+        "choices": [
+            "because Mars is farther from the sun than the Earth",
+            "because Mars has more carbon dioxide in its atmosphere than the Earth",
+            "because Mars has a more eccentric orbit than the Earth",
+            "because Mars' axis is more tilted than the Earth's"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Understand the unique orbital characteristics of Mars, particularly the tilt of its axis and the resulting seasonal patterns, to identify the primary cause of extreme seasons in the southern hemisphere.",
+        "instruction 2": "Consider how the Martian atmosphere and its interaction with the planet's surface, including the presence of polar ice caps, contribute to the amplified seasonal variations in the southern hemisphere, and how these factors might differ from those in the northern hemisphere."
+    },
+    {
+        "question": "What Mars mission will be landing on May 25 2008 and will dig a trench into (hopefully) ice-rich soil?",
+        "answer": 3,
+        "choices": [
+            "ExoMars",
+            "Mars Exploration Rovers",
+            "Mars Science Laboratory",
+            "Phoenix Mars Lander"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research NASA's Mars exploration missions and identify the mission scheduled to land on May 25, 2008, focusing on its primary objectives and scientific goals.",
+        "instruction 2": "Consider the mission's planned activities, such as drilling and sampling, to determine its purpose for digging a trench into ice-rich soil and what scientific insights it aims to gain from this process."
+    },
+    {
+        "question": "What is the significance of the 1:2:4 resonance in the Jupiter's moons system?",
+        "answer": 1,
+        "choices": [
+            "The resonance pulls Io in different directions and generates heat.",
+            "It makes the orbit of Io slightly elliptical.",
+            "It creates a gap with no asteriods between the orbits.",
+            "It prevents formation of the ring material into other moons."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the specific Jupiter's moons involved in the 1:2:4 resonance, and describe their orbital patterns and relationships.",
+        "instruction 2": "Explain the implications of this resonance on the moons' orbital stability, potential effects on their geological activity, and any insights it provides into the formation and evolution of the Jupiter's moons system."
+    },
+    {
+        "question": "The terrestrial planet cores contain mostly metal because",
+        "answer": 2,
+        "choices": [
+            "the entire planets are made mostly of metal.",
+            "metals condensed first in the solar nebula and the rocks then accreted around them.",
+            "metals sank to the center during a time when the interiors were molten throughout.",
+            "radioactivity created metals in the core from the decay of uranium."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary composition of the cores of terrestrial planets, which is primarily made up of metals, and consider the processes that formed these cores during the early stages of planetary formation.",
+        "instruction 2": "Evaluate the role of differentiation, where heavier elements like iron and nickel sink to the center of the planet, and the processes of planetary differentiation, such as core-mantle separation, in shaping the composition of the cores."
+    },
+    {
+        "question": "Why are the inner planets made of denser materials than the outer planets?",
+        "answer": 1,
+        "choices": [
+            "In the beginning when the protoplanetary disk was spinning faster centrifugal forces flung the lighter materials toward the outer parts of the solar nebula.",
+            "In the inner part of the nebula only metals and rocks were able to condense because of the high temperatures whereas hydrogen compounds although more abundant were only able to condense in the cooler outer regions.",
+            "Denser materials were heavier and sank to the center of the nebula.",
+            "When the solar nebula formed a disk materials naturally segregated into bands and in our particular solar system the denser materials settled nearer the Sun while lighter materials are found in the outer part."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary composition differences between the inner and outer planets, focusing on the presence of heavier elements and metals in the inner planets.",
+        "instruction 2": "Consider the role of planetary formation and the migration of gas giants in the early solar system, as well as the effects of gravitational forces and temperature differences on the resulting planetary compositions."
+    },
+    {
+        "question": "What do meteorites reveal about the solar system?",
+        "answer": 2,
+        "choices": [
+            "They reveal that the early solar system consisted mostly of hydrogen and helium gas.",
+            "They reveal that meteorites are much older than the comets and planets.",
+            "They reveal that the age of the solar system is approximately 4.6 billion years.",
+            "They reveal that the solar system once contained 10 planets."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary sources of meteorites, such as asteroids and comets, and how they interact with the Earth's atmosphere, resulting in their entry as meteorites.",
+        "instruction 2": "Examine the composition and structure of meteorites, analyzing the chemical and isotopic signatures to gain insights into the formation and evolution of the solar system, including the potential for planetary differentiation and the presence of volatile compounds."
+    },
+    {
+        "question": "Venus shows evidence of which of the following surface processes?",
+        "answer": 3,
+        "choices": [
+            "Impacts",
+            "Erosion",
+            "Volcanism",
+            "A B and C"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the geological processes that have shaped Venus' surface, such as volcanic activity, tectonics, or erosion, and consider how these processes can be inferred from Venus' surface features and composition.",
+        "instruction 2": "Evaluate the evidence for each of these processes, such as the presence of volcanic rocks, fault lines, or signs of erosion, and determine which process is most likely responsible for the observed surface features on Venus."
+    },
+    {
+        "question": "Planetary rings are",
+        "answer": 3,
+        "choices": [
+            "known to exist for all of the jovian planets.",
+            "composed of a large number of individual particles that orbit their planet in accord with Kepler's third law.",
+            "nearer to their planet than any of the planet's large moons.",
+            "all of the above"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key characteristics of planetary rings, such as their composition, size, and orbital patterns, to better understand their formation and behavior.",
+        "instruction 2": "Consider the specific conditions required for the formation and maintenance of planetary rings, including the presence of a planet, moon, or other celestial body, as well as the influence of gravitational forces and other environmental factors."
+    },
+    {
+        "question": "Suppose the angular separation of two stars is smaller than the angular resolution of your eyes. How will the stars appear to your eyes?",
+        "answer": 2,
+        "choices": [
+            "You will not be able to see these two stars at all.",
+            "You will see two distinct stars.",
+            "The two stars will look like a single point of light.",
+            "The two stars will appear to be touching looking rather like a small dumbbell."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Determine the minimum angular separation required for the stars to be resolved by the human eye, considering the angular resolution limits of the human visual system.",
+        "instruction 2": "Explain how the stars will appear to the eyes when they are closer together than the angular resolution limit, such as appearing as a single, blended object or a faint, diffuse patch of light."
+    },
+    {
+        "question": "What is not true of Jupiter's magnetic field?",
+        "answer": 3,
+        "choices": [
+            "it is about 20000 times stronger than Earth's magnetic field",
+            "it traps charged particles from Io's volcanoes in a \"plasma torus\" around the planet",
+            "it causes spectacular auroral displays at Jupiter's north and south poles",
+            "it switches polarity every 11 years"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the unique characteristics of Jupiter's magnetic field, such as its strength, orientation, and any notable features, to identify potential differences from Earth's magnetic field.",
+        "instruction 2": "Consider the implications of Jupiter's size and composition on its magnetic field, evaluating how these factors might contribute to any differences between Jupiter's and Earth's magnetic fields."
+    },
+    {
+        "question": "What does the astronomical term ecliptic describe?",
+        "answer": 0,
+        "choices": [
+            "The path of the Sun in the sky throughout a year.",
+            "The axial tilt of the Earth throughout a year.",
+            "The movement of the stars due to Earth’s rotation.",
+            "The central line through the axis of rotation."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the celestial body or phenomenon being described, such as the path of the Sun, Moon, or planets, to establish the context for understanding the term ecliptic.",
+        "instruction 2": "Research the definition and significance of the ecliptic in astronomy, considering its relationship to the Earth's equator, the plane of the solar system, and the movements of celestial bodies within our solar system."
+    },
+    {
+        "question": "The so-called dark energy is a model to explain ...",
+        "answer": 2,
+        "choices": [
+            "the radiation of black holes.",
+            "the mass distribution of galaxies.",
+            "the acceleration of the universe.",
+            "the microwave background of the universe."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key characteristics of the dark energy concept, such as its role in accelerating the expansion of the universe, and how it challenges our understanding of gravity and the fundamental laws of physics.",
+        "instruction 2": "Consider the scientific evidence and observations that support the existence of dark energy, including the observations of distant supernovae and the cosmic microwave background radiation, and how these findings have led to the development of this theoretical concept."
+    },
+    {
+        "question": "How do scientists know that the majority of meteorites come from the asteroid belt?",
+        "answer": 1,
+        "choices": [
+            "Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped in asteroids.",
+            "The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt.",
+            "Collisions are common in the asteroid belt and we can track the fragments from their source asteroid to the Earth where they become meteorites.",
+            "The asteroid belt is the only possible source of meteorites therefore they must originate there."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key characteristics that scientists use to classify meteorites, such as their composition, structure, and isotopic signatures, to determine their origin.",
+        "instruction 2": "Consider how the asteroid belt's composition and dynamics, including its distance from the Sun and the presence of other celestial bodies, influence the formation and evolution of meteorites, allowing scientists to link meteorite composition to their likely origin in the asteroid belt."
+    },
+    {
+        "question": "Jupiter and the other jovian planets are sometimes called \"gas giants.\" In what sense is this term misleading?",
+        "answer": 1,
+        "choices": [
+            "The materials they are made of are not normally gaseous in everyday experience.",
+            "They actually contain a significant fraction of non-gaseous matter.",
+            "The materials that make up these planets are primarily in the form of a plasma not a gas.",
+            "Actually it's a great description because these worlds are big and gaseous throughout."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Examine the composition of Jupiter and other jovian planets, focusing on their gas composition, to understand the basis for the 'gas giant' label.",
+        "instruction 2": "Consider how the term 'gas giant' might be misleading, such as by implying a lack of solid or rocky components, and evaluate the accuracy of this label in the context of planetary science."
+    },
+    {
+        "question": "Which of the following is not one of nor follows directly from Kepler's laws?",
+        "answer": 2,
+        "choices": [
+            "As a planet moves around its orbit it sweeps out equal areas in equal times.",
+            "The orbit of each planet about the Sun is an ellipse with the Sun at one focus.",
+            "The force of attraction between any two objects decreases with the square of the distance between their centers.",
+            "A planet travels faster when it is nearer to the Sun and slower when it is farther from the Sun."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Review Kepler's three laws of planetary motion, including the laws of elliptical orbits, equal areas, and harmonic periods, to identify the key principles and relationships described by each law.",
+        "instruction 2": "Evaluate the given options to determine which one does not follow directly from Kepler's laws, considering how each option relates to the principles and relationships outlined in the laws."
+    },
+    {
+        "question": "The name of the black hole in the center of our Milky Way is ...",
+        "answer": 3,
+        "choices": [
+            "Altair A*",
+            "Alsephina A*",
+            "Fomalhaut A*",
+            "Sagittarius A*"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the current understanding of the central supermassive black hole in the Milky Way galaxy, including its mass and properties.",
+        "instruction 2": "Consider the most recent and credible scientific findings and discoveries regarding this black hole, such as its name, which may have been officially designated by astronomers or researchers."
+    },
+    {
+        "question": "Why is Saturn almost as big as Jupiter despite its smaller mass?",
+        "answer": 0,
+        "choices": [
+            "Jupiter's greater mass compresses it more thus increasing its density.",
+            "Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.",
+            "Jupiter's strong magnetic field constrains its size.",
+            "Saturn is further from the Sun thus cooler and therefore less compact."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key factors that contribute to the size of a planet, such as its mass, composition, and internal structure, and how these factors can affect its overall size.",
+        "instruction 2": "Consider the unique characteristics of Saturn and Jupiter, including their atmospheric composition, density, and internal heat, to explain why Saturn appears to be almost as large as Jupiter despite its smaller mass."
+    },
+    {
+        "question": "Which of these has NOT been one of the main hypotheses considered for the origin of the Moon?",
+        "answer": 0,
+        "choices": [
+            "The Moon split from the Earth due to tidal forces.",
+            "The Moon was captured into Earth orbit.",
+            "The Earth and Moon co-accreted in the solar nebula.",
+            "Earth was rotating so rapidly that the Moon split from it."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the main hypotheses that have been proposed for the origin of the Moon, including the giant impact hypothesis, the capture hypothesis, and the condensation hypothesis.",
+        "instruction 2": "Evaluate the evidence supporting and contradicting each hypothesis, focusing on the lack of supporting evidence for the alternative hypothesis that is not typically considered."
+    },
+    {
+        "question": "We were first able to accurately measure the diameter of Pluto from:",
+        "answer": 2,
+        "choices": [
+            "a New Horizons flyby in the 1990s",
+            "Hubble Space Telescope images that resolved Pluto's disk",
+            "brightness measurements made during mutual eclipses of Pluto and Charon",
+            "radar observations made by the Arecibo telescope"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the historical context and technological advancements that led to the accurate measurement of Pluto's diameter, such as the development of more precise telescopes or the launch of space probes.",
+        "instruction 2": "Consider the specific event, mission, or discovery that enabled the accurate measurement of Pluto's diameter, and the scientists or teams involved in making this measurement possible."
+    },
+    {
+        "question": "According to the Solar Nebular theory what are asteroids and comets?",
+        "answer": 3,
+        "choices": [
+            "They are the shattered remains of collisions between planets.",
+            "They are chunks of rock or ice that condensed long after the planets and moons had formed.",
+            "They are chunks of rock or ice that were expelled from planets by volcanoes.",
+            "They are leftover planetesimals that never accreted into planets."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the Solar Nebular theory, which proposes that the solar system formed from a disk of gas and dust surrounding the young Sun.",
+        "instruction 2": "Consider how asteroids and comets fit into this theory, examining their composition, origin, and potential connections to the early solar system, including their role in the formation of planets and other celestial bodies."
+    },
+    {
+        "question": "How do we know how old the Earth is?",
+        "answer": 3,
+        "choices": [
+            "From the layering of materials within the Earth.",
+            "From fossils of ancient life.",
+            "From the cratering history of Earth’s surface.",
+            "From radioactive dating of rocks and meteorites."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary methods used to estimate the age of the Earth, such as radiometric dating and geological observations, and explain the underlying principles and assumptions behind each technique.",
+        "instruction 2": "Consider the consistency and accuracy of these methods, as well as any potential sources of error or controversy, to evaluate the confidence in the estimated age of the Earth."
+    },
+    {
+        "question": "Life on Earth originated from",
+        "answer": 0,
+        "choices": [
+            "We don't know for sure.",
+            "aliens (panspermia).",
+            "comets.",
+            "the Earth's oceans."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the scientific consensus on the origin of life on Earth, focusing on the prevailing theories and evidence supporting the concept of abiogenesis, such as the primordial soup hypothesis and the Miller-Urey experiment.",
+        "instruction 2": "Evaluate the supporting evidence and mechanisms that contribute to the emergence of life, including the role of energy sources, chemical reactions, and the presence of biomolecules, to provide a comprehensive understanding of the origin of life on Earth."
+    },
+    {
+        "question": "By locating the north celestial pole (NCP) in the sky how can you determine your latitude?",
+        "answer": 2,
+        "choices": [
+            "The azimuth of the NCP is the angular distance from the North Pole.",
+            "The azimuth of the NCP is the same as your latitude.",
+            "The altitude of the NCP is the same as your latitude.",
+            "The altitude of the NCP is your angular distance from the North Pole."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the relationship between the position of the NCP and an observer's latitude, and how this can be used to determine the observer's location on the Earth's surface.",
+        "instruction 2": "Consider how the altitude of the NCP above the horizon, as well as the observer's line of sight, can be used to calculate the latitude, taking into account the Earth's curvature and the observer's location."
+    },
+    {
+        "question": "How does the greenhouse effect work?",
+        "answer": 1,
+        "choices": [
+            "Ozone transmits visible light allowing it to heat the surface but then absorbs most of the infrared heat trapping the heat near the surface.",
+            "Greenhouse gases transmit visible light allowing it to heat the surface but then absorb infrared light from Earth trapping the heat near the surface.",
+            "Greenhouse gases absorb infrared light from the Sun which then heats the atmosphere and the surface.",
+            "Greenhouse gases absorb X-rays and ultraviolet light from the Sun which then heat the atmosphere and the surface."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Explain the basic concept of the greenhouse effect, focusing on the role of greenhouse gases, such as carbon dioxide and water vapor, in trapping heat and maintaining Earth's temperature.",
+        "instruction 2": "Discuss the natural and anthropogenic factors that contribute to the enhancement of the greenhouse effect, including human activities such as burning fossil fuels and deforestation, and their impact on global climate change."
+    },
+    {
+        "question": "Why is Saturn almost as big as Jupiter despite its smaller mass?",
+        "answer": 0,
+        "choices": [
+            "Jupiter's greater mass compresses it more thus increasing its density.",
+            "Saturn has a larger proportion of hydrogen and helium than Jupiter and is therefore less dense.",
+            "Saturn is further from the Sun thus cooler and therefore less compact.",
+            "Saturn's rings make the planet look bigger."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Explain the concept of size and mass, highlighting how they are related but distinct physical properties of celestial bodies.",
+        "instruction 2": "Consider the differences in composition and density between Saturn and Jupiter, as well as their respective sizes and masses, to determine how these factors contribute to the observed disparity in size despite similar mass."
+    },
+    {
+        "question": "Calculate the ratio of the solar radiation flux on Mercury's surface for perihelion (0.304 AU) versus aphelion (0.456 AU).",
+        "answer": 3,
+        "choices": [
+            "4:1",
+            "1:2",
+            "6:5",
+            "9:4"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the average distance of Mercury from the sun, including its perihelion and aphelion distances, and identify the relevant solar radiation flux equations.",
+        "instruction 2": "Apply the solar radiation flux equations to calculate the flux at perihelion and aphelion, then compare the two values to determine the ratio of solar radiation flux on Mercury's surface at these two points."
+    },
+    {
+        "question": "The terrestrial planet cores contain mostly metal because",
+        "answer": 3,
+        "choices": [
+            "the entire planets are made mostly of metal.",
+            "radioactivity created metals in the core from the decay of uranium.",
+            "metals condensed first in the solar nebula and the rocks then accreted around them.",
+            "metals differentiated to the center during a time when the interiors were molten throughout."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the main components of the Earth's core, such as iron and nickel, and understand how they are formed through geological processes.",
+        "instruction 2": "Consider the conditions and processes that occur in the Earth's mantle and core, such as high temperatures and pressures, that lead to the segregation of metal-rich and silicate-rich materials, resulting in the formation of the core."
+    },
+    {
+        "question": "Which of the following countries has sent landers to Venus?",
+        "answer": 0,
+        "choices": [
+            "The U.S.S.R.",
+            "The U.S.",
+            "France",
+            "A and B"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the countries that have successfully sent landers to Venus, focusing on the specific missions and dates of their launches.",
+        "instruction 2": "Verify the accuracy of the information gathered by cross-checking with reputable sources, such as NASA or other space agencies, to ensure the correct answer."
+    },
+    {
+        "question": "Which of the following is/are NOT caused by orbital resonance?",
+        "answer": 3,
+        "choices": [
+            "2:3 periodic ratio of Neptune:Pluto",
+            "Kirkwood Gaps.",
+            "Gaps in Saturn's rings.",
+            "Breaking of small Jovian moons to form ring materials."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the types of celestial events or phenomena that are commonly attributed to orbital resonance, such as the Jupiter-Saturn conjunction or the 3:2 resonance between Mars and Jupiter.",
+        "instruction 2": "Research specific examples of celestial events or phenomena that are NOT caused by orbital resonance, and consider how other factors, such as gravity or the effects of nearby celestial bodies, might contribute to their occurrence.\" }\n\nPlease provide the reasoning steps and implicit conditions for the original question. The response should be in plain text JSON format. \n\nQuestion: What is the sum of the interior angles of a convex polygon with n sides?\n\nPlease provide the instructions in the format: {\n  \"instruction 1\": \"Instruction 1"
+    },
+    {
+        "question": "Why is it thought that the climate on Mars changed when the planet lost its strong magnetic field?",
+        "answer": 2,
+        "choices": [
+            "without a strong magnetic field the ozone layer was destroyed by the solar wind which stopped the greenhouse effect and cooled Mars down.",
+            "without a strong magnetic field which enhances the greenhouse effect Mars cooled down.",
+            "without a strong magnetic field the solar wind stripped away most of the atmosphere significantly reducing the greenhouse effect and cooling Mars down",
+            "without a strong magnetic field the planet recieves fewer charged particles from the solar wind and therefore is not heated as much"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary factor that led to the loss of Mars' strong magnetic field, which is believed to have occurred around 3.7 billion years ago.",
+        "instruction 2": "Consider the effects of this loss on the Martian environment, including the increased exposure to solar radiation, radiation-induced damage to the atmosphere, and potential changes in the planet's temperature and atmospheric composition."
+    },
+    {
+        "question": "Which of the following moons is NOT one of the Galilean moons?",
+        "answer": 3,
+        "choices": [
+            "Ganymede",
+            "Callisto",
+            "Europa",
+            "Dione"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the four Galilean moons, which are Io, Europa, Ganymede, and Callisto, and differentiate them from other moons of Jupiter or other celestial bodies.",
+        "instruction 2": "Evaluate the options provided in the question, confirming which of them does not belong to the identified group of Galilean moons, ensuring accuracy by cross-referencing with reliable astronomical sources."
+    },
+    {
+        "question": "Planet X orbits its sun once every 100 Earth days and rotates in the prograde direction around its axis with a sidereal day of 100 Earth days. How long is a solar day on Planet X?",
+        "answer": 3,
+        "choices": [
+            "About 10 earth days",
+            "About 100 earth days",
+            "About 200 earth days",
+            "There is no solar day Planet X is tidally locked"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Determine the sidereal day of Planet X, which is the time it takes the planet to rotate once on its axis.",
+        "instruction 2": "Consider that a solar day on Planet X is the time it takes the planet to rotate once on its axis relative to the sun, which is the same as its orbital period (100 Earth days)."
+    },
+    {
+        "question": "When traveling north from the United States into Canada you’ll see the North Star (Polaris) getting _________.",
+        "answer": 2,
+        "choices": [
+            "Brighter",
+            "Dimmer",
+            "Higher in the sky",
+            "Lower in the sky"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the correct celestial body that the question is referring to, being Polaris, also known as the North Star, which is located near the North Celestial Pole.",
+        "instruction 2": "Consider the effect of changing latitude on the apparent position of Polaris, as one travels north from the United States into Canada, and how this relates to its constant altitude in the northern sky."
+    },
+    {
+        "question": "When will the next major impact occur on Earth?",
+        "answer": 3,
+        "choices": [
+            "Hundreds of millennia in the future.",
+            "Major impacts can no longer occur since the period of heavy bombardment is over.",
+            "Hundreds of millennia after the last major impact.",
+            "Could be any time. The probability of impact is the same next year as it is for any later year."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify potential natural hazards and human-induced factors that could lead to significant impacts on the Earth, such as asteroid impacts, supervolcanic eruptions, or climate change.",
+        "instruction 2": "Consider the likelihood and potential consequences of these events, as well as any ongoing research or monitoring efforts to better understand and prepare for these potential impacts."
+    },
+    {
+        "question": "What about asteroids makes them stand out in sky surveys searching for them?",
+        "answer": 3,
+        "choices": [
+            "Asteroids emit pulsed radiation",
+            "Asteroids emit a lot of their own radiation",
+            "They reflect enough of the sun's light to make them brighter than most background stars",
+            "Asteroids have substantial motion relative to the background stars"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the distinctive physical and observational properties of asteroids that make them recognizable in sky surveys, such as their brightness, motion patterns, and size relative to other celestial bodies.",
+        "instruction 2": "Consider the technological methods and techniques used in sky surveys, including imaging and tracking systems that enhance the detection of asteroids, and how these methods differentiate asteroids from other objects observed in the sky."
+    },
+    {
+        "question": "Why did the solar nebula heat up as it collapsed?",
+        "answer": 3,
+        "choices": [
+            "Collisions among planetesimals generated friction and heat.",
+            "Radiation from other nearby stars that had formed earlier heated the nebula.",
+            "The shock wave from a nearby supernova heated the gas.",
+            "As the cloud shrank its gravitational potential energy was converted to kinetic energy and then into thermal energy."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary mechanism by which the solar nebula, a cloud of gas and dust, collapsed under its own gravity, and how this collapse led to an increase in temperature.",
+        "instruction 2": "Consider the role of radiative heating, convection, and other processes that contributed to the heating of the solar nebula as it collapsed, and how these factors interacted to produce the observed temperature increase."
+    },
+    {
+        "question": "You observe the visible spectrum of a star viewed through a cloud of cool hydrogen gas.",
+        "answer": 1,
+        "choices": [
+            "You see only the star’s blackbody spectrum.",
+            "You see the star’s blackbody spectrum with absorption lines due to hydrogen.",
+            "You see only emission lines characteristic of hydrogen.",
+            "You see only emission lines characteristic of the star’s composition."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the effects of the cool hydrogen gas on the visible spectrum of the star, such as absorption or scattering of specific wavelengths of light, and how these effects can be used to infer the properties of the gas.",
+        "instruction 2": "Consider how the observed spectrum can be used to determine the chemical composition and physical conditions of the gas, as well as any implications for our understanding of the star's properties and the surrounding environment."
+    },
+    {
+        "question": "Which of the following most likely explains why Venus does not have a strong magnetic field?",
+        "answer": 0,
+        "choices": [
+            "Its rotation is too slow.",
+            "It has too thick an atmosphere.",
+            "It is too large.",
+            "It does not have a metallic core."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the internal structure and composition of Venus, focusing on its core, mantle, and crust, to identify any differences that might affect the generation of a strong magnetic field.",
+        "instruction 2": "Consider the role of convection in the Earth's core, which drives the geodynamo and generates the magnetic field, and how the unique conditions on Venus might prevent a similar process from occurring."
+    },
+    {
+        "question": "Which of the following characteristics would not necessarily suggest that a rock we found is a meteorite.",
+        "answer": 2,
+        "choices": [
+            "It has a fusion crust",
+            "It contains solidified spherical droplets",
+            "It is highly processed",
+            "It has different elemental composition than earth"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify common characteristics of meteorites, such as their origin from space, unique composition, and often irregular shape, to determine which of the given options is not a reliable indicator.",
+        "instruction 2": "Consider alternative explanations for the characteristic that does not necessarily suggest a meteorite origin, such as human activity or natural geological processes, to rule out false positives."
+    },
+    {
+        "question": "Which is not a similarity between Saturn and Jupiter's atmospheres?",
+        "answer": 2,
+        "choices": [
+            "a composition dominated by hydrogen and helium",
+            "the presence of belts zones and storms",
+            "an equatorial wind speed of more than 900 miles per hour",
+            "significant \"shear\" between bands of circulation at different latitudes"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key characteristics of Saturn's and Jupiter's atmospheres, such as composition, temperature, and cloud formations, to establish a basis for comparison.",
+        "instruction 2": "Determine which atmospheric feature is unique to one of the planets, such as Jupiter's Great Red Spot or Saturn's hexagonal storm pattern, to identify the characteristic that is not shared between the two planets."
+    },
+    {
+        "question": "Jupiter's orbital distance is roughly 5 AU. How many times brighter would the Sun have to be for Europa to receive the same solar flux that we currently receive on Earth (1380W/m2)?",
+        "answer": 1,
+        "choices": [
+            "100 times brighter",
+            "25 times brighter",
+            "2 times brighter",
+            "50 times brighter"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Determine the current solar flux received by Europa, taking into account its distance from the Sun and the Sun's luminosity, using the formula (L \\* (1 - A)) / (4 \\* π \\* r^2), where L is the Sun's luminosity, A is the albedo of Europa, and r is its distance from the Sun.",
+        "instruction 2": "Calculate the difference in solar flux between the current flux on Earth and the flux on Europa, and then determine the factor by which the Sun's luminosity would need to increase to bring the solar flux on Europa to the same level as on Earth, ensuring to consider the inverse square law and any relevant planetary characteristics."
+    },
+    {
+        "question": "The Pleiades is an open star cluster that plays a role in many ancient stories and is well-known for containing ... bright stars.",
+        "answer": 1,
+        "choices": [
+            "5",
+            "7",
+            "9",
+            "12"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the Pleiades, focusing on its characteristics as an open star cluster, including its size, age, and composition, to identify the specific feature that makes it notable.",
+        "instruction 2": "Consider how the cultural significance of the Pleiades in ancient stories and myths relates to its astronomical properties, highlighting the connection between its brightness and its importance in these narratives."
+    },
+    {
+        "question": "The nebular theory of the formation of the solar system successfully predicts all but one of the following. Which one does the theory not predict?",
+        "answer": 1,
+        "choices": [
+            "Planets orbit around the Sun in nearly circular orbits in a flattened disk.",
+            "the equal number of terrestrial and jovian planets",
+            "the craters on the Moon",
+            "asteroids Kuiper-belt comets and the Oort cloud"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key components of the nebular theory, such as the formation of the Sun and the subsequent condensation of the solar nebula into the planets and other celestial bodies.",
+        "instruction 2": "Research the specific predictions made by the nebular theory, comparing them to the actual observed characteristics of the solar system, and identify the one aspect that the theory does not accurately predict."
+    },
+    {
+        "question": "A sand bag has a mass of 5kg and weight 50N on Earth. What is the mass and weight of this sand bag on a planet with half the gravity compared to Earth?",
+        "answer": 2,
+        "choices": [
+            "Mass 5kg weight 100N",
+            "Mass 5kg weight 50N",
+            "Mass 5kg weight 25N",
+            "Mass 10kg weight 100N"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Recognize that mass remains constant, regardless of the gravitational environment, and that the weight of an object is dependent on the gravitational force acting upon it.",
+        "instruction 2": "Calculate the weight of the sand bag on the planet with half the gravity by applying the concept of weight as the product of mass and gravitational acceleration, and then compare this to the original weight on Earth."
+    },
+    {
+        "question": "Where is the crater from the impact that is believed to be responsible for the mass extinction of dinosaurs 65 million years ago?",
+        "answer": 1,
+        "choices": [
+            "Tunguska Siberia.",
+            "Chicxulub Crater Yucatan Peninsula in Mexico.",
+            "Quebec Canada.",
+            "Meteor Crater in Arizona."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the location of the Chicxulub crater, which is widely accepted as the impact site responsible for the mass extinction event that led to the demise of the dinosaurs.",
+        "instruction 2": "Consider the geological and paleontological evidence supporting the link between the Chicxulub crater and the mass extinction event, such as the presence of shocked quartz and the layer of iridium-rich sediment at the K-Pg boundary."
+    },
+    {
+        "question": "In addition to the conditions required for any solar eclipse what must also be true in order for you to observe a total solar eclipse?",
+        "answer": 3,
+        "choices": [
+            "The Earth must lie completely within the Moon's penumbra.",
+            "The Moon's penumbra must touch the area where you are located.",
+            "The Earth must be near aphelion in its orbit of the Sun.",
+            "The Moon's umbra must touch the area where you are located."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the general conditions necessary for a solar eclipse to occur, including the alignment of the Earth, Moon, and Sun.",
+        "instruction 2": "Determine the specific condition required for a total solar eclipse, such as the Moon's shadow falling on a specific location on Earth, and how this condition can be met."
+    },
+    {
+        "question": "What effect or effects would be most significant if the Moon's orbital plane were exactly the same as the ecliptic plane?",
+        "answer": 2,
+        "choices": [
+            "Solar eclipses would be much rarer.",
+            "Solar eclipses would last much longer.",
+            "Solar eclipses would be much more frequent.",
+            "Solar eclipses would not last as long."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the current tilt between the Moon's orbital plane and the ecliptic plane, as well as the consequences of this tilt, such as the varying apparent sizes of the Moon and its effects on the tides.",
+        "instruction 2": "Consider the potential implications of the Moon's orbital plane aligning with the ecliptic plane, including the effects on lunar eclipses, the stability of the Earth-Moon system, and any potential changes to the tides or Earth's rotation.\" }\n\nPlease provide your response in the same format as the examples provided. Please note that the response must include two new instructions. \n\nQuestion: What is the number of ways to choose 3 people from a group of 8 people, given that the order of selection does not matter and two specific individuals are not allowed to be chosen?\nReasoning steps: _______\n\nYour response should be in the format: {\n  \"instruction 1\": \"_____________"
+    },
+    {
+        "question": "What type of radiation causes a black hole to evaporate over time?",
+        "answer": 3,
+        "choices": [
+            "Schwarzschild radiation",
+            "Planck radiation",
+            "Kolmogorov radiation",
+            "Hawking radiation"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the fundamental concept of Hawking radiation, which is the theoretical prediction that black holes emit radiation due to quantum effects near the event horizon.",
+        "instruction 2": "Consider how Hawking radiation is thought to arise from the virtual particles that constantly appear and disappear in the vicinity of the event horizon, with one particle being 'trapped' by the black hole's gravity, while the other escapes as radiation."
+    },
+    {
+        "question": "Approximately how far away is the Andromeda Galaxy?",
+        "answer": 2,
+        "choices": [
+            "1.7 million light years",
+            "2.1 million light years",
+            "2.5 million light years",
+            "3.2 million light years"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the current understanding of the distance between the Milky Way galaxy and the Andromeda Galaxy, taking into account the most recent scientific data and observations.",
+        "instruction 2": "Consider the implications of the galaxy's velocity and the potential effects of gravitational forces on the distance between the two galaxies, ensuring to reference credible sources and estimates."
+    },
+    {
+        "question": "Which living organisms most resemble the common ancestor of all life according to genetic testing?",
+        "answer": 2,
+        "choices": [
+            "viruses",
+            "bacteria such as E. coli",
+            "organisms living deep in the oceans around seafloor volcanic vents and in hot springs",
+            "plankton that use sunlight as an energy source through photosynthesis"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the organisms that are most closely related to the common ancestor of all life, as inferred from genetic analysis, and explore their characteristics that may be indicative of this ancestral relationship.",
+        "instruction 2": "Examine the genetic similarities and differences between these organisms and other living organisms, and discuss the implications of this information for understanding the evolution of life on Earth."
+    },
+    {
+        "question": "How did Eratosthenes estimate the size of the Earth in 240 B.C.?",
+        "answer": 0,
+        "choices": [
+            "By measuring the maximum altitude of the Sun in two cities at different latitudes at the same time on the same day.",
+            "By measuring the size of Earth's shadow on the Moon during a lunar eclipse.",
+            "By finding a place on Earth where the Sun passes directly overhead.",
+            "By sending fleets of ships around the Earth."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the method used by Eratosthenes to estimate the size of the Earth, which involves using the angles of shadows cast by the Sun at different latitudes during the summer solstice.",
+        "instruction 2": "Consider the mathematical calculations and assumptions made by Eratosthenes to arrive at his estimate, including the use of trigonometry and the measurement of the circumference of the Earth."
+    },
+    {
+        "question": "Our current best observations show that Pluto has",
+        "answer": 0,
+        "choices": [
+            "one medium sized satellite and two small satellites.",
+            "no satellites.",
+            "one large satellite and three small satellites.",
+            "one large satellite."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the current understanding of Pluto's characteristics, such as its size, composition, and orbital patterns, based on available data and observations.",
+        "instruction 2": "Consider the implications of these observations on our understanding of the Kuiper Belt and the classification of Pluto as a dwarf planet, evaluating any potential updates or revisions to our current understanding of this celestial body."
+    },
+    {
+        "question": "Pluto's extremely cold (~40 K) surface is composed of:",
+        "answer": 1,
+        "choices": [
+            "mainly water ice which always remains frozen",
+            "nitrogen methane and carbon monoxide ices which sublimate into an atmosphere near perihelion",
+            "nitrogen methane and carbon monoxide ices which always remain frozen",
+            "roughly half ices and half rocky materials"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the composition of Pluto's surface, focusing on the temperatures and materials that make up its surface, such as ices and other frozen compounds.",
+        "instruction 2": "Consider how Pluto's distance from the Sun, its small size, and other astronomical factors contribute to its extremely cold surface temperature and the resulting composition of its surface."
+    },
+    {
+        "question": "A Mars year is approximately how many Earth years long?",
+        "answer": 2,
+        "choices": [
+            "1/2",
+            "1",
+            "2",
+            "4"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the orbital period of Mars, which is the time it takes for the planet to complete one orbit around the Sun.",
+        "instruction 2": "Convert the orbital period of Mars from Martian days (sols) to Earth years, taking into account the difference in the length of a Martian day compared to an Earth day."
+    },
+    {
+        "question": "What is the correct numerical value and unit of the Boltzmann constant?",
+        "answer": 2,
+        "choices": [
+            "1.38 × 10−21 m^3 · kg · s^−2 · K^−1",
+            "1.38 × 10−22 m^2 · kg · s^−3 · K^−1",
+            "1.38 × 10−23 m^2 · kg · s^−2 · K^−1",
+            "1.38 × 10−24 m^2 · kg · s^−2 · K^−2"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Determine the accepted numerical value of the Boltzmann constant, which is a fundamental physical constant related to the relationship between temperature and energy.",
+        "instruction 2": "Verify the unit of measurement for the Boltzmann constant, which is typically expressed in units of energy per unit temperature, such as joules per kelvin (J/K)."
+    },
+    {
+        "question": "Which statement about an atom is not true:",
+        "answer": 2,
+        "choices": [
+            "The nucleus contains most of the atom’s mass but almost none of its volume.",
+            "A neutral atom always has equal numbers of electrons and protons.",
+            "A neutral atom always has equal numbers of neutrons and protons.",
+            "The electrons can only orbit at particular energy levels."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key components of an atom, including protons, neutrons, and electrons, and their respective roles in determining the atom's properties and behavior.",
+        "instruction 2": "Consider the statements provided and evaluate which one does not accurately describe the properties or behavior of an atom, using your understanding of atomic structure and principles to justify your answer."
+    },
+    {
+        "question": "Earth has been gradually warming over the past few decades. Based on a great deal of evidence scientists conclude that this warming is caused by ________.",
+        "answer": 0,
+        "choices": [
+            "human activities that are increasing the concentration of greenhouse gases in Earth's atmosphere",
+            "the fact that our politicians spout a lot of hot air",
+            "the human release of chemicals called CFCs into the stratosphere",
+            "the increase in forest fires during recent years"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary cause of global warming, which is widely attributed to human activities, specifically the emission of greenhouse gases such as carbon dioxide and methane through burning fossil fuels, deforestation, and other human practices.",
+        "instruction 2": "Consider the various lines of evidence, including temperature records, melting glaciers, and changes in species distribution, that support the conclusion that human activities are the primary driver of global warming."
+    },
+    {
+        "question": "How do scientists know that the majority of meteorites come from the asteroid belt?",
+        "answer": 0,
+        "choices": [
+            "The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt.",
+            "The asteroid belt is the only possible source of meteorites therefore they must originate there.",
+            "Collisions are common in the asteroid belt and we can track the fragments from their source asteroid to the Earth where they become meteorites.",
+            "High levels of Iridum have been detected in both asteroids and meteorites therefore meteorites come from the asteroid belt."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary methods used by scientists to determine the origin of meteorites, such as petrography, geochemistry, and isotopic analysis.",
+        "instruction 2": "Consider the key findings and patterns in the data obtained from these methods, specifically those related to the composition and structure of meteorites, which support the conclusion that the majority of meteorites originate from the asteroid belt."
+    },
+    {
+        "question": "Which factor s most important in determining the history of volanism and tectonism on a planet?",
+        "answer": 0,
+        "choices": [
+            "size of the planet",
+            "presence of an atmosphere",
+            "distance from the sun",
+            "rotation period"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary driving forces behind volcanic and tectonic activity, such as plate tectonics, mantle dynamics, and planetary differentiation.",
+        "instruction 2": "Consider the role of planetary evolution, including the formation of the planet, its initial composition, and subsequent changes, in shaping the history of volcanism and tectonism."
+    },
+    {
+        "question": "The astronomical unit parsec (pc) plays a crucial role in astronomy. One parsec is equal to about 3.26 light-years. How is one parsec defined in astronomy?",
+        "answer": 0,
+        "choices": [
+            "Distance at which one astronomical unit measures one arcsecond from Earth.",
+            "Orbital distance of the solar system around the center of the Milky Way in one year.",
+            "Effective distance of the solar wind (i.e. the radius of the heliosphere).",
+            "Historical distance to the brightest star Sirius."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Define the term 'parallax' in the context of astronomy and its relation to measuring distances within the universe.",
+        "instruction 2": "Explain how the parallax method is used to determine the distance to nearby stars, and how this distance is then converted to parsecs, highlighting the significance of this unit in astronomy."
+    },
+    {
+        "question": "The term Schwarzschild radius usually describes properties of ...",
+        "answer": 2,
+        "choices": [
+            "red dwarfs.",
+            "pulsars.",
+            "black holes.",
+            "galaxies."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the concept of the Schwarzschild radius in the context of general relativity, focusing on its relationship to the event horizon of a black hole and its connection to the mass of the object.",
+        "instruction 2": "Consider how the Schwarzschild radius is used to describe the boundary beyond which nothing, including light, can escape the gravitational pull of the black hole, and how this concept is relevant to our understanding of black hole physics and astrophysics."
+    },
+    {
+        "question": "As the life of a star progresses heavy elements are produced. The elements form layers around the star in this order (starting from the outer layer):",
+        "answer": 1,
+        "choices": [
+            "H → He → Li → N → O → Si → Fe",
+            "H → He → C → O → Ne → Si → Fe",
+            "H → He → Li → O → Ne → Si → Fe",
+            "H → He → C → N → O → Si → Fe"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key stages in the life cycle of a star, focusing on the processes that create heavy elements and the resulting layers formed around the star.",
+        "instruction 2": "Consider how the structure and composition of the star, including its mass and temperature, influence the formation of these layers and the distribution of heavy elements within them."
+    },
+    {
+        "question": "If you lived on Venus what phases of the Earth would you see? (Assume your telescope can see through Venus’s thick clouds…)",
+        "answer": 2,
+        "choices": [
+            "New first quarter full third quarter",
+            "Waning crescent New Waxing crescent",
+            "Waxing gibbous Full Waning gibbous",
+            "New only"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Understand the relative positions of Venus and Earth in the solar system, including their orbital periods and distances from each other.",
+        "instruction 2": "Consider the phases of the Earth that would be visible from Venus, taking into account the planet's rotation, its distance from Earth, and the thick clouds that obscure the view."
+    },
+    {
+        "question": "Moons cause/contribute to which of the following?",
+        "answer": 3,
+        "choices": [
+            "stability of particles within rings.",
+            "gravitational effects at ring edges as the moons pass by.",
+            "gaps between rings.",
+            "Moons contribute to all of the above."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the specific effects or phenomena that moons are known to influence or contribute to, such as tides, planetary stability, or geological activity.",
+        "instruction 2": "Consider how the gravitational influence of a moon can impact its parent planet, including any resulting effects on the planet's rotation, orbit, or internal dynamics."
+    },
+    {
+        "question": "Mars has an atmospheric pressure of 600 pascals. If the acceleration due to gravity on Mars is (roughly) 4 m/s2 and the surface area of Mars is about 145000000 square km what is the approximate mass of the martian atmosphere?",
+        "answer": 3,
+        "choices": [
+            "2.2x1011 kg",
+            "2.2x1014kg",
+            "2.2x1020kg",
+            "2.2x1016 kg"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key variables involved in the problem, including atmospheric pressure, acceleration due to gravity, and surface area, and recognize that the mass of the atmosphere is related to these variables.",
+        "instruction 2": "Set up an equation using the given information, taking into account the relationship between pressure, gravity, and surface area, and then solve for the mass of the Martian atmosphere."
+    },
+    {
+        "question": "Why is the Mars Exploration Rover Spirit currently tilted towards the north?",
+        "answer": 1,
+        "choices": [
+            "Because it’s climbing up a big hill.",
+            "Because it’s in the southern hemisphere where it is winter now.",
+            "Because it’s in the northern hemisphere where it is winter now.",
+            "Because one of its wheels broke."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the mission objectives and landing site of the Mars Exploration Rover Spirit to understand its initial orientation and purpose.",
+        "instruction 2": "Consider the geological and environmental factors that may have caused the rover to tilt towards the north, such as changes in terrain, soil, or atmospheric conditions, and evaluate the implications of this tilt on its mission and data collection."
+    },
+    {
+        "question": "Mars has an atmosphere that is almost entirely carbon dioxide.Why isn't there a strong greenhouse effect keeping the planet warm?",
+        "answer": 0,
+        "choices": [
+            "the atmosphere on Mars is too thin to trap a significant amount of heat",
+            "There actually is a strong greenhouse effect and Mars would be 35oC colder than it is now without it.",
+            "Mars does not have enough internal heat to drive the greenhouse effect",
+            "the greenhouse effect requires an ozone layer which Mars does not have"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key components of the greenhouse effect, including the presence of greenhouse gases and their role in trapping heat in the atmosphere.",
+        "instruction 2": "Consider how the atmospheric composition on Mars, particularly the high levels of carbon dioxide, interact with the planet's thin atmosphere and surface temperature to mitigate the greenhouse effect, potentially involving factors such as atmospheric pressure, surface roughness, and dust particles."
+    },
+    {
+        "question": "Which of the following was not cited as evidence for life in the martian meteorite ALH84001?",
+        "answer": 3,
+        "choices": [
+            "Complex organic molecules specifically PAHs",
+            "Magnetite grains similar to those formed by bacteria on Earth",
+            "Carbonate minerals indicating a thicker warmer Martian atmosphere",
+            "Amino acids with a preferred orientation or \"chirality\""
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the evidence presented for the possibility of life in the Martian meteorite ALH84001, including the features and structures that sparked debate about the presence of microorganisms.",
+        "instruction 2": "Identify any claims or findings that were not explicitly mentioned as evidence for life in the meteorite, and evaluate their relevance to the ongoing scientific discussion and debate surrounding the possibility of life on Mars."
+    },
+    {
+        "question": "Kirkwood gaps are observed in the main asteroid belt including at the position(s) where:",
+        "answer": 0,
+        "choices": [
+            "asteroids would orbit with a period half that of Jupiter",
+            "asteroids would orbit with a period twice that of Jupiter",
+            "asteroids would orbit with a period twice that of Mars",
+            "A and B"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the main asteroid belt and its boundaries, recognizing the Kirkwood gaps as regions with fewer asteroids compared to the surrounding areas.",
+        "instruction 2": "Research the orbital characteristics of the asteroids in the main asteroid belt, specifically the resonances and orbital periods, to understand how the Kirkwood gaps arise from the gravitational influence of Jupiter and other planets."
+    },
+    {
+        "question": "The belts and zones of Jupiter are",
+        "answer": 1,
+        "choices": [
+            "names for the layers of gaseous and metallic hydrogen deep within the planet.",
+            "alternating bands of rising and falling air at different latitudes.",
+            "alternating regions of charged particles in Jupiter's magnetic field.",
+            "regions of the plasma torus created by ions from Io's volcanoes"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary features of Jupiter's atmosphere, such as the cloud bands and the Great Red Spot, and consider how these features are organized into distinct zones.",
+        "instruction 2": "Research the various belts and zones of Jupiter, including their composition, temperature, and atmospheric conditions, to provide a comprehensive description of the planet's atmospheric structure."
+    },
+    {
+        "question": "The two moons of Mars are called ...",
+        "answer": 3,
+        "choices": [
+            "Tritos and Desmos",
+            "Tritos and Deimos",
+            "Phobos and Tritos",
+            "Phobos and Deimos"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the planetary features of Mars, including its natural satellites, to identify the correct names and characteristics of the two moons.",
+        "instruction 2": "Verify the information by consulting reputable sources, such as NASA or scientific publications, to ensure accuracy and up-to-date information."
+    },
+    {
+        "question": "The visible part of the electromagnetic spectrum is between ...",
+        "answer": 2,
+        "choices": [
+            "240 to 680 nm.",
+            "360 to 620 nm.",
+            "380 to 740 nm.",
+            "420 to 810 nm."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the range of frequencies that correspond to the visible part of the electromagnetic spectrum, typically between approximately 400-800 terahertz (THz) or 400-700 nanometers (nm).",
+        "instruction 2": "Consider the context and the purpose of the question, such as the relevance of the visible spectrum in everyday life, its importance in fields like astronomy, or its role in the broader electromagnetic spectrum."
+    },
+    {
+        "question": "What is true about the rotation of a solid disk?",
+        "answer": 2,
+        "choices": [
+            "The velocity is the same on every point on the disk",
+            "The part closer to the axis has a longer period",
+            "The period of rotation is the same on every point on the disk",
+            "The part closer to the axis has a shorter period"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the fundamental principles of rotational kinematics and dynamics, such as angular velocity, angular acceleration, and moment of inertia, which are relevant to the rotation of a solid disk.",
+        "instruction 2": "Consider the specific constraints and conditions that affect the rotation of a solid disk, such as the axis of rotation, the distribution of mass, and any external forces or torques that may influence its motion."
+    },
+    {
+        "question": "The constellation ... is a bright W-shaped constellation in the northern sky.",
+        "answer": 2,
+        "choices": [
+            "Centaurus",
+            "Cygnus",
+            "Cassiopeia",
+            "Cepheus"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the constellation's shape and location in the northern sky, considering the distinct features that make it recognizable, such as its W-shape.",
+        "instruction 2": "Research the mythology or cultural significance associated with the constellation, exploring how its appearance in the night sky has been interpreted and represented in various cultures and traditions."
+    },
+    {
+        "question": "The so-called “bigfoot” on Mars was actually a rock that was about 5 cm tall. It had an angular size of about 0.5 degrees (~30 pixels). How far away was this rock from the rover?",
+        "answer": 0,
+        "choices": [
+            "About 6 meters",
+            "About 6 feet",
+            "About 10 meters",
+            "About 10 feet"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Determine the angular size of the rock in radians by converting the given angular size from degrees to radians, using the conversion factor 1 degree = π/180 radians.",
+        "instruction 2": "Use the given height of the rock and the angular size in radians to calculate the distance from the rover to the rock using trigonometry, specifically the tangent function, and the given angular size as the angle.\" }\n\nOriginal question: What is the value of the integral ∫(x^2 + 2x - 3) dx from x = 0 to x = 2?\nReasoning steps: {\n  \"instruction 1\": \"Apply the fundamental theorem of calculus to rewrite the integral as the difference of two antiderivatives, evaluating the antiderivative at the upper and lower bounds of the integral."
+    },
+    {
+        "question": "Which is not an essential requirement for life as we know it?",
+        "answer": 3,
+        "choices": [
+            "The ability to breathe oxygen",
+            "The ability to make energy from sunlight or to eat things that do",
+            "A source of organic molecules",
+            "A and B"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the fundamental biological processes that are necessary for life, such as the need for water, oxygen, and nutrients, and consider the implications of their absence.",
+        "instruction 2": "Evaluate the importance of energy production and conversion in sustaining life, exploring how the absence of energy production would impact the viability of biological systems."
+    },
+    {
+        "question": "Suppose you live on the Moon. How long is a day (i.e. from sunrise to sunrise)?",
+        "answer": 2,
+        "choices": [
+            "about 18 years",
+            "24 hours",
+            "29 Earth days",
+            "a year"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the Moon's rotation period, which is the time it takes the Moon to rotate once on its axis, to determine the length of a lunar day.",
+        "instruction 2": "Consider the Moon's synchronous rotation, where its rotation period is equal to its orbital period around Earth, to calculate the duration of a lunar day, taking into account the Moon's rotation and orbit."
+    },
+    {
+        "question": "The famous Drake equation attempts to answer the following question:",
+        "answer": 3,
+        "choices": [
+            "Will the Sun become a black hole?",
+            "Is the universe infinitely large?",
+            "How old is the visible universe?",
+            "Are we alone in the universe?"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the variables and their corresponding parameters in the Drake equation, focusing on the estimated number of civilizations in the galaxy that may be able to communicate with Earth.",
+        "instruction 2": "Consider the assumptions and limitations inherent in the equation, such as the uncertainty surrounding the number of stars with planets, the probability of life emerging, and the likelihood of intelligent life developing, to better understand the equation's scope and potential applications."
+    },
+    {
+        "question": "20000 years from now ...",
+        "answer": 2,
+        "choices": [
+            "The Moon will be closer to the Earth and the Earth’s day will be longer.",
+            "The Moon will be closer to the Earth and the Earth’s day will be shorter.",
+            "The Moon will be further from the Earth and the Earth’s day will be longer.",
+            "The Moon will be further from the Earth and the Earth’s day will be shorter."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Consider the vast timescale involved and the potential for significant changes in human civilization, technology, and the environment, which may impact the relevance of the question or the feasibility of predicting a specific outcome.",
+        "instruction 2": "Explore potential scenarios or possibilities that could shape the future, such as advancements in space exploration, artificial intelligence, or sustainable energy, and evaluate their potential implications for human society and the planet."
+    },
+    {
+        "question": "What element is most common among the Jovian Planets?",
+        "answer": 0,
+        "choices": [
+            "Hydrogen",
+            "Helium",
+            "Carbon",
+            "Oxygen"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the characteristic or feature that is being asked about in the question, such as the composition or atmospheric properties of the Jovian Planets.",
+        "instruction 2": "Research the elemental composition of the Jovian Planets, focusing on the most abundant elements in their atmospheres or cores, and determine which element is most common among this group of planets."
+    },
+    {
+        "question": "Imagine that the Earth was instantly moved to an orbit three times further away from the Sun. How much longer would a year be?",
+        "answer": 1,
+        "choices": [
+            "exactly 3 times longer",
+            "about 5.2 times longer",
+            "Not enough information. It will depend on the inclination of the new orbit",
+            "The length of the year wouldn't change because the Earth's mass stays the same."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Determine the current distance between the Earth and the Sun, as well as the time it takes for the Earth to complete one orbit around the Sun (1 year).",
+        "instruction 2": "Calculate the new distance between the Earth and the Sun, given the increase in orbital radius, and then re-estimate the time it takes for the Earth to complete one orbit at this new distance, comparing the result to the original 1-year period to determine the increased duration of a year."
+    },
+    {
+        "question": "What would weigh the most on the moon?",
+        "answer": 2,
+        "choices": [
+            "A kilogram of feathers",
+            "Five pounds of bricks as measured on Earth",
+            "Five kilograms of feathers",
+            "A kilogram of bricks"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Consider the effects of reduced gravity on the moon, which would result in objects having a lower mass than on Earth due to the moon's much weaker gravitational pull.",
+        "instruction 2": "Think about the composition of the object that would weigh the most on the moon, taking into account the differences in density and mass between materials on Earth and the moon, and how these differences would affect the object's apparent weight."
+    },
+    {
+        "question": "Why can't we see the Sun's corona except during total solar eclipses?",
+        "answer": 3,
+        "choices": [
+            "The corona is made up mostly of charged particles which aren't luminous.",
+            "It's much too cool to emit visible light",
+            "We can't see magnetic fields",
+            "It's too diffuse"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary reason why the Sun's corona is invisible during normal viewing conditions, such as the intense brightness of the Sun's surface.",
+        "instruction 2": "Consider how the conditions of a total solar eclipse, specifically the alignment of the Moon and the Sun, create a unique opportunity to observe the corona, and explain why this is the only time it can be seen."
+    },
+    {
+        "question": "How do we think the \"hot Jupiters\" around other stars were formed?",
+        "answer": 1,
+        "choices": [
+            "They where formed when their stars flung material out into the system in a process similar to planetary fission.",
+            "They formed as gas giants beyond the frost line and then migrated inwards.",
+            "They formed as dense rocky planets close to the star in the same orbits that they are seen today.",
+            "They formed as gas giants close to the star in the same orbits that they are seen today."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the current understanding of planetary formation and migration, focusing on the possibility of gas giants forming close to their host stars.",
+        "instruction 2": "Consider alternative theories, such as the capture of a gas giant by the star's gravitational pull, and evaluate the evidence supporting or contradicting these ideas, taking into account the observations and data collected from exoplanetary systems."
+    },
+    {
+        "question": "The resolution of a telescope is a measure of its:",
+        "answer": 1,
+        "choices": [
+            "Ability to magnify distant objects",
+            "Ability to measure the angular separation of objects",
+            "Ability to measure the distance between objects",
+            "Light-collecting efficiency"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary factor that affects the resolution of a telescope, such as the diameter of the primary mirror or lens, and how it influences the telescope's ability to distinguish between close objects.",
+        "instruction 2": "Consider how other factors, such as atmospheric conditions, optical aberrations, and the wavelength of light, can impact the resolution of a telescope, and how these factors interact with the primary factor to determine the telescope's overall resolving power."
+    },
+    {
+        "question": "The axis of the Earth is tilted at an angle of approximately ... relative to the orbital plane around the Sun.",
+        "answer": 3,
+        "choices": [
+            "20.3 degrees",
+            "21.4 degrees",
+            "22.7 degrees",
+            "23.5 degrees"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the specific angle of tilt mentioned in the question, which is approximately 23.5 degrees.",
+        "instruction 2": "Consider the implications of this tilt on the Earth's seasons, climate, and astronomical observations, as well as any relevant comparisons to other planets or celestial bodies."
+    },
+    {
+        "question": "Why do we see essentially the same face of the Moon at all times?",
+        "answer": 3,
+        "choices": [
+            "because the Moon has a nearly circular orbit around the Earth",
+            "because the Moon does not rotate",
+            "because the other face points toward us only at new moon when we can't see the Moon",
+            "because the Moon's rotational and orbital periods are equal"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Recognize that the Moon's rotation is synchronized with its orbit around the Earth, resulting in the same side of the Moon always facing our planet.",
+        "instruction 2": "Consider the implications of this tidal locking, including the Moon's rotation slowing down due to the gravitational influence of the Earth, and how this affects the Moon's appearance from our perspective on Earth."
+    },
+    {
+        "question": "The second cosmic velocity (or escape velocity) is the speed required by an object to escape the gravitational field of a celestial body with mass M and radius R. Which formula correctly calculates this velocity? (G: gravitational constant)",
+        "answer": 2,
+        "choices": [
+            "v = sqrt(GM/R)",
+            "v = 2sqrt(GM/R)",
+            "v = sqrt(2GM/R)",
+            "v = sqrt(GM/2R)"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the relevant physical parameters that affect the escape velocity, including the mass M and radius R of the celestial body, and the gravitational constant G.",
+        "instruction 2": "Derive the formula for escape velocity using the gravitational force equation and the definition of escape velocity, ensuring to include the correct units and mathematical manipulations."
+    },
+    {
+        "question": "Why are there no impact craters on the surface of Io?",
+        "answer": 0,
+        "choices": [
+            "Io did have impact craters but they have all been buried in lava flows.",
+            "It is too small to have been hit during the Late Heavy Bombardment",
+            "Jupiter's strong gravity attracted the planetesimals more strongly than Io and thus none landed on its surface.",
+            "Any craters that existed have been eroded through the strong winds on Io's surface."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the geology of Io, focusing on its internal heat and tectonic activity, to understand how these processes may affect the surface of the moon.",
+        "instruction 2": "Consider the implications of Io's volcanic and tectonic activity on the formation of impact craters, examining how the constant resurfacing of the moon might prevent the accumulation of impact craters over time."
+    },
+    {
+        "question": "The star Betelgeuse is one of the brightest stars in the night sky with remarkable red color. In which constellation is Betelgeuse located?",
+        "answer": 3,
+        "choices": [
+            "Cassiopeia",
+            "Cygnus",
+            "Ursa Major",
+            "Orion"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the constellation that Betelgeuse is part of, using astronomical data or star charts to determine its position in the night sky.",
+        "instruction 2": "Consider the characteristics of the constellation, such as its shape or notable stars, to further describe the context in which Betelgeuse is situated."
+    },
+    {
+        "question": "What is the source of the material that causes meteor showers?",
+        "answer": 3,
+        "choices": [
+            "Asteroid impacts elsewhere in the solar system throw sand-sized particles into space and occasionally the Earth passes through a cloud of these particles which burn up in our atmosphere and cause a meteor shower.",
+            "Near-Earth asteroids gradually disintegrate and spread out along their orbital paths. When the Earth passes through the orbit of an asteroid we are bombarded by sand-sized particles that cause a meteor shower.",
+            "Near-Earth asteroids disintegrate as they enter Earth's atmosphere creating hundreds of bright meteors that appear to radiate from a single location in the sky.",
+            "The nuclei of comets gradually disintegrate and spread out along their orbital paths. When the Earth passes through the orbit of an comet we are bombarded by sand-sized particles that cause a meteor shower."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary source of the material that causes meteor showers, such as comets or asteroids, and consider the process by which this material enters Earth's atmosphere.",
+        "instruction 2": "Explain how the Earth's orbit and the trajectory of the meteoroid or comet interact, resulting in the burning up of the material and the creation of the meteor shower."
+    },
+    {
+        "question": "How does the greenhouse effect work?",
+        "answer": 2,
+        "choices": [
+            "Greenhouse gases absorb infrared light from the Sun which then heats the atmosphere and the surface.",
+            "Ozone transmits visible light allowing it to heat the surface but then absorbs most of the infrared heat trapping the heat near the surface.",
+            "Greenhouse gases transmit visible light allowing it to heat the surface but then absorb infrared light from Earth trapping the heat near the surface.",
+            "The higher pressure of the thick atmosphere at lower altitudes traps heat in more effectively."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Explain the basic principle of the greenhouse effect, highlighting the role of certain gases in the Earth's atmosphere, such as carbon dioxide, in trapping heat and maintaining a habitable temperature.",
+        "instruction 2": "Describe the mechanisms by which these gases absorb and re-emit radiation, and how this process contributes to the overall warming of the planet, including any relevant examples or analogies to help illustrate the concept."
+    },
+    {
+        "question": "Which of the following methods has led to the most discoveries of massive planets orbiting near their parent stars?",
+        "answer": 0,
+        "choices": [
+            "detecting the gravitational effect of an orbiting planet by looking for the Doppler shifts in the star's spectrum",
+            "detecting the shift of the star's position against the sky due to the planet's gravitational pull",
+            "detecting a planet ejected from a binary star system",
+            "detecting the starlight reflected off the planet"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key method used for detecting massive planets near their parent stars, such as radial velocity or transit methods.",
+        "instruction 2": "Evaluate the relative effectiveness of each method in terms of the number of discoveries made, considering factors such as detection limits, precision, and the types of planets they are capable of identifying."
+    },
+    {
+        "question": "The distance between the Earth and the star Altair is one million times greater than the distance between the Earth and the Sun. How far is Altair from the Earth?",
+        "answer": 3,
+        "choices": [
+            "9.3 x 1013 meters",
+            "9.3 x 1010 meters",
+            "1.5 x 1014 meters",
+            "1.5 x 1017 meters"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the known distance between the Earth and the Sun, and use this value as a reference point for calculating the distance between the Earth and Altair.",
+        "instruction 2": "Multiply the known distance between the Earth and the Sun by the given ratio of one million to determine the distance between the Earth and Altair, ensuring to maintain the correct units of measurement."
+    },
+    {
+        "question": "Why did Ptolemy have the planets orbiting Earth on ‘circles upon circles’ in his model of the universe?",
+        "answer": 1,
+        "choices": [
+            "To explain why more distant planets take longer to make a circuit through the constellations of the zodiac.",
+            "To explain the fact that planets sometimes appear to move westward rather than eastward relative to the stars in our sky.",
+            "To explain why the Greeks were unable to detect stellar paralax.",
+            "To properly account for the varying distances of the planets from Earth."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Examine Ptolemy's philosophical and scientific context, including his understanding of the geocentric model and the concept of epicycles, to understand the motivations behind his planetary model.",
+        "instruction 2": "Consider the limitations and challenges of Ptolemy's model, such as the need for complex mathematical calculations and the lack of empirical evidence supporting the geocentric view, to appreciate the context in which he developed his theory."
+    },
+    {
+        "question": "Sunspots are black regions that temporarily appear on the Sun. Their number highly increases every ... years. This period is also called the solar cycle.",
+        "answer": 1,
+        "choices": [
+            "9",
+            "11",
+            "13",
+            "15"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the periodic pattern of sunspot activity, focusing on the duration between peak sunspot numbers, which is often referred to as the solar cycle.",
+        "instruction 2": "Consider how the solar cycle affects the Sun's magnetic field and energy output, and how this, in turn, influences Earth's climate and potentially impacts our planet's magnetic field."
+    },
+    {
+        "question": "Which planet(s) in the solar system has/have active plate tectonics?",
+        "answer": 2,
+        "choices": [
+            "Mars",
+            "Venus",
+            "Earth",
+            "Mars and Earth"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the planets in the solar system that have geological activity, such as volcanic activity, earthquakes, or tectonic plate movement, which are indicative of plate tectonics.",
+        "instruction 2": "Research the specific geological processes and features on each planet, such as Jupiter's moon Io or Venus's volcanic surface, to determine if they exhibit the characteristic signs of active plate tectonics."
+    },
+    {
+        "question": "The sky is blue because",
+        "answer": 3,
+        "choices": [
+            "the Sun mainly emits blue light.",
+            "the atmosphere absorbs mostly blue light.",
+            "molecules scatter red light more effectively than blue light.",
+            "molecules scatter blue light more effectively than red light."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the physical phenomenon responsible for the blue color of the sky, such as the scattering of sunlight by tiny molecules of gases in the atmosphere.",
+        "instruction 2": "Consider the role of atmospheric conditions, such as the amount of dust, water vapor, and pollutants, in affecting the apparent color of the sky and how these factors may influence the overall blue hue."
+    },
+    {
+        "question": "What are the conditions necessary for a terrestrial planet to have a strong magnetic field?",
+        "answer": 3,
+        "choices": [
+            "fast rotation only",
+            "a rocky mantle only",
+            "a molten metallic core only",
+            "both a molten metallic core and reasonably fast rotation"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key factors that contribute to the generation of a strong magnetic field in a terrestrial planet, such as the presence of a liquid iron core and the planet's rotation rate.",
+        "instruction 2": "Consider the constraints that might affect the formation and maintenance of a strong magnetic field, such as the planet's size, composition, and the presence of a solid inner core, and evaluate how these factors interact to produce the desired outcome."
+    },
+    {
+        "question": "Where are the Trojan asteroids located?",
+        "answer": 3,
+        "choices": [
+            "in the center of the asteroid belt",
+            "on orbits that cross Earth's orbit",
+            "surrounding Jupiter",
+            "along Jupiter's orbit 60° ahead of and behind Jupiter"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the location of the Trojan asteroids within the solar system, specifically their placement near Jupiter's orbit.",
+        "instruction 2": "Consider the characteristics of the Trojan asteroids, such as their size, composition, and orbital patterns, to better understand their relationship with Jupiter and the surrounding celestial bodies."
+    },
+    {
+        "question": "Which of the following lists the ingredients of the solar nebula from highest to lowest percentage of mass in the nebula?",
+        "answer": 3,
+        "choices": [
+            "hydrogen compounds (H2O CH4 NH3) light gases (H He) metals rocks",
+            "hydrogen compounds (H2O CH4 NH3) light gases (H He) rocks metals",
+            "light gases (H He) hydrogen compounds (H2O CH4 NH3) metals rocks",
+            "light gases (H He) hydrogen compounds (H2O CH4 NH3) rocks metals"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the composition of the solar nebula, focusing on the relative abundance of the main elements and compounds present in the nebula, such as gas, dust, and metals.",
+        "instruction 2": "Organize the list of ingredients in the solar nebula from highest to lowest percentage of mass, ensuring to reference credible sources and scientific data to support the ranking."
+    },
+    {
+        "question": "When was the telescope invented by Galileo?",
+        "answer": 2,
+        "choices": [
+            "1409",
+            "1509",
+            "1609",
+            "1709"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key figures involved in the development of the telescope, including Galileo Galilei, and the historical context in which the invention took place.",
+        "instruction 2": "Consider the specific date or time period when Galileo is credited with improving or popularizing the telescope, as well as any notable events or observations that occurred during this time."
+    },
+    {
+        "question": "Mars has an atmosphere that is almost entirely carbon dioxide.Why isn't there a strong greenhouse effect keeping the planet warm?",
+        "answer": 3,
+        "choices": [
+            "Mars does not have enough internal heat to drive the greenhouse effect",
+            "Mars is too far from the sun for the greenhouse effect to work",
+            "the greenhouse effect requires an ozone layer which Mars does not have",
+            "the atmosphere on Mars is too thin to trap a significant amount of heat"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the main components of the greenhouse effect, including the presence of greenhouse gases like carbon dioxide, and how they trap heat in the atmosphere.",
+        "instruction 2": "Consider the unique atmospheric conditions on Mars, such as its thin atmosphere and lack of greenhouse gases other than carbon dioxide, to explain why the planet's surface temperature is not significantly warmed by the carbon dioxide."
+    },
+    {
+        "question": "You've made a scientific theory that there is a force between all objects. This forcce has both a dark and light side. When will your theory be proven correct?",
+        "answer": 2,
+        "choices": [
+            "When you and many other Jedi have tested the hypothesis",
+            "Jean-Luc Skywalker drops Yoda during the day and he falls to the ground proving your theory.",
+            "You can never prove your theory to be correct only \"yet to be proven wrong.\"",
+            "After you've repeated your experiment many times"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research existing scientific theories and discoveries related to forces and their properties, such as the concept of gravity and electromagnetic forces, to identify potential connections and areas of overlap with your proposed theory.",
+        "instruction 2": "Consider the current state of scientific understanding and the methods used to test and validate theories, evaluating the potential challenges and limitations that may arise when attempting to prove the existence and properties of this new force."
+    },
+    {
+        "question": "Why do Uranus and Neptune have blue methane clouds but Jupiter and Saturn do not?",
+        "answer": 0,
+        "choices": [
+            "Methane does not condense into ice in the warmer atmospheric temperatures of Jupiter and Saturn.",
+            "Methane did not exist in the solar nebula at the radii of Jupiter and Saturn when the planets formed.",
+            "The relatively slow rotation of Uranus and Neptune allows methane to migrate to higher levels in the atmosphere and condense into clouds.",
+            "Methane reacts with the abundant ammonia clouds in Jupiter and Saturn and is removed from the atmosphere."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary factors that contribute to the formation of clouds in the atmospheres of the gas giants, such as temperature, pressure, and chemical composition.",
+        "instruction 2": "Compare the atmospheric conditions on Uranus and Neptune with those on Jupiter and Saturn, examining the presence or absence of methane and other key components that may influence cloud formation and color."
+    },
+    {
+        "question": "All of the following have been cited as evidence for the Giant Impact Hypothesis except:",
+        "answer": 1,
+        "choices": [
+            "The relative size of the Moon to the size of Earth is large compared to most planets and their moon.",
+            "Most rocks on the Moon’s surface are older than those on the Earth’s surface.",
+            "The Moon has a much smaller iron core than the Earth even considering its size.",
+            "The Moon was once entirely molten."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the key evidence supporting the Giant Impact Hypothesis, including the Moon's composition, the Earth-Moon system's orbital characteristics, and the similarities between the Earth and Moon's cratering patterns.",
+        "instruction 2": "Evaluate each of the cited evidence points, considering their relevance and consistency with the Giant Impact Hypothesis, and identify which one does not fit with the proposed theory."
+    },
+    {
+        "question": "Why do scientists think Mars was once warmer and wetter?",
+        "answer": 2,
+        "choices": [
+            "Mars shows evidence of significant volcanism which implies that the climate was once warmer and therefore wetter",
+            "early observations showed what appeared to be changing vegetation patterns and canals indicating the presence of water",
+            "there are many geologic features on Mars that are difficult to explain unless liquid water was once stable at the surface",
+            "all planets tend to begin with warm wet climates and gradually become cold and dry with smaller planets cooling faster than larger planets"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary evidence used by scientists to support the theory that Mars was once warmer and wetter, such as geological features, atmospheric composition, or fossil records.",
+        "instruction 2": "Consider the implications of this theory, including the potential for past life on Mars, and the significance of this discovery for understanding the planet's evolution and the possibility of future human exploration."
+    },
+    {
+        "question": "How do astronomers think Jupiter generates its internal heat?",
+        "answer": 1,
+        "choices": [
+            "nuclear fusion in the core",
+            "by contracting changing gravitational potential energy into thermal energy",
+            "internal friction due to its high rotation rate",
+            "chemical processes"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the main theories or mechanisms that scientists propose to explain Jupiter's internal heat generation, such as tidal heating caused by the planet's gravitational interactions with its moons or radioactive decay of elements in its core.",
+        "instruction 2": "Evaluate the relative strengths and weaknesses of these theories, considering factors such as the available data, observations, and any potential contradictions or inconsistencies with current understanding of Jupiter's internal structure and evolution."
+    },
+    {
+        "question": "Which one of these constellations is not located along the Milky Way in the sky?",
+        "answer": 3,
+        "choices": [
+            "Perseus",
+            "Cygnus",
+            "Scorpius",
+            "Leo"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the constellations mentioned in the question, focusing on those that are associated with the Milky Way, such as the constellations that lie along the galactic plane.",
+        "instruction 2": "Research each constellation's position and relation to the Milky Way, identifying which one does not align with the galaxy's plane and explaining the reasons for this deviation."
+    },
+    {
+        "question": "From shortest to longest wavelength which of the following correctly orders the different categories of electromagnetic radiation?",
+        "answer": 3,
+        "choices": [
+            "infrared visible light ultraviolet X rays gamma rays radio",
+            "radio infrared visible light ultraviolet X rays gamma rays",
+            "gamma rays X rays visible light ultraviolet infrared radio",
+            "gamma rays X rays ultraviolet visible light infrared radio"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the different categories of electromagnetic radiation, such as gamma rays, X-rays, ultraviolet (UV) light, visible light, infrared (IR) radiation, microwaves, and radio waves, and their corresponding wavelength ranges.",
+        "instruction 2": "Arrange these categories in order from shortest to longest wavelength, considering the specific wavelength ranges associated with each type of radiation and any relevant relationships between them."
+    },
+    {
+        "question": "Approximately how long does it take Pluto to orbit the Sun once?",
+        "answer": 2,
+        "choices": [
+            "150 years",
+            "200 years",
+            "250 years",
+            "300 years"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Determine the average distance between Pluto and the Sun, using the semi-major axis of its elliptical orbit.",
+        "instruction 2": "Use Kepler's third law of planetary motion to calculate the orbital period of Pluto, relating the average distance to the orbital period and considering any relevant corrections for the object's eccentric orbit."
+    },
+    {
+        "question": "Mars might be a place for future human explorations. However humans can not breathe on the surface of Mars because the atmosphere consists mostly of ...",
+        "answer": 3,
+        "choices": [
+            "Nitrogen",
+            "Argon",
+            "Methane",
+            "CO2"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key factor that makes the Martian atmosphere inhospitable to human respiration, focusing on the composition of the atmosphere and its effects on human physiology.",
+        "instruction 2": "Consider the implications of this atmospheric composition for human exploration and potential habitation of Mars, including the need for protective equipment and potential technological solutions for breathing."
+    },
+    {
+        "question": "Which of the jovian planets have rings?",
+        "answer": 3,
+        "choices": [
+            "Neptune",
+            "Uranus",
+            "Saturn",
+            "all of the above"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the planets in our solar system that are classified as jovian planets, which are primarily composed of hydrogen and helium.",
+        "instruction 2": "Research and list the jovian planets that have ring systems, considering factors such as the composition and structure of the rings, as well as any notable features or characteristics of the ring systems."
+    },
+    {
+        "question": "Besides large astronomical objects astrophysicists are also interested in small particles from space. Which one of these particles has the weakest interactions with other particles?",
+        "answer": 2,
+        "choices": [
+            "µ Muons",
+            "Antiparticles",
+            "ν Neutrinos",
+            "π Pions"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the types of particles from space that astrophysicists study, including both large objects and small particles, and consider the properties that distinguish these particles from one another.",
+        "instruction 2": "Research the fundamental forces and interactions that govern the behavior of these particles, such as gravity, electromagnetism, and the strong and weak nuclear forces, to determine which particle has the weakest interactions with other particles."
+    },
+    {
+        "question": "Approximately how old is the surface of Venus?",
+        "answer": 0,
+        "choices": [
+            "750 million years.",
+            "2 billion years.",
+            "3 billion years.",
+            "4.5 billion years."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Understand the geological processes that shape the surface of Venus, such as volcanic activity and tectonic activity, which have led to the resurfacing of the planet.",
+        "instruction 2": "Estimate the age of the surface based on the rate of resurfacing, taking into account the geological history of Venus, including its volcanic and tectonic activity, as well as any relevant data or research on the planet's surface age."
+    },
+    {
+        "question": "Why do jovian planets bulge around the equator that is have a \"squashed\" appearance?",
+        "answer": 2,
+        "choices": [
+            "Their large systems of moons and rings gravitationally attract the mass around the equator more.",
+            "They are much more massive than the terrestrial planets.",
+            "Their rapid rotation flings the mass near the equator outward.",
+            "Their internal heat sources exert a pressure against the sides of the planets."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary force responsible for the shape of jovian planets, such as the combination of their rapid rotation and the gravitational pull of their own mass.",
+        "instruction 2": "Consider how this force, in combination with the planet's angular momentum and internal structure, leads to the formation of an equatorial bulge and a 'squashed' appearance."
+    },
+    {
+        "question": "How do astronomers think Jupiter generates its internal heat?",
+        "answer": 2,
+        "choices": [
+            "through exothermic chemical reactions converting chemical potential energy into thermal energy",
+            "nuclear fusion",
+            "by contracting changing gravitational potential energy into thermal energy",
+            "internal friction due to its rapid rotation rate and differential rotation"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the primary mechanisms by which Jupiter's internal heat is generated, such as the decay of radioactive elements, gravitational energy released from the planet's core, or tidal heating caused by its moons' orbits.",
+        "instruction 2": "Consider the implications of these mechanisms on Jupiter's internal temperature and the potential effects on its atmospheric circulation, magnetic field, and overall planetary structure."
+    },
+    {
+        "question": "What defines the habitable zone around a star?",
+        "answer": 0,
+        "choices": [
+            "the region around a star where liquid water can potentially exist on planetary surfaces",
+            "the region around a star where humans can survive",
+            "the region around a star where the ultraviolet radiation does not destroy organisms on a planetary surface",
+            "the region around a star where life exists"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the key factors that contribute to the habitable zone, such as the star's temperature, luminosity, and distance from the planet, as well as the planet's atmospheric composition and its ability to retain heat.",
+        "instruction 2": "Consider how these factors interact to create a zone where liquid water can exist on the planet's surface, which is a crucial condition for supporting life as we know it."
+    },
+    {
+        "question": "Why are Cepheid stars relevant for astronomers?",
+        "answer": 1,
+        "choices": [
+            "To measure interstellar mass.",
+            "To measure galactic distances.",
+            "To measure galactic energy-density.",
+            "To measure interstellar density."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the unique property of Cepheid stars that makes them useful for astronomers, such as their intrinsic brightness or consistent pulsation periods.",
+        "instruction 2": "Consider how this property enables astronomers to use Cepheid stars as 'standard candles' for measuring distances within the universe, and how this application has contributed to our understanding of cosmic scales and the expansion of the universe."
+    },
+    {
+        "question": "What is the so-called bolometric luminosity in astronomy?",
+        "answer": 3,
+        "choices": [
+            "The luminosity integrated over vertically polarized wavelengths.",
+            "The luminosity integrated over horizontally wavelengths.",
+            "The luminosity integrated over visible wavelengths.",
+            "The luminosity integrated over all wavelengths."
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the concept of bolometric luminosity in astronomy and its relationship to the total energy output of a celestial object, such as a star.",
+        "instruction 2": "Consider the various wavelengths of electromagnetic radiation emitted by celestial objects, including visible light, ultraviolet, and X-rays, and how they contribute to the overall bolometric luminosity."
+    },
+    {
+        "question": "Radio telescopes are crucial for astronomical observations. Which one of these well-known radio telescopes has the largest parabolic antenna?",
+        "answer": 1,
+        "choices": [
+            "Green Bank Telescope",
+            "Arecibo Telescope",
+            "Yevpatoria RT-70 Telescope",
+            "Effelsberg Telescope"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research and identify the well-known radio telescopes mentioned in the question, focusing on their characteristics, such as the size and shape of their antennas.",
+        "instruction 2": "Compare the sizes of the parabolic antennas of the identified radio telescopes to determine which one has the largest, considering factors such as diameter, aperture, or collecting area."
+    },
+    {
+        "question": "Find the best approximation for the surface temperature of the Sun:",
+        "answer": 0,
+        "choices": [
+            "6000 K",
+            "7000 K",
+            "9000 K",
+            "13000 K"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the current scientific understanding of the Sun's surface temperature, including any relevant data or measurements from spacecraft or ground-based observations.",
+        "instruction 2": "Consider any potential sources of error or uncertainty in the measurement or estimation of the Sun's surface temperature, such as instrumental limitations or the effects of solar activity, and evaluate the most reliable and accurate methods for approximating this value."
+    },
+    {
+        "question": "Previous IAAC rounds featured Proxima/Alpha Centauri as closes star(system) to the Earth. Which one is the second closest star(system)?",
+        "answer": 3,
+        "choices": [
+            "Wolf 359",
+            "Sirius",
+            "61 Cygni",
+            "Barnard’s Star"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the closest star system to Earth that has been featured in previous rounds of IAAC, which is Proxima/Alpha Centauri.",
+        "instruction 2": "Research the order of the nearest star systems to Earth, considering the distances and orbital patterns of nearby stars, to determine the second closest star system."
+    },
+    {
+        "question": "How are planetary rings made?",
+        "answer": 0,
+        "choices": [
+            "From the dismantling of small moons by impacts",
+            "From fragments of planets ejected by impacts",
+            "From dust grains that escape from passing comets",
+            "From accretion within the solar nebula at the same time the planets formed"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Research the primary formation mechanisms of planetary rings, such as the capture of moonlets, the breakup of small bodies, and the gravitational interaction between the planet and surrounding material.",
+        "instruction 2": "Consider the role of orbital dynamics, such as the effects of gravitational perturbations and collisions, in shaping the structure and composition of planetary rings over time."
+    },
+    {
+        "question": "The lunar maria are:",
+        "answer": 2,
+        "choices": [
+            "ancient heavily cratered highlands",
+            "dark lavas inside volcanic calderas",
+            "dark lavas filling older impact basins",
+            "the bright regions on the Moon"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the geological features of the Moon that are characterized by large, dark basaltic plains, and how they differ from the surrounding highlands.",
+        "instruction 2": "Research the formation and composition of the lunar maria, including the role of volcanic activity, tectonic processes, and impact craters in shaping these features."
+    },
+    {
+        "question": "One astronomical unit (AU) is equal to approximately ...",
+        "answer": 1,
+        "choices": [
+            "130 million km",
+            "150 million km",
+            "170 million km",
+            "190 million km"
+        ],
+        "subject": "astronomy",
+        "instruction 1": "Identify the definition of an astronomical unit (AU) as the average distance between the Earth and the Sun.",
+        "instruction 2": "Research the exact value of this average distance in meters or kilometers to provide an accurate conversion of AU to a more conventional unit of measurement."
+    }
+]

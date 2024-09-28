@@ -1,0 +1,1963 @@
+[
+    {
+        "instruction 1": "Use the formula for charge in a capacitor, Q = C * V, where Q is the charge, C is the capacitance, and V is the potential difference. Substitute the provided values of capacitance (2 mF) and potential difference (5 V) into the formula to calculate the charge.",
+        "instruction 2": "Ensure that the units for capacitance are correctly converted if necessary (e.g., converting millifarads to farads) before performing the calculation to maintain unit consistency.",
+        "question": "The plates of a capacitor are charged to a potential difference of 5 V. If the capacitance is 2 mF, what is the charge on the positive plate?",
+        "choices": [
+            "0.005 C",
+            "0.01 C",
+            "0.02 C",
+            "0.5 C"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the physical quantities associated with inverse square laws, such as gravitational and electromagnetic forces, and explain the mathematical relationship that defines how these quantities diminish with increasing distance from the source.",
+        "instruction 2": "Consider the implications of distance on the influence of these fields, exploring scenarios where the inverse square nature becomes significant in practical applications, such as astronomy or electrical field strength at varying distances.",
+        "question": "Which of these quantities decreases as the inverse square of distance for distances far from the objects producing the fields?",
+        "choices": [
+            "the electric field produced by a finite-length charged rod",
+            "the electric field produced by an infinitely long charged cylinder",
+            "the electric field produced by an infinite plane of charge",
+            "the magnetic field produced by an infinitely long, straight current-carrying wire"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the implications of having a non-uniform charge distribution on the surface of the solid, focusing on how electric fields are generated in the vicinity of the object and the influence this has on the behavior of nearby charges.",
+        "instruction 2": "Consider the principles of electrostatics, particularly Gauss's law, to analyze how the charge distribution affects the electric potential around the object and what conclusions can be drawn about the behavior of charges in response to this electric field.",
+        "question": "A solid, metal object is isolated from other charges and has charge distributed on its surface. The charge distribution is not uniform. It may be correctly concluded that the",
+        "choices": [
+            "electric field outside the object is zero",
+            "the electric field outside the object is equal to the electric field inside the object",
+            "the electric field outside the object is directly proportional to the distance away from the center of mass of the object",
+            "the electric field outside the object, but very close to the surface, is equal to the surface charge density at any location divided by the permittivity of free space"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Understand the relationship between wave frequency, tension, and wavelength in a fixed length string, particularly applying the wave equation v = fλ where v is the wave speed, f is the frequency, and λ is the wavelength. Recognize how increasing the tension in the string affects the wave speed.",
+        "instruction 2": "Analyze how the increase in tension influences the speed of the waves in the string, factoring that the frequency remains constant at 100 Hz, to deduce whether the wavelength of the new standing waves will increase or decrease accordingly.",
+        "question": "Standing waves are produced by a 100-Hz generator in a string of fixed length. The tension in the string is increased until a new set of standing waves is produced. Will the wavelength of the new standing waves be greater than or less than the wavelength of the original standing waves?",
+        "choices": [
+            "Less, because the tension in the string varies directly with the wave speed, which varies inversely with the wavelength.",
+            "Greater, because the tension in the string varies directly with the wave speed, which varies inversely with the wavelength.",
+            "Greater, because the tension in the string varies directly with the wave speed, which varies directly with the wavelength.",
+            "Less, because the tension in the string varies directly with the wave speed, which varies directly with the wavelength."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Understand the principles of capacitors in parallel circuits, specifically noting that while the voltage across each capacitor remains the same due to the parallel configuration, the charges stored may differ depending on the individual capacitance values.",
+        "instruction 2": "Differentiate between the properties of capacitance, charge, and voltage: recognize that capacitance is a characteristic of the individual capacitors that does not change in this setup, while the voltage must indeed be identical across both capacitors in a parallel arrangement.",
+        "question": "Two identical capacitors are hooked in parallel to an external circuit. Which of the following quantities must be the same for both capacitors? I. the charge stored on the capacitor II.  the voltage across the capacitor III. the capacitance of the capacitor",
+        "choices": [
+            "I only",
+            "II only",
+            "II and III only",
+            "(E) I, II, and III"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the potential energy of the object at the top of the incline, using the formula PE = mgh, where m is the mass, g is the acceleration due to gravity, and h is the height of the incline.",
+        "instruction 2": "Apply the work-energy principle to assess how the work done against friction affects the kinetic energy at the bottom, ensuring to account for any energy losses due to the rough surface while considering that the total mechanical energy is conserved in the absence of non-conservative forces.",
+        "question": "A 1-kg object is released from rest at the top of a rough-surfaced incline. The object slides without rotating to the bottom of the incline. The object’s kinetic energy at the bottom must be",
+        "choices": [
+            "Equal to the block’s gravitational potential energy when it was released, because total mechanical energy must be conserved.",
+            "Equal to the block’s gravitational potential energy when it was released, because the gain in kinetic energy compensates for the mechanical energy lost to thermal energy on the rough incline.",
+            "Less than the block’s gravitational potential energy when it was released, because the gravitational potential energy was converted both to thermal energy and to kinetic energy.",
+            "Less than the block’s gravitational potential energy when it was released, because the work done by the friction force must be greater than the block’s gain in kinetic energy."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the physical system of a spring-block oscillator involving the two blocks. Determine how adding the second block of mass m affects the oscillation properties such as the system's overall mass, resulting frequency, and amplitude of oscillation based on the spring constant k.",
+        "instruction 2": "Evaluate the implications of the added mass on the energy dynamics of the system, particularly how it influences potential energy stored in the spring and the kinetic energy of the combined mass during oscillation.",
+        "question": "A student is experimenting with a simple spring-block oscillator of spring constant k and amplitude A. The block attached to the spring has a mass of m. If the student places a small block of mass m on top of the original block, which of the following is true?",
+        "choices": [
+            "The small block is most likely to slide off when the original block is at maximum displacement from the equilibrium position, but will not slide off as long as the coefficient of static friction between the blocks is greater than kA/[(M+m)g].",
+            "The small block is most likely to slide off when the original block is at the equilibrium position, but will not slide off as long as the coefficient of static friction between the blocks is greater than kA/[(M+m)g].",
+            "The small block is most likely to slide off when the original block is at maximum displacement from the equilibrium position, but will not slide off as long as the coefficient of static friction between the blocks is greater than (M+m)g/(kA).",
+            "The small block is most likely to slide off when the original block is at the equilibrium position, but will not slide off as long as the coefficient of static friction between the blocks is greater than (M+m)g/(kA)."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Utilize the formula for the work done in charging a capacitor, which is W = (1/2) * C * V^2, where W is the work, C is the capacitance in farads, and V is the potential difference in volts. Ensure to convert units appropriately if necessary.",
+        "instruction 2": "Calculate the values by substituting the given capacitance (10 µF) into the formula, converting it to farads (10 µF = 10 x 10^-6 F), and the potential difference (100 V) to arrive at the total work required for charging the capacitor.",
+        "question": "How much work is required to charge a 10 µF capacitor to a potential difference of 100 V ?",
+        "choices": [
+            "0.005 J",
+            "0.01 J",
+            "0.05 J",
+            "0.1 J"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Apply the principles of Newton's second law to determine the net force acting on the box, which is primarily influenced by the kinetic friction force calculated as f_k = μmg, where g is the acceleration due to gravity.",
+        "instruction 2": "Use kinematic equations to relate the initial speed v0, the frictional deceleration, and the distance slid before coming to rest, ensuring to solve for the distance utilizing the formula d = v0^2 / (2a), where a is the deceleration caused by friction.",
+        "question": "A box of mass m slides on a horizontal surface with initial speed v0. It feels no forces other than gravity and the force from the surface. If the coefficient of kinetic friction between the box and the surface is μ, how far does the box slide before coming to rest?",
+        "choices": [
+            "v0^2/(2μg)",
+            "v0^2/(μg)",
+            "2v0^2/(μg)",
+            "mv0^2/(μg)"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the vertical and horizontal components of the soccer ball's initial velocity using trigonometric functions. This involves calculating the initial vertical velocity (Vy) using the formula Vy = V * sin(θ) and the initial horizontal velocity (Vx) using Vx = V * cos(θ), where V is the initial velocity and θ is the launch angle.",
+        "instruction 2": "Calculate the total flight time by analyzing the vertical motion of the soccer ball, applying the kinematic equations. Specifically, determine the time to reach the peak height using the formula t_up = Vy / g, where g is the acceleration due to gravity (approximately 9.81 m/s²), and then double that value to find the total flight time, since the time to ascend equals the time to descend.",
+        "question": "A soccer ball, at rest on the ground, is kicked with an initial velocity of 10 m/s at a launch angle of 30°. Calculate its total flight time, assuming that air resistance is negligible.",
+        "choices": [
+            "0.5 s",
+            "1 s",
+            "2 s",
+            "4 s"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the relevant properties of gases that can be compared, such as temperature, pressure, density, and molecular weight, and note how these properties behave in relation to the gases hydrogen and nitrogen at thermal equilibrium.",
+        "instruction 2": "Analyze the behavior of hydrogen and nitrogen based on the ideal gas law and kinetic molecular theory, considering their differing molecular weights and how that affects their average kinetic energies and pressures at the same temperature.",
+        "question": "Two identical containers are filled with different gases. Container 1 is filled with hydrogen and container 2 is filled with nitrogen. Each container is set on a lab table and allowed to come to thermal equilibrium with the room. Which of the following correctly compares the properties of the two gases?",
+        "choices": [
+            "The average kinetic energy of the hydrogen gas is greater than the nitrogen gas.",
+            "The average force exerted on the container by the hydrogen gas is greater than the nitrogen gas.",
+            "The density of the hydrogen gas is less than the nitrogen gas.",
+            "The pressures of the gases cannot be compared without knowing the number of molecules in each container."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the mechanics of the see-saw by applying the principle of moments, which states that the see-saw will balance when the clockwise moment equals the counterclockwise moment about the fulcrum. Consider how the different masses of the boy and girl affect the moments they create about the fulcrum.",
+        "instruction 2": "Evaluate different methods of balancing the see-saw, such as changing the positions of the children, adding weight to either side, or removing weight from either side. Ensure to identify a method that would fail to achieve balance based on the principles of leverage.",
+        "question": "A girl of mass m and a boy of mass 2m are sitting on opposite sides of a see-saw with its fulcrum in the center. Right now, the boy and girl are equally far from the fulcrum, and it tilts in favor of the boy. Which of the following would NOT be a possible method to balance the see-saw?",
+        "choices": [
+            "Move the boy to half his original distance from the fulcrum.",
+            "Move the girl to double her original distance from the fulcrum.",
+            "Allow a second girl of mass m to join the first.",
+            "Move the fulcrum to half its original distance from the boy."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the principles of thermal equilibrium, focusing on how heat transfer occurs between the hot water and cold alcohol at the molecular level, emphasizing the interactions between the molecules of different substances.",
+        "instruction 2": "Consider the differences in specific heat capacities of water and alcohol, and discuss how this affects the rate and extent of temperature change in each fluid until they reach the same temperature.",
+        "question": "When hot water is poured into a beaker containing cold alcohol, the temperature of the mixture will eventually reach the same temperature. Considering the scale of the size of the molecules of the fluids, which of the following is the primary reason for this phenomenon?",
+        "choices": [
+            "The high temperature water will rise to the top of the container until it has cooled and then mixes with the alcohol.",
+            "The molecules of the water continue to have a higher kinetic energy than the molecules of the alcohol, but the two liquids mix until the energy is spread evenly throughout the container.",
+            "The hot water produces thermal radiation that is absorbed by the cold alcohol until the kinetic energy of all the molecules is the same.",
+            "The water molecules collide with the alcohol molecules, transferring energy until the average kinetic energy of both the water and alcohol molecules are the same."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the torque applied to the sphere due to the friction force by using the formula torque = force × distance, where the friction force is 2.0 N and the distance from the center is 0.30 m.",
+        "instruction 2": "Use the relationship between torque, moment of inertia, and angular acceleration (torque = moment of inertia × angular acceleration) to determine the angular deceleration. Then, apply the kinematic equation for rotational motion to calculate the time required for the sphere to come to rest from its initial angular speed of 20 rad/s.",
+        "question": "A solid sphere (I = 0.06 kg·m^2) spins freely around an axis through its center at an angular speed of 20 rad/s. It is desired to bring the sphere to rest by applying a friction force of magnitude 2.0 N to the sphere’s outer surface, a distance of 0.30 m from the sphere’s center. How much time will it take the sphere to come to rest?",
+        "choices": [
+            "4 s",
+            "2 s",
+            "0.06 s",
+            "0.03 s"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "question": "The radius of Mars is about half that of Earth; the mass of Mars is about one-tenth that of Earth. Which of the following is closest to the gravitational field at the surface of Mars?",
+        "subject": "high_school_physics",
+        "choices": [
+            "10 N/kg",
+            "4 N/kg",
+            "2 N/kg",
+            "0.5 N/kg"
+        ],
+        "answer": 1
+    },
+    {
+        "instruction 1": "Apply Gauss's law to analyze the electric field generated by an infinite plane with a uniform charge density σ, recognizing that the electric field due to such a plane is constant and directed away from the surface on both sides.",
+        "instruction 2": "Determine the direction of the electric field below the plane, understanding that it is influenced by the charge density above, leading to a downward electric field that is equal in magnitude to the electric field above the plane, which is also σ/2εo.",
+        "question": "Above an infinitely large plane carrying charge density σ, the electric field points up and is equal to σ/2εo. What is the magnitude and direction of the electric field below the plane?",
+        "choices": [
+            "σ/2εo, down",
+            "σ/2εo, up",
+            "σ/εo, down",
+            "σ/εo, up"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Apply the formula for the radius of the circular path of a charged particle in a magnetic field, which involves the charge of the electron, its mass, speed, and the strength of the magnetic field. This can be expressed as R = (mv) / (qB), where R is the radius, m is the mass of the electron, v is its speed, q is the charge of the electron, and B is the magnetic field strength.",
+        "instruction 2": "Ensure to use accurate constants for the mass and charge of the electron, taking care to convert any units if necessary, so that they are consistent with the units used for the magnetic field strength and speed.",
+        "question": "A beam of electrons has speed 10^7 m/s. It is desired to use the magnetic field of the Earth, 5 × 10−5 T, to bend the electron beam into a circle. What will be the radius of this circle?",
+        "choices": [
+            "1 nm",
+            "1 μm",
+            "1 mm",
+            "1 m"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the properties of plane mirrors, specifically that the distance of the image from the mirror is equal to the distance of the object from the mirror. This will help to calculate the distance of the image from the mirror and subsequently the distance from the object.",
+        "instruction 2": "Calculate the total distance between the object and its image by adding the distance from the object to the mirror and the distance from the mirror to the image, which is the same as the distance from the object to the mirror.",
+        "question": "An object is placed 100 cm from a plane mirror. How far is the image from the object?",
+        "choices": [
+            "50 cm",
+            "100 cm",
+            "200 cm",
+            "300 cm"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the forces acting on both the horse and the cart, including the force exerted by the horse as it pulls the cart and the frictional force acting on the cart that resists its motion. Understand how the interaction between these forces enables acceleration.",
+        "instruction 2": "Apply Newton's second law of motion to the entire horse-cart system to determine the net force acting on the system and how this results in acceleration. Assess both the forward force generated by the horse and the opposing forces, such as friction, to explain the system's motion.",
+        "question": "A horse is attached to a cart that is at rest behind it. Which force, or combination of forces, explains how the horse-cart system can accelerate from rest?",
+        "choices": [
+            "The forward static friction force of the ground on the horse is greater than any friction forces acting backward on the cart, providing a forward acceleration.",
+            "The forward force of the horse on the cart is greater than the backward force of the cart on the horse, providing a forward acceleration.",
+            "The force of the horse’s muscles on the rest of the horse-cart system provides the necessary acceleration.",
+            "The upward normal force of the ground on the horse is greater than the horse’s weight, providing an upward acceleration."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Calculate the electric field strength at the radial distance corresponding to the point (3, 4) by first determining the radius 'r' from the origin using the formula r = sqrt(3^2 + 4^2) and then substituting this value into the given electric field equation Er = –6r^2 + 4r + 3.",
+        "instruction 2": "Integrate the electric field over the path from the origin to the point (3, 4) to find the potential difference. This involves setting up the integral of the electric field function with respect to the radial distance from 0 to the computed value of 'r'.",
+        "question": "In a certain region, the electric field varies with the radius away from origin by the equation Er = –6r^2 + 4r + 3, where r is given in meters and E in N/C. The potential difference between the origin and the point (3, 4) is",
+        "choices": [
+            "–165 V",
+            "–120 V",
+            "64 V",
+            "185 V"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Apply the first law of thermodynamics, which states that the change in internal energy for a closed system equals the heat added to the system minus the work done by the system. Determine whether the internal energy change is zero for a complete cycle, and therefore relate the work done to heat transfer.",
+        "instruction 2": "Identify the direction of the cycle on the P-V diagram; since it is counterclockwise, assess how this affects the heat exchange and work done. This involves evaluating whether the heat added during expansion processes is greater than the heat removed during compression.",
+        "question": "A gas undergoes an expansion-compression cycle. If, plotted on a P-V diagram, the cycle is counterclockwise and the work is 300 J in magnitude, what was the heat transfer during this cycle?",
+        "choices": [
+            "300 J into the system",
+            "300 J out of the system",
+            "600 J into the system",
+            "600 J out of the system"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Apply the formula for electrical power in a circuit, which is P = V^2 / R, to analyze how changing the resistance R affects the power dissipated. Specifically, calculate the new power when R is doubled and compare it to the original power.",
+        "instruction 2": "Evaluate the relationship between resistance, voltage, and power in accordance with Ohm’s Law, considering how the power dissipation changes inversely with increasing resistance when voltage remains constant.",
+        "question": "An ideal battery of constant voltage V supplies current to a circuit that has total resistance R. If R is doubled, what will happen to the total power dissipated by the circuit?",
+        "choices": [
+            "It will double.",
+            "It will quadruple.",
+            "It will be halved.",
+            "It will remain the same."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Use the formula that relates wavelength and frequency, which is c = λν, where c is the speed of light (approximately 3 × 10^8 m/s), λ is the wavelength, and ν is the frequency. Rearrange the formula to solve for frequency (ν = c / λ).",
+        "instruction 2": "Substitute the given wavelength (6 × 10^-8 m) into the rearranged formula and perform the calculation to determine the frequency of the ultraviolet light.",
+        "question": "Ultraviolet light has a wavelength of about 6 × 10^-8 m. What is the frequency of this light?",
+        "choices": [
+            "5 × 10^15 Hz",
+            "0.5 Hz",
+            "2 Hz",
+            "20 Hz"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the relationship between the radius of the circular path of a charged particle in a magnetic field, given by the formula r = (mv)/(qB), where m is mass, v is velocity, q is charge, and B is the magnetic field strength. Identify which parameters (mass and charge) need to be maximized or minimized to achieve the largest radius.",
+        "instruction 2": "Analyze the effects of varying mass and charge on the radius, considering that a larger mass increases the radius while a smaller charge decreases it, and deduce the optimal combination of mass and charge to maximize the radius of the circular motion within the constraints of the magnetic field.",
+        "question": "Each of the following ionized isotopes is projected with the same speed into a uniform magnetic field B such that the isotope's initial velocity is perpendicular to B. Which combination of mass and charge would result in a circular path with the largest radius?",
+        "choices": [
+            "m = 16 u, q = –5 e",
+            "m = 17 u, q = –4 e",
+            "m = 18 u, q = –3 e",
+            "m = 20 u, q = –1 e"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the distance from each charge to the midpoint between them (1.0 cm or 0.01 m), and consider the contributions to the electric field from both charges at that point, applying the formula for the electric field of a point charge, E = k * |q| / r^2.",
+        "instruction 2": "Determine the direction of the electric field contributions from both charges at the midpoint, taking into account that the fields due to the opposite charges will point in opposite directions, and then combine these contributions mathematically to find the resultant electric field at the midpoint.",
+        "question": "An electric dipole consists of a pair of equal but opposite point charges of magnitude 4.0 nC separated by a distance of 2.0 cm. What is the electric field strength at the point midway between the charges?",
+        "choices": [
+            "0",
+            "9.0 × 10^4 V/m",
+            "1.8 × 10^5 V/m",
+            "7.2 × 10^5 V/m"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the different factors affecting body temperature regulation in cold air versus cold water, focusing on heat loss mechanisms such as conduction and convection, and how immersion in water leads to much faster heat loss compared to exposure to cold air.",
+        "instruction 2": "Evaluate the impact of body insulation (fat and clothing) and physiological responses to cold that differ when a person is standing in cold air versus being submerged in cold water, considering the physiological stress and risks of hypothermia in both scenarios.",
+        "question": "A person can stand outside on a cold day for hours without ill effect, but falling into a cold lake can kill a person in a matter of minutes. Which of the following is the primary reason for this phenomenon?",
+        "choices": [
+            "The molecules of the person are, on average, moving faster than those of the surroundings.",
+            "Thermal energy moves from high concentration areas (hot) to low concentration areas (cold).",
+            "As heat flows out of the person and warms the fluid surrounding the person, the warmer fluid rises, allowing fresh cool fluid to come in contact with the person and increasing the rate of heat transfer.",
+            "Water has more molecules per volume than air, increasing molecular contact with the person."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Utilize the principle of continuity for incompressible fluids, which states that the product of cross-sectional area and flow speed must remain constant throughout the pipe. Calculate the area of the pipe at both diameters using the formula A = π(d/2)^2 for circular cross-sections.",
+        "instruction 2": "Set up the equation A1 * v1 = A2 * v2, where A1 and A2 are the areas at diameters 2 cm and 3 cm respectively, and v1 and v2 are the corresponding flow speeds. Solve for the unknown flow speed v2 using the known values.",
+        "question": "A liquid flows at a constant flow rate through a pipe with circular cross-sections of varying diameters. At one point in the pipe, the diameter is 2 cm and the flow speed is 18 m/s. What is the flow speed at another point in this pipe, where the diameter is 3 cm?",
+        "choices": [
+            "4 m/s",
+            "6 m/s",
+            "8 m/s",
+            "12 m/s"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Apply the principle of conservation of mass (continuity equation) for incompressible fluids, which states that the product of the cross-sectional area and the flow speed must remain constant. Calculate the total flow rate in the original pipe and determine how it is distributed among the three paths after the split.",
+        "instruction 2": "Use the formula for the cross-sectional area of a pipe (A = πr²) to find the area of the original pipe and the areas of the split paths. Set up the equation based on the continuity principle to solve for the flow speed in each path, considering the reduction in radius.",
+        "question": "An ideal fluid flows through a pipe with radius Q and flow speed V. If the pipe splits up into three separate paths, each with radius (Q/2), what is the flow speed through each of the paths?",
+        "choices": [
+            "1/3 V",
+            "2/3 V",
+            "4/3 V",
+            "4V"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the principles of particle physics that govern the interaction between the positron and the stationary electron, focusing on concepts like annihilation and the resulting particles produced from their interaction.",
+        "instruction 2": "Analyze the conditions under which the interaction occurs, particularly the energy thresholds and outcomes that result from a slow-moving positron colliding with an electron, taking into account conservation laws such as energy and momentum.",
+        "question": "A very slow-moving positron interacts with a stationary electron. Which of the following statements correctly describes a possible outcome of this reaction and why it would occur?",
+        "choices": [
+            "Conservation of mass indicates that if a single new particle were created in the reaction, it must have a total mass equal to the combined masses of the electron and positron.",
+            "Conservation of charge indicates that all new particles created in the reaction would have no electric charge.",
+            "Conservation of momentum indicates that two identical gamma rays moving off in opposite directions could be created.",
+            "Conservation of energy indicates that the antimatter positron could annihilate into energy, leaving the stationary electron behind."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the forces acting on the box while on the inclined plane, identifying the gravitational force, the normal force, and the frictional force, and how they change as the angle of inclination increases.",
+        "instruction 2": "Apply the principles of static equilibrium to determine how the normal force relates to the angle of incline, including calculations involving the cosine of the angle and its effect on the distribution of forces as the angle becomes steeper.",
+        "question": "A box sits on an inclined plane without sliding. As the angle of the plane (measured from the horizontal) increases, the normal force",
+        "choices": [
+            "increases linearly",
+            "decreases linearly",
+            "does not change",
+            "decreases nonlinearly"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Apply the principles of conservation of momentum and conservation of kinetic energy to analyze the elastic collision between the small cart and the large cart, expressing the relationships between their masses and velocities before and after the collision.",
+        "instruction 2": "Calculate the kinetic energy lost by the large cart and determine how this energy is transferred to the small cart, using the information that the large cart loses half its kinetic energy to find the final velocity of the small cart.",
+        "question": "A small cart of mass m is initially at rest. It collides elastically with a large cart of mass 4m and velocity v. The large cart loses half its kinetic energy to the little cart. The little cart now has a velocity of",
+        "choices": [
+            "1.41v",
+            "v",
+            "2v",
+            "4v"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the changes in the charge distribution within the circuit when the battery is connected. Consider how the electric field generated by the battery influences the movement of charge carriers (electrons) in the circuit, leading to an accumulation of positive and negative charges in various circuit elements.",
+        "instruction 2": "Evaluate the concept of conservation of charge, ensuring to take into account that while the net charge in a closed system remains constant, the redistribution of that charge among the circuit elements occurs as current flows through the circuit, affecting the charge states of the battery and light bulb.",
+        "question": "A circuit consists of a battery and a light bulb. At first, the circuit is disconnected. Then, the circuit is connected, and the light bulb lights. After the light bulb has been lit for a few moments, how has the net charge residing on the circuit elements changed?",
+        "choices": [
+            "The net charge has become more positive.",
+            "The net charge has become more negative.",
+            "The net charge has not changed.",
+            "Whether the net charge becomes more positive or more negative depends on the initial net charge residing on the circuit elements before the bulb was lit."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the principles of gravity and orbital mechanics to understand the Moon's current motion in relation to the Earth and how the cessation of gravitational force would affect orbital motion.",
+        "instruction 2": "Analyze the implications of the Moon moving without the influence of Earth's gravity, specifically considering Newton's first law of motion and the concept of inertia, which would imply that the Moon would continue in a straight line at a constant velocity.",
+        "question": "If the force of gravity between the Moon and the Earth were to stop, which statement best describes the resulting motion of the moon?",
+        "choices": [
+            "It would continue rotating on its axis, and it would revolve around the Earth as usual.",
+            "It would continue rotating on its axis, but it would stop revolving around the Earth.",
+            "It would stop rotating on its axis, but it would revolve around the Earth as usual.",
+            "It would stop rotating on its axis, and it would stop revolving around the Earth."
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the scenario by considering the forces acting on the person in the elevator. Determine how the scale reading changes in relation to the acceleration of the elevator, specifically identifying conditions such as upward or downward acceleration and whether the elevator is at rest or moving.",
+        "instruction 2": "Use the concept of apparent weight to deduce the relationship between the motion of the elevator and the observed scale reading. Identify the possible scenarios, such as the elevator accelerating downward or moving at constant speed, that would lead to a scale reading less than the person's actual weight.",
+        "question": "A person stands on a scale in an elevator. He notices that the scale reading is less than his usual weight. Which of the following could possibly describe the motion of the elevator?",
+        "choices": [
+            "It is moving downward and slowing down.",
+            "It is moving upward and slowing down.",
+            "It is moving upward at a constant speed.",
+            "It is moving downward at a constant speed."
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the forces acting on the wiffle ball throughout its trajectory, specifically at the highest point of its vertical motion, to determine how these forces affect the ball's speed and acceleration.",
+        "instruction 2": "Evaluate how air resistance alters the time it takes for the ball to ascend compared to its descent, considering the implications of weight and drag forces on the ball's speed and overall motion characteristics.",
+        "question": "A whiffle ball is tossed straight up, reaches a highest point, and falls back down. Air resistance is not negligible. Which of the following statements are true?\nI. The ball’s speed is zero at the highest point.\nII. The ball’s acceleration is zero at the highest point.\nIII. The ball takes a longer time to travel up to the highest point than to fall back down.",
+        "choices": [
+            "I only",
+            "II only",
+            "I & II only",
+            "I & III only"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the formula for impulse, which is defined as the product of force and the time interval over which the force acts. Recognize that force can be expressed as mass times acceleration (F = M * L/T^2), and then relate it to the dimensions of length, mass, and time.",
+        "instruction 2": "Combine the dimensions of force with time to derive the dimensions of impulse, ensuring a proper application of dimensional analysis to arrive at the most accurate representation of impulse in terms of the fundamental dimensions L, M, and T.",
+        "question": "If L, M, and T denote the dimensions of length, mass, and time, respectively, what are the dimensions of impulse?",
+        "choices": [
+            "LM/T^3",
+            "LM/T^2",
+            "LM/T",
+            "L^2M/T^2"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Understand the dynamics of a charged particle moving through a magnetic field, specifically how the Lorentz force affects its motion. Calculate the components of the proton's initial velocity vector parallel and perpendicular to the magnetic field direction using the angle given.",
+        "instruction 2": "Utilize the relevant equations of motion for the proton, considering that the magnetic force will cause the proton to move in a circular path due to the perpendicular component of its velocity. Evaluate the effect of time on these components and compute the resultant speed considering that the speed remains constant while the direction changes.",
+        "question": "Traveling at an initial speed of 1.5 × 10^6 m/s, a proton enters a region of constant magnetic field of magnitude 1.5 T. If the proton's initial velocity vector makes an angle of 30° with the magnetic field, compute the proton's speed 4 s after entering the magnetic field.",
+        "choices": [
+            "5.0 × 10^6 m/s",
+            "7.5 × 10^6 m/s",
+            "1.5 × 10^6 m/s",
+            "3.0 × 10^6 m/s"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the forces acting on the man when the elevator accelerates upward, including the gravitational force (weight) acting downward and the normal force exerted by the scale acting upward, and describe how these forces interact as per Newton's third law of motion.",
+        "instruction 2": "Analyze the relationship between the man's weight (gravitational force) and the normal force during the upward acceleration, ensuring to clarify how the action-reaction force pair involves the man exerting a force on the scale equal to his weight and the scale exerting an equal force back on the man.",
+        "question": "A man stands on a platform scale in an elevator. The elevator moves upward, speeding up. What is the action-reaction force pair to the man’s weight?",
+        "choices": [
+            "The force of the elevator cable on the man",
+            "The force of the man on the scale",
+            "The force of the elevator cable on the elevator",
+            "The force of the man on the Earth"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Understand that during an isothermal process involving an ideal gas, the temperature remains constant, which implies that the internal energy change is zero; therefore, any work done by the gas must be balanced by an equivalent heat transfer into the system.",
+        "instruction 2": "Apply the first law of thermodynamics, which states that the change in internal energy is equal to the heat added to the system minus the work done by the system, ensuring to recognize that in this case, the heat transfer must be equal to the work done (150 J) and is positive, indicating heat is absorbed by the gas.",
+        "question": "During an isothermal expansion, a confined ideal gas does 150 J of work against its surroundings. Which of the following describes the heat transfer during this process?",
+        "choices": [
+            "150 J of heat was added to the gas.",
+            "150 J of heat was removed from the gas.",
+            "300 J of heat was added to the gas.",
+            "300 J of heat was removed from the gas."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Calculate the number of excess electrons by using the charge of a single electron, which is approximately -1.6 x 10^-19 C. This involves dividing the total charge of -1 C by the charge of a single electron to determine how many electrons are responsible for the net negative charge.",
+        "instruction 2": "Ensure to account for the sign of the charge when interpreting the result; since the object carries a negative charge, the number of excess electrons should be presented as a positive quantity, indicating there are that many more electrons than protons.",
+        "question": "An object carries a charge of –1 C. How many excess electrons does it contain?",
+        "choices": [
+            "6.25 × 10^18",
+            "8.00 × 10^18",
+            "1.60 × 10^19",
+            "3.20 × 10^19"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify how sound waves propagate through the air and determine the relationship between sound wave speed, frequency, and wavelength, using the formula: wavelength = speed of sound / frequency.",
+        "instruction 2": "Describe a practical method for measuring wavelength using a meterstick, such as measuring the distance between successive points of compression or rarefaction of the sound wave produced by the guitar string, ensuring to consider the speed of sound in air and the frequency to calculate the wavelength accurately.",
+        "question": "A guitar string creates a sound wave of known frequency. Which of the following describes a correct and practical method of measuring the wavelength of the sound wave with a meterstick?",
+        "choices": [
+            "Lightly touch the guitar string in the middle such that a single node is created. Measure the length of the string; this is the wavelength.",
+            "Measure the length of the guitar string; this is half the wavelength.",
+            "Adjust the length of a pipe placed near the string so that resonances are heard. Measure the difference between the pipe lengths for consecutive resonances; this is half the wavelength.",
+            "Measure the peak-to-peak distance of the wave as it passes; this is the wavelength."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine each provided statement about images to determine its accuracy. This involves evaluating the definitions and properties of images, such as how they are formed or perceived in various contexts (e.g., photography, digital media, etc.).",
+        "instruction 2": "Consider the context in which the statements are made, ensuring to differentiate between subjective interpretations and objective truths related to image characteristics, such as resolution, color representation, or composition.",
+        "question": "Which of the following statements about images is true?",
+        "choices": [
+            "Images produced by concave lenses are always real.",
+            "Images produced by concave mirros are always real.",
+            "Images produced by convex lenses can be both real and virtual.",
+            "Images produced by convex mirrors can be both real and virtual."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the gravitational forces acting on the object as it falls through the hole, recognizing that gravity decreases with depth due to the mass of the Earth above it and considering how this will affect the object's acceleration as it falls.",
+        "instruction 2": "Examine the underlying physics principles such as simple harmonic motion, as the object would oscillate back and forth through the center of the Earth, considering the effects of inertia and how it would eventually settle at the center if there were no other forces acting on it.",
+        "question": "Pretend someone actually managed to dig a hole straight through the center of the Earth all the way to the other side. If an object were dropped down that hole, which of the following would best describe its motion? Assume ideal conditions and that the object cannot be destroyed.",
+        "choices": [
+            "It would fall to the center of the Earth and stop there.",
+            "It would fall through the hole to the other side, continue past the opposite side’s opening, and fly into space.",
+            "It would oscillate back and forth from one opening to the other indefinitely.",
+            "It would fall to the other side and stop there."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the principles of conservation of momentum when the second block falls onto the oscillating block, considering how this event affects the system's overall mass and energy distribution.",
+        "instruction 2": "Examine the relationship between mass and amplitude in an oscillator, particularly how an increase in mass (due to the two blocks sticking together) would affect the amplitude of oscillations, taking into account the characteristics of simple harmonic motion.",
+        "question": "A horizontal spring-block oscillator is in motion when a second block of equal mass falls on top of the oscillating block. If the two blocks stick together, what effect will this have on the amplitude of the oscillations?",
+        "choices": [
+            "It will increase the amplitude.",
+            "It will decrease the amplitude.",
+            "It will have no effect.",
+            "It would depend on where the original block was in its cycle when the second block fell."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the conditions under which the Doppler effect occurs, focusing on the relative motion between the source of the sound and the detector. Identify scenarios where the source and detector are at rest relative to each other or moving in the same direction at the same speed, as these conditions would result in no perceived Doppler shift.",
+        "instruction 2": "Consider various configurations involving stationary and moving sources and detectors, ensuring to evaluate how the angles of motion between them may affect the perceived frequency of the sound, and confirm the situations that would lead to a zero Doppler shift.",
+        "question": "In which of the following situations involving a source of sound and a detector of the sound is it possible that there is NO perceived Doppler shift?",
+        "choices": [
+            "The source travels toward the stationary detector.",
+            "The detector travels toward the stationary source.",
+            "Both the source and detector travel in the same direction.",
+            "Both the source and detector travel in opposite directions, with the source and detector moving away from each other."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the volume of the cube using the formula for the volume of a cube (V = side length^3), then determine the weight of the displaced fluid based on the fluid's density and the volume of the submerged portion of the cube.",
+        "instruction 2": "Apply Archimedes' principle to find the equilibrium condition where the weight of the fluid displaced equals the weight of the cube, using this information to derive the fraction of the cube's volume that is above the surface of the fluid.",
+        "question": "A solid plastic cube with uniform density (side length = 0.5 m) of mass 100 kg is placed in a vat of fluid whose density is 1200 kg/m^3. What fraction of the cube's volume floats above the surface of the fluid?",
+        "choices": [
+            "1.0/9",
+            "1.0/3",
+            "2.0/3",
+            "4.0/5"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the two forces acting on the person: the gravitational force, which is dependent on the person's mass and the acceleration due to gravity, and the normal force, which counteracts the gravitational force exerted by the floor.",
+        "instruction 2": "Consider the implications of these forces on the person's state of motion, specifically applying Newton's laws of motion to determine if the person is in equilibrium, which occurs when the upward normal force equals the downward gravitational force.",
+        "question": "A person standing on a horizontal floor is acted upon by two forces: the downward pull of gravity and the upward normal force of the floor. These two forces",
+        "choices": [
+            "have equal magnitudes and form an action-reaction pair",
+            "have equal magnitudes and do not form an action-reaction pair",
+            "have unequal magnitudes and form an action-reaction pair",
+            "have unequal magnitudes and do not form an action-reaction pair"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the equations of motion for a charged particle in an electric field, starting with the force acting on the particle due to the electric field (F = QE) and its resulting acceleration (a = F/m). Determine how the changes in mass and initial velocity affect the acceleration and consequently the distance traveled under the influence of the electric field.",
+        "instruction 2": "Calculate the distance traveled by the particle using the kinematic equations, taking into account the altered initial conditions: the initial velocity being doubled and the mass being halved, which will change the acceleration due to the electric field accordingly.",
+        "question": "A particle of mass m and charge Q and velocity V is directed toward a uniform electric field of strength E and travels a distance d. How far does the particle travel if the original velocity is doubled and the mass is cut in half?",
+        "choices": [
+            "4d",
+            "2d",
+            "d",
+            "1/2d"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the necessary conditions for a linear elastic collision, including the conservation of momentum and kinetic energy, and determine which variables need to be known (such as the initial velocity of m1 and the final velocities of both objects after the collision) to calculate the unknown mass.",
+        "instruction 2": "Consider any additional information that may be required, such as the angle of collision or any coefficients related to the collision, which could impact the calculations. Ensure that the assumptions of an elastic collision are taken into account when applying the conservation laws.",
+        "question": "An object of mass m1 experiences a linear, elastic collision with a stationary object of unknown mass. In addition to m1, what is the minimum necessary information that would allow you to determine the mass of the second object?",
+        "choices": [
+            "The final speed of object 1",
+            "The initial speed of object 1",
+            "The final speed of object 2",
+            "Any 2 of the above values"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Understand the fundamental concept of the photoelectric effect, particularly the role of light intensity and wavelength in electron emission, clarifying how increasing the intensity of light affects the number of photons but not their energy.",
+        "instruction 2": "Evaluate the implications of photon energy on the photoelectric effect, determining that even a dramatic increase in intensity with the same wavelength (550 nm) will not lead to the emission of photoelectrons, as the wavelength needs to be below a certain threshold to provide sufficient energy to overcome the work function of the material.",
+        "question": "In an experiment designed to study the photoelectric effect, it is observed that low-intensity visible light of wavelength 550 nm produced no photoelectrons. Which of the following best describes what would occur if the intensity of this light were increased dramatically?",
+        "choices": [
+            "Almost immediately, photoelectrons would be produced with a kinetic energy equal to the energy of the incident photons.",
+            "Almost immediately, photoelectrons would be produced with a kinetic energy equal to the energy of the incident photons minus the work function of the metal.",
+            "After several seconds, necessary for the electrons to absorb sufficient energy from the incident light, photoelectrons would be produced with a kinetic energy equal to the energy of the incident photons minus the work function of the metal.",
+            "Nothing would happen."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the principle of superposition, which states that the resultant displacement of two waves is the vector sum of their individual displacements. Analyze how the amplitudes of the two waves affect the maximum and minimum possible displacement when the waves interfere constructively and destructively.",
+        "instruction 2": "Consider the phase relationship between the two waves—if they are in phase or out of phase—and how this affects the resultant amplitude. Calculate the resultant amplitude in both scenarios and ensure to express the displacement D in terms of these resultant amplitudes.",
+        "question": "Two traveling waves of equal frequency, one of amplitude 4 cm and the other of amplitude 6 cm, superimpose in a single medium. Which of the following best describes the displacement, D, of the resultant wave?",
+        "choices": [
+            "2 cm ≤ D ≤ 10 cm",
+            "D = 5 cm",
+            "D = 10 cm",
+            "10 cm ≤ D ≤ 12 cm"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and compare the physical principles governing each type of collision, focusing on the conservation of momentum and energy in Collision A (elastic collision) versus the conservation of momentum and the transformation of kinetic energy into rotational energy in Collision B (inelastic collision).",
+        "instruction 2": "Analyze the outcomes of both collisions in terms of the final velocities and angular momentum, considering how the properties of the objects involved (such as mass and velocity before collision) affect the total momentum and energy distribution in each scenario.",
+        "question": "In Collision A, two carts collide and bounce off each other. In Collision B, a ball sticks to a rigid rod, which begins to rotate about the combined center of mass. Which of the following statements about quantities in each collision is correct?",
+        "choices": [
+            "Collision A: each cart experiences the same force, time of collision, and change in kinetic energy. Collision B: the ball and the rod each experience the same torque, time of collision, and change in rotational kinetic energy.",
+            "Collision A: each cart experiences the same force, time of collision, and change in linear momentum. Collision B: the ball and the rod each experience the same torque, time of collision, and change in angular momentum.",
+            "Collision A: each cart experiences the same force, time of collision, and change in kinetic energy. Collision B: the ball and the rod each experience the same torque, time of collision, and change in angular momentum.",
+            "Collision A: each cart experiences the same force, time of collision, and change in velocity. Collision B: the ball and the rod each experience the same torque, time of collision, and change in angular velocity"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Calculate the total net force acting on the object by considering the vector sum of the three external forces, being mindful of their directions, since the resultant force will directly influence the object's acceleration according to Newton's second law (F = ma).",
+        "instruction 2": "Apply the relationship between force, mass, and acceleration to evaluate potential accelerations, taking into account that the maximum and minimum possible accelerations will be determined by the net force and are constrained by the object's mass, ensuring to clarify that any acceleration outside the range calculated is not feasible.",
+        "question": "An object of mass 2 kg is acted upon by three external forces, each of magnitude 4 N. Which of the following could NOT be the resulting acceleration of the object?",
+        "choices": [
+            "0 m/s^2",
+            "2 m/s^2",
+            "4 m/s^2",
+            "8 m/s^2"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the relationship between net force and acceleration based on Newton's second law of motion (F = ma), identifying that the slope of the graph represents the mass of the object being measured, as rearranging the equation gives the slope (F/a) = m.",
+        "instruction 2": "Analyze how the characteristics of the graph inform the interpretation of the slope, emphasizing that the slope indicates a constant mass across variations in force and acceleration, and that this relationship can be utilized to understand motion dynamics.",
+        "question": "Spring scales are used to measure the net force applied to an object; a sonic motion detector is used to measure the object’s resulting acceleration. A graph is constructed with the net force on the vertical axis and the acceleration on the horizontal axis. Which of the following quantities is directly measured using the slope of this graph?",
+        "choices": [
+            "Gravitational mass",
+            "Weight",
+            "Velocity",
+            "Inertial mass"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the relationship between the dimensions of the block (height and length) and the area in contact with the table, as well as how these dimensions influence the frictional force experienced according to the equation f = μN, where N is the normal force dependent on the weight of the block.",
+        "instruction 2": "Calculate the new normal force for the modified block based on its reduced height and increased length, and thereby evaluate how the change in shape affects the overall frictional force experienced by comparing it to the original block's dimensions.",
+        "question": "A wooden block experiences a frictional force, f, as it slides across a table. If a block of the same material with half the height and twice the length were to slide across the table, what would be the frictional force it experienced?",
+        "choices": [
+            "(1/2)f",
+            "f",
+            "2f",
+            "4f"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Apply the mirror formula, which relates the object distance (do), image distance (di), and focal length (f) of a mirror: 1/f = 1/do + 1/di. Ensure to include the correct signs for the object distance (positive for real objects) and image distance (negative for virtual images formed by a diverging mirror).",
+        "instruction 2": "Rearrange the mirror formula to solve for the focal length f after substituting the known values of do = 10 cm and di = -2 cm, considering that the image distance is negative due to the specific characteristics of a diverging mirror.",
+        "question": "An object is placed 10 cm in front of a diverging mirror. What is the focal length of the mirror if the image appears 2 cm behind the mirror?",
+        "choices": [
+            "-3/5 cm",
+            "-5/3 cm",
+            "-2/5 cm",
+            "-5/2 cm"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the position of the body at t = 1 second using the formula for position under constant speed: x = x_0 + vt, recognizing that the initial position x_0 is 0 and v = 24 m/s.",
+        "instruction 2": "For the time interval from t = 1 to t = 11 seconds, determine the position under constant acceleration using the equations of motion, considering the initial velocity at t = 1 and applying the acceleration in the negative direction to find the total position at t = 11 seconds.",
+        "question": "A body moving in the positive x direction passes the origin at time t = 0. Between t = 0 and t = 1 second, the body has a constant speed of 24 meters per second. At t = 1 second, the body is given a constant acceleration of 6 meters per second squared in the negative x direction. The position x of the body at t = 11 seconds is",
+        "choices": [
+            "99m",
+            "36m",
+            "-36m",
+            "-99m"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Utilize the principle of conservation of mass (continuity equation) to determine the relationship between the flow speed and diameter at Points 1 and 2. Specifically, establish that the flow rate must remain constant by setting the product of cross-sectional area and flow speed equal at both points.",
+        "instruction 2": "Apply Bernoulli's equation to analyze the relationship between pressure and speed at Points 1 and 2, taking into account the change in diameter and resulting increase in flow speed at Point 2, in order to solve for the pressure at Point 2.",
+        "question": "A fluid of density ρ flows through a horizontal pipe with negligible viscosity. The flow is streamlined with constant flow rate. The diameter of the pipe at Point 1 is d and the flow speed is V. If the diameter of the pipe at Point 2 is d/3, then the pressure at Point 2 is",
+        "choices": [
+            "less than the pressure at Point 1 by 4 ρv^2",
+            "less than the pressure at Point 1 by 40 ρv^2",
+            "more than the pressure at Point 1 by 4 ρv^2",
+            "more than the pressure at Point 1 by 40 ρv^2"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the relationship between the maximum speed of the block and the amplitude of the oscillation, as well as the spring constant, considering the formula for maximum speed in simple harmonic motion, which is typically V_max = A * ω, where A is the amplitude and ω is the angular frequency.",
+        "instruction 2": "Consider how factors such as mass and spring properties influence the angular frequency (ω), using the equation ω = √(k/m), where k is the spring constant and m is the mass, to derive the maximum speed in relation to the oscillator’s physical parameters.",
+        "question": "In a spring-block oscillator, the maximum speed of the block is",
+        "choices": [
+            "proportional to amplitude",
+            "proportional to the square of amplitude",
+            "proportional to the square root of amplitude",
+            "inversely proportional to the square root of amplitude"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Calculate the gravitational force acting on the box on the moon by using the formula for weight, which is W = m * g, where m is the mass of the box derived from its weight on Earth and g is the acceleration due to gravity on the moon, found using the comparative mass and radius of the moon relative to the Earth.",
+        "instruction 2": "Determine the acceleration due to gravity on the moon by applying the formula g_moon = (M_earth / R_moon^2) / (M_earth / R_earth^2) * g_earth, where R_moon is the radius of the moon, R_earth is the radius of the Earth, and g_earth is the acceleration due to gravity on Earth, ensuring to consider the relationships between mass and gravity accurately.",
+        "question": "The weight of a box on the Earth is 80 N. What is the weight of the box on the moon if the moon has 1/80th the mass and 1/4th the radius of the Earth?",
+        "choices": [
+            "1 N",
+            "10 N",
+            "16 N",
+            "20 N"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the change in gravitational force due to the textbook's elevation above sea level by determining the ratio of Earth's radius plus altitude to Earth's radius and using the formula for gravitational force, taking into account that weight decreases with increased distance from the center of the Earth.",
+        "instruction 2": "Apply this ratio to the textbook's weight at sea level to estimate its new weight at the specified altitude, ensuring that you round or adjust your final answer based on significant figures and the context of the problem.",
+        "question": "A textbook weighs 30 N at sea level. Earth’s radius is 6,400 km. Which of the following is the best estimate of the textbook’s weight on a mountain peak located 6,000 m above sea level?",
+        "choices": [
+            "60 N",
+            "15 N",
+            "30 N",
+            "7.5 N"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the effects of drag force on the motion of the object, taking into account how the drag force, which is proportional to speed, alters the acceleration of the object during free fall compared to ideal free fall without drag.",
+        "instruction 2": "Examine the conditions leading to the object striking the ground before reaching terminal speed, identifying the time it takes for the object to fall and how the drag affects its velocity throughout the descent.",
+        "question": "Which of the following correctly describes the motion of a real object in free fall? Assume that the object experiences drag force proportional to speed and that it strikes the ground before reaching terminal sped.",
+        "choices": [
+            "It will fall with increasing speed and increasing acceleration.",
+            "It will fall with increasing speed and decreasing acceleration.",
+            "It will fall with decreasing speed and increasing acceleration.",
+            "It will fall with decreasing speed and decreasing acceleration."
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Apply the lens formula (1/f = 1/d_o + 1/d_i) to determine the focal length of the bi-convex lens given its radius of curvature, using the lens maker's equation, and then calculate the image distance using the object distance provided.",
+        "instruction 2": "Evaluate the magnification of the image by using the formula (magnification = height of image / height of object) and assess whether the resulting image is real or virtual, upright or inverted, based on the object distance relative to the focal length.",
+        "question": "A bi-convex lens has a radius of curvature of magnitude 20 cm. Which of the following best describes the image formed of an object of height 2 cm placed 30 cm from the lens?",
+        "choices": [
+            "Real, inverted, height = 1 cm",
+            "Virtual, upright, height = 0.25 cm",
+            "Real, upright, height = 1 cm",
+            "Virtual, inverted, height = 0.25 cm"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the total charge of the two spheres before they come into contact by calculating the sum of their charges (+5e + (-6e) = -1e). This total charge will help assess the distribution of charge after contact.",
+        "instruction 2": "Assess the charge distribution that occurs when the spheres make contact, considering the principle of charge conservation. Analyze the possible new net charges for both spheres post-contact, ensuring they reflect the overall charge balance and physical principles of charge sharing.",
+        "question": "Two spheres of net charge +5e and -6e briefly come into contact. Afterward, which of the following is a possible combination of net charges for the two spheres?",
+        "choices": [
+            "+3e and -4e",
+            "+1.5e and -2.5e",
+            "Both of the above",
+            "None of the above"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the relationship between temperature and the volume of a gas, applying the ideal gas law and considering how changes in temperature affect the size and shape of a helium-filled balloon, since the circumference and temperature are linked through gas behavior.",
+        "instruction 2": "Plot the data obtained from the different temperature conditions to observe the trends, considering how the relationship might be non-linear, and interpret the results in the context of thermal expansion and its effect on gas behavior within the balloon.",
+        "question": "The circumference of a helium-filled balloon is measured for three different conditions: at room temperature, after being in a warm oven for 30 minutes, and after being in a freezer for 30 minutes. A student plotting the circumference cubed C^3 as a function of temperature T, should expect to find which of the following?",
+        "choices": [
+            "a cubic relationship between C^3 and T",
+            "an indirect relationship between C^3 and T",
+            "an extrapolated temperature T where C^3 reaches zero",
+            "a maximum C^3 as the temperature T increases"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the physical principles governing the charge measurements on an oil drop, particularly focusing on the implications of quantization of charge and the expected ranges of values based on known phenomena like the Millikan oil drop experiment.",
+        "instruction 2": "Analyze the potential measurements, considering fundamental constants and typical experimental outcomes to determine which values fall outside the expected range, thereby justifying their rejection as implausible.",
+        "question": "The charge on an oil drop is measured in the laboratory. Which of the following measurements should be rejected as highly unlikely to be correct?",
+        "choices": [
+            "6.4 × 10^-19 C",
+            "8.0 × 10^-19 C",
+            "4.8 × 10^-19 C",
+            "2.4 × 10^-19 C"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the components of the proton's initial velocity considering the angle of 30° with respect to the magnetic field. Calculate the perpendicular and parallel components of the velocity relative to the magnetic field.",
+        "instruction 2": "Apply the principles of motion in a magnetic field, specifically how the magnetic force affects only the perpendicular component of the velocity, while the parallel component remains constant, to compute the proton's speed after 4 seconds.",
+        "question": "Traveling at an initial speed of 1.5 × 10^6 m/s, a proton enters a region of constant magnetic field, B, of magnitude 1.0 T. If the proton's initial velocity vector makes an angle of 30° with the direction of B, compute the proton's speed 4 s after entering the magnetic field.",
+        "choices": [
+            "5.0 × 10^5 m/s",
+            "7.5 × 10^5 m/s",
+            "1.5 × 10^6 m/s",
+            "3.0 × 10^6 m/s"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the factors that affect current flow in a circuit, such as voltage, resistance, and the configuration of components, in order to determine changes that can lead to an increase in current.",
+        "instruction 2": "Consider the relationship defined by Ohm's Law (I = V/R) and evaluate specific circuit modifications, such as increasing voltage or decreasing resistance, that will consistently result in a higher current across the circuit.",
+        "question": "Which of the following changes to a circuit will always bring about an increase in the current?",
+        "choices": [
+            "Increased voltage and increased resistance",
+            "Decreased voltage and decreased resistance",
+            "Increased voltage and decreased resistance",
+            "Decreased voltage and increased resistance"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the fundamental characteristics of uniform circular motion, including constant speed, constant radius, and the presence of centripetal acceleration, to determine which statements align with these principles.",
+        "instruction 2": "Evaluate each option provided in the question against the criteria established for uniform circular motion, analyzing the accuracy of each statement in relation to the physics of circular motion.",
+        "question": "Which of the following concerning uniform circular motion is true?",
+        "choices": [
+            "The centrifugal force is the action-reaction pair of the centripetal force.",
+            "The centripetal acceleration and velocity point in the same direction.",
+            "The velocity of the object in motion changes whereas the acceleration of the object is constant.",
+            "A satellite undergoing uniform circular motion is falling toward the center in a circular path."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the change in the velocity of the lab cart between t1 and t2, noting that the cart is moving east initially at 25 cm/s and then at 15 cm/s, to determine the acceleration of the cart over this time period.",
+        "instruction 2": "Apply Newton's second law of motion, which states that the net force acting on an object is directly related to its acceleration, thus considering the implications of a reduction in velocity on the net force's direction, specifically indicating whether it must be acting opposite to the direction of motion.",
+        "question": "It is known that a lab cart is moving east at 25 cm/s at time t1 = 0.10 s, and then moving east at 15 cm/s at t2 = 0.20 s. Is this enough information to determine the direction of the net force acting on the cart between t1 and t2?",
+        "choices": [
+            "Yes, since we know the cart is slowing down, its momentum change is opposite the direction of movement, and the net force is in the direction of momentum change.",
+            "No, because we don’t know whether forces such as friction or air resistance might be acting on the cart.",
+            "No, because we don’t know the mass of the cart.",
+            "Yes, since we know the cart keeps moving to the east, the net force must be in the direction of motion."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key physical properties of the elevator that are necessary to calculate the tension in the cables, such as the mass of the elevator, the acceleration of the elevator (if it is accelerating), and the acceleration due to gravity.",
+        "instruction 2": "Consider how these values interact according to Newton's second law of motion, specifically in determining the net force acting on the elevator while it is in motion, whether ascending or descending, to find the total tension required in the cables.",
+        "question": "An elevator is rising. In order to determine the tension in the cables pulling it, which values (for the elevator) would you need to know?",
+        "choices": [
+            "Mass, velocity, height, and acceleration",
+            "Mass, velocity, and acceleration",
+            "Mass and velocity",
+            "Mass and acceleration"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the definition of vector addition and the properties of vectors to determine the conditions under which the sum of two non-zero vectors equals zero, specifically focusing on the concept of opposing directions.",
+        "instruction 2": "Consider the implications of the magnitudes and angles of the vectors, ensuring to verify that the two vectors must be equal in magnitude but point in opposite directions to result in a zero vector.",
+        "question": "If two non-zero vectors are added together, and the resultant vector is zero, what must be true of the two vectors?",
+        "choices": [
+            "They have equal magnitude and are pointed in the same direction.",
+            "They have equal magnitude and are pointed in opposite directions.",
+            "They have different magnitudes and are pointed in opposite directions.",
+            "It is not possible for the sum of two non-zero vectors to be zero."
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the properties of the magnetic field produced by the solenoid and determine how it affects a charged particle, specifically a proton, that is entering along its axis. This includes understanding that within a uniform magnetic field, the motion of the proton will not experience a force parallel to the magnetic field lines.",
+        "instruction 2": "Consider the implications of the right-hand rule and the characteristics of charged particle motion in magnetic fields, noting that if the proton is moving along the axis of the solenoid, it will continue in a straight line without deviating, as long as no external forces act upon it.",
+        "question": "A proton enters a solenoid. Upon entry, the proton is moving in a straight line along the axis of the solenoid. Which of the following is a correct description of the proton’s motion within the solenoid?",
+        "choices": [
+            "The proton will be bent in a parabolic path.",
+            "The proton will be bent in a circular path.",
+            "The proton will continue in its straight path at constant velocity.",
+            "The proton will continue in its straight path and slow down."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Understand the relationship between the speed of sound, frequency, and wavelength using the wave equation v = fλ, where v is the speed of sound, f is the frequency, and λ is the wavelength, noting that the speed of sound in a given medium is constant regardless of frequency.",
+        "instruction 2": "Determine how changing the frequency of the sound wave to 4f affects the wavelength, and verify that while the frequency increases, the speed of sound in air remains unchanged at v.",
+        "question": "A sound wave with frequency f travels through air at speed v. With what speed will a sound wave with frequency 4f travel through the air?",
+        "choices": [
+            "v/4",
+            "v",
+            "2v",
+            "4v"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Apply Gauss's Law, which states that the net electric flux through a closed surface is equal to the enclosed charge divided by the electric constant (ε₀), ensuring that the surface is closed and the electric field is uniform if conducting a simple analysis.",
+        "instruction 2": "Examine scenarios in which the enclosed charge is constant and does not vary with the position within the closed surface, and explore the implications of charge density distributions and symmetry on the net flux, as these factors may affect the overall calculation.",
+        "question": "Under what conditions is the net electric flux through a closed surface proportional to the enclosed charge?",
+        "choices": [
+            "under any conditions",
+            "only when the enclosed charge is symmetrically distributed",
+            "only when all nearby charges are symmetrically distributed",
+            "only when there are no charges outside the surface"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the physical principles governing the behavior of light when transitioning between two mediums, specifically focusing on concepts such as refraction and Snell's law, to understand how the change in medium (from air to glass) affects the light beam.",
+        "instruction 2": "Determine the properties of the glass (e.g., refractive index) and how it compares to air, ensuring to calculate or qualitatively assess the changes in speed and direction of the light beam as it enters the glass window pane.",
+        "question": "A beam of monochromatic light entering a glass window pane from the air will experience a change in",
+        "choices": [
+            "frequency and wavelength",
+            "frequency and speed",
+            "speed and wavelength",
+            "speed only"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the relationship between the independent variable (temperature) and the dependent variable (volume) based on the behavior of an ideal gas, such as Charles's Law, which implies that volume is directly proportional to temperature when pressure is held constant.",
+        "instruction 2": "Determine the mathematical representation of the relationship, focusing on the equation of the line in the form of y = mx + b, where 'm' represents the slope (indicating how volume changes with temperature) and 'b' represents the y-intercept (the volume when temperature is zero, which may have physical implications depending on the context).",
+        "question": "Data is collected in an experiment preformed on an ideal gas. In the experiment, temperature (in K) is the independent variable and volume (in m^3) is the dependent variable. If a plot is produced where the dependent variable is on the vertical axis, which of the following is true about the slope and y-intercept of the graph?",
+        "choices": [
+            "The slope will be linearly proportional to the pressure of the gas and the intercept will be 0 m^3.",
+            "The slope will be inversely proportional to the pressure of the gas and the intercept will be 0 m^3.",
+            "The slope will be linearly proportional to the pressure of the gas and the intercept will not be 0 m^3.",
+            "The slope will be inversely proportional to the pressure of the gas and the intercept will not be 0 m^3."
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Apply Newton's second law of motion (F = ma) to establish the relationship between mass and acceleration during the collision, considering that the force exerted on the toy car and toy truck is equal (assuming an elastic collision).",
+        "instruction 2": "Analyze the implications of the truck having double the mass of the car, determining how this difference affects their respective accelerations; specifically, calculate the ratio of the accelerations to conclude how the car's acceleration compares to that of the truck.",
+        "question": "A toy car and a toy truck collide. If the toy truck’s mass is double the toy car’s mass, then, compared to the acceleration of the truck, the acceleration of the car during the collision will be",
+        "choices": [
+            "double the magnitude and in the same direction",
+            "double the magnitude and in the opposite direction",
+            "half the magnitude and in the same direction",
+            "half the magnitude and in the opposite direction"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the relationship between the mass of the objects and their acceleration down the incline, taking into account that the incline is slick and therefore does not induce any rotational motion.",
+        "instruction 2": "Apply the principles of classical mechanics to analyze the forces acting on the objects as they slide down the incline, focusing on the net force (which is equal to gravitational force along the incline) that will determine their acceleration and, consequently, the time taken to reach the base.",
+        "question": "A sphere, a cube, and a cylinder, all of equal mass, are released from rest from the top of a short incline. The surface of the incline is extremely slick, so much so that the objects do not rotate when released, but rather slide with negligible friction. Which reaches the base of the incline first?",
+        "choices": [
+            "the sphere",
+            "the cube",
+            "the cylinder",
+            "All reach the base at the same time."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Apply the kinematic equations for uniformly accelerated motion to determine the displacement. Since the car starts from rest, use the equation d = 0.5 * a * t^2 to find the distance, where 'a' is the acceleration determined from the final speed and time taken.",
+        "instruction 2": "Calculate the acceleration by rearranging the formula a = (final speed - initial speed) / time, and then substitute the value of acceleration into the displacement formula to find the total distance traveled by the car.",
+        "question": "A car starts from rest and uniformly accelerates to a final speed of 20.0 m/s in a time of 15.0 s. How far does the car travel during this time?",
+        "choices": [
+            "150 m ",
+            "300 m",
+            "450 m",
+            "600 m"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the relationships between the launch angle, horizontal displacement, and vertical displacement in projectile motion, using relevant kinematic equations to establish how the launch angle affects both the range and the maximum height of the projectile.",
+        "instruction 2": "Set the conditions for the range equal to the maximum height (vertical displacement), and solve the resulting equations to find the specific launch angle that satisfies this condition, ensuring to account for any constants such as gravitational acceleration.",
+        "question": "At what angle to the horizontal should an ideal projectile be launched so that its horizontal displacement (the range) is equal to its maximum vertical displacement?",
+        "choices": [
+            "sin–1 (1/g)",
+            "cos–1 (1/g)",
+            "45°",
+            "tan–1 4"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the kinematic equations of projectile motion to determine how the angle of launch affects the range of the projectile; consider both the horizontal and vertical components of the projectile's motion.",
+        "instruction 2": "Incorporate the initial speed of the truck (5 m/s) into your calculations to find the optimal launch angle that maximizes the total horizontal distance covered by the ball when considering both the cannon's muzzle velocity and the forward speed of the truck.",
+        "question": "A cannon is mounted on a truck that moves forward at a speed of 5 m/s. The operator wants to launch a ball from a cannon so the ball goes as far as possible before hitting the level surface. The muzzle velocity of the cannon is 50 m/s. At what angle from the horizontal should the operator point the cannon?",
+        "choices": [
+            "5°",
+            "41°",
+            "45°",
+            "49°"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the forces acting on the two charged particles, considering the definitions of electrostatic forces and how they relate to charge magnitude and direction. Identify the conditions under which the net force can be zero, such as equal and opposite charges or specific placements.",
+        "instruction 2": "Evaluate the true and false statements provided in the context of the problem, determining which statement misrepresents the nature of forces between charged particles or fails to consider the implications of zero net force in this isolated system.",
+        "question": "Two charged, massive particles are isolated from all influence except those between the particles. They have charge and mass such that the net force between them is 0 N. Which of the following is NOT true?",
+        "choices": [
+            "The particles must have the same sign of charge.",
+            "If the distance between the particles changes, the force will no longer be 0 N.",
+            "The particles must have the same mass.",
+            "Such a situation is impossible as the net force between the two particles cannot be 0."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the fundamental principles of projectile motion, including the effects of gravity and initial velocity, specifically focusing on how launching at an angle of 45° optimizes range and height.",
+        "instruction 2": "Analyze the provided statements regarding projectile motion to determine which accurately reflects the characteristics of motion, such as horizontal and vertical components, time of flight, and maximum height achieved.",
+        "question": "Which one of the following statements is true concerning the motion of an ideal projectile launched at an angle of 45° to the horizontal?",
+        "choices": [
+            "The acceleration vector points opposite to the velocity vector on the way up and in the same direction as the velocity vector on the way down.",
+            "The speed at the top of the trajectory is zero.",
+            "The object's total speed remains constant during the entire flight.",
+            "The vertical speed decreases on the way up and increases on the way down."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Understand the principles governing electric forces, particularly Coulomb's Law, which states that the force between two charged objects is proportional to the product of their charges and inversely proportional to the square of the distance between them, confirming that changes in mass do not affect the electric force directly.",
+        "instruction 2": "Analyze the situation carefully, recognizing that doubling the mass of one ball while keeping the charge constant and the distance unchanged does not alter the electric force, and ensure to maintain focus on how charge and distance dynamics determine the resultant force.",
+        "question": "Two electrically charged balls are separated by a short distance, producing a force of 50 μN between them. Keeping the charge of each ball the same, the mass of one of the balls but not the other is doubled. What is the new electric force between the balls?",
+        "choices": [
+            "50 μN",
+            "100 μN",
+            "200 μN",
+            "400 μN"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Apply the principle of conservation of momentum to the collision, ensuring to take into account the masses and velocities of both carts before and after the collision to determine their common final velocity.",
+        "instruction 2": "Understand that the final velocities of both carts must be equal due to the inelastic nature of the collision, and set up the equation accordingly to find the specific value of their shared velocity.",
+        "question": "A moving 1.5-kg cart collides with and sticks to a 0.5-kg cart which was initially at rest. Immediately after the collision, the carts each have the same ______ as each other.",
+        "choices": [
+            "Velocity",
+            "Kinetic energy",
+            "Mass",
+            "Linear momentum"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Apply the principles of kinematics to relate the impact velocity to the height of the cliff, using the equation v^2 = u^2 + 2as, where the initial velocity (u) is 0 m/s, v is the impact velocity (30 m/s), a is the acceleration due to gravity (approximately 9.81 m/s^2), and s is the height of the cliff.",
+        "instruction 2": "Solve the equation for the height (s) by rearranging it and ensuring that units are consistent, allowing for the calculation of the height of the cliff based on the given impact velocity.",
+        "question": "A rock is dropped off a cliff and strikes the ground with an impact velocity of 30 m/s. How high was the cliff?",
+        "choices": [
+            "20 m",
+            "30 m",
+            "45 m",
+            "60 m"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the forces acting on the car as it moves up the incline, specifically considering gravitational force components along the incline and perpendicular to the incline to determine the net force acting in both horizontal and vertical directions.",
+        "instruction 2": "Apply Newton's second law of motion to derive expressions for the horizontal and vertical accelerations, ax and ay, respectively, factoring in the incline angle θ and ensuring that the gravitational force is appropriately resolved into components affecting both accelerations.",
+        "question": "A car moving with speed v reaches the foot of an incline of angle θ. The car coasts up the incline without using the engine. Neglecting friction and air resistance, which of the following is correct about the magnitude of the car’s horizontal acceleration ax and vertical acceleration ay?",
+        "choices": [
+            "ax = 0; ay < g",
+            "ax = 0; ay = g",
+            "ax < g; ay < g",
+            "ax < g; ay = g"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the factors that influence the capacitance of a parallel-plate capacitor, such as the area of the plates and the distance between them, as well as the dielectric material used between the plates.",
+        "instruction 2": "Evaluate how variations in these factors, including increasing the plate area, decreasing the separation distance, and using a material with a higher dielectric constant, would specifically lead to an increase in capacitance, providing clear reasoning for each factor.",
+        "question": "Which of the following would increase the capacitance of a parallel-plate capacitor?",
+        "choices": [
+            "Using smaller plates",
+            "Replacing the dielectric material between the plates with one that has a smaller dielectric constant",
+            "Decreasing the voltage between the plates",
+            "Moving the plates closer together"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify how external forces or torques acting on the system could influence the angular momentum, including considerations of conservation of angular momentum in the absence of external influences.",
+        "instruction 2": "Evaluate any internal actions, such as the man changing his arm positions or moving his body, that may redistribute mass but do not change the total angular momentum unless there are external interactions affecting the system.",
+        "question": "A man stands with his hands to his sides on a frictionless platform that is rotating. Which of the following could change the angular momentum of the man-platform system?",
+        "choices": [
+            "The man catches a baseball thrown to him by a friend.",
+            "The man thrusts his arms out away from his body",
+            "The man thrusts his arms out away from his body, and then quickly brings his arms back to his side again.",
+            "The man jumps straight up in the air and lands back on the platform."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Apply the principles of the ideal gas law, specifically utilizing the relationship PV = nRT for isothermal processes, where P is pressure, V is volume, n is the number of moles, R is the gas constant, and T is temperature. Acknowledge that since the process is isothermal (temperature remains constant), the initial and final states of the gas can be related using P1V1 = P2V2.",
+        "instruction 2": "Calculate the resulting pressure after the piston is moved by rearranging the equation to solve for P2, given the initial conditions and volume changes, while ensuring unit consistency for pressure (Pa) and volume (m^3) throughout the calculations.",
+        "question": "A cylinder with a movable piston contains a gas at pressure P = 1 × 10^5 Pa, volume V = 20 cm^3, and temperature T = 273 K. The piston is moved downward in a slow steady fashion allowing heat to escape the gas and the temperature to remain constant. If the final volume of the gas is 5 cm^3, what will be the resulting pressure?",
+        "choices": [
+            "0.25 × 10^5 Pa",
+            "2 × 10^5 Pa",
+            "4 × 10^5 Pa",
+            "8 × 10^5 Pa"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "List the different types of electromagnetic radiation presented in the options, categorizing them based on their typical wavelength ranges, starting from the longest wavelengths to the shortest.",
+        "instruction 2": "Compare the categories of electromagnetic radiation, using known facts about the electromagnetic spectrum, to determine which type has the longest wavelength, ensuring to focus specifically on the provided options.",
+        "question": "Which of the following types of electromagnetic radiation has the longest wavelength?",
+        "choices": [
+            "Gamma rays",
+            "Ultraviolet",
+            "Blue light",
+            "Orange light"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the output power of the electric motor by using the input voltage and current drawn from the label. Use the formula P_input = V * I and factor in the efficiency to find P_output = P_input * Efficiency.",
+        "instruction 2": "Use the output power calculated to determine how much work can be done in lifting a mass. Apply the formulas relating power, force, and speed, specifically using P = F * v, where F is the weight of the mass (calculated from the mass and gravity), to find the maximum constant speed at which the motor can lift the 6 kg mass.",
+        "question": "An electric motor has a label on it that reads: Input: 120V AC, 1.0 Amps, 60 Hz - Efficiency - 75%. At what constant speed can the motor lift up a 6 kg mass?",
+        "choices": [
+            "0.5 m/s",
+            "1.0 m/s",
+            "1.5 m/s",
+            "2.0 m/s"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Apply the lens formula (1/f = 1/v - 1/u) to determine the relationship between the object distance (u), image distance (v), and focal length (f) of the lens, recognizing that the distances change as the lens is moved closer to the coin.",
+        "instruction 2": "Analyze how the movement of the lens affects the image formation, including changes in size, orientation, and position of the image, noting that as the lens moves closer to the coin, the image will shift from being real to virtual and will become larger.",
+        "question": "A convex lens of focal length f = 0.2 m is used to examine a small coin lying on a table. During the examination, the lens is held a distance 0.3 m above the coin and is moved slowly to a distance of 0.1 m above the coin. During this process, what happens to the image of the coin?",
+        "choices": [
+            "The image continually increases in size.",
+            "The image continually decreases in size.",
+            "The image gets smaller at first and then bigger in size.",
+            "The image flips over."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the distance from the center of the Earth to the Space Shuttle by adding Earth's radius (6,400 km) to the altitude of the Shuttle (300 km) to obtain the total distance in kilometers.",
+        "instruction 2": "Use the formula for gravitational acceleration, which is g = GM/r^2, where G is the gravitational constant, M is Earth's mass, and r is the distance calculated in the previous step. Ensure to perform the calculation accurately and provide the final value of gravitational acceleration experienced by the Shuttle.",
+        "question": "The Space Shuttle orbits 300 km above Earth’s surface; Earth’s radius is 6,400 km. What is the gravitational acceleration experienced by the Space Shuttle?",
+        "choices": [
+            "Zero",
+            "4.9 m/s^2",
+            "9.8 m/s^2",
+            "8.9 m/s^2"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the gravitational force on the planet using the formula for weight, W = mg, where m is the mass of the astronaut and g is the gravitational acceleration on the planet. First, determine the gravitational acceleration by using the relationship g = G * (M/R^2), where G is the gravitational constant, M is the mass of the planet, and R is its radius, substituting in the values that represent the planet being twice that of Earth's mass and radius.",
+        "instruction 2": "Since weight on Earth is given as 800 N, use the ratio of gravitational accelerations between Earth and the new planet to find the astronaut's new weight, taking into account that doubling both the mass and radius of the planet will affect the gravitational acceleration according to the formula derived in instruction 1.",
+        "question": "An astronaut lands on a planet whose mass and radius are each twice that of Earth. If the astronaut weighs 800 N on Earth, how much will he weigh on this planet?",
+        "choices": [
+            "200 N",
+            "400 N",
+            "800 N",
+            "1600 N"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Apply Newton's third law of motion to understand the interaction between the two individuals, noting that the force exerted by the heavier person on the lighter person will be met with an equal and opposite force exerted by the lighter person on the heavier person.",
+        "instruction 2": "Calculate the resulting accelerations of both individuals by using the formula F = ma, taking into account their respective masses and ensuring that the net external forces acting on them are considered negligible due to the frictionless environment.",
+        "question": "Two people, one of mass 100 kg and the other of mass 50 kg, stand facing each other on an ice-covered (essentially frictionless) pond. If the heavier person pushes on the lighter one with a force F, then",
+        "choices": [
+            "the force felt by the heavier person is (-1/2)F",
+            "the force felt by the person is -2F",
+            "the magnitude of the acceleration of the lighter person will be half of the magnitude of the acceleration of the heavier person",
+            "the magnitude of the acceleration of the lighter person will be twice the magnitude of the acceleration of the heavier person"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the formula for calculating the energy stored in a capacitor, which is given by the equation E = (1/2) C V^2, where E is the energy, C is the capacitance, and V is the voltage across the capacitor. You will need to relate the charge (Q) to voltage (V) using the formula Q = C V.",
+        "instruction 2": "Calculate the voltage across the capacitor using the known charge (6 millicoulombs) and the capacitance (30 mF), and insert this value into the energy formula to find the energy stored in the capacitor, ensuring that the units are consistent throughout the calculations.",
+        "question": "A 30 mF capacitor has 6 millicoulombs of charge on each plate. The energy stored in the capacitor is most nearly",
+        "choices": [
+            "5.4 × 10–10 J",
+            "9.0 × 10–8 J",
+            "0.6 J",
+            "12.5 J"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the relationship between voltage, current, and resistance as described by Ohm's Law (I = V/R) to determine how different configurations of batteries and resistors affect the total resistance in the circuit and, consequently, the current.",
+        "instruction 2": "Evaluate various series and parallel configurations of the resistors in conjunction with the battery voltage to identify the arrangement that minimizes overall resistance, thus maximizing the current flowing through the circuit.",
+        "question": "Which configuration of battery and resistors will create a circuit with the greatest current?",
+        "choices": [
+            "A high voltage battery with resistors arranged in series",
+            "A high voltage battery with resistors arranged in parallel",
+            "A low voltage battery with resistors arranged in series",
+            "A low voltage battery with resistors arranged in parallel"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Calculate the gravitational force acting on the rubber ball by using the formula F = m * g, where m is the mass of the ball (0.08 kg) and g is the acceleration due to gravity (approximately 9.81 m/s²). This will establish the baseline force before impact.",
+        "instruction 2": "Determine the change in momentum during the impact by calculating the velocity of the ball just before it hits the floor (using the height and the equation of motion) and just after it bounces back. Use this change in momentum, combined with the impact time, to find the average force exerted by the floor using the impulse-momentum theorem.",
+        "question": "A rubber ball (mass = 0.08 kg) is dropped from a height of 3.2 m, and after bouncing off the floor, rises almost to its original height. If the impact time with the floor is measured to be 0.04 s, what average force did the floor exert on the ball?",
+        "choices": [
+            "0.16 N",
+            "0.16 N",
+            "0.32 N",
+            "0.36 N"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the dynamics of both objects on the inclined plane by applying the principles of physics, focusing on the effects of rolling motion for the sphere and sliding motion for the block. Calculate the acceleration of each object as they move down the incline, noting the differences in forces acting on them.",
+        "instruction 2": "Compare the time it takes for each object to reach the bottom of the ramp, taking into account the distinct influences of rotational inertia for the sphere and the absence of friction for the block. This will require using appropriate equations of motion to evaluate their final velocities and the distance traveled.",
+        "question": "Two objects, a sphere and a block of the same mass, are released from rest at the top of an inclined plane. The sphere rolls down the inclined plane without slipping. The block slides down the plane without friction. Which object reaches the bottom of the ramp first?",
+        "choices": [
+            "The sphere, because it gains rotational kinetic energy, but the block does not",
+            "The sphere, because it gains mechanical energy due to the torque exerted on it, but the block does not",
+            "The block, because it does not lose mechanical energy due to friction, but the sphere does",
+            "The block, because it does not gain rotational kinetic energy, but the sphere does"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Evaluate the relationships governing the double-slit interference pattern, specifically focusing on the mathematical relationship between fringe width, wavelength, and slit separation, to determine how adjustments to these variables can influence fringe width.",
+        "instruction 2": "Consider practical changes such as increasing the wavelength of the light source or decreasing the distance between the slits, and analyze how these adjustments would affect the spacing of the interference fringes on the screen.",
+        "question": "Which of the following changes to a double-slit interference experiment would increase the widths of the fringes in the interference pattern that appears on the screen?",
+        "choices": [
+            "Use light of a shorter wavelength.",
+            "Move the screen closer to the slits.",
+            "Move the slits closer together.",
+            "Use light with a lower wave speed."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Apply the equations of motion for uniformly accelerated linear motion, specifically focusing on the formula that relates initial velocity, acceleration due to gravity, time, and final velocity to determine the velocity of the stone at the 3-second mark.",
+        "instruction 2": "Remember to account for the direction of acceleration (which is downward due to gravity) and how it affects the stone's upward velocity over time, ensuring to correctly apply the negative value for gravitational acceleration in calculations.",
+        "question": "A stone is thrown vertically upward with an initial speed of 5 m/s. What is the velocity of the stone 3 seconds later?",
+        "choices": [
+            "25 m/s, upward",
+            "25 m/s, downward",
+            "35 m/s, upward",
+            "35 m/s, downward"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the critical points of the potential energy function U(x) by finding the values of x where the first derivative, U'(x), is equal to zero. These points are candidates for equilibrium positions.",
+        "instruction 2": "Evaluate the second derivative, U''(x), at the critical points found in the previous step to identify which points correspond to stable equilibrium, indicated by a positive value of U''(x).",
+        "question": "A particle is subjected to a conservative force whose potential energy function is U(x) = (x – 2)3 – 12x where U is given in joules when x is measured in meters. Which of the following represents a position of stable equilibrium?",
+        "choices": [
+            "x = –4",
+            "x = –2",
+            "x = 0",
+            "x = 4"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the forces acting on the electron as it enters the magnetic field, identifying the Lorentz force that acts perpendicular to both the velocity of the electron and the magnetic field, which will lead to circular motion.",
+        "instruction 2": "Apply the equations of circular motion, including calculations of the radius of the path and the frequency of rotation, considering the electron's charge, mass, velocity, and the strength of the magnetic field to fully describe its motion.",
+        "question": "An electron (mass = m, charge = -E) is rotated with speed V upwards, in the plane of the page, into a region containing a uniform magnetic field B, that is directed into the plane of the page. Describe the electron's subsequent circular motion.",
+        "choices": [
+            "Clockwise rotation; radius of path = mv/(eB)",
+            "Counterclockwise rotation; radius of path = mv/(eB)",
+            "Clockwise rotation; radius of path = eB/(mv)",
+            "Counterclockwise rotation; radius of path = eB/(mv)"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the physical factors affecting the period of a pendulum, specifically considering how the length of the string and the angle of release impact the swing time. Analyze principles such as gravitational acceleration and the equation for the period of a simple pendulum.",
+        "instruction 2": "Evaluate the proposed changes to the pendulum setup (such as shortening the string or adjusting the mass) to determine which change would result in a decrease in the period, using the formula for the period T = 2π√(L/g), where L is the length of the string and g is the acceleration due to gravity.",
+        "question": "A ball of mass is attached to a string connected to the ceiling, forming a pendulum. When the string is raised to an angle of 50 degrees below the horizontal (the ceiling) and released, the ball swings back and forth with a period of 0.4 s. Which of the following changes to the pendulum would decrease the period of the pendulum?",
+        "choices": [
+            "Increasing the mass of the ball",
+            "Decreasing the length of the string",
+            "Decreasing the angle of the string from the horizontal when released",
+            "Decreasing the mass of the ball"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the behavior of light rays as they reflect off a concave mirror, particularly noting how the position of the object relative to the mirror's focal point affects the characteristics of the image formed, such as size, orientation, and nature (real or virtual).",
+        "instruction 2": "Utilize the mirror formula and ray diagram to illustrate the changes in the image properties as the object approaches the focal point, including a discussion of the transition from a real, inverted image to a virtual, upright image as the object crosses the focal point.",
+        "question": "What happens to the image formed by a concave mirror as the object is moved from far away to near the focal point?",
+        "choices": [
+            "The image moves away from the mirror and gets shorter.",
+            "The image moves away from the mirror and gets taller.",
+            "The image moves toward the mirror and gets shorter.",
+            "The image moves toward the mirror and gets taller."
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Calculate the angular displacement of the disk after 4.0 seconds using the formula for angular displacement under constant angular acceleration, which is θ = ω_0 * t + 0.5 * α * t^2, where ω_0 is the initial angular velocity (0 in this case), α is the angular acceleration, and t is the time.",
+        "instruction 2": "Convert the angular displacement in radians to the linear distance traveled by a point on the rim of the disk using the formula s = r * θ, where s is the linear distance, r is the radius of the disk, and θ is the angular displacement calculated in the previous step.",
+        "question": "A disk of radius 0.1 m initially at rest undergoes an angular acceleration of 2.0 rad/s^2. If the disk only rotates, find the total distance traveled by a point on the rim of the disk in 4.0 s.",
+        "choices": [
+            "0.4 m",
+            "0.8 m",
+            "1.2 m",
+            "1.6 m"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the time it takes for the stone to fall 80 m vertically by using the kinematic equation for free fall, considering the acceleration due to gravity (approximately 9.81 m/s²) and solving for time based on the distance fallen.",
+        "instruction 2": "Confirm that the horizontal motion does not affect the vertical fall time, as these are independent components of the stone's projectile motion – thus using only vertical motion parameters for time calculation.",
+        "question": "A stone is thrown horizontally with an initial speed of 10 m/s from a bridge. Assuming that air resistance is negligible, how long would it take the stone to strike the water 80 m below the bridge?",
+        "choices": [
+            "1 s",
+            "2 s",
+            "4 s",
+            "8 s"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the provided statements about electric and magnetic fields to determine key principles and laws governing these fields, ensuring to have a clear understanding of concepts such as electromagnetic induction, field lines, and the relationship between electricity and magnetism.",
+        "instruction 2": "Identify the false statement by referencing fundamental physics principles or experimental observations that contradict any of the claims made about electric and magnetic fields, ensuring that the evaluation is grounded in scientific accuracy.",
+        "question": "Which of the following statements about electric and magnetic fields is FALSE:",
+        "choices": [
+            "A charge moving along the direction of an electric field will experience a force, but a charge moving along the direction of a magnetic field will not experience a force.",
+            "All charges experience a force in an electric field, but only moving charges can experience a force in a magnetic field.",
+            "A positive charge moves in the direction of an electric field; a positive charge moves perpendicular to a magnetic field.",
+            "All moving charges experience a force parallel to an electric field and perpendicular to a magnetic field."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the distance from the center of the Earth to the Space Shuttle by adding the Earth's radius (6400 km) to the altitude of the Shuttle (300 km) to determine the total distance from the center of the Earth.",
+        "instruction 2": "Use the formula for gravitational acceleration, g = G * (M / r^2), where G is the gravitational constant, M is the mass of the Earth, and r is the distance calculated in instruction 1, to find the acceleration due to gravity experienced by the Space Shuttle.",
+        "question": "The Space Shuttle orbits 300 km above the Earth’s surface; the Earth’s radius is 6400 km. What is the acceleration due to Earth’s gravity experienced by the Space Shuttle?",
+        "choices": [
+            "4.9 m/s^2",
+            "8.9 m/s^2",
+            "9.8 m/s^2",
+            "10.8 m/s^2"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the characteristics of each step in the cyclical process: isobaric (constant pressure), isochoric (constant volume), and isothermal (constant temperature) to understand how these conditions affect the gas's properties like pressure, volume, and temperature across the cycle.",
+        "instruction 2": "Determine the relationships between the state variables (pressure, volume, temperature) during each step using the ideal gas law and thermodynamic principles, and identify any overall energy changes or work done by the gas throughout the entire cyclical process.",
+        "question": "A confined ideal gas undergoes a cyclical process in three steps—an isobaric step, followed by an isochoric step, followed by an isothermal step. Which of the following must be true?",
+        "choices": [
+            "The change in internal energy of the gas is equal to the work done during the isobaric step.",
+            "The change in internal energy of the gas is equal to the work done during the isobaric step minus the work done during the isothermal step.",
+            "The total work done during the cycle is positive.",
+            "The total work done during the cycle is equal but opposite to the net amount of heat transferred."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the forces acting on the sphere as it rolls down the hill, focusing on the gravitational force component that acts parallel to the surface of the incline, which contributes to the torque necessary for rotation.",
+        "instruction 2": "Analyze the relationship between the torque produced by the gravitational force and the sphere's moment of inertia, ensuring to consider how both properties affect the angular acceleration of the sphere as it rolls without slipping.",
+        "question": "A sphere starts from rest atop a hill with a constant angle of inclination and is allowed to roll without slipping down the hill. What force provides the torque that causes the sphere to rotate?",
+        "choices": [
+            "Static friction",
+            "Kinetic friction",
+            "The normal force of the hill on the sphere",
+            "Gravity"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the forces acting on the block, including the applied force, the frictional force f opposing the movement, and the normal force exerted by the table on the block, to understand the dynamics of motion under these forces.",
+        "instruction 2": "Apply Newton's laws of motion to assess the relationship between the exerted force on the block and the frictional force, ensuring to consider how these forces interact to affect the block's acceleration and overall motion.",
+        "question": "A block is dragged along a table and experiences a frictional force, f, that opposes its movement. The force exerted on the block by the table is",
+        "choices": [
+            "zero",
+            "parallel to the table",
+            "perpendicular to the table",
+            "neither parallel nor perpendicular to the table"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the fundamental forces of nature and focus specifically on the force that acts to support the wooden block against gravity. This will involve understanding the role of contact forces and how they relate to weight and normal force.",
+        "instruction 2": "Explain the relationship between gravitational force acting downward on the block and the normal force exerted by the table upward, highlighting the principles of action and reaction as outlined by Newton's laws of motion.",
+        "question": "A table supports a wooden block placed on the tabletop. Which fundamental force of nature is responsible for this interaction, and why?",
+        "choices": [
+            "The electric force, because the protons in the nuclei of the top atomic layer of the table repel the nuclei in the bottom atomic layer of the wood.",
+            "The gravitational force, because by F = GMm/r^2, the force of the table on the wood at that close range is sufficient to balance the force of the Earth on the wood.",
+            "The electric force, because the outer electrons in the top atomic layer of the table repel the outer electrons in the bottom atomic layer of the wood.",
+            "The strong nuclear force, because the protons in the nuclei of the top atomic layer of the table repel the nuclei in the bottom atomic layer of the wood."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and list the common units or conversions that define one tesla in terms of other units of magnetic flux density, such as webers per square meter, as well as other relevant units like gauss or milliTesla.",
+        "instruction 2": "Analyze the provided options carefully to determine which one does not correctly equate to one tesla, ruling out the units that are definitively equal and focusing on identifying any incorrect or misleading conversions.",
+        "question": "Which of the following is NOT equal to one tesla?",
+        "choices": [
+            "1 J/(A*m^2)",
+            "1 kg/(C*s)",
+            "1 N/(A*m)",
+            "1 A*N/V"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the factors that could affect the distance the toy travels up the ramp, considering elements such as variations in friction between the wheels and the surface, the condition or material of the ramp, and the elasticity of the rubber band which may lead to inconsistent energy transfer during each trial.",
+        "instruction 2": "Evaluate the role of external influences, such as slight variations in the angle of the ramp or the surface texture, that may alter the toy’s performance despite initially identical conditions, along with the potential impact of any minor inconsistencies in the shove applied to the toy.",
+        "question": "A children’s toy consists of a cart whose very light wheels are attached to a rubber band. This rubber band can wind and unwind around the axle supporting the wheels. This toy is given a shove, after which the toy rolls across a flat surface and up a ramp. It is observed that the toy does not go a consistent distance up the ramp—in some trials it ends up higher than in other trials, even though the shove imparts the same kinetic energy to the cart each time. Which of the following is a reasonable explanation for this phenomenon?",
+        "choices": [
+            "Depending on how the rubber band is initially wound, more or less potential energy can be transferred from the rubber band to the kinetic energy of the car’s motion.",
+            "The normal force on the cart’s wheels will be different depending on how much the rubber band winds or unwinds.",
+            "How much energy is transferred from kinetic energy to gravitational potential energy depends on the vertical height at which the cart ends up.",
+            "Some of the cart’s initial kinetic energy will be dissipated due to work done by friction."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Apply the equations of motion under constant acceleration due to gravity to calculate the distance fallen in both the first and second seconds, recognizing that the distance fallen during each second differs because the object accelerates as it falls.",
+        "instruction 2": "Use the formula for the distance fallen during each second, which considers the initial velocity (zero for the first second) and the effect of gravitational acceleration, to derive the total distance fallen in the second second specifically.",
+        "question": "An object is released from rest and falls a distance h during the first second of time. How far will it fall during the next second of time?",
+        "choices": [
+            "h",
+            "2h",
+            "3h",
+            "4h"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Apply the principle of conservation of momentum to determine the velocity of the two skaters after the collision. Calculate the initial momentum for both skaters in the x (west-east) and y (north-south) directions before the collision.",
+        "instruction 2": "Combine the momenta of both skaters to find the resultant momentum vector after the collision, taking into account that the masses will combine and that they will move together in the same direction post-collision.",
+        "question": "Two ice skaters are moving on frictionless ice and are about to collide. The 50-kg skater is moving directly west at 4 m/s. The 75-kg skater is moving directly north at 2 m/s. After the collision they stick together. For this scenario, which of the following is true?",
+        "choices": [
+            "The linear momentum of the system is conserved because the net force on the system is nonzero during the collision.",
+            "Only the kinetic energy of the system is conserved because it is an inelastic collision.",
+            "Only the kinetic energy of the system is conserved because it is an elastic collision.",
+            "The linear momentum of the system is conserved because the net force on the system is zero."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Apply Newton's law of universal gravitation, which states that the gravitational force between two masses is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers. Use the given values for the mass of the Earth, the mass of the Moon, and the distance between their centers to compute the gravitational force.",
+        "instruction 2": "Ensure that all units are consistent and appropriately converted if necessary; double-check the calculations for accuracy and consider any approximations that might make the estimation relevant, while focusing on using standard gravitational constant (G) value for precise computation.",
+        "question": "The mass of the Earth is 5.97 × 10^24 kg. The Moon, whose center is 3.84 × 10^8 m from the Earth’s center, has mass 7.35 × 10^22 kg. Which of the following is the best estimate of the gravitational force of the Earth on the Moon?",
+        "choices": [
+            "10^39 N",
+            "10^29 N",
+            "10^19 N",
+            "10^9 N"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Calculate the buoyant force acting on the object using Archimedes' principle, which states that the buoyant force equals the weight of the displaced water. From this, determine the volume of water displaced by the object when it is floating.",
+        "instruction 2": "Establish the relationship between the volume of the object and the volume of water displaced to find what percentage of the object's volume is above the water surface, using the formula that relates displaced volume and total object volume.",
+        "question": "An object of volume 2 × 10^-3 m^3 and weight 6 N is placed into a tank of water, where it floats. What percentage of the object's volume is above the surface of the water?",
+        "choices": [
+            "12%",
+            "30%",
+            "60%",
+            "70%"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the velocity of the object by taking the first derivative of the position function x with respect to time t, and then evaluate that derivative at t = 1.50 seconds to find the instantaneous velocity at that time.",
+        "instruction 2": "Determine the acceleration of the object by taking the second derivative of the position function x with respect to time t, and evaluate that at t = 1.50 seconds. Ensure to apply proper differentiation rules for polynomial functions during these calculations.",
+        "question": "The position of an object is given by the equations x = 2.0t^3 + 4.0t + 6.25, where x is in meters and t is in seconds. What is the acceleration of the object at t = 1.50 s?",
+        "choices": [
+            "6 m/s^2",
+            "12 m/s^2",
+            "18 m/s^2",
+            "24 m/s^2"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the definition of work in physics, specifically focusing on the relationship between force, displacement, and the angle between them, to determine if the normal force exerted by the elevator floor meets the criteria for performing work on the man.",
+        "instruction 2": "Consider the frame of reference and motion of the man within the elevator, including whether there is any displacement in the direction of the normal force during the elevator's ascent, to conclude whether the normal force contributes to work done on the man or not.",
+        "question": "A man stands in an elevator as it begins to ascend. Does the normal force from the floor do work on the man?",
+        "choices": [
+            "Yes, and the work done will be positive.",
+            "Yes, and the work done will be negative.",
+            "Yes, but the sign can’t be determined.",
+            "No."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Use the kinematic equation for uniformly accelerated motion, which relates distance, initial velocity, acceleration, and time, specifically the equation s = ut + (1/2)at^2, where s is distance, u is initial velocity (0 in this case), a is acceleration, and t is time.",
+        "instruction 2": "Rearrange the equation to solve for time t by substituting the given values (s = 200 m and a = 5 m/s^2), and then solve the resulting quadratic equation for the positive value of time.",
+        "question": "How long would it take a car, starting from rest and accelerating uniformly in a straight line at 5 m/s^2, to cover a distance of 200 m ?",
+        "choices": [
+            "9.0 s",
+            "10.5 s",
+            "12.0 s",
+            "15.5 s"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the definitions of static equilibrium, ensuring to understand the fundamental principles that require both the net force and net torque acting on an object to be zero, and differentiate these from energy considerations.",
+        "instruction 2": "Evaluate each of the listed conditions I, II, and III, determining which specifically pertain to the conditions necessary for static equilibrium, while systematically excluding any irrelevant conditions that do not conform to the principles of forces and torques.",
+        "question": "Which of the following conditions are necessary for an object to be in static equilibrium? I. The vector sum of all torques on the object must equal zero. II. The vector sum of all forces on the object must equal zero. III. The sum of the object’s potential and kinetic energies must be zero.",
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and II only"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the motion of the puck between the positions x = 0.2 m and x = 1.2 m, focusing on the forces acting on the puck, such as friction and inertia, to determine the nature of the net force when the puck is at x = 1.0 m.",
+        "instruction 2": "Consider the concepts of Newton's first law of motion, specifically that an object will remain at rest or in uniform motion unless acted upon by a net external force, and apply this reasoning to infer the direction and magnitude of the net force on the puck when it is at the specified position.",
+        "question": "A student pushes a puck across a table, moving it from position x = 0 to position x = 0.2 m. After he lets go, the puck continues to travel across the table, coming to rest at position x = 1.2 m. When the puck is at position x = 1.0 m, which of the following is a correct assertion about the net force on the puck?",
+        "choices": [
+            "The net force is in the negative direction, because the puck is moving in the positive direction but slowing down.",
+            "The net force is down, because the puck is near the Earth, where gravitational acceleration is 10 m/s^2 downward.",
+            "The net force is in the positive direction, because the student’s push caused the puck to speed up in the positive direction.",
+            "The net force is zero, because the student’s push in the positive direction must equal the force of friction in the negative direction."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the method used by experimenter A to measure the electric field, paying attention to how the size of the test charge (qo) affects the accuracy and validity of the measurements, especially in relation to perturbations it may introduce into the electric field.",
+        "instruction 2": "Compare the results obtained by experimenter A with those of experimenter B, considering how the larger test charge (2qo) might influence the measured electric field and whether it leads to significant deviations from expected theoretical values.",
+        "question": "Experimenter A uses a very small test charge qo, and experimenter B uses a test charge 2qo to measure an electric field produced by two parallel plates. A finds a field that is",
+        "choices": [
+            "greater than the field found by B",
+            "the same as the field found by B",
+            "less than the field found by B",
+            "either greater or less than the field found by B, depending on the accelerations of the test charges"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the forces acting on the two objects, A and B, considering both gravitational and electrostatic forces. Establish the conditions for equilibrium where these forces are equal, and determine how reducing the mass of Object A affects the gravitational force acting on it.",
+        "instruction 2": "Calculate the new gravitational force exerted by Object A on Object B after halving its mass and determine what changes are necessary to the electrostatic force (based on charge) between the two objects to maintain the condition of equilibrium.",
+        "question": "Two objects, A and B, have equal charge and equal mass. Neither body is in motion because the gravitational and electrostatic forces between them are equal. If the mass of Object A is halved, equilibrium will be maintained if",
+        "choices": [
+            "the charge on Object A were doubled",
+            "the charge on Object B were halved",
+            "the charge on Object B were doubled",
+            "the mass on Object B were halved"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the total capacitance of the three 18 μF capacitors when connected in series using the formula for capacitors in series: 1/C_total = 1/C1 + 1/C2 + 1/C3, where C_total equates to the equivalent capacitance of the series connection.",
+        "instruction 2": "Determine the charge stored on each 18 μF capacitor using the equation Q = C * V, where V is the voltage across the series connection, which can be derived from the original charge stored in the 2 μF capacitor when connected to the battery.",
+        "question": "A 2 μF capacitor is connected directly to a battery. When the capacitor is fully charged, it stores 600 μC of charge. An experimenter replaces the 2 μF capacitor with three 18 μF capacitors in series connected to the same battery. Once the capacitors are fully charged, what charge is stored on each capacitor?",
+        "choices": [
+            "100 μC",
+            "200 μC",
+            "600 μC",
+            "1800 μC"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Apply the work-energy principle, which states that the rate of change of kinetic energy is equal to the net force acting on the particle multiplied by its velocity. Use the given rate of change of kinetic energy and the particle's speed to express this relationship mathematically.",
+        "instruction 2": "Determine the magnitude of the force by rearranging the equation to solve for force, ensuring to consider the negative sign of the rate of change of kinetic energy, which indicates that the force is acting opposite to the direction of motion.",
+        "question": "A particle's kinetic energy is changing at a rate of –6.0 J/s when its speed is 3.0 m/s. What is the magnitude of the force on the particle at this moment?",
+        "choices": [
+            "0.5 N",
+            "2.0 N",
+            "4.5 N",
+            "9.0 N"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the role of each force acting on the car, determining how the normal force and friction force contribute to the net force required for circular motion, and identify which of these forces provides the necessary centripetal force.",
+        "instruction 2": "Understand the concept of centripetal force and how it relates to the car's banking angle, speed, and the radius of the curve, ensuring to incorporate the balance of forces in the context of circular motion dynamics.",
+        "question": "A car rounds a banked curve of uniform radius. Three forces act on the car: a friction force between the tires and the road, the normal force from the road, and the weight of the car. Which provides the centripetal force which keeps the car in circular motion?",
+        "choices": [
+            "the friction force alone",
+            "the normal force alone",
+            "the weight alone",
+            "a combination of the normal force and the friction force"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the horizontal distance traveled by the stone using the initial speed and time, which remains constant due to the lack of air resistance.",
+        "instruction 2": "Determine the vertical velocity of the stone just before it enters the water by using the equation of motion for free fall, accounting for the acceleration due to gravity over the 4 seconds of fall, and then use Pythagorean theorem to find the total speed by combining horizontal and vertical components.",
+        "question": "A stone is thrown horizontally with an initial speed of 30 m/s from a bridge. Find the stone's total speed when it enters the water 4 seconds later, assuming that air resistance is negligible.",
+        "choices": [
+            "30 m/s",
+            "40 m/s",
+            "50 m/s",
+            "60 m/s"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Apply Newton's law of universal gravitation, which states that the force of gravitational attraction is directly proportional to the product of the masses of the two objects and inversely proportional to the square of the distance between their centers; formulate the equation F = G * (m1 * m2) / r^2 to analyze the changes when both masses are doubled and distance is also doubled.",
+        "instruction 2": "Calculate the new force of gravitational attraction by substituting the updated values (2m1 and 2m2 for masses, and 2r for distance) into the formula, and simplify the result to understand how these changes affect the overall gravitational force.",
+        "question": "What happens to the force of gravitational attraction between two small objects if the mass of each object is doubled and the distance between their centers is doubled?",
+        "choices": [
+            "It is doubled.",
+            "It is quadrupled.",
+            "It is halved.",
+            "It remains the same."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Apply Ohm's Law, which states that current (I) can be calculated by dividing power (P) by voltage (V). In this case, use the formula I = P/V where P is given as 60 W and V is given as 120 V to find the current drawn by the light bulb.",
+        "instruction 2": "Ensure the units are consistent when calculating the current, verifying that power is in watts and voltage is in volts, to accurately derive the resulting current in amperes.",
+        "question": "How much current does a 60 W light bulb draw if it operates at a voltage of 120 V ?",
+        "choices": [
+            "0.25 A",
+            "0.5 A",
+            "2:00 AM",
+            "4:00 AM"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Apply the ideal gas law, PV = nRT, to analyze how changes in temperature and volume affect pressure, considering that n (number of moles) and R (ideal gas constant) remain constant.",
+        "instruction 2": "Calculate the new pressure using the relationship P2 = (nR/T2V2) for the final state and compare it with the initial pressure to determine the change, taking into account the factor increases in temperature and volume.",
+        "question": "What happens to the pressure, P, of an ideal gas if the temperature is increased by a factor of 2 and the volume is increased by a factor of 8 ?",
+        "choices": [
+            "P decreases by a factor of 16.",
+            "P decreases by a factor of 4.",
+            "P decreases by a factor of 2.",
+            "P increases by a factor of 4."
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the physical principles governing the behavior of light when transitioning between two mediums, specifically focusing on concepts such as refraction and Snell's law, to understand how the change in medium (from air to glass) affects the light beam.",
+        "instruction 2": "Determine the properties of the glass (e.g., refractive index) and how it compares to air, ensuring to calculate or qualitatively assess the changes in speed and direction of the light beam as it enters the glass window pane.",
+        "question": "A beam of monochromatic light entering a glass window pane from the air will experience a change in",
+        "choices": [
+            "frequency and wavelength",
+            "frequency and speed",
+            "speed and wavelength",
+            "speed only"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Understand the properties of an ideal gas under isochoric (constant volume) conditions, particularly how pressure and temperature are related through the ideal gas law, which states that for a constant volume, an increase in temperature results in an increase in pressure.",
+        "instruction 2": "Analyze the options provided to determine which statement contradicts the established behavior of an ideal gas during an isochoric process, ensuring to evaluate each option in the context of the relationships defined by the ideal gas law.",
+        "question": "A rigid, solid container of constant volume holds an ideal gas of volume v1 and temperature T1 and pressure P1. The temperature is increased in an isochoric process. Which of the following is NOT true?",
+        "choices": [
+            "The average speed of the molecules increases.",
+            "The pressure increases.",
+            "The kinetic energy of the system increases.",
+            "The volume increases."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the relationship between the frequency of the speaker and the fundamental frequency of the string based on its tension and linear mass density, identifying how standing waves are formed only at specific frequencies that correspond to the natural frequencies of the string.",
+        "instruction 2": "Analyze the properties of standing waves in a string, including the concepts of harmonic modes and nodes, to explain why a speaker frequency of 60 Hz may not match any of the possible harmonics for the given string configuration.",
+        "question": "A string of fixed tension and linear mass density is attached to a vibrating speaker. It is observed that a speaker frequency of 60 Hz does not produce standing waves in the string. Which explanation for this phenomenon is correct?",
+        "choices": [
+            "The string length is not a multiple of half the wavelength of the wave.",
+            "The wave speed on the string is fixed.",
+            "60 Hz is in the lowest range of audible sound.",
+            "The wavelength of the wave produced by the speaker is equal to the speed of waves on the string divided by 60 Hz."
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the given charge distribution ρ = ar to determine the total charge enclosed within a radius r. This involves integrating the charge density over the volume of a sphere of radius r to find the enclosed charge as a function of r.",
+        "instruction 2": "Apply Gauss's law to relate the enclosed charge to the electric field strength at a distance r from the center. This requires setting up the equation based on the symmetry of the problem and solving for the electric field in terms of the radius r and the constant a.",
+        "question": "A spherical charge distribution varies with the radius r by the equation ρ = ar, where ρ is the volume charge density and a is a positive constant. The distribution goes out to a radius R. Which of the following is true of the electric field strength due to this charge distribution at a distance r from the center?",
+        "choices": [
+            "It increases as r approaches infinity.",
+            "It decreases linearly for r > R.",
+            "It increases linearly for r > R.",
+            "It increases non-linearly for r < R."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the Doppler effect principles that apply to the situation, particularly analyzing how the movement of the alarm and the observer can impact the observed frequency as the alarm falls.",
+        "instruction 2": "Evaluate the conditions under which the frequency is measured, such as whether the observer is stationary or moving, and how this setup influences the perceived frequency compared to the alarm's original frequency of 400 Hz.",
+        "question": "An alarm whose frequency is 400 Hz is dropped out of a third-floor window. The student who drops it measures the frequency with a very sensitive oscilloscope. The measured frequency",
+        "choices": [
+            "appears higher than 400 Hz and the frequency increase as it falls",
+            "appears higher than 400 Hz and the frequency decreases as it falls",
+            "appears lower than 400 Hz and the frequency decreases as it falls",
+            "appears lower than 400 Hz and the frequency increases as it falls"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the geometric factors that affect thermal conductivity along the length of the cylindrical aluminum rod, focusing on its radius (Q) and length (ℓ), as well as the cross-sectional area and volume, which influence heat transfer efficiency.",
+        "instruction 2": "Consider the impact of temperature difference across the rod—specifically, how variations in the temperature gradient between the two ends (10°C to 20°C) will interact with the geometric dimensions to determine the rate of heat transfer, applying principles such as Fourier's Law of Heat Conduction.",
+        "question": "Heat is added to a cylindrical aluminum rod of radius Q and length ℓ. The temperature difference between the two ends of the rod varies from 10°C to 20°C. What geometric factors will influence the rate heat is transferred along the rod?",
+        "choices": [
+            "Only the length",
+            "Only the area of the rod",
+            "Both the length and area",
+            "Neither the length nor area"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Understand the concept of lens power in diopters and its relation to image formation in optics, particularly focusing on how a negative diopter value indicates a diverging lens, which is used to correct myopia by spreading out light rays.",
+        "instruction 2": "Determine how the corrective lenses will affect the image created for distant objects by applying the lens formula, considering that the object distance for distant objects is effectively infinite, which will influence the characteristics of the image produced by the lens.",
+        "question": "Optometrists use a linear scale of lens power, measured in diopters, to prescribe corrective lenses. Sufferers of myopia, or nearsightedness, have difficulty resolving distant objects because the lenses in their eyes are too strong. If a myopic person has a prescription of -5 diopters, what image do her corrective lenses create for distant objects?",
+        "choices": [
+            "An upright, real image about 20 cm in front of her eyes",
+            "An upright, virtual image about 20 cm in front of her eyes",
+            "An inverted, real image about 20 cm behind her eyes",
+            "An inverted, virtual image 5 cm behind her eyes"
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the electrostatic behavior of conductors in the presence of an external electric field created by the charged nonconducting sphere. Focus on how the neutral conducting sphere will respond by redistributing its free charges, leading to induced charge separation on its surface.",
+        "instruction 2": "Determine the resulting electric field configuration around the two spheres after they come into proximity, considering the effect of the induced surface charges on the conducting sphere and how it affects the overall electric field distribution in the region.",
+        "question": "A nonconducting sphere is given a nonzero net electric charge, +Q, and then brought close to a neutral conducting sphere of the same radius. Which of the following will be true?",
+        "choices": [
+            "An electric field will be induced within the conducting sphere.",
+            "The conducting sphere will develop a net electric charge of –Q.",
+            "The spheres will experience an electrostatic attraction.",
+            "The spheres will experience an electrostatic repulsion."
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Apply the formula for the magnetic force experienced by a charged particle in a magnetic field, which is given by F = q(v × B), where F is the magnetic force, q is the charge of the particle, v is its velocity, and B is the magnetic field strength.",
+        "instruction 2": "Analyze how the changes in charge, mass, and velocity of the new particles affect the calculation of the magnetic force. Specifically, substitute these new values (2q for charge and 2v for velocity) into the formula to determine the resulting force, while noting that mass does not directly impact the force calculation in this context.",
+        "question": "A charged particle moves through a magnetic field and experiences a force f. New particles are sent into the same magnetic field. If the new particles have twice the charge, twice the mass, and twice the velocity, the new force would be",
+        "choices": [
+            "4F",
+            "2F",
+            "F",
+            "1/2 F"
+        ],
+        "subject": "high_school_physics",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Calculate the distance from each charge to the midpoint between them (1.0 cm or 0.01 m), and consider the contributions to the electric field from both charges at that point, applying the formula for the electric field of a point charge, E = k * |q| / r^2.",
+        "instruction 2": "Determine the direction of the electric field contributions from both charges at the midpoint, taking into account that the fields due to the opposite charges will point in opposite directions, and then combine these contributions mathematically to find the resultant electric field at the midpoint.",
+        "question": "An electric dipole consists of a pair of equal but opposite point charges of magnitude 4.0 nC separated by a distance of 2.0 cm. What is the electric field strength at the point midway between the charges?",
+        "choices": [
+            "0",
+            "9.0 × 10^4 V/m",
+            "1.8 × 10^5 V/m",
+            "7.2 × 10^5 V/m"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Apply Coulomb's law to calculate the electric force exerted on both particles A and B by each other's charge, taking into account the distances involved and the charges of the particles (2Q for A and Q for B).",
+        "instruction 2": "Determine the ratio of the magnitudes of the electric forces acting on both particles by creating a ratio of the forces calculated for A and B, ensuring to simplify the expression to reveal the relationship between the two forces given the same distance and the charges involved.",
+        "question": "Two isolated particles, A and B, are 4 m apart. Particle A has a net charge of 2Q, and B has a net charge of Q. The ratio of the magnitude of the electric force on A to that on B is",
+        "choices": [
+            "4:01",
+            "2:01",
+            "1:01",
+            "1:02"
+        ],
+        "subject": "high_school_physics",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the properties of waves, such as amplitude and energy, and explain how energy is distributed as a wave travels away from its source, noting that the energy decreases over distance due to spreading and dissipation.",
+        "instruction 2": "Analyze the observations given about the wave hitting the child's ankles, considering factors such as wave height and the amount of splash created by the rock's impact, to demonstrate how these factors indicate a decrease in energy compared to the initial conditions at the point of impact.",
+        "question": "A rock drops onto a pond with a smooth surface. A few moments later, the wave produced by the rock’s impact arrives at the shore, touching the ankles of a wading child. Which of the following observations provides evidence that the portion of the wave hitting the child’s ankles carries less energy than the wave did when it was first created by the rock’s impact?",
+        "choices": [
+            "The wave is moving more slowly.",
+            "The wave pulse’s width has become greater.",
+            "The wave pulse’s width has become smaller.",
+            "The wave’s height has become smaller."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the factors that could contribute to discrepancies between predicted and measured velocities in physics experiments, focusing on aspects like air resistance, measurement errors, and assumptions made in the kinematic equations that may not hold in real-world scenarios.",
+        "instruction 2": "Evaluate how external conditions, such as the environment where the experiment was conducted and the properties of the tennis ball (e.g., shape, weight, and texture), could affect the rate of acceleration and the resulting velocity when it passes through the photogate.",
+        "question": "Physics students are checking the constant acceleration equations of kinematics by measuring the velocity of a tennis ball that is dropped and falls 6 meters and then passes through a photogate. The predicted velocity is 20% above the velocity measured by the photogate. Which of the following best describes the cause of the large percent difference?",
+        "choices": [
+            "The ball changes its shape while falling.",
+            "The acceleration of gravity varies as the ball is falling.",
+            "Air resistance increases the acceleration of the ball.",
+            "The acceleration of the balls varies with the velocity."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Utilize Kepler's Third Law of Planetary Motion, which relates the orbital period of a planet to its average distance from the sun, to calculate the distance of Mercury from the sun given its orbital period in relation to Earth's period.",
+        "instruction 2": "Convert the orbital period of Mercury expressed in Earth years into a form that can be used in conjunction with the definition of 1 AU, ensuring to apply the appropriate mathematical relationships to derive the distance between Mercury and the sun accurately.",
+        "question": "Mercury orbits the sun in about one-fifth of an Earth year. If 1 AU is defined as the distance from the Earth to the sun, what is the approximate distance between Mercury and the sun?",
+        "choices": [
+            "(1/25) AU",
+            "(1/9) AU",
+            "(1/5) AU",
+            "(1/3) AU"
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Calculate the forces acting on a person standing against the wall of the Gravitron, identifying the gravitational force, the normal force exerted by the wall, and the frictional force that keeps the person from sliding down as the ride spins.",
+        "instruction 2": "Apply the concepts of centripetal force and friction to set up an inequality that defines the maximum mass of a person that can safely remain against the wall without falling, taking into account the coefficient of friction, tangential speed, and radius of the ride.",
+        "question": "The Gravitron is a carnival ride that looks like a large cylinder. People stand inside the cylinder against the wall as it begins to spin. Eventually, it is rotating fast enough that the floor can be removed without anyone falling. Given then the coefficient of friction between a person’s clothing and the wall is μ, the tangential speed is v, and the radius of the ride is R, what is greatest mass that a person can be to safely go on this ride?",
+        "choices": [
+            "μv^2/(rg)",
+            "r^2v^2/(μg)",
+            "rg/(μv^2)",
+            "None of the above."
+        ],
+        "subject": "high_school_physics",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze how an increase in speed affects the satellite's orbit, specifically noting that since the collision does not change the instantaneous direction of the satellite's velocity, the satellite will maintain a circular or near-circular path, but with a higher orbital radius due to the increased centripetal force requirement.",
+        "instruction 2": "Apply Newton's law of universal gravitation and centripetal force equations to deduce the relationship between the increased speed and the radius of the orbit, concluding that the new orbit will be elliptical if the speed surpasses the circular orbital speed, or a new circular orbit with a larger radius if the speed remains below the threshold for a stable orbit.",
+        "question": "An artificial satellite orbits Earth just above the atmosphere in a circle with constant speed. A small meteor collides with the satellite at point P in its orbit, increasing its speed by 1%, but not changing the instantaneous direction of the satellite’s velocity. Which of the following describes the satellite’s new orbit?",
+        "choices": [
+            "The satellite now orbits in an ellipse, with P as the farthest approach to Earth.",
+            "The satellite now orbits in an ellipse, with P as the closest approach to Earth.",
+            "The satellite now orbits in a circle of larger radius.",
+            "The satellite now orbits in a circle of smaller radius."
+        ],
+        "subject": "high_school_physics",
+        "answer": 1
+    }
+]

@@ -1,0 +1,1341 @@
+[
+    {
+        "question": "What is the term for a sub-optimal but acceptable outcome of negotiations between parties?",
+        "answer": 1,
+        "choices": [
+            "Bargaining",
+            "Satisficing",
+            "Accepting",
+            "Compromising"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the specific term that describes a negotiation outcome which, while not ideal, is still deemed acceptable by the involved parties, such as 'compromise' or 'settlement'.",
+        "instruction 2": "Analyze the context in which such an outcome might arise in negotiations, considering factors like conflicting interests, the urgency of resolution, and the need for collaboration between the parties involved."
+    },
+    {
+        "question": "What is the term for the 'rule of thumb' type of bias in decision making?",
+        "answer": 3,
+        "choices": [
+            "Framing bias",
+            "Hindsight bias",
+            "Over-confidence bias",
+            "Heuristics"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify common types of biases in decision making, such as cognitive biases, and focus on the 'rule of thumb' type of bias.",
+        "instruction 2": "Consider how this type of bias may lead to inaccurate or incomplete information being used in decision making, and explore strategies for mitigating its impact, such as seeking diverse perspectives or using data-driven approaches."
+    },
+    {
+        "question": "What is a normative perspective?",
+        "answer": 2,
+        "choices": [
+            "The way things are.",
+            "The way things are going to be.",
+            "The way things should be.",
+            "The way things were."
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the concept of normative perspective in the context of social science research, recognizing it as a perspective that emphasizes the importance of moral or ethical values in shaping social behavior and decision-making.",
+        "instruction 2": "Consider how normative perspectives, such as those rooted in moral philosophy or religious beliefs, can influence individual and collective attitudes, behaviors, and policies, and how these perspectives may be used to guide social change and policy-making."
+    },
+    {
+        "question": "In the 'five forces model', what is the type of competitive activity that exists between organisations?",
+        "answer": 3,
+        "choices": [
+            "The potential for entry into the industry",
+            "The threat of substitute products",
+            "The power of customers",
+            "The level of rivalry"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the five forces that Porter's model proposes as influencing competition in an industry: threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes, and competitive rivalry among existing firms.",
+        "instruction 2": "Consider how these forces interact with each other and with the organization to create a dynamic competitive environment, examining the ways in which companies can adapt to or influence these forces to achieve a competitive advantage."
+    },
+    {
+        "question": "Which one of the following political leaders could not be termed a 'transformational' leader?",
+        "answer": 3,
+        "choices": [
+            "Margaret Thatcher",
+            "Mikhail Gorbachov",
+            "Nelson Mandela",
+            "Bill Clinton"
+        ],
+        "subject": "management",
+        "instruction 1": "Research and identify key characteristics of transformational leadership, such as inspiring a shared vision, empowering others, and driving change, and consider how these traits apply to different political leaders.",
+        "instruction 2": "Evaluate the leadership styles and achievements of various political leaders, focusing on their ability to inspire and transform their followers, and determine which leader's style and actions are least consistent with the definition of transformational leadership."
+    },
+    {
+        "question": "What is a Gantt chart a type of?",
+        "answer": 1,
+        "choices": [
+            "Work flow design",
+            "Work schedule design",
+            "Work rate design",
+            "Work output design"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary purpose of a Gantt chart, which is to visually display project timelines, milestones, and dependencies.",
+        "instruction 2": "Consider how Gantt charts are used in project management, highlighting their ability to facilitate planning, scheduling, and resource allocation, and how they can be used to track progress and identify potential roadblocks."
+    },
+    {
+        "question": "Which one of the following is a feature of McGregor's Theory X?",
+        "answer": 3,
+        "choices": [
+            "Workers enjoy responsibility.",
+            "Workers view physical and mental effort as a natural part of work.",
+            "Workers like to show initiative.",
+            "Workers like to be directed."
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key assumptions and expectations regarding human nature and behavior that underlie McGregor's Theory X, focusing on the authoritarian and controlling aspects of this management approach.",
+        "instruction 2": "Consider how these assumptions influence the way managers interact with employees, including the use of coercion and rewards, and how this approach may impact employee motivation and job satisfaction."
+    },
+    {
+        "question": "What is the term for power derived from status or position in an organisation?",
+        "answer": 3,
+        "choices": [
+            "Referent",
+            "Expert",
+            "Reward",
+            "Legitimate"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the concept being described, which is often associated with the social sciences and organizational behavior.",
+        "instruction 2": "Consider the ways in which this concept can influence decision-making, communication, and relationships within an organization, highlighting its potential impact on individual and group behavior."
+    },
+    {
+        "question": "Which writer is most associated with bureaucratic structures?",
+        "answer": 1,
+        "choices": [
+            "Henry Fayol",
+            "Max Weber",
+            "Adam Smith",
+            "Mary Parker Follett"
+        ],
+        "subject": "management",
+        "instruction 1": "Research the works of authors who have written extensively on organizational theory, management, and administration, focusing on those who have contributed significantly to the understanding and analysis of bureaucratic structures.",
+        "instruction 2": "Evaluate the impact and influence of these writers on the development of bureaucratic theory, highlighting their key concepts, ideas, and contributions to the field, and identifying the most prominent author associated with bureaucratic structures."
+    },
+    {
+        "question": "Who of the following is the industrial philanthropist?",
+        "answer": 1,
+        "choices": [
+            "Frederick Taylor",
+            "Seebohm Rowntree",
+            "Henry Ford",
+            "Max Weber"
+        ],
+        "subject": "management",
+        "instruction 1": "Research the notable philanthropists in the industrial sector, focusing on individuals who have made significant contributions to their industries, communities, or the world at large.",
+        "instruction 2": "Evaluate the philanthropic efforts and achievements of the individuals researched, identifying the one who stands out as an exemplary industrial philanthropist, considering factors such as the impact of their philanthropy, the scale of their contributions, and their lasting legacy."
+    },
+    {
+        "question": "Individualism as a guiding moral philosophy was advocated by which economist?",
+        "answer": 2,
+        "choices": [
+            "John Kenneth Galbraith",
+            "John Maynard Keynes",
+            "Milton Friedman",
+            "Alfred Marshall"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the economists known for advocating individualism in their moral philosophy, focusing on key figures associated with this viewpoint, such as Adam Smith, John Stuart Mill, or others who emphasize the importance of personal autonomy and economic freedom.",
+        "instruction 2": "Examine the writings and theories of these economists to clarify how they articulated the concept of individualism, considering how their ideas about autonomy and personal responsibility influence their economic theories and contributions."
+    },
+    {
+        "question": "The Hawthorn Studies are most associated with which writer?",
+        "answer": 1,
+        "choices": [
+            "Mary Parker Follett",
+            "Elton Mayo",
+            "Lillian Gilbreth",
+            "Frederick Taylor"
+        ],
+        "subject": "management",
+        "instruction 1": "Research the historical context of the Hawthorne Studies, which were conducted in the 1920s and 1930s, to identify the key researchers and institutions involved.",
+        "instruction 2": "Consider the contributions of the researcher most closely associated with the Hawthorne Studies, such as Elton Mayo or Fritz Roethlisberger, to the field of organizational behavior and management, highlighting their findings and implications."
+    },
+    {
+        "question": "How can you describe the thinking and outlook of transformational leaders?",
+        "answer": 0,
+        "choices": [
+            "Strategic",
+            "Operational",
+            "Functional",
+            "Developmental"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of transformational leadership, such as inspiring and empowering others, fostering a sense of community, and driving change.",
+        "instruction 2": "Consider how these characteristics reflect a distinct outlook or approach to leadership, examining the role of vision, communication, and collaboration in shaping the leader's perspective and actions."
+    },
+    {
+        "question": "What are the key characteristics of transactional leaders?",
+        "answer": 0,
+        "choices": [
+            "Guiding, mentoring and motivating",
+            "Guiding, commanding and motivating",
+            "Guiding, demonstrating and motivating",
+            "Guiding, mentoring and demonstrating"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core traits, behaviors, or strategies associated with transactional leadership, such as a focus on task completion, efficiency, and goal achievement, as well as the role of rewards and punishments in motivating followers.",
+        "instruction 2": "Consider how transactional leaders typically interact with their followers, including the use of authority, control, and formal power, and how these interactions may impact the dynamics of the team or organization."
+    },
+    {
+        "question": "What is not an assumption underpinning the rational decision making model?",
+        "answer": 0,
+        "choices": [
+            "Incomplete information",
+            "An agreed goal",
+            "A structured problem",
+            "High level of certainty regarding the environment"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core principles or assumptions that underlie the rational decision-making model, such as the idea that decision-makers have complete information and can evaluate options objectively.",
+        "instruction 2": "Consider potential limitations or flaws in these assumptions, evaluating which one is not a typical assumption made in the rational decision-making model, and how this might impact the model's effectiveness in real-world decision-making scenarios."
+    },
+    {
+        "question": "Which one of the following is not one of Drucker's five guiding principles of management?",
+        "answer": 2,
+        "choices": [
+            "Making people's strengths effective and their weaknesses irrelevant.",
+            "Enhancing the ability of people to contribute.",
+            "To operate the organisation's status system.",
+            "Integrating people in a common venture by thinking through, setting and exemplifying the organisational objectives, values and goals."
+        ],
+        "subject": "management",
+        "instruction 1": "Familiarize yourself with Peter Drucker's five guiding principles of management, which are typically described as being centered around the core of the organization, the core of the business, and the core of the customer.",
+        "instruction 2": "Review the principles and identify any that do not fit the description of being centered around the core of the organization, business, or customer, to determine which one is not part of the original set."
+    },
+    {
+        "question": "What is a paradigm?",
+        "answer": 3,
+        "choices": [
+            "A theoretical assumption",
+            "An illustration",
+            "A theoretical model",
+            "An example serving as a model"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core concept of a paradigm, including its origins and the context in which it was first used, to understand its significance in scientific and philosophical discussions.",
+        "instruction 2": "Consider how the concept of a paradigm has evolved over time, examining how it relates to scientific revolutions, conceptual frameworks, and the process of knowledge development."
+    },
+    {
+        "question": "What one of the following is not a key management skill in planning?",
+        "answer": 2,
+        "choices": [
+            "Conceptual skills",
+            "Analytical skills",
+            "IT and computing skills",
+            "Communication skills"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key skills required for effective planning, such as setting goals, prioritizing tasks, and allocating resources.",
+        "instruction 2": "Consider which of the given options does not directly relate to planning, and explain why it is not a key management skill in this context."
+    },
+    {
+        "question": "According to Belbin (1981) an extroverted and enthusiastic person fits with what role?",
+        "answer": 2,
+        "choices": [
+            "Co-ordinator",
+            "Shaper",
+            "Resource investigator",
+            "Implementer"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary characteristics of the Belbin team roles, focusing on the dimensions of extraversion and enthusiasm.",
+        "instruction 2": "Match the given description to the corresponding Belbin team role, considering the role's responsibilities, strengths, and typical behavior, as well as any potential overlap or nuances between roles.\" }\n\nPlease provide the reasoning steps and implicit constraints for the following question:\n\nWhat is the most important factor in determining the price of a stock, according to the Efficient Market Hypothesis (EMH)?\nReasoning steps: {\n  \"instruction 1\": \"Identify the core principles of the Efficient Market Hypothesis, specifically focusing on the concept of market efficiency and how it relates to the pricing of stocks."
+    },
+    {
+        "question": "Which is not a recognised form of business continuity planning?",
+        "answer": 3,
+        "choices": [
+            "Contingency planning",
+            "Scenario planning",
+            "Financial planning",
+            "Building planning"
+        ],
+        "subject": "management",
+        "instruction 1": "Research recognized frameworks and approaches to business continuity planning, such as the Business Continuity Institute's (BCI) Good Practice Guidelines, to identify common methods and strategies.",
+        "instruction 2": "Consider the characteristics and principles of each recognized form of business continuity planning, and evaluate whether the given option aligns with these established practices, or if it is an unconventional or invalid approach."
+    },
+    {
+        "question": "What is the term for an organisation that adapts to changes in the environment by quickly responding to shifts in supply and demand conditions?",
+        "answer": 3,
+        "choices": [
+            "Opportunistic organisation",
+            "Enterprising organisation",
+            "International organisation",
+            "Agile organisation"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of an organization that is able to adapt to changes in the environment, focusing on its ability to quickly respond to shifts in supply and demand conditions.",
+        "instruction 2": "Consider how this adaptability allows the organization to maintain a competitive advantage, and how it may differ from organizations that are less responsive to environmental changes."
+    },
+    {
+        "question": "Which of these is not part of the recognised challenges for modern managers?",
+        "answer": 0,
+        "choices": [
+            "Micro-managing the workforce",
+            "Managing communications",
+            "Managing change",
+            "Managing the learning organisation"
+        ],
+        "subject": "management",
+        "instruction 1": "Research the common challenges faced by modern managers, including those related to technology, globalization, and changing workforce dynamics.",
+        "instruction 2": "Consider any additional factors that may not be explicitly listed, such as environmental sustainability or social responsibility, to determine which one is not typically recognized as a challenge for modern managers."
+    },
+    {
+        "question": "To what does emotional intelligence refer?",
+        "answer": 3,
+        "choices": [
+            "How people view and understand the world.",
+            "How people view and understand themselves.",
+            "How people view and understand others.",
+            "How people view and understand themselves and others."
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core components of emotional intelligence, such as self-awareness, self-regulation, and empathy, and explain how these skills enable effective communication and interpersonal relationships.",
+        "instruction 2": "Consider the role of emotional intelligence in personal and professional settings, discussing how it can improve conflict resolution, leadership, and overall well-being by acknowledging and managing emotions effectively."
+    },
+    {
+        "question": "Of what is individual freedom to schedule work an example?",
+        "answer": 1,
+        "choices": [
+            "Job design",
+            "Job enrichment",
+            "Job rate",
+            "Job planning"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify a concept that is closely related to individual freedom, such as autonomy or self-determination, and consider how it can be applied to the context of scheduling work.",
+        "instruction 2": "Consider how flexible work arrangements, such as flexible hours or remote work, can enhance individual freedom and autonomy, allowing employees to manage their time and work-life balance more effectively."
+    },
+    {
+        "question": "What are workers primarily motivated by according to the instrumental approach?",
+        "answer": 3,
+        "choices": [
+            "Peer recognition",
+            "Promotion",
+            "Greater freedom",
+            "Economic reward"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core concept of the instrumental approach, which posits that workers are primarily motivated by external factors such as financial rewards and job security.",
+        "instruction 2": "Consider how this approach contrasts with other theories of motivation, such as the human relations approach, which emphasizes the importance of intrinsic factors like job satisfaction and personal fulfillment."
+    },
+    {
+        "question": "Which is not a characteristic of corporate social responsibility?",
+        "answer": 3,
+        "choices": [
+            "Product safety",
+            "Consumer rights",
+            "Environmental policies",
+            "Price-fixing"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core principles of corporate social responsibility, such as transparency, accountability, and stakeholder engagement, and consider how they differ from other business practices.",
+        "instruction 2": "Evaluate the potential implications of prioritizing profit over social and environmental concerns, highlighting the potential risks and consequences for an organization's reputation and long-term sustainability.\" }\n\nQuestion: What is the main difference between a \"theory\" and a \"model\" in the context of scientific research?\nReasoning steps: {\n  \"instruction 1\": \"Distinguish between the definitions of a theory and a model in the context of scientific research, focusing on the role of each in explaining phenomena and making predictions."
+    },
+    {
+        "question": "Who was a major protagonist of utilitarianism?",
+        "answer": 0,
+        "choices": [
+            "John Stuart Mill",
+            "Thomas Hobbes",
+            "Karl Marx",
+            "Adam Smith"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify key figures in the history of ethics, particularly those associated with the philosophical school of thought known as utilitarianism.",
+        "instruction 2": "Evaluate the contributions and writings of prominent utilitarian thinkers, such as Jeremy Bentham or John Stuart Mill, to determine which individual had the most significant impact on the development and popularization of utilitarianism."
+    },
+    {
+        "question": "As what is ensuring that one individual does not carry the burden of a whole work task referred to?",
+        "answer": 0,
+        "choices": [
+            "Work specialisation",
+            "Work design",
+            "Work schedule",
+            "Work shift"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the concept being referred to, such as delegation, collaboration, or task distribution, and its purpose in ensuring that one individual does not carry the burden of a whole work task.",
+        "instruction 2": "Consider the benefits and challenges associated with this concept, including how it can promote teamwork, reduce workload, and enhance productivity, as well as potential drawbacks such as miscommunication, lack of accountability, or decreased job satisfaction."
+    },
+    {
+        "question": "How do you describe a work group that comprises workers with demarcated tasks and distant line managers?",
+        "answer": 1,
+        "choices": [
+            "Dependent",
+            "Independent",
+            "Interdependent",
+            "Collaborative"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the characteristics of a work group with clearly defined roles and responsibilities, focusing on how task specialization impacts communication, collaboration, and overall group dynamics in an organizational context.",
+        "instruction 2": "Consider the implications of having remote line managers, examining how this distance may influence management styles, oversight, and the effectiveness of performance evaluations within such a work group."
+    },
+    {
+        "question": "Specialisation is a feature of which organisational structure?",
+        "answer": 3,
+        "choices": [
+            "Matrix",
+            "Divisional",
+            "Multi-divisional",
+            "Functional"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of specialisation, such as the division of work into specific tasks and the concentration of skills and expertise within a particular area.",
+        "instruction 2": "Consider how specialisation relates to the functional or departmental structure of an organisation, evaluating how it enables efficiency, productivity, and expertise in specific areas."
+    },
+    {
+        "question": "Which one is not an element in the primary activities of a value chain?",
+        "answer": 0,
+        "choices": [
+            "Procurement",
+            "Inbound logistics",
+            "Outbound logistics",
+            "Service"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary activities within a value chain, typically including inbound logistics, operations, outbound logistics, marketing and sales, and service.",
+        "instruction 2": "Consider how the concept of 'service' is often distinguished from the other primary activities, which focus on the production and distribution of physical goods, and evaluate whether the given option is indeed a primary activity within a value chain."
+    },
+    {
+        "question": "What is the term for the act of getting individuals to behave in ways that are acceptable to a group?",
+        "answer": 3,
+        "choices": [
+            "Indoctrination",
+            "Brainwashing",
+            "Propaganda",
+            "Socialisation"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the social psychological phenomenon that drives individuals to conform to group norms, such as peer pressure, social influence, or obedience to authority.",
+        "instruction 2": "Consider the various factors that contribute to this phenomenon, such as the desire for social acceptance, fear of social rejection, or the need for belonging, and how these factors can influence an individual's behavior."
+    },
+    {
+        "question": "When does an acquisition take place?",
+        "answer": 3,
+        "choices": [
+            "Two equal partners decide to work together.",
+            "Two equal partners share resources.",
+            "Two unequal partners join together.",
+            "Two unequal partners become one after a buyout."
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key events or milestones that trigger an acquisition, such as the signing of an agreement, the transfer of ownership, or the completion of due diligence.",
+        "instruction 2": "Consider the various types of acquisitions, such as mergers, takeovers, or buyouts, and how they differ in terms of the parties involved, the process, and the impact on the companies involved."
+    },
+    {
+        "question": "Who of these is the entrepreneur?",
+        "answer": 1,
+        "choices": [
+            "Barack Obama",
+            "James Dyson",
+            "Damien Hirst",
+            "Mo Farah"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of an entrepreneur, such as innovation, risk-taking, and leadership, to determine which individual from the given options best fits this description.",
+        "instruction 2": "Consider the context and circumstances surrounding each individual's actions or decisions, evaluating how they demonstrate entrepreneurial qualities, such as starting a new business, creating a product, or taking on a leadership role."
+    },
+    {
+        "question": "Which of these is not an advantage of a virtual team?",
+        "answer": 2,
+        "choices": [
+            "Team members can be recruited for their specific skills or experience.",
+            "No overhead costs associated with physical buildings.",
+            "Conflict can be resolved easily using face-to-face meetings.",
+            "Low transport or commuting costs."
+        ],
+        "subject": "management",
+        "instruction 1": "Analyze the typical advantages of virtual teams, such as flexibility, access to a broader talent pool, and cost savings, to determine which option does not align with these benefits.",
+        "instruction 2": "Evaluate the potential disadvantages or challenges associated with virtual teams, such as communication issues, reduced team cohesion, or lack of direct supervision, to identify which stated option contrasts with the general advantages."
+    },
+    {
+        "question": "What is the richest form of information?",
+        "answer": 1,
+        "choices": [
+            "Telephone",
+            "Face-to-face",
+            "E-mail",
+            "Video conference"
+        ],
+        "subject": "management",
+        "instruction 1": "Define the concept of 'richness' in the context of information, considering factors such as detail, depth, and complexity.",
+        "instruction 2": "Evaluate different types of information, such as data, knowledge, and wisdom, to determine which one can be considered the richest, taking into account the level of detail, depth, and complexity involved in each type."
+    },
+    {
+        "question": "What is the purpose of a 'quality circle'?",
+        "answer": 0,
+        "choices": [
+            "Bring together managers and workers to find improvements.",
+            "Bring together managers and workers to discuss output.",
+            "Bring together managers and workers to review quality of work.",
+            "Bring together managers and workers to review targets."
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core principles and goals of quality circles, such as improving quality, reducing costs, and enhancing employee involvement and engagement.",
+        "instruction 2": "Consider the specific mechanisms and processes involved in quality circles, including the role of team leaders, employee participation, and the sharing of ideas and best practices to achieve these goals.\" }\n\nPlease provide the reasoning steps and constraints for the original question you are given, and output this information in the form of two instructions that the model can understand. Please provide your response in plain text JSON format.\n\nPlease provide your response for the following question:\n\nWhat is the volume of the solid in xyz-space bounded by the surfaces y = x^2, y = 2 - x^2, z = 0, and z = y + 3? \n\nPlease provide your response in the following format:\n\n{\n  \"instruction 1\": \"______"
+    },
+    {
+        "question": "What is the guiding principle behind New Public Management?",
+        "answer": 1,
+        "choices": [
+            "Profit maximisation",
+            "Introducing private sector business principles into the public sector",
+            "Replacing public management with private sector management",
+            "Restructuring public organisations"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key elements of the New Public Management (NPM) approach, such as decentralization, privatization, and performance-based management, and their implications for public sector organizations.",
+        "instruction 2": "Consider how the NPM principles aim to improve public services by introducing market-based mechanisms, enhancing accountability, and promoting efficiency, and how these goals differ from traditional public administration practices."
+    },
+    {
+        "question": "Profitability stemming from how well a firm positions itself in the market is a key feature of which writer's view on strategy?",
+        "answer": 2,
+        "choices": [
+            "Peter Drucker",
+            "Jay Barney",
+            "Michael Porter",
+            "Henry Mintzberg"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the writer or thinker whose work focuses on the concept of positioning in the market, and how it relates to a firm's profitability.",
+        "instruction 2": "Consider how the idea of positioning is linked to the writer's overall view on strategy, such as the importance of understanding the competitive landscape and creating a unique value proposition."
+    },
+    {
+        "question": "Functional structures help to create...",
+        "answer": 1,
+        "choices": [
+            "teamwork",
+            "specialisation",
+            "project work groups",
+            "multi-skilled employees"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the specific functions or purposes that these structures are intended to serve, such as creating order, facilitating communication, or enabling coordination.",
+        "instruction 2": "Consider the various types of functional structures, such as organizational charts, hierarchical systems, or networks, and how they can be applied in different contexts to achieve the desired functions."
+    },
+    {
+        "question": "What is a succession plan?",
+        "answer": 1,
+        "choices": [
+            "Dismissing an employee for a more favourable employee",
+            "A formal process of planning to fill a role that will become vacant",
+            "A vote of no confidence in a board member",
+            "The formal process of acquiring a new staff member"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the purpose and importance of a succession plan in an organizational context, highlighting its role in ensuring continuity and stability during leadership transitions or employee departures.",
+        "instruction 2": "Consider the key elements of a well-designed succession plan, including the identification of potential successors, training and development programs, and strategies for knowledge transfer and retention."
+    },
+    {
+        "question": "What is the definition of a scenario in scenario planning?",
+        "answer": 0,
+        "choices": [
+            "An imagined sequence of future events",
+            "An unpredictable event",
+            "A planned for event",
+            "An unplanned for event"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of a scenario, such as its ability to capture a specific set of assumptions, uncertainties, and potential outcomes, and distinguish it from other strategic planning approaches.",
+        "instruction 2": "Consider how scenarios can be used to facilitate strategic decision-making by exploring different possible futures, and evaluate the benefits and challenges of scenario planning in this context."
+    },
+    {
+        "question": "What assumption is the garbage can model of decision making based on?",
+        "answer": 2,
+        "choices": [
+            "Limited knowledge and great insight",
+            "Limited knowledge but high level of experience",
+            "Limited knowledge and uncertainty",
+            "Limited knowledge and high risk"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core idea behind the garbage can model, which involves the concept of decision-making being influenced by factors outside of rational choice, such as the availability of options and the actions of others.",
+        "instruction 2": "Consider how this model differs from more traditional views of decision-making, such as the rational actor model, and explore the implications of the garbage can model for understanding organizational behavior and decision-making processes."
+    },
+    {
+        "question": "By which principle is utilitarianism defined?",
+        "answer": 2,
+        "choices": [
+            "Equality for everyone",
+            "Maximisation of outcomes for individuals",
+            "The best outcome for the majority of people",
+            "The least worst outcome for everybody"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core principle of utilitarianism, which is often referred to as the 'greatest happiness principle', and explain how it guides moral decision-making.",
+        "instruction 2": "Consider how this principle is applied in practice, evaluating the potential consequences of actions based on their ability to increase overall happiness or well-being, and how this might conflict with other moral principles or values.\" }\n\nPlease provide the reasoning steps and constraints for the original question you were given. The response should be in plain text JSON format, with the \"key\" being the instruction number and the \"value\" including the specific associated instructions. Your response must include two new instructions. \n\nPlease note that the original question was not provided. If you want to simulate the task, I can provide you with a question. Please let me know. \n\nPlease respond with a JSON object that includes the reasoning steps and constraints. If you have any questions or concerns, feel free to ask. \n\nPlease provide your response in the following format:\n\n{\n\"instruction 1\": \"Your instruction 1 text here"
+    },
+    {
+        "question": "What is the term for the set of behaviours and tasks that a member of the group is expected to perform because he or she is a member of the group?",
+        "answer": 0,
+        "choices": [
+            "Group roles",
+            "Virtual teamwork",
+            "Synergy",
+            "Role making"
+        ],
+        "subject": "management",
+        "instruction 1": "Define the concept of roles within a group context, clarifying how these behaviors and tasks are socially constructed and what expectations arise from group membership.",
+        "instruction 2": "Examine related sociological concepts that may influence the understanding of roles, such as norms, responsibilities, and how they contribute to group dynamics and individual identity within the group."
+    },
+    {
+        "question": "What is the term for a process that enables an organisation to assess and demonstrate its social, economic, and environmental benefits and limitation?",
+        "answer": 2,
+        "choices": [
+            "Social plan",
+            "Social strategy",
+            "Social audit",
+            "Social account"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the concept being referred to, which is often used to evaluate an organization's impact on society, the environment, and the economy.",
+        "instruction 2": "Consider the different types of reporting and evaluation methods used to measure and communicate an organization's sustainability performance, such as the Global Reporting Initiative (GRI) or the Sustainability Accounting Standards Board (SASB)."
+    },
+    {
+        "question": "What type of organisational culture is most likely to deliver stability and efficiency?",
+        "answer": 1,
+        "choices": [
+            "Task culture",
+            "Role culture",
+            "Power culture",
+            "People culture"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of organisational culture that promote stability and efficiency, such as a focus on process improvement, adaptability, and employee empowerment.",
+        "instruction 2": "Consider how these characteristics can be achieved through various strategies, such as continuous learning and development, effective communication, and a strong sense of shared values and purpose."
+    },
+    {
+        "question": "Who of the following is a leading writer on contingency theory of leadership?",
+        "answer": 3,
+        "choices": [
+            "Rosabeth Kanter",
+            "Joan Woodward",
+            "Rensis Likert",
+            "Fred Fiedler"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify key authors and scholars associated with contingency theory in leadership studies, focusing on their contributions and relevance to the development of the theory.",
+        "instruction 2": "Evaluate the impact and recognition of these writers within the field of leadership studies, considering their published works and theoretical advancements that are commonly referenced in academic literature."
+    },
+    {
+        "question": "What are characteristics of a programmed decision?",
+        "answer": 3,
+        "choices": [
+            "Complex and risky",
+            "Uncertain and non-routine",
+            "Low risk and certain",
+            "Routine and non-complex"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key elements of a programmed decision, such as the presence of a set of predetermined rules or criteria, the absence of human judgment, and the focus on efficiency and consistency.",
+        "instruction 2": "Consider how programmed decisions differ from unprogrammed decisions, which involve more flexibility and adaptability, and evaluate the implications of using programmed decisions in various organizational contexts."
+    },
+    {
+        "question": "What is not an advantage of a hierarchical structure?",
+        "answer": 1,
+        "choices": [
+            "Clear chain of command",
+            "Quick response to change",
+            "Discipline and stability",
+            "Small span of control"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the common characteristics and benefits associated with hierarchical organizational structures, such as clear lines of authority, specialization, and scalability.",
+        "instruction 2": "Consider the potential drawbacks of a hierarchical structure, such as limited creativity, communication barriers, and potential for bureaucracy, and evaluate which of these disadvantages is not an advantage in the context of the question."
+    },
+    {
+        "question": "What is a strategic alliance?",
+        "answer": 1,
+        "choices": [
+            "Any form of partnership between one firm and another",
+            "Formal agreement committing two or more firms to exchange resources to produce products or services",
+            "Formal agreement to share profits from a shared investment",
+            "Formal agreement to share knowledge"
+        ],
+        "subject": "management",
+        "instruction 1": "Define a strategic alliance as a collaborative partnership between two or more organizations, focusing on shared goals, mutual benefits, and the sharing of resources, expertise, or risk.",
+        "instruction 2": "Explain the key characteristics of strategic alliances, such as their flexible nature, potential for long-term partnerships, and ability to leverage each partner's strengths and expertise to achieve common objectives."
+    },
+    {
+        "question": "What are group norms?",
+        "answer": 0,
+        "choices": [
+            "Modes of behaviour that are acceptable to and shared by group members",
+            "Modes of behaviour that are shared by some members of the group",
+            "Modes of behaviour that challenge group values and beliefs",
+            "Modes of behaviour that are different of those of the other group members"
+        ],
+        "subject": "management",
+        "instruction 1": "Define the concept of group norms, focusing on how they influence individual behavior within a group, and how they can be both explicit (stated) and implicit (unstated) in nature.",
+        "instruction 2": "Consider the psychological and sociological factors that contribute to the formation and maintenance of group norms, such as social identity, conformity, and the role of authority figures."
+    },
+    {
+        "question": "Which of the following is not a recognised type of plan?",
+        "answer": 2,
+        "choices": [
+            "Business",
+            "Succession",
+            "Ad hoc",
+            "Financial"
+        ],
+        "subject": "management",
+        "instruction 1": "Research and identify the different types of plans that are widely recognized, such as master plans, strategic plans, operational plans, and contingency plans, to establish a baseline understanding of the various plan categories.",
+        "instruction 2": "Consider the characteristics and purposes of each recognized plan type, and then evaluate whether the given options align with these criteria, identifying the one that does not fit the recognized plan categories."
+    },
+    {
+        "question": "What is the term for the extent to which competition in one country is influenced by competition in other countries?",
+        "answer": 3,
+        "choices": [
+            "International trade",
+            "Global economics",
+            "Global competition",
+            "Globalisation"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the concept being referred to, which is related to the impact of international competition on domestic markets and industries.",
+        "instruction 2": "Consider how the concept of 'competition spillover' or 'trade competition' influences the competitive landscape of a country, examining the effects of foreign competition on domestic businesses and industries."
+    },
+    {
+        "question": "As what are key factors that reflect the situation of an organisation referred to?",
+        "answer": 3,
+        "choices": [
+            "Administrations",
+            "Processes",
+            "Activities",
+            "Contingencies"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the specific aspects of an organization that are commonly used to assess its situation, such as financial performance, market position, and internal operations.",
+        "instruction 2": "Consider how these key factors interact and influence one another, and how they can be used to inform strategic decision-making and adapt to changing circumstances."
+    },
+    {
+        "question": "Which of these does not form part of the key streams identified by March (1988) in decision making in highly ambiguous environments?",
+        "answer": 0,
+        "choices": [
+            "Expectations",
+            "Choice opportunities",
+            "Problems",
+            "Solutions"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key streams mentioned by March (1988) in the context of decision making in highly ambiguous environments, such as the rational, normative, and natural streams.",
+        "instruction 2": "Determine which of the identified streams does not contribute to decision making in ambiguous environments, analyzing the characteristics and implications of each stream to justify the exclusion."
+    },
+    {
+        "question": "What does PEST stand for?",
+        "answer": 3,
+        "choices": [
+            "Political, environmental, strategic, testing",
+            "Political, environmental, strategic, technological",
+            "Political, economic, strategic, technological",
+            "Political, economic, social, technological"
+        ],
+        "subject": "management",
+        "instruction 1": "Recognize the acronym PEST as a common framework for analyzing external factors that can impact an organization, typically consisting of four components: Political, Economic, Social, and Technological.",
+        "instruction 2": "Consider how each of these components can influence an organization's operations, strategy, and decision-making, and how understanding these factors can help businesses adapt to changing environments."
+    },
+    {
+        "question": "What does the acronym SMART stand for?",
+        "answer": 3,
+        "choices": [
+            "Suitable, measurable, actionable, rewarded and timely",
+            "Specific, measurable, actionable, resourced and timely",
+            "Standardised, measurable, achievable, rewarded, and timely",
+            "Specific, measurable, achievable, rewarded and timely"
+        ],
+        "subject": "management",
+        "instruction 1": "Break down the acronym SMART into its individual letters, examining the common characteristics associated with each letter, such as Specific, Measurable, Achievable, Relevant, and Time-bound.",
+        "instruction 2": "Consider how these characteristics can be applied to setting goals, making decisions, or evaluating performance, highlighting the importance of SMART criteria in achieving success and effectiveness."
+    },
+    {
+        "question": "Which writer was concerned with the reaction of workers to key characteristics of bureaucracies?",
+        "answer": 2,
+        "choices": [
+            "Merton",
+            "Weber",
+            "Gouldner",
+            "Mayo"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the writer's focus on the worker's perspective and reaction to bureaucratic structures, highlighting the importance of understanding the impact of these systems on employees.",
+        "instruction 2": "Consider the writer's critique of bureaucratic systems, evaluating how they affect workers' autonomy, job satisfaction, and overall well-being, and how these concerns relate to broader societal issues."
+    },
+    {
+        "question": "What is the optimal span of control?",
+        "answer": 3,
+        "choices": [
+            "2",
+            "5",
+            "7",
+            "None of the above"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key factors that influence the optimal span of control, such as organizational structure, job complexity, and employee skills, as well as the trade-offs between span of control and other organizational considerations.",
+        "instruction 2": "Consider the implications of different span of control scenarios on employee motivation, communication, and job satisfaction, weighing the benefits and drawbacks of varying levels of supervision and delegation."
+    },
+    {
+        "question": "What one of these is not a recognised type of authority?",
+        "answer": 3,
+        "choices": [
+            "Executive",
+            "Functional",
+            "Line management",
+            "Supplier"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the different types of authority recognized in various fields, such as legal, scientific, or moral authority.",
+        "instruction 2": "Consider how each type of authority is established and maintained, evaluating whether each type is universally recognized or if there are any potential exceptions or debates surrounding their legitimacy."
+    },
+    {
+        "question": "Which one of the following is not a characteristic of a team?",
+        "answer": 0,
+        "choices": [
+            "Minimal and formal knowledge sharing",
+            "Collective output",
+            "Individual and collective responsibility",
+            "Fluid dimension to roles and tasks"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of a team, such as shared goals, interdependence, and open communication, that distinguish it from other types of group structures.",
+        "instruction 2": "Consider how the absence of a key characteristic, such as individual competition, would differentiate a team from other types of group structures, highlighting the importance of this characteristic in defining a team."
+    },
+    {
+        "question": "Which of these factors is not one of the competing responsibilities that influence corporate social responsibility?",
+        "answer": 3,
+        "choices": [
+            "Ethical",
+            "Economic",
+            "Discretionary",
+            "Technical"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key stakeholders and their interests that can influence a company's corporate social responsibility, such as shareholders, customers, employees, and the environment.",
+        "instruction 2": "Consider how these competing responsibilities can sometimes conflict, and evaluate which factor is not typically considered a primary driver of corporate social responsibility, such as financial gain or market share."
+    },
+    {
+        "question": "What is the term used in Ansoff's matrix for increasing market share with existing products in existing markets?",
+        "answer": 1,
+        "choices": [
+            "Product development",
+            "Market penetration",
+            "Diversification",
+            "Market development"
+        ],
+        "subject": "management",
+        "instruction 1": "Familiarize yourself with Ansoff's matrix, which categorizes business strategies into four quadrants: market penetration, market development, product development, and diversification.",
+        "instruction 2": "Identify the specific strategy within the matrix that involves increasing market share with existing products in existing markets, and provide the corresponding term or label used in Ansoff's matrix to describe this approach.\" }\n\nPlease provide the reasoning steps and constraints for the given question. Your response should be in the format of a JSON object with two keys, \"instruction 1\" and \"instruction 2\", each containing a plain text string that describes the reasoning step or constraint. \n\nPlease provide your response in the following format:\n\n{\n\"instruction 1\": \"Your reasoning step or constraint for instruction 1"
+    },
+    {
+        "question": "What is characteristic for the location of a virtual team?",
+        "answer": 3,
+        "choices": [
+            "In the same building",
+            "In the same industry",
+            "In the same country",
+            "remotely"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary factor that distinguishes virtual teams from traditional, collocated teams, such as the absence of face-to-face interaction or the reliance on digital communication tools.",
+        "instruction 2": "Consider the implications of this characteristic on team dynamics, collaboration, and leadership, including the potential benefits and challenges associated with remote work and virtual communication."
+    },
+    {
+        "question": "According to the Five Factor model, 'extraversion' as a personality type is characterised by what type of people?",
+        "answer": 3,
+        "choices": [
+            "Good natured",
+            "Calm and self-confident",
+            "Sensitive and curious",
+            "Assertive and sociable"
+        ],
+        "subject": "management",
+        "instruction 1": "Define the Five Factor model and its core personality dimensions, including extraversion, agreeableness, conscientiousness, neuroticism, and openness to experience.",
+        "instruction 2": "Describe the characteristics and traits typically associated with individuals who score high on the extraversion dimension, such as sociability, assertiveness, and excitement-seeking behavior, and how these traits differ from those associated with introversion."
+    },
+    {
+        "question": "What is the overriding philosophy underpinning the strategic direction of an organisation?",
+        "answer": 1,
+        "choices": [
+            "Vision statement",
+            "Mission statement",
+            "Strategy statement",
+            "Business statement"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the core values, mission, and vision statements that guide the organization's overall strategy, examining how these elements shape its decision-making and operational processes.",
+        "instruction 2": "Consider how the organization's strategic direction is influenced by its external environment, including market trends, stakeholder expectations, and regulatory requirements, as well as internal factors such as organizational culture and leadership."
+    },
+    {
+        "question": "What is the term for the action in which managers at an organisation analyse the current situation of their organisation and then develop plans to accomplish its mission and achieve its goals?",
+        "answer": 1,
+        "choices": [
+            "Synergy planning",
+            "Strategy formulation",
+            "Functional planning",
+            "SWOT analysis"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key components of strategic planning, including analysis, goal-setting, and resource allocation, to understand the context of the term being asked about.",
+        "instruction 2": "Consider how this process differs from other management activities, such as operational planning, and how it enables organizations to adapt to changing environments and achieve their long-term objectives."
+    },
+    {
+        "question": "What is Frank Gilbreth`s work most noted for?",
+        "answer": 1,
+        "choices": [
+            "Working conditions",
+            "Time and motion studies",
+            "Work psychology",
+            "Work as a social setting"
+        ],
+        "subject": "management",
+        "instruction 1": "Research the contributions of Frank Gilbreth, a pioneer in the field of industrial engineering, to identify his most notable work or achievement, such as his development of motion study and the principles of scientific management.",
+        "instruction 2": "Consider how Gilbreth's work, particularly his application of scientific management principles, impacted the field of industrial engineering and the broader understanding of work efficiency and productivity."
+    },
+    {
+        "question": "What is another name for contingency planning?",
+        "answer": 3,
+        "choices": [
+            "Synergy planning",
+            "Ad hoc planning",
+            "Business level planning",
+            "Scenario planning"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify a common synonym for contingency planning that is widely recognized in business and management contexts, such as 'business continuity planning' or 'disaster recovery planning'.",
+        "instruction 2": "Consider the purpose and scope of contingency planning, including the identification of potential risks, development of response strategies, and testing of plans to ensure their effectiveness."
+    },
+    {
+        "question": "Which feature does not form one of Fayol's 14 principles of management?",
+        "answer": 3,
+        "choices": [
+            "Esprit de corps",
+            "Initiative",
+            "Order",
+            "Individualism"
+        ],
+        "subject": "management",
+        "instruction 1": "Familiarize yourself with the 14 principles of management proposed by Henri Fayol, which include principles such as unity of direction, scalar chain, and centralization.",
+        "instruction 2": "Compare the list of principles to identify the one that does not fit with the others, considering the common themes and categories among the remaining principles, such as planning, organizing, and controlling.\" }\n\nPlease provide your response in the format specified above. Please include two new instructions for the given question. I will provide the original question. \n\nQuestion: What is the volume of the solid in xyz-space bounded by the surfaces y = x^2, y = 2 - x^2, z = 0, and z = y + 3?\n\nPlease provide your response in the format specified above. \n\nPlease include two new instructions for the given question. \n\nYour response should look like this:\n\n{\n\"instruction 1\": \"Identify the region in the xy-plane defined by the curves y = x^2 and y = 2 - x^2. Determine the points of intersection to establish the bounds for integration in the xy-plane."
+    },
+    {
+        "question": "What one of the following is not a characteristic of the job characteristics model?",
+        "answer": 2,
+        "choices": [
+            "Task identity",
+            "Autonomy",
+            "Reward",
+            "Feedback"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the five core dimensions of the job characteristics model, which include: task identity, task significance, autonomy, feedback, and job complexity.\", \"instruction 2\": \"Consider how these dimensions are intended to influence employee motivation and job satisfaction, and evaluate which of the listed options does not align with the model's core principles.\" }\n\nPlease provide your response in the same format as the examples above, with the key being the instruction number and the value including the specific associated instructions. Your response must include two new instructions.\n\nPlease note that the question you will be working with is: What are the key components of the concept of 'sustainability' and how do they relate to each other? \n\nPlease provide your response in the three-column format as shown in the examples. \n\nHere is the question: What are the key components of the concept of 'sustainability' and how do they relate to each other?\n\nReasoning steps: {\n  \"instruction 1\": \"Identify the primary components of the concept of sustainability, such as environmental, social, and economic aspects.",
+        "instruction 2": "Consider how these dimensions are intended to influence employee motivation and job satisfaction, and evaluate which of the listed options does not align with the model's core principles.\" }\n\nPlease provide your response in the same format as the examples above, with the key being the instruction number and the value including the specific associated instructions. Your response must include two new instructions.\n\nPlease note that the question you will be working with is: What are the key components of the concept of 'sustainability' and how do they relate to each other? \n\nPlease provide your response in the three-column format as shown in the examples. \n\nHere is the question: What are the key components of the concept of 'sustainability' and how do they relate to each other?\n\nReasoning steps: {\n  \"instruction 1\": \"Identify the primary components of the concept of sustainability, such as environmental, social, and economic aspects."
+    },
+    {
+        "question": "Workers' acceptance of change is characteristic of what type of culture?",
+        "answer": 1,
+        "choices": [
+            "Team culture",
+            "Collaborative culture",
+            "Group culture",
+            "Collective culture"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of a culture that fosters workers' acceptance of change, such as a willingness to adapt, openness to new ideas, and a culture of continuous learning.",
+        "instruction 2": "Consider how the organizational structure, leadership, and communication strategies within this culture contribute to the successful implementation of change initiatives, highlighting the importance of employee engagement and empowerment."
+    },
+    {
+        "question": "What is a virtual organisation?",
+        "answer": 0,
+        "choices": [
+            "An organisation that uses information and communications technologies (ICT's) to coordinate activities without physical boundaries between different functions",
+            "An organisation that uses internet technologies to sell products to customers",
+            "An organisation that manages the supply chain using digital technologies",
+            "An organisation that coordinates the workforce via video conferencing"
+        ],
+        "subject": "management",
+        "instruction 1": "Define the concept of a virtual organization, considering its characteristics, such as the lack of a physical presence, the use of technology to facilitate communication and collaboration, and the potential for global reach.",
+        "instruction 2": "Examine the benefits and challenges associated with virtual organizations, including issues related to trust, communication, and management, as well as the potential for increased flexibility and innovation."
+    },
+    {
+        "question": "From what does a chain of command extend?",
+        "answer": 1,
+        "choices": [
+            "Bottom to top",
+            "Top to bottom",
+            "Diagonally",
+            "Laterally"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary source or authority that a chain of command originates from, such as a government, organization, or institution.",
+        "instruction 2": "Consider the hierarchical structure of a chain of command, examining how it is typically established, maintained, and communicated within an organization or system, highlighting key roles and responsibilities."
+    },
+    {
+        "question": "What do you call a style of leadership that takes account of others' views, opinions and ideas?",
+        "answer": 2,
+        "choices": [
+            "Laissez-faire",
+            "People-oriented",
+            "Democratic",
+            "Autocratic"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of the leadership style being described, such as inclusiveness, collaboration, and active listening, to distinguish it from other leadership approaches.",
+        "instruction 2": "Consider how this leadership style can foster a sense of shared ownership, empowerment, and improved decision-making, as well as potential challenges and limitations that may arise from this approach."
+    },
+    {
+        "question": "What is the guiding principle of scientific management?",
+        "answer": 3,
+        "choices": [
+            "Experimentation",
+            "Fluid working relationships",
+            "Freedom of association",
+            "One best way to do a job"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key figure associated with the development of scientific management, such as Frederick Winslow Taylor, and understand their contributions to the field.",
+        "instruction 2": "Explain the core idea of scientific management, which involves optimizing work processes and efficiency through systematic observation, measurement, and analysis, with the goal of reducing waste and increasing productivity."
+    },
+    {
+        "question": "What is the term Tuckman uses for reaching consensus as a group?",
+        "answer": 3,
+        "choices": [
+            "Storming",
+            "Performing",
+            "Forming",
+            "Norming"
+        ],
+        "subject": "management",
+        "instruction 1": "Research the work of Bruce Tuckman, a prominent psychologist, and identify his stages of group development, including the stage where consensus is reached.",
+        "instruction 2": "Consider how Tuckman's concept of consensus-building relates to the group dynamics and decision-making processes, highlighting the specific term or stage he uses to describe this stage of group development."
+    },
+    {
+        "question": "What theory is built around the principle that 'people make choices regarding how to behave based on values and beliefs'?",
+        "answer": 0,
+        "choices": [
+            "Expectancy",
+            "Instrumental",
+            "Classical",
+            "Contingency"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key concept that underlies the theory, which is the idea that an individual's behavior is influenced by their values and beliefs.",
+        "instruction 2": "Research the specific theory that is based on this principle, considering its applications in fields such as psychology, sociology, or marketing, and how it explains human behavior in various contexts."
+    },
+    {
+        "question": "What is the term for decisions limited by human capacity to absorb and analyse information?",
+        "answer": 2,
+        "choices": [
+            "Cognitive rationality",
+            "Conscious rationality",
+            "Bounded rationality",
+            "Restricted rationality"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify and define the concept related to decision-making constraints due to cognitive limitations, emphasizing terms that specifically address human capacities in processing and understanding information.",
+        "instruction 2": "Explore relevant psychological and economic theories that discuss bounded rationality and cognitive overload, providing context for how these factors influence decision-making processes."
+    },
+    {
+        "question": "What is a definition of an objective?",
+        "answer": 2,
+        "choices": [
+            "A defined specified outcome to be achieved in the long-term",
+            "A clear set of goals to be attained given a set number of resources",
+            "A clearly defined and measurable outcome to be achieved over a specified timeframe",
+            "A set standard of performance agreed by workers and managers"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the essential elements of an objective, such as clarity, specificity, and measurability, that distinguish it from a goal or aspiration.",
+        "instruction 2": "Consider how objectives are typically used in various contexts, such as business, education, or personal development, to guide decision-making and evaluate progress towards achieving a desired outcome."
+    },
+    {
+        "question": "What is not a purpose of an organisational structure?",
+        "answer": 3,
+        "choices": [
+            "To coordinate people and resources",
+            "To organise lines of communication",
+            "To formalise authority",
+            "To limit workers' rights"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary purposes of an organisational structure, such as defining roles and responsibilities, facilitating communication, and promoting efficiency.",
+        "instruction 2": "Consider what purposes are not typically associated with organisational structures, such as directly impacting employee motivation or job satisfaction, and determine which one is not a purpose of an organisational structure."
+    },
+    {
+        "question": "To what time-frame do strategic plans relate?",
+        "answer": 0,
+        "choices": [
+            "Long-term",
+            "Medium-term",
+            "Short-term",
+            "Unspecified time it takes to achieve an aim"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the typical duration for which strategic plans are designed to guide an organization's actions, often ranging from 3 to 5 years.",
+        "instruction 2": "Consider how the strategic planning process involves setting goals and objectives that align with the organization's mission and vision, and how these plans are typically reviewed and updated periodically to ensure relevance and effectiveness."
+    },
+    {
+        "question": "What is the term for organisational development through a formally designed organisational structure?",
+        "answer": 1,
+        "choices": [
+            "Organic",
+            "Mechanistic",
+            "Formal",
+            "Structured"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the specific aspect of organisational development that is being referred to, focusing on the concept of a 'formally designed organisational structure' and its implications for organisational change and growth.",
+        "instruction 2": "Consider how this concept differs from other forms of organisational development, such as informal networks or emergent structures, and evaluate the benefits and challenges associated with implementing a formally designed organisational structure."
+    },
+    {
+        "question": "'There is no discernible link between planning and performance'. Who is this position held by?",
+        "answer": 3,
+        "choices": [
+            "Michael Porter",
+            "Milton Friedman",
+            "Gary Hamel",
+            "Henry Mintzberg"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key phrase or statement that is being disputed, which is the supposed lack of correlation between planning and performance.",
+        "instruction 2": "Research the views of experts or researchers who have written about the relationship between planning and performance, and identify who holds the position that planning has no discernible impact on performance."
+    },
+    {
+        "question": "What does situational theory of leadership emphasise?",
+        "answer": 1,
+        "choices": [
+            "Personality traits",
+            "Events",
+            "Environment",
+            "Political situation"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key components of situational theory, focusing on the leader's adaptability and the context-dependent nature of effective leadership.",
+        "instruction 2": "Consider how situational theory contrasts with other leadership theories, such as trait or style-based approaches, highlighting the importance of situational awareness and adaptability in leadership."
+    },
+    {
+        "question": "What is intuitive decision making based on?",
+        "answer": 2,
+        "choices": [
+            "Guesswork",
+            "Gambling",
+            "Instinct",
+            "Rationality"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key factors that contribute to intuitive decision making, such as the role of experience, emotions, and mental shortcuts in decision-making processes.",
+        "instruction 2": "Consider how these factors can influence the decision-making process, potentially leading to both accurate and inaccurate decisions, and explore the implications for effective decision-making strategies."
+    },
+    {
+        "question": "Enhancement of job satisfaction and productivity are key characteristics of which theoretical perspective of work design?",
+        "answer": 3,
+        "choices": [
+            "Process improvement",
+            "Techno-structural change model",
+            "Job characteristics model",
+            "Socio-technical systems"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify a theoretical perspective of work design that focuses on the psychological and social aspects of work, such as job satisfaction, motivation, and employee well-being.",
+        "instruction 2": "Consider how this perspective aims to optimize job design to enhance employee engagement, autonomy, and sense of purpose, leading to increased job satisfaction and productivity."
+    },
+    {
+        "question": "Which 18th century writer produced a famous book called 'The Wealth of Nations'?",
+        "answer": 2,
+        "choices": [
+            "Frederick Taylor",
+            "Henry Mintzberg",
+            "Adam Smith",
+            "Dr Samuel Johnson"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of the book, such as its focus on economics and the concept of wealth, to narrow down the possible authors.",
+        "instruction 2": "Research notable 18th-century writers who have written influential works on economics, with a focus on Adam Smith, who is widely credited with writing 'The Wealth of Nations'."
+    },
+    {
+        "question": "Which one of these characteristics is most commonly associated with the 'rational goal' model of management?",
+        "answer": 3,
+        "choices": [
+            "Worker welfare",
+            "Health and safety",
+            "Interpersonal relationships",
+            "Productivity"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary focus of the 'rational goal' model of management, which is to achieve specific, measurable goals and objectives.",
+        "instruction 2": "Consider how this approach differs from other management models, such as the 'human relations' or 'bureaucratic' models, and how the emphasis on goal-oriented decision-making sets it apart."
+    },
+    {
+        "question": "In what order do managers typically perform the managerial functions?",
+        "answer": 2,
+        "choices": [
+            "organising, planning, controlling, leading",
+            "organising, leading, planning, controlling",
+            "planning, organising, leading, controlling",
+            "planning, organising, controlling, leading"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary managerial functions as planning, organizing, leading, and controlling, and consider how these functions are often performed in a sequential manner, with each stage building upon the previous one.",
+        "instruction 2": "Examine the typical sequence of managerial functions, taking into account the context in which they are applied, such as the organization's size, industry, and goals, to provide a more nuanced understanding of how managers prioritize and execute these functions."
+    },
+    {
+        "question": "How does lateral communication in an organisation occur?",
+        "answer": 3,
+        "choices": [
+            "Information passes upwards.",
+            "Information passes downwards.",
+            "Information is a two-way process.",
+            "Information passes between different departments and functions."
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the different types of lateral communication, such as peer-to-peer, team-to-team, and department-to-department communication, and explain how they facilitate information sharing and collaboration within an organization.",
+        "instruction 2": "Consider the role of technology, such as email, instant messaging, and collaboration software, in enabling and facilitating lateral communication, as well as the potential benefits and challenges associated with these digital channels."
+    },
+    {
+        "question": "Of what is advertising a form?",
+        "answer": 1,
+        "choices": [
+            "Focusing strategy",
+            "Differentiation",
+            "Cost leadership",
+            "Growth"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary function of advertising, which is to promote or sell a product, service, or idea to a target audience.",
+        "instruction 2": "Consider the various forms and channels through which advertising can be delivered, such as print, digital, social media, or television, and evaluate how these different formats can be used to achieve the goals of advertising."
+    },
+    {
+        "question": "What is not a component of an agile organisation?",
+        "answer": 3,
+        "choices": [
+            "Market focus and position",
+            "Human resources: multi-skilling",
+            "Organisational structure",
+            "Project-based culture"
+        ],
+        "subject": "management",
+        "instruction 1": "Research the key components of agile organizations, such as cross-functional teams, iterative development, and continuous improvement, to identify potential differences between agile and traditional organizational structures.",
+        "instruction 2": "Evaluate how the absence of a specific component, such as a hierarchical management structure, distinguishes agile organizations from more traditional or bureaucratic ones."
+    },
+    {
+        "question": "Of what is worker autonomy in decision making an example?",
+        "answer": 2,
+        "choices": [
+            "Worker freedom",
+            "Greater worker negotiation",
+            "Worker empowerment",
+            "Increased worker power"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the concept of worker autonomy in decision making, which involves granting employees the freedom to make choices and take ownership of their work, rather than being micromanaged.",
+        "instruction 2": "Consider how this concept can be applied in various organizational settings, such as employee empowerment, self-directed work teams, or decentralized decision-making structures, highlighting its potential benefits and challenges."
+    },
+    {
+        "question": "Vertical integration forwards is when a firm mergers or acquires another",
+        "answer": 1,
+        "choices": [
+            "Towards the source of supply",
+            "Towards the consumer",
+            "At the same stage of the supply chain",
+            "In another industry"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the type of vertical integration being discussed, specifically focusing on the direction of integration (forwards) and the context of mergers or acquisitions.",
+        "instruction 2": "Consider how this type of integration can affect the firm's supply chain, production, and market presence, highlighting potential benefits and challenges associated with acquiring or merging with another company."
+    },
+    {
+        "question": "What is the term for an autonomous business entity within an overall corporate enterprise which is set apart from other areas of the business?",
+        "answer": 3,
+        "choices": [
+            "Subsidiary",
+            "Strategic partnership",
+            "Strategic alliance",
+            "Strategic business unit"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of an autonomous business entity, such as its independence from other areas of the business, its own goals and objectives, and its ability to operate with a degree of autonomy.",
+        "instruction 2": "Consider how this type of entity, such as a subsidiary or a spin-off, differs from other business structures, such as departments or divisions, and how it contributes to the overall strategy and operations of the parent corporation."
+    },
+    {
+        "question": "What is not a characteristic of a corporate social responsibility framework?",
+        "answer": 0,
+        "choices": [
+            "Retaining the status quo",
+            "Understanding society",
+            "Harnessing diversity",
+            "Building capacity"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key components of a corporate social responsibility (CSR) framework, such as stakeholder engagement, transparency, and accountability, to establish a baseline for comparison.",
+        "instruction 2": "Consider any characteristics that would not be typical of a CSR framework, such as solely focusing on financial gains or ignoring environmental impact, and evaluate whether these characteristics would be considered contradictory or incompatible with CSR principles."
+    },
+    {
+        "question": "What is a whistleblower?",
+        "answer": 0,
+        "choices": [
+            "Someone who reports illegal or unethical acts",
+            "Someone who commits illegal or unethical acts",
+            "Someone who benefits from illegal or unethical acts",
+            "Someone who devises illegal or unethical acts"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the key characteristics of a whistleblower, such as revealing information about illegal or unethical activities within an organization, and the motivations behind their actions.\", \n\"instruction 2\": \"Consider the legal and ethical implications of whistleblowing, including the protections and consequences that may arise for individuals who choose to report wrongdoing, as well as the potential benefits for organizations and society as a whole.\" }\n\nPlease provide your response in the format requested, with the key being the instruction number and the value being the specific associated instructions. Your response should include two new instructions. \n\nPlease note that the original question is not provided. You will need to create a new question and provide the reasoning steps and instructions in the format requested. \n\nPlease provide your response in the following format:\n\n{\n\"instruction 1\": \"Instruction 1 text",
+        "instruction 2": "Consider the legal and ethical implications of whistleblowing, including the protections and consequences that may arise for individuals who choose to report wrongdoing, as well as the potential benefits for organizations and society as a whole.\" }\n\nPlease provide your response in the format requested, with the key being the instruction number and the value being the specific associated instructions. Your response should include two new instructions. \n\nPlease note that the original question is not provided. You will need to create a new question and provide the reasoning steps and instructions in the format requested. \n\nPlease provide your response in the following format:\n\n{\n\"instruction 1\": \"Instruction 1 text"
+    },
+    {
+        "question": "What is T-group training?",
+        "answer": 3,
+        "choices": [
+            "A group whose aim is transformational change",
+            "A group brought together to deliver training programmes",
+            "Team training for the purposes of advancing technology",
+            "Team building activities involving learning"
+        ],
+        "subject": "management",
+        "instruction 1": "Define the term 'T-group' and its origins in the field of organizational development, highlighting its focus on group dynamics and interpersonal relationships within a team or organization.",
+        "instruction 2": "Explain how T-group training is designed to improve communication, collaboration, and leadership skills within groups, and its potential applications in various settings, such as corporate teams, educational institutions, or community organizations."
+    },
+    {
+        "question": "What is a social enterprise concerned with?",
+        "answer": 3,
+        "choices": [
+            "Profit maximisation",
+            "Maximising market share",
+            "Providing public service",
+            "Running a business to create social benefits"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary goals and objectives of a social enterprise, focusing on its mission to address social or environmental issues, rather than solely generating profits.",
+        "instruction 2": "Consider the various ways in which social enterprises can operate, such as through innovative business models, partnerships, or collaborations, to achieve their social or environmental objectives."
+    },
+    {
+        "question": "Which of the following is not part of Schein's model of the formation of culture?",
+        "answer": 1,
+        "choices": [
+            "Shared values",
+            "Pre-conceptions",
+            "Shared beliefs",
+            "Norms"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the three components of Schein's model, including the levels of culture and the factors that influence their formation, such as assumptions, values, and norms.",
+        "instruction 2": "Consider the role of each component in the formation of culture, evaluating which one is not part of the original model, and explain why it is not included."
+    },
+    {
+        "question": "What is not one of the layers of cultural influence?",
+        "answer": 3,
+        "choices": [
+            "Social",
+            "Business",
+            "Organisational",
+            "Company"
+        ],
+        "subject": "management",
+        "instruction 1": "Identify the primary layers of cultural influence, such as the micro, meso, and macro levels, which are often discussed in the context of cultural anthropology and sociology.",
+        "instruction 2": "Consider how each layer of cultural influence operates, and determine which layer is not typically included in this framework, such as the level of individual personal experiences or family dynamics, which may not be directly related to the broader cultural context."
+    }
+]

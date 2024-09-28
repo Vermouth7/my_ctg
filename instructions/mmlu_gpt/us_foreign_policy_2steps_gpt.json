@@ -1,0 +1,1302 @@
+[
+    {
+        "instruction 1": "Identify the key components that make up the United Nations Security Council, including its membership, the roles of permanent and non-permanent members, and the function of the council within the broader UN system.",
+        "instruction 2": "Examine the decision-making processes of the Security Council, including the significance of veto power held by permanent members and how this affects resolutions and international peacekeeping efforts.",
+        "question": "What is the structure of the United Nations Security Council?",
+        "choices": [
+            "5 permanent members with veto power, 10 rotating members with no veto power",
+            "5 permanent members and 10 rotating members, all with veto power",
+            "10 permanent members with veto power, and 5 rotating members without veto power",
+            "15 permanent members with veto power"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the historical context of the Gulf of Tonkin resolution by examining the events leading up to its passage, including the incidents involving U.S. naval vessels and North Vietnamese forces, to understand its political and military implications.",
+        "instruction 2": "Analyze the consequences of the Gulf of Tonkin resolution, focusing on how it affected U.S. involvement in the Vietnam War and its broader effects on U.S. foreign policy and legislative processes regarding military engagement.",
+        "question": "What was the significance of the Gulf of Tonkin resolution?",
+        "choices": [
+            "It allowed the US to intensify its involvement in Vietnam",
+            "It illustrated the influence of public opinion on US foreign policy",
+            "It enhanced Congressional control over the Vietnam War",
+            "It curtailed US involvement in Vietnam"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the different types of nonstate actors that are commonly recognized as threats to the United States, such as terrorist organizations, multinational corporations, and non-governmental organizations, and distinguish them based on their motives and actions.",
+        "instruction 2": "Evaluate the criteria that classify an actor as a 'threat' to ascertain which entities do not fit this classification, and provide examples or evidence to support the identification of actors that are neutral or beneficial instead of threatening.",
+        "question": "Which is not a nonstate actor that poses a threat to the United States?",
+        "choices": [
+            "Terrorists",
+            "Organized crime",
+            "Drug traffickers",
+            "China"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the historical context surrounding American presidential visits to China, specifically focusing on the timeframe of diplomatic relations and the significance of the visit to communist China in the context of global politics.",
+        "instruction 2": "Research the specific details of the presidential visit, including the name of the president, the date of the visit, and any notable events or agreements that occurred during this trip, ensuring to highlight its impact on U.S.-China relations.",
+        "question": "Who was the first American president to visit communist China?",
+        "choices": [
+            "Richard Nixon",
+            "George H. W. Bush",
+            "Jimmy Carter",
+            "Ronald Reagan"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the historical context of the Strategic Arms Reduction Treaty, focusing on the geopolitical landscape at the time of its negotiation and its significance as the first arms control agreement aimed at reducing nuclear weapon stockpiles between the United States and the Soviet Union.",
+        "instruction 2": "Clarify the key components and objectives of the Strategic Arms Reduction Treaty, emphasizing how it set a precedent for future arms reduction agreements and contributed to nuclear disarmament efforts in subsequent years.",
+        "question": "The Strategic Arms Reduction Treaty was the first accord",
+        "choices": [
+            "on nuclear weapons signed between the United States and the Soviet Union.",
+            "cutting conventional arms in Europe.",
+            "to be rejected by the U.S. Senate.",
+            "mandating the elimination of many long-range nuclear missiles."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the historical context of the Cold War and how it influenced perceptions of American exceptionalism. This includes analyzing the rhetoric used by American leaders and the cultural narratives that emerged during this period.",
+        "instruction 2": "Identify specific political, economic, and social implications of the Cold War on American identity and its messaging of being 'exceptional,' such as how competition with the Soviet Union shaped domestic policies and international relations.",
+        "question": "What were the implications of the Cold War for American exceptionalism?",
+        "choices": [
+            "It ended the influence of American exceptionalism entirely",
+            "Exceptionalism was enhanced by America's status as the 'leader of the free world'",
+            "The extension of American power globally challenged core assumptions of exceptionalism",
+            "Both b and c"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the historical context of the 1930s, including the impact of World War I on American society, economic conditions such as the Great Depression, and prevailing public sentiment, to understand why isolationism may have been a preferred approach by Roosevelt.",
+        "instruction 2": "Identify key events, policies, and speeches from Roosevelt during the 1930s that influenced his isolationist stance, as well as the pressures and political dynamics that led to a gradual shift away from this position as global tensions escalated.",
+        "question": "Why did Franklin D. Roosevelt initially favour an 'isolationist' stance on the part of the US during the 1930s?",
+        "choices": [
+            "He believed that internal reform rather than international negotiation was the key to economic regeneration of the US",
+            "He believed that German domination of Europe would be in US interests",
+            "He always favoured isolationism",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the term 'New Populism' by researching its origins and characteristics, noting its emergence in political discourse, particularly in relation to anti-establishment sentiments and the mobilization of grassroots support.",
+        "instruction 2": "Examine significant examples of 'New Populism' in contemporary politics, focusing on key figures, movements, and the social, economic, or cultural contexts that have contributed to its rise, while also considering its differences from traditional forms of populism.",
+        "question": "What was the 'New Populism'?",
+        "choices": [
+            "A strand of neo-isolationist sentiment",
+            "A strand of internationalist sentiment",
+            "An expression of American cultural superiority",
+            "Increased incorporation of public opinion in foreign policy making"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the economic consequences of World War I, particularly focusing on how the war affected European economies compared to the United States, including factors like war debts, destruction of infrastructure, and shifts in manufacturing capacity.",
+        "instruction 2": "Analyze the role of U.S. financial assistance and investment during and after the war, including how this monetary influence contributed to the U.S. emerging as a dominant financial and industrial power relative to war-crippled Europe.",
+        "question": "How did World War I shift economic power from Europe to the United States?",
+        "choices": [
+            "The war reduced European population levels below that of the United States",
+            "The United States seized German resources after the war",
+            "European countries paid the United States for assistance",
+            "The United States became a creditor country and financial centre, with European war spending boosting the US economy"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific branch of American government that has the constitutional authority to declare war, which is primarily the legislative branch, particularly Congress, as outlined in Article I of the U.S. Constitution.",
+        "instruction 2": "Consider the historical context and any precedents regarding how war declarations have been made in the past, noting the roles of both Congress and the President in wartime decisions and the implications for checks and balances in the federal government.",
+        "question": "In American government, the power to declare war rests with",
+        "choices": [
+            "the president of the United States.",
+            "the secretary of defense.",
+            "the chairman of the Joint Chiefs of Staff.",
+            "Congress."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the geopolitical landscape during the Cold War, focusing on how the ideological conflict between the United States and the Soviet Union influenced American perceptions of nations classified as the Third World, including their strategic importance and the role of anti-communism.",
+        "instruction 2": "Examine specific policies and actions taken by the US in relation to Third World countries during the Cold War, such as foreign aid, military involvement, and propaganda efforts, to illustrate how these influenced public opinion and state narratives about these nations.",
+        "question": "How did the Cold War context shape US perceptions of the Third World?",
+        "choices": [
+            "The US ignored the Third World",
+            "Local developments were viewed through a geopolitical lens",
+            "The US unreservedly supported decolonization",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the distinct characteristics of the NATO intervention in Kosovo, focusing on aspects such as its humanitarian motives, the absence of a UN mandate, and its reliance on airpower rather than ground troops, which set it apart from previous military interventions.",
+        "instruction 2": "Examine the international and political context surrounding the intervention, including the conflict's nature, the response of other nations, and the consequences for NATO's role in future humanitarian interventions and its evolution as a military alliance.",
+        "question": "What was unique about the NATO intervention in Kosovo?",
+        "choices": [
+            "It was the first time the US became involved in the Balkans",
+            "It was the first time NATO used military force",
+            "It was the first war won by airpower alone",
+            "It was the first war to employ 'smart weapons'"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clarify the foundational concepts of Systemic theories in international relations, particularly focusing on how these theories interpret the role of the international system, state behavior, and external pressures as determinants of foreign policy.",
+        "instruction 2": "Explore specific Systemic theories, such as Realism or Neorealism, to identify how they attribute primary importance to factors like power distribution, systemic interactions, and anarchy in shaping a state's foreign policy decisions.",
+        "question": "What, according to Systemic theories, is the primary determinant of a state's foreign policy?",
+        "choices": [
+            "The character of a state's leader",
+            "The distribution of power in the international system",
+            "The distribution of power within a state's governmental system",
+            "A state's political ideology"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the primary reasons for the ambiguity surrounding nuclear weapons possession among states, such as the lack of transparency in nuclear arsenals, differing national security policies, and the implications of strategic ambiguity.",
+        "instruction 2": "Analyze the impact of international treaties, such as the Treaty on the Non-Proliferation of Nuclear Weapons (NPT), on states' willingness to disclose their nuclear capabilities, considering the political and military motivations that might lead to uncertainties.",
+        "question": "Why is there so much uncertainty over which states have nuclear weapons?",
+        "choices": [
+            "Leaders have incentives to lie",
+            "If leaders revealed their programs, they would be more likely to be attacked",
+            "Leaders will not always grant foreign monitors access to their nuclear programs",
+            "ALL of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the branch of the U.S. government that possesses the authority to grant official recognition to other countries, focusing on the role of the President and the State Department in foreign relations as outlined in the U.S. Constitution.",
+        "instruction 2": "Consider the implications of official recognition, including how it can affect diplomatic relations, international treaties, and the recognition of governments versus regimes, ensuring to clarify any distinctions within the context of American foreign policy.",
+        "question": "Within American politics, the power to accord official recognition to other countries belongs to",
+        "choices": [
+            "the Senate.",
+            "the president.",
+            "the Secretary of State.",
+            "the chairman of the Joint Chiefs."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Summarize the primary objectives of the Moscow Treaty on Strategic Offensive Reductions, focusing on the specific agreements made between the United States and Russia regarding the reduction of nuclear arsenals and the limits imposed on strategic offensive weapons.",
+        "instruction 2": "Examine the implications of the treaty on international relations and nuclear non-proliferation efforts, assessing how it influenced the strategic posture of both nations and its relevance in the context of subsequent arms control agreements.",
+        "question": "What did the Moscow Treaty on Strategic Offensive Reductions do?",
+        "choices": [
+            "Required the United States and Russia to demobilize their armies",
+            "Required the United States and Russia to dismantle a significant number of their nuclear weapons",
+            "Prohibited the acquisition of new military bases",
+            "Prohibited short-range nuclear weapons"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the context in which the 'open-door notes' were issued, specifically focusing on the historical and diplomatic circumstances surrounding their creation and purpose, particularly related to U.S.-China relations in the early 20th century.",
+        "instruction 2": "Identify the key principles outlined in the 'open-door notes,' such as equal trading rights for all nations in China and the preservation of China's territorial integrity, and discuss how these principles aimed to prevent colonization and promote international trade.",
+        "question": "What were the 'open-door notes'?",
+        "choices": [
+            "An American declaration that the US was always open to Chinese immigration",
+            "An American proclamation that China should be divided up between the US, Japan and the European empires",
+            "An American proclamation that China should be open to US trade and missionaries",
+            "An American declaration of support for Chinese economic protectionism"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the economic theories and principles that support the idea that international trade can benefit both parties, such as comparative advantage, while also identifying potential drawbacks that may lead countries to impose protectionist measures.",
+        "instruction 2": "Examine the motivations behind protectionist policies, considering factors like domestic industry support, job preservation, national security, and the political influence of business lobbies that may drive governments to protect their firms from international competition.",
+        "question": "International trade will almost always benefit both countries, so why do countries try to protect their own firms from exposure to the world market?",
+        "choices": [
+            "Irrationality on the part of the leadership",
+            "Costs of free trade are concentrated, but benefits are dispersed",
+            "Regime type",
+            "International conflict prevents trade"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the geopolitical context of the post-Gulf War era, focusing on the strategic considerations that influenced George H.W. Bush's decision to avoid an invasion of Iraq and instead pursue a policy of containment, taking into account regional stability and relationships with neighboring countries.",
+        "instruction 2": "Analyze the potential consequences of removing Saddam Hussein from power, such as the risk of civil war, sectarian violence, or the creation of a power vacuum, which may have weighed heavily in the decision-making process of the Bush administration.",
+        "question": "Why did George H.W. Bush allow Saddam Hussein to remain in power after the Gulf War of 1991?",
+        "choices": [
+            "Lack of US firepower",
+            "Concern over oil supplies",
+            "Limited UN mandate and fear of a protracted conflict",
+            "Difficult terrain and fear of civilian casualties"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the core arguments presented by Liberal Internationalists regarding the role of international institutions in promoting peace, cooperation, and stable political relations, as well as how these concepts fit within the broader context of US grand strategy.",
+        "instruction 2": "Examine how international institutions, according to Liberal Internationalists, contribute to the effectiveness of US grand strategy by facilitating multilateral diplomacy, fostering economic ties, and addressing global challenges collectively, thus reinforcing the United States' leadership and influencing international norms.",
+        "question": "Why do Liberal Internationalists argue that international institutions are important to US grand strategy?",
+        "choices": [
+            "They allow the US to withdraw from the international arena",
+            "They serve American interests",
+            "The US is incapable of acting alone",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the historical context surrounding the Truman Doctrine, identifying the geopolitical circumstances and events that led to its establishment in 1947, including post-World War II tensions and the onset of the Cold War.",
+        "instruction 2": "Analyze the key principles and objectives of the Truman Doctrine, focusing on its role in U.S. foreign policy, the strategy of containment, and its implications for American involvement in global conflicts and support for nations resisting communism.",
+        "question": "What was the significance of the Truman Doctrine?",
+        "choices": [
+            "It indicated the special place of Greece and Turkey in American interests",
+            "It was Truman's first statement on European affairs",
+            "It indicated US reluctance to get involved in incidents outside of its immediate sphere of influence",
+            "It indicated that the US would now view all local revolts through a geopolitical lens"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the positive and negative economic impacts of natural resource trade on developing states, focusing on factors such as economic growth, job creation, revenue generation, and potential dependency on volatile resource markets.",
+        "instruction 2": "Examine the socio-political implications of resource trade in developing states, including issues of governance, corruption, environmental degradation, and the effects on social inequality and public health.",
+        "question": "What tend to be the effects of oil and other natural resource trade on developing states?",
+        "choices": [
+            "It democratizes countries",
+            "It has no real effect",
+            "It encourages stability of the regime",
+            "It changes the nature of the investor"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the historical context of American foreign policy to identify key themes and trends that have dominated its course, such as isolationism, interventionism, or diplomacy, focusing on their implications on international relations.",
+        "instruction 2": "Consider how significant events, such as wars, treaties, and the roles of various presidencies, have shaped the evolution of American foreign policy over time, allowing for a comprehensive understanding of its dominant categorization.",
+        "question": "The dominant course for foreign policy throughout most of American history can be categorized as",
+        "choices": [
+            "containment.",
+            "neoconservatism.",
+            "isolationism.",
+            "protectionism."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine historical events and legislative actions taken by Britain in the 1760s and 1770s that reflect economic pressures and the need to recoup war debts, focusing on acts like the Stamp Act and the Townshend Acts which prompted the imposition of new taxes on the American colonies.",
+        "instruction 2": "Analyze the political and social dynamics within the colonies at that time, such as resistance to British rule and growing sentiment for autonomy, to understand the context and consequences of the new taxes on colonial-British relations.",
+        "question": "What led Britain to impose new taxes on their American colonies?",
+        "choices": [
+            "To increase the wealth of King George III",
+            "The growing costs of war with France",
+            "Anger at America's growing prosperity",
+            "Pressure from rich merchants"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the author of the quote by conducting research on prominent figures discussing globalization, focusing on literature, speeches, and public statements made by economists, political leaders, or social commentators.",
+        "instruction 2": "Verify the context in which the quote was made to ensure accurate attribution, examining publications or recorded speeches for its original usage and intended meaning regarding the implications of globalization.",
+        "question": "Who said \"Globalization is not something we can hold off or turn off. It is the economic equivalent of a force of nature-like wind or water\"?",
+        "choices": [
+            "Ronald Reagan",
+            "George Soros",
+            "Bill Clinton",
+            "George W. Bush"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the phrase 'the continuation of politics by other means' to identify its implications for understanding the relationship between war and politics, particularly focusing on how military actions can be motivated by political objectives.",
+        "instruction 2": "Explore historical and theoretical contexts where this concept has been applied, assessing how this perspective influences the interpretation of war's role in international relations and decision-making processes.",
+        "question": "The idea that war is \"the continuation of politics by other means\" helps to capture",
+        "choices": [
+            "diplomacy is the quietest instrument of influence in global politics.",
+            "the way political parties fight with each other.",
+            "the idea that governments use their military to help pursue policy goals.",
+            "the way Democrats and Republicans differ over the war in Iraq."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and outline the fundamental principles and values that characterize the Liberal approach to foreign policy, such as multilateralism, international cooperation, and the promotion of democracy and human rights.",
+        "instruction 2": "Examine historical and contemporary examples of US foreign policy that reflect Liberal ideals, considering how these elements have shaped diplomatic relations and international agreements.",
+        "question": "What are the key elements of the Liberal approach to US foreign policy?",
+        "choices": [
+            "Promotion of Democracy, free-trade and international institutions",
+            "Alliances, diplomacy and protectionism",
+            "The balance of power, self-sufficiency and prudence",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the historical context surrounding US expansion before and after 1865, focusing on significant events such as the Civil War and its implications on national policy towards territorial expansion to identify the shifts in ideology and strategy.",
+        "instruction 2": "Analyze how the objectives of US expansion evolved from manifest destiny and territorial acquisition to include aspects like Reconstruction and economic motivations, ensuring to illustrate how these changes affected both domestic and foreign policies.",
+        "question": "What was the key difference between US expansion pre- and post- 1865?",
+        "choices": [
+            "US expansion was based on territory rather than markets post-1865",
+            "US expansion was based on markets rather than territory post-1865",
+            "US expansion was limited to Latin America post-1865",
+            "US expansion ended after 1865"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze President Eisenhower's farewell speech for specific arguments related to the 'military-industrial complex', focusing on his warnings about its potential influence on government policy and national priorities.",
+        "instruction 2": "Evaluate the historical context of Eisenhower's speech to understand the circumstances that prompted his concerns, including the geopolitical climate of the time and previous government-military relations.",
+        "question": "What case did President Eisenhower make against the 'military-industrial complex' in his farewell speech?",
+        "choices": [
+            "That the capitalist search for profits was the leading cause of armed conflict",
+            "That the United States no longer needed to be militarily strong",
+            "That military spending gave the arms industry unwarranted influence on politics and government",
+            "That private companies would undermine the role of the Armed Forces"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the main bodies within the United Nations that hold significant authority and decision-making power, such as the Security Council, General Assembly, and the Secretariat, analyzing their roles and functions in relation to global governance.",
+        "instruction 2": "Evaluate the influence of member states within these bodies, particularly the concept of veto power in the Security Council and how it shapes the dynamics of international relations and decision-making processes within the United Nations.",
+        "question": "Within the United Nations, real power is located in",
+        "choices": [
+            "the Security Council.",
+            "the Chamber of Deputies.",
+            "the Council of Ministers.",
+            "the Secretariat."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the philosophical underpinnings of conservative and liberal ideologies regarding defense spending, focusing on how each group prioritizes national security versus social welfare and budgetary restraint.",
+        "instruction 2": "Examine historical voting patterns, policy proposals, and public statements from both conservatives and liberals to illustrate specific examples of their differing approaches to defense spending, ensuring to highlight key differences in their proposed budgets and justifications.",
+        "question": "In general, how do conservatives and liberals differ when it comes to defense spending?",
+        "choices": [
+            "Conservatives are skeptical of increases in defense spending; liberals advocate increases in defense spending.",
+            "Conservatives favor social spending over defense spending; liberals favor defense spending over social spending.",
+            "Conservatives advocate increases in defense spending; liberals are generally skeptical of increases in defense spending.",
+            "Conservatives emphasize strong economies; liberals emphasize strong military readiness."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify common functions and roles of intergovernmental organizations (IGOs) to highlight what actions are typically avoided, considering their mandate, purpose, and typical operational scope.",
+        "instruction 2": "Analyze the provided answer choices in the context of the unique characteristics and limitations of IGOs to determine which action is least likely to align with their functions.",
+        "question": "Intergovernmental organizations SELDOM do which of the following?",
+        "choices": [
+            "Provide strong enforcement",
+            "Monitor parties",
+            "Provide fora for discussion",
+            "Reduce transaction costs for agreements"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and analyze the key internal and external factors that can serve as constraints on US foreign policy decision making, such as political, economic, social, and historical influences that shape policy options.",
+        "instruction 2": "Consider the role of international law, global alliances, domestic public opinion, and institutional frameworks that may limit the range of actions available to policymakers in crafting foreign policy.",
+        "question": "Which of the following are possible constraints on US foreign policy decision making?",
+        "choices": [
+            "Foreign policies of other states",
+            "International law",
+            "Intergovernmental organizations",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define direct diplomacy by exploring its key characteristics, such as face-to-face negotiations and communication between representatives of states or organizations, distinguishing it from other diplomatic methods like backchannel negotiations or indirect diplomacy.",
+        "instruction 2": "Analyze how direct diplomacy is utilized in various contexts, considering its effectiveness in conflict resolution, treaty discussions, and building international relationships compared to other diplomatic approaches.",
+        "question": "What is direct diplomacy?",
+        "choices": [
+            "Members of Congress negotiating directly with foreign governments",
+            "Face-to-face meetings between state leaders",
+            "The president consulting Congress on foreign policy issues",
+            "Bilateral talks that do not involve a third-party negotiator"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the key economic policies implemented by the Clinton Administration regarding Russia, focusing on aspects like economic aid, reform support, and trade relations to understand how these policies aimed to stabilize and integrate the Russian economy into the global market.",
+        "instruction 2": "Consider the broader geopolitical context during the 1990s, including the impact of post-Soviet transitions and collaborations with Western nations, to evaluate the effectiveness and implications of the Clinton Administration's policies on the Russian economy.",
+        "question": "What was the Clinton Administration's policy on the Russian economy?",
+        "choices": [
+            "The US inhibited the marketization of the Russian economy",
+            "The US promoted the marketization of the Russian economy",
+            "The US supported public ownership of natural resources",
+            "None, the US was only concerned with security issues"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define what constitutes a 'major power' in the context of international relations, including criteria such as military capability, economic strength, political influence, and diplomatic reach, to establish a clear framework for counting major powers in a multipolar system.",
+        "instruction 2": "Analyze the current global geopolitical landscape to identify and classify countries that can be considered major powers, ensuring to assess the dynamics of power distribution and the nature of relationships between these powers within a multipolar context.",
+        "question": "How many major powers are there in a multipolar system?",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3 or more"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the historical context surrounding American independence in 1776, including the political, social, and economic factors that influenced the belief in creating a new type of empire, distinct from European colonial models.",
+        "instruction 2": "Examine the ideological frameworks, such as Enlightenment thought and the concept of Manifest Destiny, that shaped American perceptions of empire and examined how these beliefs intersected with notions of democracy and self-governance.",
+        "question": "Why did Americans believe that they could found a different kind of empire after 1776?",
+        "choices": [
+            "This would be an 'empire of liberty'",
+            "This empire would be multi-cultural",
+            "This type of empire would be based on expansion",
+            "This would be empire free of slavery"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key concepts related to defense and social spending, exploring what aspects of these sectors create a trade-off and how they reflect competing priorities in government budgeting.",
+        "instruction 2": "Analyze historical and contemporary examples of how nations have navigated this trade-off, considering factors such as economic conditions, public opinion, and political ideologies that influence decisions between allocating resources to defense versus social programs.",
+        "question": "The trade-off between defense and social spending is often referred to as a choice between",
+        "choices": [
+            "bread and butter.",
+            "war and peace.",
+            "guns and butter.",
+            "bombs and books."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the term 'unipolar moment' by researching the historical context of the post-Cold War period, focusing on the dominant position of the United States in global affairs and how this shaped international relations during that time.",
+        "instruction 2": "Examine Krauthammer's perspective on the implications of this unipolarity, considering its effects on global power dynamics, security, and foreign policy, as well as how it contrasts with multipolar or bipolar systems.",
+        "question": "What did Charles Krauthammer mean by a 'unipolar moment' when describing the post-Cold War system?",
+        "choices": [
+            "The chance for the United States to share power with other countries in the world",
+            "An opportunity to use to collapse of the Soviet Union to extend US power",
+            "An international system that didn't face any threats",
+            "The never-ending domination of the United States"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze the ethical or philosophical frameworks that underpin the view that using force abroad for moral purposes is considered immoral, focusing on principles such as pacifism, non-interventionism, or moral absolutism.",
+        "instruction 2": "Examine relevant historical or contemporary examples of this viewpoint in action, considering how different political or social movements articulate opposition to interventionist policies under the premise of protecting human rights or democracy.",
+        "question": "Which of the following considers it immoral to use force abroad to do good things (such human rights protection, democracy, etc)?",
+        "choices": [
+            "Realism",
+            "Idealism",
+            "Liberalism",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and explain the key characteristics of the international system as viewed by realists, focusing on concepts such as anarchy, the role of state sovereignty, and power dynamics among states compared to the more structured nature of the domestic system.",
+        "instruction 2": "Discuss how the absence of an overarching authority in the international realm influences state behavior and interactions, contrasting it with the presence of laws and regulations that govern interactions within a domestic system.",
+        "question": "According to realists, what is the fundamental difference between the international system and the domestic system?",
+        "choices": [
+            "Armed conflict",
+            "Anarchy",
+            "Institutions",
+            "No common language"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and evaluate commonly cited reasons for the ineffectiveness of intergovernmental organizations in promoting human rights, such as political constraints, lack of enforcement mechanisms, or differing national interests.",
+        "instruction 2": "Clarify the question by specifically excluding legitimate reasons for ineffectiveness, and focus on selecting an answer that does not align with the widely accepted critiques of these organizations.",
+        "question": "Which is NOT a reason for why intergovernmental organizations are ineffective at promoting human rights?",
+        "choices": [
+            "These organizations merely identify those states who already support human rights",
+            "They cannot get enough information about which leaders will abuse their citizens",
+            "These organizations have little ability to constrain abusive leaders",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the principles and characteristics of the 'Philadelphian System', which may include themes of democracy, individualism, and reform, to determine how these elements could embody or reflect the notion of American exceptionalism.",
+        "instruction 2": "Analyze historical context and societal impacts of the 'Philadelphian System' on American identity and values, connecting how its development and legacy may contribute to the belief in a unique or superior American way of life compared to other nations.",
+        "question": "Why might the 'Philadelphian System' be linked to the idea of American exceptionalism?",
+        "choices": [
+            "It encouraged greater involvement in European politics",
+            "It was designed as the antithesis of European politics",
+            "It created a large standing army",
+            "It encouraged the centralization of political power in the US"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze potential internal constraints, such as political party influence, public opinion, and legislative checks, that may affect US foreign policy decision making.",
+        "instruction 2": "Examine external factors that can impose constraints, including international relations, treaties, economic conditions, and global issues like climate change or security threats, that must be considered in US foreign policy decisions.",
+        "question": "Which of the following are possible constraints on US foreign policy decision making?",
+        "choices": [
+            "Foreign policies of other states",
+            "International law",
+            "Intergovernmental organizations",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the historical context and key events surrounding the policy of détente, particularly focusing on the U.S. foreign policy changes in relation to the Soviet Union and other communist countries, to pinpoint the era and individuals involved in its initiation.",
+        "instruction 2": "Examine the specific agreements, treaties, or diplomatic efforts that exemplified the policy of détente, analyzing their implications for U.S.-Soviet relations and broader global security at the time.",
+        "question": "Détente, or the relaxing of tensions coupled with firm guarantees of mutual security, represented a shift in American foreign policy toward the communist world ushered in by",
+        "choices": [
+            "Richard Nixon.",
+            "Eugene McCarthy",
+            "Lyndon Johnson.",
+            "Robert Kennedy."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the defining principles and values that constitute the 'American Creed', focusing on aspects such as liberty, equality, democracy, and individual rights as highlighted in historical documents and speeches.",
+        "instruction 2": "Examine the options provided and assess their alignment or misalignment with the core tenets of the 'American Creed' to accurately determine which one does not belong.",
+        "question": "Which of these is not a component of the 'American Creed'?",
+        "choices": [
+            "Liberty",
+            "Equality",
+            "Autocracy",
+            "Individualism"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze key historical events and policies implemented during the early years of Ronald Reagan's administration, focusing on aspects such as military buildup, economic strategy, and relations with the Soviet Union to determine the main themes of his foreign and defense policies.",
+        "instruction 2": "Explore the ideological underpinnings of Reagan's approach to foreign and defense policy, considering his administration's stance on anti-communism, military intervention, and diplomatic engagements with allies and adversaries.",
+        "question": "During the early years of his administration, Reagan's foreign and defense policies emphasized",
+        "choices": [
+            "nuclear disarmament.",
+            "détente.",
+            "anticommunism.",
+            "international free trade."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the various dimensions through which the Vietnam War can be analyzed, such as its historical context, military strategies, political implications, and social impact, to provide a comprehensive understanding of the conflict.",
+        "instruction 2": "Consider incorporating multiple perspectives, including those of different stakeholders such as soldiers, civilians, and political leaders, to develop a nuanced interpretation of the Vietnam War.",
+        "question": "The Vietnam War can be understood as",
+        "choices": [
+            "a war that deeply divided the United States and fostered cynicism toward the American government.",
+            "an example of the doctrine of containment, because U.S. involvement was designed to prevent the fall of South Vietnam to the communists.",
+            "an example of how even a great power may not be able to prevail against a determined enemy unless there is a clear objective and the national will to do so.",
+            "All of the above are true."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific departments within the executive branch that are primarily involved in U.S. foreign policy, focusing on those traditionally associated with international relations, diplomacy, and national security.",
+        "instruction 2": "Consider the roles and functions of these departments in supporting the president's foreign policy objectives, including how they may collaborate with each other and other government entities in implementing foreign policy strategies.",
+        "question": "The departments of the executive branch that assist the president in designing and carrying out U.S. foreign policy are known as",
+        "choices": [
+            "the United Nations.",
+            "the National Security Council.",
+            "the State Department.",
+            "the National Security Agency."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify key historical events and policies related to peacetime defense spending in the United States by researching specific presidencies, focusing on significant military expenditures and related legislative actions.",
+        "instruction 2": "Evaluate the context of defense spending during various presidential terms, identifying economic, geopolitical, and social factors that contributed to increases in defense budgets, and compare them to ascertain which president oversaw the largest increase.",
+        "question": "The largest increase in peacetime defense spending in American history occurred under which president?",
+        "choices": [
+            "Jimmy Carter",
+            "Ronald Reagan",
+            "Bill Clinton",
+            "Dwight Eisenhower"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the specific event or disclosure in 2005 that led to public outcry regarding the National Security Agency, focusing on key issues such as surveillance, privacy rights, and government transparency that contributed to the controversy.",
+        "instruction 2": "Examine the societal and political context of 2005, including public sentiment towards government surveillance and civil liberties, to better understand the implications of the NSA's actions and the resulting public response.",
+        "question": "What caused a public uproar involving the National Security Agency in 2005?",
+        "choices": [
+            "Revelations that the NSA was monitoring the communications of American citizens without obtaining warrants",
+            "A leaked memo that linked the events of September 11, 2001, with the Democratic National Committee",
+            "Revelations that the NSA had tortured prisoners at Guantanamo, Cuba",
+            "A scathing report condemning the George W. Bush administration for \"building a case for the war in Iraq on a quicksand foundation\""
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the Marshall Plan in the context of post-World War II recovery, highlighting its key objectives such as the economic aid provided to Western European countries to rebuild their economies and prevent the spread of communism.",
+        "instruction 2": "Discuss the broader political implications of the Marshall Plan, including how it aimed to foster political stability and economic cooperation among European nations, while also reflecting on its significance in the context of U.S. foreign policy during the Cold War.",
+        "question": "What was the Marshall Plan?",
+        "choices": [
+            "A plan that provided economic assistance to rebuild Europe.",
+            "A plan to provide aid to Greece and Turkey in their stand against Soviet and Soviet-assisted threats",
+            "A plan that provided Europe with military assistance to counter the Soviet threat",
+            "The plan designed to stop communism in Asia"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key concerns highlighted by bureaucratic politics in the context of nuclear weapons, specifically focusing on the influences of internal governmental processes, competing interests, and power dynamics that may lead to suboptimal decision-making or escalated tensions.",
+        "instruction 2": "Evaluate the implications of bureaucratic behavior on nuclear policy, considering how institutional interests, risk aversion, and the role of various stakeholders can affect the management and proliferation of nuclear arms.",
+        "question": "Bureaucratic politics suggests we should be worried about which of the following with regard to nuclear weapons?",
+        "choices": [
+            "Having the capability to deter the most powerful rival",
+            "Having the capability to deter smaller states",
+            "How nuclear attacks are identified and responded to; who controls the weapons",
+            "Bureaucratic politics provides no information about nuclear proliferation and use"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key problems or challenges that international institutions aim to mitigate, such as conflict resolution, trade regulation, or global health issues, by examining theoretical foundations of International Institutionalism.",
+        "instruction 2": "Analyze how these institutions facilitate cooperation among states and assess the effectiveness of their mechanisms in tackling the identified problems, utilizing examples of existing international institutions.",
+        "question": "According to International Institutionalists, what problems have international institutions been designed to address?",
+        "choices": [
+            "War",
+            "Anarchy",
+            "Collective action and coordination problems",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Investigate the historical context and political events surrounding the emergence of the term 'New World Order', examining its usage in global politics particularly after the Cold War and in reference to significant geopolitical shifts.",
+        "instruction 2": "Analyze the varied interpretations and implications of 'New World Order' in different socio-political dialogues, considering how it has been represented in public discourse, political rhetoric, and conspiracy theories.",
+        "question": "What was meant by the term 'New World Order'?",
+        "choices": [
+            "A new democratic internationalism led by the United States",
+            "A new balance of power between the US and China",
+            "A new global economic framework",
+            "A new era of globalization"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and analyze various international organizations to determine the most recognized and significant one based on criteria such as global influence, membership, and impact on international relations.",
+        "instruction 2": "Consider how public perception and historical context contribute to the status of the chosen organization, taking into account its role in addressing global challenges and fostering international cooperation.",
+        "question": "The best known and perhaps most important international organization is",
+        "choices": [
+            "the United Nations.",
+            "the North Atlantic Treaty Organization (NATO).",
+            "the Organization of Petroleum Exporting Countries (OPEC).",
+            "the World Trade Organization (WTO)."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the historical context and usage of the term 'American multiplication table,' including its origins and how it differs from traditional multiplication tables in structure or application, particularly in educational settings.",
+        "instruction 2": "Examine any specific features or methods associated with the 'American multiplication table' that set it apart from other multiplication tables, such as any pedagogical innovations or cultural influences that may have shaped its development.",
+        "question": "What was meant by the term 'American multiplication table'?",
+        "choices": [
+            "Increase in the US population",
+            "Increase in US finances",
+            "Increase in US military capability",
+            "Increase in US international influence"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and categorize the different mechanisms through which global and regional trade agreements operate, such as tariff reductions, trade barriers removal, and establishment of trade norms and standards, highlighting their specific roles in facilitating trade.",
+        "instruction 2": "Examine the impact of these mechanisms on international relations and economic interactions between countries, considering how they influence trade policies, economic growth, and cooperation among member nations in the agreements.",
+        "question": "Global and regional international trade agreements work by using which of the following mechanisms?",
+        "choices": [
+            "Reciprocity across multiple issues",
+            "Reputational concerns of the actors",
+            "Side payments for adjusting to the organization (such as the Common Agricultural Policy in the EU)",
+            "ALL of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Investigate the historical context of Lincoln's political beliefs and priorities, specifically focusing on his stance against the expansion of slavery into new territories, and how this was part of a broader Republican Party platform during his era.",
+        "instruction 2": "Examine the implications of southward expansion on national unity and the potential impact on free states versus slave states, considering how Lincoln's opposition was rooted in concerns over the long-term stability of the Union and the moral implications of slavery.",
+        "question": "Why did Lincoln oppose the southward expansion of the US?",
+        "choices": [
+            "It would have drained the US economically",
+            "It would have involved compromising opposition to slavery",
+            "It would have increased immigration to the US",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the historical context and key policies associated with John Foster Dulles, focusing on the Cold War era and the specific strategies he advocated that reflect the growing tensions between the United States and the Soviet Union.",
+        "instruction 2": "Analyze the terms and implications of the policy referred to by Dulles, such as 'brinkmanship' or 'massive retaliation', including its impact on international relations during that period.",
+        "question": "Growing tension between the United States and the Soviet Union resulted in a policy that John Foster Dulles referred to as",
+        "choices": [
+            "\"mutual assured destruction.\"",
+            "\"brinkmanship.\"",
+            "\"realism.\"",
+            "\"not in my backyard.\""
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the historical context and policies of Ronald Reagan's administration, focusing on key events and strategies that may have influenced the Cold War dynamics, such as military buildup, economic policies, and diplomatic efforts.",
+        "instruction 2": "Analyze the arguments presented by scholars who assert that Reagan's actions had a decisive impact on the outcomes of the Cold War, and consider alternative viewpoints or counterarguments to understand the complexities of this historical debate.",
+        "question": "Why do some scholars claim that Reagan 'won the Cold War'?",
+        "choices": [
+            "Reagan's first term military spending pressured the Soviet Union to keep up its international commitments",
+            "Reagan encouraged engagement with the Soviet Union",
+            "Reagan encouraged a softer approach towards communism",
+            "Reagan reduced military spending and this allowed the Soviet Union space to reform"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the concept of American exceptionalism and how it relates to the perception of the United States as a unique entity in the world, particularly in the context of global economic dynamics and its influence on international trade and investment policies.",
+        "instruction 2": "Evaluate the potential impacts of American exceptionalism on global economics, considering both positive and negative effects, such as economic leadership, trade imbalances, or protectionist policies, as well as how these factors shape relationships with other countries.",
+        "question": "What is the implication of American exceptionalism in terms of global economics?",
+        "choices": [
+            "It encourages the use of tariffs",
+            "It encourages nationalization",
+            "It encourages liberalization of global trade",
+            "It encourages redistribution of wealth"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and analyze the specific institutions listed to determine which ones directly contribute to the liberal international economic order, focusing on their roles in trade, finance, and economic development.",
+        "instruction 2": "Evaluate the relevance of NATO in the context of the liberal international economic order, as it primarily relates to military alliances rather than economic governance, ensuring a clear distinction between economic institutions and those focused on security.",
+        "question": "What were the primary institutions of the liberal international economic order?\nI. GATT\nII. IMF\nIII. World Bank\nIV. NATO",
+        "choices": [
+            "IV only",
+            "II and III",
+            "I, II, and III",
+            "I, II, III, and IV"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify Rosenau's key analytical frameworks or factors that influence a nation's foreign policy behavior, specifically looking for concepts that highlight political, economic, or social influences on the United States' international actions.",
+        "instruction 2": "Examine the dynamics of domestic and international contexts that Rosenau emphasizes, considering how these factors interact to shape the foreign policy decisions of the United States, ensuring to focus on both historical and contemporary examples.",
+        "question": "According to Rosenau, which factor is important to consider in explaining the foreign policy behavior of the United States?",
+        "choices": [
+            "The external environment of the international system",
+            "Domestic environment, government and bureaucracy",
+            "The President's individual personality.",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the sovereign states that are known or suspected to possess nuclear weapons, analyzing current geopolitical data and official reports from international organizations such as the International Atomic Energy Agency (IAEA) and other credible sources.",
+        "instruction 2": "Consider ongoing developments in nuclear proliferation and disarmament treaties, evaluating how these may affect the current status of states with nuclear capabilities and any emerging nations that may be seeking to acquire such weapons.",
+        "question": "How many states in the international system are likely to have nuclear weapons right now?",
+        "choices": [
+            "Fewer than 7",
+            "Between 8 and 15",
+            "Between 16 and 25",
+            "More than 25"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the historical context and content of NSC 68, focusing on its recommendations for military buildup and its implications for U.S. foreign policy decisions during the Cold War, particularly regarding the Soviet Union.",
+        "instruction 2": "Examine the response of U.S. policymakers and the broader geopolitical effects following the adoption of NSC 68, considering how it influenced subsequent American actions and strategies in the Cold War period.",
+        "question": "Why is NSC 68 seen as a turning point in US Cold War Foreign policy?",
+        "choices": [
+            "It indicated the primacy of economic containment",
+            "It indicated a desire to engage with the Soviet Union",
+            "It indicated a shift towards military containment",
+            "It dispensed with the idea of containment"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of 'Rogue States' by researching its historical context and the criteria typically used to categorize a state as 'rogue', focusing on elements such as violations of international norms, threats to global security, and lack of adherence to treaties.",
+        "instruction 2": "Examine examples of states that have been labeled as 'Rogue States' and analyze the reasons behind this designation, considering geopolitical implications, foreign relations, and the responses from the international community.",
+        "question": "What was meant by the term 'Rogue States'?",
+        "choices": [
+            "States aligned with the USSR during the Cold War",
+            "States outside of the 'family of nations'",
+            "Communist States",
+            "The former Soviet states"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the historical context and origins of the foreign policy doctrine pertaining to European involvement in Latin America, focusing on key documents or speeches that have articulated this principle.",
+        "instruction 2": "Examine the implications and consequences of this doctrine on international relations and interactions between European nations and Latin America, ensuring to recognize any notable exceptions or shifts in policy over time.",
+        "question": "The foreign policy doctrine that European nations should stay out of Latin America is known as",
+        "choices": [
+            "the Powell Doctrine.",
+            "the Roosevelt Doctrine.",
+            "the Bush Doctrine.",
+            "the Monroe Doctrine."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the concept of exceptionalism in the context of American foreign policy, identifying how it relates to the belief that the United States has a unique role or responsibility in global affairs that may not align with democratic principles shared by European liberal democrats.",
+        "instruction 2": "Examine specific instances or policies where exceptionalism has shaped American actions on the global stage, and how these actions conflict with European liberal democratic values such as multilateralism, international norms, and the role of international law in foreign policy.",
+        "question": "Why do contemporary European liberal democrats tend to object to the influence of exceptionalism on American foreign policy?",
+        "choices": [
+            "They see it as a challenge to European global influence",
+            "They see it as an ideological façade for US imperialism",
+            "They see it as a temporary phenomenon",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Examine the concept of exceptionalism and its implications for national identity and policy, particularly how it justifies both isolationist and internationalist approaches based on the belief in a nation's unique role or status in the world.",
+        "instruction 2": "Analyze historical and contemporary examples where exceptionalist beliefs have influenced a country's decision to adopt either an isolationist stance, prioritizing self-reliance and sovereignty, or an internationalist strategy, emphasizing engagement and cooperation with other nations.",
+        "question": "In what sense might exceptionalism link isolationist and internationalist strategies?",
+        "choices": [
+            "Both encourage world government",
+            "Both focus on the decline of the American power",
+            "It doesn't - the two are fundamentally opposed",
+            "Both can be viewed as different means of achieving the same liberal ends"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the core principles of realism in international relations and how they emphasize state behavior based on national interest and power dynamics, contrasting them with the notion of exceptionalism which suggests a distinct moral superiority of American policies.",
+        "instruction 2": "Examine specific examples of American foreign policy decisions that have been influenced by the idea of exceptionalism, assessing how realists view these decisions as potentially undermining pragmatic considerations of security and power balance in the international system.",
+        "question": "Why do realists tend to object to the influence of exceptionalism on American foreign policy?",
+        "choices": [
+            "It leads to a diminished focus on collective security",
+            "It diminishes the prospects for world government",
+            "It enhances the prospects for world government",
+            "It leads to a diminished focus on security, power and interest"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key characteristics of Socio-Economic accounts of US Cold War foreign policy, focusing on how economic factors, social dynamics, and class relations influence foreign policy decisions as opposed to traditional political or military narratives.",
+        "instruction 2": "Evaluate the specific socio-economic contexts, including the impact of the domestic economy, public opinion, and labor movements, that shaped US foreign policy during the Cold War, ensuring to contrast these with other theoretical frameworks such as Realism or Liberalism.",
+        "question": "What features distinguish Socio-Economic accounts of US Cold War foreign policy?",
+        "choices": [
+            "A focus on class and economic interests",
+            "A focus on liberal ideology",
+            "A focus on language and culture",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Examine the main thesis and arguments presented by Paul Kennedy in 'The Rise and Fall of the Great Powers,' focusing on how he analyzes the relationship between economic strength and military power throughout history.",
+        "instruction 2": "Identify key historical examples Kennedy uses to support his claims, considering how he illustrates the rise and decline of great powers and the implications for global politics within the framework of his argument.",
+        "question": "What did Paul Kennedy argue in his book The Rise and Fall of the Great Powers?",
+        "choices": [
+            "All of the world's leading economies were declining due to low growth and inflation",
+            "The United States could no longer remain a superpower and was in decline",
+            "The soft power of the United States would allow it to avoid decline",
+            "The rise of Japan had been exaggerated"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific branches of the military that are represented within the Joint Chiefs of Staff, including the roles and ranks of each member to provide a comprehensive understanding of the body's composition.",
+        "instruction 2": "Consider the function and purpose of the Joint Chiefs of Staff, evaluating how their collective expertise contributes to national defense and military strategy.",
+        "question": "The Joint Chiefs of Staff is made up of",
+        "choices": [
+            "the critical domestic and foreign policy advisers to the president.",
+            "foreign policy advisers who meet with the president daily.",
+            "the commanding officers of each branch of the armed services, along with a chairperson and vice chairperson.",
+            "the highest-ranking generals in the U.S. Army."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of American exceptionalism, focusing on its historical roots and the belief in the unique characteristics of the United States that differentiate it from other nations, particularly in the context of democracy, freedom, and opportunity.",
+        "instruction 2": "Explore the implications of American exceptionalism on both domestic policy and foreign relations, considering how this idea has influenced American identity and its role in global affairs throughout history.",
+        "question": "What is American exceptionalism?",
+        "choices": [
+            "The belief that the United States is different from other major powers because it is concerned not only with Power, but also with Principles.",
+            "The belief that the United States is different because it is the most powerful nation in the world.",
+            "The belief that the United States is pacifist.",
+            "The belief that the United States is different because it is motivated more by economic factors than other countries are."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the organization or entity responsible for intelligence gathering related to foreign countries, emphasizing its relevance to the formulation of foreign policy and how this role supports informed decision-making for policymakers.",
+        "instruction 2": "Evaluate the methods used by this organization to collect and analyze intelligence, considering the types of information that are crucial for policymakers and how this intelligence impacts foreign policy outcomes.",
+        "question": "The role of gathering and interpreting intelligence about foreign countries in order to allow policymakers to make good foreign policy decisions was given to",
+        "choices": [
+            "the Central Intelligence Agency (CIA).",
+            "the Federal Bureau of Investigation (FBI).",
+            "the National Security Council.",
+            "Both A and B are correct."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the name of the organization described in the question, focusing on attributes such as its mission to stabilize currencies and its international scope with a specific number of member countries.",
+        "instruction 2": "Consider the historical context and the role of the organization within the global economic framework, including its established functions and impact on international financial stability.",
+        "question": "The cooperative international organization of 185 countries designed to stabilize the exchange of currencies and the world economy is",
+        "choices": [
+            "the World Bank.",
+            "the United Nations.",
+            "UNICEF.",
+            "the International Monetary Fund."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the core principles and objectives of Offshore Balancing as a grand strategy, focusing on its approach to military engagement, resource allocation, and diplomatic relations, primarily in relation to great power competition.",
+        "instruction 2": "List and analyze specific policies that align with Offshore Balancing, such as strategic alliances, military deployments, and withdrawal from direct conflicts, while also considering how these policies affect regional stability and U.S. interests.",
+        "question": "What policies are part of a grand strategy of Offshore Balancing?",
+        "choices": [
+            "Maintaining a balance between the United States and other countries and not entering into alliances",
+            "Investing equally in domestic and international security with balanced protection against terrorism and other states",
+            "Embrace multi-polarity, show greater restraint internationally and require other states to meet their own security burdens.",
+            "Isolate the US from the international system and not seek global power"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the key components of the Marshall Plan, including its purpose, implementation details, and historical context, focusing specifically on its role in European recovery after World War II.",
+        "instruction 2": "Discuss the economic and political implications of the Marshall Plan, examining how it influenced U.S.-European relations and contributed to the shaping of post-war Europe.",
+        "question": "What was the Marshall plan?",
+        "choices": [
+            "A plan designed to aid the economy recovery of Europe",
+            "An attempt to diminish the potential attraction of the Soviet system to Europeans",
+            "An aid programme that embedded US influence in Europe",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the historical context of the War of 1812, focusing on the specific events and decisions made by U.S. leaders and military forces that contributed to avoiding a severe defeat or catastrophe against British forces in 1814.",
+        "instruction 2": "Identify key factors such as geographical advantages, strategic alliances, military tactics, and the national morale or resilience that played a role in the U.S. response to British military actions during that period.",
+        "question": "What accounted for the US avoidance of catastrophe at the hands of the British in 1814?",
+        "choices": [
+            "Naval victories",
+            "Diplomacy",
+            "British preoccupation with Europe",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key recommendations made by the 9/11 Commission concerning the restructuring of the U.S. intelligence community, including any proposed creation of new agencies or roles to enhance coordination and information sharing.",
+        "instruction 2": "Evaluate the implications of the proposed changes for operational efficiency and effectiveness within intelligence operations, considering how these recommendations aimed to prevent future threats and improve national security.",
+        "question": "What was a main organizational change proposed by the 9/11 Commission with regard to the U.S. intelligence community?",
+        "choices": [
+            "Creation of the Department of Homeland Security",
+            "Moving the Department of Defense Intelligence Agencies to the CIA for better coordination",
+            "Creation of the National Intelligence Director",
+            "Moving the domestic intelligence component of the FBI to the CIA"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and clarify the specific governmental organization responsible for coordinating American foreign and military policy, distinguishing it from other entities that may have overlapping functions, such as the Department of State or the Department of Defense.",
+        "instruction 2": "Consider the historical context and the various roles this government body may play in shaping policies, including diplomatic relations, military engagements, and international negotiations, to ensure a comprehensive understanding of its significance.",
+        "question": "The government body formed to coordinate American foreign and military policy is known as",
+        "choices": [
+            "the National Security Council.",
+            "the Pentagon.",
+            "the Defense Policy Institute.",
+            "the Joint Chiefs of Staff."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the core tenets of Marxist theory, particularly how class struggle, economic interests, and material conditions influence government policies, to establish a framework for understanding US foreign policy through this lens.",
+        "instruction 2": "Evaluate specific examples of US foreign policy decisions and actions that can be interpreted as manifestations of Marxist concepts such as imperialism, globalization, or capital accumulation, emphasizing the role of corporate interests and economic dominance in shaping diplomatic relations.",
+        "question": "What drives US foreign policy according to the Marxist perspective?",
+        "choices": [
+            "Economic protectionism",
+            "Class consciousness",
+            "The search for new markets",
+            "Superstructure"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the concept of American exceptionalism and how it shapes beliefs about national sovereignty and individualism, focusing on its implications for U.S. attitudes toward global governance and international cooperation.",
+        "instruction 2": "Evaluate historical and contemporary examples of American resistance to international institutions or agreements, explaining how these instances reflect a broader reluctance to cede power to a world government due to exceptionalist ideals.",
+        "question": "Why might American exceptionalism lead to opposition to world government?",
+        "choices": [
+            "Its general anti-statism opposes centralized government",
+            "It views world government as impractical",
+            "It views the UN as a sufficient form of global governance",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the different theories or frameworks within international relations that emphasize the role of states as primary actors, such as realism, and distinguish these from other perspectives that may prioritize non-state actors or global institutions.",
+        "instruction 2": "Evaluate the context or criteria used in the question to assess which of the provided options aligns with the idea that states have the most significant influence in international relations, considering their sovereignty, power dynamics, and interactions with other states.",
+        "question": "Which of the following considers states to be the primary actors in international relations?",
+        "choices": [
+            "Realism",
+            "Idealism",
+            "Liberalism",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the historical context of U.S. foreign policy decisions that have been influenced by oil, focusing on key events, agreements, and geopolitical strategies that underscore oil's significance.",
+        "instruction 2": "Evaluate the broader implications of oil dependency on U.S. relations with other countries, considering how energy security and economic interests shape diplomatic actions and alliances.",
+        "question": "The importance of oil in shaping U.S. foreign policy helps to highlight",
+        "choices": [
+            "the importance of military superiority.",
+            "how the importance of oil is often overexaggerated.",
+            "the increasing importance of economic instruments of foreign policy.",
+            "the need to drill for domestic sources."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific role or title of the president's principal civilian adviser on military matters, ensuring to use terminology that accurately reflects the established role within the government hierarchy.",
+        "instruction 2": "Understand the responsibilities and functions of this adviser, considering how this position interacts with both military and civilian relationships, as well as the broader implications for national security and defense policy.",
+        "question": "The president's principal civilian adviser on the military is the",
+        "choices": [
+            "national security adviser.",
+            "director of the CIA.",
+            "secretary of defense.",
+            "secretary of state."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the core principles of Ideational approaches to US foreign policy during the Cold War, focusing on the role of ideas, beliefs, and values in shaping foreign policy decisions, contrasting this with Realist perspectives that prioritize power and national interests.",
+        "instruction 2": "Analyze specific examples of US foreign policy actions during the Cold War that illustrate the differences between Ideational and Realist approaches, including how each perspective interprets events and motivations behind policies such as containment, diplomacy, and military interventions.",
+        "question": "How do Ideational approaches to US foreign policy during the Cold War differ from Realist accounts of the same period?",
+        "choices": [
+            "They place greater emphasis on economic factors",
+            "They place greater emphasis on material interests and power",
+            "They place greater emphasis on ideology and beliefs",
+            "They place greater emphasis on geopolitics"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the historical context and key events that shaped the relationship between President George H.W. Bush and Congress, focusing on legislative achievements, partisan dynamics, and significant political challenges during his presidency.",
+        "instruction 2": "Examine the evolving dynamics between President Bill Clinton and Congress, paying attention to major moments such as budget negotiations, the impact of the Republican takeover of Congress in 1994, and the implications of personal and political controversies on their relations.",
+        "question": "How did the relationship between President and Congress develop under George H.W. Bush and Bill Clinton?",
+        "choices": [
+            "Congress asserted its primacy in foreign policy",
+            "US foreign policy became substantially decentralized",
+            "The Presidency welcomed the influence of Congress",
+            "None of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify key arguments or positions that favor American unilateralism, focusing on aspects such as national security, economic interests, and the belief in the effectiveness of independent action in international relations.",
+        "instruction 2": "Examine the provided points or options critically to determine which ones align with the principles of unilateralism, ensuring to differentiate between unilateral action and multilateral approaches.",
+        "question": "Which of the following points supports the argument for American unilateralism?",
+        "choices": [
+            "Benevolent hegemony",
+            "Ineffectiveness of multilateralism",
+            "American power",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze historical data and trends regarding U.S. defense spending over time, including significant events such as wars, economic conditions, and political decisions that have influenced spending patterns.",
+        "instruction 2": "Identify key periods of increase or decrease in defense spending, noting any legislative changes, military engagements, or shifts in national security strategy that impacted the budget allocations.",
+        "question": "Historically, what has been the general pattern of defense spending in the United States?",
+        "choices": [
+            "Steady increases over time.",
+            "Increased spending during wars, with demobilization bringing spending down but not back to prewar levels",
+            "Unpredictable fluctuations.",
+            "Increased spending during wars, with further increases after the war to prepare for future engagements."
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the relationship between international development and state security by identifying key factors such as economic stability, political governance, and social cohesion that contribute to both domains.",
+        "instruction 2": "Examine case studies or examples where improvements in international development have led to enhanced state security or vice versa, thus establishing a clear connection between these two concepts.",
+        "question": "International development may be tied to the security of the state, why?",
+        "choices": [
+            "Threats to the state centralize political and economic power, threatening state development",
+            "Too many casualties drain the productive power of the state",
+            "Threats to the state encourage socialism",
+            "The two are correlated, but there is no causal effect"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the 'Domino Theory' by explaining the concept that a political event in one country can trigger similar events in neighboring countries, particularly in the context of communism during the Cold War.",
+        "instruction 2": "Explore the historical context in which the 'Domino Theory' was formulated, detailing its implications for U.S. foreign policy, especially in Southeast Asia, and how it influenced American military interventions.",
+        "question": "What was the 'Domino Theory'?",
+        "choices": [
+            "The idea that the Cold War operated according to the principles of game theory",
+            "The idea that certain states were of higher value than others to the US during the Cold War",
+            "The idea that the fall of one state to communism would inexorably lead to the fall of its neighbors",
+            "The idea that the growth of democracy in one state would inexorably lead to its growth in others"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key strategies or mechanisms employed in the disbursement of US foreign aid that have been recognized for their effectiveness in promoting positive change in target states, such as conditionality, capacity building, and partnership approaches.",
+        "instruction 2": "Evaluate the impacts of these disbursement methods on the political, economic, and social development of the recipient states, considering both short-term and long-term outcomes to assess their effectiveness comprehensively.",
+        "question": "What has been an effective way of disbursing US foreign aid to encourage change in target states?",
+        "choices": [
+            "Conditional programs, such as the Millennium Challenge, that require change before receipt of aid",
+            "the use of intergovernmental organizations to monitor aid disbursement",
+            "withdrawal of aid for bad policies",
+            "None of the above, international aid never works"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key agreements and institutions established during the Bretton Woods Conference in 1944 (not 1994), such as the International Monetary Fund (IMF) and the International Bank for Reconstruction and Development (IBRD), which were created to promote international economic cooperation and stabilize exchange rates.",
+        "instruction 2": "Analyze the objectives and functions of these institutions in relation to global economic stability, including their roles in facilitating monetary cooperation and providing financial assistance to countries in need.",
+        "question": "What was established at Bretton Woods in 1994 to stabilize the global economy?",
+        "choices": [
+            "The International Monetary Fund (IMF)",
+            "The US Dollar as the world's reserve currency",
+            "The General Agreement on Tariffs and Trade (GATT)",
+            "All of the above"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and analyze common factors that are typically considered good predictors for nuclear proliferation, such as a state's technological capability, historical conflicts, political stability, and existing military alliances.",
+        "instruction 2": "Evaluate the provided options to determine which does not fit as a reliable predictor by comparing it against established criteria in nuclear studies and assessing its relevance to states obtaining nuclear weapons.",
+        "question": "Which of the following is NOT a good predictor of which states will get nuclear weapons?",
+        "choices": [
+            "Receipt of sensitive nuclear assistance",
+            "Wealth/GDP",
+            "Rivalry with a nuclear state",
+            "Regime type"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define 'democratic enlargement' as a political strategy aimed at promoting democracy in various regions of the world, particularly during the post-Cold War era, including its goals and key principles that differentiate it from other foreign policies.",
+        "instruction 2": "Examine the historical context and examples of democratic enlargement, discussing how it was implemented by specific countries and the outcomes or challenges encountered, thereby providing a comprehensive understanding of its significance in international relations.",
+        "question": "What was 'democratic enlargement'?",
+        "choices": [
+            "A proposal for reform of the US system of government",
+            "A proposal for the extension of democratic rule globally",
+            "A proposal for the extension of free markets",
+            "Both b and c"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the context in which the phrase 'empire by invitation' is used, focusing on its implications regarding partnerships, consent, and the voluntary nature of territorial or political expansion, as opposed to coercive practices.",
+        "instruction 2": "Examine historical or theoretical examples that illustrate the concept, considering how it reflects relationships among nations or groups where one party invites another to participate in governance or influence, thereby creating a form of empire that is mutually acknowledged.",
+        "question": "What is meant by the phrase 'empire by invitation'?",
+        "choices": [
+            "Voluntary reliance on an external power for security",
+            "Willful openness to colonization",
+            "Cultural imperialism",
+            "Open advocacy of imperialism for economic gain"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze key foreign policy decisions taken by the George W. Bush administration, such as the doctrine of preemption and the response to the events of September 11, 2001, to determine how these choices represented a shift from previous policies.",
+        "instruction 2": "Consider the underlying motivations and strategic objectives of the Bush administration's foreign policy, including the pursuit of democracy and the war on terror, and how these influenced the U.S.'s global relationships and engagement in international conflicts.",
+        "question": "In what way did the George W Bush administration change the direction of US foreign policy?",
+        "choices": [
+            "It criticized international organizations, rather than trying to strengthen them",
+            "It expanded NATO to include former Soviet states",
+            "It focused on a more personal style of leadership",
+            "It increased international support for the United States"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the historical context surrounding the quote, including its author, the time period in which it was delivered, and the principles of foreign policy it represents, to ascertain the speaker's identity accurately.",
+        "instruction 2": "Investigate any prominent speeches or writings that contain this quote, cross-referencing with known political figures or leaders, to confirm the speaker while considering alternate sources that may also cite the same phrase.",
+        "question": "Peace, commerce, and honest friendship with all nations, entangling alliances with none'. Identify the speaker.",
+        "choices": [
+            "James Madison",
+            "Abraham Lincoln",
+            "Woodrow Wilson",
+            "Thomas Jefferson"
+        ],
+        "subject": "us_foreign_policy",
+        "answer": 3
+    }
+]

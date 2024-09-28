@@ -1,0 +1,1302 @@
+[
+    {
+        "question": "The rate, r, of a zero-order chemical reaction A → B can be expressed as which of the following?",
+        "answer": 3,
+        "choices": [
+            "r = k ln[A]",
+            "r = k [A]^2",
+            "r = k [A]",
+            "r = k"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the rate law for a zero-order reaction, which states that the rate is independent of the concentration of the reactant.",
+        "instruction 2": "Write the rate expression for the reaction, using the given information that the rate is constant and independent of the concentration of A."
+    },
+    {
+        "question": "Infrared (IR) spectroscopy is useful for determining certain aspects of the structure of organic molecules because",
+        "answer": 2,
+        "choices": [
+            "all molecular bonds absorb IR radiation",
+            "IR peak intensities are related to molecular mass",
+            "most organic functional groups absorb in a characteristic region of the IR spectrum",
+            "each element absorbs at a characteristic wavelength"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the specific characteristics of organic molecules that IR spectroscopy can provide information about, such as functional groups, bond types, and molecular conformations.",
+        "instruction 2": "Consider the principles of molecular vibrations and absorption of IR radiation, explaining how the resulting IR spectra can be used to infer the structural features of organic molecules."
+    },
+    {
+        "question": "What is the maximum number of phases that can be at equilibrium with each other in a three component mixture?",
+        "answer": 3,
+        "choices": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the concept of phase equilibrium and how it applies to a three-component mixture, considering the possible combinations of phases (solid, liquid, gas) that can coexist.",
+        "instruction 2": "Determine the maximum number of phases that can be in equilibrium by analyzing the possible combinations of phases, taking into account the constraints of the three-component mixture and the laws of thermodynamics."
+    },
+    {
+        "question": "When the following equation is balanced, which of the following is true?\n__ MnO4− + __ I− + __ H+ <-> __ Mn2+ + __ IO3− + __ H2O",
+        "answer": 1,
+        "choices": [
+            "The I− : IO3− ratio is 3:1.",
+            "The MnO4- : I- ratio is 6:5.",
+            "The MnO4- : Mn2+ ratio is 3:1.",
+            "The H+ : I− ratio is 2:1."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the reactants and products in the equation, recognizing that the goal is to balance the equation by ensuring the number of atoms of each element is the same on both the reactant and product sides.",
+        "instruction 2": "Apply the rules of balancing chemical equations, such as adding coefficients to formulas or combining formulas of reactants and products, to achieve a balanced equation that satisfies the law of conservation of mass."
+    },
+    {
+        "question": "The equation ΔH = ΔU + PΔV is applicable",
+        "answer": 1,
+        "choices": [
+            "always",
+            "only for constant pressure processes",
+            "only for constant temperature processes",
+            "only for constant volume processes"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the variables involved in the equation, including ΔH, ΔU, P, and ΔV, and determine their physical significance in the context of thermodynamics.",
+        "instruction 2": "Consider the underlying principles of thermodynamics that govern the relationships between these variables, such as the first law, and how the equation represents a fundamental connection between the internal energy (U) and enthalpy (H) of a system."
+    },
+    {
+        "question": "Nitronyl nitroxides are stable radicals in which the unpaired electron is coupled to two equivalent nitrogen nuclei. How many lines will appear in the EPR spectrum of a solution of a rigid nitronyl nitroxide diradical with J << a?",
+        "answer": 1,
+        "choices": [
+            "3 lines",
+            "9 lines",
+            "5 lines",
+            "7 lines"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the concept of electron paramagnetic resonance (EPR) and the factors that influence the appearance of spectral lines, such as the hyperfine coupling constant (a) and the exchange coupling constant (J).",
+        "instruction 2": "Apply the relevant theory of EPR spectroscopy to predict the number of lines that will appear in the spectrum of a rigid nitronyl nitroxide diradical, taking into account the strong exchange coupling (J << a) and the presence of two equivalent nitrogen nuclei."
+    },
+    {
+        "question": "Cobalt-60 is used in the radiation therapy of cancer and can be produced by bombardment of cobalt-59 with which of the following?",
+        "answer": 0,
+        "choices": [
+            "Neutrons",
+            "Alpha particles",
+            "Beta particles",
+            "X-rays"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key process by which cobalt-60 is produced, focusing on the interaction between cobalt-59 and a specific particle or energy source.",
+        "instruction 2": "Consider the properties of cobalt-59 and the resulting cobalt-60, such as half-life and radiation characteristics, to determine the specific particle or energy source required for production."
+    },
+    {
+        "question": "Which of the following is required for both paramagnetism and ferromagnetism?",
+        "answer": 3,
+        "choices": [
+            "Strong oxidizing conditions",
+            "Low-spin electron configuration",
+            "Metallic physical properties",
+            "Unpaired electrons"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the common fundamental principle that underlies both paramagnetism and ferromagnetism, focusing on the behavior of electron spins and the presence of unpaired electrons in the materials.",
+        "instruction 2": "Consider how both types of magnetism relate to the alignment of magnetic moments in materials, and how external magnetic fields influence these alignments, affecting the overall magnetic properties."
+    },
+    {
+        "question": "The 1H spectrum of a mixture of dimethylsulphoxide (DMSO) and acetonitrile (AN) contains lines with relative intensities α and 3α, respectively. What is the ratio of the two concentrations, [DMSO]:[AN]?",
+        "answer": 2,
+        "choices": [
+            "1:1",
+            "1:3",
+            "1:6",
+            "2:3"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the relative intensities of the lines in the 1H NMR spectrum, specifically identifying the intensities of the lines corresponding to DMSO and AN.",
+        "instruction 2": "Use the known intensities of the lines to establish a ratio between the concentrations of DMSO and AN, considering the relative intensities of the lines and the principles of NMR spectroscopy."
+    },
+    {
+        "question": "Which of the following statements most accurately explains why the T1 of a nucleus is sometimes longer than its T2?",
+        "answer": 3,
+        "choices": [
+            "T1, unlike T2, is sensitive to very low-frequency molecular motions.",
+            "T2, unlike T1, is sensitive to very low-frequency molecular motions.",
+            "T1, unlike T2, is sensitive to molecular motions at the Larmor frequency.",
+            "T2, unlike T1, is sensitive to molecular motions at the Larmor frequency."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key differences between T1 and T2 relaxation times in nuclear magnetic resonance (NMR) spectroscopy, focusing on the mechanisms of relaxation and their effects on the NMR signal.",
+        "instruction 2": "Consider how the specific properties of the nucleus, such as its spin and magnetic moment, influence the T1 and T2 relaxation times, and how these differences can result in T1 being longer than T2 in certain situations."
+    },
+    {
+        "question": "The 1H Larmor frequency of benzene exceeds that of trifluoroacetic acid by 1.656 kHz on a 400 MHz spectrometer. The 1H chemical shift of benzene is 7.16 ppm. What is the chemical shift of trifluoroacetic acid?",
+        "answer": 3,
+        "choices": [
+            "3.02 ppm",
+            "5.03 ppm",
+            "10.56 ppm",
+            "11.30 ppm"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the difference in the Larmor frequency between benzene and trifluoroacetic acid, which is given as 1.656 kHz, and recognize that this difference corresponds to a difference in the chemical shift between the two compounds.",
+        "instruction 2": "Use the known chemical shift of benzene (7.16 ppm) and the difference in Larmor frequency to calculate the chemical shift of trifluoroacetic acid, ensuring to convert the frequency difference from kHz to ppm units."
+    },
+    {
+        "question": "Suppose that the 13C nuclei in a molecule in a 600 MHz spectrometer can be 100% polarized (p = 1). If T1 = 5.0 s, how long does it take for p to reach a value equal to twice the thermal equilibrium polarization at 298 K?",
+        "answer": 1,
+        "choices": [
+            "[The polarization relaxes exponentially: p(t) = [p(0) - peq]exp(-t/T1) + peq.]",
+            "72.0 s",
+            "56.6 s",
+            "12.7 s"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the thermal equilibrium polarization (p0) at 298 K using the Boltzmann distribution and the gyromagnetic ratio of 13C nuclei.",
+        "instruction 2": "Apply the spin-lattice relaxation equation to calculate the time it takes for the polarization to reach a value equal to twice the thermal equilibrium polarization, given the T1 relaxation time and the initial polarization value of 1."
+    },
+    {
+        "question": "Estimate the β-hyperfine value for the cyclobutyl radical (C4H7•) assuming the radical is flat and the HCH angle is 115°.",
+        "answer": 0,
+        "choices": [
+            "4.6 mT",
+            "27 G",
+            "5.4 mT",
+            "3.8 mT"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the relevant molecular geometry of the cyclobutyl radical, focusing on the HCH angle and the assumption of a flat molecular shape.",
+        "instruction 2": "Apply the relevant quantum mechanical or computational methods to estimate the β-hyperfine value, considering the molecular geometry and any relevant experimental or theoretical data."
+    },
+    {
+        "question": "What is the ratio of line intensities in the EPR spectrum of the t-Bu radical (CH3)3C•?",
+        "answer": 3,
+        "choices": [
+            "1:19:36:84:126:126:84:36:19:1",
+            "1:9:36:84:126:126:84:36:9:1",
+            "1:9:35:82:120:120:82:35:9:1",
+            "1:8:28:56:70:56:28:8:1"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the specific features of the EPR spectrum that are relevant to determining the ratio of line intensities, such as the g-values and hyperfine coupling constants.",
+        "instruction 2": "Consider the theoretical framework for understanding the EPR spectrum of the t-Bu radical, including the spin Hamiltonian and the effects of hyperfine interactions on the line intensities, to derive the desired ratio."
+    },
+    {
+        "question": "Which one sentence explains most accurately why spin trapping is often used to detect free radical intermediates?",
+        "answer": 3,
+        "choices": [
+            "spin trapping provides more structural information than direct detection by EPR",
+            "spin trapping makes it easy to quantify free radical intermediates",
+            "steady state concentration of free radical intermediates is often too low to enable direct detection by EPR",
+            "detection of spin adducts requires lower power than direct detection of radical intermediates"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key mechanism by which spin trapping works, focusing on the reaction between a free radical and a spin trap agent to form a stable radical adduct.",
+        "instruction 2": "Consider the advantages of using spin trapping for detecting free radical intermediates, such as its ability to stabilize and detect these short-lived species, and how this approach differs from other methods of radical detection."
+    },
+    {
+        "question": "Calculate the magnetic moment (μI) of a 13C nucleus.",
+        "answer": 2,
+        "choices": [
+            "6.1445 x 10^-27 J T-1",
+            "3.1445 x 10^-27 J T-1",
+            "9.1445 x 10^-27 J T-1",
+            "1.1445 x 10^-28 J T-1"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the spin of the 13C nucleus, which is 1/2, and identify the associated magnetic moment according to the gyromagnetic ratio.",
+        "instruction 2": "Use the value of the gyromagnetic ratio and the spin of the 13C nucleus to calculate the magnetic moment (μI) in units of Bohr magnetons (μB)."
+    },
+    {
+        "question": "The normal modes of a carbon dioxide molecule that are infrared-active include which of the following?\nI. Bending\nII. Symmetric stretching\nIII. Asymmetric stretching",
+        "answer": 3,
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and III only"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the fundamental modes of vibration in the carbon dioxide molecule, such as stretching and bending, and determine which of these modes involve changes in the molecule's bond lengths and angles.",
+        "instruction 2": "Consider the symmetry of the carbon dioxide molecule, specifically the presence of a center of symmetry, to determine which modes are infrared-active and which are not, based on the selection rules for infrared spectroscopy."
+    },
+    {
+        "question": "Which of the following is a true statement about optical isomerism of complexes containing achiral ligands?",
+        "answer": 3,
+        "choices": [
+            "Square planar complexes can display optical isomerism only if all four ligands are identical.",
+            "Tetrahedral complexes never display optical isomerism.",
+            "Linear complexes can display optical isomerism when both ligands are different.",
+            "Octahedral complexes of monodentate ligands can display optical isomerism only when they have at least three different ligands."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key concept of optical isomerism, specifically focusing on complexes containing achiral ligands, and understand how this relates to the presence of a chiral metal center.",
+        "instruction 2": "Consider how the symmetry properties of the complex, including the presence of any mirror planes or inversion centers, influence the formation of optical isomers, and how this impacts the resulting stereochemistry of the complex."
+    },
+    {
+        "question": "Which one of the following statements is true:",
+        "answer": 2,
+        "choices": [
+            "Protons and neutrons have orbital and spin angular momentum.",
+            "Protons have orbital and spin angular momentum, neutrons have spin angular momentum.",
+            "Protons and neutrons possess orbital angular momentum only.",
+            "Protons and neutrons possess spin angular momentum only."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key terms or concepts in the statement being evaluated, such as 'true' or 'false', and recognize any relevant definitions or criteria that may be applicable.",
+        "instruction 2": "Consider the context and any implicit assumptions within the statement, evaluating whether it accurately reflects the facts or circumstances being described."
+    },
+    {
+        "question": "Calculate the Larmor frequency for a proton in a magnetic field of 1 T.",
+        "answer": 1,
+        "choices": [
+            "23.56 GHz",
+            "42.58 MHz",
+            "74.34 kHz",
+            "13.93 MHz"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relevant physical constants and equations necessary to calculate the Larmor frequency, such as the magnetic field strength, the charge and mass of a proton, and the Lorentz force equation.",
+        "instruction 2": "Set up the mathematical expression for the Larmor frequency using the identified constants and equations, and then solve for the frequency in terms of the given magnetic field strength."
+    },
+    {
+        "question": "Which of the following is an n-type semiconductor?",
+        "answer": 3,
+        "choices": [
+            "Silicon",
+            "Diamond",
+            "Silicon carbide",
+            "Arsenic-doped silicon"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the general properties of n-type semiconductors, such as the presence of excess electrons or electron donors, and how these properties differ from those of p-type semiconductors.",
+        "instruction 2": "Consider the chemical composition and doping processes that create n-type semiconductors, focusing on the addition of impurities that introduce free electrons and alter the semiconductor's electrical properties."
+    },
+    {
+        "question": "Which of the following statements most accurately explains why the 1H spectrum of 12CHCl3 is a singlet?",
+        "answer": 3,
+        "choices": [
+            "Both 35Cl and 37Cl have I = 0.",
+            "The hydrogen atom undergoes rapid intermolecular exchange.",
+            "The molecule is not rigid.",
+            "Both 35Cl and 37Cl have electric quadrupole moments."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the chemical structure of 12CHCl3 and recognize that it contains one 12C atom and three Cl atoms.",
+        "instruction 2": "Consider the nuclear spin properties of the 12C and Cl atoms, noting that the 12C atom has zero nuclear spin, while the Cl atoms have a spin of 1/2. Determine how this affects the overall spin state of the molecule in the 1H NMR spectrum."
+    },
+    {
+        "question": "At 25°C, the maximum amount of PbI2 that can be dissolved in 1.00 L of pure water is 1.0 mmol. Assuming complete dissociation, the solubility product, K_sp, for lead iodide at 25°C is",
+        "answer": 3,
+        "choices": [
+            "1.0 × 10^−3",
+            "1.0 × 10^−6",
+            "1.0 × 10^−9",
+            "4.0 × 10^−9"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Write the balanced chemical equation for the dissolution of PbI2 in water, considering the complete dissociation of the compound into its constituent ions.",
+        "instruction 2": "Use the solubility product expression to relate the concentrations of the ions to the solubility of PbI2, and then calculate the value of K_sp by substituting the given solubility and the volume of the solution."
+    },
+    {
+        "question": "The 13C spectrum of which isomer of C6H14 has lines with five distinct chemical shifts?",
+        "answer": 1,
+        "choices": [
+            "hexane",
+            "2-methylpentane",
+            "3-methylpentane",
+            "2,3-dimethylbutane"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the structural differences between the two possible isomers of C6H14, focusing on the arrangement of the carbon atoms and the potential effects on the 13C nuclear magnetic resonance (NMR) spectrum.",
+        "instruction 2": "Consider how the differences in molecular structure might result in distinct chemical shifts in the 13C NMR spectrum, and how the presence of five distinct chemical shifts can be used to identify the specific isomer."
+    },
+    {
+        "question": "Which of the following is the most common naturally-occurring form in which silicon is found?",
+        "answer": 3,
+        "choices": [
+            "Metallic element",
+            "Sulfide",
+            "Fluoride",
+            "Oxide"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Research the most common naturally-occurring forms of silicon, focusing on its elemental state, compounds, and minerals.",
+        "instruction 2": "Evaluate the relative abundance and importance of these forms, considering factors such as geological distribution, industrial applications, and biological roles, to determine the most common naturally-occurring form of silicon."
+    },
+    {
+        "question": "Which nuclide has an NMR frequency of 115.5 MHz in a 20.0 T magnetic field?",
+        "answer": 0,
+        "choices": [
+            "17O",
+            "19F",
+            "29Si",
+            "31P"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relationship between the NMR frequency and the strength of the magnetic field, using the formula f = γB, where f is the frequency, γ is the gyromagnetic ratio, and B is the magnetic field strength.",
+        "instruction 2": "Consider the specific values provided, using the given strength of the magnetic field (20.0 T) to calculate the corresponding NMR frequency, and then identify the nuclide that corresponds to this frequency using a reference table or database."
+    },
+    {
+        "question": "Which of the following must be true about a binary liquid mixture that obeys Raoult’s law?\nI. The partial pressure of each component at equilibrium is proportional to its mole fraction in the liquid mixture.\nII. The volume of the mixture is equal to the sum of the volumes of each component before mixing.\nIII. Intermolecular interactions in the mixture are identical to intermolecular interactions in the pure components.",
+        "answer": 3,
+        "choices": [
+            "I only",
+            "III only",
+            "I and III only",
+            "I, II, and III"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the fundamental principle of Raoult’s law, which states that the vapor pressure of a binary mixture is equal to the mole fraction of each component times its vapor pressure in the pure state.",
+        "instruction 2": "Apply the conditions of Raoult’s law to each of the given statements, determining which ones must be true and which ones are not necessarily true, and providing a justification for each conclusion."
+    },
+    {
+        "question": "A single line is seen in the 31P spectrum of a solution of sodium phosphate. The 31P chemical shifts of H2PO4‾ and HPO42– are 3.42 ppm and 5.82 ppm respectively. What is the chemical shift when the pH of the solution equals the pKa of H2PO4‾?",
+        "answer": 3,
+        "choices": [
+            "3.41 ppm",
+            "3.98 ppm",
+            "4.33 ppm",
+            "4.62 ppm"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the pKa value of H2PO4‾, which is the acid dissociation constant, to understand the pH range where H2PO4‾ and HPO42– coexist.",
+        "instruction 2": "Consider the pH-dependent behavior of the phosphate species, using the given chemical shifts to predict the expected shift when the pH equals the pKa, taking into account the relative abundance of H2PO4‾ and HPO42– at this specific pH."
+    },
+    {
+        "question": "For EDTA titrations, the analyte solution and the titrant solution are both buffered at the same pH for which of the following reasons?\nI. The conditional formation constant is affected by pH.\nII. The fraction of EDTA in the fully deprotonated Y4− form varies with pH.\nIII. When EDTA reacts to form a metal complex, H+ is a product in most cases.",
+        "answer": 3,
+        "choices": [
+            "I only",
+            "I and II only",
+            "I and III only",
+            "I, II, and III"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the reasons why the analyte solution and titrant solution are both buffered at the same pH, focusing on the chemical reactions involved in the EDTA titration process.",
+        "instruction 2": "Consider the specific effects of pH on the formation constant of the metal-EDTA complex, the proportion of EDTA in its fully deprotonated form, and the reaction products, and determine which of the provided options is the primary reason for buffering the solutions at the same pH."
+    },
+    {
+        "question": "The Henry’s law constant for CO2 dissolved in water at 25°C is 30.0 atm M^−1. The concentration of dissolved CO2 in a vessel pressurized with 2.0 atm of CO2 is",
+        "answer": 2,
+        "choices": [
+            "1.5 M",
+            "0.15 M",
+            "0.067 M",
+            "0.015 M"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Use Henry's law to relate the partial pressure of CO2 (pCO2) to the concentration of dissolved CO2 (C) in the water, given the Henry's law constant and the known partial pressure.",
+        "instruction 2": "Solve for the concentration of dissolved CO2 (C) by rearranging the equation derived in instruction 1, using the given partial pressure of CO2 (pCO2) and the Henry's law constant."
+    },
+    {
+        "question": "A student performs five titrations and obtains a mean result of 0.110 M, with a standard deviation of 0.001 M. If the actual concentration of the titrated solution is 0.100 M, which of the following is true about the titration results?",
+        "answer": 1,
+        "choices": [
+            "Accurate but not precise",
+            "Precise but not accurate",
+            "Both accurate and precise",
+            "Neither accurate nor precise"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Calculate the absolute difference between the mean result and the actual concentration of the titrated solution to determine the deviation from the expected value.",
+        "instruction 2": "Consider the standard deviation as a measure of the spread of the results, evaluating whether the deviation from the expected value is within one standard deviation or not, and draw conclusions about the accuracy of the titration results based on this analysis."
+    },
+    {
+        "question": "A Cu(II) metal ion (giso = 2.12) produces four lines with a separation of 500 MHz between each line. Express the hyperfine splitting in field units of mT and the hyperfine coupling in units of wavenumbers.",
+        "answer": 2,
+        "choices": [
+            "500 MHz = 0.185 mT = 0.29842 cm-1",
+            "500 MHz = 16.850 mT = 0.01667 cm-1",
+            "500 MHz = 32.953 mT = 0.76298 cm-1",
+            "500 MHz = 45.672 mT = 2.86329 cm-1"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the hyperfine splitting in field units (mT) by dividing the separation between each line (500 MHz) by the number of lines (4), and then converting the result to mT.",
+        "instruction 2": "Calculate the hyperfine coupling in units of wavenumbers by dividing the hyperfine splitting in mT by the g-factor of the Cu(II) metal ion, and then converting the result to wavenumbers."
+    },
+    {
+        "question": "On the basis of oxidation-reduction potential, which of the following is most likely to occur?",
+        "answer": 1,
+        "choices": [
+            "Al(s) + 3 NaNO3(aq) 3 Na(s) + Al(NO3)3(aq)",
+            "Zn(s) + 2 Ag(NO3)(aq) → 2 Ag(s) + Zn(NO3)2(aq)",
+            "Pb(s) + Ca(NO3)2(aq) → Ca(s) + Pb(NO3)2(aq)",
+            "Pb(s) + 2 LiNO3(aq) → 2 Li(s) + Pb(NO3)2(aq)"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the oxidation-reduction potential of the reactants involved, considering the tendency of each species to lose or gain electrons.",
+        "instruction 2": "Evaluate the most likely reaction based on the oxidation-reduction potential, taking into account the possibility of oxidation, reduction, or no reaction, and justify the chosen outcome with relevant chemical principles."
+    },
+    {
+        "question": "Which of the following statements is not a reason why tetramethylsilane is used as a 1H chemical shift reference.",
+        "answer": 3,
+        "choices": [
+            "Its 1H spectrum is a singlet.",
+            "Its protons are quite strongly shielded.",
+            "It dissolves in most organic solvents.",
+            "Most organic compounds do not contain silicon atoms."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Analyze the properties of tetramethylsilane (TMS) that make it a suitable reference for 1H NMR chemical shifts, such as its stability, non-reactivity, and the fact that it provides a single sharp peak, to differentiate from the choices given.",
+        "instruction 2": "Evaluate each statement provided in the question to determine whether it accurately describes a characteristic or advantage of TMS, identifying the one statement that does not align with its purpose or properties as a reference compound."
+    },
+    {
+        "question": "The X-band (9.5 GHz) EPR spectrum of a matrix isolated Na atom reveals four hyperfine lines with resonant field positions of 3074 G, 3174 G, 3274 G and 3374 G. Calculate the g value of the atom.",
+        "answer": 0,
+        "choices": [
+            "g = 2.002",
+            "g = 1.950",
+            "g = 2.250",
+            "g = 2.005"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relevant information provided in the problem, specifically the resonant field positions of the four hyperfine lines.",
+        "instruction 2": "Use the relationship between the g value and the resonant field positions to calculate the g value, taking into account the sign and magnitude of the value."
+    },
+    {
+        "question": "Calculate the spin angular momentum of 43Ca. [I = 7⁄2]",
+        "answer": 2,
+        "choices": [
+            "2.166 x 10^-34 J s",
+            "3.691 x 10^-34 J s",
+            "4.185 x 10^-34 J s",
+            "5.493 x 10^-34 J s"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the spin angular momentum formula and its variables, specifically focusing on the nuclear spin quantum number I.",
+        "instruction 2": "Substitute the given value of I = 7⁄2 into the formula to calculate the spin angular momentum, taking into account the units and any necessary conversions."
+    },
+    {
+        "question": "Calculate the magnetic field responsible for the polarization of 2.5 x 10^-6 for 13C at 298 K.",
+        "answer": 2,
+        "choices": [
+            "0.5 T",
+            "1.2 T",
+            "2.9 T",
+            "100 T"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the nuclear magnetic moment of 13C, which is a fundamental property that influences its magnetic behavior.",
+        "instruction 2": "Use the Curie equation to calculate the magnetic field required to polarize the 13C nuclei, taking into account the given temperature (298 K) and the number of nuclei (2.5 x 10^-6)."
+    },
+    {
+        "question": "The T2 of an NMR line is 15 ms. Ignoring other sources of linebroadening, calculate its linewidth.",
+        "answer": 1,
+        "choices": [
+            "0.0471 Hz",
+            "21.2 Hz",
+            "42.4 Hz",
+            "66.7 Hz"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the relationship between the transverse relaxation time (T2) and the linewidth of an NMR line, recognizing that the linewidth is inversely proportional to the transverse relaxation time.",
+        "instruction 2": "Apply the formula for linewidth calculation, which is 1/T2, to determine the exact value of the linewidth given the provided T2 value.\" }\n\nPlease provide your response in the format described above. For the given question, please provide two new instructions. \n\nQuestion: A recent study found that the average annual rate of return on investment in a particular stock market is 8% per year, with a standard deviation of 10%. If you invest $10,000 in this market, how much will you have after 5 years?\nReasoning steps: {\n  \"instruction 1\": \"Calculate the average annual return on investment, recognizing that this represents the expected growth rate of the investment over time."
+    },
+    {
+        "question": "What is the maximum value of the z-component of the spin angular momentum of 43Ca? [I = 7⁄2]",
+        "answer": 0,
+        "choices": [
+            "3.691 x 10^-34 J s",
+            "4.185 x 10^-34 J s",
+            "5.493 x 10^-34 J s",
+            "8.370 x 10^-34 J s"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the spin quantum number (I) of 43Ca, which is given as 7⁄2.",
+        "instruction 2": "Use the formula for the maximum value of the z-component of the spin angular momentum, which is given by the absolute value of the spin quantum number (I), to calculate the maximum value for 43Ca."
+    },
+    {
+        "question": "Of the following compounds, which has the lowest melting point?",
+        "answer": 0,
+        "choices": [
+            "HCl",
+            "AgCl",
+            "CaCl2",
+            "CCl4"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the chemical properties of each compound, such as molecular structure and intermolecular forces, to understand how these factors influence their melting points.",
+        "instruction 2": "Compare the melting points of each compound, considering how their unique properties, such as van der Waals forces or hydrogen bonding, affect their thermal stability and ability to transition from a solid to a liquid state."
+    },
+    {
+        "question": "Which of the following statements about nuclear binding energies is NOT true?",
+        "answer": 1,
+        "choices": [
+            "Binding energy per nucleon reaches a maximum for 56Fe.",
+            "Nuclear binding energies have about the same magnitude as chemical bond energies.",
+            "Nuclei have slightly less mass than the sum of their component nucleons.",
+            "The nuclei of heavy elements have more neutrons than protons in order to provide sufficient binding energy to hold the nuclei together."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the general concept of nuclear binding energy, which is the energy released when atomic nuclei combine or split, and its relationship to the masses of the resulting nuclei.",
+        "instruction 2": "Consider specific statements about nuclear binding energies, evaluating whether they align with the general concept and existing scientific knowledge, and identifying any statements that contradict established principles or data."
+    },
+    {
+        "question": "Predict the hyperfine value for the EPR spectrum of fully deuteriated benzene radical anion C6D6•-.",
+        "answer": 3,
+        "choices": [
+            "0.375 mT",
+            "3.75 G",
+            "2.35 mT",
+            "0.58 G"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the fundamental principles of Electron Paramagnetic Resonance (EPR) spectroscopy and its application to the analysis of radical anions, including the concept of hyperfine splitting.",
+        "instruction 2": "Consider the specific molecular structure of fully deuteriated benzene radical anion C6D6•-, taking into account the isotopic substitution of hydrogen atoms with deuterium, and how this may affect the hyperfine interaction and subsequent EPR spectrum."
+    },
+    {
+        "question": "The strongest base in liquid ammonia is",
+        "answer": 1,
+        "choices": [
+            "NH3",
+            "NH2−",
+            "NH4+",
+            "N2H4"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the properties of strong bases in general, such as their ability to fully dissociate in water, and consider how these properties might be affected in a non-aqueous solvent like liquid ammonia.",
+        "instruction 2": "Research the specific properties and reactivity of the given base in liquid ammonia, evaluating its ability to fully dissociate and its potential for strong proton abstraction, in order to determine its strength as a base."
+    },
+    {
+        "question": "The equilibrium populations of the 1H energy levels of a molecule are nα = nαeq and nβ = nβeq. What are the populations after a 5.0 μs pulse when B1 = 4.697 mT?",
+        "answer": 0,
+        "choices": [
+            "nα = nβeq and nβ = nαeq",
+            "nα = nαeq and nβ = nβeq",
+            "nα = ½(nαeq + nβeq) and nβ = ½(nαeq + nβeq)",
+            "nα = nαeq + nβeq and nβ = nαeq + nβeq"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the context of the problem, focusing on the principles of nuclear magnetic resonance (NMR) and how the populations of energy levels respond to an applied magnetic field pulse, such as the effects of B1 on spin state populations.",
+        "instruction 2": "Calculate the populations of the energy levels after the 5.0 μs pulse by applying relevant formulas regarding state transitions and the effects of the magnetic field, considering the time duration of the pulse and any relaxation processes that may affect the equilibrium populations."
+    },
+    {
+        "question": "Calculate the Q-factor for an X-band EPR cavity with a resonator bandwidth of 1.58 MHz.",
+        "answer": 3,
+        "choices": [
+            "Q = 1012",
+            "Q = 2012",
+            "Q = 3012",
+            "Q = 6012"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Research the definition and formula for the Q-factor, which is a measure of the quality factor of an electrical circuit, specifically for an EPR cavity.",
+        "instruction 2": "Apply the formula to the given resonator bandwidth, ensuring to account for any relevant parameters such as the cavity's dimensions, materials, or operating conditions, to calculate the Q-factor."
+    },
+    {
+        "question": "The 13C chemical shifts of benzene and chloroform are 128.4 ppm and 77.2 ppm respectively. What is the difference in the 13C NMR frequencies of the two compounds on a 600 MHz spectrometer?",
+        "answer": 0,
+        "choices": [
+            "7.73 kHz",
+            "30.7 kHz",
+            "91.6 kHz",
+            "122 kHz"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Calculate the 13C NMR frequencies of each compound by multiplying their respective chemical shifts by the spectrometer frequency (600 MHz).",
+        "instruction 2": "Subtract the 13C NMR frequency of chloroform from the 13C NMR frequency of benzene to determine the difference in the 13C NMR frequencies of the two compounds."
+    },
+    {
+        "question": "Of the following solutions, which will have the highest ionic strength? (Assume complete dissociation.)",
+        "answer": 0,
+        "choices": [
+            "0.050 M AlCl3",
+            "0.100 M NaCl",
+            "0.050 M CaCl2",
+            "0.100 M HCl"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the ionic compounds listed and their corresponding dissociation reactions, considering the number of ions produced in each case.",
+        "instruction 2": "Calculate the total concentration of ions for each solution by summing the concentrations of individual ions, ranking the solutions based on their ionic strength, which is directly related to the total concentration of ions."
+    },
+    {
+        "question": "What is the strength (B1) of a 13C 90° pulse of duration 1 μs?",
+        "answer": 1,
+        "choices": [
+            "3.72 mT",
+            "5.18 mT",
+            "17.0 mT",
+            "23.3 mT"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Research the relationship between the strength of a pulse and its duration in nuclear magnetic resonance (NMR) spectroscopy, specifically focusing on the 13C nucleus.",
+        "instruction 2": "Consult relevant literature or reference materials to determine the typical strength of a 90° pulse for 13C nuclei, taking into account factors such as the pulse duration, magnetic field strength, and sample properties."
+    },
+    {
+        "question": "Which of the following experimental observations were explained by Planck’s quantum theory?",
+        "answer": 0,
+        "choices": [
+            "Blackbody radiation curves",
+            "Emission spectra of diatomic molecules",
+            "Electron diffraction patterns",
+            "Temperature dependence of reaction rates"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key experimental observations that led to the development of Planck's quantum theory, such as the black-body radiation problem and the limitations of classical electromagnetic theory.",
+        "instruction 2": "Explain how Planck's theory addressed these experimental observations by introducing the concept of quantized energy and the role of the Planck constant, highlighting the significance of this theory in resolving the black-body radiation issue and its broader implications for our understanding of energy and matter."
+    },
+    {
+        "question": "A radioactive isotope, which is used in diagnostic imaging, has a half-life of 6.0 hours. If a quantity of this isotope has an activity of 150 mCi when it is delivered to a hospital, how much activity will remain 24 hours after delivery? (mCi = microcuries)",
+        "answer": 3,
+        "choices": [
+            "150 mCi",
+            "38 mCi",
+            "19 mCi",
+            "9.4 mCi"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the concept of half-life and how it relates to the decay of radioactive isotopes, recognizing that the half-life represents the time it takes for the activity of the isotope to decrease by half.",
+        "instruction 2": "Apply the concept of half-life to the given scenario, calculating the number of half-lives that occur between the initial delivery and 24 hours later, and then using this information to determine the remaining activity."
+    },
+    {
+        "question": "What is the orbital angular momentum quantum number, l, of the electron that is most easily removed when ground-state aluminum is ionized?",
+        "answer": 2,
+        "choices": [
+            "3",
+            "2",
+            "1",
+            "0"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the ground state of aluminum, which is 1s^2 2s^2 2p^6 3s^2 3p^1, and determine the energy level and subshell of the outermost electron.",
+        "instruction 2": "Consider the ionization energy and the probability of electron removal for each subshell, determining which electron is most easily removed and, subsequently, the corresponding value of the orbital angular momentum quantum number, l."
+    },
+    {
+        "question": "Considering 0.1 M aqueous solutions of each of the following, which solution has the lowest pH?",
+        "answer": 3,
+        "choices": [
+            "Na2CO3",
+            "Na3PO4",
+            "Na2S",
+            "NaCl"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the strong and weak acids present in each solution, recognizing that strong acids completely dissociate in water, whereas weak acids only partially dissociate.",
+        "instruction 2": "Determine the pH of each solution based on the concentration and type of acid present, considering the effects of dissociation and the resulting hydrogen ion concentration."
+    },
+    {
+        "question": "A silyl radical bearing an Si-H· fragment has a g value of 2.0033 and a pair of lines separated by 15.5 MHz. Express the splitting in units of mT, Gauss and cm-1.",
+        "answer": 1,
+        "choices": [
+            "15.5 MHz = 11.104 mT = 27.201 Gauss = 0.862 x 10^-4 cm-1",
+            "15.5 MHz = 7.352 mT = 10.104 Gauss = 18.39 x 10^-4 cm-1",
+            "15.5 MHz = 1.55 mT = 0.562 Gauss = 31.0 x 10^-4 cm-1",
+            "15.5 MHz = 0.553 mT = 5.530 Gauss = 5.17 x 10^-4 cm-1"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relevant physical constants required for the conversion, including the Bohr magneton, the electron spin g-factor, and the conversion factors for units.",
+        "instruction 2": "Perform the necessary calculations to express the splitting in the requested units, ensuring accuracy and precision in the conversions and calculations."
+    },
+    {
+        "question": "Elements with partially filled 4f or 5f orbitals include all of the following EXCEPT",
+        "answer": 0,
+        "choices": [
+            "Cu",
+            "Gd",
+            "Eu",
+            "Am"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key characteristics of 4f and 5f orbitals, such as their energy levels and electron configuration, to understand how they influence the properties of the elements.",
+        "instruction 2": "Research the specific elements that exhibit partially filled 4f or 5f orbitals, considering their position in the periodic table, electron configuration, and any notable properties or characteristics that result from these orbital configurations."
+    },
+    {
+        "question": "Calculate spin density on the central carbon atom of malonic acid radical (•CH(COOH)2) if the hyperfine value for the α-hydrogen atom is 21.9 G.",
+        "answer": 2,
+        "choices": [
+            "0.95",
+            "0.85",
+            "0.15",
+            "0.65"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relevant parameters for calculating the spin density on the central carbon atom, such as the hyperfine value for the α-hydrogen atom and the molecular structure of malonic acid radical.",
+        "instruction 2": "Apply the relevant equations and formulas for calculating spin density, taking into account the spin density on the α-hydrogen atom and any other relevant factors that may influence the calculation, such as the electron spin density distribution within the molecule."
+    },
+    {
+        "question": "In fluorescence spectroscopy, the quantum yield (Φ_f) is best defined as the",
+        "answer": 2,
+        "choices": [
+            "rate of fluorescence emission",
+            "number of photons emitted",
+            "number of photons emitted, divided by the number of photons absorbed",
+            "number of excitation photons impinging on the sample, divided by the number of photons absorbed"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key concept of fluorescence spectroscopy, focusing on the emission of light by excited molecules, and the role of quantum yield in describing the efficiency of this process.",
+        "instruction 2": "Consider the mathematical definition of quantum yield, which relates the number of photons emitted to the number of photons absorbed, and how this definition can be used to calculate the Φ_f value for a given molecule or system."
+    },
+    {
+        "question": "Which one of the following statements is true:",
+        "answer": 2,
+        "choices": [
+            "Large and positive g shifts are observed when the LUMO – HOMO gap is small and λ is positive.",
+            "Large deviations in g occurs when the energy difference between the SOMO and lowest lying excited state is large.",
+            "A large deviation of g from ge is expected when λ is large and the energy difference between the SOMO and the lowest lying excited state is small.",
+            "A small deviation of g from ge is expected when λ is small and positive."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key terms and concepts used in the statement, such as 'catalyst' and 'reaction', to determine the context and scope of the claim.",
+        "instruction 2": "Evaluate the statement by considering the relationship between the catalyst and the reaction, examining whether the catalyst is indeed necessary for the reaction to occur, and assessing the validity of the statement within the given context."
+    },
+    {
+        "question": "What is the magnetic moment of 205Tl?",
+        "answer": 2,
+        "choices": [
+            "[ɣ (205TI = 1.569 x 108 T-1 s-1, I = ½]",
+            "0.717 x 10^-26 J T-1",
+            "0.827 x 10^-26 J T-1",
+            "1.433 x 10^-26 J T-1"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the nuclear spin and magnetic moment of 205Tl by consulting relevant nuclear physics tables or references, such as the Nuclear Data Sheets or the Nuclear Physics Data Sheets.",
+        "instruction 2": "Consider any additional factors that may influence the magnetic moment, such as the presence of any external magnetic fields or the orientation of the nucleus in the measurement setup, and ensure that the calculation is accurate and precise."
+    },
+    {
+        "question": "A molecule has a rotational correlation time of 1 ns. At what magnetic field would protons in this molecule have the fastest spin-lattice relaxation? [Use eqns 5.3 and 5.4.]",
+        "answer": 0,
+        "choices": [
+            "3.74 T",
+            "5.19 T",
+            "6.08 T",
+            "9.49 T"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relevant equations (eqns 5.3 and 5.4) that describe spin-lattice relaxation and rotational correlation time, and recognize the relationship between these parameters and the magnetic field.",
+        "instruction 2": "Use the given rotational correlation time (1 ns) to determine the corresponding rotational diffusion coefficient, and then substitute this value into the relevant equations to solve for the magnetic field at which protons have the fastest spin-lattice relaxation."
+    },
+    {
+        "question": "Of the following ionic substances, which has the greatest lattice enthalpy?",
+        "answer": 0,
+        "choices": [
+            "MgO",
+            "MgS",
+            "NaF",
+            "NaCl"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the factors that affect lattice enthalpy, such as the charges and sizes of the ions, and the distance between them.",
+        "instruction 2": "Compare the lattice enthalpy values for the given ionic substances, considering how the differences in ion charges and sizes affect the strength of the electrostatic forces between ions and the resulting lattice enthalpy."
+    },
+    {
+        "question": "Which of the following compounds has a 1H resonance approximately 1.55 kHz away from TMS on a spectrometer with a 12.0 T magnet?",
+        "answer": 1,
+        "choices": [
+            "CH3F",
+            "CH3Cl",
+            "CH3Br",
+            "CH3I"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the concept of chemical shift in NMR spectroscopy and how it relates to the strength of the magnetic field, as well as the chemical structure of the compound being studied.",
+        "instruction 2": "Use the given information about the magnet strength (12.0 T) to calculate the resonance frequency of TMS (tetramethylsilane) and then apply the chemical shift value (approximately 1.55 kHz) to determine the 1H resonance frequency of the compound in question."
+    },
+    {
+        "question": "Calculate the equilibrium polarization of 13C nuclei in a 20.0 T magnetic field at 300 K.",
+        "answer": 3,
+        "choices": [
+            "10.8 x 10^-5",
+            "4.11 x 10^-5",
+            "3.43 x 10^-5",
+            "1.71 x 10^-5"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the gyromagnetic ratio of 13C nuclei and the strength of the applied magnetic field to establish the Larmor frequency.",
+        "instruction 2": "Use the Boltzmann distribution to calculate the population of aligned 13C nuclei, considering the temperature and the magnetic field strength, to determine the equilibrium polarization."
+    },
+    {
+        "question": "The magnetic moment (μI) of an unknown nuclide is 2.884 x 10^-27 J T-1. Given the nuclear spin is known to be 1, identify the unknown nuclide.",
+        "answer": 1,
+        "choices": [
+            "14N",
+            "2H",
+            "19F",
+            "6Li"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Research the relationship between the nuclear spin and the magnetic moment of a nuclide, considering the spin-orbit coupling and the gyromagnetic ratio.",
+        "instruction 2": "Consult a table or database of known nuclides and their corresponding magnetic moments and nuclear spins, using the provided information to identify the unknown nuclide that matches the given magnetic moment and nuclear spin."
+    },
+    {
+        "question": "Which of the following is (are) characteristic of mass spectrometry?\nI. Analyte molecules are converted to gaseous ions.\nII. The ions are separated according to their mass-to-charge ratio.\nIII. In addition to compound identification, mass spectra can be utilized to determine precise isotopic masses and isotopic ratios.",
+        "answer": 3,
+        "choices": [
+            "II only",
+            "I and II only",
+            "I and III only",
+            "I, II, and III"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key steps involved in the mass spectrometry process, including the conversion of molecules to ions and the separation of ions based on mass-to-charge ratio.",
+        "instruction 2": "Consider the additional capabilities of mass spectrometry, such as the ability to determine isotopic masses and ratios, and evaluate how these features contribute to the technique's analytical power."
+    },
+    {
+        "question": "Which of the following types of spectroscopy is a light-scattering technique?",
+        "answer": 2,
+        "choices": [
+            "Nuclear magnetic resonance",
+            "Infrared",
+            "Raman",
+            "Ultraviolet-visible"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key characteristics of light-scattering techniques in spectroscopy, such as the interaction between light and particles or molecules, and the resulting scattering of light.",
+        "instruction 2": "Consider the types of spectroscopy that involve scattering of light, such as Raman spectroscopy or dynamic light scattering, and evaluate their applications in various fields, such as chemistry, biology, or materials science."
+    },
+    {
+        "question": "When the Heisenberg uncertainty principle is applied to a quantum mechanical particle in the lowest energy level of a one-dimensional box, which of the following is true?",
+        "answer": 3,
+        "choices": [
+            "Momentum is known exactly, but no information about position can be known.",
+            "Position is known exactly, but no information about momentum can be known.",
+            "No information about either position or momentum can be known.",
+            "Neither position nor momentum can be known exactly."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the concept of the Heisenberg uncertainty principle and its application to quantum mechanics, specifically focusing on the relationship between position and momentum uncertainty.",
+        "instruction 2": "Consider the specific context of a particle in the lowest energy level of a one-dimensional box, analyzing how the principles of wave-particle duality and the quantization of energy affect the uncertainty principle in this scenario."
+    },
+    {
+        "question": "The dissociation energy for a hydrogen-bromine bond is defined as the change in enthalpy, DH, for which of the following reactions?",
+        "answer": 3,
+        "choices": [
+            "2 HBr(g) → H2(g) + Br2(l)",
+            "HBr(g) → H+(g) + Br−(g)",
+            "H(g) + Br(g) → HBr(g)",
+            "HBr(g) → H(g) + Br(g)"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the reaction that corresponds to the dissociation energy of a hydrogen-bromine bond, which is the energy required to break the bond.",
+        "instruction 2": "Consider the stoichiometry of the reaction, ensuring that it accurately represents the dissociation of the hydrogen-bromine bond, and that the enthalpy change (DH) is the relevant thermodynamic property being measured."
+    },
+    {
+        "question": "23Na has an NMR frequency of 198.52 MHz in a 750 MHz NMR spectrometer. What is its magnetogyric ratio?",
+        "answer": 2,
+        "choices": [
+            "101.1 x 10^7 T-1 s-1",
+            "26.75 x 10^7 T-1 s-1",
+            "7.081 x 10^7 T-1 s-1",
+            "0.9377 x 10^7 T-1 s-1"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relationship between the NMR frequency and the magnetogyric ratio, recognizing that the magnetogyric ratio is a fundamental property of a nucleus that determines its NMR frequency.",
+        "instruction 2": "Use the given NMR frequency and the frequency of the NMR spectrometer to calculate the magnetogyric ratio, taking into account any necessary conversions or adjustments."
+    },
+    {
+        "question": "Exact solutions of the Schrödinger equation CANNOT be obtained for a",
+        "answer": 3,
+        "choices": [
+            "simple harmonic oscillator",
+            "particle in a one-dimensional box",
+            "rigid rotor",
+            "helium atom"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key challenge or limitation in solving the Schrödinger equation for the given problem, such as the complexity or non-linearity of the equation, or the presence of multiple variables.",
+        "instruction 2": "Consider the role of approximation methods, such as perturbation theory or numerical methods, in obtaining approximate solutions to the Schrödinger equation for the given problem, and evaluate their limitations and potential applications."
+    },
+    {
+        "question": "What is the limiting high-temperature molar heat capacity at constant volume (C_V) of a gas-phase diatomic molecule?",
+        "answer": 3,
+        "choices": [
+            "1.5R",
+            "2R",
+            "2.5R",
+            "3.5R"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the general expression for the molar heat capacity at constant volume (C_V) of a gas-phase diatomic molecule, considering the degrees of freedom available to the molecule.",
+        "instruction 2": "Evaluate the limiting high-temperature behavior of C_V, which is typically achieved when the molecule's rotational and vibrational degrees of freedom are fully populated, and calculate the resulting value for C_V."
+    },
+    {
+        "question": "The +1 oxidation state is more stable than the +3 oxidation state for which group 13 element?",
+        "answer": 3,
+        "choices": [
+            "B",
+            "Al",
+            "In",
+            "Tl"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the group 13 elements that exhibit oxidation states of +1 and +3, such as boron, aluminum, and gallium.",
+        "instruction 2": "Research and compare the stability of the +1 and +3 oxidation states for each element, considering factors such as electron configuration, atomic radius, and chemical reactivity to determine which oxidation state is more stable for each element."
+    },
+    {
+        "question": "The fact that the infrared absorption frequency of deuterium chloride (DCl) is shifted from that of hydrogen chloride (HCl) is due to the differences in their",
+        "answer": 3,
+        "choices": [
+            "electron distribution",
+            "dipole moment",
+            "force constant",
+            "reduced mass"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key differences between the molecular structures of DCl and HCl, focusing on the mass and bonding properties of the hydrogen isotopes.",
+        "instruction 2": "Consider how these structural differences affect the vibrational modes and absorption frequencies of the molecules, explaining how the shift in infrared absorption frequency arises from the substitution of deuterium for hydrogen."
+    },
+    {
+        "question": "The number of allowed energy levels for the 55Mn nuclide are:",
+        "answer": 0,
+        "choices": [
+            "3",
+            "5",
+            "8",
+            "4"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the atomic number of 55Mn, which is an element with a specific number of protons in its atomic nucleus, and determine the number of electrons in its neutral atom.",
+        "instruction 2": "Consider the Aufbau principle and the Pauli exclusion principle to predict the allowed energy levels for the electrons in the 55Mn atom, taking into account the filling of energy levels according to the rules of quantum mechanics."
+    },
+    {
+        "question": "A substance that is NOT generally considered to be a toxic pollutant in water is",
+        "answer": 0,
+        "choices": [
+            "carbonic acid",
+            "a halogenated hydrocarbon",
+            "lead",
+            "mercury"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Research the list of toxic pollutants regulated by the Clean Water Act and the Safe Drinking Water Act, identifying common substances that are typically considered pollutants.",
+        "instruction 2": "Evaluate the characteristics of the substance in question, considering its chemical properties, potential health impacts, and any relevant regulations or guidelines, to determine if it meets the criteria for being considered a toxic pollutant in water."
+    },
+    {
+        "question": "All proteins absorb electromagnetic radiation of wavelength around 190 nm, which corresponds to a π → π* excitation in the protein molecule. In which region of the spectrum is this wavelength found?",
+        "answer": 1,
+        "choices": [
+            "X-ray",
+            "Ultraviolet",
+            "Visible",
+            "Infrared"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the region of the electromagnetic spectrum corresponding to a wavelength of 190 nm, considering the typical classification of radiation by wavelength or frequency.",
+        "instruction 2": "Consider the specific properties of ultraviolet (UV) radiation and its interactions with molecules, such as π → π* excitation, to determine the correct region of the spectrum for this wavelength."
+    },
+    {
+        "question": "The rotational correlation time of a spherical object of radius r immersed in a liquid with viscosity η is given by the Stokes equation: τc = 4πηr3/3kBT. A small molecule with relative molecular mass Mr = 100 in water at 298 K has τc = 50 ps. Assuming that Mr is proportional to the molecular volume, estimate τc for a small protein with Mr = 8400.",
+        "answer": 2,
+        "choices": [
+            "420 ns",
+            "42 ns",
+            "4.2 ns",
+            "420 ps"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relationship between the molecular mass and the molecular volume, assuming a constant density, to determine the proportionality constant.",
+        "instruction 2": "Use the proportionality constant to estimate the molecular volume of the small protein, then substitute this value into the Stokes equation to calculate the rotational correlation time for the protein, considering the given values of r, η, kBT, and τc for the small molecule."
+    },
+    {
+        "question": "Chlorofluorocarbons (CFCs) such as F3CCCl3 are implicated in the decomposition of stratospheric ozone. Which of the following methods would be best suited to measurement of trace amounts (sub-ppb) of CFCs in an air sample?",
+        "answer": 0,
+        "choices": [
+            "Gas chromatographic separation of the air sample on a capillary column followed by electron capture detection",
+            "Gas chromatographic separation of the air sample on a packed column followed by thermal conductivity detection",
+            "Gas chromatographic separation of the air sample on a capillary column followed by flame ionization detection",
+            "Conversion of the sample of the chlorinated compounds to chloride ions, followed by titration with Ag+"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key properties of CFCs that make them challenging to measure, such as their low concentrations and chemical stability.",
+        "instruction 2": "Consider the most suitable analytical techniques for detecting and quantifying trace amounts of CFCs in air samples, such as gas chromatography, mass spectrometry, or other methods that can accurately measure the low concentrations of CFCs."
+    },
+    {
+        "question": "The solid-state structures of the principal allotropes of elemental boron are made up of which of the following structural units?",
+        "answer": 0,
+        "choices": [
+            "B12 icosahedra",
+            "B8 cubes",
+            "B6 octahedra",
+            "B4 tetrahedra"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the main allotropes of elemental boron, such as rhombohedral, amorphous, and alpha-rhombohedral, and research their respective crystal structures.",
+        "instruction 2": "Determine the common structural units found in these allotropes, such as boron clusters, rings, or chains, and describe how they contribute to the overall solid-state structure of each allotrope."
+    },
+    {
+        "question": "A buffer is made from equal concentrations of a weak acid and its conjugate base. Doubling the volume of the buffer solution by adding water has what effect on its pH?",
+        "answer": 0,
+        "choices": [
+            "It has little effect.",
+            "It significantly increases the pH.",
+            "It significantly decreases the pH.",
+            "It changes the pH asymptotically to the pKa of the acid."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the pH of the original buffer solution by calculating the concentration of the weak acid and its conjugate base, and applying the Henderson-Hasselbalch equation.",
+        "instruction 2": "Explain how diluting the buffer solution by adding water affects the concentration of the weak acid and its conjugate base, and how this change impacts the pH of the resulting solution."
+    },
+    {
+        "question": "Which of the following is classified as a conjugate acid-base pair?",
+        "answer": 1,
+        "choices": [
+            "HCl / NaOH",
+            "H3O+ / H2O",
+            "O2 / H2O",
+            "H+ / Cl−"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the general definition of a conjugate acid-base pair, including the relationship between the acid and its conjugate base, as well as the acid and its conjugate acid.",
+        "instruction 2": "Examine the given options and determine which one satisfies the definition of a conjugate acid-base pair, considering the chemical structure and properties of each compound."
+    },
+    {
+        "question": "Which of the following metal ions cannot be used as a paramagnetic quencher?",
+        "answer": 1,
+        "choices": [
+            "Ti3+",
+            "Cr3+",
+            "Fe3+",
+            "Zn2+"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key characteristics of paramagnetic quenchers, such as their ability to reduce the luminescence of certain molecules, and consider how metal ions can exhibit these properties.",
+        "instruction 2": "Research the properties of various metal ions, including their magnetic moments, to determine which ones are likely to be paramagnetic quenchers and which ones are not, based on their ability to interact with the luminescent molecules."
+    },
+    {
+        "question": "An electron and a proton are placed in a 1.0 T magnetic field at 300 K. What is the ratio of the equilibrium polarizations: |pe / pH| ?",
+        "answer": 1,
+        "choices": [
+            "[|ɣe| = 1.761 x 10^11 T^-1 s^-1]",
+            "820",
+            "658",
+            "329"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the concept of magnetic field and its effect on charged particles such as electrons and protons, specifically how the magnetic field induces a force perpendicular to the direction of motion.",
+        "instruction 2": "Calculate the ratio of the equilibrium polarizations by considering the Larmor frequencies of the electron and proton, taking into account the strength of the magnetic field and the temperature (300 K)."
+    },
+    {
+        "question": "The amplitude of a free induction decay drops to 25% of its initial intensity after 1.0 s. Assuming exponential relaxation and Ω = 0, determine the value of T2.",
+        "answer": 3,
+        "choices": [
+            "0.721 s",
+            "0.750 s",
+            "1.386 s",
+            "1.661 s"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the concept of exponential relaxation in the context of free induction decay, and identify the relationship between the amplitude of the signal and time.",
+        "instruction 2": "Use the given information about the amplitude dropping to 25% of its initial intensity after 1.0 s to calculate the value of T2, taking into account the exponential decay formula and the definition of T2."
+    },
+    {
+        "question": "The molecular geometry of thionyl chloride, SOCl2, is best described as",
+        "answer": 3,
+        "choices": [
+            "trigonal planar",
+            "T-shaped",
+            "tetrahedral",
+            "trigonal pyramidal"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the oxidation state of sulfur in thionyl chloride, as this will influence the overall molecular geometry.",
+        "instruction 2": "Consider the VSEPR theory and how the electron pairs around the central sulfur atom will arrange themselves to minimize repulsion, taking into account the presence of the Cl atoms and any resulting molecular shape."
+    },
+    {
+        "question": "Which of the following procedures tend(s) to minimize the influence of random errors on measured results?\nI. Signal averaging\nII. Use of internal standards\nIII. Averaging the results from multiple samples",
+        "answer": 3,
+        "choices": [
+            "I only",
+            "II only",
+            "III only",
+            "I and III only"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the common goal of the given procedures, which is to reduce the impact of random errors on measured results, and consider how each procedure achieves this goal.",
+        "instruction 2": "Analyze the specific mechanisms by which each procedure, such as signal averaging, internal standards, and averaging multiple samples, can help to minimize the influence of random errors and improve the accuracy of measured results."
+    },
+    {
+        "question": "A PO3- radical produces a pair of lines separated by 280 MHz with giso = 2.005. Calculate the expected resonant field positions of both lines in the X-band EPR spectrum (ν = 9.5 GHz).",
+        "answer": 3,
+        "choices": [
+            "Bres for mI = -½ = 325.0 mT; Bres for mI = +½ = 335.0 mT",
+            "Bres for mI = -½ = 123.5 mT; Bres for mI = +½ = 124.5 mT.",
+            "Bres for mI = -½ = 333.5 mT; Bres for mI = +½ = 343.5 mT.",
+            "Bres for mI = -½ = 0.218 mT; Bres for mI = +½ = 0.418 mT."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the magnetic moment of the PO3- radical using the given giso value, relating it to the Bohr magneton (μB) and the nuclear magneton (μN) to obtain the expected resonance field positions.",
+        "instruction 2": "Use the given frequency (ν = 9.5 GHz) and the calculated magnetic moment to determine the expected resonance field positions for both lines in the X-band EPR spectrum, considering the separation between the lines (280 MHz) to refine the calculation."
+    },
+    {
+        "question": "Calculate the relative occupancies of the α and β spin energy levels for a radical species with g = 2.05, at L- and W-band frequencies (take TS = 300 K).",
+        "answer": 3,
+        "choices": [
+            "Nα/Nβ = 0.9800 at L-band; Nα/Nβ = 0.9509 at W-band",
+            "Nα/Nβ = 0.9950 at L-band; Nα/Nβ = 0.9609 at W-band",
+            "Nα/Nβ = 0.9910 at L-band; Nα/Nβ = 0.9709 at W-band",
+            "Nα/Nβ = 0.9850 at L-band; Nα/Nβ = 0.9809 at W-band"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the resonance frequencies for L- and W-band EPR spectroscopy, given the g-value and the temperature.",
+        "instruction 2": "Calculate the relative occupancies of the α and β spin energy levels using the Boltzmann distribution, taking into account the resonance frequencies and the temperature."
+    },
+    {
+        "question": "Which of the following is a primary standard for use in standardizing bases?",
+        "answer": 3,
+        "choices": [
+            "Ammonium hydroxide",
+            "Sulfuric acid",
+            "Acetic acid",
+            "Potassium hydrogen phthalate"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the criteria for a primary standard in the context of standardizing bases, focusing on the need for a reliable and reproducible reference point.",
+        "instruction 2": "Consider the properties of a primary standard, such as its composition, purity, and stability, and how these characteristics enable it to serve as a reliable reference for measuring the strength of bases."
+    },
+    {
+        "question": "Which of the following is lower for argon than for neon?",
+        "answer": 3,
+        "choices": [
+            "Melting point",
+            "Boiling point",
+            "Polarizability",
+            "First ionization energy"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Research the atomic properties of argon and neon, focusing on their atomic masses and ionization energies, to identify any differences that could affect the comparison.",
+        "instruction 2": "Consider the specific property being compared, such as melting point or boiling point, and analyze how the differences in atomic properties might influence the desired outcome."
+    },
+    {
+        "question": "The 99Ru chemical shift of [Ru(H2O)6]2+ is 16,050 ppm relative to [Ru(CN)6]2- at 0 ppm. The electronic excitation energies of [Ru(H2O)6]2+, [Ru(CN)6]2- and [Ru(NH3)6]2+ are 18,900, 40,000 and 25,600 cm-1 respectively. Assuming that the chemical shift differences are dominated by paramagnetic currents, determine the chemical shift of [Ru(NH3)6]2+.",
+        "answer": 1,
+        "choices": [
+            "7,530 ppm",
+            "8,090 ppm",
+            "11,070 ppm",
+            "14,840 ppm"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relationship between the chemical shift differences and the electronic excitation energies of the complexes, specifically focusing on the paramagnetic currents that contribute to the shifts.",
+        "instruction 2": "Calculate the chemical shift of [Ru(NH3)6]2+ by applying the established relationship, using the given excitation energies and the known chemical shift of [Ru(H2O)6]2+ as reference."
+    },
+    {
+        "question": "During a delay, spins with an offset frequency Ω = 250 rad s-1 precess through an angle of 60°. How long is the delay?",
+        "answer": 0,
+        "choices": [
+            "4.19 ms",
+            "26.3 ms",
+            "240 ms",
+            "1510 ms"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the key parameters involved in the problem, including the offset frequency Ω and the angle of precession.",
+        "instruction 2": "Use the relationship between the offset frequency, the angle of precession, and the delay to set up an equation that can be solved for the delay time, considering the conversion of radians to seconds and any necessary units conversions."
+    },
+    {
+        "question": "Which of the following is always true of a spontaneous process?",
+        "answer": 3,
+        "choices": [
+            "The process is exothermic.",
+            "The process does not involve any work.",
+            "The entropy of the system increases.",
+            "The total entropy of the system plus surroundings increases."
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the fundamental concept of spontaneity in thermodynamics, which states that a spontaneous process occurs when it has a negative change in Gibbs free energy.",
+        "instruction 2": "Consider the implications of this concept, evaluating how it relates to the direction of spontaneous processes and the energy changes involved, such as the increase in entropy and the decrease in free energy."
+    },
+    {
+        "question": "Nitronyl nitroxides are stable radicals in which the unpaired electron is coupled to two equivalent nitrogen nuclei. How many lines will appear in the EPR spectrum of a solution of a rigid nitronyl nitroxide diradical with J >> a?",
+        "answer": 3,
+        "choices": [
+            "3 lines",
+            "9 lines",
+            "5 lines",
+            "7 lines"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Understand the concept of electron paramagnetic resonance (EPR) spectroscopy and the role of spin-spin coupling (J) in the resulting spectrum.",
+        "instruction 2": "Apply the theory of EPR spectroscopy to the specific case of a rigid nitronyl nitroxide diradical, considering the strong coupling between the unpaired electrons (J >> a) and the resulting number of lines in the EPR spectrum."
+    },
+    {
+        "question": "Redox enzyme catalysis involves the cyclic oxidation and reduction of metal ions that have at least two stable positive oxidation states. Which of the following groups of metals could be found at the active site of redox enzymes?",
+        "answer": 0,
+        "choices": [
+            "Cu, Fe, Co",
+            "Zn, Ca, Ga",
+            "Sr, Ga, Mg",
+            "Na, Ba, Al"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the essential properties required for metal ions to be used as cofactors in redox enzyme catalysis, such as the ability to undergo multiple oxidation states.",
+        "instruction 2": "Consider the common properties and characteristics of metals that could fulfill these requirements, such as the presence of multiple oxidation states, and evaluate the potential of the listed groups to fulfill these criteria."
+    },
+    {
+        "question": "In the vibrational-rotational spectrum of a diatomic molecule, the R-branch of the spectrum is the result of which of the following transitions?",
+        "answer": 3,
+        "choices": [
+            "ΔJ = 0; Δu = 0",
+            "ΔJ = 1; Δu = 0",
+            "ΔJ = 2; Δu = 0",
+            "ΔJ = 1; Δu = 1"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the different types of transitions that occur in the vibrational-rotational spectrum of a diatomic molecule, including the selection rules for these transitions.",
+        "instruction 2": "Determine which type of transition corresponds to the R-branch, considering the energy level changes and the selection rules, and explain the physical significance of this transition."
+    },
+    {
+        "question": "Of the following atoms, which has the lowest electron affinity?",
+        "answer": 3,
+        "choices": [
+            "F",
+            "Si",
+            "O",
+            "Ca"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the atoms listed and their respective electron configurations, focusing on the outermost energy level and the number of electrons in that level.",
+        "instruction 2": "Compare the electron affinities of each atom, considering how the number of electrons in the outermost energy level affects the energy required to add an additional electron, and determine which atom has the lowest electron affinity."
+    },
+    {
+        "question": "Of the following ions, which has the smallest radius?",
+        "answer": 2,
+        "choices": [
+            "K+",
+            "Ca2+",
+            "Sc3+",
+            "Rb+"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the ions being compared, and determine their respective charges and electron configurations.",
+        "instruction 2": "Use the principles of atomic radius and electron shielding to explain why the ion with the smallest radius is the one with the smallest charge and the most compact electron configuration."
+    },
+    {
+        "question": "What is the NMR frequency of 31P in a 20.0 T magnetic field?",
+        "answer": 2,
+        "choices": [
+            "54.91 MHz",
+            "239.2 MHz",
+            "345.0 MHz",
+            "2167 MHz"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the relevant physical constant, the gyromagnetic ratio (γ), which is used to calculate the NMR frequency of a nucleus.",
+        "instruction 2": "Apply the formula for NMR frequency (ω = γ * B0) to determine the frequency of 31P in a 20.0 T magnetic field, ensuring to use the correct value for the gyromagnetic ratio of 31P and the given magnetic field strength."
+    },
+    {
+        "question": "Predict the number of lines in the EPR spectrum of a solution of dimethylnitroxide (CH3)2NO• assuming the lines do not overlap.",
+        "answer": 1,
+        "choices": [
+            "21",
+            "3",
+            "7",
+            "24"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Determine the number of equivalent protons in the molecule, as well as the number of protons in the nitroxide group, to understand the splitting pattern in the EPR spectrum.",
+        "instruction 2": "Calculate the number of lines in the EPR spectrum based on the number of equivalent protons and the hyperfine splitting constant, considering the assumption that the lines do not overlap."
+    },
+    {
+        "question": "Of the following compounds, which is LEAST likely to behave as a Lewis acid?",
+        "answer": 3,
+        "choices": [
+            "BeCl2",
+            "MgCl2",
+            "ZnCl2",
+            "SCl2"
+        ],
+        "subject": "college_chemistry",
+        "instruction 1": "Identify the general characteristics of Lewis acids, such as the ability to accept a pair of electrons, and consider how each compound in the options might exhibit these properties.",
+        "instruction 2": "Evaluate the electronic configurations and bonding patterns of each compound to determine which one is least likely to behave as a Lewis acid, taking into account factors such as the presence of electronegative atoms and the availability of d-orbitals."
+    }
+]

@@ -1,0 +1,2576 @@
+[
+    {
+        "instruction 1": "Identify the primary barriers to economic advancement in subsistence economies, focusing on elements such as access to resources, technology, education, and markets that may limit their growth potential.",
+        "instruction 2": "Consider the interconnectedness of these barriers and how their absence contributes to the stagnation of subsistence economies, evaluating the implications for sustainability and potential pathways for improvement.",
+        "question": "The main factor preventing subsistence economies from advancing economically is the lack of",
+        "choices": [
+            "a currency.",
+            "a well-connected transportation infrastructure.",
+            "government activity.",
+            "a banking service."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the concept of 'replacement fertility' and explain how it relates to population growth dynamics, particularly focusing on how population momentum can lead to continued growth despite achieving replacement fertility levels.",
+        "instruction 2": "Identify and describe the term that is commonly used to refer to the phenomenon of population momentum, ensuring to provide context on how demographic factors such as age structure and historical birth rates contribute to this ongoing growth.",
+        "question": "The tendency for a population to continue to grow long after replacement fertility has been achieved is called",
+        "choices": [
+            "zero population growth.",
+            "rapid growth rate.",
+            "homeostatic plateau.",
+            "demographic momentum."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the term that describes the phenomenon whereby people are less likely to migrate over longer distances, often related to factors like cultural ties, economic opportunities, and perceived barriers that diminish with proximity.",
+        "instruction 2": "Examine the broader implications of this concept on migration patterns, considering how it relates to the concept of distance decay and its significance in fields like geography, sociology, and economics.",
+        "question": "The tendency for migration to decrease with distance is called",
+        "choices": [
+            "push factors.",
+            "pull factors.",
+            "distance decay.",
+            "migration selectivity."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific zone within Burgess's concentric zone model that is characterized by low-income slums and ethnic ghettos, typically known as the Zone of Transition, which is situated adjacent to the central business district.",
+        "instruction 2": "Examine the socio-economic factors that contribute to the characteristics of this zone, such as urban decay, migration patterns, and land use changes, to understand the implications on social conditions within this area.",
+        "question": "Which zone contains low-income slums, ethnic ghettos, and general deterioration in Burgess's concentric zone model of urban form?",
+        "choices": [
+            "First",
+            "Second",
+            "Third",
+            "Fourth"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the given statements about women in the labor force to identify factual accuracy by cross-referencing each statement with reputable sources or studies that provide statistical data or insights on women's participation and roles in the workforce.",
+        "instruction 2": "Consider the socio-economic and cultural factors that may influence women's labor force participation, ensuring that the evaluation of the statements takes into account varying global contexts and trends in gender equality in employment.",
+        "question": "Which of the following statements is TRUE concerning women in the labor force?",
+        "choices": [
+            "Most women work in agriculture",
+            "The percentage of women economically active in the labor force declined worldwide",
+            "The percentage of women in the total labor force declined",
+            "Women spend more hours per day working than men in all regions except Anglo America and Australia"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the common pull factors of migration, such as job opportunities, better living conditions, and quality of life improvements, to understand the overall context of migration motivations.",
+        "instruction 2": "Analyze the provided factors to determine which one does not align with the characteristics of pull factors, requiring a clear distinction between motivations that attract migrants versus those that may push them away.",
+        "question": "All the following factors can be considered pull factors of migration EXCEPT",
+        "choices": [
+            "safety.",
+            "better climate.",
+            "better schools.",
+            "overcrowding."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the countries listed in the question and research each to determine if they have any prominent relict boundaries. A relict boundary is a former boundary that no longer functions as a significant dividing line, but remnants may still exist in the cultural or geographical landscape.",
+        "instruction 2": "Analyze the historical context and significance of each country's boundaries, focusing on whether they possess notable examples of relict boundaries as defined in geographical terms, thereby leading to the elimination of options that do have such boundaries.",
+        "question": "Which of the following countries does NOT have a well-known example of a relict boundary?",
+        "choices": [
+            "Vietnam",
+            "United Kingdom",
+            "Germany",
+            "Bolivia"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific types of migration that farmworkers from other countries may engage in, particularly seasonal or temporary migration, and analyze the context in which such migration typically occurs within the agricultural sector.",
+        "instruction 2": "Consider the socio-economic and legal factors that may influence the likelihood of farmworkers practicing a certain form of migration during the year, such as agricultural demand, labor shortages, and immigration policies.",
+        "question": "Which form of migration below are farm workers from another country most likely to be practicing during the year?",
+        "choices": [
+            "Chain migration",
+            "Cluster migration",
+            "Circular migration",
+            "International migration"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define centrifugal force within the context of political science, focusing on elements that can drive a country apart, such as ethnic divisions, economic disparities, or regional autonomy movements.",
+        "instruction 2": "Analyze the specific options provided to determine which one aligns with the concept of centrifugal force, ensuring to evaluate how it contributes to disunity or fragmentation within the country's structure.",
+        "question": "Which of the following is a centrifugal force in a country?",
+        "choices": [
+            "Religious differences",
+            "A national holiday",
+            "An attack by another country",
+            "A charismatic national leader"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the geographical and historical factors that explain why early settlements emerged in coastal and riverine areas, focusing on aspects such as access to water resources, transportation routes, and fertile land for agriculture.",
+        "instruction 2": "Analyze how these factors contributed to population density, considering the role of trade, fishing, irrigation, and the availability of natural resources that support sustained human habitation in these regions.",
+        "question": "Early settlements and high population density along coastlines and rivers are best attributed to which of the following?",
+        "choices": [
+            "Mediterranean climate",
+            "Limited forest cover",
+            "Growth of manufacturing",
+            "Access to trade routes"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the characteristics of the first stage of the demographic transition model, focusing on factors such as high birth rates and high death rates, and how these parameters influence population growth.",
+        "instruction 2": "Examine historical examples of societies in the first stage of demographic transition to illustrate the typical social and economic conditions present in this stage, including the implications for family structure and health care.",
+        "question": "The first stage of the demographic transition exhibits",
+        "choices": [
+            "high birth rates with high but fluctuating death rates.",
+            "declining birth rates with continuing high death rates.",
+            "low birth rates with continuing high death rates.",
+            "high birth rates with declining death rates."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the specific population statistic that quantifies the fertility level necessary for a population to replace itself, focusing on the concept of the Replacement Fertility Rate, which is generally considered to be about 2.1 children per woman in stable populations.",
+        "instruction 2": "Examine the context surrounding this statistic by considering factors that may affect fertility rates, such as social, economic, and health-related influences, while explaining how these factors contribute to achieving or failing to reach the Replacement Fertility Rate.",
+        "question": "What is the population statistic that tells us the level of fertility at which a population will have just enough births to replace parents and compensate for early deaths?",
+        "choices": [
+            "Crude birth rate",
+            "Replacement level",
+            "Mortality rate",
+            "Total fertility rate"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate current demographic studies and surveys related to religious affiliations in the United States to determine which religion shows the highest growth rate based on recent data and trends.",
+        "instruction 2": "Examine factors contributing to the growth of this religion, such as conversion rates, birth rates among adherents, migration patterns, and societal influences that may affect religious identification over time.",
+        "question": "What is the most rapidly growing religion in the United States today?",
+        "choices": [
+            "Islam",
+            "Christianity",
+            "Hinduism",
+            "Buddhism"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the term most commonly used to describe the geographical area surrounding or adjacent to an urban center, considering terms like 'hinterland', 'suburb', or 'periphery' and their specific connotations.",
+        "instruction 2": "Explore the characteristics that differentiate this outlying area from the urban center itself, such as population density, economic activities, and infrastructure, to provide a comprehensive understanding of the relationship between the urban center and its adjacent areas.",
+        "question": "The outlying area serviced by a urban center is referred to as a",
+        "choices": [
+            "redline area.",
+            "threshold.",
+            "range.",
+            "hinterland."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the characteristics that commonly define an urban area, such as population density, infrastructure development, and social and economic activities, to establish a clear understanding of what constitutes an urban environment.",
+        "instruction 2": "Consider the variations in definitions of urban areas across different countries or organizations, as these definitions may incorporate factors like geographical boundaries, administrative classifications, and cultural distinctions.",
+        "question": "The best definition of an urban area is",
+        "choices": [
+            "the central city and its developed areas.",
+            "the central city and its surrounding suburbs.",
+            "the central city and its hinterlands.",
+            "the central city and the adjacent counties."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the list of religions being compared and research their historical origins, determining the timeline for the establishment of each religion to accurately establish which one developed first.",
+        "instruction 2": "Consider the context and definitions of 'religion' as well as any significant developments within each religion's history, such as foundational texts or key historical figures, that may influence its dating and comparison.",
+        "question": "Which of the following religions developed first?",
+        "choices": [
+            "Buddhism",
+            "Christianity",
+            "Islam",
+            "Hinduism"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and define the commonly accepted characteristics of world cities, such as cultural importance, economic influence, and connectivity, in order to establish a clear understanding of what qualifies as a world city.",
+        "instruction 2": "Evaluate the options presented in the question against the established characteristics, ensuring to critically analyze each option to determine which one does not fit the criteria of a world city.",
+        "question": "Which one of the following is NOT a characteristic of world cities?",
+        "choices": [
+            "World cities contain the headquarters of many transnational corporations.",
+            "World cities are well connected to secondary-level world cities.",
+            "World cities contain many offices of multinational organizations.",
+            "World cities are found only in the northern and western hemispheres."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the characteristics of transportation systems that contribute to urban development, specifically analyzing how different modes of transport influence city layout and structure, particularly the creation of star-shaped patterns.",
+        "instruction 2": "Trace the historical development of urban transportation systems, such as radial train lines or major highways, and assess how their design impacts urban sprawl and the formation of city layouts, focusing on examples of cities that exhibit a star-shaped configuration.",
+        "question": "Which type of transportation system created the star-shaped city pattern?",
+        "choices": [
+            "Highways to airports that link cities",
+            "Interstate highways that link cities",
+            "Beltways around cities",
+            "Streetcar and trolley lines extending from the CBD"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the characteristics of planned communities, such as organized land use, community amenities, and residential zoning, and identify which urban settings in the US are known for implementing these characteristics effectively.",
+        "instruction 2": "Consider factors such as population density, economic demographics, and city planning initiatives that influence the presence and success of planned communities in various urban areas across the United States.",
+        "question": "In which urban US setting below would you expect to find planned communities?",
+        "choices": [
+            "Ghettos",
+            "Suburbs",
+            "CBDs",
+            "Transition zones"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the concept represented by latitude and longitude coordinates, explaining how these coordinates are used to pinpoint locations on the Earth's surface, and relate them to the broader category of geographical reference systems.",
+        "instruction 2": "Consider how latitude and longitude function within navigational contexts, discussing their importance in mapping and global positioning systems, as well as their role in various fields such as cartography, geography, and travel.",
+        "question": "The latitude and longitude coordinates of a place are an example of",
+        "choices": [
+            "a formal region.",
+            "a functional region.",
+            "an absolute location.",
+            "a relative location."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the concept of a voluntary association among countries and clarify the implications of sovereignty that countries relinquish in such arrangements, focusing on key terms such as integration and cooperation.",
+        "instruction 2": "Identify specific examples of such organizations (e.g., the European Union) that fit this definition, discussing their purpose, structure, and how they illustrate the principle of voluntarily shared sovereignty among member states.",
+        "question": "The voluntary association of three or more countries willing to give up some measure of sovereignty is called",
+        "choices": [
+            "nationalism.",
+            "devolution.",
+            "supranationalism.",
+            "complementarity."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the main tenet of Thomas Malthus's population theory, particularly his assertion that population growth would inevitably outstrip food supply, and contrast this with contemporary understandings of factors that can influence population growth and sustainability.",
+        "instruction 2": "Explore the additional variables that were overlooked by Malthus, such as technological advancements in agriculture, changes in societal norms, and family planning methods, which contributed to altering the dynamics between population growth and resource availability.",
+        "question": "The key factor Thomas Malthus failed to recognize in his population theory was",
+        "choices": [
+            "population is limited by their means of subsistence.",
+            "all populations have the potential to increase more than the actual rate of increase.",
+            "wars and famine inhibit population's reproductive capacity.",
+            "technology's ability to raise the Earth's carrying capacity."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the definition of universalizing religions, which are those that seek to appeal to all people regardless of culture or location, and differentiate them from ethnic religions, which are more confined to specific cultural groups.",
+        "instruction 2": "Research and list the major universalizing religions, such as Christianity, Islam, and Buddhism, and then determine a specific pair from this list that exemplifies the concept of universalizing religions.",
+        "question": "Which pair of religions are both universalizing religions?",
+        "choices": [
+            "Islam and Judaism",
+            "Judaism and Buddhism",
+            "Hinduism and Buddhism",
+            "Christianity and Buddhism"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific urban model being referred to that describes the growth pattern of residential areas in relation to city centers and major highways, ensuring to consider various urban theories such as the Concentric Zone Model or Sector Model.",
+        "instruction 2": "Analyze the characteristics of the model, focusing on the dynamics of rent and population distribution over time, as well as the transitions between different types of residential occupants in relation to urban expansion.",
+        "question": "Which urban model theorizes that high-rent residential areas grow outward from the center of the city along major highways with lower-rent inhabitants taking over sequentially?",
+        "choices": [
+            "Concentric zone model",
+            "Central place model",
+            "Urban realms model",
+            "Sector model"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the term that describes the combination of religion and government, specifically focusing on its common terminology and implications for governance and societal structure.",
+        "instruction 2": "Explore examples of countries or political systems that exemplify this combination, highlighting the influence of religion on law, policy, and public life to clarify the concept's practical applications.",
+        "question": "When a country combines its religion with its government, it is called a",
+        "choices": [
+            "dictatorship.",
+            "theocracy.",
+            "democracy.",
+            "autocracy."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the primary religions practiced in Europe, focusing on statistical data that highlights the most widespread faith, such as Christianity, distinguishing between its branches like Catholicism, Protestantism, and Orthodoxy.",
+        "instruction 2": "Consider the sociocultural and historical contexts that have influenced religious practices in Europe, including population demographics and trends in secularization or religious affiliation over time.",
+        "question": "What is the chief religion practiced in Europe?",
+        "choices": [
+            "Christianity",
+            "Islam",
+            "Hinduism",
+            "Animism"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the historical context of the eastern United States and research the various groups that attempted settlements, focusing on the time period and characteristics of their efforts to determine which group had the first effective settlement.",
+        "instruction 2": "Evaluate the criteria that define an 'effective' settlement, such as sustainability, population stability, and impact on indigenous populations, to establish a clear distinction between various settlement attempts made by different groups.",
+        "question": "Which group enacted the first effective settlement in the eastern United States?",
+        "choices": [
+            "French",
+            "British (English, Scotch-Irish, Welsh, Scottish)",
+            "Russian",
+            "Chinese"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the specific data types typically represented in a population pyramid, such as age distribution, gender ratios, and population size, which clearly illustrate aspects of the population's demographic structure.",
+        "instruction 2": "Identify and analyze the types of information that are not represented by a population pyramid, such as economic factors, geographical distribution, or specific population projections, to pinpoint what the question is asking for.",
+        "question": "A population pyramid, or age-sex structure, displays all the following information about a country's population EXCEPT",
+        "choices": [
+            "future social spending needs of the population.",
+            "the impact of \"baby booms\" on the population.",
+            "the impact of wars on the population.",
+            "a quick visual depiction of the country's demographics."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the geographical characteristics of the Rhine River to determine its role as a boundary, focusing on whether it serves as a natural, political, or cultural boundary between regions or countries.",
+        "instruction 2": "Evaluate historical and contemporary context regarding the Rhine River, considering how its designation as a boundary may have evolved due to changes in political territories, treaties, or economic factors influencing its significance.",
+        "question": "The Rhine River is an example of which type of boundary?",
+        "choices": [
+            "Geometric",
+            "Artificial",
+            "Natural",
+            "Relict"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the types of economic activities that have a direct relationship with natural resources and the physical environment, such as agriculture, fishing, forestry, and mining, and analyze how each interacts with environmental factors.",
+        "instruction 2": "Evaluate the impact of these economic activities on the physical environment, including considerations of sustainability, resource depletion, and ecological consequences associated with industries reliant on natural ecosystems.",
+        "question": "Which type of economic activity is most closely tied to the physical environment?",
+        "choices": [
+            "Primary",
+            "Secondary",
+            "Tertiary",
+            "Quaternary"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary economic sectors in periphery countries, such as agriculture, manufacturing, or informal labor, and ascertain which sector employs the majority of workers based on available socioeconomic data.",
+        "instruction 2": "Examine the characteristics of employment in periphery countries, including factors like labor conditions, income levels, and job stability, to understand the nature of the work activities prevalent in these regions.",
+        "question": "The majority of workers in periphery countries are probably employed in which type of activities?",
+        "choices": [
+            "Primary",
+            "Secondary",
+            "Tertiary",
+            "Quaternary"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Review the definitions of basic and non-basic jobs, noting that basic jobs are those that bring income into a local economy from external sources, while non-basic jobs serve the local market. Identify examples of jobs that typically fit into each category to clarify the distinction.",
+        "instruction 2": "Analyze the provided options to evaluate which job listed does not fit the non-basic category, ensuring to apply the definitions and examples derived from the previous step to make an accurate distinction among the options.",
+        "question": "All of the following are non-basic jobs in the city EXCEPT",
+        "choices": [
+            "city firefighter.",
+            "social worker.",
+            "dry cleaner.",
+            "garment factory worker."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Explore the concept of transnational corporations and how their operations are distributed globally, focusing on the factors that influence their location decisions such as labor costs, market access, and regulatory environments.",
+        "instruction 2": "Analyze how this distribution impacts local economies and global supply chains, considering aspects like employment, resource allocation, and environmental implications.",
+        "question": "Transnational corporations distribute their operations",
+        "choices": [
+            "manufacturing goods where production costs are the highest.",
+            "conducting accounting and research services where economical.",
+            "based on comparative advantage.",
+            "with headquarters located in LDCs."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the common processes and factors that contribute to the formation of alluvial landscapes, such as sediment deposition by rivers, floodplain dynamics, and erosion, in order to evaluate the options provided and determine which one is least relevant.",
+        "instruction 2": "Examine the characteristics of each option listed and compare them against the specified processes of alluvial landscape development to identify the one that does not align with or contribute to these geological and hydrological features.",
+        "question": "Which of the following is LEAST associated with the development of alluvial landscapes?",
+        "choices": [
+            "A deep cover of loose materials",
+            "A predominance of gentle slopes",
+            "Frequent flooding",
+            "Deep dissection and erosion"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the list of options provided, evaluating each for their natural resource availability and how it affects their capacity for self-sufficiency in modern industry.",
+        "instruction 2": "Identify the specific resources that are critical for modern industry and assess which option among the choices is most dependent on external sources for those resources, thus marking it as the least self-sufficient.",
+        "question": "Which of the following is LEAST self-sufficient in the natural resources needed for modern industry?",
+        "choices": [
+            "United States",
+            "Japan",
+            "France",
+            "United Kingdom"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze how the geographical orientation of the Alpine mountain system affects the climate, ecology, and human activities in the surrounding regions, focusing on specific impacts on weather patterns and environmental conditions in both the east and west of the mountains.",
+        "instruction 2": "Explore historical and current societal influences that stem from the orientation of the Alps, such as transportation routes, trade dynamics, or cultural exchanges between the northern plains and southern regions, to illustrate the broader implications of this geographical feature.",
+        "question": "One of the effects of the east–west orientation of the Alpine mountain system and the northern plains of western and central Europe is that it",
+        "choices": [
+            "limits the marine climate of Europe to coastal areas",
+            "provides a corridor for communication between southern and northern Europe",
+            "enables marine-like climatic conditions to extend eastward into Germany and Poland",
+            "effectively prevents population movement between parts of the Mediterranean region"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the temple complex that holds the title of the largest Hindu temple in existence, ensuring to consider historical, cultural, and architectural significance in addition to its physical size.",
+        "instruction 2": "Research the location of this temple complex, including geographical, spiritual, and cultural contexts that contribute to its importance within the Hindu religion.",
+        "question": "The largest Hindu temple complex ever constructed is found in",
+        "choices": [
+            "Calcutta.",
+            "Bombay.",
+            "Cambodia.",
+            "Bali."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key concepts related to national unity and strength, focusing on sociopolitical and cultural factors that contribute to a sense of cohesion within a country.",
+        "instruction 2": "Consider specific terms that are commonly used in political science or sociology to encapsulate these forces, and evaluate how they relate to national identity, shared values, and collective goals.",
+        "question": "Which term describes the forces that unify and strengthen a country?",
+        "choices": [
+            "Diffusion",
+            "Centrifugal",
+            "Centripetal",
+            "Ethnocentric"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the characteristics of the S-curve and how it relates to growth, including its phases of slow initial growth, rapid growth, and eventual leveling off, to determine relevant applications in various contexts such as technology adoption or project management.",
+        "instruction 2": "Evaluate each statement provided in the options against the S-curve model to ascertain which one aligns most closely with its defined phases, considering real-world examples where the S-curve is applied to support your judgment.",
+        "question": "Which one of the following statements best describes an application of the S-curve?",
+        "choices": [
+            "Graph of the Bantu migration",
+            "Graph of the growth of human populations since their first appearance on Earth",
+            "The chart showing how cities associate with one another based on their population sizes",
+            "A model showing the decrease in population growth for several countries after they industrialize"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the list of items provided in the question to identify the common challenges that states typically face, such as economic, social, political, or environmental issues, while looking for an option that does not fit within those categories.",
+        "instruction 2": "Consider the context of state challenges by reflecting on historical and contemporary examples of state issues, ensuring to differentiate between actual challenges faced by states and other irrelevant options that do not pose a challenge.",
+        "question": "Which of the following items is NOT a challenge to the state?",
+        "choices": [
+            "Transnational corporations",
+            "EU",
+            "World Trade Organization",
+            "Good transportation network"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the common theme or concept that unites national sports teams, flags, national anthems, and national holidays, focusing on aspects such as nationalism, cultural identity, or country pride.",
+        "instruction 2": "Consider how these elements contribute to a sense of belonging and unity among citizens, and analyze the impact of these symbols on national identity and collective values.",
+        "question": "National sports teams, flags, national anthems, and national holidays all promote",
+        "choices": [
+            "nationalism.",
+            "sectarianism.",
+            "political unrest.",
+            "functional disputes."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific term that describes the process of immigrants adapting to and integrating into the cultural norms, language, and values of their new country, ensuring the term accurately reflects this phenomenon.",
+        "instruction 2": "Consider related concepts such as acculturation and assimilation, and distinguish how the term used may differ in nuance or scope compared to these related processes.",
+        "question": "The process whereby immigrants learn the values, language, and customs of their new country is called",
+        "choices": [
+            "assimilation.",
+            "acculturation.",
+            "adaptation.",
+            "amalgamation."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the type of map or projection that accurately represents true geographical attributes such as distance, direction, size, and shape, considering the properties of different map projections (e.g., cylindrical, conic, azimuthal) and their respective advantages and disadvantages.",
+        "instruction 2": "Evaluate the context of the question by considering specific applications where accurate geographical representation is critical, such as navigation or land surveying, which might influence the choice of the most suitable mapping method.",
+        "question": "On which of the following can one most accurately depict true geographical distance, true direction, true size, and true shape?",
+        "choices": [
+            "A Mercator projection",
+            "A globe",
+            "A conic projection",
+            "A gnomonic projection"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define what constitutes a higher-order central place function, distinguishing it from lower-order functions based on criteria such as frequency of use, market area size, and the diversity of services provided.",
+        "instruction 2": "Evaluate the options given in the question by analyzing how each fits into the framework of central place theory, particularly focusing on their roles in providing goods and services to larger populations in comparison to lower-order functions.",
+        "question": "Which of the following could be considered a higher-order central place function?",
+        "choices": [
+            "Winn-Dixie grocery store",
+            "Mercedes-Benz dealership",
+            "Shoe store",
+            "Family doctor"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the geographer known for the concentric zone model, specifically looking into the early 20th century urban studies that depict cities as organized in concentric rings, emphasizing the central core and its surrounding zones.",
+        "instruction 2": "Examine the context and implications of this model in relation to urban geography and social structures of the time, including how it reflects urban development patterns in American cities during the 1920s.",
+        "question": "Which geographer viewed the US urban community of the 1920s as a set of concentric rings radiating outward from a central core?",
+        "choices": [
+            "Rostow",
+            "Ravenstein",
+            "Von Thünen",
+            "Burgess"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the common tools or means of navigation utilized by everyone to reach school, focusing on universal elements such as maps, routes, or transportation modes that signify guidance in the journey.",
+        "instruction 2": "Evaluate how this means of guidance serves as a shared experience among individuals, considering how it relates to themes of cooperation, familiarity, and the role of external aids in facilitating the daily commute to school.",
+        "question": "To get to school in the morning, we ALL use this as our guide:",
+        "choices": [
+            "Rand-McNally Road Atlas.",
+            "world globe.",
+            "road map.",
+            "mental map."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify what is meant by 'smallest map scale' by analyzing the relationship between map scale and the level of detail or area covered; smaller scales represent larger areas with less detail, while larger scales represent smaller areas with more detail.",
+        "instruction 2": "Identify different common map types or scales, and categorize them based on their scale to determine which map corresponds to the smallest ratio, ensuring to understand the context in which the term 'map scale' is used.",
+        "question": "Of these, the map using the smallest map scale would be the map of",
+        "choices": [
+            "the world.",
+            "Atlanta, Georgia.",
+            "Main Street, Small Town, Ohio.",
+            "Pennsylvania."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the type of boundary being referred to by analyzing historical context, focusing on early forms of boundary definitions that existed prior to advanced mapping techniques, such as natural landmarks or cultural divisions.",
+        "instruction 2": "Explore the terminology used in geography to describe such boundaries, including phrases like 'historical borders' or 'natural boundaries,' and consider how these concepts are distinct from modern legal and political boundaries.",
+        "question": "An earlier boundary formed before meticulous geographic knowledge and mapping was available is known as",
+        "choices": [
+            "an antecedent boundary.",
+            "a geometric boundary.",
+            "a relict boundary.",
+            "a subsequent boundary."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the definition of the non-basic employment sector, which typically includes jobs that serve the local population rather than exporting goods or services, and clarify the distinction between basic and non-basic employment.",
+        "instruction 2": "Assess the listed job options against the criteria of non-basic employment, considering factors such as the nature of the work, target market, and its reliance on local rather than external economic activities.",
+        "question": "Which of the following jobs is in the non-basic employment sector?",
+        "choices": [
+            "Software engineer",
+            "F-10 pickup truck assembly-line worker",
+            "Oil refinery worker",
+            "Parking lot attendant"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify specific regions where there are economic shifts from subsistence agriculture to large-scale commercial agriculture, looking at factors such as land use changes, government policies, and market demands that facilitate this transition.",
+        "instruction 2": "Assess the implications of this transition on local communities, including potential socioeconomic impacts, changes in employment opportunities, and effects on food security and environmental sustainability.",
+        "question": "In which of the following regions is subsistence agriculture being replaced by large-scale commercial development?",
+        "choices": [
+            "The Swiss Alps",
+            "The Amazon Basin",
+            "North Africa",
+            "The Alaskan tundra"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate terms related to the concept of distancing or moving away from religious practices and beliefs, focusing on relevant terminology such as secularism, atheism, or antitheism, to determine the most appropriate term that encapsulates this movement.",
+        "instruction 2": "Assess the social, cultural, and philosophical implications of such a movement, considering historical contexts and contemporary relevance, to provide a comprehensive answer that captures the essence of the question.",
+        "question": "A strong movement away from all religions is called",
+        "choices": [
+            "secularism.",
+            "heathenism.",
+            "sacrilege.",
+            "nationalism."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and list the common characteristics that define the types of regions being discussed. Analyze the context to understand what features are typically associated with the concept of 'regions.'",
+        "instruction 2": "Determine which characteristic does not fit with the identified characteristics of the regions listed. This involves distinguishing between essential and non-essential traits to pinpoint the one that stands out or contradicts the others.",
+        "question": "Regions share all of these characteristics EXCEPT",
+        "choices": [
+            "boundaries.",
+            "common features.",
+            "relative location.",
+            "easily defined."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine each of the presented U.S. main immigration flow associations to determine their accuracy, focusing on historical and statistical data regarding immigration trends to identify which association does not align with factual information.",
+        "instruction 2": "Consider the context of each immigration flow, including the reasons behind immigration from certain countries to the U.S., policies that may affect these flows, and relevant demographic changes over time, ensuring a thorough analysis of each option.",
+        "question": "Which of the following U.S. main immigration flow associations is NOT correct?",
+        "choices": [
+            "Pioneer settlement to 1870—Germans, British, Scotch-Irish, Africans",
+            "1870–1914—Asians",
+            "1870–1914—Eastern and southern Europeans",
+            "1965–present—Hispanics"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the provided statements to identify common themes and characteristics that are typically found in most African cities, such as urbanization trends, socio-economic challenges, infrastructure issues, or cultural diversity.",
+        "instruction 2": "Consider any regional variations within Africa that could influence the characteristics of cities, while also focusing on generalized traits that are prevalent across the continent, ensuring to differentiate between urban and rural contexts.",
+        "question": "Which one of the statements below is characteristic of most African cities?",
+        "choices": [
+            "They have thriving, clean residential areas.",
+            "There are jobs for most rural-to-urban migrants.",
+            "They have three separate business districts.",
+            "They have a well-developed infrastructure."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify countries known for geographical disadvantages that may hinder trade, such as landlocked nations or those with limited access to major shipping routes, and categorize them based on their specific geographical challenges.",
+        "instruction 2": "Analyze the impact of these geographical factors on trade performance, including aspects such as transportation costs, access to markets, and economic dependency on neighboring countries, to determine which country faces the most significant trade disadvantage.",
+        "question": "Which country faces a serious trade disadvantage due to its location?",
+        "choices": [
+            "Singapore",
+            "Italy",
+            "Spain",
+            "Mongolia"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Understand the structure of Burgess's concentric zone model, particularly focusing on the characteristics and socio-economic status of residential areas in each zone, with an emphasis on the transition from inner to outer zones.",
+        "instruction 2": "Identify the specific zone associated with higher housing quality and income levels, which is typically Zones 4 and 5 in the model, and discuss factors such as urban development, population density, and rent variations that lead to the classification of these areas.",
+        "question": "In which zone of Burgess's concentric zone model would one find better houses, single-family homes, and higher-rent apartments?",
+        "choices": [
+            "First",
+            "Second",
+            "Third",
+            "Fourth"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key theorist associated with the five-stage pattern of economic growth, which involves determining the specific stages and their characteristics that outline the theory's framework.",
+        "instruction 2": "Provide context surrounding this theory, including its historical relevance and its implications for understanding economic development in various societies, as well as how it contrasts with alternative theories of economic growth.",
+        "question": "The theory that every society develops economically according to a five-stage pattern of growth is attributed to",
+        "choices": [
+            "Rostow.",
+            "Ravenstein.",
+            "von Thünen.",
+            "Burgess."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify common barriers to the diffusion of cultural traits, including physical, social, and psychological factors that inhibit the spread of cultural elements across different societies.",
+        "instruction 2": "Evaluate the given options against the identified barriers to determine which one does not align with the typical characteristics of a barrier, ensuring that it does not restrict or limit the spread of cultural traits.",
+        "question": "Which of the following would NOT be considered a barrier to diffusion of a cultural trait?",
+        "choices": [
+            "Language",
+            "Religion",
+            "Oceans",
+            "Tolerant complaisant citizens"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the definitions of invasion and succession in ecological terms, ensuring to detail how migration plays a role in these processes and how they contribute to ecosystem changes over time.",
+        "instruction 2": "Examine the chronological stages of the invasion and succession processes, focusing on the relationships between species entering an ecosystem and how they interact with existing species, as well as the resulting ecological dynamics.",
+        "question": "The process of invasion and succession is a process involving migration and is best described as when",
+        "choices": [
+            "new residents tear down and rebuild housing units.",
+            "new residents live peacefully with old residents.",
+            "new residents assimilate with old residents completely.",
+            "new residents move into areas occupied by older resident groups."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Clarify the concept of a functional region by analyzing the characteristics that define it, such as organization around a focal point or node and the interconnections that influence social, economic, or environmental activities within that region.",
+        "instruction 2": "Evaluate the provided options in terms of their alignment with the definition of a functional region, ensuring to focus on real-life examples that exhibit the necessary relationships and interactions typical of such a region.",
+        "question": "Which of the following best illustrates the definition of a functional region?",
+        "choices": [
+            "A map showing Atlanta as a hub for Delta Airlines",
+            "An article describing the region referred to as the South",
+            "A map showing North Carolina's one hundred counties",
+            "An essay explaining the region known as the Bible Belt"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the concept that relates to the strategic placement and clustering of retail stores around a shopping mall, focusing on terms such as 'agglomeration' or 'retail synergy' that describe how businesses benefit from being located near one another.",
+        "instruction 2": "Consider how the opening of new stores in proximity to a shopping mall can influence customer foot traffic and consumer behavior, analyzing the implications for competition, customer convenience, and overall shopping experience.",
+        "question": "New stores opening around a large shopping mall reflect which concept?",
+        "choices": [
+            "Gravity concept",
+            "Distance decay",
+            "Complementarity",
+            "Movement bias"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify key historical events and economic changes associated with the rise of an urban industrial workforce in Europe, considering how this transformed social structures and labor dynamics.",
+        "instruction 2": "Explore the implications of the birth of this workforce on subsequent movements or developments, such as industrialization, urbanization, or changes in economic theories, ensuring to provide context for how these factors are interconnected.",
+        "question": "The birth of an urban industrial workforce in Europe contributed to the start of the",
+        "choices": [
+            "First Agricultural Revolution.",
+            "Second Agricultural Revolution.",
+            "Third Agricultural Revolution.",
+            "Fourth Agricultural Revolution."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the specific characteristics of East Asia's industrial regions, focusing on historical, economic, and geographical factors that influence their development. Evaluate statements based on these criteria to determine their accuracy.",
+        "instruction 2": "Cross-reference the statements with credible sources or data regarding East Asia's industrial regions, ensuring to identify any significant trends or statistics that support or contradict the statements.",
+        "question": "Which of the following statements about East Asia's industrial regions is true?",
+        "choices": [
+            "Japan has a rich natural resource base.",
+            "China lacks natural resources but has a massive labor force.",
+            "China is industrializing rapidly.",
+            "Taiwan lacks industrial enterprise and an educated workforce."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze each of the provided statements regarding the United Nations to determine their accuracy and relevance, ensuring to evaluate how well they encapsulate the organization's mission, structure, and functions on a global scale.",
+        "instruction 2": "Consider the historical context and key achievements of the United Nations to assess which statement reflects the most significant and holistic understanding of its role in international relations and peacekeeping.",
+        "question": "Which of the following statements best describes the United Nations?",
+        "choices": [
+            "The UN operates a worldwide police force.",
+            "Member states surrender sovereignty to the UN.",
+            "World laws are enforced by the UN.",
+            "The UN often practices interventionism in world conflicts."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the concept of a formal region, which is typically characterized by a common characteristic, such as political, economic, or cultural indicators that can be clearly identified and measured.",
+        "instruction 2": "Evaluate the provided options against the definition of a formal region, ensuring to analyze the specific criteria that qualifies an area as formal based on shared attributes, while eliminating options that do not meet these criteria.",
+        "question": "Which of the following is a formal region?",
+        "choices": [
+            "Dixie",
+            "Pennsylvania",
+            "The market area of Winn-Dixie",
+            "The Pacific Northwest"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific term used in urban and regional planning or economic geography that describes the concentration of production activities and populations in a given area, focusing on concepts like agglomeration, urbanization, or clustering.",
+        "instruction 2": "Consider the social, economic, and environmental implications of this concentration, such as increased efficiency, innovation, or potential challenges related to congestion and resource distribution.",
+        "question": "The concentration of production activities and people spatially to benefit everyone is called",
+        "choices": [
+            "the substitution principle.",
+            "deglomeration.",
+            "agglomeration.",
+            "infrastructure."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the language family that includes Italian, Spanish, Portuguese, and Romanian by examining their historical and linguistic roots, specifically looking for the characteristics that classify them within the same family.",
+        "instruction 2": "Verify the classification by consulting linguistic resources or family trees that outline the relationships between these languages and confirm their common ancestor, which is known as the Romance language family derived from Latin.",
+        "question": "Which language family contains Italian, Spanish, Portuguese, and Romanian?",
+        "choices": [
+            "European",
+            "Slavic",
+            "Germanic",
+            "Romance"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the common characteristics of Ankara and Islamabad that categorize them together, such as being capital cities of their respective countries, and consider other factors like geographical location, cultural significance, or political importance that may also apply.",
+        "instruction 2": "Explore additional classifications or themes that could encompass Ankara and Islamabad, such as their roles in regional politics, economic development, or historical context, to provide a comprehensive understanding of their similarities.",
+        "question": "Ankara, Turkey and Islamabad, Pakistan are both examples of",
+        "choices": [
+            "desert cities.",
+            "forward-thrust capitals.",
+            "old colonial capitals.",
+            "rival cities."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define syncretism and identify the characteristics that typically exemplify this concept, focusing on the merging or blending of different religious, cultural, or philosophical beliefs.",
+        "instruction 2": "Evaluate each provided option against the established definition of syncretism to determine which one does not fit the criteria, ensuring a clear understanding of how syncretism manifests in various contexts.",
+        "question": "Which of the following is NOT an example of syncretism?",
+        "choices": [
+            "Halloween",
+            "Foreign cuisine changed to suit American tastes",
+            "Hasidic Judaism",
+            "Catholicism in Louisiana"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the name of the theory that connects control over the landmass of Europe to global dominance, often referring to the concept as expressed in geopolitical strategies or historical contexts.",
+        "instruction 2": "Consider the historical context and implications of this theory, including the contributions of key figures like Halford Mackinder and how this theory has influenced international relations and military strategies.",
+        "question": "The theory that whoever controlled the landmass of Europe would rule the world is called the",
+        "choices": [
+            "devolution theory.",
+            "domino theory.",
+            "heartland theory.",
+            "rimland theory."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the specific sect within Islam that is characterized by its belief in the infallibility and divine right of authority of Imams, tracing their lineage back to Ali, and differentiate it from other sects.",
+        "instruction 2": "Examine the historical and cultural context of the Persian (Iranian) variation of Islam, focusing on how this belief system has influenced religious practices and the sociopolitical landscape in Iran.",
+        "question": "Which group represents the Persian (Iranian) variation of Islam and believes in the infallibility and divine right to authority of the Imams descended from Ali?",
+        "choices": [
+            "Sunni",
+            "Shiite",
+            "Imam",
+            "Untouchables"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the multiplier effect in economic terms, ensuring to explain how it relates to changes in spending and income levels within an economy, and how it amplifies the impact of fiscal policy or initial investments.",
+        "instruction 2": "Provide examples of scenarios or calculations that illustrate the multiplier effect in action, detailing how increased economic activity in one area can lead to greater overall economic growth through successive rounds of spending.",
+        "question": "The multiplier effect is",
+        "choices": [
+            "the addition of non-basic workers to an urban economy that has added more basic workers.",
+            "a ratio of urban to rural workers in an economy.",
+            "the ratio of city workers to farm workers in an economy.",
+            "the addition of rural jobs created by the urban economy."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary sacred texts of Hinduism, focusing on the most widely recognized scripture that represents Hindu beliefs and practices, such as the Bhagavad Gita or the Vedas.",
+        "instruction 2": "Provide contextual information about the significance of the identified sacred book within the Hindu religion, including its teachings, historical importance, and role in rituals and daily life.",
+        "question": "The sacred book of the Hindu is called the",
+        "choices": [
+            "Talmud.",
+            "Bible.",
+            "Torah.",
+            "Veda."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the various elements that define East European cities, focusing on historical, cultural, and architectural traits that may set them apart from cities in other regions, and identify specific characteristics that are commonly associated with these cities, such as types of buildings, layout, and social dynamics.",
+        "instruction 2": "Evaluate the significance of geographic and political factors in influencing the characteristics of East European cities, considering how their unique contexts may shape urban development differently compared to cities in Western Europe or other parts of the world.",
+        "question": "Which of the following is a distinct characteristic of an East European city?",
+        "choices": [
+            "A central park",
+            "Prominent religious buildings",
+            "A large central square surrounded by government and administrative buildings",
+            "Luxury apartment buildings"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the countries known for language preservation efforts, specifically those that have implemented policies or initiatives aimed at protecting their native languages from influence by English or other foreign languages.",
+        "instruction 2": "Analyze the cultural and political contexts of these countries that motivate their language preservation efforts, considering factors such as cultural identity, national pride, and the role of language in society.",
+        "question": "Which of the following countries is actively trying to preserve the purity of their native language from contamination by English or other languages?",
+        "choices": [
+            "Italy",
+            "Russia",
+            "Japan",
+            "Brazil"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the characteristics of bulk-gaining industries, which are those that gain mass or volume during the production process, and compare them to bulk-reducing industries. Identify examples that clearly illustrate these distinctions.",
+        "instruction 2": "Analyze the options provided in the question to determine which example best fits the criteria of a bulk-gaining industry, considering factors such as the type of raw materials used and the nature of the final product in terms of physical volume.",
+        "question": "Which of the following is an example of a bulk-gaining industry?",
+        "choices": [
+            "Steel",
+            "Bottled orange juice",
+            "Paper",
+            "Copper"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Review the defining characteristics of export processing zones (EPZs), including benefits such as tax exemptions, special regulatory environments, and focus on exports, to identify the common features that distinguish them from other economic zones.",
+        "instruction 2": "Analyze the provided options carefully to determine which one does not align with the established features of EPZs, ensuring that the selected feature is inconsistent with the purpose and operational framework of these zones.",
+        "question": "Which of the following is NOT a feature of an export processing zone (EPZ)?",
+        "choices": [
+            "Tariff reductions on exports",
+            "Raw materials imported duty-free",
+            "Exemption from customs duties",
+            "Strict pollution regulations"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the essential characteristics that define a state, such as territoriality, sovereignty, a permanent population, and governance. Identify which of the listed characteristics does not align with these definitions.",
+        "instruction 2": "Examine common misconceptions about state attributes that may lead to confusion, ensuring clarity in distinguishing characteristics that are universally accepted as true versus those that may not apply.",
+        "question": "Which of the following characteristics is NOT true of a state?",
+        "choices": [
+            "Independent territory",
+            "Internationally recognized",
+            "Boundaries",
+            "A national language"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key theme in the scenario that reflects a change in life circumstances or decisions influenced by unforeseen experiences, particularly focusing on how the visit to Columbus alters the original plan of relocating to Pittsburgh.",
+        "instruction 2": "Consider the implications of making a spontaneous decision about relocating, exploring concepts such as serendipity, personal growth, and how experiences can lead to new directions in life.",
+        "question": "You are planning to move from your hometown to Pittsburgh. Along the way, you stop in Columbus, Ohio to visit a relative and fall in love with the city! You decide to stay and make Columbus your new home. This is an example of",
+        "choices": [
+            "intervening opportunity.",
+            "distance decay.",
+            "involuntary migration.",
+            "push-pull factors."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the term that describes the phenomenon of a suburban or exurban area characterized by a concentration of employment opportunities relative to its residential population. Focus on terminology commonly used in urban planning and regional development to articulate this concept.",
+        "instruction 2": "Consider the implications of this land use pattern on transportation, housing demand, and urban sprawl, ensuring to relate these aspects to the broader context of urban studies and the challenges faced by areas with more jobs than residents.",
+        "question": "A large node of office and commercial land use outside the central city with more jobs than residents is a(n)",
+        "choices": [
+            "suburb.",
+            "primate city.",
+            "town.",
+            "edge city."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key crop that is widely recognized as initiating the Third Agricultural Revolution, focusing on its characteristics, such as high yield and resistance to pests, which contributed to significant agricultural advancements.",
+        "instruction 2": "Explore the historical context surrounding the crop's development, including technological innovations and socio-economic factors that facilitated the transition to modern agricultural practices during this period.",
+        "question": "Which crop began the Third Agricultural Revolution?",
+        "choices": [
+            "Rice",
+            "Wheat",
+            "Barley",
+            "Millet"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify major political, social, or economic changes in Eastern Europe over the last twenty-five years that could have contributed to instability, such as the collapse of the Soviet Union, the transition to democracy, or economic crises, and analyze their impact on inter-ethnic relations.",
+        "instruction 2": "Examine specific case studies of ethnic conflicts that arose during this period, considering how historical grievances, national identity, and external influences played roles in exacerbating tensions between different ethnic groups in Eastern Europe.",
+        "question": "Which factor in the last quarter century greatly destabilized Eastern Europe and led to ethnic conflict?",
+        "choices": [
+            "The introduction of new languages",
+            "The end of the Cold War",
+            "The invasion by the Soviets",
+            "The acceptance of many Eastern European countries into the EU"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Evaluate the types of transportation available for shipping valuables, considering factors such as speed, security, and reliability, to determine which method would best protect the jewelry during transit.",
+        "instruction 2": "Research and assess the most reputable shipping companies and their specific services for high-value items, ensuring to weigh any additional insurance and tracking options they offer for the safe delivery of the jewelry.",
+        "question": "If I wanted to ship a small piece of very valuable jewelry to my aunt who lives in Poughkeepsie, which mode of transportation makes the most sense?",
+        "choices": [
+            "Truck",
+            "Air",
+            "Ship",
+            "Railroad"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the characteristics of a functional region, emphasizing its focus on a central point and the surrounding areas that are connected to it through various functions, such as economic activities or transportation networks.",
+        "instruction 2": "Examine each of the options provided to determine which one fits the criteria of a functional region, considering factors such as geographic boundaries, human interactions, and the presence of a central hub.",
+        "question": "Which of the following is a functional region?",
+        "choices": [
+            "Dixie",
+            "Pennsylvania",
+            "The market area of Winn-Dixie",
+            "The Pacific Northwest"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key characteristics of urban models that involve distinct residential areas extending from a central point, pay attention to the architectural and planning principles that define these models.",
+        "instruction 2": "Examine the historical context and applications of various city models, particularly focusing on how the residential spine integrates with the main boulevard and other urban features, to properly categorize and name the specific city model in question.",
+        "question": "Which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard?",
+        "choices": [
+            "European",
+            "Muslim",
+            "Sub-Saharan African",
+            "Latin American"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the primary language families that encompass most European languages, focusing on the Indo-European family and noting the subsets such as the Germanic, Romance, and Slavic languages that are prominent within the continent.",
+        "instruction 2": "Consider the historical and sociolinguistic factors that have influenced the development and spread of these language families throughout Europe, analyzing how linguistic relationships and migrations have shaped the current linguistic landscape.",
+        "question": "What family do most European languages belong to?",
+        "choices": [
+            "Ural-Altaic",
+            "Basque",
+            "Indo-European",
+            "Phoenician"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the definitions and historical contexts of apartheid, ethnic cleansing, and integration to identify common themes such as systemic inequality, social division, and the impact on marginalized groups.",
+        "instruction 2": "Evaluate the social and political implications of these terms, focusing on how they each relate to issues of identity, power dynamics, and the struggle for rights and equality in various societies.",
+        "question": "What do the terms apartheid, ethnic cleansing, and integration all have in common?",
+        "choices": [
+            "They all occurred in Nazi Germany during World War I.",
+            "They are all forms of residential segregation.",
+            "They are all ways to integrate different ethnic populations in neighborhoods.",
+            "They are different expressions for the same concept."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the provided statements for accuracy by cross-referencing them with current demographic data, social studies, and trends regarding immigrants in Europe, ensuring to distinguish between various immigrant groups and their experiences.",
+        "instruction 2": "Evaluate the broader context of immigration in Europe, considering factors like economic impacts, integration policies, and public perceptions, which can influence the correctness of the statements in question.",
+        "question": "Which one of the statements below correctly describes immigrants living in Europe?",
+        "choices": [
+            "Most find citizenship easy to get in host countries.",
+            "Muslims immigrants from North Africa are well integrated in France.",
+            "Immigrants to European cities rarely bring their families.",
+            "They are usually restricted to certain neighborhoods."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define what constitutes secondary economic activities, such as manufacturing and construction, and distinguish these from primary activities like agriculture and mining.",
+        "instruction 2": "Evaluate each activity presented in the options provided to identify which do not fit the category of secondary economic activities, ensuring to clarify why they are categorized as primary or tertiary instead.",
+        "question": "Which of the following activities are NOT secondary economic activities?",
+        "choices": [
+            "Assembling automotive parts",
+            "Sewing shirts",
+            "Mining copper",
+            "Binding books"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the term 'migration' in the context of human movement, emphasizing the key aspects such as the relocation of individuals from one geographical area to another for a significant duration, often involving a change in residence or lifestyle.",
+        "instruction 2": "Examine the motivations behind Johnny and Susie's move to Scotland, such as socioeconomic factors, personal choices, or opportunities associated with renovating the family castle, to illustrate how these motivations align with the concept of migration.",
+        "question": "Johnny and Susie are moving to Scotland to renovate and live in the family castle. What makes their move a migration?",
+        "choices": [
+            "They are crossing another country's borders.",
+            "They are not taking anything with them.",
+            "They are moving permanently.",
+            "They will be gone more than one year."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Clearly define the criteria that determine what constitutes a 'state,' including elements such as a defined territory, permanent population, government, and the capacity to enter into relations with other states.",
+        "instruction 2": "Evaluate each entity listed in the options against these criteria to accurately identify which one meets the definition of a state while ruling out those that do not.",
+        "question": "Which of the following entities is a state?",
+        "choices": [
+            "Antarctica",
+            "American Samoa",
+            "Egypt",
+            "Marshall Islands"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the three main types of fossil fuels: coal, oil, and natural gas, and determine which one among them is the most abundant based on geological reserves and global consumption data.",
+        "instruction 2": "Evaluate the definitions and measurements of abundance, such as total recoverable reserves and production levels, to ensure a comprehensive understanding of what constitutes the 'most abundant' fossil fuel.",
+        "question": "What is the most abundant fossil fuel?",
+        "choices": [
+            "Phosphate",
+            "Oil",
+            "Petroleum",
+            "Coal"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the term that specifically describes the concept of rejecting or showing indifference to religion within a national context, ensuring to consider related terms such as secularism or atheism for clarity.",
+        "instruction 2": "Explore the implications of this indifference or rejection on societal norms, values, and culture, which may be relevant to understanding the broader context of the term within the country in question.",
+        "question": "A rejection of or indifference to religion in a country is called",
+        "choices": [
+            "polytheism.",
+            "animism.",
+            "secularism.",
+            "monotheism."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the key resources that drive productivity in a postindustrial economy, particularly focusing on knowledge, technology, and human capital, and evaluating how each contributes to increasing productivity compared to traditional resources.",
+        "instruction 2": "Analyze the role of innovation and information in enhancing productivity, emphasizing the importance of adaptability and skill development in a rapidly evolving economic landscape.",
+        "question": "In a postindustrial economy, which of the following resources is considered most important to increase productivity?",
+        "choices": [
+            "Energy",
+            "Labor",
+            "Information",
+            "Specialization"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the term that describes a city which is significantly larger than the next largest city in its respective country, such as 'primate city', which reflects its dominance in terms of size, population, or economic influence.",
+        "instruction 2": "Explore the specific characteristics and implications of a 'primate city' in terms of urban planning, economic development, and population distribution within the country to understand its significance.",
+        "question": "A city that is more than twice as large as the next largest city in a country is called a",
+        "choices": [
+            "global city.",
+            "world leader city.",
+            "megalopolis.",
+            "primate city."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine each statement provided regarding the Law of the Sea and the exclusive economic zone (EEZ), verifying each one against established legal definitions and provisions laid out by the UN Convention on the Law of the Sea to determine its accuracy.",
+        "instruction 2": "Pay special attention to the specific rights and responsibilities associated with the EEZ, such as fishing rights, resource exploration, and the jurisdiction over the economic zone's natural resources, and identify any statements that misrepresent or contradict these established principles.",
+        "question": "Every country with a seacoast has an exclusive economic zone (EEZ) under the UN Convention on the Law of the Sea. Which one of the following statements regarding the Law of the Sea and the EEZ is NOT correct?",
+        "choices": [
+            "The EEZ extends up to 200 nautical miles (370 km) from the coastline.",
+            "Countries have the right to exploit natural resources in their EEZ.",
+            "Countries can exploit resources on the continental shelf extending up to 350 nautical miles (560 km) beyond their EEZ.",
+            "A country does not have the right to exploit living resources in its EEZ."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the characteristics of different populations, considering factors such as resource availability, fertility rates, and economic conditions that contribute to population pressure.",
+        "instruction 2": "Evaluate contextual indicators, such as urbanization rates or changes in land use, that might exacerbate or alleviate population pressure in specific areas or demographic groups.",
+        "question": "Which of the following is MOST likely to experience population pressure?",
+        "choices": [
+            "An industrial society with abundant natural resources and large imports of food",
+            "A society with a highly mechanized agricultural sector",
+            "A non-ecumene",
+            "A slash-and-burn agricultural society"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify geographical and political characteristics of the Rio Grande, analyzing its role as both a natural waterway and a boundary between the two countries, and how this duality qualifies it as a key example of a boundary line.",
+        "instruction 2": "Consider the implications of this boundary in terms of cultural, social, and environmental factors that affect the relationship between the United States and Mexico, ensuring to address how natural borders like rivers influence human geography.",
+        "question": "Part of the boundary between the United States and Mexico is the Rio Grande, an example of",
+        "choices": [
+            "a water divider.",
+            "a watercourse.",
+            "an artificial boundary.",
+            "a natural boundary."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the concept of 'hearth' in the context of cultural diffusion, specifying that it refers to the geographic origin or center where a cultural trait or innovation originates before spreading to other areas.",
+        "instruction 2": "Examine examples of cultural traits and their hearths to illustrate how cultural elements are disseminated from their points of origin to various regions, highlighting the processes involved in this diffusion.",
+        "question": "When we talk about diffusion of a cultural trait, what do we mean by \"hearth\"?",
+        "choices": [
+            "Destination",
+            "Origin point",
+            "All locations along the diffusion path",
+            "Axis point"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the term that refers to the distance north and south of the equator, ensuring to specify the measurement unit used in geography, such as degrees of latitude.",
+        "instruction 2": "Explain the significance of this distance in relation to global positioning, climate zones, and geographical navigation, highlighting how it influences various aspects of Earth's geography.",
+        "question": "The distance north and south of the equator is the",
+        "choices": [
+            "global grid system.",
+            "Prime Meridian",
+            "latitude.",
+            "longitude."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Examine the factors that contribute to the subjective nature of perceptual or vernacular regions, including cultural perceptions, individual experiences, and the fluid boundaries that may vary from person to person.",
+        "instruction 2": "Analyze how the lack of clear, defined criteria and the influence of social constructs can complicate the identification of these regions, considering how perceptions can change over time and across different populations.",
+        "question": "Why are perceptual or vernacular regions so difficult to identify?",
+        "choices": [
+            "Boundaries are constantly being redrawn.",
+            "Physical features, such as rivers, are constantly shifting.",
+            "Defining criteria are subjective and differ among researchers.",
+            "Antecedent boundaries were drawn before humans were located in the regions."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the common types of structures that are typically found at the center of historic Asian cities, such as palaces, temples, or marketplaces, and analyze their historical significance and role in the urban layout.",
+        "instruction 2": "Consider cultural and geographical variations across different Asian countries that may influence the type of central structures, ensuring to highlight the differences and similarities that exist in these urban centers throughout Asia.",
+        "question": "Which structure(s) traditionally occupies the center of a historic Asian city?",
+        "choices": [
+            "A central market",
+            "High-density housing",
+            "A religious building",
+            "Government office buildings"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define the urban hierarchy model and explain the relationship between city rank and population size, emphasizing that cities lower in rank (higher-order cities) generally have larger populations than those higher in rank (lower-order cities).",
+        "instruction 2": "Illustrate the implications of this model on urban planning and resource allocation, considering how the rank of a city within the hierarchy influences its economic opportunities, infrastructure, and service availability.",
+        "question": "Which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy?",
+        "choices": [
+            "Multiplier effect",
+            "Rank-size rule",
+            "Central place theory",
+            "Burgess's sector model"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the primary issues associated with an aging population, such as healthcare demands, pension sustainability, and workforce shortages, which can dominate discussions and policy considerations in countries facing these demographic shifts.",
+        "instruction 2": "Evaluate the socio-economic implications of an aging population on various sectors like healthcare, economy, and social services, highlighting how these concerns differ from those related to younger populations and the necessity for tailored strategies.",
+        "question": "Which of the following is a major concern in countries with a large and rapidly aging population?",
+        "choices": [
+            "Immunization",
+            "Adequate schools",
+            "Daycare facilities",
+            "Health care"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the capital cities listed in the options and research their geographical locations relative to the central core area of their respective countries, understanding definitions of 'central core area' and how they differ by country.",
+        "instruction 2": "Evaluate the criteria for determining whether a capital city is considered inside or outside the central core area, which may include factors like political, economic, or cultural significance, along with geographical boundaries.",
+        "question": "Which of the following capital cities is located OUTSIDE the central core area of the country?",
+        "choices": [
+            "Abuja, Nigeria",
+            "Paris, France",
+            "London, United Kingdom",
+            "Cairo, Egypt"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the geographical regions or historical contexts where Spanish colonial architecture, uneven economic development, and rural-to-urban migration are prevalent, focusing on Latin America as the primary example due to its historical ties and socio-economic characteristics.",
+        "instruction 2": "Analyze how these elements interact within the selected regions, considering the implications of colonial history on current economic structures and migration patterns, which will guide the identification of the most suitable answer.",
+        "question": "Spanish colonial architecture, uneven economic development, and rural-to-urban migration flows are most commonly found in which of the following?",
+        "choices": [
+            "Southeast Asia",
+            "Sub-Saharan Africa",
+            "North America",
+            "Latin America"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the historical context and geopolitical circumstances surrounding the formation of NATO, focusing on the key objectives it aimed to achieve, such as collective defense against potential threats and the promotion of stability in Europe during the Cold War.",
+        "instruction 2": "Evaluate the foundational principles outlined in NATO's original treaty, including mutual defense commitments and the importance of transatlantic cooperation, to understand its purpose and long-term strategic goals.",
+        "question": "The purpose for the creation of NATO was to",
+        "choices": [
+            "defend North America and Western Europe against the threat of communism.",
+            "form an economic alliance for trade between Europe and North America.",
+            "defend Europe against a second Nazi invasion.",
+            "defend northern Europe against Chinese missiles."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Review the historical milestones of the European Union (EU) to identify significant treaties, expansions, and policy implementations that are considered key achievements within its development.",
+        "instruction 2": "Evaluate the provided options to determine which one does not align with the recognized key milestones of the EU, considering both significant historical context and the intent behind the EU's formation and evolution.",
+        "question": "Which of the following is NOT a key milestone reached by the EU?",
+        "choices": [
+            "The introduction of a common currency used by many EU countries",
+            "A customs union",
+            "A single market",
+            "A common European language"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the category of diffusion that best describes the spread of English in nineteenth-century India, focusing on whether it represents relocation diffusion (e.g., due to the British colonization) or expansion diffusion (e.g., through education and social status).",
+        "instruction 2": "Examine the historical and social contexts that facilitated the diffusion of English in India, such as colonial policies, the establishment of schools, and its influence on social hierarchies, which will help clarify the mechanisms behind the diffusion process.",
+        "question": "The use and spread of English in nineteenth-century India is an example of what type of diffusion?",
+        "choices": [
+            "Stimulus",
+            "Contagious",
+            "Hierarchal",
+            "Relocation"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine the name of the theory that explains the pattern of migration occurring short distances and in steps, commonly linked to the work of geographer Wilbur Zelinsky and his analyses of migration and mobility.",
+        "instruction 2": "Research the foundational concepts of this theory, including any relevant models or frameworks it is associated with, and understand how it contrasts with other migration theories that may emphasize long-distance or push-pull factors.",
+        "question": "The theory that most migration occurs over a short distance and in steps is attributed to",
+        "choices": [
+            "Rostow.",
+            "Ravenstein.",
+            "von Thünen.",
+            "Burgess."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the term that specifically denotes a lifestyle or practice centered around the domestication and management of livestock for various human needs, such as food, clothing, and shelter, while considering related concepts like pastoralism or ranching.",
+        "instruction 2": "Examine the cultural and economic implications of this way of life, particularly how it relates to agricultural practices and the sustainability of animal husbandry in different ecological contexts.",
+        "question": "The way of life based on breeding and herding of animals that are used as a source of food, shelter, and clothing is called",
+        "choices": [
+            "swidden.",
+            "subsistence farming.",
+            "pastorialism.",
+            "hunting and gathering."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Research the historical context of the European Union's formation to determine which organization it succeeded or replaced, paying particular attention to key treaties and the objectives of the EU at the time of its establishment.",
+        "instruction 2": "Consider the function and role of the organization that was replaced by the EU, analyzing how the mission and structure of the EU expanded or changed compared to its predecessor.",
+        "question": "The European Union (EU) replaced which of the following organizations?",
+        "choices": [
+            "NATO",
+            "EEC",
+            "UN",
+            "ASEAN"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific agricultural development strategy being referred to in the question, which typically involves the transfer of technology and resources from core countries to peripheral regions to enhance agricultural output.",
+        "instruction 2": "Consider the broader implications and objectives of this strategy, including how it relates to economic dependency, sustainability, and the socioeconomic impacts on peripheral countries, ensuring to reference relevant theories or concepts in development economics.",
+        "question": "The attempt by core countries to stimulate increased agricultural production in the periphery through use of technology, hybrid seed, and fertilizers is called the",
+        "choices": [
+            "First Agricultural Revolution.",
+            "Second Agricultural Revolution.",
+            "Third Agricultural Revolution.",
+            "Green Revolution."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the geographical regions where shifting cultivation is predominantly practiced, often linked to tropical and subtropical climates that support this farming method due to their biodiversity and specific vegetation.",
+        "instruction 2": "Examine the cultural and socio-economic factors that influence the practice of shifting cultivation in these regions, including aspects such as land use, traditional agricultural practices, and the impact of modern agricultural developments.",
+        "question": "Shifting cultivation is most often practiced in",
+        "choices": [
+            "alpine tundra.",
+            "tropical forests.",
+            "flood plains.",
+            "deserts."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the primary regions of emigration that have contributed significantly to migration streams into the United States since 1980, emphasizing the historical and geopolitical factors that may have influenced these trends.",
+        "instruction 2": "Examine statistical data on migration to determine the predominant countries or regions contributing to U.S. immigration, and consider any shifts in patterns due to changes in policy, economic conditions, or social factors during this time frame.",
+        "question": "The migration streams into the United States between 1980 and the present have been primarily composed of emigrants from which of the following regions?",
+        "choices": [
+            "Europe and North Africa",
+            "Asia and Latin America",
+            "Sub-Saharan Africa and Oceania",
+            "Central Europe and Australia"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze each of the North American associations provided in the options to determine their validity and how they relate to one another, ensuring a clear understanding of their purposes and functions.",
+        "instruction 2": "Cross-reference the associations with credible sources or official documentation to verify their legitimacy and identify which association does not fit within the context given.",
+        "question": "Which one of the following North American associations is NOT correct?",
+        "choices": [
+            "Southeast—African Americans",
+            "Oklahoma and the Southwest—Native Americans",
+            "Quebec and northern Maine—French Americans and French Canadians",
+            "Southern prairie provinces—African Americans"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Review a list of countries and classify them based on their governmental structure, specifically identifying which are federal states and which are not, focusing on understanding the definition of a federal state.",
+        "instruction 2": "Analyze the options provided in the question to determine the characteristics of each country’s governance, looking for key indicators such as central vs. local authority distribution, and confirming which country does not conform to the criteria of a federal state.",
+        "question": "Which of the following countries is NOT a federal state?",
+        "choices": [
+            "Canada",
+            "United States",
+            "France",
+            "People's Republic of China"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the criteria that define 'densely populated' regions, typically involving the number of people per square kilometer, and then review the list of world regions to assess their population density.",
+        "instruction 2": "Examine statistical data on population distribution and land area for each region provided in the options to determine which does not meet the criteria of high population density when compared to known densely populated regions.",
+        "question": "Which of the following world regions is NOT considered one of the world's most densely populated regions?",
+        "choices": [
+            "South Asia",
+            "Europe",
+            "South America",
+            "Northeast United States"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the agricultural practices associated with the cultivation of olives, grapes, and chickpeas, focusing on the climates and soil types that support these crops.",
+        "instruction 2": "Determine the specific type of farming that emphasizes the cultivation of these crops, considering factors such as crop rotation, biodiversity, and traditional farming methods prevalent in regions known for producing these staples.",
+        "question": "Olives, grapes, and chickpeas are staple crops of which type of farming?",
+        "choices": [
+            "Pastoral nomadism",
+            "Subsistence",
+            "Plantation",
+            "Mediterranean"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify key practices and beliefs within Hinduism that characterize the behavior of adherents, such as rituals, worship, meditation, or participation in festivals, to establish a comprehensive understanding of what a practicing Hindu may engage in.",
+        "instruction 2": "Consider the diversity within Hindu practices and beliefs, recognizing that not all Hindus may adhere to the same customs or traditions due to regional, sectarian, or individual variations in their practice of the religion.",
+        "question": "A person who practices the Hindu religion would be most likely to",
+        "choices": [
+            "visit a shrine built on the shore of a lake.",
+            "pray five times a day.",
+            "bathe in the Ganges River.",
+            "make a pilgrimage to Jerusalem."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine which criteria are used to define 'speakers' of a language, such as native speakers, second-language speakers, or total speakers, to clarify the context of the question.",
+        "instruction 2": "Research and identify the most recent and credible linguistic data that provides statistics on the number of speakers for various languages, ensuring to note any distinctions between different types of speakers when arriving at the answer.",
+        "question": "The language with the largest number of \"speakers\" is",
+        "choices": [
+            "English.",
+            "Russian.",
+            "Spanish.",
+            "Mandarin Chinese."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze each of the statements provided regarding the Green Revolution to identify the key elements and characteristics associated with this agricultural movement, such as the introduction of high-yield crops, improved agricultural practices, and the role of technology in increasing food production.",
+        "instruction 2": "Determine which statement fails to accurately represent the effects or principles of the Green Revolution, ensuring to contextualize the misunderstanding in terms of its historical impact on agriculture, food security, and socioeconomic implications.",
+        "question": "Which one of the following statements does NOT correctly describe the Green Revolution?",
+        "choices": [
+            "It changed centuries-old methods of farming.",
+            "It was an attempt to feed a growing world population.",
+            "It centered on increased rice, wheat, and maize yields.",
+            "It greatly improved crop yields in sub-Saharan Africa."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the various methods by which languages typically spread historically, such as through migration, trade, colonization, and cultural exchange, and create a list of these methods for comparison.",
+        "instruction 2": "Analyze the provided methods and determine which one does not align with the common historical patterns of language spread, ensuring that the answer is grounded in linguistic and historical context.",
+        "question": "Historically, the world's major languages have spread by all of the following methods EXCEPT",
+        "choices": [
+            "Sanskrit records.",
+            "migration.",
+            "trade.",
+            "conquest."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the term 'primate city' by examining its characteristics, such as its population size relative to other cities in the same country and its influence on the country's economic, political, and cultural life.",
+        "instruction 2": "Analyze examples of primate cities globally to better illustrate the concept, discussing how these cities serve as central hubs for population and resources compared to other urban areas within their national context.",
+        "question": "A primate city is",
+        "choices": [
+            "a large city located on the periphery of the country.",
+            "the most important city in a country.",
+            "when the largest city in a country is more than twice the size of the next largest city.",
+            "the largest city in a country."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Define what constitutes a 'pull' factor in migration contexts, focusing on reasons or conditions that attract individuals to a new location, such as economic opportunities, quality of life, education, or personal circumstances.",
+        "instruction 2": "Evaluate the potential factors listed for Riva by contrast with typical push and pull factors associated with migration, ensuring to identify those that specifically entice individuals to move to the United States from India, rather than those that compel them to leave India.",
+        "question": "Which of the following factors would be considered a \"pull\" factor for Riva when considering a move from India to the United States?",
+        "choices": [
+            "Abject poverty",
+            "Better job and higher wages",
+            "India's caste system",
+            "Violence in her neighborhood"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the various factors that contribute to the attraction of young people to major cities in Latin America, such as job opportunities, education, cultural amenities, and social dynamics, in order to determine which one does not belong in the context of this question.",
+        "instruction 2": "Critically analyze the provided reasons for their relevance to young people's motivations, ensuring to distinguish between those reasons that are typically recognized as attractive and those that are less likely or not applicable.",
+        "question": "All of the following are reasons major cities attract young people in Latin America EXCEPT",
+        "choices": [
+            "the availability of jobs.",
+            "the potential for decent housing.",
+            "educational opportunities.",
+            "their families live there already."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the specific language family that encompasses the mentioned branches (Baltic, Celtic, Germanic, and Greek) by cross-referencing linguistic classification systems to determine the overarching family they belong to.",
+        "instruction 2": "Consider the geographical distribution and the number of speakers associated with this language family in North America and Europe to evaluate its prominence and widespread use in these regions.",
+        "question": "Which language family is most widely spoken in North America and Europe and includes Baltic, Celtic, Germanic, and Greek?",
+        "choices": [
+            "Dravidian",
+            "Uralic-Altaic",
+            "Sino-Tibetan",
+            "Indo-European"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and examine the key theories or frameworks proposed by economists or theorists that connect agricultural product prices with land use patterns, focusing particularly on the contributions of theorists in agricultural economics.",
+        "instruction 2": "Explore the historical context and economic factors that influence the relationship between land use and farm product prices, including supply and demand dynamics, agricultural practices, and regional differences.",
+        "question": "Which theorist(s) tried to explain the prices of farm products as they relate to patterns of land use?",
+        "choices": [
+            "Rostow",
+            "Ravenstein",
+            "Von Thünen",
+            "Burgess"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the characteristics of spread effects in the core-periphery model, focusing on how economic benefits and resources from the core regions influence peripheral areas, and analyze the examples provided to determine which does not align with these characteristics.",
+        "instruction 2": "Evaluate each option based on established definitions and features of spread effects in economic development literature, considering factors such as investment, resource allocation, and migration patterns between core and peripheral areas.",
+        "question": "Which of the following is NOT a spread effect in the core-periphery model of development?",
+        "choices": [
+            "Congestion in the core",
+            "High cost of labor in the core",
+            "High density in the core",
+            "More infrastructure in the core"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Review the list of environmental factors typically considered in the context of agriculture, such as climate, soil quality, water availability, and topography, to determine which factors are generally recognized as important.",
+        "instruction 2": "Assess each option provided in the question carefully, analyzing their relevance and impact on agricultural practices and productivity in various regions, so as to clearly identify the one that does not significantly influence agriculture.",
+        "question": "Which of the following is NOT an important environmental factor influencing a country's agriculture?",
+        "choices": [
+            "Number of frost-free days per year",
+            "Availability of sufficient rainfall",
+            "Reliability of sufficient rainfall",
+            "Amount of fertilizer produced in the country"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the characteristics and geographical boundaries of the Pacific Ring of Fire, which is an area in the basin of the Pacific Ocean where a large number of earthquakes and volcanic eruptions occur, to facilitate the recognition of countries located within this region.",
+        "instruction 2": "List the relevant countries, paying attention to their geographical coordinates and geological features, ensuring to confirm their inclusion in the tectonic activity of the Pacific Ring of Fire based on historical and geological records.",
+        "question": "Which of the following countries is situated in the region of tectonic activity known as the Pacific Ring of Fire?",
+        "choices": [
+            "Brazil",
+            "Australia",
+            "Chile",
+            "India"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the defining characteristics of 'core' countries in the context of global economic systems, focusing on their political, social, and economic attributes that typically differentiate them from peripheral or semi-peripheral countries.",
+        "instruction 2": "Analyze the provided statements critically to determine which one does not align with the established attributes of core countries, ensuring to consider factors such as economic development, resource consumption, and power dynamics in the global hierarchy.",
+        "question": "Which one of the following statements is NOT true of the \"core\" countries?",
+        "choices": [
+            "They are technologically advanced.",
+            "They are wealthy.",
+            "They are powerful.",
+            "They are less developed."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Determine the types of resources or databases that provide geographical and statistical information about the global distribution of coal, such as geological surveys, international energy agencies, and academic research.",
+        "instruction 2": "Evaluate the various methods of data visualization or mapping techniques that effectively depict the global distribution of coal, ensuring clarity and accessibility of the information for understanding regional variances.",
+        "question": "If you wanted to find the global distribution of coal, you would use a",
+        "choices": [
+            "reference map.",
+            "topographic map.",
+            "thematic map.",
+            "location map."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Review the definitions and examples of centripetal forces within the context of a state, focusing on social, political, and economic elements that contribute to unity and stability.",
+        "instruction 2": "Analyze the provided options to identify which one does not function as a centripetal force, by contrasting it with the characteristics of known centripetal forces such as shared culture, government authority, and economic ties.",
+        "question": "Which one of the following is NOT a centripetal force in a state?",
+        "choices": [
+            "A high level of confidence in central government",
+            "The existence of strong separatist groups",
+            "The existence of national transportation networks",
+            "The national anthem"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the common characteristics that Varanasi and Mecca share, focusing on their significance as religious or cultural centers in their respective traditions.",
+        "instruction 2": "Consider the historical, social, and spiritual aspects of both cities, evaluating how their roles in the lives of adherents to their faiths contribute to their status and comparison.",
+        "question": "The cities of Varanasi (Benares) in India and Mecca in Saudi Arabia are alike because both are",
+        "choices": [
+            "capitals of countries formerly colonized by the English",
+            "destinations for vast numbers of pilgrims",
+            "financial centers for a large fraction of the world's economy",
+            "examples of modern urban planning"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Investigate the historical context and claims of both China and Vietnam regarding the Spratly Islands, focusing on territorial sovereignty, historical treaties, and relevant international law that may influence the dispute.",
+        "instruction 2": "Examine the geopolitical implications of the dispute, including the strategic importance of the Spratly Islands, regional dynamics in Southeast Asia, and the roles of other nations or international organizations in addressing or mediating the conflict.",
+        "question": "China and Vietnam's dispute over the Spratley Islands is",
+        "choices": [
+            "a positional dispute.",
+            "a territorial dispute.",
+            "a resource dispute.",
+            "a functional dispute."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the methods or tools typically utilized by geographers to ascertain absolute location, such as GPS, latitude and longitude coordinates, and maps, to understand common practices in geography.",
+        "instruction 2": "Evaluate the options provided in the question to determine which one does not fit the classification of methods used for determining absolute location, thereby contrasting it with the established methods.",
+        "question": "Which of the following is NOT used by geographers to determine absolute location?",
+        "choices": [
+            "Longitude",
+            "Latitude",
+            "Equator",
+            "Distance to the nearest city"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and define key characteristics commonly associated with developed countries, such as high per capita income, advanced technological infrastructure, and high standards of living.",
+        "instruction 2": "Consider the socioeconomic indicators utilized to classify a country as developed, such as life expectancy, education levels, and economic stability, and how these indicators relate to the characteristics being evaluated.",
+        "question": "Which of the following is a characteristic of a developed country?",
+        "choices": [
+            "Over 50% of workforce engaged in agriculture",
+            "Women held in inferior place in society",
+            "Main disease related to age and lifestyle",
+            "High birth and death rates"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the concept that describes the benefits and drawbacks of living in close proximity to urban amenities, considering the trade-off between convenience and privacy that Mary experiences.",
+        "instruction 2": "Analyze how this scenario may represent broader urban planning themes, such as dense living conditions affecting individual privacy and personal space, and how those themes relate to urban sociology or community dynamics.",
+        "question": "Mary lives in a neighborhood with stores, offices, and restaurants so close that she does not need to own a car; however, she feels she has very little privacy. This is an example of a(n)",
+        "choices": [
+            "win-win.",
+            "trade-off.",
+            "infill.",
+            "leapfrog development."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define what constitutes an absolute location, emphasizing the use of a specific coordinate system, such as latitude and longitude, to pinpoint a precise geographical point.",
+        "instruction 2": "Evaluate the given items by determining which one adheres to the definition of absolute location, ensuring to differentiate it from relative locations that describe a place in relation to other landmarks.",
+        "question": "Which of the following items below is an absolute location?",
+        "choices": [
+            "10 miles east of Pittsburgh",
+            "Washington",
+            "3 degrees south",
+            "479 Elm Street, Muncie, Indiana"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and define the structure of the caste system in Hinduism, focusing on its main categories (such as Brahmins, Kshatriyas, Vaishyas, and Shudras) and how individuals or groups are classified within this framework.",
+        "instruction 2": "Determine which specific groups or individuals, such as the Dalits (formerly known as 'Untouchables'), fall outside the traditional caste hierarchy, explaining the historical context and social implications associated with their exclusion.",
+        "question": "Which one of the following groups is excluded from the caste system of Hinduism?",
+        "choices": [
+            "Scholar-priests",
+            "Warrior-landowners",
+            "Businessmen and farmers",
+            "Untouchables"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define what a push factor is in the context of migration, emphasizing the conditions in an individual's home country that drive them to leave.",
+        "instruction 2": "Analyze the provided options to identify characteristics that align with the definition of a push factor, such as economic hardships, political instability, or social issues that compel individuals to migrate.",
+        "question": "Which of the following is a push factor?",
+        "choices": [
+            "Dissatisfaction with current jobs",
+            "Higher-paying jobs elsewhere",
+            "An attractive retirement community elsewhere",
+            "A pleasant climate"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the common characteristics shared by the Basques, Bretons, Kashmiris, and Tamils, focusing on their ethnic, linguistic, or cultural identities, as well as their historical contexts that may link them as distinct groups.",
+        "instruction 2": "Consider the socio-political implications of these groups' identities, such as their movements for autonomy or self-determination, to understand how these factors contribute to their classification in a broader sociological or anthropological context.",
+        "question": "The Basques, Bretons, Kashmiris, and Tamils are all examples of",
+        "choices": [
+            "regionalist groups.",
+            "separatist groups.",
+            "terrorist groups.",
+            "interventionist groups."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and analyze the various factors that typically influence gender relationships in a culture or society, such as social norms, traditions, economic status, and legal frameworks, to determine their roles in these relationships.",
+        "instruction 2": "Evaluate each factor presented in the options given, ensuring to systematically assess their relevance and impact on gender relationships, specifically looking for one that does not typically contribute to or influence these dynamics.",
+        "question": "Which of the following factors does NOT play a role in gender relationships in a culture or society?",
+        "choices": [
+            "Biology",
+            "Advancements in technological development",
+            "Religion",
+            "Custom"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the terminology used in agriculture for practices involving multiple planting and harvesting cycles of the same crop within a single year, ensuring to differentiate it from related practices such as crop rotation or intercropping.",
+        "instruction 2": "Consider the implications of this practice on soil health, resource management, and economic factors, as these aspects help to elaborate on its significance within agricultural practices.",
+        "question": "The intensive agricultural practice of planting and harvesting the same crop more than once a year is called",
+        "choices": [
+            "swidden.",
+            "double cropping.",
+            "pastorialism.",
+            "intertillage."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Determine the stages of information dissemination that occur when a new fashion design is introduced, focusing on how it travels from initial concept to global awareness, often through channels such as social media, fashion shows, and influencer endorsements.",
+        "instruction 2": "Consider the role of various media and communication strategies in accelerating the global spread of fashion information, examining how these methods contrast with traditional fashion marketing techniques.",
+        "question": "When a new fashion design is introduced globally, the information initially travels through a process known as",
+        "choices": [
+            "contagious diffusion",
+            "relocation diffusion",
+            "innovative diffusion",
+            "hierarchical diffusion"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the main concerns or fears that opponents of GMOs typically express, such as health risks, environmental impacts, and ethical considerations, to frame a comprehensive understanding of their perspective.",
+        "instruction 2": "Analyze the arguments presented by opponents, considering the scientific, economic, and social factors that contribute to their opposition, and ensure to recognize common misconceptions and the role of public sentiment in shaping views on GMOs.",
+        "question": "Opponents of genetically modified organisms (GMOs) in food are afraid that the GMOs",
+        "choices": [
+            "will hinder global trade.",
+            "make plants more resistant to disease.",
+            "may cause irreversible changes in humans.",
+            "make plants more resistant to drought."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Review the common advantages of urban agriculture, such as increased food security, reduced food miles, and improved community engagement, to establish a comprehensive understanding of its benefits.",
+        "instruction 2": "Identify and evaluate the potential disadvantages or misconceptions about urban agriculture that may be presented as advantages, ensuring to clarify which option does not align with recognized benefits.",
+        "question": "Which one of the following is NOT an advantage of urban agriculture?",
+        "choices": [
+            "Helping to solve the problem of solid waste disposal",
+            "Fresh produce for sale to others",
+            "Beautification of a dingy urban area",
+            "Renewed or purified water supplies"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the list of problems presented and identify the current socio-economic or political issues that Europe is facing, ensuring to contrast them with potential options that may not represent contemporary challenges.",
+        "instruction 2": "Evaluate past and present context regarding each option, considering factors such as historical significance, recent news reports, and the opinions of experts on Europe's situation to ascertain which one does not belong.",
+        "question": "Which of the following is NOT a problem Europe currently faces today?",
+        "choices": [
+            "Rising immigration",
+            "Lack of population growth",
+            "Environmental apathy",
+            "Urban ethnic ghettos on the rise"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the main components or categories defined by world systems theory, such as core, semi-periphery, and periphery countries, and explain their significance in the global economic system.",
+        "instruction 2": "Examine how world systems theory provides a framework for understanding the interconnections and hierarchies among nations based on factors like economic development, trade relationships, and power dynamics.",
+        "question": "The world systems theory divides the world into",
+        "choices": [
+            "core, periphery, and semi-periphery.",
+            "rich and poor.",
+            "developed and undeveloped.",
+            "haves and have-nots."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary geographical regions where the Kurdish population resides, focusing on countries that host significant numbers of Kurds, such as Iraq, Turkey, Iran, and Syria, to determine which has the majority.",
+        "instruction 2": "Examine demographic data or reports on the Kurdish population distribution to establish which country has the highest population of Kurds, paying attention to political and social contexts that may influence these figures.",
+        "question": "The majority of Kurds are found in which country?",
+        "choices": [
+            "Iran",
+            "Iraq",
+            "Turkey",
+            "Egypt"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the geographical distribution of the Basque language and determine which countries have significant Basque-speaking populations, ensuring to take into account both official and informal speakers.",
+        "instruction 2": "Examine demographic data and language census reports to find the country with the highest concentration of Basque speakers, focusing particularly on areas within Spain and France where the language is prevalent.",
+        "question": "In what country are the most Basque speakers found?",
+        "choices": [
+            "Denmark",
+            "Finland",
+            "Luxembourg",
+            "Spain"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify current data on urbanization trends globally, focusing on regions that are experiencing the fastest growth rates in urban populations. This includes examining studies or reports that highlight demographic shifts over recent years.",
+        "instruction 2": "Consider external factors that contribute to rapid urbanization, such as economic opportunities, migration patterns, and policy changes in specific regions, ensuring to differentiate between urbanization rates and overall population growth.",
+        "question": "The most rapidly urbanizing area of the world is:",
+        "choices": [
+            "Europe",
+            "East Asia",
+            "Sub-Saharan Africa",
+            "South Asia"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the core principles of neo-Malthusianism, such as its emphasis on population control and resource consumption limits, to understand its relevance in contemporary discussions on sustainability and environmental issues.",
+        "instruction 2": "Explore how neo-Malthusianism influences modern policies or movements, particularly those related to family planning, environmental conservation, and the sustainable management of resources, citing specific examples where possible.",
+        "question": "The influence of neo-Malthusianism can be seen in",
+        "choices": [
+            "government programs for birth control and planning.",
+            "famine relief.",
+            "increased spending in social welfare programs.",
+            "increased total fertility rates."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Clarify the definition of devolution in a political or administrative context, highlighting its relationship to the redistribution of powers from a central authority to regional or local governments.",
+        "instruction 2": "Explore the implications of devolution, including its effects on governance, political representation, and the autonomy of different regions, as well as any historical examples that illustrate the process.",
+        "question": "The process of devolution involves",
+        "choices": [
+            "the change of government from a democracy to a communist dictatorship.",
+            "the movement of power from the central government to regional governments in the country.",
+            "the movement of power from a monarchy to a military dictatorship.",
+            "the movement of power from regional governments to central governments."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the theoretical framework or model related to urban growth that suggests cities expand from a central core and include multiple growth nodes, focusing on scholars or theories that have contributed to this concept.",
+        "instruction 2": "Research the historical context and implications of this theory in urban planning and development, considering how it contrasts with other urban growth models, such as the concentric zone model or the sector model.",
+        "question": "The theory that cities grow outward from a core utilizing several nodes of growth was proposed by",
+        "choices": [
+            "Rostow.",
+            "Ravenstein.",
+            "von Thünen.",
+            "Harris and Ullmann."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the theoretical framework or model that explains the functions of a settlement or market town in relation to its surrounding area, focusing on concepts such as central place theory or market area analysis.",
+        "instruction 2": "Consider the specific terminology and definitions within the field of urban studies or geography that pertain to the role of settlements and market towns in facilitating the exchange of goods and services, ensuring to properly attribute these ideas to their foundational theorists.",
+        "question": "The theory that the main purpose of a settlement or market town is to furnish goods and services to the surrounding market area is called the",
+        "choices": [
+            "urban hierarchy theory.",
+            "central place theory.",
+            "concentric zone model.",
+            "multiplier effect."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Carefully evaluate each statement provided about transnational companies, ensuring to understand the defining characteristics of TNCs, such as their operations across multiple countries, their impact on globalization, and their management structures.",
+        "instruction 2": "Determine which statement fails to accurately reflect the attributes or roles of TNCs by comparing each option against established definitions and features typically associated with transnational corporations.",
+        "question": "Which one of the following statements does NOT correctly describe transnational companies (TNCs)?",
+        "choices": [
+            "Many TNCs operate in areas of electronics, chemicals, pharmaceuticals and petroleum.",
+            "Most TNCs produce and sell manufactured goods.",
+            "Most TNCs are headquartered in the United States, Japan, and the European Union.",
+            "TNCs are generally controlled by foreign governments."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key term or concept that encapsulates the idea of immigrants integrating into a single mainstream culture, while considering associated sociological and cultural implications.",
+        "instruction 2": "Research the historical context and different perspectives surrounding the 'melting pot' theory, including its critiques and alternatives, to provide a well-rounded definition.",
+        "question": "The \"melting pot\" theory of combining several immigrant groups into one mainstream culture is called",
+        "choices": [
+            "amalgamation theory.",
+            "acculturation.",
+            "ethnic islands.",
+            "ethnic clustering."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the specific theory that influenced U.S. foreign policy during the Vietnam War, with a focus on concepts like the 'Domino Theory' which posited that the spread of communism in one country could lead to its spread to neighboring countries.",
+        "instruction 2": "Analyze how this theory was applied in the context of U.S. military and political decisions in Vietnam, and consider the implications it had on public opinion and the U.S. government's rationale for involvement in the conflict.",
+        "question": "Which theory below was used as justification for US involvement in Vietnam in the 1960s and 1970s?",
+        "choices": [
+            "Devolution",
+            "Colonialism",
+            "Heartland theory",
+            "Containment theory"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the benefits commonly associated with urban agriculture, such as improving food security, enhancing community engagement, and promoting environmental sustainability, to establish a baseline for evaluation.",
+        "instruction 2": "Analyze the listed benefits to determine which one does not align with the typical advantages of urban agriculture, ensuring to clearly differentiate between valid benefits and common misconceptions or exaggerations.",
+        "question": "Urban agriculture can benefit urban society in all of the following ways EXCEPT",
+        "choices": [
+            "create sustainable food systems in urban areas.",
+            "provide jobs for women and children.",
+            "turn urban waste into a resource when utilized in safe manner.",
+            "replace agribusiness as the main focus of global food production."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Review definitions and characteristics of supranational organizations, focusing on how they operate above the level of national governments and the authority they have over member states in areas such as law, trade, and policy.",
+        "instruction 2": "Analyze the listed organizations against these characteristics to identify the one that does not fit the criteria of being supranational, ensuring to understand each organization's structure, purpose, and level of authority.",
+        "question": "Which one of the following organizations is NOT a supranational organization?",
+        "choices": [
+            "UN",
+            "NATO",
+            "ASEAN",
+            "PLO"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the key demographic characteristics associated with stages 4 and 5 of the demographic transition model, focusing on aspects such as birth rates, death rates, and population growth patterns that differentiate these stages from earlier stages.",
+        "instruction 2": "Evaluate the implications of these demographic traits on societal attributes such as economic development, urbanization, and public health systems in stages 4 and 5, leveraging demographic theories and empirical data to support your analysis.",
+        "question": "Which one of the following demographic factors characterizes stages 4 and 5 in the demographic transition model?",
+        "choices": [
+            "Zero population growth",
+            "High mortality rates",
+            "High birth rates",
+            "High sex ratios"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze each of the provided statements critically to identify which one does not relate to the historical, economic, or social factors typically associated with suburbanization in the United States, such as post-World War II housing policies, the rise of the automobile, or demographic shifts.",
+        "instruction 2": "Consider the context of suburbanization, ensuring to differentiate between direct contributing factors and those that may be relevant to urbanization or other phenomena, thereby clarifying why a particular statement may not fit within the suburbanization narrative.",
+        "question": "Which of the following statements does NOT describe a factor that contributed to suburbanization in the United States?",
+        "choices": [
+            "A shorter workweek made time for a commute possible.",
+            "Changes in the housing mortgage regulations made home ownership easier.",
+            "Fixed-route public transit routes increased in importance.",
+            "Improved automobiles made transportation easier and less limited."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Determine the specific variable being represented by the isobar map, such as atmospheric pressure, and clarify the definition of an isobar as a line connecting points of equal value of that variable.",
+        "instruction 2": "Analyze how the isobars illustrate differences in that variable across a geographic area, paying attention to the spacing of the lines to infer information about gradients and changes in the variable's value.",
+        "question": "An isobar map shows lines connecting all points of equal",
+        "choices": [
+            "atmospheric pressure",
+            "surface temperature",
+            "elevation",
+            "precipitation"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the type of spatial interaction being described, focusing on the concepts of distance decay and accessibility, which explain how proximity affects decision-making related to purchases.",
+        "instruction 2": "Consider the implications of Ralph’s choice on spatial interaction theories, such as the influence of convenience and local availability over potential cost savings, to clarify the underlying reasoning behind his decision.",
+        "question": "Ralph purchases garden fertilizer at the nearby garden shop rather than drive 50 miles to the neighboring town for the same product. This reflects which type of spatial interaction?",
+        "choices": [
+            "Transferability",
+            "Complementarity",
+            "Intervening opportunity",
+            "Territoriality"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the geographical and climatic characteristics of countries, particularly focusing on large and diverse countries, to understand how their size and varied topography contribute to the presence of multiple climates and a wide range of natural resources.",
+        "instruction 2": "Identify examples of countries with rich resources and varied climates, examining how factors such as latitude, altitude, and geographical features like mountains or oceans influence climate diversity and resource availability.",
+        "question": "What type of countries generally possesses a greater variety of climates and resources than other countries?",
+        "choices": [
+            "Perforated states",
+            "Fragmented states",
+            "Elongated states",
+            "Prorupt states"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the various factors that typically influence mortality rates in developing countries, such as healthcare access, economic stability, education, and nutrition, and establish which of these factors does not significantly affect mortality rates.",
+        "instruction 2": "Evaluate empirical data or research studies that assess the correlation between the identified factors and mortality rates within developing countries to substantiate which factor can be deemed to have little or no impact.",
+        "question": "Which of the following factors has little or no impact on mortality rates in the developing countries?",
+        "choices": [
+            "New medicines",
+            "Improved birth control methods",
+            "Pesticides",
+            "Famine relief"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Define the key concepts related to national identity and allegiance, exploring how these concepts are intertwined with the notion of a nation-state, including factors like culture, citizenship, and shared values.",
+        "instruction 2": "Examine the implications of this identification for both the individual and the nation-state, considering how national identity can influence political behavior, social cohesion, and the perception of belonging within a larger community.",
+        "question": "The idea that you identify with, and give allegiance, to a nation-state is",
+        "choices": [
+            "regionalism.",
+            "diffusion.",
+            "iconography.",
+            "nationalism."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define the political and historical context of annexation movements, focusing on cases where a state's population seeks to annex a territory with ethnic ties. Explore terms commonly associated with this phenomenon such as irredentism.",
+        "instruction 2": "Investigate examples of historical and contemporary situations that illustrate this condition, considering the legal implications and international reactions to such annexation claims.",
+        "question": "What condition occurs when the people of one state want to annex a territory whose population is ethnically related to that state's population but now under the rule of another state?",
+        "choices": [
+            "Nationalism",
+            "Resource dispute",
+            "Irredentism",
+            "Positional dispute"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the linguistic term that encompasses differences in vocabulary, pronunciation, and rhythm, which typically refers to a specific aspect of language variation, such as dialect, accent, or sociolect.",
+        "instruction 2": "Consider the contexts in which these variations occur, such as geographical, social, or cultural influences, to help clarify and differentiate between the terms that describe variations in spoken language.",
+        "question": "Variations in vocabulary, pronunciation, and rhythm in a spoken language are called",
+        "choices": [
+            "syntax.",
+            "isoglosses.",
+            "lingua francas.",
+            "dialects."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the various types of issues that can cause boundary problems, such as social, economic, political, or environmental factors, and analyze how these issues specifically manifest along the United States–Mexico border.",
+        "instruction 2": "Differentiate between the types of boundary problems by considering their root causes and implications, such as immigration, trade disputes, cultural conflicts, or enforcement challenges along the border.",
+        "question": "Boundary problems along the United States–Mexico border are caused by which type of issue below?",
+        "choices": [
+            "Ownership of fertile ground",
+            "Land use",
+            "Irredentism",
+            "Immigration"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify countries where linguistic diversity may lead to divisions within society, focusing on how language differences can create social, political, or cultural fragmentation, often referred to as centrifugal forces.",
+        "instruction 2": "Analyze specific examples or case studies of regions or countries where language differences have historically influenced national unity or led to conflicts, ensuring to highlight the impact of these phenomena on societal cohesion.",
+        "question": "In which country does language pose a centrifugal force?",
+        "choices": [
+            "Canada",
+            "United States",
+            "Brazil",
+            "Norway"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Analyze the context of Quebec's situation, identifying key characteristics that make it a strong example, such as its unique cultural identity, language laws, or political status within Canada.",
+        "instruction 2": "Examine the specific alternatives or situations presented in the question and evaluate how Quebec's characteristics align or contrast with those options, providing a clear rationale for its classification.",
+        "question": "Quebec is a strong example of which of the following situations?",
+        "choices": [
+            "Irredentism",
+            "Secession",
+            "Ethnonationalism",
+            "A colony"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Review the concept of barriers to innovation diffusion, identifying common types such as economic, social, and technological barriers, while distinguishing them from factors that may either facilitate or have no impact on the diffusion process.",
+        "instruction 2": "Analyze each item in the provided list to determine its relevance as a barrier to innovation diffusion, ensuring to clearly articulate why certain factors might not inhibit the spread of an innovation.",
+        "question": "Which of the following items below is NOT considered a barrier to the diffusion of an innovation?",
+        "choices": [
+            "Internet",
+            "Distance",
+            "Cultural obstacles",
+            "Government interference"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify and list the processes typically associated with cultural change, such as diffusion, assimilation, and innovation. Analyze each process to determine which one does not fit within the framework of cultural change in the context provided.",
+        "instruction 2": "Examine the context of the question to ensure a clear understanding of the cultural processes being discussed and highlight the specific characteristics that differentiate one process from the others, justifying why it is the exception.",
+        "question": "Change in any culture is introduced through all the following processes EXCEPT",
+        "choices": [
+            "innovation.",
+            "diffusion.",
+            "acculturation.",
+            "gravity."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze each statement regarding historical North American migration streams, focusing on their historical accuracy and context to identify any misconceptions or inaccuracies in the presented information.",
+        "instruction 2": "Ensure to consider the broader historical context, including factors such as immigration policies, economic conditions, and social dynamics that may influence the validity of each statement and determine which one does not align with established historical records.",
+        "question": "Which of the following statements regarding historical North American migration streams is NOT correct?",
+        "choices": [
+            "Canada's first major migration came from France.",
+            "Canada's second major migration stream originated in the British Isles.",
+            "Canada's third major migration stream came from Latin America.",
+            "The first major migration wave to the United States originated in Europe."
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify the principal factors associated with the Second Agricultural Revolution, focusing on advancements in agricultural practices, technology, or societal changes that significantly influenced agricultural productivity during that period.",
+        "instruction 2": "Explore the context of the Second Agricultural Revolution, such as the time period it occurred and specific innovations or shifts in agricultural methods that were crucial in driving improvements in yield and efficiency.",
+        "question": "A chief factor that contributed to the Second Agricultural Revolution was",
+        "choices": [
+            "the Industrial Revolution.",
+            "World War I.",
+            "World War II.",
+            "the discovery of the plow."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Define the concept of zero population growth (ZPG) by specifying the conditions under which it occurs, namely when the number of live births equals the number of deaths in a population over a specific period, resulting in no net population increase.",
+        "instruction 2": "Discuss the implications of ZPG on demographic trends, such as aging populations and economic impacts, while also considering factors that contribute to achieving or hindering ZPG, such as fertility rates, government policies, and societal attitudes toward family size.",
+        "question": "Zero population growth (ZPG) is achieved when",
+        "choices": [
+            "CBR – CDR 5 2.",
+            "Births 1 immigration 5 deaths 1 emigration.",
+            "Total fertility 5 3.",
+            "Replacement fertility is achieved."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and list the Asian countries known for having established special economic zones (SEZs), making sure to differentiate those that actively promote foreign investment and economic growth through these zones from those that do not.",
+        "instruction 2": "Research the characteristics and purposes of the SEZs within these countries, noting the economic policies, incentives, and specific industries promoted within each zone to provide context to their development.",
+        "question": "In which of the following Asian countries would one find special economic zones (SEZs)?",
+        "choices": [
+            "Japan",
+            "South Korea",
+            "China",
+            "Vietnam"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Analyze the characteristics of each industry listed, focusing on factors such as supply chain logistics, distribution networks, and customer engagement to determine which industry can operate effectively without proximity to its markets.",
+        "instruction 2": "Evaluate the importance of location in business operations, including considerations such as shipping costs, market accessibility, and the nature of the product or service being offered, to identify the industry that operates independently of market proximity.",
+        "question": "Which of the following industries does NOT need to be close to its markets?",
+        "choices": [
+            "Dairy foods",
+            "Bulk-gaining products",
+            "Single-market products",
+            "Bulk-reducing products"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Analyze the provided options by comparing each characteristic to commonly recognized traits of cities in the developing world, such as poverty levels, urbanization rates, and infrastructure challenges, to identify which one does not fit.",
+        "instruction 2": "Consider the broader context of urban development in different parts of the world, taking into account economic, social, and cultural factors that may influence city characteristics, and ensure to exclude any traits that are predominantly associated with developed cities.",
+        "question": "Which of the following is NOT a characteristic of a city in the developing world?",
+        "choices": [
+            "Contains modern centers of commerce",
+            "Has a well-developed infrastructure",
+            "Experiences large in-migrations of rural people into the city",
+            "Produces a large share of its country's GDI"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the specific terminology used in cartography to describe a map that focuses on a singular category of data, such as thematic maps or statistical diagrams, and clarify the differences between various types of maps.",
+        "instruction 2": "Consider related concepts such as data visualization techniques and the implications of presenting only one class of statistics, exploring how this can influence understanding or interpretation of the information conveyed.",
+        "question": "A map that presents a single class of statistics is called a",
+        "choices": [
+            "general purpose map.",
+            "thematic map.",
+            "reference map.",
+            "mental map."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze the question by identifying and listing the common results associated with freeway construction, such as increased traffic capacity, economic development, and environmental impact, to establish a clear understanding of the expected outcomes.",
+        "instruction 2": "Evaluate the options provided in the context of freeway construction to determine which one does not typically align with the known effects of such infrastructure development, considering both primary and secondary consequences.",
+        "question": "The construction of freeways leads to all but which of the following results?",
+        "choices": [
+            "Urban sprawl",
+            "Traffic increase",
+            "Traffic congestion",
+            "Decreased dependency on cars"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify and analyze the fertility rate data by continent, focusing on the definition of total fertility rates and how different continents compare based on available demographic statistics.",
+        "instruction 2": "Consider regional variations within continents that may influence fertility rates, such as cultural, economic, and healthcare factors that affect birth rates among different populations.",
+        "question": "Which continent has the highest total fertility rates?",
+        "choices": [
+            "Africa",
+            "Asia",
+            "South America",
+            "Europe"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the key tenets of the monotheistic religion in question, focusing on its foundational beliefs, practices, and its emphasis on the figure of Jesus Christ as the central figure and savior.",
+        "instruction 2": "Consider the historical context and origins of this religion, including its development from earlier religious traditions and its relationship to other monotheistic faiths, to provide a comprehensive understanding of its significance.",
+        "question": "What monotheistic religion is based on the life and teachings of Jesus Christ of Nazareth?",
+        "choices": [
+            "Islam",
+            "Christianity",
+            "Hinduism",
+            "Buddhism"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Analyze each statement provided about folklore to evaluate its accuracy, focusing on key definitions and characteristics of folklore such as oral traditions, cultural significance, and variations across different societies.",
+        "instruction 2": "Consider the context in which folklore exists, examining how cultural, historical, and social factors influence the content and transmission of folktales, myths, and legends to determine the truthfulness of each statement.",
+        "question": "Which of the following statements is true concerning folklore?",
+        "choices": [
+            "It is the written tradition of a group.",
+            "It encourages changing the old values and customs.",
+            "It serves to blend all cultures into one.",
+            "It expresses in words the shared values of a group by expressing their ideals."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Identify the primary sectors or aspects of life in South Asia that are most susceptible to changes in monsoon patterns, such as agriculture, water supply, and food security, and analyze the implications of irregular rainfall on these sectors.",
+        "instruction 2": "Evaluate the socio-economic consequences of the wet monsoon irregularity, considering aspects like crop yields, livelihoods of farmers, and influence on local economies, while referencing relevant studies or reports that highlight these effects.",
+        "question": "The irregularity of the wet monsoon in South Asia in recent years may have a significant negative effect on which of the following?",
+        "choices": [
+            "Food production",
+            "Population patterns",
+            "Wildlife conservation efforts",
+            "Tourism"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the primary components of Alfred Weber's least-cost theory, particularly focusing on the three types of costs: transportation costs, labor costs, and agglomeration costs, to determine which has the greatest influence on industrial location.",
+        "instruction 2": "Analyze how the relative importance of these costs may vary based on the type of industry and its specific requirements, considering real-world examples to support the evaluation of which cost predominates in industry location decision-making.",
+        "question": "According to Alfred Weber's least-cost theory, which one of the following costs of production is the most important factor in locating an industry?",
+        "choices": [
+            "Labor",
+            "Transport",
+            "Raw materials",
+            "Agglomeration costs"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify the geographical and climatic factors that contribute to Great Britain's milder climate, such as the influence of the North Atlantic Drift, prevailing winds, and the surrounding bodies of water that moderate temperatures.",
+        "instruction 2": "Evaluate how these climatic factors interact with the latitude of Great Britain, considering comparisons to other regions at similar latitudes which may lack the same moderating influences, to explain why its climate is milder.",
+        "question": "The climate of Great Britain is milder than most other places along the same latitude for which of the following reasons?",
+        "choices": [
+            "The Gulf Stream brings warm waters to Great Britain, raising the temperature of winds that blow onto the island.",
+            "Hot springs throughout the country raise the temperature of the surrounding land and air.",
+            "Mountain ranges in the north of Great Britain act as a barrier to cold winds blowing from the Arctic.",
+            "Small landmasses generate their own local climate and are largely unaffected by latitude."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Determine the key features that define an economic union, such as a common market, customs union, and unified economic policies, and identify the characteristics that distinguish other types of supranational organizations.",
+        "instruction 2": "Analyze the specific organizations listed in the options to assess their primary functions and goals, confirming which does not meet the criteria of an economic union based on the defined characteristics.",
+        "question": "Which of the following supranational organizations is not an economic union?",
+        "choices": [
+            "EU",
+            "CARICOM",
+            "NAFTA",
+            "NATO"
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Define 'global lingua franca' and identify the language that currently serves this role, considering its use in international communication, trade, and diplomacy.",
+        "instruction 2": "Examine the historical context and current trends that have contributed to the establishment of this language as a global lingua franca, including factors such as population size of speakers, socio-economic influence, and cultural dissemination.",
+        "question": "The global lingua franca is",
+        "choices": [
+            "Chinese.",
+            "English.",
+            "French.",
+            "Arabic."
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    },
+    {
+        "instruction 1": "Identify and define the two primary branches of Islam, Sunni and Shia, highlighting their historical origins and theological differences to provide a clear comparison between the two.",
+        "instruction 2": "Explore the cultural and geographic distribution of both branches to illustrate how they have influenced the global Muslim community and impacted religious practices and beliefs.",
+        "question": "What are the two major branches of Islam?",
+        "choices": [
+            "Sunni and Shinto",
+            "Shinto and Shiite",
+            "Sunni and Shiite",
+            "Shamanism and Shiite"
+        ],
+        "subject": "high_school_geography",
+        "answer": 2
+    },
+    {
+        "instruction 1": "Identify and analyze the key factors that contributed to the limited impact of the Green Revolution in Africa, such as socio-economic conditions, infrastructure challenges, and differences in agricultural practices compared to regions where the Green Revolution was successful.",
+        "instruction 2": "Examine the role of policy decisions, governmental support, and local adaptation of agricultural technologies in Africa during the Green Revolution, considering how these elements influenced the outcomes in contrast to other regions that benefited significantly from the movement.",
+        "question": "What was the primary reason the Green Revolution did NOT help Africa much?",
+        "choices": [
+            "It targeted crops Africans don't grow and eat.",
+            "It required sophisticated machinery.",
+            "Population growth has fallen so drastically that Africans don't need the increased food production.",
+            "African agricultural production went up without its help."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the leading countries in agricultural exports by referencing the most recent global trade data or reports, paying attention to the categories of goods that contribute significantly to the total export value.",
+        "instruction 2": "Consider factors such as regional agricultural productivity, trade agreements, and historical data on export trends to determine the largest exporter, ensuring to cite any relevant statistics or authoritative sources.",
+        "question": "The largest exporter of agricultural goods in the world is",
+        "choices": [
+            "China.",
+            "Mexico.",
+            "Chile.",
+            "the United States."
+        ],
+        "subject": "high_school_geography",
+        "answer": 3
+    },
+    {
+        "instruction 1": "Examine the key principles and elements of Gunnar Myrdal's theory of cumulative causation to clearly identify what constitutes a part of this theory, focusing on the interactions between economic factors, social structures, and how they lead to self-reinforcing cycles.",
+        "instruction 2": "Evaluate each of the provided statements against the established principles of Myrdal's theory, ensuring to differentiate between statements that accurately reflect his theory and those that do not, thereby determining which statement is NOT part of it.",
+        "question": "Which of the following statements is NOT part of Gunnar Myrdal's theory of cumulative causation?",
+        "choices": [
+            "Developing and developed regions share similarly in wealth through trade.",
+            "The core will always dominate the periphery.",
+            "Growth and prosperity of the core exists at the expense of the periphery.",
+            "Regions with initial advantage keep and expand it as they attract labor, capital, and trade."
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the religions listed in the provided options and research which among them have historical and cultural practices that include cremation as a method of disposing of the dead.",
+        "instruction 2": "Consider the context and significance of cremation within the traditions of these religions, analyzing their beliefs about the afterlife and how these beliefs influence their practices regarding death and funerary rituals.",
+        "question": "Which pair of religions below share a long-held tradition of cremating their dead?",
+        "choices": [
+            "Hindu and Buddhist",
+            "Hindu and Muslim",
+            "Muslim and Jewish",
+            "Christian and Buddhist"
+        ],
+        "subject": "high_school_geography",
+        "answer": 0
+    },
+    {
+        "instruction 1": "Identify the geographical location of each country mentioned (Guyana, Suriname, French Guiana) and their respective borders to clarify which continent they belong to, focusing on the characteristics that classify regions as part of a continent.",
+        "instruction 2": "Consider any historical or geographical nuances that might affect the classification of these countries, ensuring the conclusion about the continent aligns with established geographical definitions.",
+        "question": "The official languages of Guyana, Suriname, and French Guiana are English, Dutch, and French, respectively. On what continent are those countries located?",
+        "choices": [
+            "North America",
+            "South America",
+            "Africa",
+            "Asia"
+        ],
+        "subject": "high_school_geography",
+        "answer": 1
+    }
+]

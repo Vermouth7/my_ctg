@@ -1,0 +1,1328 @@
+[
+    {
+        "question": "The quantum efficiency of a photon detector is 0.1. If 100 photons are sent into the detector, one after the other, the detector will detect photons",
+        "answer": 1,
+        "choices": [
+            "an average of 10 times, with an rms deviation of about 4",
+            "an average of 10 times, with an rms deviation of about 3",
+            "an average of 10 times, with an rms deviation of about 1",
+            "an average of 10 times, with an rms deviation of about 0.1"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Understand the concept of quantum efficiency and how it relates to the probability of a photon being detected by the detector.",
+        "instruction 2": "Apply the given quantum efficiency value to the number of photons sent into the detector, calculating the expected number of photons that will be detected based on the probability of detection."
+    },
+    {
+        "question": "White light is normally incident on a puddle of water (index of refraction 1.33). A thin (500 nm) layer of oil (index of refraction 1.5) floats on the surface of the puddle. Of the following, the most strongly reflected wavelength is",
+        "answer": 2,
+        "choices": [
+            "500 nm",
+            "550 nm",
+            "600 nm",
+            "650 nm"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the angle of incidence for the white light as it hits the oil layer, considering the refractive indices of the oil and water.",
+        "instruction 2": "Apply the principles of thin-film interference to the oil layer, using the given wavelength (500 nm) to calculate the expected interference patterns and identify the wavelength that will be most strongly reflected."
+    },
+    {
+        "question": "Which of the following is true about any system that undergoes a reversible thermodynamic process?",
+        "answer": 2,
+        "choices": [
+            "There are no changes in the internal energy of the system.",
+            "The temperature of the system remains constant during the process.",
+            "The entropy of the system and its environment remains unchanged.",
+            "The entropy of the system and its environment must increase."
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key characteristics of a reversible thermodynamic process, such as the absence of irreversibilities, the ability to be reversed, and the presence of a continuous equilibrium state.",
+        "instruction 2": "Consider how these characteristics impact the system's thermodynamic properties, such as its internal energy, entropy, and free energy, and how they relate to the concept of reversibility in thermodynamic processes."
+    },
+    {
+        "question": "The best type of laser with which to do spectroscopy over a range of visible wavelengths is",
+        "answer": 0,
+        "choices": [
+            "a dye laser",
+            "a helium-neon laser",
+            "an excimer laser",
+            "a ruby laser"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key requirements for spectroscopy, such as the need for a laser with a wide range of wavelengths, high spectral purity, and sufficient power.",
+        "instruction 2": "Research different types of lasers, considering their characteristics, such as tunability, spectral width, and power output, to determine which type would be most suitable for spectroscopy over a range of visible wavelengths, taking into account the specific requirements mentioned in instruction 1.\" }\n\nQuestion: The concentration of dissolved oxygen in seawater is typically measured in milligrams per liter (mg/L). What is the approximate concentration of dissolved oxygen in seawater at a depth of 100 meters in the open ocean?\nReasoning steps: {\n  \"instruction 1\": \"Research the typical range of dissolved oxygen concentrations in seawater, considering factors such as depth, location, and water temperature."
+    },
+    {
+        "question": "Excited states of the helium atom can be characterized as para- (antiparallel electron spins) and ortho- (parallel electron spins). The observation that an ortho- state has lower energy than the corresponding para- state can be understood in terms of which of the following?",
+        "answer": 1,
+        "choices": [
+            "The Heisenberg uncertainty principle",
+            "The Pauli exclusion principle",
+            "The Bohr model of the atom",
+            "Nuclear hyperfine coupling"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key concept that explains the difference in energy between ortho- and para- states, focusing on the interaction between the electrons and the nucleus.",
+        "instruction 2": "Consider the role of spin-orbit coupling in the energy levels of the helium atom, explaining how the parallel alignment of electron spins in ortho-states reduces the energy due to the increased spin-orbit interaction compared to the antiparallel alignment in para-states."
+    },
+    {
+        "question": "Which of the following gives the total spin quantum number of the electrons in the ground state of neutral nitrogen (Z = 7)?",
+        "answer": 2,
+        "choices": [
+            "1/2",
+            "1",
+            "3/2",
+            "5/2"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the number of electrons in the ground state of neutral nitrogen, which is 7, and identify the electron configuration for the neutral nitrogen atom.",
+        "instruction 2": "Calculate the total spin quantum number (S) by summing the spins of the individual electrons, considering the Pauli exclusion principle and the rules of electron configuration, and applying the rules for determining the total spin quantum number from the electron configuration."
+    },
+    {
+        "question": "Consider three identical, ideal capacitors. The first capacitor is charged to a voltage and then disconnected from the battery. The other two capacitors, initially uncharged and connected in series, are then connected across the first capacitor. What is the final voltage on the first capacitor?",
+        "answer": 3,
+        "choices": [
+            "V_0/5",
+            "V_0/3",
+            "V_0/2",
+            "2V_0/3"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the initial conditions of the first capacitor, including its charge and voltage, and the initial state of the other two capacitors, which are uncharged and connected in series.",
+        "instruction 2": "Apply the principles of capacitance and electric potential to determine how the connection of the series-connected capacitors affects the voltage on the first capacitor, taking into account the conservation of charge and the flow of electrons."
+    },
+    {
+        "question": "Protons used in cancer therapy are typically accelerated to about 0.6c. How much work must be done on a particle of mass m in order for it to reach this speed, assuming it starts at rest?",
+        "answer": 0,
+        "choices": [
+            "0.25mc^2",
+            "0.60mc^2",
+            "0.67mc^2",
+            "1.25mc^2"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recognize that the particle starts at rest, so its initial kinetic energy is zero. Determine the required energy to accelerate the particle to 0.6c.",
+        "instruction 2": "Calculate the work required to achieve this acceleration using the formula for kinetic energy, considering the particle's mass and the desired final speed."
+    },
+    {
+        "question": "De Broglie hypothesized that the linear momentum and wavelength of a free massive particle are related by which of the following constants?",
+        "answer": 0,
+        "choices": [
+            "Planck’s constant",
+            "Boltzmann’s constant",
+            "The Rydberg constant",
+            "The speed of light"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key concept of De Broglie's hypothesis, specifically the relationship between the linear momentum and wavelength of a free massive particle.",
+        "instruction 2": "Determine the mathematical constant that represents this relationship, such as Planck's constant, and provide the relevant formula or equation."
+    },
+    {
+        "question": "If the total energy of a particle of mass m is equal to twice its rest energy, then the magnitude of the particle’s relativistic momentum is",
+        "answer": 3,
+        "choices": [
+            "mc/2",
+            "mc/(2^(1/2))",
+            "mc",
+            "(3^(1/2))mc"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Relate the total energy of the particle to its rest energy, using the concept of relativistic energy and the relationship between energy and momentum.",
+        "instruction 2": "Solve for the momentum using the given condition, taking into account the relativistic energy-momentum relationship and the particle's mass."
+    },
+    {
+        "question": "In the diamond structure of elemental carbon, the nearest neighbors of each C atom lie at the corners of a",
+        "answer": 3,
+        "choices": [
+            "square",
+            "hexagon",
+            "cube",
+            "tetrahedron"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the arrangement of atoms in the diamond structure, recognizing that each C atom is bonded to four neighboring atoms.",
+        "instruction 2": "Consider the specific geometric pattern formed by the nearest neighbors of each C atom, determining the shape and orientation of the bonds between them, and describing the resulting structure."
+    },
+    {
+        "question": "The coefficient of static friction between a small coin and the surface of a turntable is 0.30. The turntable rotates at 33.3 revolutions per minute. What is the maximum distance from the center of the turntable at which the coin will not slide?",
+        "answer": 3,
+        "choices": [
+            "0.024 m",
+            "0.048 m",
+            "0.121 m",
+            "0.242 m"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the centripetal force required to keep the coin in contact with the surface of the turntable, considering the rotational speed and radius of the turntable.",
+        "instruction 2": "Calculate the maximum distance from the center of the turntable at which the static friction force can counterbalance the centripetal force, ensuring that the coin does not slide, and use the given coefficient of static friction to determine the maximum radius."
+    },
+    {
+        "question": "The sign of the charge carriers in a doped semiconductor can be deduced by measuring which of the following properties?",
+        "answer": 3,
+        "choices": [
+            "Specific heat",
+            "Thermal conductivity",
+            "Electrical resistivity",
+            "Hall coefficient"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key properties of doped semiconductors, such as the type of charge carriers (electrons or holes) and their associated energies.",
+        "instruction 2": "Consider how the measurement of specific properties, such as conductivity, Hall effect, or thermoelectric power, can be used to determine the sign of the charge carriers in a doped semiconductor, taking into account the characteristics of the dopants and the semiconductor material."
+    },
+    {
+        "question": "The primary source of the Sun’s energy is a series of thermonuclear reactions in which the energy produced is c^2 times the mass difference between",
+        "answer": 1,
+        "choices": [
+            "two hydrogen atoms and one helium atom",
+            "four hydrogen atoms and one helium atom",
+            "six hydrogen atoms and two helium atoms",
+            "three helium atoms and one carbon atom"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the specific thermonuclear reactions occurring within the Sun that generate its energy, focusing on the process of nuclear fusion and the resulting energy release.",
+        "instruction 2": "Explain how the mass-energy equivalence formula, E = mc^2, relates to the energy produced in these reactions, highlighting the conversion of mass into energy and the role of the speed of light (c) in this process."
+    },
+    {
+        "question": "Electromagnetic radiation provides a means to probe aspects of the physical universe. Which of the following statements regarding radiation spectra is NOT correct?",
+        "answer": 0,
+        "choices": [
+            "Lines in the infrared, visible, and ultraviolet regions of the spectrum reveal primarily the nuclear structure of the sample.",
+            "The wavelengths identified in an absorption spectrum of an element are among those in its emission spectrum.",
+            "Absorption spectra can be used to determine which elements are present in distant stars.",
+            "Spectral analysis can be used to identify the composition of galactic dust."
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the different types of radiation spectra, such as visible light, ultraviolet (UV), X-rays, gamma rays, and radio waves, and their corresponding wavelengths and energies.",
+        "instruction 2": "Evaluate each of the given statements regarding radiation spectra, considering the properties and characteristics of each type of radiation, to identify the one that is NOT correct or accurate."
+    },
+    {
+        "question": "Which of the following statements about bosons and/or fermions is true?",
+        "answer": 3,
+        "choices": [
+            "Bosons have symmetric wave functions and obey the Pauli exclusion principle.",
+            "Bosons have antisymmetric wave functions and do not obey the Pauli exclusion principle.",
+            "Fermions have symmetric wave functions and obey the Pauli exclusion principle.",
+            "Fermions have antisymmetric wave functions and obey the Pauli exclusion principle."
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Define and distinguish between bosons and fermions, highlighting their respective properties, such as spin and statistics.",
+        "instruction 2": "Consider the implications of these properties on the behavior of particles, including their interactions and the Pauli exclusion principle, to identify which statement is true and provide supporting evidence."
+    },
+    {
+        "question": "Excited states of the helium atom can be characterized as para- (antiparallel electron spins) and ortho- (parallel electron spins). The observation that an ortho- state has lower energy than the corresponding para- state can be understood in terms of which of the following?",
+        "answer": 1,
+        "choices": [
+            "The Heisenberg uncertainty principle",
+            "The Pauli exclusion principle",
+            "The Bohr model of the atom",
+            "Nuclear hyperfine coupling"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant factors that contribute to the energy difference between para- and ortho- states of the helium atom, such as the spin-orbit coupling and the magnetic interactions between the electrons.",
+        "instruction 2": "Consider how the spin statistics of the electrons, including the Pauli exclusion principle, influence the energy levels of the ortho- and para- states, and how this leads to the observed difference in energy."
+    },
+    {
+        "question": "One end of a horizontal, massless spring is attached to a wall. A mass of 0.30 kg is attached to the other end of the spring and rests on a table. The mass is displaced 0.030 m from its equilibrium position and released. It has a speed of 0.040 m/s as it passes through its equilibrium position. In the absence of friction, what is the total mechanical energy of the system?",
+        "answer": 0,
+        "choices": [
+            "0.24 mJ",
+            "0.38 mJ",
+            "0.48 mJ",
+            "0.75 mJ"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the initial conditions of the system, including the displacement and speed of the mass, to determine the potential and kinetic energies of the system.",
+        "instruction 2": "Calculate the total mechanical energy by combining the potential energy stored in the spring with the kinetic energy of the mass, considering that the system is frictionless."
+    },
+    {
+        "question": "A meter stick with a speed of 0.8c moves past an observer. In the observer’s reference frame, how long does it take the stick to pass the observer ?",
+        "answer": 1,
+        "choices": [
+            "1.6 ns",
+            "2.5 ns",
+            "4.2 ns",
+            "6.9 ns"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the relative motion between the meter stick and the observer, recognizing that the stick is moving at a significant fraction of the speed of light.",
+        "instruction 2": "Apply the concept of time dilation to calculate the time experienced by the observer, taking into account the stick's relativistic speed and the observer's stationary frame of reference."
+    },
+    {
+        "question": "Protons used in cancer therapy are typically accelerated to about 0.6c . How much work must be done on a particle of mass m in order for it to reach this speed, assuming it starts at rest?",
+        "answer": 0,
+        "choices": [
+            "0.25mc^2",
+            "0.60mc^2",
+            "0.67mc^2",
+            "1.25mc^2"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the kinetic energy required for the proton to reach 0.6c, using the formula for kinetic energy and the relativistic mass of the proton.",
+        "instruction 2": "Calculate the work required to accelerate the proton from rest to 0.6c, using the kinetic energy calculated in step 1 and the formula for work."
+    },
+    {
+        "question": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays?",
+        "answer": 2,
+        "choices": [
+            "Electrons producing Čerenkov radiation",
+            "Electrons colliding with phonons in the metal",
+            "Electrons filling inner shell vacancies that are created in the metal atoms",
+            "Electrons combining with protons to form neutrons"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the process that occurs when high-energy electrons interact with a metal target, resulting in the emission of characteristic X rays, such as the excitation of inner-shell electrons.",
+        "instruction 2": "Consider the subsequent relaxation of the excited electrons, which involves the release of energy in the form of X-ray photons, and how this process relates to the characteristic X-ray spectrum."
+    },
+    {
+        "question": "An atom has filled n = 1 and n = 2 levels. How many electrons does the atom have?",
+        "answer": 3,
+        "choices": [
+            "2",
+            "4",
+            "6",
+            "10"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the number of electrons that occupy the n = 1 energy level, which is typically the first energy level, and identify the number of electrons that occupy the n = 2 energy level, which is the second energy level.",
+        "instruction 2": "Add the number of electrons in the n = 1 and n = 2 energy levels to find the total number of electrons in the atom, ensuring to account for the maximum capacity of each energy level according to the Aufbau principle."
+    },
+    {
+        "question": "Light from a laser falls on a pair of very narrow slits separated by 0.5 micrometer, and bright fringes separated by 1.0 millimeter are observed on a distant screen. If the frequency of the laser light is doubled, what will be the separation of the bright fringes?",
+        "answer": 1,
+        "choices": [
+            "0.25 mm",
+            "0.5 mm",
+            "1.0 mm",
+            "2.0 mm"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recall the principles of diffraction and the relationship between the wavelength of light, the distance between the slits, and the spacing of the bright fringes.",
+        "instruction 2": "Consider how the change in frequency of the laser light affects the wavelength of the light and subsequently the spacing of the bright fringes, using the equation for diffraction to make the necessary calculations."
+    },
+    {
+        "question": "Assume that the solar flux at Earth’s surface is 1,000 W/m^2 and that the sunlight is normal to a completely reflecting surface with an area of 3 m^2. What is the total radiation force exerted on the surface?",
+        "answer": 2,
+        "choices": [
+            "2 x 10^-6 N",
+            "1 x 10^-5 N",
+            "2 x 10^-5 N",
+            "3 N"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Calculate the total power incident on the surface by multiplying the solar flux by the surface area.",
+        "instruction 2": "Use the concept of radiation pressure to determine the force exerted on the surface, relating the power incident to the force through the radiation pressure coefficient."
+    },
+    {
+        "question": "The sign of the charge carriers in a doped semiconductor can be deduced by measuring which of the following properties?",
+        "answer": 1,
+        "choices": [
+            "Magnetic susceptibility",
+            "Hall coefficient",
+            "Electrical resistivity",
+            "Thermal conductivity"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant properties that can be measured to determine the sign of charge carriers in a doped semiconductor, such as Hall effect, Seebeck effect, or thermoelectric power.",
+        "instruction 2": "Explain how the measured property is related to the sign of the charge carriers, and discuss any potential limitations or assumptions involved in the measurement process."
+    },
+    {
+        "question": "Which of the following ions CANNOT be used as a dopant in germanium to make an n-type semiconductor?",
+        "answer": 3,
+        "choices": [
+            "As",
+            "P",
+            "Sb",
+            "B"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the properties of germanium that make it suitable for creating semiconductors, such as its energy bandgap and the ability to accept electrons.",
+        "instruction 2": "Research the characteristics of various ions, such as their electron affinity and ability to donate or accept electrons, to determine which ion is most likely to NOT be used as a dopant in germanium to create an n-type semiconductor, given the requirements for electron conduction."
+    },
+    {
+        "question": "An astronomer observes a very small moon orbiting a planet and measures the moon’s minimum and maximum distances from the planet’s center and the moon’s maximum orbital speed. Which of the following CANNOT be calculated from these measurements?",
+        "answer": 0,
+        "choices": [
+            "Mass of the moon",
+            "Mass of the planet",
+            "Minimum speed of the moon",
+            "Period of the orbit"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key parameters that can be determined from the measurements, such as the moon's semi-major axis, orbital period, and maximum orbital speed.",
+        "instruction 2": "Consider which parameters cannot be calculated directly from the given information, such as the moon's mass or the planet's mass, and explain why these values cannot be determined."
+    },
+    {
+        "question": "A rod measures 1.00 m in its rest system. How fast must an observer move parallel to the rod to measure its length to be 0.80 m?",
+        "answer": 1,
+        "choices": [
+            "0.50c",
+            "0.60c",
+            "0.70c",
+            "0.80c"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recognize the concept of length contraction in special relativity and how it depends on the relative motion between the observer and the rod.",
+        "instruction 2": "Use the Lorentz transformation to calculate the required velocity of the observer, taking into account the relative motion and the contracted length of the rod."
+    },
+    {
+        "question": "A proton moves in the +z-direction after being accelerated from rest through a potential difference V. The proton then passes through a region with a uniform electric field E in the +x-direction and a uniform magnetic field B in the +y-direction, but the proton’s trajectory is not affected. If the experiment were repeated using a potential difference of 2V, the proton would then be",
+        "answer": 1,
+        "choices": [
+            "deflected in the +x-direction",
+            "deflected in the -x-direction",
+            "deflected in the +y-direction",
+            "deflected in the -y-direction"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key components of the problem, including the initial acceleration, the uniform electric and magnetic fields, and the proton's motion.",
+        "instruction 2": "Consider the effect of the increased potential difference on the proton's velocity and trajectory, taking into account the forces acting on the proton and the conditions under which the proton's trajectory is not affected by the electric and magnetic fields."
+    },
+    {
+        "question": "A magnetic field is directed perpendicular to the plane of a circular coil of area 0.2 m^2 and 250 turns. If the magnetic field is increased from 0.01 T to 0.06 T during a time interval of 0.25 s, the average induced EMF in the coil is",
+        "answer": 3,
+        "choices": [
+            "0.04 V",
+            "0.1 V",
+            "2.5 V",
+            "10 V"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant physical quantities and their units, including the area of the coil, the number of turns, and the change in magnetic field strength over time.",
+        "instruction 2": "Use the Faraday's law of induction to calculate the induced EMF, taking into account the area of the coil, the number of turns, and the change in magnetic field strength, and express the result in units of volts."
+    },
+    {
+        "question": "Light of variable frequency shines on the metal surface of a photoelectric tube. Einstein’s theory of the photoelectric effect predicts that the",
+        "answer": 3,
+        "choices": [
+            "work function of the metal is proportional to the frequency",
+            "work function of the metal is proportional to the wavelength",
+            "current in the tube is a linear function of the wavelength",
+            "potential difference necessary to stop the emitted electrons is a linear function of the frequency above the threshold frequency"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key components of Einstein's theory of the photoelectric effect, including the concept of photons and their interaction with metal surfaces.",
+        "instruction 2": "Consider how the variable frequency of the light affects the energy of the photons and, subsequently, the photoelectric effect, focusing on the relationship between frequency and the maximum kinetic energy of the ejected electrons."
+    },
+    {
+        "question": "If the Sun were suddenly replaced by a black hole of the same mass, it would have a Schwarzschild radius of 3,000 m. What effect, if any, would this change have on the orbits of the planets?",
+        "answer": 3,
+        "choices": [
+            "The planets would move directly toward the Sun.",
+            "The planets would move in spiral orbits.",
+            "The planets would oscillate about their former elliptical orbits.",
+            "The orbits would remain unchanged."
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the Schwarzschild radius of the Sun, which is approximately 2.95 million kilometers (1.83 million miles), to understand the significant difference between the Sun's radius and the proposed black hole's radius.",
+        "instruction 2": "Consider the effects of a much smaller gravitational pull on the orbits of the planets, potentially leading to changes in their distances from the black hole, orbital velocities, and even the stability of their orbits."
+    },
+    {
+        "question": "At 20°C, a pipe open at both ends resonates at a frequency of 440 hertz. At what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°C ?",
+        "answer": 1,
+        "choices": [
+            "414 Hz",
+            "427 Hz",
+            "433 Hz",
+            "440 Hz"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the relationship between the speed of sound and the resonant frequency of the pipe, recognizing that the speed of sound affects the wavelength and thus the resonant frequency.",
+        "instruction 2": "Calculate the new resonant frequency based on the reduced speed of sound, taking into account the 3% decrease in speed and the original resonant frequency of 440 Hz."
+    },
+    {
+        "question": "The quantum efficiency of a photon detector is 0.1. If 100 photons are sent into the detector, one after the other, the detector will detect photons",
+        "answer": 3,
+        "choices": [
+            "exactly 10 times",
+            "an average of 10 times, with an rms deviation of about 0.1",
+            "an average of 10 times, with an rms deviation of about 1",
+            "an average of 10 times, with an rms deviation of about 3"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Understand the concept of quantum efficiency in the context of photon detection, recognizing that it represents the probability of a photon being detected given its arrival at the detector.",
+        "instruction 2": "Calculate the expected number of detected photons based on the given quantum efficiency and the number of photons sent into the detector, ensuring to account for the probabilistic nature of photon detection."
+    },
+    {
+        "question": "A three-dimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature T. The average total energy of the oscillator is",
+        "answer": 3,
+        "choices": [
+            "(1/2) k T",
+            "kT",
+            "(3/2) k T",
+            "3kT"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant physical parameters of the harmonic oscillator, such as its mass, spring constant, and temperature, and recognize that the oscillator is in thermal equilibrium with the reservoir.",
+        "instruction 2": "Apply the equipartition theorem to determine the average energy of the oscillator, considering the number of degrees of freedom and the temperature of the reservoir, to calculate the average total energy."
+    },
+    {
+        "question": "A student makes 10 one-second measurements of the disintegration of a sample of a long-lived radioactive isotope and obtains the following values: 3, 0, 2, 1, 2, 4, 0, 1, 2, 5. How long should the student count to establish the rate to an uncertainty of 1 percent?",
+        "answer": 3,
+        "choices": [
+            "80 s",
+            "160 s",
+            "2,000 s",
+            "5,000 s"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key issue with the given data, specifically the presence of zero counts, and recognize the need for a more robust method to establish the rate of disintegration.",
+        "instruction 2": "Consider alternative approaches, such as using the Poisson distribution or a more advanced statistical method, to estimate the rate of disintegration with a desired level of uncertainty (1 percent) and provide guidance on how to implement these methods."
+    },
+    {
+        "question": "By definition, the electric displacement current through a surface S is proportional to the",
+        "answer": 3,
+        "choices": [
+            "magnetic flux through S",
+            "rate of change of the magnetic flux through S",
+            "time integral of the magnetic flux through S",
+            "rate of change of the electric flux through S"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant physical quantities and their units associated with electric displacement current, such as charge density and the normal component of the electric field.",
+        "instruction 2": "Consider the mathematical representation of electric displacement current in terms of these physical quantities, ensuring that the proportionality is explicitly stated and the units are consistent."
+    },
+    {
+        "question": "The negative muon, mu^-, has properties most similar to which of the following?",
+        "answer": 0,
+        "choices": [
+            "Electron",
+            "Meson",
+            "Photon",
+            "Boson"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Compare the properties of the negative muon, such as its mass, charge, and spin, to those of other subatomic particles, focusing on similarities with particles that share similar properties.",
+        "instruction 2": "Evaluate the relative similarities and differences between the negative muon and other particles, such as electrons, protons, and neutrinos, to determine the most similar particle based on the provided properties."
+    },
+    {
+        "question": "The speed of light inside of a nonmagnetic dielectric material with a dielectric constant of 4.0 is",
+        "answer": 2,
+        "choices": [
+            "1.2 x 10^9 m/s",
+            "3.0 x 10^8 m/s",
+            "1.5 x 10^8 m/s",
+            "1.0 x 10^8 m/s"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the dielectric constant of the material, which is given as 4.0, and recognize that it is a measure of how much the material slows down the speed of light.",
+        "instruction 2": "Use the formula for the speed of light in a dielectric material, which is given by the speed of light in vacuum divided by the square root of the dielectric constant, to calculate the speed of light inside the material."
+    },
+    {
+        "question": "The energy from electromagnetic waves in equilibrium in a cavity is used to melt ice. If the Kelvin temperature of the cavity is increased by a factor of two, the mass of ice that can be melted in a fixed amount of time is increased by a factor of",
+        "answer": 3,
+        "choices": [
+            "2",
+            "4",
+            "8",
+            "16"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relationship between the temperature of the cavity and the energy from electromagnetic waves, as well as the impact of this energy on the melting of ice.",
+        "instruction 2": "Consider the effect of increasing the temperature of the cavity by a factor of two on the energy available for melting ice, and calculate the resulting increase in the mass of ice that can be melted in a fixed amount of time."
+    },
+    {
+        "question": "A resistor in a circuit dissipates energy at a rate of 1 W. If the voltage across the resistor is doubled, what will be the new rate of energy dissipation?",
+        "answer": 3,
+        "choices": [
+            "0.25 W",
+            "0.5 W",
+            "1 W",
+            "4 W"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recognize that the rate of energy dissipation is directly proportional to the voltage across the resistor, given the formula P = V^2/R, where P is the power, V is the voltage, and R is the resistance.",
+        "instruction 2": "Determine the new rate of energy dissipation by plugging in the doubled voltage value into the formula, ensuring to maintain the original resistance value."
+    },
+    {
+        "question": "A gas cell with an optical path length of 10 cm is placed in one arm of a Michelson interferometer. If the light source for the interferometer is a laser with wavelength 632.2 nm, then 100 fringes are counted as the gas cell is evacuated. What is the index of refraction of the original gas?",
+        "answer": 1,
+        "choices": [
+            "1.00063",
+            "1.00032",
+            "1.00016",
+            "0.99968"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Calculate the optical path length difference introduced by the gas cell using the formula for fringe counting in an interferometer, knowing that each counted fringe corresponds to a change in optical path length of one wavelength (632.2 nm).",
+        "instruction 2": "Using the total optical path length of the gas cell (10 cm) and the number of fringes counted (100), determine the index of refraction of the original gas by comparing the path length with and without the presence of the gas, applying the relationship n = (path length in medium/wavelength in vacuum) / (total number of fringes)."
+    },
+    {
+        "question": "Under certain conditions, a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained. What is the approximate kinetic energy of the electrons needed in order to see the pattern? (Assume the lattice spacing of the crystal to be 0.4 nm.)",
+        "answer": 2,
+        "choices": [
+            "0.1 eV",
+            "1 eV",
+            "10 eV",
+            "100 eV"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the minimum wavelength of the electrons required to produce a diffraction pattern, using the Bragg condition and the lattice spacing of the crystal.",
+        "instruction 2": "Calculate the kinetic energy of the electrons based on the minimum wavelength, using the relationship between kinetic energy and wavelength for electrons, and considering the necessary precision for the measurement."
+    },
+    {
+        "question": "A uniform solid disk starts from rest and rolls down an inclined plane without slipping. After some time, what fraction of the disk’s total kinetic energy is rotational kinetic energy?",
+        "answer": 1,
+        "choices": [
+            "1/4",
+            "1/3",
+            "1/2",
+            "2/3"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the initial conditions of the problem, including the uniform solid disk starting from rest, and the inclined plane it is rolling down.",
+        "instruction 2": "Consider the conservation of energy and the conversion of potential energy into kinetic energy as the disk rolls down the inclined plane, focusing on the fraction of the total kinetic energy that is rotational in nature."
+    },
+    {
+        "question": "Blue light of wavelength 480 nanometers is most strongly reflected off a thin film of oil on a glass slide when viewed near normal incidence. Assuming that the index of refraction of the oil is 1.2 and that of the glass is 1.6, what is the minimum thickness of the oil film (other than zero) ?",
+        "answer": 1,
+        "choices": [
+            "150 nm",
+            "200 nm",
+            "300 nm",
+            "400 nm"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Understand the concept of thin-film interference and how it relates to the reflection of light by a thin film, taking into account the indices of refraction of the oil and glass.",
+        "instruction 2": "Apply the conditions for constructive interference, which involve the phase difference between the light waves reflected off the top and bottom surfaces of the oil film, to determine the minimum thickness required for the blue light to be strongly reflected."
+    },
+    {
+        "question": "A heat pump is to extract heat from an outdoor environment at 7°C and heat the environment indoors to 27°C. For each 15,000 J of heat delivered indoors, the smallest amount of work that must be supplied to the heat pump is approximately",
+        "answer": 1,
+        "choices": [
+            "500 J",
+            "1,000 J",
+            "1,100 J",
+            "2,000 J"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key components involved in the heat pump's operation, including the outdoor environment, the heat pump itself, and the indoor environment, to understand the energy transfer process.",
+        "instruction 2": "Calculate the minimum work required to achieve the desired heat transfer, considering the temperature differences between the outdoor and indoor environments, as well as the efficiency of the heat pump."
+    },
+    {
+        "question": "The driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 3.5 m/s. If the speed of sound is 350 m/s and the frequency of the siren is 600 Hz, the driver hears the echo at a frequency nearest to which of the following?",
+        "answer": 2,
+        "choices": [
+            "600 Hz",
+            "606 Hz",
+            "612 Hz",
+            "618 Hz"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Calculate the time it takes for the sound wave to reach the wall and return to the driver, considering the speed of sound and the speed of the car.",
+        "instruction 2": "Use the calculated time and the original frequency of the siren to determine the frequency of the echo, taking into account the Doppler effect and the change in the sound wave's frequency due to the relative motion between the car and the wall."
+    },
+    {
+        "question": "A particle decays in 2.0 ms in its rest frame. If the same particle moves at v=0.60c in the lab frame, how far will it travel in the lab before decaying?",
+        "answer": 3,
+        "choices": [
+            "150 m",
+            "288 m",
+            "360 m",
+            "450 m"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the proper time for the particle's decay in its rest frame, using the given decay time of 2.0 ms.",
+        "instruction 2": "Use the Lorentz transformation to relate the proper time to the lab frame, considering the velocity of the particle and the time dilation effect. Calculate the distance traveled by the particle before decay, taking into account the difference in time between the two frames."
+    },
+    {
+        "question": "A tube of water is traveling at 1/2 c relative to the lab frame when a beam of light traveling in the same direction as the tube enters it. What is the speed of light in the water relative to the lab frame? (The index of refraction of water is 4/3.)",
+        "answer": 3,
+        "choices": [
+            "1/2 c",
+            "2/3 c",
+            "5/6 c",
+            "10/11 c"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recognize that the speed of light in the lab frame is given, and that the speed of light in the water is related to the speed in the lab frame by the index of refraction.",
+        "instruction 2": "Apply the concept of relativity to the situation, considering how the motion of the tube affects the apparent speed of light in the water relative to the lab frame, and use the given index of refraction to determine the final answer."
+    },
+    {
+        "question": "The rest mass of a particle with total energy 5.0 GeV and momentum 4.9 GeV/c is approximately",
+        "answer": 3,
+        "choices": [
+            "0.1 GeV/c^2",
+            "0.2 GeV/c^2",
+            "0.5 GeV/c^2",
+            "1.0 GeV/c^2"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Apply the relativistic energy-momentum equation to relate the total energy and momentum of the particle, identifying the rest mass as a dependent variable.",
+        "instruction 2": "Solve for the rest mass using the given values of total energy and momentum, ensuring to account for any necessary conversions between units or dimensions."
+    },
+    {
+        "question": "A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",
+        "answer": 1,
+        "choices": [
+            "2",
+            "250",
+            "5,000",
+            "10,000"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the definition of resolving power in the context of a grating spectrometer, typically measured as the ratio of the wavelength difference to the instrument's spectral bandwidth.",
+        "instruction 2": "Apply the given wavelengths to the definition, calculating the resolving power by dividing the wavelength difference (2 nm) by the instrument's spectral bandwidth, which is not explicitly provided but can be inferred from the given information."
+    },
+    {
+        "question": "The best type of laser with which to do spectroscopy over a range of visible wavelengths is",
+        "answer": 0,
+        "choices": [
+            "a dye laser",
+            "a helium-neon laser",
+            "an excimer laser",
+            "a ruby laser"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the characteristics of a laser that would be beneficial for spectroscopy, such as high spectral purity, narrow linewidth, and high power output.",
+        "instruction 2": "Research and evaluate different types of lasers, such as diode lasers, dye lasers, and gas lasers, to determine which one would be most suitable for spectroscopy over a range of visible wavelengths, considering factors such as wavelength tunability and stability."
+    },
+    {
+        "question": "The eigenvalues of a Hermitian operator are always",
+        "answer": 0,
+        "choices": [
+            "real",
+            "imaginary",
+            "degenerate",
+            "linear"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recall the definition of a Hermitian operator, specifically its property of being equal to its own conjugate transpose, and its implications on the operator's spectrum.",
+        "instruction 2": "Consider the properties of the eigenvalues of a Hermitian operator, such as their being real-valued, and the fact that they are the roots of the characteristic polynomial, to deduce the statement about the eigenvalues."
+    },
+    {
+        "question": "A net force F_A acts on object A, and a net force F_B acts on object B. The mass of object B is twice the mass of object A, and the acceleration of object B is twice that of object A. Which of the following is true of forces F_A and F_B?",
+        "answer": 3,
+        "choices": [
+            "F_B = 1/4 F_A",
+            "F_B = 1/2 F_A",
+            "F_B = 2F_A",
+            "F_B = 4F_A"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recognize the relationship between the forces and the masses of the objects, using the given information to establish an equation that connects the forces and masses.",
+        "instruction 2": "Use the given information about the accelerations of the objects to determine the ratio of the forces F_A and F_B, and then use this ratio to identify which of the given options accurately describes the relationship between the forces."
+    },
+    {
+        "question": "Under ideal conditions, the electric and magnetic fields inside a superconductor are zero. Maxwell’s equations imply that which of the following must be true just outside the surface of the superconductor?",
+        "answer": 2,
+        "choices": [
+            "B = 0",
+            "B is perpendicular to the surface.",
+            "B is tangential to the surface.",
+            "B is time independent."
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recall the fundamental principles of superconductivity, including the absence of electric and magnetic fields within the material.",
+        "instruction 2": "Apply Maxwell's equations to the boundary between the superconductor and the surrounding environment, using the zero-field condition to deduce the implications for the electric and magnetic fields just outside the surface."
+    },
+    {
+        "question": "Two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground. From repeated measurement, the students estimate the uncertainty in the measured speed of the ball to be 10 percent. Which of the following gives the uncertainty in the kinetic energy of the ball? (Assume the uncertainty in the ball’s mass is negligibly small.)",
+        "answer": 3,
+        "choices": [
+            "5%",
+            "10%",
+            "15%",
+            "20%"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant variables in the problem, including the measured speed of the ball and the uncertainty associated with it, as well as the mass of the ball, which is assumed to be negligible.",
+        "instruction 2": "Recognize that the kinetic energy of the ball is directly proportional to the square of its speed and that the uncertainty in the kinetic energy will be proportional to the uncertainty in the speed, allowing for the calculation of the uncertainty in the kinetic energy."
+    },
+    {
+        "question": "A particle is constrained to move in a circle with a 10-meter radius. At one instant, the particle’s speed is 10 meters per second and is increasing at a rate of 10 meters per second squared. The angle between the particle’s velocity and acceleration vectors is",
+        "answer": 2,
+        "choices": [
+            "0°",
+            "30°",
+            "45°",
+            "60°"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the particle’s angular velocity by relating its linear speed and the radius of the circle, considering the relationship between angular velocity and linear velocity.",
+        "instruction 2": "Calculate the angular acceleration by relating the particle’s linear acceleration and the radius of the circle, ensuring to account for the angle between the velocity and acceleration vectors."
+    },
+    {
+        "question": "If the absolute temperature of a blackbody is increased by a factor of 3, the energy radiated per second per unit area does which of the following?",
+        "answer": 3,
+        "choices": [
+            "Decreases by a factor of 81.",
+            "Decreases by a factor of 9.",
+            "Increases by a factor of 9.",
+            "Increases by a factor of 81."
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recognize that the energy radiated per unit area is directly proportional to the fourth power of the absolute temperature of the blackbody, as stated by Stefan's law.",
+        "instruction 2": "Apply the given factor of 3 to the absolute temperature, calculating the new energy radiated per second per unit area by raising the original value to the power of 4 and then multiplying by the factor."
+    },
+    {
+        "question": "A magnetic field is directed perpendicular to the plane of a circular coil of area 0.2 m^2 and 250 turns. If the magnetic field is increased from 0.01 T to 0.06 T during a time interval of 0.25 s, the average induced EMF in the coil is",
+        "answer": 3,
+        "choices": [
+            "0.04 V",
+            "0.1 V",
+            "2.5 V",
+            "10 V"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant physical principles and equations that govern the behavior of the magnetic field and the circular coil, such as Faraday's law of induction and the relationship between magnetic field strength and induced EMF.",
+        "instruction 2": "Calculate the change in magnetic flux (ΔΦ) using the area of the coil, the number of turns, and the change in magnetic field strength, then apply Faraday's law to determine the induced EMF."
+    },
+    {
+        "question": "Which of the following is true about any system that undergoes a reversible thermodynamic process?",
+        "answer": 2,
+        "choices": [
+            "There are no changes in the internal energy of the system.",
+            "The temperature of the system remains constant during the process.",
+            "The entropy of the system and its environment remains unchanged.",
+            "The entropy of the system and its environment must increase."
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key characteristic of a reversible thermodynamic process, such as the ability to return to its initial state without leaving any permanent changes, and consider how this property relates to the concept of equilibrium.",
+        "instruction 2": "Explain how the concept of reversibility affects the direction and spontaneity of a thermodynamic process, and how this understanding can be applied to real-world systems, such as heat engines and refrigeration."
+    },
+    {
+        "question": "The first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?",
+        "answer": 3,
+        "choices": [
+            "50 Hz, 150 Hz, and 250 Hz only",
+            "100 Hz and 200 Hz only",
+            "150 Hz and 250 Hz only",
+            "None"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the fundamental frequency and its harmonics produced by the open-ended organ pipe, recognizing that these frequencies are related to the pipe's length and the speed of sound.",
+        "instruction 2": "Consider how the closed-end condition affects the standing wave patterns within the pipe, determining which harmonics will be amplified or damped, and which will be eliminated due to the new boundary conditions."
+    },
+    {
+        "question": "Electromagnetic radiation emitted from a nucleus is most likely to be in the form of",
+        "answer": 0,
+        "choices": [
+            "gamma rays",
+            "microwaves",
+            "ultraviolet radiation",
+            "visible light"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the type of nuclear process that is occurring, such as radioactive decay or nuclear reactions, to determine the energy range and characteristics of the emitted radiation.",
+        "instruction 2": "Consider the properties of the nucleus, such as its mass and charge, to predict the most likely type of radiation emitted, taking into account factors such as energy levels and stability."
+    },
+    {
+        "question": "An organ pipe, closed at one end and open at the other, is designed to have a fundamental frequency of C (131 Hz). What is the frequency of the next higher harmonic for this pipe?",
+        "answer": 3,
+        "choices": [
+            "44 Hz",
+            "196 Hz",
+            "262 Hz",
+            "393 Hz"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Understand the relationship between the fundamental frequency and the harmonics of the organ pipe, recognizing that the harmonics are integer multiples of the fundamental frequency.",
+        "instruction 2": "Calculate the frequency of the next higher harmonic by multiplying the fundamental frequency by the next integer value, ensuring that the result is an integer multiple of the fundamental frequency."
+    },
+    {
+        "question": "A single-electron atom has the electron in the l = 2 state. The number of allowed values of the quantum number m_l is",
+        "answer": 3,
+        "choices": [
+            "1",
+            "2",
+            "3",
+            "5"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant quantum number in this problem, which is the azimuthal quantum number (l), and determine its allowed values according to the rules of quantum mechanics.",
+        "instruction 2": "Consider the specific value of l = 2 and apply the rules for the magnetic quantum number (m_l) to determine the allowed values of m_l, taking into account the range of possible values and any relevant symmetries."
+    },
+    {
+        "question": "Two simple pendulums A and B consist of identical masses suspended from strings of length L_A and L_B, respectively. The two pendulums oscillate in equal gravitational fields. If the period of pendulum B is twice the period of pendulum A, which of the following is true of the lengths of the two pendulums?",
+        "answer": 0,
+        "choices": [
+            "L_B = 4L_A",
+            "L_B = 2L_A",
+            "L_B = L_A",
+            "L_B = 1/2 L_A"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relationship between the length of the pendulum and its period, specifically the formula for the period of a simple pendulum and how it relates to the length of the string.",
+        "instruction 2": "Use the given information that the period of pendulum B is twice the period of pendulum A to establish an equation relating the lengths of the two pendulums, and then solve for the ratio of L_B to L_A."
+    },
+    {
+        "question": "According to the BCS theory, the attraction between Cooper pairs in a superconductor is due to",
+        "answer": 3,
+        "choices": [
+            "the weak nuclear force",
+            "the strong nuclear force",
+            "vacuum polarization",
+            "interactions with the ionic lattice"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Review the concept of Cooper pairs in superconductors and the role of phonons in mediating the attraction between these pairs.",
+        "instruction 2": "Consider the key aspects of the BCS theory, such as the idea that the attraction between Cooper pairs is due to the exchange of phonons, and how this leads to the formation of a condensate that exhibits zero electrical resistance."
+    },
+    {
+        "question": "A rod measures 1.00 m in its rest system. How fast must an observer move parallel to the rod to measure its length to be 0.80 m?",
+        "answer": 1,
+        "choices": [
+            "0.50c",
+            "0.60c",
+            "0.70c",
+            "0.80c"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the concept of length contraction and its relationship to relative motion, as described by special relativity.",
+        "instruction 2": "Calculate the necessary relative velocity required for the observer to measure the rod's length as 0.80 m, taking into account the Lorentz transformation and the given rest length of the rod (1.00 m)."
+    },
+    {
+        "question": "The energy required to remove both electrons from the helium atom in its ground state is 79.0 eV. How much energy is required to ionize helium (i.e., to remove one electron)?",
+        "answer": 0,
+        "choices": [
+            "24.6 eV",
+            "39.5 eV",
+            "51.8 eV",
+            "54.4 eV"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recognize that the given energy value represents the total energy required to remove both electrons from the helium atom, and identify the relevant mathematical relationship between the energy required to remove one electron and the energy required to remove both electrons.",
+        "instruction 2": "Apply the concept of conservation of energy and the principles of atomic physics to derive the energy required to ionize helium, which is half the total energy required to remove both electrons.\" }\n\nPlease provide the reasoning steps and constraints for the original question. Your response should be in the format of two instructions in plain text JSON.  {\n\"key\": \"instruction 1"
+    },
+    {
+        "question": "At the present time, the temperature of the universe (i.e., the microwave radiation background) is about 3 K. When the temperature was 12 K, typical objects in the universe, such as galaxies, were",
+        "answer": 0,
+        "choices": [
+            "one-quarter as distant as they are today",
+            "one-half as distant as they are today",
+            "separated by about the same distances as they are today",
+            "two times as distant as they are today"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Understand the concept of cosmic evolution and how the universe's temperature has changed over time, considering the role of the Big Bang and the expansion of the universe.",
+        "instruction 2": "Use the given temperature information to infer the era in the universe's history when the temperature was 12 K, and then consider how the objects in the universe, such as galaxies, would have been affected by this temperature and the conditions that existed during that time."
+    },
+    {
+        "question": "By definition, the electric displacement current through a surface S is proportional to the",
+        "answer": 0,
+        "choices": [
+            "rate of change of the electric flux through S",
+            "electric flux through S",
+            "time integral of the magnetic flux through S",
+            "rate of change of the magnetic flux through S"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Review the definition of electric displacement current and its relationship to the electric field and the surface S, identifying the specific mathematical formula or equation that describes this relationship.",
+        "instruction 2": "Consider how this definition relates to the concept of charge and the flow of electric current, analyzing the implications of this relationship on the understanding of electromagnetic phenomena."
+    },
+    {
+        "question": "The suspension cable of a 1,000 kg elevator snaps, sending the elevator moving downward through its shaft. The emergency brakes of the elevator stop the elevator shortly before it reaches the bottom of the shaft. If the elevator fell a distance of 100 m starting from rest, the heat that the brakes must dissipate to bring the elevator safely to rest is",
+        "answer": 3,
+        "choices": [
+            "100 J",
+            "1,000 J",
+            "10,000 J",
+            "1,000,000 J"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Calculate the initial potential energy of the elevator system at the point where the suspension cable snaps, using the formula PE = mgh, where m is the mass of the elevator, g is the acceleration due to gravity, and h is the initial height above the bottom of the shaft.",
+        "instruction 2": "Determine the total kinetic energy of the elevator system at the point where the emergency brakes engage, using the formula KE = 1/2 mv^2, where m is the mass of the elevator and v is its final velocity. Calculate the difference between the initial potential energy and the total kinetic energy to find the total energy that must be dissipated by the brakes."
+    },
+    {
+        "question": "The hydrogen lines observed in the spectrum of the quasar 3C9 are shifted so far into the red that their wavelengths are three times as long as those observed in the light from hydrogen atoms at rest in a laboratory on Earth. If it is assumed that the shift is entirely due to the relative motion of 3C9 and Earth, the relative speed of the quasar is",
+        "answer": 2,
+        "choices": [
+            "2c",
+            "c",
+            "0.8c",
+            "0.5c"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Calculate the wavelength shift of the hydrogen lines, using the given ratio of 3:1, to determine the amount of redshift observed in the quasar's spectrum.",
+        "instruction 2": "Use the formula for Doppler shift to relate the wavelength shift to the relative velocity between the quasar and Earth, solving for the velocity and considering any necessary assumptions or simplifications."
+    },
+    {
+        "question": "A 10 kg box slides horizontally without friction at a speed of 1 m/s. At one point, a constant force is applied to the box in the direction of its motion. The box travels 5 m with the constant force applied. The force is then removed, leaving the box with a speed of 2 m/s. Which of the following gives the magnitude of the applied force?",
+        "answer": 2,
+        "choices": [
+            "1 N",
+            "2 N",
+            "3 N",
+            "4 N"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the initial and final velocities of the box, as well as the distance it travels under the influence of the applied force.",
+        "instruction 2": "Apply the concept of impulse, relating the change in momentum of the box to the magnitude of the applied force and the time it was applied, to solve for the force."
+    },
+    {
+        "question": "Two spaceships approach Earth with equal speeds, as measured by an observer on Earth, but from opposite directions. A meterstick on one spaceship is measured to be 60 cm long by an occupant of the other spaceship. What is the speed of each spaceship, as measured by the observer on Earth?",
+        "answer": 1,
+        "choices": [
+            "0.4c",
+            "0.5c",
+            "0.6c",
+            "0.7c"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Recognize that the meterstick on the other spaceship is being measured at a different angle due to the relative motion, and that this angle affects the measured length.",
+        "instruction 2": "Apply the concept of length contraction from special relativity to determine the actual length of the meterstick, taking into account the relative motion and the speed of each spaceship as measured by the observer on Earth."
+    },
+    {
+        "question": "The suspension cable of a 1,000 kg elevator snaps, sending the elevator moving downward through its shaft. The emergency brakes of the elevator stop the elevator shortly before it reaches the bottom of the shaft. If the elevator fell a distance of 100 m starting from rest, the heat that the brakes must dissipate to bring the elevator safely to rest is",
+        "answer": 2,
+        "choices": [
+            "10,000 J",
+            "100,000 J",
+            "1,000,000 J",
+            "10,000,000 J"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Calculate the initial potential energy of the elevator at the top of the shaft, considering its mass and the height it has fallen.",
+        "instruction 2": "Determine the kinetic energy of the elevator at the moment it is brought to rest by the emergency brakes, and then calculate the total energy lost during the braking process, which is equal to the heat dissipated."
+    },
+    {
+        "question": "The mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kT because",
+        "answer": 2,
+        "choices": [
+            "electrons have many more degrees of freedom than atoms do",
+            "the electrons and the lattice are not in thermal equilibrium",
+            "the electrons form a degenerate Fermi gas",
+            "electrons in metals are highly relativistic"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key factors that contribute to the high mean kinetic energy of conduction electrons in metals, such as the presence of free electrons and the high density of states at the Fermi level.",
+        "instruction 2": "Explain how the Fermi-Dirac distribution and the concept of the Fermi level influence the behavior of conduction electrons, leading to the observed high mean kinetic energy."
+    },
+    {
+        "question": "A 10 kg box slides horizontally without friction at a speed of 1 m/s. At one point, a constant force is applied to the box in the direction of its motion. The box travels 5 m with the constant force applied. The force is then removed, leaving the box with a speed of 2 m/s. Which of the following gives the magnitude of the applied force?",
+        "answer": 2,
+        "choices": [
+            "1 N",
+            "2 N",
+            "3 N",
+            "4 N"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the change in kinetic energy of the box due to the applied force, using the equation ΔKE = F * Δx.",
+        "instruction 2": "Solve for the magnitude of the applied force by dividing the change in kinetic energy by the distance over which the force was applied, ensuring to consider the initial and final velocities of the box."
+    },
+    {
+        "question": "Light of variable frequency shines on the metal surface of a photoelectric tube. Einstein’s theory of the photoelectric effect predicts that the",
+        "answer": 3,
+        "choices": [
+            "work function of the metal is proportional to the frequency",
+            "work function of the metal is proportional to the wavelength",
+            "current in the tube is a linear function of the wavelength",
+            "potential difference necessary to stop the emitted electrons is a linear function of the frequency above the threshold frequency"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key variables involved in the photoelectric effect, including the frequency of the light, the metal surface, and the resulting photoelectrons.",
+        "instruction 2": "Consider how Einstein's theory relates the frequency of light to the energy of the emitted photoelectrons, and how this energy is affected by the metal surface, to determine the predicted outcome."
+    },
+    {
+        "question": "A spring of force constant k is stretched a certain distance. It takes twice as much work to stretch a second spring by half this distance. The force constant of the second spring is",
+        "answer": 3,
+        "choices": [
+            "k",
+            "2k",
+            "4k",
+            "8k"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the work done to stretch the first spring by the given distance, using the formula W = 1/2*k*x^2, where W is the work, k is the force constant, and x is the distance.",
+        "instruction 2": "Apply the given information about the second spring to set up an equation relating the force constant of the second spring to the force constant of the first spring, using the fact that the work done is proportional to the square of the distance and the force constant."
+    },
+    {
+        "question": "An observer O at rest midway between two sources of light at x = 0 and x = 10 m observes the two sources to flash simultaneously. According to a second observer O', moving at a constant speed parallel to the x-axis, one source of light flashes 13 ns before the other. Which of the following gives the speed of O' relative to O?",
+        "answer": 2,
+        "choices": [
+            "0.13c",
+            "0.15c",
+            "0.36c",
+            "0.53c"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key concepts in the problem, such as relative motion, simultaneity, and time dilation, and recognize the importance of considering the observer's frame of reference.",
+        "instruction 2": "Apply the principles of special relativity to solve the problem, taking into account the relative motion between the observers and the difference in their observations of the light flashes, and derive the expression for the speed of O' relative to O."
+    },
+    {
+        "question": "The surface of the Sun has a temperature close to 6,000 K and it emits a blackbody (Planck) spectrum that reaches a maximum near 500 nm. For a body with a surface temperature close to 300 K, at what wavelength would the thermal spectrum reach a maximum?",
+        "answer": 0,
+        "choices": [
+            "10:00 PM",
+            "100 Pm",
+            "10 mm",
+            "100 mm"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Use the Planck distribution to determine the relationship between surface temperature and wavelength for a blackbody, recognizing that the peak wavelength is inversely proportional to the surface temperature.",
+        "instruction 2": "Calculate the peak wavelength for a surface temperature of 300 K by applying the Planck distribution formula, taking into account the given relationship between surface temperature and wavelength."
+    },
+    {
+        "question": "Consider an electron in the n = 4, l = 1 state in hydrogen. Which of the following final states can NOT be reached by an allowed transition?",
+        "answer": 1,
+        "choices": [
+            "n = 3, l = 2",
+            "n = 3, l = 1",
+            "n = 3, l = 0",
+            "n = 2, l = 0"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the energy levels and subshells associated with the initial state of the electron, n = 4, l = 1, and consider the possible transitions that can occur due to the absorption or emission of a photon.",
+        "instruction 2": "Determine the possible final states that can be reached through allowed transitions, taking into account the selection rules for electric dipole transitions, and identify the state that does not satisfy these rules."
+    },
+    {
+        "question": "A single-electron atom has the electron in the l = 2 state. The number of allowed values of the quantum number m_l is",
+        "answer": 0,
+        "choices": [
+            "5",
+            "4",
+            "3",
+            "2"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the allowed values of the quantum number m_l for a given value of the orbital angular momentum quantum number l, considering the relationship between l and m_l.",
+        "instruction 2": "Apply the rules for allowed values of m_l, given the specific value of l = 2, to find the number of allowed values of m_l."
+    },
+    {
+        "question": "The driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 3.5 m/s. If the speed of sound is 350 m/s and the frequency of the siren is 600 Hz, the driver hears the echo at a frequency nearest to which of the following?",
+        "answer": 3,
+        "choices": [
+            "588 Hz",
+            "594 Hz",
+            "600 Hz",
+            "612 Hz"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Calculate the speed of the sound wave relative to the moving police car by subtracting the speed of the car from the speed of sound.",
+        "instruction 2": "Apply the Doppler effect formula to determine the apparent frequency of the echo as seen by the driver, taking into account the relative speed of the sound wave and the moving police car."
+    },
+    {
+        "question": "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical to that of a hydrogen atom in which all the wavelengths are",
+        "answer": 0,
+        "choices": [
+            "decreased by a factor of 9",
+            "decreased by a factor of 49",
+            "decreased by a factor of 81",
+            "increased by a factor of 9"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key similarities and differences between the emission spectrum of Li++ and the emission spectrum of a hydrogen atom, considering the atomic number Z and the number of electrons A.",
+        "instruction 2": "Determine how the energy levels and transitions between energy levels in Li++ are comparable to those in hydrogen, explaining why the emission spectra are identical, despite the different atomic numbers and electron configurations."
+    },
+    {
+        "question": "A photon strikes an electron of mass m that is initially at rest, creating an electron-positron pair. The photon is destroyed and the positron and two electrons move off at equal speeds along the initial direction of the photon. The energy of the photon was",
+        "answer": 3,
+        "choices": [
+            "mc^2",
+            "2mc^2",
+            "3mc^2",
+            "4mc^2"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the initial energy of the photon, considering the energy-momentum relationship and the mass-energy equivalence principle.",
+        "instruction 2": "Calculate the total energy of the positron-electron pair, taking into account the energy of the electron-positron pair creation process and the equal speeds of the positron and electrons, and compare it to the initial energy of the photon."
+    },
+    {
+        "question": "Which of the following lasers utilizes transitions that involve the energy levels of free atoms?",
+        "answer": 3,
+        "choices": [
+            "Diode laser",
+            "Dye laser",
+            "Free-electron laser",
+            "Gas laser"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the specific type of laser being described, considering the energy levels involved in the transition process, such as free atoms or molecules.",
+        "instruction 2": "Research the characteristics of the laser type in question, focusing on the energy level transitions and the specific application or use of this type of laser."
+    },
+    {
+        "question": "Unpolarized light is incident on a pair of ideal linear polarizers whose transmission axes make an angle of 45q with each other. The transmitted light intensity through both polarizers is what percentage of the incident intensity?",
+        "answer": 3,
+        "choices": [
+            "100%",
+            "75%",
+            "50%",
+            "25%"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Calculate the transmission coefficient for each polarizer, taking into account the angle between the transmission axes and the fact that they are ideal linear polarizers.",
+        "instruction 2": "Determine the overall transmission coefficient by multiplying the transmission coefficients of the two polarizers and finding the resulting intensity of the transmitted light, expressed as a percentage of the incident intensity."
+    },
+    {
+        "question": "Sound waves moving at 350 m/s diffract out of a speaker enclosure with an opening that is a long rectangular slit 0.14 m across. At about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face?",
+        "answer": 3,
+        "choices": [
+            "500 Hz",
+            "1,750 Hz",
+            "2,750 Hz",
+            "3,500 Hz"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Calculate the diffraction angle (θ) using the given information, relating the angle to the wavelength (λ) of the sound wave and the width (b) of the slit.",
+        "instruction 2": "Use the calculated diffraction angle and the speed of sound (v) to determine the wavelength of the sound wave, then apply the relationship between wavelength and frequency (f) to find the frequency at which the sound first disappears at the specified angle."
+    },
+    {
+        "question": "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical to that of a hydrogen atom in which all the wavelengths are",
+        "answer": 0,
+        "choices": [
+            "decreased by a factor of 9",
+            "decreased by a factor of 49",
+            "decreased by a factor of 81",
+            "increased by a factor of 9"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key properties of the doubly ionized lithium atom Li++ (Z = 3, A = 7) that are relevant to its emission spectrum, such as its atomic number and mass number.",
+        "instruction 2": "Compare the properties of Li++ to those of a hydrogen atom, recognizing that the emission spectrum of a hydrogen atom is determined by its energy levels and electron transitions, and that the same principles apply to Li++."
+    },
+    {
+        "question": "A uniform solid disk starts from rest and rolls down an inclined plane without slipping. After some time, what fraction of the disk’s total kinetic energy is rotational kinetic energy?",
+        "answer": 1,
+        "choices": [
+            "1/4",
+            "1/3",
+            "1/2",
+            "2/3"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the conservation of energy principle and its application to the rolling disk, considering the conversion of potential energy into kinetic energy as it moves down the inclined plane.",
+        "instruction 2": "Calculate the total kinetic energy of the disk, then separate it into translational and rotational components, using the given information about the disk's initial rest state and the absence of slipping, to determine the fraction of rotational kinetic energy."
+    },
+    {
+        "question": "The speed of light inside of a nonmagnetic dielectric material with a dielectric constant of 4.0 is",
+        "answer": 2,
+        "choices": [
+            "1.2 * 10^9 m/s",
+            "3.0 * 10^8 m/s",
+            "1.5 * 10^8 m/s",
+            "1.0 * 10^8 m/s"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the refractive index of the material by using the given dielectric constant, and then calculate the speed of light within the material using the relationship between refractive index and speed of light.",
+        "instruction 2": "Consider the effect of the dielectric constant on the speed of light, taking into account the material's ability to slow down or speed up the propagation of light, and ensure the calculated value is accurate and relevant to the given material."
+    },
+    {
+        "question": "A 3-microfarad capacitor is connected in series with a 6-microfarad capacitor. When a 300-volt potential difference is applied across this combination, the total energy stored in the two capacitors is",
+        "answer": 0,
+        "choices": [
+            "0.09 J",
+            "0.18 J",
+            "0.27 J",
+            "0.41 J"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the equivalent capacitance of the series-connected capacitors, using the formula for series capacitance and the given capacitance values.",
+        "instruction 2": "Calculate the voltage across each capacitor and the total energy stored in the combination, using the equivalent capacitance and the applied potential difference."
+    },
+    {
+        "question": "Under certain conditions, a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained. What is the approximate kinetic energy of the electrons needed in order to see the pattern? (Assume the lattice spacing of the crystal to be 0.4 nm.)",
+        "answer": 2,
+        "choices": [
+            "0.1 eV",
+            "1 eV",
+            "10 eV",
+            "100 eV"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant physical principles and equations that describe the diffraction of electrons by a crystal, such as the Bragg equation, and how they relate to the lattice spacing of the crystal.",
+        "instruction 2": "Use the identified principles and equations to calculate the approximate kinetic energy of the electrons required to observe the diffraction pattern, considering factors such as the lattice spacing, electron mass, and any other relevant parameters."
+    },
+    {
+        "question": "Two identical satellites, A and B, are in circular orbits around Earth. The orbital radius of A is twice that of B. Which of the following gives the ratio of the angular momentum of A to the angular momentum of B?",
+        "answer": 2,
+        "choices": [
+            "4",
+            "2",
+            "sqrt(2)",
+            "1/sqrt(2)"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key components of the angular momentum formula, including the moment of inertia, angular velocity, and radius, to establish the relationship between the satellites' orbital properties.",
+        "instruction 2": "Calculate the ratio of the angular momentum of A to the angular momentum of B by comparing the corresponding values for each satellite, taking into account the differences in their orbital radii and any other relevant factors."
+    },
+    {
+        "question": "An object is thrown horizontally from the open window of a building. If the initial speed of the object is 20 m/s and it hits the ground 2.0 s later, from what height was it thrown? (Neglect air resistance and assume the ground is level.)",
+        "answer": 3,
+        "choices": [
+            "4.9 m",
+            "9.8 m",
+            "10.0 m",
+            "19.6 m"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key information provided in the problem, including the initial speed, time of flight, and the assumption of neglecting air resistance and a level ground.",
+        "instruction 2": "Use the equations of motion and the given information to calculate the initial height of the object, taking into account the horizontal motion and the vertical motion separately, and then combining the results to find the total height."
+    },
+    {
+        "question": "In a nonrelativistic, one-dimensional collision, a particle of mass 2m collides with a particle of mass m at rest. If the particles stick together after the collision, what fraction of the initial kinetic energy is lost in the collision?",
+        "answer": 2,
+        "choices": [
+            "0",
+            "1/4",
+            "1/3",
+            "1/2"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the conservation laws applicable to this problem, specifically momentum and energy, and determine how the initial conditions affect the collision.",
+        "instruction 2": "Calculate the final kinetic energy of the combined particle, taking into account the conservation of momentum and energy, and then determine the fraction of the initial kinetic energy lost in the collision by comparing the initial and final energies."
+    },
+    {
+        "question": "White light is normally incident on a puddle of water (index of refraction 1.33). A thin (500 nm) layer of oil (index of refraction 1.5) floats on the surface of the puddle. Of the following, the most strongly reflected wavelength is",
+        "answer": 2,
+        "choices": [
+            "500 nm",
+            "550 nm",
+            "600 nm",
+            "650 nm"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the refractive indices of the oil and the water, as well as the angle of incidence of the white light.",
+        "instruction 2": "Apply Snell's law to calculate the critical angle for total internal reflection, considering the oil-water interface, and then identify the wavelength of light that will be most strongly reflected."
+    },
+    {
+        "question": "A nonrelativistic particle with a charge twice that of an electron moves through a uniform magnetic field. The field has a strength of π/4 tesla and is perpendicular to the velocity of the particle. What is the particle’s mass if it has a cyclotron frequency of 1,600 hertz?",
+        "answer": 0,
+        "choices": [
+            "2.5 * 10^-23 kg",
+            "1.2 * 10^-22 kg",
+            "3.3 * 10^-22 kg",
+            "5.0 * 10^-21 kg"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the key variables involved in the problem, including the magnetic field strength, the particle's charge, and the cyclotron frequency, to establish the necessary relationships between them.",
+        "instruction 2": "Use the given information to derive an expression for the particle's mass, considering the relationship between the cyclotron frequency, the magnetic field strength, and the particle's charge, and then solve for the mass using the provided value of the cyclotron frequency."
+    },
+    {
+        "question": "An airplane drops a payload while traveling due north, parallel to the ground, at a constant speed of 100 m/s. If air resistance is neglected, what is the velocity of the payload relative to the plane 4.0 s after it is released?",
+        "answer": 1,
+        "choices": [
+            "0",
+            "40 m/s down",
+            "80 m/s down",
+            "100 m/s north and 40 m/s down"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Determine the initial velocity of the payload, which is equal to the velocity of the airplane since it is dropped parallel to the ground.",
+        "instruction 2": "Use the concept of relative motion to calculate the velocity of the payload relative to the plane, taking into account the constant speed of the airplane and the time elapsed since the payload was released."
+    },
+    {
+        "question": "Positronium is an atom formed by an electron and a positron (antielectron). It is similar to the hydrogen atom, with the positron replacing the proton. If a positronium atom makes a transition from the state with n=3 to a state with n=1, the energy of the photon emitted in this transition is closest to",
+        "answer": 0,
+        "choices": [
+            "6.0 e",
+            "6.8 eV",
+            "12.2 eV",
+            "13.6 eV"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant energy levels in the positronium atom, specifically the states with n=3 and n=1, and determine the energy difference between these states.",
+        "instruction 2": "Calculate the energy of the photon emitted during the transition from n=3 to n=1, using the energy difference and the formula for the energy of a photon, ensuring to consider the correct units and any necessary conversions."
+    },
+    {
+        "question": "A satellite of mass m orbits a planet of mass M in a circular orbit of radius R. The time required for one revolution is",
+        "answer": 3,
+        "choices": [
+            "independent of M",
+            "proportional to m^(1/2)",
+            "linear in R",
+            "proportional to R^(3/2)"
+        ],
+        "subject": "college_physics",
+        "instruction 1": "Identify the relevant physical laws and principles governing the motion of the satellite, such as Newton's law of universal gravitation and the concept of circular motion.",
+        "instruction 2": "Set up the equation for the centripetal force acting on the satellite, using the gravitational force between the planet and the satellite, and solve for the time required for one revolution."
+    }
+]

@@ -1,0 +1,1302 @@
+[
+    {
+        "question": "_______ such as bitcoin are becoming increasingly mainstream and have a whole host of associated ethical implications, for example, they are______ and more ______. However, they have also been used to engage in _______.",
+        "answer": 2,
+        "choices": [
+            "Cryptocurrencies, Expensive, Secure, Financial Crime",
+            "Traditional currency, Cheap, Unsecure, Charitable giving",
+            "Cryptocurrencies, Cheap, Secure, Financial crime",
+            "Traditional currency, Expensive, Unsecure, Charitable giving"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key ethical implications of cryptocurrencies like bitcoin, such as their potential for anonymity and decentralization.",
+        "instruction 2": "Consider the various ways in which cryptocurrencies have been used, including their potential for illicit activities and their role in facilitating financial inclusion and access to new markets."
+    },
+    {
+        "question": "Typical advertising regulatory bodies suggest, for example that adverts must not: encourage _________, cause unnecessary ________ or _____, and must not cause _______ offence.",
+        "answer": 1,
+        "choices": [
+            "Unsafe practices, Wants, Fear, Trivial",
+            "Unsafe practices, Distress, Fear, Serious",
+            "Safe practices, Wants, Jealousy, Trivial",
+            "Safe practices, Distress, Jealousy, Serious"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific types of harm or negative consequences that advertising regulatory bodies aim to prevent, such as promoting harmful behaviors, causing unnecessary distress, or offending certain groups.",
+        "instruction 2": "Consider the broader implications of these regulations on the advertising industry, including the potential impact on creative freedom, consumer protection, and the overall effectiveness of advertisements."
+    },
+    {
+        "question": "______ are the obligations of workers towards their employer, based on individual contracts and wider employment laws.",
+        "answer": 3,
+        "choices": [
+            "Employee rights",
+            "Employee rights",
+            "Employer duties",
+            "Employee duties"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key aspects of employee obligations, such as loyalty, confidentiality, and adherence to company policies, that are typically outlined in employment contracts or implied through industry standards.",
+        "instruction 2": "Consider how these obligations may vary depending on factors such as job type, industry, or location, as well as how they may be influenced by broader labor laws and regulations."
+    },
+    {
+        "question": " ______ is an employee's preferred ratio between work-related and non-work-related activities which, due to intensification of work and technological shifts, has become a hotly contested issue in recent years.",
+        "answer": 3,
+        "choices": [
+            "Presenteeism",
+            "Absenteeism",
+            "Work-play balance",
+            "Work-life balance"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the concept being discussed, which is related to work-life balance, and explore how it has become a pressing concern in modern workplaces due to the changing nature of work and technology.",
+        "instruction 2": "Consider the implications of this concept on employees' well-being, productivity, and job satisfaction, as well as potential strategies for organizations to support and promote work-life balance in their workplaces."
+    },
+    {
+        "question": " _______ can be a likened to their natural counterparts, comprising of a balanced network of interdependent organisms and their environments thus adding value to sustainability thinking due to the consideration of companies and industries as being bound together, and interdependent due to all kinds of resources and wastes.",
+        "answer": 1,
+        "choices": [
+            "Industrial supply loops",
+            "Industrial ecosystems",
+            "Ecological ecosystems",
+            "Corporate ecosystems"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key components in the analogy that link the concept being discussed to natural ecosystems, focusing on interdependence and resource management.",
+        "instruction 2": "Consider how the principles of sustainability apply within this framework, evaluating how the relationships among companies and industries can reflect ecological balance and resource efficiency."
+    },
+    {
+        "question": "________, where for example one party possess more resources, unfair distribution of ________, where one party gains more from the relationship, and CSOs being ________, are all limitations and risks of business-CSO collaborations.",
+        "answer": 1,
+        "choices": [
+            "Power imbalance, Benefits, Hoodwinked",
+            "Power imbalance, Resources, Co-opted",
+            "Informational asymmetries, Benefits, Hoodwinked",
+            "Informational asymmetries, Resources, Co-opted"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific aspects of business-CSO collaborations that can lead to limitations and risks, such as unequal resource distribution, unfair benefit allocation, or CSO dependency.",
+        "instruction 2": "Consider how these limitations and risks can impact the effectiveness and sustainability of business-CSO collaborations, evaluating the potential consequences for both parties involved."
+    },
+    {
+        "question": "Although corporate profit maximization is not directly prescribed by major normative theories to which normative theory is it most similar?",
+        "answer": 1,
+        "choices": [
+            "hedonistic utilitarianism",
+            "preference utilitarianism",
+            "The Categorical Imperative",
+            "ethics of care"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the normative theory that is most closely aligned with the concept of corporate profit maximization, considering the core principles and goals of each theory.",
+        "instruction 2": "Evaluate the similarities and differences between the selected theory and corporate profit maximization, examining how the theory's emphasis on maximizing value or wealth aligns with or diverges from the profit maximization goal."
+    },
+    {
+        "question": "What does Milton Friedman believe to be the sole responsibility of business?",
+        "answer": 0,
+        "choices": [
+            "The only social responsibility of business is to its shareholders",
+            "Managers should act in ways that balance the interest of society and shareholders",
+            "The primary responsibility organizations have is to its employees",
+            "The primary responsibility organizations have is to its stakeholders"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Research Milton Friedman's views on the role of business in society, focusing on his argument that the primary responsibility of business is to maximize profits for its shareholders.",
+        "instruction 2": "Consider how Friedman's perspective on business responsibility differs from other philosophical or moral frameworks, such as stakeholder theory or social responsibility, and evaluate the implications of his views on business practices and ethics."
+    },
+    {
+        "question": "______ regulation goes further than the ______ that CSOs have with businesses, as it also concerns _______of such processes.",
+        "answer": 1,
+        "choices": [
+            "Legal, Interactions, Mechanics",
+            "Civil, Relations, Outcomes",
+            "Political, Interactions, Outcomes",
+            "Environmental, Relations, Mechanics"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific regulation being referred to and its purpose, as well as the contrasting relationship between CSOs (civil society organizations) and businesses.",
+        "instruction 2": "Analyze the key aspects of the regulation that extend beyond the typical CSO-business relationship, focusing on the regulation's scope and implications for the governance of such processes."
+    },
+    {
+        "question": "_______ working practices refer to working patterns which involve temporal, spatial and task related fluidity.",
+        "answer": 2,
+        "choices": [
+            "Dynamic",
+            "Fluid",
+            "Flexible",
+            "Modern"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the three dimensions of flexibility mentioned in the concept of _______ working practices, which include temporal, spatial, and task-related flexibility.",
+        "instruction 2": "Consider how these dimensions of flexibility can impact the way work is organized, managed, and performed, evaluating the benefits and challenges associated with this type of work arrangement."
+    },
+    {
+        "question": " What, according to Schnackenberg and Tomlinson (2014), are the three criteria which can be used to assess the quality of corporate transparency?",
+        "answer": 2,
+        "choices": [
+            "Breadth, Clarity, Accuracy",
+            "Disclosure, Detail, Accuracy",
+            "Disclosure, Clarity, Accuracy",
+            "Disclosure, Clarity, Efficiency"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the authors and publication year of the relevant study, and then summarize the three criteria for assessing corporate transparency proposed by Schnackenberg and Tomlinson.",
+        "instruction 2": "Consider how these criteria can be applied in practice, evaluating the strengths and limitations of each criterion and how they may be used to evaluate the transparency of a specific corporation or industry."
+    },
+    {
+        "question": "A corporation is ________ from its managers, employees, investors and customers. It therefore has _______ succession and also ________.",
+        "answer": 2,
+        "choices": [
+            "Indistinguishable, Perpetual, Does not own its own assets",
+            "Independent, Limited, Owns its own assets",
+            "Independent, Perpetual, Owns its own assets",
+            "Indistinguishable, Perpetual, Owns its own assets"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the concept being described, which is the corporation's stakeholders, and their various roles within the organization.",
+        "instruction 2": "Consider how the relationships between these stakeholders, such as their interests, needs, and expectations, influence the corporation's governance, decision-making, and overall performance."
+    },
+    {
+        "question": "The UK Public Services (Social Value) Act 2013 requires those procuring ______ to consider how they can secure wider _____, _____and _____ benefits.",
+        "answer": 3,
+        "choices": [
+            "Private services, social, economic and environmental",
+            "Public services, social, cultural and environmental",
+            "Private services, cultural, economic and environmental",
+            "Public services, social, economic and environmental"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific type of public procurement being referred to, as well as the specific benefits or outcomes that the Act requires procurers to consider, such as social, economic, and environmental benefits.",
+        "instruction 2": "Consider how the Act's requirements can be implemented in practice, potentially involving stakeholder engagement, impact assessments, and the development of social value strategies to achieve the desired outcomes."
+    },
+    {
+        "question": "When the true cost an item is deliberately obscured by a company this is known as?",
+        "answer": 1,
+        "choices": [
+            "Predatory pricing",
+            "Deceptive pricing",
+            "Price fixing",
+            "Skimming"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the concept being discussed, which is the practice of hiding or misrepresenting the true cost of an item.",
+        "instruction 2": "Consider the potential motivations behind this practice, such as to make the product appear more affordable or to increase profit margins, and evaluate the ethical implications of such actions on consumers and the market as a whole."
+    },
+    {
+        "question": "What are the three differing types of stakeholder theory according to Donaldson and Preston (1995)?",
+        "answer": 3,
+        "choices": [
+            "Normative, Descriptive and Economic",
+            "Normative, Moral and Instrumental",
+            "Political, Descriptive and Instrumental",
+            "Normative, Descriptive and Instrumental"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key authors and publication date of the stakeholder theory framework being referred to (Donaldson and Preston, 1995), and research the specific types of stakeholder theory they proposed.",
+        "instruction 2": "Explain the distinct characteristics and implications of each type of stakeholder theory, highlighting how they differ in their approaches to understanding the roles and responsibilities of organizations towards their various stakeholders."
+    },
+    {
+        "question": "The Right to _______ has been a long-standing ethical concern for employees which today are addressed in most developed countries through a dense network of occupational health, safety and environmental regulations companies must abide by.",
+        "answer": 1,
+        "choices": [
+            "Work-life balance",
+            "Healthy and safe working conditions",
+            "Employee privacy",
+            "Free Speech"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific right or concern being referred to, such as the right to a safe working environment or the right to fair compensation, and explore its historical and ethical significance.",
+        "instruction 2": "Consider how the development of occupational health, safety, and environmental regulations has addressed this concern, evaluating the effectiveness of these regulations in protecting employees and promoting a positive work environment."
+    },
+    {
+        "question": "Which of the following would most effectively act as the primary objective of a business organisation?",
+        "answer": 0,
+        "choices": [
+            "To make a profit",
+            "To procure resources",
+            "To communicate with shareholders",
+            "To mediate between the organisation and the environment"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the primary goal or purpose of a business organization, such as generating profits, creating value for shareholders, or meeting customer needs, and evaluate its relevance to the context of the question.",
+        "instruction 2": "Consider the implications of this primary objective on the organization's decision-making processes, resource allocation, and overall strategy, ensuring that it aligns with the organization's mission and values."
+    },
+    {
+        "question": "What is the enlightened self-interest model of CSR?",
+        "answer": 2,
+        "choices": [
+            "That it is in an organization's own best interest to put itself first rather than its ethics",
+            "That it is in an organization's best interest to consider what a shareholder would want",
+            "That it is in an organization's own best interest to act in an ethical way",
+            "That it is in an organization's own best interest to follow the legislation and abide by the law"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the core idea behind the enlightened self-interest model of Corporate Social Responsibility (CSR), which suggests that companies benefit from socially responsible practices by improving their reputation, reducing costs, and enhancing their competitive advantage.",
+        "instruction 2": "Explain how this model differs from other CSR perspectives, such as the philanthropic or moral obligation approaches, and discuss the potential criticisms or limitations of this model."
+    },
+    {
+        "question": "________ is the right of a consumer to control what information companies can collect about them and how it is stored, used and shared.",
+        "answer": 2,
+        "choices": [
+            "Consumer inclusion",
+            "Consumer control",
+            "Consumer privacy",
+            "Consumer exclusion"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key concept being discussed, focusing on the consumer's right to control personal data and its handling by companies.",
+        "instruction 2": "Consider the implications of this concept on consumer privacy, data protection, and the balance between individual rights and business needs, highlighting potential legal or regulatory frameworks that support this right."
+    },
+    {
+        "question": "The Anglo-American model being considered the best model in light of the recession in the late 2000s.",
+        "answer": 0,
+        "choices": [
+            "1,2,3",
+            "1,3,4",
+            "2,3,4",
+            "1,2,3,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key characteristics of the Anglo-American model, such as its reliance on market forces and limited government intervention, and evaluate its strengths and weaknesses in the context of the 2008 recession.",
+        "instruction 2": "Consider alternative economic models, such as the Nordic or Asian models, and compare their approaches to crisis management and economic recovery in the wake of the 2008 financial crisis."
+    },
+    {
+        "question": "_______ economy is the term used to describe individuals being hired for a specific task rather than on a long-term basis. While this results in _________ which is beneficial for businesses, issues for those employed in such a manner relate to increased ________, uncertainty and a lack of _______.",
+        "answer": 0,
+        "choices": [
+            "Gig, Flexibility, Risk, Social welfare structures",
+            "Sharing, Risk, Flexibility, Autonomy",
+            "Gig, Risk, Flexibility, Autonomy",
+            "Sharing, Flexibility, Risk, Social welfare structures"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the concept of the gig economy, including its characteristics and implications for workers and businesses.",
+        "instruction 2": "Consider the potential benefits and drawbacks of the gig economy, examining how it may impact workers' job security, benefits, and overall well-being, as well as the potential effects on businesses and the broader economy."
+    },
+    {
+        "question": "The Theory of _________ posits that 3 three levels of moral reasoning exist which an individual can engage in to assess ethical issues, dependant on their cognitive capacity.",
+        "answer": 1,
+        "choices": [
+            "Egoism",
+            "Cognitive moral development",
+            "Power distance",
+            "Uncertainty avoidance"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key concepts and levels of moral reasoning proposed by the theory, focusing on the cognitive capacity required for each level.",
+        "instruction 2": "Consider how these levels of moral reasoning might be applied in real-world scenarios, evaluating the potential implications for ethical decision-making and individual moral development."
+    },
+    {
+        "question": "_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.",
+        "answer": 2,
+        "choices": [
+            "Descriptive, Normative",
+            "Normative, Instrumental",
+            "Normative, Descriptive",
+            "Ethical, Descriptive"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key differences between universal morality, which is based on a shared understanding of what is right and wrong, and particularist morality, which is specific to a particular group or society.",
+        "instruction 2": "Consider how the concept of a 'code of conduct' applies to both universal and particularist morality, evaluating the implications of adhering to a universal moral code versus a particular moral code."
+    },
+    {
+        "question": "___________, ___________ and __________ are all factors which can impact the moral intensity",
+        "answer": 0,
+        "choices": [
+            "Social consensus, Temporal immediacy, Proximity",
+            "Proximity, Social dissensus, Futility of effect",
+            "Proximity, Temporal immediacy, Social dissensus",
+            "Social dissensus, Cultural immediacy, Proximity"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key factors that influence moral intensity, such as the magnitude of the consequences, the likelihood of harm, and the social norms surrounding a particular action.",
+        "instruction 2": "Consider how these factors interact and influence one another, as well as any potential cultural or contextual differences that may affect the moral intensity of a particular situation."
+    },
+    {
+        "question": "Better access to certain markets, differentiation of products, and the sale of pollution-control technology are ways in which better environmental performance can:",
+        "answer": 0,
+        "choices": [
+            "Increase Revenue",
+            "Increase Costs",
+            "Decrease Revenue",
+            "Decrease Costs"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the potential benefits of improved environmental performance, such as increased market access, product differentiation, and the sale of pollution-control technology.",
+        "instruction 2": "Consider how these benefits can contribute to a company's competitiveness and profitability, evaluating the potential impact on its reputation, customer loyalty, and long-term sustainability."
+    },
+    {
+        "question": "_______ is the term used to describe the ongoing approval and acceptance of a company's activities by society, especially among local communities and civil societies.",
+        "answer": 1,
+        "choices": [
+            "Enlightened self interest",
+            "Social licence to operate",
+            "Community approval",
+            "Supply chain responsibility"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key stakeholders involved in the concept being discussed, such as local communities, civil societies, and the company itself, to understand their roles and expectations.",
+        "instruction 2": "Consider how the concept of social license to operate relates to issues such as transparency, accountability, and sustainability, evaluating the importance of maintaining a positive social reputation for the company's long-term success."
+    },
+    {
+        "question": "The degree to which corporate decisions, policies, activities and impacts are acknowledged and made visible to relevant stakeholders is known as ________",
+        "answer": 1,
+        "choices": [
+            "Corporate Opaqueness",
+            "Corporate Transparency",
+            "Corporate Openness",
+            "Corporate Visibility"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key concept being discussed, which is the transparency of corporate actions and their effects on stakeholders.",
+        "instruction 2": "Consider how transparency can be achieved through various means, such as reporting, communication, and accountability mechanisms, and evaluate its importance in maintaining trust and responsible business practices."
+    },
+    {
+        "question": " _________, such as _______ and _______ are processes by which organisations implement environmental goals, policies and responsibilities and ensure regular auditing and reporting, which go beyond legal compliance.",
+        "answer": 2,
+        "choices": [
+            "Environmental management systems, SA8000, EMAS",
+            "Social accountability standards, ISO14001, SA8000",
+            "Environmental management systems, ISO14001, EMAS",
+            "Social accountability standards, EMAS, SA8000"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific processes or frameworks that help organizations implement environmental goals, policies, and responsibilities, such as ISO 14001, ISO 14064, and ISO 26000.",
+        "instruction 2": "Consider the benefits and requirements of these processes, including regular auditing and reporting, and how they can help organizations go beyond legal compliance and demonstrate environmental leadership."
+    },
+    {
+        "question": "The so-called BRIC countries (Brazil, Russia, India and _______) tend to follow a __________ approach to corporate governance. However, recently this has tended to move towards more _______-based mechanisms.",
+        "answer": 3,
+        "choices": [
+            "Canada, Market, Relationship",
+            "China, Market, Relationship",
+            "Canada, Relationship, Market",
+            "China, Relationship, Market"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Research the BRIC countries and identify the common characteristic that defines their approach to corporate governance, such as a focus on state ownership or a more decentralized structure.",
+        "instruction 2": "Examine the recent shifts in corporate governance practices within the BRIC countries, considering factors such as economic changes, regulatory reforms, or international influences that may have contributed to a shift towards more _______-based mechanisms."
+    },
+    {
+        "question": "A stakeholder orientation includes all of the following activities except:",
+        "answer": 3,
+        "choices": [
+            "Generating Data About Stakeholder Groups",
+            "Assessing The Firm's Effects On Stakeholder Groups",
+            "Distributing Stakeholder Information Throughout The Firm",
+            "Minimizing The Influence Of Stakeholder Information On The Firm"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key components of a stakeholder orientation, such as understanding stakeholder needs, expectations, and concerns, as well as engaging with them to build trust and foster relationships.",
+        "instruction 2": "Consider how stakeholder orientation differs from other organizational approaches, such as shareholder value or customer-centricity, and evaluate which activities are explicitly excluded from a stakeholder orientation."
+    },
+    {
+        "question": "Ethical issues related to marketing communications include the fact that they are _________ and unavoidable, they create ________ needs, reinforce _________ and perpetuate _________ and ______.",
+        "answer": 0,
+        "choices": [
+            "Intrusive, Artificial, Consumerism, Insecurity, Social Stereotypes",
+            "Intrusive, Artificial, De-materialism, Security, Happiness",
+            "Intrusive, Real, Consumerism, Insecurity, Happiness",
+            "Intrusive, Real, De-materialism, Security, Social stereotypes"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key aspects of marketing communications that are inherently influential and pervasive, such as their ability to shape consumer attitudes and behaviors.",
+        "instruction 2": "Consider how marketing communications can create artificial needs, reinforce social norms, perpetuate stereotypes, and contribute to materialism, highlighting the potential ethical concerns associated with these practices."
+    },
+    {
+        "question": "In order to try and align the interest of shareholders and senior management of a company, _________ are often made available to _______ of a company, to ensure that it is in their interests to increase _______ and dividend performance.",
+        "answer": 0,
+        "choices": [
+            "Share options, Senior managers, Share Price",
+            "Share options, All employees, Share Price",
+            "Non-financial remunerations, Senior managers, Employee Satisfaction",
+            "Non-financial remunerations, All employees, Employee Satisfaction"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific incentive mechanism being discussed, such as stock options, restricted stock units, or performance-based bonuses, and how it is intended to align the interests of shareholders and senior management.",
+        "instruction 2": "Consider the potential impact of these incentives on the company's financial performance, including the potential effects on dividend payments, stock prices, and overall profitability, to evaluate their effectiveness in achieving the desired alignment."
+    },
+    {
+        "question": "Predatory pricing.",
+        "answer": 3,
+        "choices": [
+            "1,2,4",
+            "1,2,3,4",
+            "1,2",
+            "1,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Define predatory pricing and its implications for market competition, focusing on how a dominant firm can use low prices to drive smaller competitors out of business.",
+        "instruction 2": "Examine the potential consequences of predatory pricing, including the impact on consumer welfare, market structure, and the likelihood of regulatory intervention."
+    },
+    {
+        "question": "There are a number of means by which can influence _______. These include _________to decision maker, varying from very direct modes to indirect modes, _________, being either public or private and ________ of communication.",
+        "answer": 0,
+        "choices": [
+            "Government, Avenue of approach, Breadth of transmission, Content",
+            "Consumers, Avenue of approach, Height of transmission, Content",
+            "Government, Breath of transmission, Avenue of approach, Content",
+            "Employees, Breadth of transmission, Content, Avenue of approach"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the concept being influenced by the means mentioned, focusing on the context and implications of these influences.",
+        "instruction 2": "Explain the different modes of influence, such as direct or indirect, public or private, and consider how these modes can impact the decision-making process or outcomes."
+    },
+    {
+        "question": "Pick the correct description of the following term: Utilitarianism is…",
+        "answer": 3,
+        "choices": [
+            "A theory which states that an action is morally incorrect if it promotes the greatest good for the greatest number",
+            "A theory which states that an action is morally right if it promotes the greatest good for the decision maker",
+            "A theory which states that an action is morally right if it promotes the greatest good for the smallest number",
+            "A theory which states that an action is morally right if it promotes the greatest good for the greatest number"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the core principles and values associated with Utilitarianism, such as the pursuit of happiness and the greatest good for the greatest number.",
+        "instruction 2": "Consider how these principles are applied to decision-making, evaluating the moral implications of actions based on their potential to maximize overall well-being and happiness."
+    },
+    {
+        "question": "Cognitive ______ models such as the Theory of _________ serve to try and explain consumer behaviour, but arguably somewhat oversimplify and overestimate individual ________.",
+        "answer": 2,
+        "choices": [
+            "Decision, Market equilibrium, Rationality",
+            "Attitudinal, Planned Behaviour, Social pressures",
+            "Decision, Planned behaviour, Rationality",
+            "Attitudinal, Market equilibrium, Social pressures"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific cognitive model being referred to, such as the Theory of Planned Behavior, and its underlying assumptions about consumer decision-making.",
+        "instruction 2": "Consider the limitations and potential biases of this model, examining how it may oversimplify or overestimate individual cognitive processes, and evaluate alternative perspectives or theories that may provide a more nuanced understanding of consumer behavior."
+    },
+    {
+        "question": "____________ refers to a strategic process involving stakeholder assessment to create long-term relationships with customers, while maintaining, supporting, and enhancing the natural environment.",
+        "answer": 1,
+        "choices": [
+            "Eco-strategy",
+            "Green Marketing",
+            "Superfund reauthorization",
+            "Recycle and reprocess management"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key elements of the concept being discussed, focusing on the strategic process and its connection to stakeholder assessment, customer relationships, and environmental sustainability.",
+        "instruction 2": "Consider how the principles of environmental sustainability, such as reducing waste and conserving resources, can be integrated into the strategic process to achieve long-term goals and build strong relationships with customers and stakeholders."
+    },
+    {
+        "question": "Sustainability can broadly be defined as",
+        "answer": 3,
+        "choices": [
+            "The short-term maintenance of systems according to environmental, economic and social considerations",
+            "The long-term maintenance of processes according to environmental, economic and cultural considerations.",
+            "The short-term maintenance of systems according to environmental, political and social considerations.",
+            "The long-term maintenance of systems according to environmental, economic and social considerations."
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the core principles and concepts that underlie the concept of sustainability, such as the balance between economic, social, and environmental factors, and the need to ensure long-term viability.",
+        "instruction 2": "Consider the various interpretations and applications of sustainability across different contexts, including business, policy, and individual practices, to understand how the concept is implemented and evaluated in different settings."
+    },
+    {
+        "question": "Which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues?",
+        "answer": 2,
+        "choices": [
+            "Size and complexity, owner and family member influence on the organisation, shareholder and stakeholder power",
+            "Lack of organisational resources, size and complexity, owner and family member influence",
+            "Informal relationships, owner and family member influence on the organisation, lack of organisational resources",
+            "Bureaucratic and formal organisational structure, lack of organisational resources, conflicts of interest"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key organisational characteristics of small businesses that are likely to influence their approach to business-related issues, such as limited resources, adaptability, and personal involvement.",
+        "instruction 2": "Consider how these characteristics, such as the personal involvement of owners or limited resources, might impact the way small businesses address issues like risk management, innovation, or stakeholder relationships."
+    },
+    {
+        "question": "A(n) __________ is a ________, __________ framework which goes beyond linear functions, operations and transactions to produce a certain commodity or product",
+        "answer": 1,
+        "choices": [
+            "International supply chain, Static, Disconnected",
+            "Global production network, Dynamic, Relational",
+            "International supply chain, Dynamic, Disconnected",
+            "Global production network, Static, Relational"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the type of framework being referred to, such as a system, network, or ecosystem, that goes beyond traditional linear thinking to produce a product or commodity.",
+        "instruction 2": "Consider how this framework integrates various components, such as people, processes, and technologies, to create a more comprehensive and holistic understanding of the production process."
+    },
+    {
+        "question": "Demand reduction.",
+        "answer": 3,
+        "choices": [
+            "1,3,4",
+            "2,3,4",
+            "1,2,3",
+            "1,2,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the primary goal of demand reduction, which is to decrease the amount of a particular resource being consumed or used, often in response to scarcity, environmental concerns, or economic pressures.",
+        "instruction 2": "Consider the various strategies and methods used to achieve demand reduction, such as conservation efforts, pricing mechanisms, and education campaigns, as well as the potential benefits and challenges associated with implementing these approaches."
+    },
+    {
+        "question": " Although the benefit and contribution of civil society in encouraging sustainability, lobbying on important issues and helping the needy are taken for granted in many places, in many other countries, such as _____ and ______ civil society is far less developed than in, for instance, _______.",
+        "answer": 0,
+        "choices": [
+            "Russia, China, Britain",
+            "Norway, China, Russia",
+            "Britain, United States, Australia",
+            "Canada, Russia, United States"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify and analyze the varying levels of development of civil society across different countries, focusing on specific examples to fill in the blanks while also understanding the implications of civil society's involvement in sustainability.",
+        "instruction 2": "Consider the factors that contribute to the strength or weakness of civil society in different national contexts, such as political climate, legal frameworks, and cultural attitudes towards civic engagement, ensuring to provide a well-rounded perspective."
+    },
+    {
+        "question": "The extent to which an individual is able to creatively consider the consequences of, resolutions to, and issues associated with moral decision making is known as _________.",
+        "answer": 0,
+        "choices": [
+            "Moral imagination",
+            "Ethical reflexivity",
+            "Moral originality",
+            "Moral reflexivity"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the concept being described, which involves the ability to think critically and creatively about moral dilemmas.",
+        "instruction 2": "Consider how this concept relates to moral development, decision-making processes, and the ability to weigh the pros and cons of different moral choices."
+    },
+    {
+        "question": "When negotiating using unethical practices, businesses can risk _______, if the negotiations are part of a longer-term business association, as well as a ___________ and __________, as negotiations can impact company image and stymy progress.",
+        "answer": 1,
+        "choices": [
+            "Rigid negotiations, Enhanced reputation, Greater opportunities",
+            "Damaged relationships, Sullied reputation, Lost opportunities",
+            "Rigid negotiations, Sullied Reputation, Lost opportunities",
+            "Damaged relationships, Rigid negotiations, Lost opportunities"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the potential risks associated with using unethical practices in negotiations, focusing on the potential consequences for long-term business relationships and the company's reputation.",
+        "instruction 2": "Consider how the use of unethical practices can lead to a negative impact on the company's image, and how this can affect future negotiations and business opportunities, as well as hinder progress and build trust."
+    },
+    {
+        "question": "________ is the use of language of to mask or expose the ethical nature of decisions, actions and behaviours.",
+        "answer": 1,
+        "choices": [
+            "Ethical splicing",
+            "Moral framing",
+            "Ethical window dressing",
+            "Moral splicing"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key term that refers to the use of language to conceal or reveal the moral implications of actions, decisions, or behaviors, and its potential impact on social norms and values.",
+        "instruction 2": "Consider how this concept can be applied in various contexts, such as politics, business, or personal relationships, and evaluate the ethical implications of using language to influence or deceive others."
+    },
+    {
+        "question": "The extent to which an individual believes they can control their life is determined by their __________.",
+        "answer": 3,
+        "choices": [
+            "Moral imagination",
+            "Personal integrity",
+            "Cognitive moral development",
+            "Locus of control"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the psychological concept or theory that explains how an individual's perception of control influences their overall well-being, focusing on the relationship between perceived control and psychological outcomes such as stress, anxiety, and depression.",
+        "instruction 2": "Consider how external factors, such as social support, socioeconomic status, and life experiences, can impact an individual's perceived control and subsequent psychological well-being, examining the interplay between internal and external factors."
+    },
+    {
+        "question": "The enforcement of company privacy is complex as corporations are somewhat __________, as there are few clear barriers to define their limits, it is difficult to _________ due to the number of individuals involved and much corporate activity takes place in ________.",
+        "answer": 2,
+        "choices": [
+            "Boundaryless, Control information, Private spaces",
+            "Public spaces, Maintain individual privacy, Private spaces",
+            "Boundaryless, Control information, Public spaces",
+            "Private spaces, Maintain individual privacy, Public spaces"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key challenge in enforcing company privacy, highlighting the lack of clear boundaries and the complexity of defining corporate limits.",
+        "instruction 2": "Consider the difficulties in enforcing privacy due to the numerous individuals involved, as well as the fact that much corporate activity takes place in a digital environment, making it challenging to track and monitor."
+    },
+    {
+        "question": "What term can be used to describe 'the hypothetical agreement between member of society and those who govern it which establishes the inter-relationships, rights and responsibilities on a fair basis'?",
+        "answer": 0,
+        "choices": [
+            "Social Contract",
+            "Duty Ethics",
+            "Consequentialism",
+            "Virtue Ethics"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify key elements of the concept being described, such as the idea of a social contract, rights, and responsibilities, and how these relate to the relationship between citizens and governing bodies.",
+        "instruction 2": "Consider how the concept of a social contract is often seen as a foundation for governance, evaluating how it can be used to justify the distribution of power and the roles of citizens and leaders within a society."
+    },
+    {
+        "question": "Businesses have _____ within society and have the potential to provide a ____ to society while ____ has the potential to inflict enormous harm on individuals, communities and the environment.",
+        "answer": 3,
+        "choices": [
+            "Little power, Small contribution, Business malpractice",
+            "Little power, Major contribution, Corporate social responsibility",
+            "Huge power, Small contribution, Corporate social responsibility",
+            "Huge power, Major contribution, Business malpractice"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the role businesses play within society, highlighting their potential positive impact on individuals, communities, and the environment.",
+        "instruction 2": "Consider the potential negative consequences of unchecked business activities, such as environmental degradation, social inequality, and exploitation, and how these can have devastating effects on individuals, communities, and the environment."
+    },
+    {
+        "question": "According Carroll what four categories or aspects can corporate social responsibility be broken down into?",
+        "answer": 1,
+        "choices": [
+            "Political, Legal, Ethical and Philanthropic",
+            "Economic, Legal, Ethical and Philanthropic",
+            "Economic, Legal, Cultural and Philanthropic",
+            "Economic, Legal, Ethical and Environmental"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Research Carroll's CSR framework, which categorizes corporate social responsibility into four aspects: economic, legal, ethical, and discretionary responsibilities, to understand the scope of CSR.",
+        "instruction 2": "Consider the implications of each category on an organization's actions and decision-making, analyzing how these responsibilities intersect and influence one another within the context of CSR."
+    },
+    {
+        "question": "Affirmative action involves ________ attempts to target ______ who are _________ within an organisation's workforce, for instance by trying to ______ the proportion of women, disabled or racial minorities in senior management positions.",
+        "answer": 0,
+        "choices": [
+            "Proactive, Groups, Under-represented, Increase",
+            "Passive, Groups, Under-represented, Retain",
+            "Proactive, Individuals, Represented, Increase",
+            "Passive, Individuals, Represented, Retain"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific groups or individuals targeted by affirmative action policies, such as women, disabled, or racial minorities, and the underlying reasons for these efforts.",
+        "instruction 2": "Consider the strategies used to achieve these goals, such as recruitment and hiring practices, training programs, and promotion opportunities, to understand how affirmative action policies aim to increase representation and diversity within an organization."
+    },
+    {
+        "question": "Traditionally consumer rights were based on the notion of _______ or _______ where the responsibility lay with consumer to avoid subpar products. However, this has gradually eroded due to increased ________ at a ________, EU and UN level.",
+        "answer": 1,
+        "choices": [
+            "Caveat emptor, Company Responsibility, Informal codes, International",
+            "Caveat emptor, Buyer beware, Regulation, National",
+            "Cemptor Eaveat, Buyer beware, Regulation, National",
+            "Cemptor Eaveat, Company Responsibility, Informal Codes, International"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the two traditional notions of consumer rights that placed responsibility on the consumer, such as caveat emptor or caveat venditor.",
+        "instruction 2": "Consider how changes in consumer protection laws and regulations at the EU and UN levels have shifted the focus from consumer responsibility to a more balanced approach, emphasizing the role of businesses and governments in ensuring consumer safety and well-being."
+    },
+    {
+        "question": "The state of being unable to make an informed, reasoned decision about a product purchase is known as?",
+        "answer": 3,
+        "choices": [
+            "Consumer inclusion",
+            "Consumer competence",
+            "Consumer exclusion",
+            "Consumer vulnerability"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the concept or phenomenon being described, which is the inability to make an informed decision due to factors such as lack of information, conflicting information, or personal biases.",
+        "instruction 2": "Consider how this concept relates to consumer behavior and decision-making, examining the potential consequences of indecision, such as delayed purchases or reliance on external influences."
+    },
+    {
+        "question": "According to Mitchell et al (1997) ______, the perceived ability of a stakeholder to influence organisational action, ________ whether the organisation perceives the stakeholder's actions as desirable, proper and appropriate and ________, the immediacy of attention the stakeholder claims require, determine stakeholder ________.",
+        "answer": 2,
+        "choices": [
+            "Power, Legitimacy, Salience Urgency",
+            "Legitimacy, Urgency, Salience, Power",
+            "Power, Legitimacy, Urgency, Salience",
+            "Salience, Power, Urgency, Legitimacy"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key components of stakeholder salience, as described by Mitchell et al (1997), focusing on the factors that contribute to an organisation's perception of a stakeholder's influence, importance, and urgency.",
+        "instruction 2": "Consider how these components interact and influence one another, examining the relationships between stakeholder power, legitimacy, and urgency in determining stakeholder salience."
+    },
+    {
+        "question": "_______ and _______ are both examples of _______ -based theories which are based on basic universal principles of right and wrong.",
+        "answer": 0,
+        "choices": [
+            "Ethics of duty, Ethics of rights and justice, Principle",
+            "Utilitarianism, Egoism, Principle",
+            "Ethics of duty, Utilitarianism, Consequentialist",
+            "Egoism, Ethics of rights and justice, Consequentialist"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the two theories mentioned in the question, and research their underlying principles and moral frameworks to determine if they share commonalities.",
+        "instruction 2": "Consider how these principles of right and wrong are applied in the context of the two theories, evaluating their similarities and differences in terms of moral guidance and decision-making."
+    },
+    {
+        "question": "The complexity of the theory.",
+        "answer": 2,
+        "choices": [
+            "1,2,3,4",
+            "1,3,4",
+            "1,2,3",
+            "1,2,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key components or concepts within the theory that contribute to its complexity, such as abstract ideas, interrelated concepts, or intricate relationships.",
+        "instruction 2": "Consider how these complex elements interact with one another, potentially leading to emergent properties or novel insights, and evaluate the implications of this complexity on the theory's overall coherence and explanatory power."
+    },
+    {
+        "question": "________ is any business effort to influence government or public policy. It includes activities such as __________, political advertising, financial contributions, ________ action and political ________.",
+        "answer": 2,
+        "choices": [
+            "Private regulation, Lobbying, Environmental, Fundraising",
+            "Private regulation, Consumer Marketing, Legal, Fundraising",
+            "Corporate political activity, Lobbying, Legal, Campaigning",
+            "Corporate political activity, Consumer marketing, Environmental, Campaigning"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key terms and concepts related to government relations, such as lobbying, political donations, and grassroots activism, and analyze their role in influencing public policy.",
+        "instruction 2": "Consider the ethical implications of these activities, evaluating whether they are transparent, accountable, and respectful of democratic processes, and discussing potential conflicts of interest or biases that may arise."
+    },
+    {
+        "question": "_________ such as the ________ in the United States is a key factor in driving ethical business practices.",
+        "answer": 0,
+        "choices": [
+            "Legislation, Sarbanes-Oxley Act",
+            "Internal company policy, Unethical corporate practices act",
+            "Internal company policy, Sarbanes-Oxley Act",
+            "Legislation, Unethical corporate practices act"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific regulation or legislation mentioned in the context, focusing on its role in promoting ethical business practices.",
+        "instruction 2": "Consider how the regulation's provisions, such as penalties for non-compliance, can influence the behavior of businesses and their commitment to ethical practices, evaluating the overall impact on the industry."
+    },
+    {
+        "question": " _______, where actors are convinced that their actions harms nobody, _______ where actors argue that their norm violation is an attempt to realize higher-order values and ________ , where actors argue they are owed something, are all strategies for justifying or denying unethical behaviour.",
+        "answer": 2,
+        "choices": [
+            "Appeal to higher loyalties, Denial of injury, Metaphor of the ledger",
+            "Appeal to higher loyalties, Metaphor of the ledger, Denial of injury",
+            "Denial of injury, Appeal to higher loyalties, Metaphor of the ledger",
+            "Denial of injury, Metaphor of the ledger, Appeal to higher loyalties,"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the three strategies for justifying or denying unethical behavior, focusing on the motivations and rationalizations behind each approach.",
+        "instruction 2": "Consider how these strategies can be used to justify or deny unethical behavior, evaluating the potential consequences and implications of each approach on individual and societal levels."
+    },
+    {
+        "question": "Which of the following is not one the underlying principles of the corporate governance Combined Code of Practice?",
+        "answer": 3,
+        "choices": [
+            "Openness",
+            "Integrity",
+            "Availability",
+            "Acceptability"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Familiarize yourself with the key principles and guidelines outlined in the Combined Code of Practice, focusing on the role of corporate governance in promoting transparency, accountability, and responsible decision-making within companies.",
+        "instruction 2": "Identify any principles or guidelines that are not explicitly stated in the Combined Code of Practice, and evaluate whether they align with other relevant corporate governance frameworks or standards."
+    },
+    {
+        "question": "Factors that impact ethical decision making can be broadly broken down into ________ factors, related to the unique characteristics of a person, and _________ factors, which are features of the person's environment or the particular issue.",
+        "answer": 3,
+        "choices": [
+            "Tailored, Individual",
+            "Situational, Individual",
+            "Situational, Tailored",
+            "Individual, Situational"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the two categories of factors that influence ethical decision making, focusing on the distinction between personal characteristics and environmental or situational factors.",
+        "instruction 2": "Consider specific examples of how each type of factor can impact an individual's ethical decision making, such as personal values or cultural norms, and the role of external pressures or societal expectations."
+    },
+    {
+        "question": "_____ is a key driving force shaping the current and future state of business ethics, in particular regarding _____, ______ and _____ related issues.",
+        "answer": 0,
+        "choices": [
+            "Globalisation, Cultural, Legal, Accountability",
+            "Nationalisation, Cultural, Environmental, Accountability",
+            "Privatisation, Cultural, Legal, Accountability",
+            "Globalisation, Technological, Financial, Accountability"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key driving force behind the evolution of business ethics, such as globalization, technological advancements, or societal shifts.",
+        "instruction 2": "Consider specific issues related to business ethics, such as corporate social responsibility, consumer protection, or environmental sustainability, and how they are influenced by the identified driving force."
+    },
+    {
+        "question": "CSO's frequently spend too much time communicating their performance measures and too much time devising them with input from beneficiaries.",
+        "answer": 1,
+        "choices": [
+            "2,3",
+            "1,3",
+            "3,4",
+            "1,2,3,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the main issue or problem being addressed in the question, such as CSOs spending too much time on performance measures, and consider the potential consequences of this issue, such as inefficient use of resources.",
+        "instruction 2": "Examine the role of beneficiaries in the performance measurement process, evaluating how their input can be incorporated in a more efficient and effective manner, and proposing potential solutions to the problem."
+    },
+    {
+        "question": "The race to the ______ is when, due to increased ________, countries compete for foreign investment through companies' relocation decisions by weakening their ______ and _____ standards.",
+        "answer": 0,
+        "choices": [
+            "Bottom, Globalisation, Social, Environmental",
+            "Top, Globalisation, Political, Environmental",
+            "Bottom, Standardisation, Social, Economic",
+            "Top, Standardisation, Political, Economic"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific economic concept being described, such as 'the race to the bottom', and understand its implications for countries competing for foreign investment.",
+        "instruction 2": "Explain how countries may weaken their labor and environmental standards in an effort to attract foreign investment, potentially compromising their long-term economic and social sustainability."
+    },
+    {
+        "question": "Managers are entrusted to run the company in the best interest of ________. Specifically, they have a duty to act for the benefit of the company, as well as a duty of ________ and of _______.",
+        "answer": 0,
+        "choices": [
+            "Shareholders, Care and Skill, Diligence",
+            "Stakeholder, Care and Skill, Diligence",
+            "Shareholders, Self-interest, Diligence",
+            "Stakeholders, Care and skill, Self-interest"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the stakeholders that managers have a fiduciary duty to consider when making decisions, such as shareholders, employees, and the wider community, and how their interests may conflict or align.",
+        "instruction 2": "Consider the specific duties of loyalty, care, and obedience that managers owe to the company, as well as the potential consequences of breaching these duties, and how they may impact the company's overall well-being."
+    },
+    {
+        "question": "Replacing supply chains with _______ enhances the importance of product _______as well as a fundamental redesign of every activity a firm engages in that produces _______.",
+        "answer": 0,
+        "choices": [
+            "Supply loops, Recapture, Waste",
+            "Supply loops, Redesign, Profit",
+            "Global production networks, Recapture, Waste",
+            "Global production networks, Redesign, Profit"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the concept or approach being proposed as a replacement for traditional supply chains, focusing on its potential to transform product development and production processes.",
+        "instruction 2": "Consider the implications of this new approach on the entire value chain, including the potential for increased customization, reduced waste, and improved sustainability, as well as the need for a fundamental redesign of business operations."
+    },
+    {
+        "question": "A company may become insolvent if it",
+        "answer": 3,
+        "choices": [
+            "has negative working capital",
+            "cannot meet its budgeted level of profit",
+            "makes a loss",
+            "cannot pay creditors in full after realisation of its assets"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key factors that can contribute to a company's insolvency, such as excessive debt, poor cash flow, or over-investment in assets.",
+        "instruction 2": "Consider the potential consequences of insolvency, such as liquidation, bankruptcy, or restructuring, and evaluate the impact on stakeholders, including employees, customers, and creditors."
+    },
+    {
+        "question": "The ISO 26000 standard on ________ is emblematic of a number of trends emerging within the shared global governance space. Specifically, these trends concern, more deliberation and ________, greater focus on the _______ rather than outcomes and more _______ rather than specific norms.",
+        "answer": 0,
+        "choices": [
+            "Social responsibility, Collaboration, Process, Frameworks",
+            "Social responsibility, Individualism, Process, Legislation",
+            "Environmental responsibility, Individualism, Inputs, Frameworks",
+            "Environmental responsibility, Collaboration, Inputs, Legislation"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key concepts and principles outlined in the ISO 26000 standard on social responsibility, focusing on the aspects of deliberation, stakeholder engagement, and outcomes.",
+        "instruction 2": "Consider how these principles and trends in social responsibility reflect a shift in global governance, evaluating how they might impact the way organizations approach sustainability, transparency, and accountability."
+    },
+    {
+        "question": "The ___________, otherwise known as _________ was launched in 1997 and is a global workplace standard that covers key labour rights such as working hours, forced labour and discrimination, with compliance being certified by independent auditors.",
+        "answer": 0,
+        "choices": [
+            "Social accountability standard, SA 8000",
+            "Social accountability standard, SA 9000",
+            "Sarbanes-Oxley Act, SA 8000",
+            "Sarbanes-Oxley Act, SA 9000"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific workplace standard being referred to, such as the Fair Labor Association or the International Labour Organization, and research its history and key components.",
+        "instruction 2": "Consider the role of independent auditors in verifying compliance with the standard, evaluating the importance of certification and the potential consequences of non-compliance."
+    },
+    {
+        "question": "Managers and directors have a fiduciary responsibility to protect the investment of shareholders.",
+        "answer": 0,
+        "choices": [
+            "1,3,4",
+            "1,2,3,",
+            "1,2,4",
+            "2,3,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the legal and ethical obligations that managers and directors have towards shareholders, specifically focusing on the concept of fiduciary responsibility and its implications for decision-making.",
+        "instruction 2": "Consider how this responsibility may influence the actions and decisions made by managers and directors, such as prioritizing shareholder value, ensuring transparency, and avoiding conflicts of interest."
+    },
+    {
+        "question": "Cultural homogenization.",
+        "answer": 1,
+        "choices": [
+            "1,3,4",
+            "1,2,3",
+            "1,2,3,4",
+            "2,3,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the concept of cultural homogenization, including its definition and potential consequences, such as the loss of cultural diversity and the spread of dominant cultural values.",
+        "instruction 2": "Consider the various factors that contribute to cultural homogenization, such as globalization, technological advancements, and mass media, and evaluate the impact of these factors on local cultures and communities."
+    },
+    {
+        "question": "Insider trading undermines the fiduciary relationship.",
+        "answer": 1,
+        "choices": [
+            "1,2,3",
+            "1,2,4",
+            "2,3,4",
+            "1,2,3,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key concept of insider trading, specifically focusing on the illegal act of trading securities based on non-public information, and how this action can compromise the trust between parties involved.",
+        "instruction 2": "Consider the ethical implications of insider trading, exploring how it can breach the fiduciary duty of care and loyalty owed to clients, shareholders, or other stakeholders, ultimately damaging the reputation and integrity of the financial industry."
+    },
+    {
+        "question": "There are two main issues associated with _____ sizing. _______ is a key issue as due to the information policy of the corporation it can be argued that employees have a right to know if they are being made redundant. _______ is a second issue, particularly the ________ package that employees receive when laid off.",
+        "answer": 0,
+        "choices": [
+            "Down, Involvement, Remuneration, Compensation",
+            "Up, Involvement, Autonomy, Compensation",
+            "Down, Autonomy, Remuneration, Benefit",
+            "Up, Independence, Involvement, Benefit"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the two main issues related to downsizing, focusing on the potential impact on employees and the corporation.",
+        "instruction 2": "Consider the role of transparency in the downsizing process, examining how the corporation's information policy affects employee rights and the potential consequences of not providing adequate information."
+    },
+    {
+        "question": "_______ locate morality beyond the sphere of rationality in an emotional 'moral impulse' towards others.",
+        "answer": 2,
+        "choices": [
+            "Virtue ethics",
+            "Ethical egoism",
+            "Postmodern ethics",
+            "Ethics of duty"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the philosophical perspective that posits morality as arising from an emotional or instinctual response, rather than a purely rational consideration.",
+        "instruction 2": "Consider how this perspective might challenge traditional notions of moral reasoning and decision-making, and how it might influence the way individuals approach moral dilemmas and ethical decision-making."
+    },
+    {
+        "question": "Under ethical ________ objective moral principles can be rationally determined, while ethical under ________ morality is both context dependant and subjective.",
+        "answer": 1,
+        "choices": [
+            "Normativity, Relativism",
+            "Absolutism, Relativism",
+            "Relativism, Absolutism",
+            "Absolutism, Normativity"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key differences between ethical absolutism and relativism, focusing on the role of objective moral principles versus context-dependent moral judgments.",
+        "instruction 2": "Consider how the implications of these differences might affect moral decision-making, evaluating the potential benefits and limitations of each approach in different situations."
+    },
+    {
+        "question": " Some of key differences between Islamic finance and conventional finance include - prohibition of charging and paying _______, prohibition on ______ and ______ transactions, prohibition of sinful investment and requirement for all financial products to be backed by __________.",
+        "answer": 2,
+        "choices": [
+            "Interest, Certain, Speculative, Intangible assets",
+            "Interest, Uncertain, Assured, Intangible assets",
+            "Interest, Uncertain, Speculative, Tangible assets",
+            "Interest, Certain, Assured, Tangible assets"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific financial instruments or practices that are prohibited in Islamic finance, such as riba (interest) and gharar (uncertainty or ambiguity), and how these restrictions differ from conventional finance.",
+        "instruction 2": "Consider the underlying principles and values that guide Islamic finance, such as the avoidance of harm and the pursuit of social welfare, and how these principles influence the design and operation of financial products and transactions."
+    },
+    {
+        "question": "________ reasoning is considered by many to be prevalent within society and particularly within businesses, where it is often referred to in the form of a ___________.",
+        "answer": 0,
+        "choices": [
+            "Consequentialist, Cost-benefit analysis",
+            "Rationalised, Annual audit",
+            "Consequentialist, Annual audit",
+            "Rationalised, Cost-benefit analysis"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the type of reasoning being referred to, such as confirmation bias or groupthink, and describe how it can manifest in everyday life or business settings.",
+        "instruction 2": "Research the concept of the identified type of reasoning, exploring its potential causes, effects, and strategies for mitigating its impact, and consider how it relates to the concept of a ___________."
+    },
+    {
+        "question": "Which of the following areas is not covered by the principles enshrined in the UN Global Compact?",
+        "answer": 2,
+        "choices": [
+            "Human rights",
+            "Labour",
+            "Commercial performance",
+            "Anti-corruption"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Review the ten principles of the UN Global Compact, focusing on their scope and coverage, to identify the areas that are explicitly mentioned.",
+        "instruction 2": "Consider any potential gaps or exclusions in the principles, and evaluate which of the given options is most likely to fall outside the scope of the UN Global Compact's principles."
+    },
+    {
+        "question": "What are, according to Wood (1991), the three outcomes of CSR?",
+        "answer": 0,
+        "choices": [
+            "Social policies, Social programmes and Social impacts",
+            "Social evaluations, Social programmes and Social impacts",
+            "Social policies, Social evidencing and Social impacts",
+            "Social policies, Social programmes and Social analysis"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Research the concept of Corporate Social Responsibility (CSR) and its three outcomes as described by Wood (1991), which may include benefits for the organization, society, and the environment.",
+        "instruction 2": "Consider how these outcomes might be interconnected, evaluating the potential synergies and trade-offs between the three, as well as any implications for organizational strategy and decision-making."
+    },
+    {
+        "question": "Businesses engage in social accounting due to demands from _________, in order to identify ________, to improve ___________ and to encourage _________ and ___________",
+        "answer": 0,
+        "choices": [
+            "Stakeholders, Risks, Stakeholder management, Accountability, Transparency",
+            "Stakeholders, Accountability, Transparency, Risks, Stakeholder Management",
+            "Stakeholders, Accountability, Risks, Stakeholders, Stakeholder Management",
+            "Stakeholders, Stakeholder Management, Transparency, Risks, Accountability"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the stakeholders who are driving the demand for social accounting, such as investors, customers, or regulatory bodies.",
+        "instruction 2": "Consider the specific goals and benefits of social accounting, such as identifying social and environmental impacts, improving transparency and accountability, and encouraging sustainable practices and responsible decision-making."
+    },
+    {
+        "question": "Post-modern ethics assert that ethics are context and individual specific and as such have an internal guide to ethics.",
+        "answer": 1,
+        "choices": [
+            "2,3",
+            "1,3",
+            "1,2,3",
+            "1,2"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the core principles of post-modern ethics, such as the emphasis on context and individuality, and how these principles differ from traditional ethics.",
+        "instruction 2": "Consider how the concept of an internal guide to ethics, which may be seen as a personal moral compass, relates to the post-modern ethics perspective, and how this might influence decision-making and moral judgment."
+    },
+    {
+        "question": "The focus on issues, the intended audience extending beyond shareholders and the voluntary nature of ___________ distinguish it from _________.",
+        "answer": 2,
+        "choices": [
+            "Financial accounting, Environmental management initiatives",
+            "Financial accounting, Social accounting.",
+            "Social accounting, Financial accounting.",
+            "Annual report publication, Social accounting"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key elements that differentiate the concept being discussed from its counterpart, such as the focus on issues, the scope of the intended audience, and the voluntary nature of the approach.",
+        "instruction 2": "Consider how these distinguishing features influence the strategies, goals, and outcomes of the concept being discussed, highlighting any potential benefits or challenges that arise from these differences."
+    },
+    {
+        "question": "Negative advertising, stealing or poaching customers and predatory pricing are all strategies employed by businesses described using the umbrella term ________.",
+        "answer": 3,
+        "choices": [
+            "Reasonable competitive behaviour",
+            "Swindles",
+            "Competitive tricks",
+            "Dirty tricks"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the common thread among these tactics, such as their focus on disrupting or exploiting competitors' positions, rather than creating value for customers or improving products.",
+        "instruction 2": "Consider how these strategies can be seen as unfair or unethical, and how they may negatively impact the long-term success of a business or the overall industry."
+    },
+    {
+        "question": "______ the workplace involves empowering employees through, for example, 'job enrichment' where employees are given a larger scope for deciding how to organize their work or 'job enlargement' where employees are given a wider range of tasks to do.",
+        "answer": 3,
+        "choices": [
+            "Re-invigorating",
+            "Re-flourishing",
+            "Revitalizing",
+            "Rehumanizing"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key concepts and principles of job enrichment and job enlargement, highlighting how these strategies aim to increase employee autonomy, engagement, and motivation.",
+        "instruction 2": "Consider how these approaches can be implemented in practice, examining potential benefits and challenges, and evaluating the potential impact on employee job satisfaction and overall organizational performance."
+    },
+    {
+        "question": "The need to head off negative publicity.",
+        "answer": 2,
+        "choices": [
+            "1,3,4",
+            "2,3,4",
+            "1,2,3",
+            "1,2,3,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the context in which the phrase 'negative publicity' is used, such as in a business or corporate setting, to understand the potential implications for an organization's reputation and public image.",
+        "instruction 2": "Consider how proactive strategies, such as crisis communication planning and media relations, can help mitigate the effects of negative publicity and maintain a positive public perception."
+    },
+    {
+        "question": "The rise in business led, private regulation can be attributed to: encouragement of a _______ approach from industry, _________ and _______ achievement of objectives.",
+        "answer": 2,
+        "choices": [
+            "Faster, Cost effectiveness, Slower",
+            "Faster, Heightened costs, Slower",
+            "Proactive, Cost effectiveness, Faster",
+            "Proactive, Heightened costs, Faster"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key drivers behind the rise in private regulation, such as the encouragement of a _______ approach from industry, _________, and _______ achievement of objectives.",
+        "instruction 2": "Consider how these factors, such as industry self-regulation, stakeholder pressures, and achievement of specific objectives, contribute to the growth of private regulation and its implications for business and society."
+    },
+    {
+        "question": " The ________ perspective on sustainability resulted from growth models that analysed the carrying capacity of the planet, overall concluding that the finite capacity of the earth and_______, ________ and _______ by current and past generations could reduce quality of life for future generations. This contrasts with the environmental perspective with focuses on the need to maintain and preserve the natural environment.",
+        "answer": 2,
+        "choices": [
+            "Economic, Overuse of resources, Overpopulation, Over pollution,",
+            "Economic, Underuse of resources, Underpopulation, Unsustainability",
+            "Environmental, Underuse of resources, Overpopulation, Over pollution",
+            "Environmental, Overuse of resources, Underpopulation, Unsustainability"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key concept of the carrying capacity of the planet and how it relates to the finite resources available for human consumption and waste production.",
+        "instruction 2": "Consider how the intergenerational perspective on sustainability, which emphasizes the responsibility to future generations, differs from the environmental perspective, which prioritizes preserving the natural environment for current and future generations."
+    },
+    {
+        "question": "Healthy eating, particularly relating to sugar and salt consumption, food and packaging waste and supply chain CO2 emissions are all business ethics issues facing the ________.",
+        "answer": 0,
+        "choices": [
+            "Supermarket industry",
+            "Chemicals industry",
+            "Construction industry",
+            "Information and mobile technology industry"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify key areas of concern in the food industry that are linked to business ethics, such as the impact of sugar and salt consumption on public health, food waste, and environmental sustainability.",
+        "instruction 2": "Consider how the food industry can address these issues through responsible practices, such as sustainable packaging, reduced waste, and healthier product options, while also evaluating the potential implications for business operations and reputation."
+    },
+    {
+        "question": "_______ is a system of exchange based on guaranteeing producers in developing countries a living wage, decent working conditions and opportunities for community development.",
+        "answer": 1,
+        "choices": [
+            "Sustainable sourcing",
+            "Fair trade",
+            "Ethical sourcing",
+            "Supply chain responsibility"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Determine the specific system of exchange being referred to in the context of fair trade practices, focusing on its principles of social equity and economic justice for producers in developing countries.",
+        "instruction 2": "Evaluate how this system supports community development and addresses issues of sustainability, ensuring to consider the long-term impacts on producers and their communities."
+    },
+    {
+        "question": "_________ are individual beliefs about desirable behaviours and goals that are stable over time and which influence decision making.",
+        "answer": 1,
+        "choices": [
+            "Character traits",
+            "Personal values",
+            "Personal attitudes",
+            "Personal traits"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key characteristic of personal values that distinguishes them from other types of beliefs, such as attitudes or goals, focusing on their stability and influence on decision-making.",
+        "instruction 2": "Consider how personal values shape an individual's behavior, decision-making, and overall well-being, exploring the role of values in personal and professional contexts."
+    },
+    {
+        "question": "They are too irrational and uncodified.",
+        "answer": 1,
+        "choices": [
+            "3,4",
+            "1,3",
+            "2,3",
+            "4,1"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific aspect of the concept being described that is characterized as 'irrational' and 'uncodified', and consider how this relates to the context in which the concept is being applied.",
+        "instruction 2": "Evaluate the implications of this description, such as the potential challenges or limitations it may pose in terms of understanding, analyzing, or addressing the concept in a systematic or organized manner."
+    },
+    {
+        "question": "The purposes for which the information is used is in the public's interest.",
+        "answer": 0,
+        "choices": [
+            "1,2",
+            "1,3",
+            "2,3",
+            "1,2,3"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the public's interest in the context of the information being used, such as ensuring transparency, accountability, or facilitating informed decision-making.",
+        "instruction 2": "Consider how the information's purpose aligns with the public's interest, evaluating whether the intended use is consistent with the public's right to access and utilize information for their benefit."
+    },
+    {
+        "question": "The Private Sector Social Enterprise Model.",
+        "answer": 3,
+        "choices": [
+            "1,2,4",
+            "2,3,4",
+            "1,2,3,4",
+            "1,2,3"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key characteristics of social enterprises, including their social mission, revenue streams, and organizational structure, as well as how they differ from traditional businesses.",
+        "instruction 2": "Consider how private sector companies can adopt social enterprise principles and strategies to create positive social impact while generating revenue, highlighting potential benefits and challenges for both the company and society."
+    },
+    {
+        "question": "______ is the corporate role in governing citizenship rights for the individual",
+        "answer": 3,
+        "choices": [
+            "Political Corporate Social Responsibility",
+            "Triple Bottom Line",
+            "Sustainability",
+            "Corporate Citizenship"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key aspects of corporate social responsibility that involve governing citizenship rights for individuals, such as providing a safe and healthy work environment, fair compensation, and opportunities for personal growth and development.",
+        "instruction 2": "Consider how corporate policies and practices can influence and shape individual citizenship rights, including the impact of corporate social responsibility initiatives on local communities and society as a whole."
+    },
+    {
+        "question": "How the code is enforced.",
+        "answer": 1,
+        "choices": [
+            "1,2,3",
+            "1,2,4",
+            "1,3,4",
+            "2,3,4"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the specific code or regulation being enforced and its purpose, in order to understand the context and scope of the enforcement process.",
+        "instruction 2": "Consider the mechanisms and procedures used to ensure compliance with the code, such as monitoring, auditing, and penalties for non-compliance, and evaluate their effectiveness in maintaining the integrity of the code."
+    },
+    {
+        "question": "According to Evan and Freeman (1993), the Principle of ________ and the Principle of _______ can be used in a specific situation to determine who constitutes a _______.",
+        "answer": 0,
+        "choices": [
+            "Corporate rights, Corporate effect, Stakeholder",
+            "Corporate deniability, Corporate effect, Stakeholder",
+            "Corporate rights, Corporate responsibility, Stakeholder",
+            "Corporate rights, Corporate effect, Shareholder"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the principles mentioned in the text by Evan and Freeman (1993) that can be applied to determine the concept of a stakeholder, focusing on their relevance to the context of the situation.",
+        "instruction 2": "Consider how these principles can be combined to define the characteristics of a stakeholder, such as their interest, influence, or power, and how they may relate to the specific situation or context being examined."
+    },
+    {
+        "question": "The relationship between ethics and the law can be described as…",
+        "answer": 2,
+        "choices": [
+            "Incredibly close, in fact, in all instances what is ethical is also what is legal and vice versa.",
+            "Not close, ethics and the law share a small amount of overlap, but fundamentally address differing questions and themes.",
+            "Close, as there is considerable overlap between ethics and law, but the two are not equivalent.",
+            "Not at all close, ethics and the law are virtually incompatible."
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the primary ways in which ethics and the law intersect, such as the concept of moral obligation and the role of legal frameworks in shaping ethical behavior.",
+        "instruction 2": "Consider the potential tensions or conflicts that may arise between ethical principles and legal requirements, and how these interactions can influence the development and enforcement of laws and regulations."
+    },
+    {
+        "question": "In a business to business context, conflicts of interest can arise in two main ways: conflict of _______ and _______ interests, which might arise, for example, when a firm is hired as a supplier of professional services by another firm or conflict of _________ and ________ interests, such as where an individual's interests may conflict with that of their employer.",
+        "answer": 0,
+        "choices": [
+            "Professional, Organizational, Personal, Organizational",
+            "Professional, Individual, Personal, Organizational",
+            "Individual, Organizational, Organizational, Professional",
+            "Individual, Professional, Organizational, Personal"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the two main ways in which conflicts of interest can arise in a business-to-business context, focusing on the potential sources of conflict.",
+        "instruction 2": "Consider specific scenarios and examples that illustrate how these types of conflicts can emerge, such as a supplier of professional services or an individual's personal interests conflicting with their employer's goals."
+    },
+    {
+        "question": "________ are a business ethics management tool that have grown over the last few decades. Areas which these typically cover are compliance, corruption and environmental issues. However, they are constantly evolving, with for example, the onus on __________ having grown in recent years.",
+        "answer": 3,
+        "choices": [
+            "Annual reports, Company financial performance",
+            "Annual report, Internet - social media and networking",
+            "Codes of ethics, Company financial performance",
+            "Codes of ethics, Internet - social media and networking"
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the type of business ethics management tool being discussed, and explore its historical development and typical areas of focus, such as compliance, corruption, and environmental issues.",
+        "instruction 2": "Examine the evolution of this tool, highlighting any recent shifts in focus or emphasis, such as the growing importance of social responsibility or stakeholder engagement, and consider the implications for organizations and their ethical practices."
+    },
+    {
+        "question": "Which of the following statements is correct?",
+        "answer": 1,
+        "choices": [
+            "Business ethics is not a real concept as the rules and ethics of everyday life don't apply to the world of business.",
+            "Business Ethics is the study of business situations, activities and decisions where issues of right and wrong are addressed.",
+            "Business ethics cannot be defined as a real concept as it is an oxymoronic term.",
+            "Business ethics is concerned with the study of assessing the activities of a business based on their profitability."
+        ],
+        "subject": "business_ethics",
+        "instruction 1": "Identify the key terms and concepts in the statement, such as 'correct' and any specific conditions or criteria mentioned, to determine the scope of the inquiry.",
+        "instruction 2": "Evaluate the statement against established knowledge or facts, using logical reasoning and critical thinking to determine whether the statement aligns with known truths or is supported by credible sources."
+    }
+]
