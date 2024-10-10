@@ -14,7 +14,8 @@ class WrappedBlock(torch.nn.Module):
         self.normalize = False
         self.input_pos=None
         
-    def forward(self, *args, **kwargs):
+        
+    def forward(self,*args,edit=False, **kwargs):
         output = self.block(*args, **kwargs)
         if isinstance(output, tuple):
             self.output = output[0]
@@ -22,11 +23,10 @@ class WrappedBlock(torch.nn.Module):
         else:
             self.output = output
             modified = output
-        
         # print("output 0:")
         # print(output[0].shape)
         # print(self.controller.shape)
-        if self.controller is not None:
+        if self.controller is not None and edit == True:
             norm_pre = torch.norm(modified, dim=-1, keepdim=True)
 
             if self.mask is not None:
@@ -56,22 +56,20 @@ class WrappedBlock(torch.nn.Module):
             if type(mask) == torch.Tensor:
                 mask = mask.to(modified.device)
             # handle activation
+            # print(self.token_pos)
             if isinstance(self.token_pos, int):
                 modified[:, self.token_pos] = self.operator(modified[:, self.token_pos], self.controller[:, self.input_pos] * mask[:, self.input_pos])
             elif isinstance(self.token_pos, list) or isinstance(self.token_pos, tuple):
                 for i in range(0,len(self.token_pos)):
                     token=self.token_pos[i]
                     modified[:, token] = self.operator(modified[:, token], self.controller[self.input_pos[i], -1].unsqueeze(0) * mask[:, -1])
-                    
-            
-
             if self.normalize:
                 norm_post = torch.norm(modified, dim=-1, keepdim=True)
                 modified = modified / norm_post * norm_pre
-            if isinstance(self.token_pos,int):
-                self.token_pos-=1
-            elif isinstance(self.token_pos,list):
-                self.token_pos = [pos - 1 for pos in self.token_pos]
+            # if isinstance(self.token_pos,int):
+            #     self.token_pos-=1
+            # elif isinstance(self.token_pos,list):
+            #     self.token_pos = [pos - 1 for pos in self.token_pos]
         if isinstance(output, tuple):
             output = (modified,) + output[1:] 
         else:
@@ -83,8 +81,8 @@ class WrappedBlock(torch.nn.Module):
         self.normalize = normalize
         self.controller = activations
         self.mask = masks
-        self.token_pos=token_pos
-        self.input_pos=token_pos
+        # self.token_pos=token_pos
+        # self.input_pos=token_pos
         if operator == 'linear_comb':
             def op(current, controller):
                 return current + controller
@@ -111,7 +109,12 @@ class WrappedBlock(torch.nn.Module):
 
     def set_masks(self, masks):
         self.mask = masks
-
+    def set_token_pos(self,token_pos):
+        if isinstance(token_pos,list):
+            self.input_pos=[-1]*len(token_pos)
+        else:
+            self.input_pos=-1
+        self.token_pos=token_pos
 
 BLOCK_NAMES = [
     "self_attn",
@@ -163,8 +166,8 @@ class WrappedReadingVecModel(torch.nn.Module):
 
     def wrap_all(self):
         for layer_id, layer in enumerate(self.model.model.layers):
-            for block_name in BLOCK_NAMES:
-                self.wrap(layer_id, block_name)
+            # for block_name in BLOCK_NAMES:
+            #     self.wrap(layer_id, block_name)
             self.wrap_decoder_block(layer_id)
             
     def wrap_block(self, layer_ids, block_name):

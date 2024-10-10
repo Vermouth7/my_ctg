@@ -8,11 +8,15 @@ import re
 import time
 from difflib import SequenceMatcher
 
+import joblib
 import numpy as np
 import torch
 import torch.nn.functional as F
 from batch_repe import repe_pipeline_registry
 from datasets import load_dataset
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 from transformers import (AutoModel, AutoTokenizer, LlamaForCausalLM,
                           StoppingCriteria, StoppingCriteriaList, pipeline)
@@ -66,7 +70,7 @@ def gen(args):
             all_hidden_states[i+j]=sample_hs[j]
             del train_data[i + j]['new_q']
     
-    torch.save(all_hidden_states, args.classifier_data)
+    torch.save(all_hidden_states, args.original_data)
     with open(args.output_folder, 'w', encoding='utf-8') as output_file:
         json.dump(train_data, output_file, ensure_ascii=False, indent=4)
 
@@ -111,7 +115,7 @@ def eval_func(args):
         json.dump(data, output_file, ensure_ascii=False, indent=4)
 def comparison(args):
     sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=args.max_length)
-    model=LLM(model=args.model_path,gpu_memory_utilization=0.90)
+    model=LLM(model=args.model_path,gpu_memory_utilization=0.80)
     tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
     inputs=[]
@@ -130,9 +134,11 @@ def comparison(args):
     outputs = model.generate(inputs, sampling_params)
     res = [item.outputs[0].text for item in outputs]
     
-    for r,i in zip(res,data_com):
-        i['key']=r
-    
+    index=0
+    for i in data_com:
+        if i['result']==0:
+            i['key']=res[index]
+            index+=1
     with open(args.eval_file, 'w', encoding='utf-8') as output_file:
         json.dump(data_com, output_file, ensure_ascii=False, indent=4)
 
@@ -167,9 +173,12 @@ def find_token_pos(text, sentences, tokenizer):
 def extract_hs(args):
     tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
-    train_data=torch.load(args.classifier_data)
+    train_data=torch.load(args.original_data)
     with open(args.eval_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
+    
+    positive_samples = []
+    negative_samples = []
     
     for item in data:
         if item['result']==1:
@@ -192,14 +201,60 @@ def extract_hs(args):
             sentences=list(answer.values())
             ref=item['generated_text']
             token_pos = find_token_pos(ref, sentences, tokenizer)
-            
+            matched_positions = []
             for sentence, start, end, match_ratio in token_pos:
-                sample_data=train_data[item['id']][start:end]
-                ## next: stack tensor and label it as 1 
-                ## sample some 0 label
-                ## tran the classifier
+                for i in range(start, end):  
+                    sample_data = train_data[item['id']][i]  
+                    positive_samples.append((sample_data, 1))
+                matched_positions.append((start, end))
+            
+            current_pos = 0
+            for start, end in matched_positions:
+                if current_pos < start:
+                    for i in range(current_pos, start):
+                        sample_data = train_data[item['id']][i]
+                        negative_samples.append((sample_data, 0))
+                current_pos = end
+                
+            if current_pos < train_data[item['id']].shape[0]:
+                for i in range(current_pos, train_data[item['id']].shape[0]):
+                    sample_data = train_data[item['id']][i]
+                    negative_samples.append((sample_data, 0))
+    
+    positive_count = len(positive_samples)
+    if len(negative_samples) > positive_count:
+        negative_samples = random.sample(negative_samples, positive_count)
+    
+    dataset = positive_samples + negative_samples
+    random.shuffle(dataset)
+    
+    inputs = [sample[0] for sample in dataset]
+    labels = [sample[1] for sample in dataset]
+    
+    inputs_tensor = torch.stack(inputs)
+    labels_tensor = torch.tensor(labels)
+    
+    torch.save((inputs_tensor, labels_tensor), args.classifier_data)
         
-        
+
+def train_classifier(args):
+    data=torch.load(args.classifier_data)
+    features, labels = data  
+
+    features = features.to(torch.float32).cpu().numpy()  # (num_samples, 4096)
+    labels = labels.cpu().numpy()      # (num_samples,)
+
+    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
+
+    model = LogisticRegression(max_iter=1000)  
+    model.fit(X_train, y_train)
+
+    y_pred = model.predict(X_test)
+
+    accuracy = accuracy_score(y_test, y_pred)
+    print(f"Test Accuracy: {accuracy * 100:.2f}%")
+    joblib.dump(model, args.classifier)
+    
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
@@ -209,12 +264,17 @@ if __name__ == "__main__":
     parser.add_argument('--max_length', type=int, default=512)
     parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res1.json')
     parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res1.json')
-    parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/demo.pt')
+    parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/demo.pt')
+    parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/train.pt')
+    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/logistic_regression_model.pkl')
+    
+    
     args = parser.parse_args()
     set_seed(args)
     
     # gen(args)
     # eval_func(args)
-    comparison(args)
+    # comparison(args)
     # extract_hs(args)
+    train_classifier(args)
     

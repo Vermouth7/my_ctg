@@ -21,22 +21,23 @@ class RepControlPipeline(TextGenerationPipeline):
         assert isinstance(layers,list),"layers layers be list"
         layers=[i-1 for i in layers]
         if isinstance(layers, list):
-            self.wrapped_model.wrap_block(layers, block_name=block_name)
+            # self.wrapped_model.wrap_block(layers, block_name=block_name)
+            self.wrapped_model.wrap_all()
             self.block_name = block_name
             self.layers = layers
         
 
         super().__init__(model=model, tokenizer=tokenizer, **kwargs)
    
-    def __call__(self, text_inputs, token_pos=-1,activations=None, logits=None, control_method="hidden_states",**kwargs):
+    def __call__(self, text_inputs, tokenizer,token_pos=-1,activations=None, logits=None, control_method="hidden_states",**kwargs):
 
         if control_method=="hidden_states" and activations is not None and self.layers is not None:
             self.wrapped_model.reset()
             self.wrapped_model.set_controller(self.layers, activations, self.block_name,token_pos)
+        self.set_pos(text_inputs,tokenizer)
 
-        
         if control_method=='hidden_states':
-            outputs = super().__call__(text_inputs=text_inputs,return_full_text=False, use_cache=False,**kwargs)
+            outputs = super().__call__(text_inputs=text_inputs,return_full_text=False, use_cache=False,output_hidden_states=True,**kwargs)
             # outputs=self.ctg_hidden_states(text_inputs,kwargs.get('batch_size'),kwargs.get('max_new_tokens'))
         elif control_method=='logits':
             outputs=self.ctg_logits(text_inputs,logits,kwargs.get('batch_size'),kwargs.get('max_new_tokens'))
@@ -102,7 +103,12 @@ class RepControlPipeline(TextGenerationPipeline):
         ps = self.tokenizer.batch_decode(input_ids[:, pre_token:], skip_special_tokens=True)
         res.extend(ps)
         return res
-    
+    def set_pos(self,inputs,tokenizer):
+        input_ids=tokenizer(inputs,padding=True,truncation=True,return_tensors="pt").input_ids
+        batch,seq_len=input_ids.shape
+        token_positions_list=[seq_len-1]*batch
+        for layer in self.wrapped_model.model.model.layers:
+            layer.set_token_pos(token_positions_list) 
     def ctg_mix(self,text_inputs,batch_size,logits):
         pass
     def get_next_token(self,input_ids,token_pos=-1,activations=None,**kwargs):

@@ -1,6 +1,6 @@
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='2'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 import argparse
 import json
 import re
@@ -30,7 +30,7 @@ def process_data(sample):
 def get_split_hs(model,tokenizer,):
     all_hiddens= []
     
-    with open(os.path.join("/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_gpt.json"), 'r', encoding='utf-8') as input_file:
+    with open(os.path.join("/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_llama.json"), 'r', encoding='utf-8') as input_file:
         data=json.load(input_file)
         
     for sample in tqdm(data, desc=f"Processing dataset", unit="line"):
@@ -86,20 +86,21 @@ def CTG_hs(args):
     
     
     run_results = []
-    batch_size = 2
+    batch_size = 1
     test_data=[]
     split_hiddens= get_split_hs(model,tokenizer)
-    prompt="You're a mathematician who's good at reasoning. Answer the following questions using detailed reasoning steps, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
-    with open(os.path.join("/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_gpt.json".format()), 'r', encoding='utf-8') as test_file:
+    # prompt="You're a mathematician who's good at reasoning. Answer the following questions using detailed reasoning steps, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
+    prompt="You're a mathematician who's good at reasoning. Answer the following questions, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
+    with open(os.path.join("/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_llama.json".format()), 'r', encoding='utf-8') as test_file:
         test_data = json.load(test_file)
-    # for i in test_data:
-    #     i['new_q']=prompt_template(tokenizer,prompt.format(question=i['question']))
+    for i in test_data:
+        i['new_q']=prompt_template(tokenizer,prompt.format(question=i['question']))
     
     ### COT
-    train_data=load_dataset("/data1/chh/datasets/openai/gsm8k",'main')
-    train_data=train_data['train'].to_pandas().to_dict(orient='records')
-    for i in test_data:
-        i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
+    # train_data=load_dataset("/data1/chh/datasets/openai/gsm8k",'main')
+    # train_data=train_data['train'].to_pandas().to_dict(orient='records')
+    # for i in test_data:
+    #     i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
     
     batches_test = [test_data[i:i + batch_size] for i in range(0, len(test_data), batch_size)]
     batches_hidden=[split_hiddens[i:i + batch_size] for i in range(0,split_hiddens.shape[0], batch_size)]
@@ -107,8 +108,11 @@ def CTG_hs(args):
     for index,item in enumerate(tqdm(batches_test, desc="Processing prompts")):
         inputs=[i['new_q'] for i in item]
         vector=batches_hidden[index]
-        
-        res = control_pipeline(inputs, activations=vector,token_pos=-1,batch_size=batch_size, max_new_tokens=args.max_length)
+        if index==53:
+            res = control_pipeline(inputs,tokenizer, activations=vector,token_pos=-1,batch_size=batch_size, max_new_tokens=args.max_length)
+            
+        else:
+            res = control_pipeline(inputs,tokenizer, activations=vector,token_pos=-1,batch_size=batch_size, max_new_tokens=args.max_length)
         
         res = [item[0]['generated_text'] for item in res]
         for r,i in zip(res,item):
@@ -130,7 +134,9 @@ def vllm_gen(args):
     run_results = []
     batch_size = 1
     test_data=[]
-    prompt="You're a mathematician who's good at reasoning. Answer the following questions using detailed reasoning steps, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
+    # prompt="You're a mathematician who's good at reasoning. Answer the following questions using detailed reasoning steps, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
+    prompt="You're a mathematician who's good at reasoning. Answer the following questions, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
+    
     with open(os.path.join("/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_llama.json".format()), 'r', encoding='utf-8') as test_file:
         test_data = json.load(test_file)
     train_data=load_dataset("/data1/chh/datasets/openai/gsm8k",'main')
@@ -213,11 +219,11 @@ if __name__ == "__main__":
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
 
     # parser.add_argument('--model_path', type=str, default='/data1/chh/models/model_sft/llama3-8b/merge/qwen/sft3')
-    parser.add_argument('--output_folder', type=str, default='./results/gsm8k/res4.json')
+    parser.add_argument('--output_folder', type=str, default='./results/gsm8k/test1.json')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_length', type=int, default=512)
     
-    parser.add_argument('--eval_file',type=str,default='./results/gsm8k/res4.json')
+    parser.add_argument('--eval_file',type=str,default='./results/gsm8k/test1.json')
     
     args = parser.parse_args()
     set_seed(args)
