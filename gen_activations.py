@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='0'
+os.environ['CUDA_VISIBLE_DEVICES']='3'
 
 import re
 import time
@@ -11,12 +11,15 @@ from difflib import SequenceMatcher
 import joblib
 import numpy as np
 import torch
+import torch.nn as nn
 import torch.nn.functional as F
+import torch.optim as optim
 from batch_repe import repe_pipeline_registry
 from datasets import load_dataset
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
+from torch.utils.data import DataLoader, TensorDataset
 from tqdm import tqdm
 from transformers import (AutoModel, AutoTokenizer, LlamaForCausalLM,
                           StoppingCriteria, StoppingCriteriaList, pipeline)
@@ -237,7 +240,7 @@ def extract_hs(args):
     torch.save((inputs_tensor, labels_tensor), args.classifier_data)
         
 
-def train_classifier(args):
+def train_classifier_LR(args):
     data=torch.load(args.classifier_data)
     features, labels = data  
 
@@ -254,7 +257,52 @@ def train_classifier(args):
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Test Accuracy: {accuracy * 100:.2f}%")
     joblib.dump(model, args.classifier)
-    
+
+class classifier_mlp(nn.Module):
+    def __init__(self):
+        super(classifier_mlp, self).__init__()
+        self.fc1 = nn.Linear(4096, 2048)
+        self.fc2 = nn.Linear(2048, 512)
+        self.fc3 = nn.Linear(512, 1) 
+
+    def forward(self, x):
+        x = torch.relu(self.fc1(x))
+        x = torch.relu(self.fc2(x))
+        x = torch.sigmoid(self.fc3(x))  
+        return x
+def train_classifier_mlp(args):
+    data = torch.load(args.classifier_data)
+    features, labels = data  
+    features = torch.tensor(features, dtype=torch.float32).to(device)
+    labels = torch.tensor(labels, dtype=torch.float32).view(-1, 1).to(device)
+    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
+
+    train_dataset = TensorDataset(X_train, y_train)
+    train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+
+    model = classifier_mlp().to(device)
+    criterion = nn.BCELoss()  
+    optimizer = optim.Adam(model.parameters(), lr=0.0001)
+
+    for epoch in tqdm(range(100)):  
+        model.train()
+        for batch_features, batch_labels in train_loader:
+            batch_features, batch_labels = batch_features.to(device), batch_labels.to(device)  
+            optimizer.zero_grad()
+            outputs = model(batch_features)
+            loss = criterion(outputs, batch_labels)
+            loss.backward()
+            optimizer.step()
+
+    model.eval()
+    with torch.no_grad():
+        X_test = X_test.to(device)
+        y_pred = model(X_test).round()  
+        accuracy = accuracy_score(y_test.cpu(), y_pred.cpu())
+        print(f"Test Accuracy: {accuracy * 100:.2f}%")
+
+    torch.save(model.state_dict(), args.classifier)
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
@@ -266,7 +314,7 @@ if __name__ == "__main__":
     parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res1.json')
     parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/demo.pt')
     parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/train.pt')
-    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/logistic_regression_model.pkl')
+    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/mlp.pt')
     
     
     args = parser.parse_args()
@@ -276,5 +324,7 @@ if __name__ == "__main__":
     # eval_func(args)
     # comparison(args)
     # extract_hs(args)
-    train_classifier(args)
+    # train_classifier_LR(args)
+    train_classifier_mlp(args)
+    
     

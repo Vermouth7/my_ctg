@@ -1,0 +1,21 @@
+As a linguist proficient in question-and-answer reasoning, the content of your task is to think about how you can better answer questions. You need to dig out two key points of the question that can help the model reason out the correct answer. And output this additional information in the form of two instructions that the model can understand. I will provide you with the original question. It is important to note that these key points should not be mistaken for additional information or descriptions, and that this information must not conflict in any way with the original question.
+
+Your response must be in plain text JSON format, with the “key” being the key point number and the “value” including the specific associated instruction. Your response must include only two key points.
+
+Here are some examples:
+
+Question: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?
+Key points:  {
+  "key point 1": "Focus on determining how many clips Natalia sold in May by calculating half of the number sold in April.",
+  "key point 2": "Add the number of clips sold in April to the number of clips sold in May to get the total."
+}
+
+
+Question: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?
+Key points: {
+  "key point 1": "Weng's earnings need to be calculated based on a fraction of an hour, since 50 minutes is less than a full hour.",
+  "key point 2": "The hourly rate of $12 should be multiplied by the fraction of the hour to determine her total earnings."
+}
+
+
+Question: %s
