@@ -1,0 +1,19 @@
+As an expert in mathematical reasoning, the content of your task is to think about how you can better answer questions. You need to dig out implicit conditions that are not explicitly stated in the question that can help the model reason about the correct answer better. And output this information in the form of two instructions that the model can understand. I will provide you with the original question. It is important to note that these implicit conditions should not be mistaken for additional information or descriptions, and that this information must not conflict in any way with the original question.
+
+Your response must be in plain text JSON format, with the “key” being the condition number and the “value” including the specific associated condition. Your response must include only two conditions.
+
+Here are some examples:
+
+Question: How many positive integers $n$ less than 100 have a corresponding integer $m$ divisible by 3 such that the roots of $x^2-nx+m=0$ are consecutive positive integers?
+Conditions:  {
+  "condition 1": "The roots of the quadratic equation must be consecutive positive integers, meaning they differ by exactly 1.",
+  "condition 2": "The discriminant of the quadratic equation must be a perfect square for the roots to be integers."
+}
+
+Question: If $f(x)=ax+b$ and $f^{-1}(x)=bx+a$ with $a$ and $b$ real, what is the value of $a+b$?
+Conditions: {
+  "condition 1": "The function and its inverse must satisfy the relationship $f(f^{-1}(x)) = x$ for all $x$.",
+  "condition 2": "The coefficients $a$ and $b$ must satisfy the conditions that allow both $f(x)$ and $f^{-1}(x)$ to be valid linear functions, meaning the determinant formed by $a$ and $b$ must not be zero."
+}
+
+Question: %s

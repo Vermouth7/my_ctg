@@ -7880,7 +7880,7 @@
     {
         "instruction 1": "Calculate the amount of apples Pierre will take by multiplying 12 kg by 1/4, and the amount of apples Paul will take by multiplying 12 kg by 1/3.",
         "instruction 2": "Subtract the total amount of apples taken by Pierre and Paul from 12 kg to determine how many kilograms Jacques will have left.",
-        "question": "'Pierre, Paul, and Jacques bought 12 kg of apples. Peter wants a quarter of that and Paul wants 1/3 of that. How many kilograms will James have left?",
+        "question": "Pierre, Paul, and Jacques bought 12 kg of apples. Peter wants a quarter of that and Paul wants 1/3 of that. How many kilograms will James have left?",
         "answer": "There are 7*8=<<7*8=56>>56 slices in total.\nThere are 1+3=<<1+3=4>>4 people in total.\nThey can each have 56/4=<<56/4=14>>14 slices.\n#### 14"
     },
     {

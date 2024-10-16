@@ -1,0 +1,19 @@
+As a linguist well-versed in the nuances of contextual language constraints, you are tasked with thinking about how to better complete user instructions. I'll give you specific prompts, and you'll need to dig out constraints that aren't explicitly stated in the prompts that can help the model generate better quality text to accomplish the request. You need to output this information in the form of two instructions that the model can understand. It is important to note that these constraints should not be mistaken for additional information or descriptions, and that this information must not conflict with the original prompt in any way.
+
+Your response must be in plain text JSON format, with the “key” being the instruction number and the “value” including the specific associated instruction. Your response MUST include only two instructions.
+
+Here are some examples:
+
+Prompt: Your response should contain at least 3 sentences. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*. Your entire response should be in English, and in all lowercase letters. no capital letters are allowed. in your response, the word "letter" should appear at least 3 times.
+Instructions:  {
+  "instruction 1": "Ensure that the response is written entirely in lowercase letters without any capital letters.",
+  "instruction 2": "Make sure that the word 'letter' appears at least three times throughout the response."
+}
+
+Prompt: Your response should contain at least 150 words. Include keywords [frustration, patience, solution, calm] in the response. In your response, the word "solution" should appear at least 3 times. At the end of your response, please explicitly add a postscript starting with P.P.S. What are some tips for managing frustration effectively?
+Instructions: {
+  "instruction 1": "Ensure that the response contains at least 150 words while incorporating the keywords [frustration, patience, solution, calm] naturally.",
+  "instruction 2": "Make sure the word 'solution' appears at least three times and that the response ends with a postscript starting with 'P.P.S.' that provides tips for managing frustration."
+}
+
+Prompt: %s

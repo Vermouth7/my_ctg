@@ -29,7 +29,7 @@ class RepControlPipeline(TextGenerationPipeline):
 
         super().__init__(model=model, tokenizer=tokenizer, **kwargs)
    
-    def __call__(self, text_inputs, tokenizer,mode=0,token_pos=-1,activations=None, logits=None, control_method="hidden_states",**kwargs):
+    def __call__(self, text_inputs, tokenizer,token_pos=-1,activations=None, logits=None, control_method="hidden_states",**kwargs):
 
         if control_method=="hidden_states" and activations is not None and self.layers is not None:
             self.wrapped_model.reset()
@@ -37,7 +37,7 @@ class RepControlPipeline(TextGenerationPipeline):
         self.set_pos(text_inputs,tokenizer)
 
         if control_method=='hidden_states':
-            outputs = super().__call__(text_inputs=text_inputs,return_full_text=False, use_cache=False,output_hidden_states=True,mode=mode,**kwargs)
+            outputs = super().__call__(text_inputs=text_inputs,return_full_text=False, use_cache=False,output_hidden_states=True,**kwargs)
             # outputs=self.ctg_hidden_states(text_inputs,kwargs.get('batch_size'),kwargs.get('max_new_tokens'))
         elif control_method=='logits':
             outputs=self.ctg_logits(text_inputs,logits,kwargs.get('batch_size'),kwargs.get('max_new_tokens'))

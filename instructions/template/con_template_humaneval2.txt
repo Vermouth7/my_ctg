@@ -1,0 +1,20 @@
+As a python code expert, part of your task is to think about how to better complete code based on requirements. I will provide you with code requirements or code snippets of prompts that you need to dig out implicit conditions that are not explicitly stated in the requirements that can help the model to better write the right code. You need to output this information in the form of two instructions that the model can understand. It is important to note that these implicit conditions should not be mistaken for additional information or descriptions, and that this information must not conflict in any way with the original requirements.
+
+Your response must be in plain text JSON format, with the “key” being the condition number and the “value” including the specific associated condition. Your response MUST include only two conditions.
+
+Here are some examples:
+
+Prompt: Write a python function to calculate the sum of the numbers in a list between the indices of a specified range.
+Conditions:  {
+  "condition 1": "Ensure that the start index is less than or equal to the end index and both are within the valid range of the list indices.",
+  "condition 2": "Handle the case where the start and end indices are equal by returning the element at that index."
+}
+
+
+Prompt: Write a function to generate a square matrix filled with elements from 1 to n raised to the power of 2 in spiral order.
+Conditions: {
+  "condition 1": "Ensure that the function handles both even and odd dimensions of the matrix correctly when filling elements in spiral order.",
+  "condition 2": "Handle edge cases where n is 0 or 1, returning an empty matrix or a single element matrix accordingly."
+}
+
+Prompt: %s

@@ -1,15 +1,17 @@
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='0'
+os.environ['CUDA_VISIBLE_DEVICES']='4'
 import argparse
 import json
 import re
 import time
 
+import accelerate
 import numpy as np
 import sympy
 import torch
 import torch.nn.functional as F
+from accelerate import Accelerator, PartialState
 from answer_extraction import extract_math_answer
 from batch_repe import repe_pipeline_registry
 from datasets import load_dataset
@@ -18,6 +20,7 @@ from tqdm import tqdm
 from transformers import AutoModel, AutoTokenizer, LlamaForCausalLM, pipeline
 from utils import *
 from vllm import LLM, SamplingParams
+from wrappedmodel import WrappedModel
 
 repe_pipeline_registry()
 device = torch.device("cuda")
@@ -30,20 +33,30 @@ def process_data(sample):
     
     return res
 
-def get_split_hs(model,tokenizer,):
+def get_split_hs(model,tokenizer,batch_data,batch_size):
     all_hiddens= []
     
     with open(os.path.join("/home/chh/repos/my_ctg/instructions/math/math_2steps_llama.json"), 'r', encoding='utf-8') as input_file:
         data=json.load(input_file)
+    samples=[]
+    for batch_group in batch_data:
+        matched_samples = []
+        for sample in batch_group:
+            question = sample['problem']  
+            
+            matched_sample = next((item for item in data if item['problem'] == question), None)
+            if matched_sample:
+                matched_samples.append(matched_sample)
+        samples.extend(matched_samples)
         
-    for sample in tqdm(data, desc=f"Processing dataset", unit="line"):
+    for sample in accelerate.utils.tqdm(data, desc=f"Processing dataset", unit="line"):
         res=process_data(sample)
         
         hidden_states_list = []
         for sub_instruction in res['sub_ins']:
             sub_instruction=prompt_template(tokenizer=tokenizer,message=sub_instruction)
             inputs = tokenizer(sub_instruction, return_tensors='pt')
-            inputs.to(device)
+            inputs.to(model.model.device)
             with torch.no_grad():
                 outputs = model(**inputs,output_hidden_states=True)
             
@@ -59,90 +72,108 @@ def get_split_hs(model,tokenizer,):
         average_hidden_state = average_hidden_state.squeeze(0)
         all_hiddens.append(average_hidden_state)
     all_hiddens=torch.stack(all_hiddens)
-    return all_hiddens
+    batches_hidden=[all_hiddens[i:i + batch_size] for i in range(0,all_hiddens.shape[0], batch_size)]
+    
+    return batches_hidden
 
 
 def CTG_hs(args):
+    distributed_state = PartialState()
+    
     tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
-    model = LlamaForCausalLM.from_pretrained(args.model_path, torch_dtype=torch.bfloat16).to(device)
-
-    tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
+    model = LlamaForCausalLM.from_pretrained(args.model_path, torch_dtype=torch.bfloat16,device_map=distributed_state.device)
+    
+    tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id    
     model = model.eval()
-    start_time = time.time()
-        
-    # best_layer = get_insert_layer(model,tokenizer,task,output)
+    model=WrappedModel(model,tokenizer)
     
     insert_layer=[18]
-
+    layers=[i-1 for i in insert_layer]
     print('insert layer: ',insert_layer)
-    
-    # print(logits.shape)
-    # print(hiddens.shape)
-    
-    control_pipeline = pipeline(
-        "ctg-control", 
-        model=model, 
-        tokenizer=tokenizer, 
-        layers=insert_layer,
-        device=device)
-    
-    
     
     run_results = []
     batch_size = 1
-    split_hiddens= get_split_hs(model,tokenizer)
     
-    prompt="Answer the following questions, and you MUST present the final result in LaTeX using a \\boxed{{}} without any units.\nProblem: {problem}"
+    # prompt="Answer the following questions, and you MUST present the final result in LaTeX using a \\boxed{{}} without any units.\nProblem: {problem}"
     # prompt="Answer the following questions, and you MUST put your final answer within \\boxed{{}}.\nProblem: {problem}"
     
-    data=load_dataset("/data1/chh/datasets/lighteval/MATH-Hard")
+    data=load_dataset("/data1/chh/datasets/lighteval/MATH")
     test_data=[]
     
     for i in data['test']:
-        instruction=prompt_template(tokenizer,prompt.format(problem=i['problem']))
-        test_data.append({'new_q':instruction,'problem':i['problem'],'solution':i['solution']})
-    
+        instruction=fewshot_samples(tokenizer, question=i['problem'])
+        # instruction=prompt_template(tokenizer,prompt.format(problem=i['problem']))
+        test_data.append({'temp':instruction,'problem':i['problem'],'solution':i['solution']})
     
     batches_test = [test_data[i:i + batch_size] for i in range(0, len(test_data), batch_size)]
-    batches_hidden=[split_hiddens[i:i + batch_size] for i in range(0,split_hiddens.shape[0], batch_size)]
-
-    for index,item in enumerate(tqdm(batches_test, desc="Processing prompts")):
-        inputs=[i['new_q'] for i in item]
-        vector=batches_hidden[index]
-        res = control_pipeline(inputs,tokenizer, mode=2,activations=vector,token_pos=-1,batch_size=batch_size, max_new_tokens=args.max_length)
-        
-        res = [item[0]['generated_text'] for item in res]
-        for r,i in zip(res,item):
-            run_results.append({'problem':i['problem'],'solution':i['solution'],'generated_text':r})
     
-    with open(args.output_folder, 'w', encoding='utf-8') as output_file:
-        json.dump(run_results, output_file, ensure_ascii=False, indent=4)
-
-
-
-    end_time = time.time()
-    print("total run time %.2f" % (end_time - start_time))
+    with distributed_state.split_between_processes(batches_test,apply_padding=True) as batched_prompts:
+        vector_pool=get_split_hs(model,tokenizer,batched_prompts,batch_size)
+        for index, item in enumerate(accelerate.utils.tqdm(batched_prompts, desc="Processing prompts")):
+            inputs = [i['temp'] for i in item]
+            vector = vector_pool[index]
+            
+            model.reset()
+            model.set_controller(layer_ids=layers, activations=vector)
+            model.set_pos(inputs)
+            
+            inputs = tokenizer(inputs, return_tensors="pt", padding=True).to(distributed_state.device)
+            input_ids_cutoff = inputs.input_ids.size(dim=1)
+            
+            generated_ids = model.generate(
+                **inputs,
+                use_cache=False,
+                max_new_tokens=args.max_new_tokens,
+                temperature=0.6,
+                top_p=0.95,
+                eos_token_id=tokenizer.eos_token_id,
+                pad_token_id=tokenizer.eos_token_id,
+                mode=0,
+                output_hidden_states=True
+            )
+            
+            res = tokenizer.batch_decode(
+                [ids[input_ids_cutoff:] for ids in generated_ids],
+                skip_special_tokens=True,
+            )
+            
+            for r, i in zip(res, item):
+                run_results.append({'problem': i['problem'], 'solution': i['solution'],'generated_text':r})
+    torch.distributed.barrier()  
+    res_gather = accelerate.utils.gather_object(run_results)
+    torch.distributed.barrier()  
+    
+    if distributed_state.is_main_process:
+        memo = set()
+        final_res = []
+        for result in res_gather:
+            if result['problem'] not in memo:
+                final_res.append(result)
+                memo.add(result['problem'])
+        with open(args.output_file, 'w', encoding='utf-8') as file:
+            for item in final_res:
+                file.write(json.dumps(item) + '\n')
+        eval_func(args.output_file)
 
 def vllm_gen(args):
-    sampling_params = SamplingParams(temperature=0.6, top_p=0.95,max_tokens=args.max_length)
+    sampling_params = SamplingParams(temperature=0.6, top_p=0.95,max_tokens=args.max_new_tokens)
     model=LLM(model=args.model_path,gpu_memory_utilization=0.90)
     tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
     run_results = []
     inputs=[]
     
-    prompt="Answer the following questions, and you MUST present the final result in LaTeX using a \\boxed{{}} without any units.\nProblem: {problem}"
+    # prompt="Problem:{problem}\nPlease reason step by step, and put your final answer within \\boxed{{}}."
     # prompt="Answer the following questions, and you MUST put your final answer within \\boxed{{}}.\nProblem: {problem}"
     
-    data=load_dataset("/data1/chh/datasets/lighteval/MATH-Hard")
-    train_data=data['train'].to_pandas().to_dict(orient='records')
+    data=load_dataset("/data1/chh/datasets/lighteval/MATH")
     test_data=data['test']
     
     for i in test_data:
-        instruction=prompt_template(tokenizer,prompt.format(problem=i['problem']))
-        inputs.append(instruction)
-        # instruction=fewshot_samples(tokenizer, question=i['problem'])
+        # instruction=prompt_template(tokenizer,prompt.format(problem=i['problem']))
         # inputs.append(instruction)
+        instruction=fewshot_samples(tokenizer, question=i['problem'])
+        inputs.append(instruction)
         
     
     outputs = model.generate(inputs, sampling_params)
@@ -151,9 +182,9 @@ def vllm_gen(args):
     for r,i in zip(res,test_data):
         run_results.append({'problem':i['problem'],'solution':i['solution'],'generated_text': r})
     
-    with open(args.output_folder, 'w', encoding='utf-8') as output_file:
+    with open(args.output_file, 'w', encoding='utf-8') as output_file:
         json.dump(run_results, output_file, ensure_ascii=False, indent=4)
-
+    eval_func(args.output_file)
 def fewshot_samples(tokenizer,question) -> list[dict]:
     def question_prompt(s):
         return f'Problem: {s}'
@@ -174,34 +205,27 @@ def fewshot_samples(tokenizer,question) -> list[dict]:
             "solution": "If Terrell lifts two 20-pound weights 12 times, he lifts a total of $2\\cdot 12\\cdot20=480$ pounds of weight.  If he lifts two 15-pound weights instead for $n$ times, he will lift a total of $2\\cdot15\\cdot n=30n$ pounds of weight.  Equating this to 480 pounds, we can solve for $n$:\n\\begin{align*}\n30n&=480\\\n\\Rightarrow\\qquad n&=480/30=\\boxed{16}\n\\end{align*}\nFinal Answer: The final answer is $16$. I hope it is correct.",
         },
         {
-            "problem": "If the system of equations\n\n\\begin{align*}\n6x-4y&=a,\\\n6y-9x &=b.\n\\end{align*}has a solution $(x, y)$ where $x$ and $y$ are both nonzero,\nfind $\\frac{a}{b},$ assuming $b$ is nonzero.",
+            "problem": "If the system of equations\n\n\\begin{align*}\n6x-4y&=a,\\\n6y-9x  &=b.\n\\end{align*}has a solution $(x, y)$ where $x$ and $y$ are both nonzero,\nfind $\\frac{a}{b},$ assuming $b$ is nonzero.",
             "solution": "If we multiply the first equation by $-\\frac{3}{2}$, we obtain\n\n$$6y-9x=-\\frac{3}{2}a.$$Since we also know that $6y-9x=b$, we have\n\n$$-\\frac{3}{2}a=b\\Rightarrow\\frac{a}{b}=\\boxed{-\\frac{2}{3}}.$$\nFinal Answer: The final answer is $-\\frac{2}{3}$. I hope it is correct.",
         },
     ]
-    # res=str()
-    # for i in nshot:
-    #     string=f"Problem:\n{i['problem']}\nSolution:\n{i['solution']}\n"
-    #     res+=string
-    # return res
     chats = []
 
-    random.seed(42)
     for qna in nshot:
         chats.append(
             {"role": "user", "content": question_prompt(qna["problem"])})
         chats.append(
             {"role": "assistant", "content": answer_prompt(qna["solution"])})
 
-    chats.append({"role": "user", "content": question_prompt(question)})
-
+    chats.append({"role": "user", "content": question_prompt(question)+"\nPlease reason step by step, and put your final answer within \\boxed{}."})
     return tokenizer.apply_chat_template(
         chats,
         tokenize=False,
         add_generation_prompt=True,
     )
 
-def eval_func(args):
-    with open(args.eval_file, 'r', encoding='utf-8') as f:
+def eval_func(eval_file):
+    with open(eval_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     correct_count = 0
@@ -224,20 +248,16 @@ def eval_func(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
-
-    # parser.add_argument('--model_path', type=str, default='/data1/chh/models/model_sft/llama3-8b/merge/qwen/sft3')
-    parser.add_argument('--output_folder', type=str, default='./results/math/res1.json')
+    parser.add_argument('--output_file', type=str, default='./results/math/baseline_cot.json')
     parser.add_argument('--seed', type=int, default=42)
-    parser.add_argument('--max_length', type=int, default=512)
-    
-    parser.add_argument('--eval_file',type=str,default='./results/math/res1.json')
+    parser.add_argument('--max_new_tokens', type=int, default=512)
+    parser.add_argument('--eval_file',type=str,default='./results/math/baseline_cot.json')
     
     args = parser.parse_args()
     set_seed(args)
     
     
+    vllm_gen(args)
     # CTG_hs(args)
-    # vllm_gen(args)
-    eval_func(args)
     
-    
+# lm_eval --model hf --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct, dtype="bfloat16" --tasks hendrycks_math --num_fewshot 4  --device cuda:0 --batch_size 4 --apply_chat_template --fewshot_as_multiturn

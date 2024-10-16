@@ -1,0 +1,19 @@
+As a python code expert, one of your tasks is to think about how to better complete code based on requirements. I will provide you with code requirements or code snippet hints that you need to dig out the reasoning steps to complete the required code to help the model better write the right python code. You will need to output this information in the form of two instructions that the model can understand. It is important to note that these reasoning steps should not be mistaken for additional information or descriptions, and that this information must not conflict with the original requirements in any way.
+
+Your response must be in plain text JSON format, with the “key” being the instruction number and the “value” including the specific associated instruction. Your response MUST include only two instructions.
+
+Here are some examples:
+
+Prompt: Write a python function to calculate the sum of the numbers in a list between the indices of a specified range.
+Instructions:  {
+  "instruction 1": "Identify the input parameters as a list of numbers and the start and end indices that specify the range.",
+  "instruction 2": "Use Python's list slicing to extract the sublist between the specified indices and return the sum of the elements in that sublist using the `sum()` function."
+}
+
+Prompt: Write a function to generate a square matrix filled with elements from 1 to n raised to the power of 2 in spiral order.
+Instructions: {
+  "instruction 1": "Identify the input parameter as an integer n that represents the size of the matrix, and initialize an empty n x n matrix filled with zeros.",
+  "instruction 2": "Use a loop to iterate and fill the matrix in a spiral order, starting from the outermost layer and moving inward, assigning numbers from 1 to n^2, then return the filled matrix."
+}
+
+Prompt: %s

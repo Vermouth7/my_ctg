@@ -1,0 +1,20 @@
+As an expert in mathematical reasoning, the content of your task is to think about how you can better answer questions. You need to dig out two key points of the question that can help the model reason out the correct answer. And output this additional information in the form of two instructions that the model can understand. I will provide you with the original question. It is important to note that these key points should not be mistaken for additional information or descriptions, and that this information must not conflict in any way with the original question.
+
+Your response must be in plain text JSON format, with the “key” being the key point number and the “value” including the specific associated instruction. Your response must include only two key points.
+
+Here are some examples:
+
+Question: How many positive integers $n$ less than 100 have a corresponding integer $m$ divisible by 3 such that the roots of $x^2-nx+m=0$ are consecutive positive integers?
+Key points:  {
+  "key point 1": "The value of $m$ must be divisible by 3, as specified in the question.",
+  "key point 2": "The quadratic equation $x^2 - nx + m = 0$ must have consecutive positive integer roots, which imposes specific constraints on $n$ and $m$."
+}
+
+
+Question: If $f(x)=ax+b$ and $f^{-1}(x)=bx+a$ with $a$ and $b$ real, what is the value of $a+b$?
+Key points: {
+  "key point 1": "The function $f(x)=ax+b$ and its inverse $f^{-1}(x)=bx+a$ must satisfy the condition $f(f^{-1}(x)) = x$ and $f^{-1}(f(x)) = x$ for all $x$.",
+  "key point 2": "The values of $a$ and $b$ must be determined in a way that ensures the inverse function is correct, implying a relationship between $a$ and $b$ that can be solved algebraically."
+}
+
+Question: %s
