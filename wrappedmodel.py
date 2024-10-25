@@ -15,7 +15,7 @@ class WrappedBlock(torch.nn.Module):
         self.input_pos=None
         
         
-    def forward(self,*args,edit=False, **kwargs):
+    def forward(self,*args,edit, **kwargs):
         output = self.block(*args, **kwargs)
         if isinstance(output, tuple):
             self.output = output[0]

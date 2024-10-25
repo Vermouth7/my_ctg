@@ -29,52 +29,52 @@ ds=data['train']
 
 
 new_data=[]    
-# input_string=[]
-# for i in ds:
-#     input_string.append(template%(i['prompt']))
-# outputs=model.generate(input_string,sampling_params)
-# for d,output in zip(ds,outputs):
-#     content = output.outputs[0].text
-#     answer={}
-#     answer['prompt']=d['prompt']
-#     answer['split']=content
-#     new_data.append(answer)
+input_string=[]
+for i in ds:
+    input_string.append(template%(i['prompt']))
+outputs=model.generate(input_string,sampling_params)
+for d,output in zip(ds,outputs):
+    content = output.outputs[0].text
+    answer={}
+    answer['prompt']=d['prompt']
+    answer['split']=content
+    new_data.append(answer)
 
 
-# for item in new_data:
-#     split_content = item.get('split', '')
-#     split_content.strip()
-#     json_match = re.search(r'Instructions:\s*(\{(?:[^{}]|(?1))*\})', split_content, re.DOTALL)
+for item in new_data:
+    split_content = item.get('split', '')
+    split_content.strip()
+    json_match = re.search(r'Instructions:\s*(\{(?:[^{}]|(?1))*\})', split_content, re.DOTALL)
 
-#     if json_match:
-#         json_text = json_match.group(1)
+    if json_match:
+        json_text = json_match.group(1)
         
-#         try:
-#             json_data = json.loads(json_text)
-#             if json_data:
-#                 item['instruction 1'] = json_data['instruction 1']
-#                 item['instruction 2'] = json_data['instruction 2']
-#                 del item['split']
-#         except json.JSONDecodeError:
-#             pattern_1 = r'"instruction 1":\s*"(.*?)"'
-#             pattern_2 = r'"instruction 2":\s*"(.*?)"'
+        try:
+            json_data = json.loads(json_text)
+            if json_data:
+                item['instruction 1'] = json_data['instruction 1']
+                item['instruction 2'] = json_data['instruction 2']
+                del item['split']
+        except json.JSONDecodeError:
+            pattern_1 = r'"instruction 1":\s*"(.*?)"'
+            pattern_2 = r'"instruction 2":\s*"(.*?)"'
             
-#             instruction_1 = re.search(pattern_1, item['split'])
-#             instruction_2 = re.search(pattern_2, item['split'])
-#             if instruction_1 and instruction_2:
-#                 item['instruction 1']=instruction_1.group(1)[0]
-#                 item['instruction 2']=instruction_2.group(1) 
-#             del item['split']
+            instruction_1 = re.search(pattern_1, item['split'])
+            instruction_2 = re.search(pattern_2, item['split'])
+            if instruction_1 and instruction_2:
+                item['instruction 1']=instruction_1.group(1)[0]
+                item['instruction 2']=instruction_2.group(1) 
+            del item['split']
             
-#             # print(item)
-# for d in ds:
-#     answer={}
-#     answer['prompt']=d['prompt']
-#     new_data.append(answer)
-# with open('./instructions/ifeval/ifeval_2steps_llama_3.json', 'w', encoding='utf-8') as output_file:
-#     json.dump(new_data, output_file, ensure_ascii=False, indent=4)
+            # print(item)
+for d in ds:
+    answer={}
+    answer['prompt']=d['prompt']
+    new_data.append(answer)
+with open('./instructions/ifeval/ifeval_2steps_llama_3.json', 'w', encoding='utf-8') as output_file:
+    json.dump(new_data, output_file, ensure_ascii=False, indent=4)
 
-# print("Data processed and saved successfully!")
+print("Data processed and saved successfully!")
 
     
 with open('./instructions/ifeval/ifeval_2steps_llama_3.json', 'r', encoding='utf-8') as output_file:

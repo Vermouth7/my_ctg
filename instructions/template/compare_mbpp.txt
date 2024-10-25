@@ -1,0 +1,6 @@
+As a proficient python programming linguist, your task content is to dig the gap between the wrong code and the right code. Combined with the code requirements in the prompt, you need to pick out the key sentences in the wrong code that are closely related to the code-generated reasoning and lead the reasoning process in the wrong direction. I will provide you with the correct code and the original prompt for reference. Please note that you can only output the exact same sentence as the error code with no additional words.
+The answer must be in plain text JSON format without any additional words, with the “key” being the sentence number and the “value” including the key sentence from the error code.
+
+Prompt: {prompt}
+Correct code: {answer}
+Wrong code: {generated}

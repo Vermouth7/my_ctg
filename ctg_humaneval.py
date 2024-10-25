@@ -1,6 +1,6 @@
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='5'
+os.environ['CUDA_VISIBLE_DEVICES']='7'
 import argparse
 import copy
 import json
@@ -33,7 +33,7 @@ def process_data(sample):
 def get_split_hs(model,tokenizer,num_samples_per_task):
     all_hiddens= []
     
-    with open(os.path.join("/home/chh/repos/my_ctg/instructions/humaneval/humaneval_2steps_llama.json"), 'r', encoding='utf-8') as input_file:
+    with open(os.path.join("/home/chh/repos/my_ctg/instructions/humaneval/humaneval_2steps_llama_2.json"), 'r', encoding='utf-8') as input_file:
         data=json.load(input_file)
     expanded_data=[]
     for item in data:
@@ -117,7 +117,7 @@ def CTG_hs(args):
             top_p=0.95,
             eos_token_id=tokenizer.eos_token_id,
             pad_token_id=tokenizer.eos_token_id,  
-            mode=2,
+            mode=0,
             output_hidden_states=True
         )
 
@@ -163,7 +163,7 @@ def generate_batch_completion(
     generated_ids = model.generate(
         **inputs,
         use_cache=True,
-        max_new_tokens=1024,
+        max_new_tokens=args.max_new_tokens,
         temperature=0.1,
         top_p=0.95,
         do_sample=True,
@@ -227,15 +227,15 @@ Please continue to complete the function. You are not allowed to modify the give
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
-    parser.add_argument('--output_file', type=str, default='./results/humaneval/baseline.json')
+    parser.add_argument('--output_file', type=str, default='./results/humaneval/res5.json')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_new_tokens', type=int, default=512)
     
     args = parser.parse_args()
     set_seed(args)
     
-    # CTG_hs(args)
-    gen(args)
+    CTG_hs(args)
+    # gen(args)
     
         
 

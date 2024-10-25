@@ -5,14 +5,14 @@ Responses detailing the instructions associated with the reasoning should be in 
 Here are some examples:
 
 Question: How many positive integers $n$ less than 100 have a corresponding integer $m$ divisible by 3 such that the roots of $x^2-nx+m=0$ are consecutive positive integers?
-Reasoning steps: {
+Instructions: {
   "instruction 1": "Set up the conditions for the roots of the quadratic equation to be consecutive positive integers. Let the roots be r and r+1, and use Vieta's formulas to express the sum and product of the roots in terms of n and m.",
   "instruction 2": "Translate the conditions into equations: use r + (r + 1) = n and r(r + 1) = m. Solve these equations for r, ensuring that m is divisible by 3. Identify the range of r such that n is less than 100, and count the number of valid values for n."
 
 }
 
 Question: If $f(x)=ax+b$ and $f^{-1}(x)=bx+a$ with $a$ and $b$ real, what is the value of $a+b$?
-Reasoning steps: {
+Instructions: {
   "instruction 1": "Use the property of inverse functions, where f(f^{-1}(x)) = x, to set up an equation relating f(x) and f^{-1}(x). Substitute f^{-1}(x) = bx + a into f(x) = ax + b and simplify to form an equation involving a and b.",
   "instruction 2": "Equate the coefficients from the resulting expression to ensure that f(f^{-1}(x)) equals x. Solve the resulting system of equations for a and b, and then find the value of a + b."
 }

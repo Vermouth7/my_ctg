@@ -81,11 +81,14 @@ def vllm_gen(args):
     run_results = []
     inputs=[]
     
-    data=load_dataset("/data1/chh/datasets/google/IFEval")
-    test_data=data['train']
+    # data=load_dataset("/data1/chh/datasets/google/IFEval")
+    # test_data=data['train']
+    
+    with open(os.path.join("/home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_3.json"), 'r', encoding='utf-8') as input_file:
+        test_data=json.load(input_file)
     
     for i in test_data:
-        instruction=prompt_template(tokenizer,i['prompt'])
+        instruction=prompt_template(tokenizer,i['prompt']+" "+i['instruction 1']+i['instruction 2'])
         inputs.append(instruction)
         
     
@@ -173,7 +176,7 @@ def CTG_hs_pal(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
-    parser.add_argument('--output_file', type=str, default='./results/ifeval/res5.jsonl')
+    parser.add_argument('--output_file', type=str, default='./results/ifeval/res7.jsonl')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_new_tokens', type=int, default=1024)
         
@@ -181,11 +184,11 @@ if __name__ == "__main__":
     accelerate.utils.set_seed(args.seed)
     
     # for baseline
-    # vllm_gen(args)
+    vllm_gen(args)
 
-    CTG_hs_pal(args)
+    # CTG_hs_pal(args)
 
 # python -m instruction_following_eval.evaluation_main \
 #   --input_data=/home/chh/repos/my_ctg/instruction_following_eval/data/input_data.jsonl \
-#   --input_response_data=./results/ifeval/res6.jsonl \
+#   --input_response_data=./results/ifeval/res7.jsonl \
 #   --output_dir=./results/ifeval/

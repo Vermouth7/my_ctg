@@ -18,6 +18,7 @@ from answer_extraction import extract_math_answer
 from batch_repe import repe_pipeline_registry
 from datasets import load_dataset
 from human_eval.data import read_problems, write_jsonl
+from MBPP.human_eval.evaluation import evaluate_functional_correctness
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
@@ -32,12 +33,61 @@ repe_pipeline_registry()
 device = torch.device("cuda")
     
 def extract_code_blocks(text):
-    code_blocks = re.findall(r'```(.*?)```', text, re.DOTALL)
+    code_blocks = re.findall(f'```python\n(.*?)```', text, re.DOTALL)
     if code_blocks:
         return code_blocks[0]
     else:
         return text
+def convert_for_evaluation(example):
+    gpt_completion = example['gpt_completion']
+    generation = gpt_completion
+    try:
+        code_block: str = re.findall(f'```python\n(.*?)```', gpt_completion, re.DOTALL | re.IGNORECASE)[0]
+        generation = code_block
+    except Exception as ex:
+        print("Failed to extract codeblock:\n{}".format(gpt_completion))
 
+    example['generation'] = generation
+    return example
+
+def read_test_examples(data_path: str):
+    def format_test_example(q, tests, code: str=None):
+        prompt = ">>> Problem:\n{}\n>>> Test Cases:\n{}\n".format(q.strip(), "\n".join(tests))
+        if code:
+            code = code.replace("\r", "").replace("\t", "    ")
+            prompt += "\n>>> Code:\n```python\n{}\n```".format(code)
+        return prompt
+
+    examples = [json.loads(x) for x in open(data_path)]
+    print("Read all {} examples from {} over!".format(len(examples), data_path))
+
+    # test_cases
+    examples_str = []
+    for i in range(1,4):
+        ex = examples[i]
+        q, test, code = ex['text'], ex['test'], ex['code']
+        ex_prompt = format_test_example(q, test, code)
+        example_prompt = '- Example {}:\n{}'.format(i, ex_prompt)
+        examples_str += [example_prompt]
+
+    for i in range(0, len(examples)):
+        ex = examples[i]
+        q, test, code = ex['text'], ex['test'], ex['code']
+        
+        prompt = format_test_example(q, test, code=None)
+
+        prompt_with_shots = '''
+Please refer the given examples and generate a python function for my problem.
+Examples are listed as follows:
+{}
+
+Here is my problem:
+{}
+'''.strip().format('\n\n'.join(examples_str), prompt)
+        yield {
+            'task_id': ex['task_id'],
+            'prompt': prompt_with_shots
+        }
 
 def gen(args):
     tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
@@ -50,12 +100,13 @@ def gen(args):
     run_results = []
     batch_size = 1
     
-    problems = [json.loads(x) for x in open('/home/chh/repos/my_ctg/MBPP/data/mbpp_train.jsonl')]
+    # problems = [json.loads(x) for x in open('/home/chh/repos/my_ctg/MBPP/data/mbpp.jsonl')]
+    problems=list(read_test_examples('/home/chh/repos/my_ctg/MBPP/data/mbpp.jsonl'))
     train_data=[]
     format_tabs=True
     
     for i in problems:
-        prompt=prompt_template(tokenizer,instruct_prompt(i['text']))
+        prompt=prompt_template(tokenizer,i['prompt'])
         train_data.append(dict(task_id=i['task_id'],prompt=prompt))
         
     
@@ -68,20 +119,15 @@ def gen(args):
 
         outputs = model.generate(
             **inputs,
-            use_cache=False,
             max_new_tokens=args.max_new_tokens,
             temperature=0.1,
-            top_p=0.90,
+            top_p=0.95,
             eos_token_id=tokenizer.eos_token_id,
             pad_token_id=tokenizer.eos_token_id,  
-            mode=0,
             output_hidden_states=True,
             return_dict_in_generate=True,
-            output_attentions=False,
-            output_scores=False
         )
         sample_hs=[]
-        print(outputs)
         
         for token in range(len(outputs.hidden_states)):
             sample_hs.append(outputs.hidden_states[token][-1][:,-1])
@@ -96,9 +142,10 @@ def gen(args):
             generated_tokens = generated_output[input_length:]
             decoded_output = tokenizer.decode(generated_tokens, skip_special_tokens=True, clean_up_tokenization_spaces=True)
             
-            train_data[index + j]['completion'] = extract_code_blocks(decoded_output)
-            # all_hidden_states[index+j]=sample_hs[j]
-            
+            train_data[index + j]['generation'] = extract_code_blocks(decoded_output)
+            all_hidden_states[index+j]=sample_hs[j]
+    for i in train_data:
+        del i['prompt']
     torch.save(all_hidden_states, args.original_data)
     
     write_jsonl(args.output_file, train_data)
@@ -114,23 +161,27 @@ def comparison(args):
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
     inputs=[]
     data_com=[]
-    with open(args.eval_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    with open('/home/chh/repos/my_ctg/instructions/template/compare_math.txt','r',encoding='utf-8') as f:
+    with open('/home/chh/repos/my_ctg/results/humaneval_act/res1.json_results.jsonl', 'r', encoding='utf-8') as f:
+        data=[json.loads(line) for line in f]
+    with open('/home/chh/repos/my_ctg/instructions/template/compare_mbpp.txt','r',encoding='utf-8') as f:
         template=f.read()
+    with open('/home/chh/repos/my_ctg/MBPP/data/mbpp.jsonl', 'r', encoding='utf-8') as f:
+        original_data=[json.loads(line) for line in f]
     for i in range(len(data)):
         record=data[i]
         record['id']=i
         data_com.append(record)
-        if record['result']==0:
-            inputs.append(prompt_template(tokenizer,template.format(question=record['problem'],answer=record['solution'],generated=record['generated_text'])))
+        if record['passed']==False:
+            for item in original_data:
+                if record['task_id'] == item['task_id']:
+                    inputs.append(prompt_template(tokenizer,template.format(prompt=item['text'],answer=item['code'],generated=record['generation'])))
     
     outputs = model.generate(inputs, sampling_params)
     res = [item.outputs[0].text for item in outputs]
     
     index=0
     for i in data_com:
-        if i['result']==0:
+        if i['passed']==False:
             i['key']=res[index]
             index+=1
     with open(args.eval_file, 'w', encoding='utf-8') as output_file:
@@ -175,7 +226,14 @@ def extract_hs(args):
     negative_samples = []
     
     for item in data:
-        if item['result']==1:
+        if item['passed']==True:
+        #     for i in range(0, len(train_data[item['id']])):
+        #         sample_data = train_data[item['id']][i]
+        #         positive_samples.append((sample_data, 1))
+        # else:
+        #     for i in range(0, len(train_data[item['id']])):
+        #         sample_data = train_data[item['id']][i]
+        #         positive_samples.append((sample_data, 1))
             continue
         content=item['key']
         json_start = content.find('{')
@@ -193,7 +251,7 @@ def extract_hs(args):
                 
         if answer:
             sentences=list(answer.values())
-            ref=item['generated_text']
+            ref=item['generation']
             token_pos = find_token_pos(ref, sentences, tokenizer)
             matched_positions = []
             for sentence, start, end, match_ratio in token_pos:
@@ -214,8 +272,10 @@ def extract_hs(args):
                 for i in range(current_pos, train_data[item['id']].shape[0]):
                     sample_data = train_data[item['id']][i]
                     negative_samples.append((sample_data, 0))
+        
     positive_count = len(positive_samples)
-    
+    print(positive_count)
+    print(len(negative_samples))
     if len(negative_samples) > positive_count:
         negative_samples = random.sample(negative_samples, positive_count)
     
@@ -266,7 +326,7 @@ def train_classifier_mlp(args):
     features, labels = data  
     features = torch.tensor(features, dtype=torch.float32).to(device)
     labels = torch.tensor(labels, dtype=torch.float32).view(-1, 1).to(device)
-    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.1, random_state=42)
 
     train_dataset = TensorDataset(X_train, y_train)
     train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
@@ -300,22 +360,21 @@ if __name__ == "__main__":
 
     # parser.add_argument('--model_path', type=str, default='/data1/chh/models/model_sft/llama3-8b/merge/qwen/sft3')
     parser.add_argument('--seed', type=int, default=42)
-    parser.add_argument('--max_new_tokens', type=int, default=256)
+    parser.add_argument('--max_new_tokens', type=int, default=512)
     parser.add_argument('--eval_file',type=str,default='./results/humaneval_act/res1.json')
-    parser.add_argument('--output_folder', type=str, default='./results/humaneval_act/res1.json')
+    parser.add_argument('--output_file', type=str, default='./results/humaneval_act/res1.json')
     parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/humaneval/demo.pt')
     parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/humaneval/train.pt')
-    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/humaneval/mlp.pt')
+    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/humaneval/logistic_regression_model.pkl')
     
     
     args = parser.parse_args()
     set_seed(args)
     
-    gen(args)
-    # eval_func(args)
+    # gen(args)
     # comparison(args)
     # extract_hs(args)
-    # train_classifier_LR(args)
+    train_classifier_LR(args)
     # train_classifier_mlp(args)
     
     

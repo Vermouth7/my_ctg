@@ -35,7 +35,7 @@ def api_gpt(user_prompt: str, api_base:str,api_key: str):
     logger.error(f'Failed after {MAX_API_RETRY} retries.')
     return 'error'
 
-with open('/home/chh/repos/my_ctg/instructions/template/con_template_gsm8k.txt','r',encoding='utf-8') as f:
+with open('/home/chh/repos/my_ctg/instructions/template/con_template_gsm8k2.txt','r',encoding='utf-8') as f:
     template=f.read()
 
 ds = load_dataset("/data1/chh/datasets/openai/gsm8k",'main')
@@ -60,13 +60,17 @@ for i in tqdm(ds):
         except Exception as e:
                 print(f"json failed to parse: {e}")
                 print(f"content: {content}")
-        print(answer)
         if answer:
             answer['question']=input_string
             answer['answer']=i['answer']
             new_data.append(answer)
+        else:
+            answer={}
+            answer['question']=input_string
+            answer['answer']=i['answer']
+            new_data.append(answer)
     
-with open("./dataset/gsm8k_2steps.json", "w", encoding="utf-8") as f:
+with open("/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_llama_6.json", "w", encoding="utf-8") as f:
     json.dump(new_data, f, ensure_ascii=False, indent=4)
 
 print(f"save {len(new_data)} records")

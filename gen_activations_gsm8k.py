@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='3'
+os.environ['CUDA_VISIBLE_DEVICES']='6'
 
 import re
 import time
@@ -28,7 +28,32 @@ from vllm import LLM, SamplingParams
 
 repe_pipeline_registry()
 device = torch.device("cuda")
-    
+
+def nshot_chats(tokenizer,nshot_data: list, n: int, question: str) -> dict:
+
+    def question_prompt(s):
+        return f'Question: {s}'
+
+    def answer_prompt(s):
+        return f'Answer: {s}'
+
+    chats = []
+    random.seed(42)
+    for qna in nshot_data[:n]:
+        chats.append(
+            {"role": "user", "content": question_prompt(qna["question"])})
+        chats.append(
+            {"role": "assistant", "content": answer_prompt(qna["answer"])})
+
+    chats.append({"role": "user", "content": "Let's think step by step. At the end, you MUST write the answer as an integer after '####'\n."+question_prompt(question)})
+
+    return tokenizer.apply_chat_template(
+        chats,
+        tokenize=False,
+        add_generation_prompt=True,
+    )
+
+
 def gen(args):
     model = LlamaForCausalLM.from_pretrained(args.model_path, torch_dtype=torch.bfloat16).to(device)
     model = model.eval()
@@ -36,14 +61,15 @@ def gen(args):
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
     model.generation_config.pad_token_id = tokenizer.pad_token_id
     run_results = []
-    batch_size = 8
+    batch_size = 2
     test_data=[]
     prompt="You're a mathematician who's good at reasoning. Answer the following questions using detailed reasoning steps, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
     
     train_data=load_dataset("/data1/chh/datasets/openai/gsm8k",'main')
-    train_data=train_data['train'].to_pandas().to_dict(orient='records')[:1000]
+    train_data=train_data['train'].to_pandas().to_dict(orient='records')[:3000]
     for i in train_data:
-        i['new_q']=prompt_template(tokenizer,prompt.format(question=i['question']))
+        # i['new_q']=prompt_template(tokenizer,prompt.format(question=i['question']))
+        i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
         
     inputs=[i['new_q'] for i in train_data]
     
@@ -62,7 +88,7 @@ def gen(args):
             sample_hs.append(outputs.hidden_states[token][-1][:,-1])
         sample_hs=torch.stack(sample_hs,dim=0)
         sample_hs=sample_hs.transpose(0,1)
-        
+        sample_hs = sample_hs.cpu()
         for j, generated_output in enumerate(outputs.sequences):
             input_length = input_ids[j].size(0)
             
@@ -223,8 +249,9 @@ def extract_hs(args):
                 for i in range(current_pos, train_data[item['id']].shape[0]):
                     sample_data = train_data[item['id']][i]
                     negative_samples.append((sample_data, 0))
-    
     positive_count = len(positive_samples)
+    print(positive_count)
+    print(len(negative_samples))
     if len(negative_samples) > positive_count:
         negative_samples = random.sample(negative_samples, positive_count)
     
@@ -310,11 +337,11 @@ if __name__ == "__main__":
     # parser.add_argument('--model_path', type=str, default='/data1/chh/models/model_sft/llama3-8b/merge/qwen/sft3')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_length', type=int, default=512)
-    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res1.json')
-    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res1.json')
-    parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/demo.pt')
-    parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/train.pt')
-    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/mlp.pt')
+    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res2.json')
+    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res2.json')
+    parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/demo2.pt')
+    parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/train2.pt')
+    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/mlp2.pt')
     
     
     args = parser.parse_args()
