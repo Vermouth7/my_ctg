@@ -1,0 +1,33 @@
+As a linguist well versed in the nuances of contextual linguistic constraints, your task is to indicate constraints that were stated in the original instruction. Each constraint is represented by an instruction that the model can understand. It is important to note that you do not mistake the constraints for additional information or descriptions, and that these constraints must not conflict in any way with the original instructions.
+
+Your response detailing the related constraints and new instruction should be formatted in plain text JSON, with the 'key' being the instruction number and the 'value' including content of instruction.
+
+Here are some examples:
+
+Original instruction: Generate a 10-line poem that describes a natural environment, with each line containing 8-12 words. Use concrete imagery, and include at least two metaphorical phrases. Follow an AABB rhyme scheme, and end each line with punctuation. Avoid abstract language and balance descriptive adjectives with strong action verbs.
+Constraints: {
+  "1": "The poem must be exactly 10 lines long.",
+  "2": "Each line must contain between 8 and 12 words.",
+  "3": "The poem should describe a natural environment.",
+  "4": "The poem should use concrete imagery.",
+  "5": "The poem should include at least two metaphorical phrases.",
+  "6": "The poem should follow an AABB rhyme scheme.",
+  "7": "Each line must end with punctuation.",
+  "8": "The poem should avoid abstract language.",
+  "9": "The poem should balance descriptive adjectives with strong action verbs."
+}
+
+
+Original instruction: Generate a list of ten items a person might need for a camping trip. Each item should be a singular noun or noun phrase, followed by a brief explanation of its purpose in one sentence of no more than 15 words. Ensure no overlap in function, and number each item from 1 to 10.
+Constraints: {
+  "1": "Generate a list of exactly ten items.",
+  "2": "Each item must be something a person might need for a camping trip.",
+  "3": "Each item must be a singular noun or noun phrase.",
+  "4": "Each item should be followed by a brief explanation of its purpose.",
+  "5": "The explanation must be one sentence and no more than 15 words.",
+  "6": "Ensure that no two items have overlapping functions.",
+  "7": "Each item should be numbered sequentially from 1 to 10."
+}
+
+Original instruction: %s
+Constraints: 

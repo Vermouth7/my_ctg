@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='6'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 
 import re
 import time
@@ -85,7 +85,7 @@ def gen(args):
         
         sample_hs=[]
         for token in range(len(outputs.hidden_states)):
-            sample_hs.append(outputs.hidden_states[token][-1][:,-1])
+            sample_hs.append(outputs.hidden_states[token][20][:,-1])
         sample_hs=torch.stack(sample_hs,dim=0)
         sample_hs=sample_hs.transpose(0,1)
         sample_hs = sample_hs.cpu()
@@ -337,11 +337,11 @@ if __name__ == "__main__":
     # parser.add_argument('--model_path', type=str, default='/data1/chh/models/model_sft/llama3-8b/merge/qwen/sft3')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_length', type=int, default=512)
-    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res2.json')
-    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res2.json')
-    parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/demo2.pt')
-    parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/train2.pt')
-    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/mlp2.pt')
+    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res3.json')
+    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res3.json')
+    parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/demo3.pt')
+    parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/train_20th.pt')
+    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/logistic_regression_model3.pkl')
     
     
     args = parser.parse_args()
@@ -351,7 +351,7 @@ if __name__ == "__main__":
     # eval_func(args)
     # comparison(args)
     # extract_hs(args)
-    # train_classifier_LR(args)
-    train_classifier_mlp(args)
+    train_classifier_LR(args)
+    # train_classifier_mlp(args) 
     
     

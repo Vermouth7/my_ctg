@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='7'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 
 import re
 import time
@@ -371,10 +371,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
     set_seed(args)
     
-    # gen(args)
+    gen(args)
     # comparison(args)
     # extract_hs(args)
-    train_classifier_LR(args)
+    # train_classifier_LR(args)
     # train_classifier_mlp(args)
     
     
