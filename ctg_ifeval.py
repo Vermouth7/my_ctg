@@ -173,10 +173,156 @@ def CTG_hs_pal(args):
             for item in final_res:
                 file.write(json.dumps(item) + '\n')
 
+
+def process_data_2(sample):
+        res={}
+        res['sub_ins']=[]
+        
+        for i in sample.keys():
+            if i !='prompt':
+                res['sub_ins'].append(sample[i])
+        
+        return res
+    
+def get_split_hs_3(model,tokenizer,split_file,batch_data,batch_size=1):
+        all_hiddens= []
+        
+        with open(split_file, 'r', encoding='utf-8') as input_file:
+            data=json.load(input_file)
+            
+        samples=[]
+        constraints=[]
+        if 'gsm8k' in split_file:
+            key='question'
+        elif 'math' in split_file:
+            key='problem'
+        elif 'ifeval' in split_file:
+            key='prompt'
+        else:
+            key=None
+        
+        for batch_group in batch_data:
+            matched_samples = []
+            for sample in batch_group:  
+                
+                matched_sample = next((item for item in data if item[key] == sample[key]), None)
+                if matched_sample:
+                    
+                    matched_samples.append(matched_sample)
+            samples.extend(matched_samples)
+        
+        for sample in tqdm(samples, desc=f"Processing dataset", unit="line"):
+            res=process_data_2(sample)
+            cons_str=""
+            hidden_states_list = []
+            for i in range(len(res['sub_ins'])):
+                cons_str+=str(i)+"."+res['sub_ins'][i]+'\n'
+            constraints.append(cons_str)
+            for sub_instruction in res['sub_ins']:
+                sub_instruction=prompt_template(tokenizer,sub_instruction)
+                inputs = tokenizer(sub_instruction, return_tensors='pt')
+                inputs.to(device)
+                with torch.no_grad():
+                    outputs = model(**inputs,output_hidden_states=True)
+                
+                hidden_states = outputs.hidden_states
+                stacked_hidden_states = torch.stack([layer_output[:, -1:, :] for layer_output in hidden_states]) # 33 1 token_pos 4096
+                
+                # stacked_hidden_states = torch.mean(stacked_hidden_states, dim=2, keepdim=True)
+                stacked_hidden_states = torch.transpose(stacked_hidden_states, 0, 1)
+                hidden_states_list.append(stacked_hidden_states)
+
+            # print(len(hidden_states_list))
+            # print(hidden_states_list[0].shape)
+            hidden_states_tensor = torch.stack(hidden_states_list)
+            all_hiddens.append(hidden_states_tensor)
+
+        # all_hiddens=torch.stack(all_hiddens)
+        
+        return all_hiddens,constraints
+
+def CTG_hs_pal_case(args):
+    distributed_state = PartialState()
+    
+    tokenizer = AutoTokenizer.from_pretrained(args.model_path, padding_side='left')
+    model = LlamaForCausalLM.from_pretrained(args.model_path, torch_dtype=torch.bfloat16,device_map=distributed_state.device)
+    tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
+    model = model.eval()
+    model = WrappedModel(model, tokenizer)
+    
+    insert_layer = [3,20]
+    layers = [i - 1 for i in insert_layer]
+    print('insert layer: ', insert_layer)
+    
+    run_results = []
+    batch_size = 1 
+    data=[]
+    with open("/home/chh/repos/my_ctg/instruction_following_eval/data/input_data.jsonl",'r') as input_file:
+        for line in input_file:
+            data.append(json.loads(line))
+    
+    test_data = []
+    for i in data:
+        instruction = prompt_template(tokenizer, i['prompt'])
+        test_data.append({'prompt': i['prompt'], 'temp': instruction})
+    
+    batches_test = [test_data[i:i + batch_size] for i in range(0, len(test_data), batch_size)]
+    
+    with distributed_state.split_between_processes(batches_test,apply_padding=True) as batched_prompts:
+        vector_pool,cons=get_split_hs_3(model,tokenizer,'/home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_4.json',batched_prompts)
+        for index, item in enumerate(accelerate.utils.tqdm(batched_prompts, desc="Processing prompts")):
+            inputs = [i['temp'] for i in item]
+            vector = vector_pool[index]
+            
+            model.reset()
+            model.set_controller_2(layer_ids=layers, activations=vector,normalize=True,operator='linear_comb',coef=0.5)
+            model.set_pos(inputs)
+            
+            inputs = tokenizer(inputs, return_tensors="pt", padding=True).to(distributed_state.device)
+            input_ids_cutoff = inputs.input_ids.size(dim=1)
+            
+            generated_ids = model.generate(
+                **inputs,
+                use_cache=False,
+                max_new_tokens=args.max_new_tokens,
+                temperature=0.6,
+                top_p=0.90,
+                eos_token_id=tokenizer.eos_token_id,
+                pad_token_id=tokenizer.eos_token_id,
+                mode=2,
+                output_hidden_states=True,
+                discriminator='/home/chh/repos/my_ctg/sft/classifier/gsm8k/logistic_regression_model.pkl',
+                constraints=cons[index],
+                my_model=model,
+                my_tokenizer=tokenizer,
+            )
+            
+            res = tokenizer.batch_decode(
+                [ids[input_ids_cutoff:] for ids in generated_ids],
+                skip_special_tokens=True,
+            )
+            
+            for r, i in zip(res, item):
+                run_results.append({'prompt': i['prompt'], 'response': r})
+    torch.distributed.barrier()  
+    
+    res_gather = accelerate.utils.gather_object(run_results)
+    torch.distributed.barrier()  
+    if distributed_state.is_main_process:
+        memo = set()
+        final_res = []
+        for result in res_gather:
+            if result['prompt'] not in memo:
+                final_res.append(result)
+                memo.add(result['prompt'])
+        with open(args.output_file, 'w', encoding='utf-8') as file:
+            for item in final_res:
+                file.write(json.dumps(item) + '\n')
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
-    parser.add_argument('--output_file', type=str, default='./results/ifeval/res7.jsonl')
+    parser.add_argument('--output_file', type=str, default='./results/ifeval/res9.jsonl')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_new_tokens', type=int, default=1024)
         
@@ -184,11 +330,12 @@ if __name__ == "__main__":
     accelerate.utils.set_seed(args.seed)
     
     # for baseline
-    vllm_gen(args)
+    # vllm_gen(args)
 
     # CTG_hs_pal(args)
+    CTG_hs_pal_case(args)
 
 # python -m instruction_following_eval.evaluation_main \
 #   --input_data=/home/chh/repos/my_ctg/instruction_following_eval/data/input_data.jsonl \
-#   --input_response_data=./results/ifeval/res7.jsonl \
+#   --input_response_data=./results/ifeval/res9.jsonl \
 #   --output_dir=./results/ifeval/

@@ -1,44 +1,154 @@
 #!/bin/bash
-
-# 循环控制 insert_layers 从 5 到 25
-for i in $(seq 26 32)
+for i in {1..32}
 do
-    INSERT_LAYERS="--insert_layers [20,$i]"
-    
+    INSERT_LAYERS="--insert_layers [$i]"
+
     CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --num_processes=4 --main_process_port 29501 -m lm_eval --model hf_wrap \
-    --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
-    --tasks ifeval \
-    --batch_size 1 \
-    --num_fewshot 0 \
-    --output_path /home/chh/repos/my_ctg/results/ifeval/ \
-    --log_samples \
-    --my_mode 0 \
-    --split_file /home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_2.json \
-    --apply_chat_template \
-    --gen_kwargs top_p=0.90,temperature=0.6 \
-    $INSERT_LAYERS \
-    --normalize \
-    --operator 'linear_comb' \
-    --coef 0.5
+        --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+        --tasks ifeval \
+        --batch_size 1 \
+        --num_fewshot 0 \
+        --output_path /home/chh/repos/my_ctg/results/ifeval/ \
+        --log_samples \
+        --my_mode 1 \
+        --apply_chat_template \
+        $INSERT_LAYERS \
+        --normalize \
+        --operator 'linear_comb' \
+        --coef 0.5 \
+        --split_file /home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_2.json
 done
 
-for i in $(seq 1 4)
-do
-    INSERT_LAYERS="--insert_layers [20,$i]"
+
+
+
+# CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --num_processes=4 --main_process_port 29501 -m lm_eval --model hf_wrap \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+#     --tasks gsm8k_cot_llama \
+#     --batch_size 1 \
+#     --num_fewshot 8 \
+#     --output_path /home/chh/repos/my_ctg/results/gsm8k/ \
+#     --log_samples \
+#     --my_mode 1 \
+#     --apply_chat_template \
+#     --insert_layers [3,20] \
+#     --normalize \
+#     --operator 'linear_comb' \
+#     --coef 0.5 \
+#     --split_file /home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_llama_5.json \
+#     --fewshot_as_multiturn \
+#     --gen_kwargs max_gen_toks=512
+
+# CUDA_VISIBLE_DEVICES=1,2,3 accelerate launch --num_processes=3 --main_process_port 29501 -m lm_eval --model hf_wrap \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+#     --tasks gsm8k_cot_llama \
+#     --batch_size 1 \
+#     --num_fewshot 8 \
+#     --output_path /home/chh/repos/my_ctg/results/gsm8k/ \
+#     --log_samples \
+#     --my_mode 2 \
+#     --apply_chat_template \
+#     --insert_layers [3,20] \
+#     --normalize \
+#     --operator 'linear_comb' \
+#     --coef 0.5 \
+#     --split_file /home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_llama_5.json \
+#     --fewshot_as_multiturn \
+#     --gen_kwargs max_gen_toks=512 \
+#     --discriminator /data1/chh/my_ctg/classifier/gsm8k/logistic_regression_model7.pkl
+
+# CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --num_processes=4 --main_process_port 29501 -m lm_eval --model hf_wrap \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+#     --tasks ifeval \
+#     --batch_size 1 \
+#     --num_fewshot 0 \
+#     --output_path /home/chh/repos/my_ctg/results/ifeval/ \
+#     --log_samples \
+#     --my_mode 1 \
+#     --apply_chat_template \
+#     --insert_layers [3,20] \
+#     --normalize \
+#     --operator 'linear_comb' \
+#     --coef 0.5 \
+#     --split_file /home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_2.json
+
+# CUDA_VISIBLE_DEVICES=1,2,3 accelerate launch --num_processes=3 --main_process_port 29501 -m lm_eval --model hf_wrap \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+#     --tasks ifeval \
+#     --batch_size 1 \
+#     --num_fewshot 0 \
+#     --output_path /home/chh/repos/my_ctg/results/ifeval/ \
+#     --log_samples \
+#     --my_mode 2 \
+#     --apply_chat_template \
+#     --insert_layers [3,20] \
+#     --normalize \
+#     --operator 'linear_comb' \
+#     --coef 0.5 \
+#     --split_file /home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_2.json \
+#     --discriminator /data1/chh/my_ctg/classifier/gsm8k/logistic_regression_model7.pkl
+
+
+# CUDA_VISIBLE_DEVICES=1,2,3 accelerate launch --num_processes=3 --main_process_port 29501 -m lm_eval --model hf_wrap \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+#     --tasks math_0shot_cot \
+#     --batch_size 1 \
+#     --output_path /home/chh/repos/my_ctg/results/math/ \
+#     --log_samples \
+#     --my_mode 1 \
+#     --insert_layers [3,20] \
+#     --normalize \
+#     --operator 'linear_comb' \
+#     --coef 0.5 \
+#     --gen_kwargs max_gen_toks=512 \
+#     --split_file /home/chh/repos/my_ctg/instructions/math/math_2steps_llama.json
+
+# CUDA_VISIBLE_DEVICES=1,2,3 accelerate launch --num_processes=3 --main_process_port 29501 -m lm_eval --model hf_wrap \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+#     --tasks math_0shot_cot \
+#     --batch_size 2 \
+#     --output_path /home/chh/repos/my_ctg/results/math/ \
+#     --log_samples \
+#     --my_mode 2 \
+#     --insert_layers [3,20] \
+#     --normalize \
+#     --operator 'linear_comb' \
+#     --coef 0.5 \
+#     --gen_kwargs max_gen_toks=512 \
+#     --split_file /home/chh/repos/my_ctg/instructions/math/math_2steps_llama.json \
+#     --discriminator /data1/chh/my_ctg/classifier/math/logistic_regression_model.pkl
+
+
+
+# CUDA_VISIBLE_DEVICES=1 lm_eval --model vllm \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+#     --tasks gsm8k_cot_llama \
+#     --batch_size auto \
+#     --output_path /home/chh/repos/my_ctg/results/gsm8k/ \
+#     --log_samples \
+#     --apply_chat_template \
+#     --num_fewshot 8 \
+#     --fewshot_as_multiturn \
+#     --gen_kwargs max_gen_toks=512
+
+
+# CUDA_VISIBLE_DEVICES=1 lm_eval --model vllm \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+#     --tasks minerva_math \
+#     --batch_size auto \
+#     --num_fewshot 0 \
+#     --output_path /home/chh/repos/my_ctg/results/math/ \
+#     --log_samples \
+#     --apply_chat_template \
+#     --fewshot_as_multiturn \
+#     --gen_kwargs temperature=0,max_gen_toks=1024
+
+
+# CUDA_VISIBLE_DEVICES=1 lm_eval --model vllm \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct,add_bos_token=True,seed=42 \
+#     --tasks math_0shot_cot \
+#     --batch_size auto \
+#     --output_path /home/chh/repos/my_ctg/results/math/ \
+#     --log_samples \
+
     
-    CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --num_processes=4 --main_process_port 29501 -m lm_eval --model hf_wrap \
-    --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
-    --tasks ifeval \
-    --batch_size 1 \
-    --num_fewshot 0 \
-    --output_path /home/chh/repos/my_ctg/results/ifeval/ \
-    --log_samples \
-    --my_mode 0 \
-    --split_file /home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_2.json \
-    --apply_chat_template \
-    --gen_kwargs top_p=0.90,temperature=0.6 \
-    $INSERT_LAYERS \
-    --normalize \
-    --operator 'linear_comb' \
-    --coef 0.5
-done

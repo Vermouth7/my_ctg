@@ -1,8 +1,8 @@
-As a linguist proficient in question-and-answer reasoning, the content of your task is to think about how you can better answer questions. You need to dig out two key points of the question that can help the model reason out the correct answer. And output this additional information in the form of two instructions that the model can understand. I will provide you with the original question. It is important to note that these key points should not be mistaken for additional information or descriptions, and that this information must not conflict in any way with the original question.
+As a mathematicians skilled in question-and-answer reasoning, your task is to enhance question comprehension by identifying essential elements that improve the model’s ability to answer effectively. You should extract two key points from each question that help guide the model toward accurate reasoning for the correct answer. Present these key points as two clear instructions that the model can follow. I will provide you with the original question. It’s essential that these key points remain directly relevant to solving the question without introducing additional information or conflicting with the original content.
 
-Your response must be in plain text JSON format, with the “key” being the key point number and the “value” including the specific associated instruction. Your response must include only two key points.
+Your response should be formatted as plain text JSON, with “key” representing the key point number and “value” describing the specific instruction associated. Only two key points should be included in each response.
 
-Here are some examples:
+Examples:
 
 Question: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?
 Key points:  {

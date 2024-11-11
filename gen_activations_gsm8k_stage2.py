@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='1'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 
 import re
 import time
@@ -53,6 +53,22 @@ def nshot_chats(tokenizer,nshot_data: list, n: int, question: str) -> dict:
         add_generation_prompt=True,
     )
 
+def extract_substring(full_text, part_text):
+    max_match_length = 0
+    end_index = 0
+    
+    for i in range(len(part_text)):
+        partial_text = part_text[i:]
+        start_index = full_text.find(partial_text)
+        
+        if start_index != -1 and len(partial_text) > max_match_length:
+            max_match_length = len(partial_text)
+            end_index = start_index + max_match_length
+    
+    if max_match_length > 0:
+        return full_text[:end_index]
+    else:
+        return None
 
 def gen(args):
     model = LlamaForCausalLM.from_pretrained(args.model_path, torch_dtype=torch.bfloat16).to(device)
@@ -67,11 +83,15 @@ def gen(args):
     
     train_data=load_dataset("/data1/chh/datasets/openai/gsm8k",'main')
     train_data=train_data['train'].to_pandas().to_dict(orient='records')[:5000]
-    for i in train_data:
-        # i['new_q']=prompt_template(tokenizer,prompt.format(question=i['question']))
-        i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
-        
-    inputs=[i['new_q'] for i in train_data]
+    with open(args.eval_file,'r') as test_file:
+        test_data=json.load(test_file)
+    test_data_2=[]
+    for i in test_data:
+        if i['result']==0:
+            i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question']) + ' ' + i['add_inf']
+            test_data_2.append(i)
+                   
+    inputs=[i['new_q'] for i in test_data_2]
     
     encodings = tokenizer(inputs, padding=True, truncation=True, return_tensors='pt').to(device)
     all_hidden_states = {}
@@ -95,13 +115,13 @@ def gen(args):
             generated_tokens = generated_output[input_length:]
             decoded_output = tokenizer.decode(generated_tokens, skip_special_tokens=True, clean_up_tokenization_spaces=True)
             
-            train_data[i + j]['generated_text'] = decoded_output
+            test_data_2[i + j]['generated_text'] = decoded_output
             all_hidden_states[i+j]=sample_hs[j]
-            del train_data[i + j]['new_q']
+            del test_data_2[i + j]['new_q']
     
     torch.save(all_hidden_states, args.original_data)
     with open(args.output_folder, 'w', encoding='utf-8') as output_file:
-        json.dump(train_data, output_file, ensure_ascii=False, indent=4)
+        json.dump(test_data_2, output_file, ensure_ascii=False, indent=4)
 
 
 def extract_ans_from_response(answer: str, eos=None):
@@ -143,7 +163,7 @@ def eval_func(args):
     with open(args.eval_file, 'w', encoding='utf-8') as output_file:
         json.dump(data, output_file, ensure_ascii=False, indent=4)
 def comparison(args):
-    sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=args.max_length)
+    sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=1024)
     model=LLM(model=args.model_path,gpu_memory_utilization=0.80)
     tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
@@ -151,14 +171,35 @@ def comparison(args):
     data_com=[]
     with open(args.eval_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
-    with open('/home/chh/repos/my_ctg/instructions/template/compare_gsm8k.txt','r',encoding='utf-8') as f:
+    
+    with open('/home/chh/repos/my_ctg/instructions/template/compare_gsm8k_stage2.txt','r',encoding='utf-8') as f:
         template=f.read()
     for i in range(len(data)):
         record=data[i]
         record['id']=i
         data_com.append(record)
         if record['result']==0:
-            inputs.append(prompt_template(tokenizer,template%(record['question'],record['answer'],record['generated_text'])))
+            content=record['key']            
+            pattern = r'\{[^{}]*\}'
+            match = re.findall(pattern, content)
+            if match:
+                content=match[0]
+            try:
+                if content.startswith("```json"): 
+                    content = content[7:-3].strip()
+                    answer = json.loads(content)
+                else:
+                    answer = json.loads(content)
+            except Exception as e:
+                    answer=None
+            # print(answer)
+            
+            if answer:
+                sentences=list(answer.values())
+                inputs.append(prompt_template(tokenizer,template%(record['question'],record['answer'],record['generated_text'],sentences[0])))
+            else:
+                inputs.append(prompt_template(tokenizer,template%(record['question'],record['answer'],record['generated_text'],record['key'])))
+                
             
     outputs = model.generate(inputs, sampling_params)
     res = [item.outputs[0].text for item in outputs]
@@ -166,7 +207,7 @@ def comparison(args):
     index=0
     for i in data_com:
         if i['result']==0:
-            i['key']=res[index]
+            i['part']=res[index]
             index+=1
     with open(args.eval_file, 'w', encoding='utf-8') as output_file:
         json.dump(data_com, output_file, ensure_ascii=False, indent=4)
@@ -236,11 +277,10 @@ def extract_hs(args):
         
         if answer:
             sentences=list(answer.values())
-            first_stage=[]
-            first_stage.append(sentences[0])
-            
+            second_stage=[]
+            second_stage.append(sentences[0])
             ref=item['generated_text']
-            token_pos = find_token_pos(ref, first_stage, tokenizer)
+            token_pos = find_token_pos(ref, second_stage, tokenizer)
             matched_positions = []
             for sentence, start, end, match_ratio in token_pos:
                 for i in range(start, end):  
@@ -277,15 +317,31 @@ def extract_hs(args):
     
     torch.save((inputs_tensor, labels_tensor), args.classifier_data)
         
+def sliding_window_mean(features, window_size=3):
+
+    num_samples, feature_dim = features.shape
+    new_features = [
+        np.mean(features[i:i + window_size], axis=0)
+        for i in range(num_samples - window_size + 1)
+    ]
+    return np.array(new_features)
 
 def train_classifier_LR(args):
     data=torch.load(args.classifier_data)
-    features, labels = data  
+    data_stage1=torch.load('/data1/chh/my_ctg/classifier/gsm8k/train7.pt')
+    features1, labels1 = data
+    features2, labels2 = data_stage1
 
-    features = features.to(torch.float32).cpu().numpy()  # (num_samples, 4096)
-    labels = labels.cpu().numpy()      # (num_samples,)
-
-    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
+    features_combined = torch.cat((features1, features2), dim=0)
+    labels_combined = torch.cat((labels1, labels2), dim=0)
+    
+    features_combined = features_combined.to(torch.float32).cpu().numpy()  # (num_samples, 4096)
+    labels_combined = labels_combined.cpu().numpy()      # (num_samples,)
+    
+    features_combined = sliding_window_mean(features_combined, window_size=3)
+    labels_combined = labels_combined[2:]
+    
+    X_train, X_test, y_train, y_test = train_test_split(features_combined, labels_combined, test_size=0.2, random_state=42)
 
     model = LogisticRegression(max_iter=1000)  
     model.fit(X_train, y_train)
@@ -308,6 +364,35 @@ class classifier_mlp(nn.Module):
         x = torch.relu(self.fc2(x))
         x = torch.sigmoid(self.fc3(x))  
         return x
+
+def comparison_after_gen(args):
+    sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=args.max_length)
+    model=LLM(model=args.model_path,gpu_memory_utilization=0.80)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
+    tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
+    inputs=[]
+    data_com=[]
+    with open(args.eval_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    with open('/home/chh/repos/my_ctg/instructions/template/compare_gsm8k.txt','r',encoding='utf-8') as f:
+        template=f.read()
+    for i in range(len(data)):
+        record=data[i]
+        record['id']=i
+        data_com.append(record)
+        if record['result']==0:
+            inputs.append(prompt_template(tokenizer,template%(record['question'],record['answer'],record['generated_text'])))
+            
+    outputs = model.generate(inputs, sampling_params)
+    res = [item.outputs[0].text for item in outputs]
+    
+    index=0
+    for i in data_com:
+        if i['result']==0:
+            i['key']=res[index]
+            index+=1
+    with open(args.eval_file, 'w', encoding='utf-8') as output_file:
+        json.dump(data_com, output_file, ensure_ascii=False, indent=4)
 def train_classifier_mlp(args):
     data = torch.load(args.classifier_data)
     features, labels = data  
@@ -346,21 +431,22 @@ if __name__ == "__main__":
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_length', type=int, default=512)
-    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res2.json')
-    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res2.json')
-    parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/demo2.pt')
-    parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/train7.pt')
-    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/logistic_regression_model5.pkl')
+    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res2_stage2.json')
+    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res2_stage2.json')
+    parser.add_argument('--original_data',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/demo2_stage2.pt')
+    parser.add_argument('--classifier_data',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/train6.pt')
+    parser.add_argument('--classifier',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/logistic_regression_model7.pkl')
     
     
     args = parser.parse_args()
     set_seed(args)
     
+    # comparison(args)
     # gen(args)
     # eval_func(args)
-    # comparison(args)
-    extract_hs(args)
-    # train_classifier_LR(args)
+    # comparison_after_gen(args)
+    # extract_hs(args)
+    train_classifier_LR(args)
     # train_classifier_mlp(args) 
     
     

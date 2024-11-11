@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='1'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 
 import re
 import time
@@ -66,7 +66,7 @@ def gen(args):
     prompt="You're a mathematician who's good at reasoning. Answer the following questions using detailed reasoning steps, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
     
     train_data=load_dataset("/data1/chh/datasets/openai/gsm8k",'main')
-    train_data=train_data['train'].to_pandas().to_dict(orient='records')[:5000]
+    train_data=train_data['train'].to_pandas().to_dict(orient='records')
     for i in train_data:
         # i['new_q']=prompt_template(tokenizer,prompt.format(question=i['question']))
         i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
@@ -171,38 +171,10 @@ def comparison(args):
     with open(args.eval_file, 'w', encoding='utf-8') as output_file:
         json.dump(data_com, output_file, ensure_ascii=False, indent=4)
 
-def find_best_match(sentence_tokens, text_tokens):
-    best_match_start = 0
-    best_match_length = 0
-    best_match_ratio = 0
-    
-    for i in range(len(text_tokens) - len(sentence_tokens) + 1):
-        window = text_tokens[i:i + len(sentence_tokens)]
-        match_ratio = SequenceMatcher(None, sentence_tokens, window).ratio()
-        
-        if match_ratio > best_match_ratio:
-            best_match_ratio = match_ratio
-            best_match_start = i
-            best_match_length = len(sentence_tokens)
-    
-    return best_match_start, best_match_start + best_match_length - 1, best_match_ratio
-
-def find_token_pos(text, sentences, tokenizer):
-    tokenized_text = tokenizer.encode(text, add_special_tokens=False)  
-    positions = []
-    
-    for sentence in sentences:
-        tokenized_sentence = tokenizer.encode(sentence, add_special_tokens=False)  
-        
-        start, end, match_ratio = find_best_match(tokenized_sentence, tokenized_text)
-        positions.append((sentence, start, end, match_ratio))
-    
-    return positions
-
 def extract_hs(args):
     tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
-    train_data=torch.load(args.original_data)
+    
     with open(args.eval_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
@@ -211,9 +183,7 @@ def extract_hs(args):
     
     for item in data:
         if item['result']==1:
-            for i in range(0,train_data[item['id']].shape[0]):
-                sample_data = train_data[item['id']][i]
-                negative_samples.append((sample_data, 0))
+            negative_samples.append({'instruction':item['generated_text'],'output':0 })
             continue
         content=item['key']
         # json_start = content.find('{')
@@ -236,121 +206,69 @@ def extract_hs(args):
         
         if answer:
             sentences=list(answer.values())
-            first_stage=[]
-            first_stage.append(sentences[0])
-            
-            ref=item['generated_text']
-            token_pos = find_token_pos(ref, first_stage, tokenizer)
-            matched_positions = []
-            for sentence, start, end, match_ratio in token_pos:
-                for i in range(start, end):  
-                    sample_data = train_data[item['id']][i]  
-                    positive_samples.append((sample_data, 1))
-                matched_positions.append((start, end))
-            
-            # current_pos = 0
-            # for start, end in matched_positions:
-            #     if current_pos < start:
-            #         for i in range(current_pos, start):
-            #             sample_data = train_data[item['id']][i]
-            #             negative_samples.append((sample_data, 0))
-            #     current_pos = end
+            for sentence in sentences:
+                positive_samples.append({'instruction':sentence,'output':1 })
                 
-            # if current_pos < train_data[item['id']].shape[0]:
-            #     for i in range(current_pos, train_data[item['id']].shape[0]):
-            #         sample_data = train_data[item['id']][i]
-            #         negative_samples.append((sample_data, 0))
+    positive_count = len(positive_samples)
+    print(positive_count)
+    print(len(negative_samples))
+    # if len(negative_samples) > positive_count:
+    #     negative_samples = random.sample(negative_samples, positive_count)
+    train_data=positive_samples+negative_samples
+    with open(args.cls_dataset, "w", encoding="utf-8") as f:
+        json.dump(train_data, f, ensure_ascii=False, indent=4)
+        
+def extract_hs_math(args):
+    tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
+    tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
+    
+    with open('./results/math_act/res1.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    positive_samples = []
+    negative_samples = []
+    
+    for item in data:
+        if item['result']==1:
+            negative_samples.append({'instruction':item['generated_text'],'output':0 })
+            continue
+        content=item['key']
+        json_start = content.find('{')
+        content=item['key'][json_start:]
+        try:
+            if content.startswith("```json"): 
+                content = content[7:-3].strip()
+                answer = json.loads(content)
+            else:
+                answer = json.loads(content)
+        except Exception as e:
+                # print(f"json failed to parse: {e}")
+                # print(f"content: {content}")
+                answer=None
+                
+        if answer:
+            sentences=list(answer.values())
+            for sentence in sentences:
+                positive_samples.append({'instruction':sentence,'output':1 })
+                
     positive_count = len(positive_samples)
     print(positive_count)
     print(len(negative_samples))
     if len(negative_samples) > positive_count:
         negative_samples = random.sample(negative_samples, positive_count)
-    
-    dataset = positive_samples + negative_samples
-    random.shuffle(dataset)
-    
-    inputs = [sample[0] for sample in dataset]
-    labels = [sample[1] for sample in dataset]
-    
-    inputs_tensor = torch.stack(inputs)
-    labels_tensor = torch.tensor(labels)
-    
-    torch.save((inputs_tensor, labels_tensor), args.classifier_data)
-        
-
-def train_classifier_LR(args):
-    data=torch.load(args.classifier_data)
-    features, labels = data  
-
-    features = features.to(torch.float32).cpu().numpy()  # (num_samples, 4096)
-    labels = labels.cpu().numpy()      # (num_samples,)
-
-    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
-
-    model = LogisticRegression(max_iter=1000)  
-    model.fit(X_train, y_train)
-
-    y_pred = model.predict(X_test)
-
-    accuracy = accuracy_score(y_test, y_pred)
-    print(f"Test Accuracy: {accuracy * 100:.2f}%")
-    joblib.dump(model, args.classifier)
-
-class classifier_mlp(nn.Module):
-    def __init__(self):
-        super(classifier_mlp, self).__init__()
-        self.fc1 = nn.Linear(4096, 2048)
-        self.fc2 = nn.Linear(2048, 512)
-        self.fc3 = nn.Linear(512, 1) 
-
-    def forward(self, x):
-        x = torch.relu(self.fc1(x))
-        x = torch.relu(self.fc2(x))
-        x = torch.sigmoid(self.fc3(x))  
-        return x
-def train_classifier_mlp(args):
-    data = torch.load(args.classifier_data)
-    features, labels = data  
-    features = torch.tensor(features, dtype=torch.float32).to(device)
-    labels = torch.tensor(labels, dtype=torch.float32).view(-1, 1).to(device)
-    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
-
-    train_dataset = TensorDataset(X_train, y_train)
-    train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-
-    model = classifier_mlp().to(device)
-    criterion = nn.BCELoss()  
-    optimizer = optim.Adam(model.parameters(), lr=0.0001)
-
-    for epoch in tqdm(range(100)):  
-        model.train()
-        for batch_features, batch_labels in train_loader:
-            batch_features, batch_labels = batch_features.to(device), batch_labels.to(device)  
-            optimizer.zero_grad()
-            outputs = model(batch_features)
-            loss = criterion(outputs, batch_labels)
-            loss.backward()
-            optimizer.step()
-
-    model.eval()
-    with torch.no_grad():
-        X_test = X_test.to(device)
-        y_pred = model(X_test).round()  
-        accuracy = accuracy_score(y_test.cpu(), y_pred.cpu())
-        print(f"Test Accuracy: {accuracy * 100:.2f}%")
-
-    torch.save(model.state_dict(), args.classifier)
+    train_data=positive_samples+negative_samples
+    with open('/home/chh/repos/my_ctg/sft/cls_dataset/data2.json', "w", encoding="utf-8") as f:
+        json.dump(train_data, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_length', type=int, default=512)
-    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res2.json')
-    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res2.json')
-    parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/demo2.pt')
-    parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/train7.pt')
-    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/logistic_regression_model5.pkl')
+    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res3.json')
+    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res3.json')
+    parser.add_argument('--cls_dataset',type=str,default='/home/chh/repos/my_ctg/sft/cls_dataset/data2.json')
+    
     
     
     args = parser.parse_args()
@@ -359,8 +277,6 @@ if __name__ == "__main__":
     # gen(args)
     # eval_func(args)
     # comparison(args)
-    extract_hs(args)
+    # extract_hs(args)
     # train_classifier_LR(args)
-    # train_classifier_mlp(args) 
-    
-    
+    # train_classifier_mlp(args)

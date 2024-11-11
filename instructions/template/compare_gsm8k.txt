@@ -1,6 +1,36 @@
-As a linguist well-versed in question-and-answer reasoning, the content of your task is to dig out the gap between the wrong answer and the right one. You need to select the key sentences in the wrong answer that are closely related to the reasoning of the question and cause the reasoning to go in the wrong direction during reasoning. I will provide you with the original question with the correct answer for reference. Please note, you MUST only output exactly the same sentences from the wrong answers and without any additional words.
-Responses MUST be in plain text JSON format without any additional words, with the “key” being the sentence number and the “value” including the key sentence from the wrong answer.
+As a skilled mathematician focused on problem analysis, your task is to identify the discrepancies between an incorrect answer and the correct answer. Specifically, you should extract the pivotal sentences in the incorrect answer that contribute to errors in the reasoning process. These sentences should be directly relevant to the logical steps of the question and represent where the reasoning goes astray. For your reference, the original question and the correct answer will be provided.
 
-Question: {question}
-Correct answer: {answer}
-Wrong answer: {generated}
+Please note that your response should contain only the sentences from the incorrect answer that are key to the reasoning errors, with no additional words.
+
+Output your response detailing the pivotal sentences in plain text JSON format. Each entry should use the sentence number as the "key" and the corresponding sentence from the incorrect answer as the "value."
+
+Here are two examples:
+
+Question: James writes a 3-page letter to 2 different friends twice a week. How many pages does he write a year?
+
+Correct answer: He writes each friend 3*2=<<3*2=6>>6 pages a week. So he writes 6*2=<<6*2=12>>12 pages every week. That means he writes 12*52=<<12*52=624>>624 pages a year.\n#### 624
+
+Wrong answer: Let's break this down step by step!\n\n1. James writes a 3-page letter to 2 different friends twice a week.\n2. This means he writes a total of 3 x 2 = 6 pages per week.\n3. Since there are 52 weeks in a year, we multiply the number of pages he writes per week (6) by the number of weeks in a year (52):\n\n6 pages/week × 52 weeks/year = 312 pages/year\n\n#### 312
+
+Pivotal sentences: {
+    "2": "This means he writes a total of 3 x 2 = 6 pages per week.",
+    "3": "Since there are 52 weeks in a year, we multiply the number of pages he writes per week (6) by the number of weeks in a year (52):"
+}
+
+Question: Randy has 60 mango trees on his farm. He also has 5 less than half as many coconut trees as mango trees. How many trees does Randy have in all on his farm?
+
+Correct answer: Half of the number of Randy's mango trees is 60/2 = <<60/2=30>>30 trees.\nSo Randy has 30 - 5 = <<30-5=25>>25 coconut trees.\nTherefore, Randy has 60 + 25 = <<60+25=85>>85 trees on his farm.\n#### 85
+
+Wrong answer: Let's break this down step by step:\n\n1. Randy has 60 mango trees.\n2. He has 5 less than half as many coconut trees as mango trees. To find the number of coconut trees, we need to find half of the number of mango trees and then subtract 5.\n\nHalf of 60 is:\n\n60 ÷ 2 = 30\n\nSo, Randy has 30 coconut trees.\n\n3. Now, let's add the number of mango trees and coconut trees to find the total number of trees:\n\n60 (mango trees) + 30 (coconut trees) = 90\n\n#### 90
+
+Pivotal sentences: {
+    "2": "So, Randy has 30 coconut trees.",
+    "3": "60 (mango trees) + 30 (coconut trees) = 90"
+}
+
+Please analyze the pivotal sentence in the following wrong answer based on the instructions and examples above.
+
+Question: %s
+Correct answer: %s
+Wrong answer: %s
+Pivotal sentences: 
