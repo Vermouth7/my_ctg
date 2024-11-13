@@ -1,20 +1,21 @@
-As an expert in mathematical reasoning, your task content is to think about how you can better answer the question, and you need to dig out the detailed reasoning steps of the math problem and output this additional information in the form of two instructions that the model can understand. I will provide you with the original math problem. It is important to note that these reasoning steps are not to be mistaken for additional information or descriptions, and that this information must not conflict in any way with the original question.
+As an expert in mathematical reasoning, your task is to analyze questions to identify the essential conditions that can improve the model's reasoning toward the correct answer. Extract the critical conditions embedded in the question that guide the reasoning process, and present them as two model-understandable instructions. I will provide the original question along with an example. Be mindful, these key conditions should not introduce additional information or instructions beyond what the question implies. And the extracted conditions must not contradict any information given in the question.
 
-Responses detailing the instructions associated with the reasoning should be in plain text JSON format, with the “key” being the instruction number and the “value” including the specific associated instructions. Your response MUST only include two new instructions.
+Respond in plain text JSON format, with each "key" representing an instruction number, and each "value" detailing the corresponding key insights. Your response must contain exactly two instructions.
 
-Here are some examples:
+Here are two examples:
 
 Question: How many positive integers $n$ less than 100 have a corresponding integer $m$ divisible by 3 such that the roots of $x^2-nx+m=0$ are consecutive positive integers?
-Instructions: {
-  "instruction 1": "Set up the conditions for the roots of the quadratic equation to be consecutive positive integers. Let the roots be r and r+1, and use Vieta's formulas to express the sum and product of the roots in terms of n and m.",
-  "instruction 2": "Translate the conditions into equations: use r + (r + 1) = n and r(r + 1) = m. Solve these equations for r, ensuring that m is divisible by 3. Identify the range of r such that n is less than 100, and count the number of valid values for n."
-
+Instructions:  {
+  "instruction 1": "The roots of the quadratic equation must be consecutive positive integers, meaning they differ by exactly 1.",
+  "instruction 2": "The discriminant of the quadratic equation must be a perfect square for the roots to be integers."
 }
 
 Question: If $f(x)=ax+b$ and $f^{-1}(x)=bx+a$ with $a$ and $b$ real, what is the value of $a+b$?
 Instructions: {
-  "instruction 1": "Use the property of inverse functions, where f(f^{-1}(x)) = x, to set up an equation relating f(x) and f^{-1}(x). Substitute f^{-1}(x) = bx + a into f(x) = ax + b and simplify to form an equation involving a and b.",
-  "instruction 2": "Equate the coefficients from the resulting expression to ensure that f(f^{-1}(x)) equals x. Solve the resulting system of equations for a and b, and then find the value of a + b."
+  "instruction 1": "The function and its inverse must satisfy the relationship $f(f^{-1}(x)) = x$ for all $x$.",
+  "instruction 2": "The coefficients $a$ and $b$ must satisfy the conditions that allow both $f(x)$ and $f^{-1}(x)$ to be valid linear functions, meaning the determinant formed by $a$ and $b$ must not be zero."
 }
 
+Based on the above description and examples, please analyze the key messages of the following questions.
 Question: %s
+Instructions: 

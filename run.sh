@@ -1,9 +1,13 @@
-#!/bin/bash
-for i in {1..32}
-do
-    INSERT_LAYERS="--insert_layers [$i]"
+# !/bin/bash
 
-    CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --num_processes=4 --main_process_port 29501 -m lm_eval --model hf_wrap \
+for i in {11..32}
+do
+    if [ "$i" -eq 3 ]; then
+        continue
+    fi
+    INSERT_LAYERS="--insert_layers [3,$i]"
+
+    CUDA_VISIBLE_DEVICES=1,2,3 accelerate launch --num_processes=3 --main_process_port 29501 -m lm_eval --model hf_wrap \
         --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
         --tasks ifeval \
         --batch_size 1 \
@@ -14,12 +18,9 @@ do
         --apply_chat_template \
         $INSERT_LAYERS \
         --normalize \
-        --operator 'linear_comb' \
-        --coef 0.5 \
+        --operator 'replace' \
         --split_file /home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_2.json
 done
-
-
 
 
 # CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --num_processes=4 --main_process_port 29501 -m lm_eval --model hf_wrap \
@@ -132,15 +133,14 @@ done
 #     --gen_kwargs max_gen_toks=512
 
 
-# CUDA_VISIBLE_DEVICES=1 lm_eval --model vllm \
+# CUDA_VISIBLE_DEVICES=0 lm_eval --model vllm \
 #     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
 #     --tasks minerva_math \
 #     --batch_size auto \
 #     --num_fewshot 0 \
 #     --output_path /home/chh/repos/my_ctg/results/math/ \
 #     --log_samples \
-#     --apply_chat_template \
-#     --fewshot_as_multiturn \
+#     --apply_chat_template \ 
 #     --gen_kwargs temperature=0,max_gen_toks=1024
 
 
@@ -151,4 +151,15 @@ done
 #     --output_path /home/chh/repos/my_ctg/results/math/ \
 #     --log_samples \
 
-    
+
+
+# CUDA_VISIBLE_DEVICES=1 lm_eval --model vllm \
+#     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
+#     --tasks gsm8k_cot_llama_train \
+#     --batch_size auto \
+#     --output_path /home/chh/repos/my_ctg/results/gsm8k_act/ \
+#     --log_samples \
+#     --apply_chat_template \
+#     --num_fewshot 8 \
+#     --fewshot_as_multiturn \
+#     --gen_kwargs max_gen_toks=512

@@ -1,6 +1,36 @@
-As a linguist well-versed in mathematical reasoning, the content of your task is to dig out the gap between the wrong answer and the right one. You need to select the key sentences in the wrong answer that are closely related to the reasoning of the question and cause the reasoning to go in the wrong direction during reasoning. I will provide you with the original question with the correct answer for reference. Please note, you MUST only output exactly the same sentences from the wrong answers and without any additional words.
-Responses MUST be in plain text JSON format without any additional words, with the “key” being the sentence number and the “value” including the key sentence from the wrong answer.
+As a skilled mathematician focused on problem analysis, your task is to identify the discrepancies between an incorrect answer and the correct answer. Specifically, you should extract the key sentences in the incorrect answer that contribute to errors in the reasoning process. These sentences should be directly relevant to the logical steps of the question and represent where the reasoning goes astray. For your reference, the original question and the correct answer will be provided.
 
-Question: {question}
-Correct answer: {answer}
-Wrong answer: {generated}
+Please note that your response should contain only the sentences from the incorrect answer that are key to the reasoning errors, with no additional words.
+
+Output your response detailing the key sentences in plain text JSON format. Each entry should use the sentence number as the "key" and the corresponding sentence from the incorrect answer as the "value."
+
+Here are two examples:
+
+Question: What is the range of the function $y = \frac{x^2 + 3x + 2}{x+1}$?  (Express your answer using interval notation.)
+
+Correct answer: We can factor the numerator to get $y = \frac{(x+1)(x+2)}{x+1}$. If we exclude the case where $x = -1$, the function is equivalent to $y = x+2$. However, because $x$ cannot equal $-1$, $y$ cannot equal 1. Therefore, the range is all real numbers except for 1, which we may write as $y \in \boxed{(-\infty, 1)\cup(1, \infty)}.$
+
+Wrong answer: We can rewrite the function as $y = x+2+\frac{1}{x+1}$ and then find the vertical asymptote.  We can see that the asymptote is $x = -1$.  For $x\neq -1$, the function is always positive.  Therefore, the range is $\boxed{[2,\infty)}$.\nFinal Answer: The final answer is [2,\infty). I hope it is correct.
+
+Key sentences: {
+    "1": "We can rewrite the function as $y = x+2+\frac{1}{x+1}$",
+    "4": "For $x\neq -1$, the function is always positive."
+}
+
+Question: How many positive integers $n$ less than 100 have a corresponding integer $m$ divisible by 3 such that the roots of $x^2-nx+m=0$ are consecutive positive integers?
+
+Correct answer: In the quadratic $ax^2+bx+c$, the roots sum to $\frac{-b}{a}$ and multiply to $\frac{c}{a}$. Therefore, for $x^2-nx+m$, we know that the sum of the roots is $n$ and the product of the roots is $m$. The requirement that $n$ be an integer with $0<n<100$ along with the requirement that the roots are consecutive positive integers leaves us with 49 possible values of $n$: $(1+2), (2+3), (3+4),...,(48+49),(49+50)$. Of these values of $n$, the corresponding value of $m$ would be $(1\ast2), (2\ast3), (3\ast4),...,(48\ast49), (49\ast50)$. In order for $m$ to be divisible by 3, thus, one of the roots has to be divisible by three. The values of $n$ in $(2+3), (3+4), (5+6), ... ,(48+49)$ satisfy that requirement, but in $(1+2), (4+5), ... ,(49+50)$ they do not. This eliminates one third of the possibilities for $n$. Since $n=(49+50)$ is disqualified, we are left with $48-(48\div 3) = 48-16=\boxed{32}$ possible values of $n$.
+
+Wrong answer: We can write the quadratic equation $x^2-nx+m=0$ as $(x-a)(x-a-1)=x^2-(a+a-1)x+a(a-1)=x^2-nx+m$.  This implies that $a(a-1)=m$ and $a+a-1=n$.  Therefore, $n$ must be odd and $a$ is either $(n+1)/2$ or $(n-1)/2$.  Since $m$ is divisible by 3, $a(a-1)$ must be divisible by 3, so $a$ must be 1, 2, 4, 5, 7, or 8.  The corresponding values of $n$ are 1, 3, 6, 9, 12, and 15.  Since $n$ must be less than 100, the only values of $n$ are 1, 3, 6, 9, and 12.  Therefore, there are \boxed{5} such $n$.\nFinal Answer: The final answer is 5. I hope it is correct.
+
+Key sentences: {
+    "1": "We can write the quadratic equation $x^2-nx+m=0$ as $(x-a)(x-a-1)=x^2-(a+a-1)x+a(a-1)=x^2-nx+m$.",
+    "2": "Therefore, $n$ must be odd and $a$ is either $(n+1)/2$ or $(n-1)/2"
+}
+
+Please analyze the key sentence in the following wrong answer based on the instructions and examples above.
+
+Question: %s
+Correct answer: %s
+Wrong answer: %s
+Key sentences: 

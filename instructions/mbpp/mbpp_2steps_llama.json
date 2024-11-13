@@ -1,0 +1,2270 @@
+[
+    {
+        "task_id": 2,
+        "prompt": "Write a function to find the shared elements from the given two lists.",
+        "instruction 1": "Identify the input parameters as two lists and use the built-in set data structure to find their intersection, which represents the shared elements.",
+        "instruction 2": "Convert the set back to a list and return the result"
+    },
+    {
+        "task_id": 3,
+        "prompt": "Write a python function to identify non-prime numbers.",
+        "instruction 1": "Define the function to take an integer as input, and determine if it is prime by checking if it has any divisors other than 1 and the number itself",
+        "instruction 2": "Return a boolean value indicating whether the number is prime or not, or a list of non-prime numbers for a given range of integers if the input is a range of numbers"
+    },
+    {
+        "task_id": 4,
+        "prompt": "Write a function to find the n largest integers from a given list of numbers, returned in descending order.",
+        "instruction 1": "Identify the input parameter as a list of numbers and the integer n that specifies the number of largest integers to return.",
+        "instruction 2": "Use Python's built-in sort function in reverse order in combination with slicing to extract the n largest integers from the list and return them as a new list."
+    },
+    {
+        "task_id": 6,
+        "prompt": "Write a python function to check whether the two numbers differ at one bit position only or not.",
+        "instruction 1": "Convert both numbers to binary strings, then iterate through the characters at each position, comparing them and counting the number of differences (variable `diff_count`), and check if `diff_count` is exactly 1.",
+        "instruction 2": "Use the XOR (^) operator to find the bits at which the numbers differ, and then count the number of bits that are 1 to verify if `diff_count` is indeed 1, returning True if `diff_count` is 1, and False otherwise."
+    },
+    {
+        "task_id": 7,
+        "prompt": "Write a function to find all words which are at least 4 characters long in a string.",
+        "instruction 1": "Split the input string into words and store them in a list. Then, iterate over each word and check its length to meet the 4-character condition.",
+        "instruction 2": "Use a list comprehension to filter the words that meet the condition and return the result as a list."
+    },
+    {
+        "task_id": 8,
+        "prompt": "Write a function to find squares of individual elements in a list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and define an empty list to store the squares of the input list elements.",
+        "instruction 2": "Use a loop to iterate over the input list, square each element using the `**` operator, and append the result to the defined list before returning it."
+    },
+    {
+        "task_id": 9,
+        "prompt": "Write a python function to find the minimum number of rotations (greater than 0) required to get the same string.",
+        "instruction 1": "Identify the input parameter as a string and split it into a list of substrings of equal length.",
+        "instruction 2": "Find the remainder of the division of the length of the string by the length of the substring, and if it's not zero, calculate the remaining rotations needed by subtracting the remainder from the length of the string and dividing the result by the length of the substring."
+    },
+    {
+        "task_id": 11,
+        "prompt": "Write a python function to remove first and last occurrence of a given character from the string.",
+        "instruction 1": "Use Python's string methods to split the input string at the given character, remove the first and last elements, and then join the remaining elements back into a string.",
+        "instruction 2": "Use the `index()` method and string slicing to identify and remove the first and last occurrences of the given character from the string, and return the modified string."
+    },
+    {
+        "task_id": 12,
+        "prompt": "Write a function to sort a given matrix in ascending order according to the sum of its rows.",
+        "instruction 1": "Identify the input parameter as a 2D list of numbers, representing the matrix, and a sorting function taking the matrix as an input",
+        "instruction 2": "Implement row-wise sum calculation and sorting using Python's built-in `sum` function and `sorted` function to sort the matrix based on the row sums in ascending order"
+    },
+    {
+        "task_id": 14,
+        "prompt": "Write a python function to find the volume of a triangular prism.",
+        "instruction 1": "Identify the input parameters as the base and height of the triangular prism and calculate the volume using the formula 0.5 * base * height * length.",
+        "instruction 2": "Use Python's * operator to multiply the calculated volume and return the result of the multiplication."
+    },
+    {
+        "task_id": 16,
+        "prompt": "Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.",
+        "instruction 1": "Identify the input parameter as a string, and then split the string into individual characters to check if any sequences of characters match the pattern of lowercase letters joined with an underscore.",
+        "instruction 2": "Use a loop to iterate over the split characters, and check if the current character is a letter and the previous character is an underscore; if this condition is met for consecutive characters, return True; if not, return False."
+    },
+    {
+        "task_id": 17,
+        "prompt": "Write a function that returns the perimeter of a square given its side length as input.",
+        "instruction 1": "Identify the input parameter as the side length of the square and assume it to be a positive integer.",
+        "instruction 2": "Return the perimeter of the square using the mathematical formula perimeter = 4 * side length"
+    },
+    {
+        "task_id": 18,
+        "prompt": "Write a function to remove characters from the first string which are present in the second string.",
+        "instruction 1": "Identify the input parameters as two strings and use a loop to iterate over each character in the second string, removing the corresponding characters from the first string using slicing and concatenation.",
+        "instruction 2": "Use Python's slicing to replace each character in the first string that is present in the second string with an empty string using the `replace()` method"
+    },
+    {
+        "task_id": 19,
+        "prompt": "Write a function to find whether a given array of integers contains any duplicate element.",
+        "instruction 1": "Identify the input parameter as a list of integers and initialize an empty set to store unique elements.",
+        "instruction 2": "Use a loop to iterate through the list, checking each element's presence in the set; if an element is already present in the set, return True; otherwise, add the element to the set and continue checking; if the loop completes without finding a duplicate, return False."
+    },
+    {
+        "task_id": 20,
+        "prompt": "Write a function to check if the given number is woodball or not.",
+        "instruction 1": "Identify the input parameter as an integer, and check if it is equal to the specific woodball number or its factors.",
+        "instruction 2": "Use a loop to generate the factors of the input number and check if any of them match the specific woodball number; if any match, return True, otherwise return False."
+    },
+    {
+        "task_id": 56,
+        "prompt": "Write a python function to check if a given number is one less than twice its reverse.",
+        "instruction 1": "Identify the input parameter as an integer number, and extract its reverse by converting the number to a string, reversing the string, and converting it back to an integer.",
+        "instruction 2": "Compare the input number with twice its reverse, adding 1, and return True if the result is equal to the input number, otherwise return False."
+    },
+    {
+        "task_id": 57,
+        "prompt": "Write a python function to find the largest number that can be formed with the given list of digits.",
+        "instruction 1": "Identify the input parameter as a list of numbers representing the given digits and sort them in ascending order.",
+        "instruction 2": "Use a loop to form all possible combinations of the sorted digits and return the largest number formed."
+    },
+    {
+        "task_id": 58,
+        "prompt": "Write a python function to check whether the given two integers have opposite sign or not.",
+        "instruction 1": "Identify the input parameters as two integer values and determine whether they have different signs or not.",
+        "instruction 2": "Use a conditional statement to compare the signs of the two integers, returning `True` if they are opposite and `False` if they are the same."
+    },
+    {
+        "task_id": 59,
+        "prompt": "Write a function to find the nth octagonal number.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the nth octagonal number to be calculated, and initialize a variable to store the sum of odd natural numbers that corresponds to the octagonal number.",
+        "instruction 2": "Use a loop to calculate the sum of the first n odd natural numbers and return the calculated octagonal number."
+    },
+    {
+        "task_id": 61,
+        "prompt": "Write a python function to count the number of substrings with the sum of digits equal to their length.",
+        "instruction 1": "Identify the input parameter as a string and convert it into a list of integers where each integer represents the digit value at that position in the string.",
+        "instruction 2": "Use a loop to iterate over the list and count the number of substrings that have a sum of digits equal to their length using Python's built-in `sum()` function to calculate the sum and compare it with the length of the substring."
+    },
+    {
+        "task_id": 62,
+        "prompt": "Write a python function to find smallest number in a list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and determine that the function should return the smallest number in the list.",
+        "instruction 2": "Use Python's built-in `min()` function to find and return the smallest number in the list."
+    },
+    {
+        "task_id": 63,
+        "prompt": "Write a function to find the maximum difference between available pairs in the given tuple list.",
+        "instruction 1": "Identify the input as a list of tuples, and iterate through the list to find the minimum and maximum values in the tuples.",
+        "instruction 2": "Compute the absolute difference between the maximum and minimum values, and return the result as the maximum difference between available pairs in the given tuple list."
+    },
+    {
+        "task_id": 64,
+        "prompt": "Write a function to sort a list of tuples using the second value of each tuple.",
+        "instruction 1": "Arrange the tuple elements in the list in a sorted manner based on the values of the second parameter (index 1) in each tuple.",
+        "instruction 2": "Use Python's built-in sorted() function and provide a lambda function as the key, which will be used to specify the comparison criteria. The lambda function returns the second element of each tuple, which is used as the sorting criterion."
+    },
+    {
+        "task_id": 65,
+        "prompt": "Write a function to flatten a list and sum all of its elements.",
+        "instruction 1": "Identify the input parameter as a list and initialize a variable to zero that will store the sum of the elements.",
+        "instruction 2": "Use a loop to iterate through the list, add each element to the sum variable, and return the final sum."
+    },
+    {
+        "task_id": 66,
+        "prompt": "Write a python function to count the number of positive numbers in a list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and define a variable to keep track of the count of positive numbers.",
+        "instruction 2": "Use a loop to iterate through the list and increment the count variable whenever a positive number is encountered, then return the count variable."
+    },
+    {
+        "task_id": 67,
+        "prompt": "Write a function to find the number of ways to partition a set of Bell numbers.",
+        "instruction 1": "Identify the input parameter as a positive integer n representing the size of the set of Bell numbers, and initialize a variable to store the number of ways to partition the set.",
+        "instruction 2": "Use a recursive function to calculate the Bell number for the given size n, then iterate to count the number of ways to partition the Bell number and store it in the initialized variable."
+    },
+    {
+        "task_id": 68,
+        "prompt": "Write a python function to check whether the given array is monotonic or not.",
+        "instruction 1": "Identify the input parameter as a list of numbers and check if it is either strictly increasing or strictly decreasing.",
+        "instruction 2": "Compare consecutive elements in the list, and return `True` if the list is monotonic, else return `False`."
+    },
+    {
+        "task_id": 69,
+        "prompt": "Write a function to check whether a list contains the given sublist or not.",
+        "instruction 1": "Identify the input parameters as a list of elements and the sublist to be searched within the list.",
+        "instruction 2": "Use a loop to iterate through the main list, and the `in` operator to check if the sublist exists at any position within the main list, then return a boolean value indicating whether the sublist is found or not."
+    },
+    {
+        "task_id": 70,
+        "prompt": "Write a function to find whether all the given tuples have equal length or not.",
+        "instruction 1": "Determine the input parameter as a list of tuples and define a variable to store the length of the first tuple in the list.",
+        "instruction 2": "Use a loop to iterate through the list of tuples and check if the length of each tuple is equal to the initial defined length, returning a boolean value indicating whether all tuples have equal lengths."
+    },
+    {
+        "task_id": 71,
+        "prompt": "Write a function to sort a list of elements.",
+        "instruction 1": "Identify the input parameter as a list of unsorted elements to be sorted.",
+        "instruction 2": "Use the `sorted()` function with the `reverse` parameter optional to arrange the list elements in ascending or descending order and return the sorted list."
+    },
+    {
+        "task_id": 72,
+        "prompt": "Write a python function to check whether the given number can be represented as the difference of two squares or not.",
+        "instruction 1": "Identify the input parameter as an integer, and initialize two variables to 0 and 1, representing the perfect squares.",
+        "instruction 2": "Use a loop to iterate and check if the given number can be expressed as the difference of two perfect squares, and return True if the condition is met, otherwise return False."
+    },
+    {
+        "task_id": 74,
+        "prompt": "Write a function to check whether it follows the sequence given in the patterns array.",
+        "instruction 1": "Identify the input parameters as a list of patterns and a number to verify and check if the given number matches any pattern in the list.",
+        "instruction 2": "Use a loop to iterate through the patterns and return True if the number matches any pattern, and False otherwise."
+    },
+    {
+        "task_id": 75,
+        "prompt": "Write a function to find tuples which have all elements divisible by k from the given list of tuples.",
+        "instruction 1": "Identify the input parameters as a list of tuples and an integer k, and iterate through each tuple to check if all its elements are divisible by k.",
+        "instruction 2": "Use a list comprehension to filter the tuples from the input list and return the resulting list of tuples that have all elements divisible by k."
+    },
+    {
+        "task_id": 77,
+        "prompt": "Write a python function to find whether a number is divisible by 11.",
+        "instruction 1": "Take an integer as input and check if its absolute value can be expressed as the sum of its digits (after converting to string) multiplied by 2.",
+        "instruction 2": "If the remainder of this sum when divided by 11 is 0, return True, otherwise return False"
+    },
+    {
+        "task_id": 79,
+        "prompt": "Write a python function to check whether the length of the word is odd or not.",
+        "instruction 1": "Identify the input parameter as a string and define a function that takes this string as an argument.",
+        "instruction 2": "Check the length of the input string using the built-in `len()` function, and return a boolean value indicating whether the length is odd (True) or even (False)."
+    },
+    {
+        "task_id": 80,
+        "prompt": "Write a function to find the nth tetrahedral number.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the tetrahedral number index, and calculate the corresponding tetrahedral number using the formula (n*(n+1)*(n+2))/6.",
+        "instruction 2": "Return the calculated tetrahedral number as the output of the function."
+    },
+    {
+        "task_id": 82,
+        "prompt": "Write a function to find the volume of a sphere.",
+        "instruction 1": "Identify the input parameter as the radius of the sphere, and import the math module for mathematical operations if necessary.",
+        "instruction 2": "Use the formula for the volume of a sphere (4/3 * pi * r^3) and return the result as the output of the function."
+    },
+    {
+        "task_id": 84,
+        "prompt": "Write a function to find the nth number in the newman conway sequence.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the desired term in the Newman-Conway sequence, and initialize a variable to keep track of the sequence.",
+        "instruction 2": "Use a loop to generate the sequence, starting with the initial term 1, and in each iteration, add the sum of the sequence up to the current term to the next term, then return the nth term."
+    },
+    {
+        "task_id": 85,
+        "prompt": "Write a function to find the surface area of a sphere.",
+        "instruction 1": "Identify the input parameter as the radius of the sphere.",
+        "instruction 2": "Use the formula 4 * π * r^2 to calculate the surface area of the sphere, where r is the input radius."
+    },
+    {
+        "task_id": 86,
+        "prompt": "Write a function to find nth centered hexagonal number.",
+        "instruction 1": "Identify the input parameter as an integer n, and initialize a variable to store the sum of odd numbers from 1 to 2n - 1.",
+        "instruction 2": "Calculate the centered hexagonal number by iterating from 1 to 2n - 1, adding the sum of the previous odd numbers to the variable, and returning the value after (2n - 1) iterations."
+    },
+    {
+        "task_id": 87,
+        "prompt": "Write a function to merge three dictionaries into a single dictionary.",
+        "instruction 1": "Take three dictionaries as input parameters and create a new dictionary that combines the key-value pairs from all three dictionaries.",
+        "instruction 2": "Use the `update()` method to merge the three dictionaries into a single dictionary, keeping the key-value pairs from the original dictionaries."
+    },
+    {
+        "task_id": 88,
+        "prompt": "Write a function to get the frequency of all the elements in a list, returned as a dictionary.",
+        "instruction 1": "Identify the input parameter as a list of elements and initialize an empty dictionary to store the frequency of each element.",
+        "instruction 2": "Use a loop to iterate over the elements in the list, incrementing the value in the dictionary for each element, and then return the resulting dictionary."
+    },
+    {
+        "task_id": 89,
+        "prompt": "Write a function to find the closest smaller number than n.",
+        "instruction 1": "Identify the input parameter as an integer n and find the largest number less than n in the set of natural numbers.",
+        "instruction 2": "Use a loop to iterate from n down to 1 and return the first number that is less than n."
+    },
+    {
+        "task_id": 90,
+        "prompt": "Write a python function to find the length of the longest word.",
+        "instruction 1": "Define a string input parameter and split it into a list of words using the split() method, then iterate through the list to find the length of the longest word.",
+        "instruction 2": "Return the length of the longest word using the built-in len() function, which returns the length of any given object in Python."
+    },
+    {
+        "task_id": 91,
+        "prompt": "Write a function to check if a string is present as a substring in a given list of string values.",
+        "instruction 1": "Identify the input parameters as a list of string values and the string to be searched as a substring.",
+        "instruction 2": "Use a for loop to iterate through the list of strings, using the `in` operator to check if the target string is present as a substring, and return a boolean indicating the presence or absence of the substring."
+    },
+    {
+        "task_id": 92,
+        "prompt": "Write a function to check whether the given number is undulating or not.",
+        "instruction 1": "Identify the input parameter as a list of digits representing a number and iterate through the digits to find consecutive ascending and descending sequences.",
+        "instruction 2": "Check if the number of ascending sequences is equal to the number of descending sequences plus one, or vice versa, and return True if undulating and False otherwise."
+    },
+    {
+        "task_id": 93,
+        "prompt": "Write a function to calculate the value of 'a' to the power 'b'.",
+        "instruction 1": "Identify the input parameters as a base number 'a' and an exponent 'b', and initialize a variable to store the result.",
+        "instruction 2": "Use Python's built-in ** operator to calculate the value 'a' to the power 'b' and return the result."
+    },
+    {
+        "task_id": 94,
+        "prompt": "Given a list of tuples, write a function that returns the first value of the tuple with the smallest second value.",
+        "instruction 1": "Identify the input parameter as a list of tuples containing integer values, where each tuple represents a pair of values, and identify the second value in each tuple using indexing.",
+        "instruction 2": "Use a loop to iterate through the list of tuples, compare the second value of each tuple, and return the first value of the tuple with the smallest second value using the `min()` function and a custom sorting key."
+    },
+    {
+        "task_id": 95,
+        "prompt": "Write a python function to find the length of the smallest list in a list of lists.",
+        "instruction 1": "Identify the input parameter as a list of lists and iterate through the sublists to find the length of the shortest one.",
+        "instruction 2": "Return the length of the smallest sublist using nested `min()` function with a key argument set to `len()` or directly compare the lengths of the sublists and return the minimum length."
+    },
+    {
+        "task_id": 96,
+        "prompt": "Write a python function to find the number of divisors of a given integer.",
+        "instruction 1": "Count the divisors from 1 to the given integer, checking if each divisor is exactly divisible without a remainder, and sum up the count.",
+        "instruction 2": "Return the total count of divisors as the result of the function."
+    },
+    {
+        "task_id": 97,
+        "prompt": "Write a function to find frequency of each element in a flattened list of lists, returned in a dictionary.",
+        "instruction 1": "Convert the input list of lists into a single list through a list comprehension, then iterate over the resulting list to count the frequency of each element. Keys in the dictionary should be unique elements from the list, and values their respective frequencies.",
+        "instruction 2": "Use the `dict` constructor with an iterable of key-value pairs generated by the previous step to create the frequency dictionary, ensuring each key-value pair represents an element and its corresponding count in the list."
+    },
+    {
+        "task_id": 98,
+        "prompt": "Write a function to multiply all the numbers in a list and divide with the length of the list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and calculate the length of the list.",
+        "instruction 2": "Use Python's built-in functions `math.prod()` to calculate the product of the list elements and then divide the result by the list length using integer division `//` to return the result."
+    },
+    {
+        "task_id": 99,
+        "prompt": "Write a function to convert the given decimal number to its binary equivalent, represented as a string with no leading zeros.",
+        "instruction 1": "Identify the input parameter as an integer representing the decimal number, and define a variable to store the result.",
+        "instruction 2": "Use Python's built-in `bin()` function to convert the decimal number to its binary representation, then strip the '0b' prefix and return the result."
+    },
+    {
+        "task_id": 100,
+        "prompt": "Write a function to find the next smallest palindrome of a specified integer, returned as an integer.",
+        "instruction 1": "Identify the input parameter as an integer, the number for which to find the next smallest palindrome, and initialize a variable to store the next smallest palindrome.",
+        "instruction 2": "Use a loop to increment the input number and check each number to see if it's a palindrome; if it is, update the variable and return the number."
+    },
+    {
+        "task_id": 101,
+        "prompt": "Write a function to find the kth element in the given array using 1-based indexing.",
+        "instruction 1": "Identify the input parameter as the array and the integer k that represents the index, where 1-based indexing is used.",
+        "instruction 2": "Use Python's indexing feature to directly access the kth element in the array, considering the 1-based indexing conversion from the input parameter k to the 0-based indexing used by Python."
+    },
+    {
+        "task_id": 102,
+        "prompt": "Write a function to convert a snake case string to camel case string.",
+        "instruction 1": "Identify the input parameter as a string in snake case and split it into words using the underscore as a delimiter, then store the words in a list.",
+        "instruction 2": "Join the words in the list starting from the second word, capitalizing the first letter of each word, and then concatenate the resulting string with the first word in lowercase to form the camel case string."
+    },
+    {
+        "task_id": 103,
+        "prompt": "Write a function to find the Eulerian number a(n, m).",
+        "instruction 1": "Calculate the binomial coefficient (n choose m) and then use a loop to calculate the Stirling number of the first kind to compute the Eulerian number a(n, m) recursively.",
+        "instruction 2": "Use a recursive formulae to compute the Eulerian number a(n, m) based on its recursive relation as the sum of a(n-1, m-1) + a(n-1, m) + a(n-1, m-1]*n."
+    },
+    {
+        "task_id": 104,
+        "prompt": "Write a function to sort each sublist of strings in a given list of lists.",
+        "instruction 1": "Identify the input parameter as a list of lists of strings, and utilize the built-in `sorted()` function within a list comprehension to sort each sublist",
+        "instruction 2": "Use the sorted list comprehension within a list comprehension to create a new list of sorted sublists and return it"
+    },
+    {
+        "task_id": 105,
+        "prompt": "Write a python function to count true booleans in the given list.",
+        "instruction 1": "Identify the input parameter as a list and iterate through each element to check if it is a boolean and equals True.",
+        "instruction 2": "Use the counter function from the built-in collections module to count the number of true boolean values and return the count."
+    },
+    {
+        "task_id": 106,
+        "prompt": "Write a function to append the given list to the given tuples.",
+        "instruction 1": "Identify the input parameters as a list and a variable number of tuples, and define a function to concatenate each tuple with the given list.",
+        "instruction 2": "Use a loop to iterate over the tuples and concatenate each one with the given list using the `+` operator, or the `extend` method of the list."
+    },
+    {
+        "task_id": 108,
+        "prompt": "Write a function to merge three lists into a single sorted list.",
+        "instruction 1": "Identify the input parameters as three lists of numbers, and merge them into a single list using the '+' operator.",
+        "instruction 2": "Use Python's built-in sorted() function and the merge parameter to sort the merged list in ascending order."
+    },
+    {
+        "task_id": 109,
+        "prompt": "Write a python function to find the number of numbers with an odd value when rotating a binary string the given number of times.",
+        "instruction 1": "Identify the input parameters as a binary string and an integer that represents the number of rotations. Initialize a counter to store the count of numbers with odd value.",
+        "instruction 2": "Use a loop to iterate over the string, convert each character to an integer, and check if it's odd. If yes, increment the counter. After the rotation, update the string to shift its characters by the specified number of places and repeat the process."
+    },
+    {
+        "task_id": 111,
+        "prompt": "Write a function to find the common elements in given nested lists.",
+        "instruction 1": "Identify the input parameters as a list of lists and flatten the nested list into a single list.",
+        "instruction 2": "Use Python's set data type to find the common elements by finding the intersection of the flattened list's set and a set of the common elements found simultaneously among all sub-lists in the nested list."
+    },
+    {
+        "task_id": 113,
+        "prompt": "Write a function to check if a string represents an integer or not.",
+        "instruction 1": "Check if the input string can be converted to an integer using the built-in `int()` function or if it raises a ValueError upon conversion attempt.",
+        "instruction 2": "Use a try-except block to attempt the conversion and return True if successful, or False on failure, indicating the string is not an integer."
+    },
+    {
+        "task_id": 116,
+        "prompt": "Write a function to convert a given tuple of positive integers into a single integer.",
+        "instruction 1": "Identify the input parameter as a tuple of positive integers and extract each integer value from the tuple.",
+        "instruction 2": "Use a loop or a generator expression to concatenate the extracted integers into a single integer, considering their positions in the tuple."
+    },
+    {
+        "task_id": 118,
+        "prompt": "Write a function to convert a string to a list of strings split on the space character.",
+        "instruction 1": "Split the input string into a list of substrings using the space character as the separator.",
+        "instruction 2": "Return the resulting list of substrings."
+    },
+    {
+        "task_id": 119,
+        "prompt": "Write a python function to find the element that appears only once in a sorted array.",
+        "instruction 1": "Identify the input parameter as a sorted list of numbers and assume all non-unique elements appear exactly twice.",
+        "instruction 2": "Use a single loop to iterate through the sorted list, starting from the first element and checking if each element appears twice in the list using the index of the element, if not, return the element."
+    },
+    {
+        "task_id": 120,
+        "prompt": "Write a function to find the maximum absolute product between numbers in pairs of tuples within a given list.",
+        "instruction 1": "Identify the input parameter as a list of tuples, and initialize a variable to store the maximum absolute product between two numbers in a tuple.",
+        "instruction 2": "Use a loop to iterate through the list of tuples, calculate the absolute product of each pair of numbers, compare it with the current maximum product, and update the maximum product if the calculated product is greater."
+    },
+    {
+        "task_id": 123,
+        "prompt": "Write a function to sum all amicable numbers from 1 to a specified number.",
+        "instruction 1": "Identify the input parameter as an integer that represents the upper limit, and initialize a variable to store the sum of amicable numbers.",
+        "instruction 2": "Use a loop to iterate from 1 to the upper limit, check if the number is amicable, and add it to the sum if it is."
+    },
+    {
+        "task_id": 124,
+        "prompt": "Write a function to get the angle of a complex number.",
+        "instruction 1": "Identify the input parameter as a complex number and extract its real and imaginary parts using the .real and .imag attributes.",
+        "instruction 2": "Use the math.atan2 function to calculate the angle of the complex number in radians, return the result."
+    },
+    {
+        "task_id": 125,
+        "prompt": "Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.",
+        "instruction 1": "Identify the input parameter as a binary string, split it into substrings of varying lengths, and keep track of the difference between the number of 0s and 1s in each substring.",
+        "instruction 2": "Use a loop to iterate over all substrings and return the maximum difference found."
+    },
+    {
+        "task_id": 126,
+        "prompt": "Write a python function to find the sum of common divisors of two given numbers.",
+        "instruction 1": "Identify the input parameters as two integers, num1 and num2, and calculate the common divisors by finding all the divisors of num1 and then compare with the divisors of num2, storing the common divisors in a set.",
+        "instruction 2": "Use the set of common divisors to calculate the sum of the divisors using the sum() function."
+    },
+    {
+        "task_id": 127,
+        "prompt": "Write a function to multiply two integers.",
+        "instruction 1": "Identify the input parameters as two integers and define a function that takes two parameters.",
+        "instruction 2": "Use the `*` operator to multiply the two input integers and return the result."
+    },
+    {
+        "task_id": 128,
+        "prompt": "Write a function to find words that are longer than n characters from a given list of words.",
+        "instruction 1": "Identify the input parameter as a list of words and an integer n that represents the character limit.",
+        "instruction 2": "Use a list comprehension to filter the words and return a list of words with lengths greater than n characters."
+    },
+    {
+        "task_id": 129,
+        "prompt": "Write a function to calculate whether the matrix is a magic square.",
+        "instruction 1": "Identify the input parameter as a 2D list representing the matrix and check if it is a square matrix, i.e., all rows and columns have the same length.",
+        "instruction 2": "Calculate the sum of the elements in each row and column, then check if all these sums are equal to each other and to the sum of all elements in the matrix."
+    },
+    {
+        "task_id": 130,
+        "prompt": "Write a function to find the item with maximum frequency in a given list.",
+        "instruction 1": "From the given list, identify each unique item and its frequency using Python's `Counter` class from the `collections` module or a dictionary comprehension.",
+        "instruction 2": "Find the maximum frequency and its corresponding item, then return the item."
+    },
+    {
+        "task_id": 131,
+        "prompt": "Write a python function to reverse only the vowels of a given string (where y is not a vowel).",
+        "instruction 1": "Identify the input parameter as a string and separate the original string into two lists, one for vowels and one for consonants.",
+        "instruction 2": "Reverse the list of vowels and concatenate the modified list of vowels with the original list of consonants, and return the resulting string."
+    },
+    {
+        "task_id": 132,
+        "prompt": "Write a function to convert a tuple to a string.",
+        "instruction 1": "Identify the input parameter as a tuple and convert it to a string using the str() function.",
+        "instruction 2": "Return the resulting string, which represents the tuple converted into a string representation."
+    },
+    {
+        "task_id": 133,
+        "prompt": "Write a function to calculate the sum of the negative numbers of a given list of numbers.",
+        "instruction 1": "Identify the input parameter as a list of numbers and use a list comprehension with a conditional statement to filter out positive numbers and non-numeric values.",
+        "instruction 2": "Use the built-in `sum()` function to calculate the sum of the filtered list of negative numbers."
+    },
+    {
+        "task_id": 135,
+        "prompt": "Write a function to find the nth hexagonal number.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the nth hexagonal number, and compute the hexagonal numbers by adding 3n-2 to the previous hexagonal number.",
+        "instruction 2": "Use a loop to iterate until the calculated nth hexagonal number matches the input number n, return the calculated nth hexagonal number."
+    },
+    {
+        "task_id": 137,
+        "prompt": "Write a function to find the ratio of zeroes to non-zeroes in an array of integers.",
+        "instruction 1": "Identify the input parameter as a list of integers and initialize two counters for zero and non-zero elements.",
+        "instruction 2": "Iterate through the list, using a conditional statement to increment the corresponding counter, finally returning the ratio of zero and non-zero elements as a floating-point value."
+    },
+    {
+        "task_id": 138,
+        "prompt": "Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.",
+        "instruction 1": "Identify the input parameter as an integer that represents the number to be checked, and initialize a variable to track the current power of 2.",
+        "instruction 2": "Use a loop to iterate and check if the input number can be represented as the sum of non-zero powers of 2, and return True or False accordingly."
+    },
+    {
+        "task_id": 139,
+        "prompt": "Write a function to find the circumference of a circle.",
+        "instruction 1": "Identify the input parameter as the radius of the circle and calculate the circumference using the formula C = 2 * π * r, where π is a mathematical constant.",
+        "instruction 2": "Return the calculated circumference value as a float, rounding it to a reasonable number of decimal places."
+    },
+    {
+        "task_id": 140,
+        "prompt": "Write a function to flatten the list of lists into a single set of numbers.",
+        "instruction 1": "Use a loop to iterate over the list of lists, and flatten each sublist into a new list using the extend method, then merge all sublists into a single list.",
+        "instruction 2": "Convert the resulting list to a set using the set function and return the set, assuming that the order of the elements does not matter."
+    },
+    {
+        "task_id": 141,
+        "prompt": "Write a function to sort a list of elements.",
+        "instruction 1": "Identify the input parameter as a list of elements and determine the type of sorting required (ascending or descending) or its default to None for natural sorting.",
+        "instruction 2": "Use Python's built-in `sorted()` function to sort the list in the specified order, or use the `heapq` module for efficient sorting of large unsorted inputs."
+    },
+    {
+        "task_id": 142,
+        "prompt": "Write a function to count number items that are identical in the same position of three given lists.",
+        "instruction 1": "Identify the input parameters as three lists of values and iterate over their corresponding indices to compare elements at the same position.",
+        "instruction 2": "Use a counter variable to increment for each pair of matching elements at the same position and return the total count of matching items."
+    },
+    {
+        "task_id": 145,
+        "prompt": "Write a python function to find the maximum difference between any two elements in a given array.",
+        "instruction 1": "Identify the input parameter as a list of numbers, sort the list in ascending order to find the minimum and maximum values, and store these values.",
+        "instruction 2": "Calculate the difference between the maximum and minimum values in the sorted list and return the result."
+    },
+    {
+        "task_id": 160,
+        "prompt": "Write a function that returns integers x and y that satisfy ax + by = n as a tuple, or return None if no solution exists.",
+        "instruction 1": "Identify the input parameters as positive integers a, b, and n, representing coefficients in a linear equation and the target number, respectively.",
+        "instruction 2": "Use the Extended Euclidean Algorithm or similar mathematical approach to find the greatest common divisor (GCD) of a and b, then use the GCD to find the coefficients x and y that satisfy the equation ax + by = n, or return None if no solution exists."
+    },
+    {
+        "task_id": 161,
+        "prompt": "Write a function to remove all elements from a given list present in another list.",
+        "instruction 1": "Identify two input parameters as two lists, with one containing the elements to be removed and the other containing the main list to operate on.",
+        "instruction 2": "Use Python's list comprehension or the `set` data structure to create a new list that excludes elements from the first list from the main list."
+    },
+    {
+        "task_id": 162,
+        "prompt": "Write a function to calculate the sum (n - 2*i) from i=0 to n // 2, for instance n + (n-2) + (n-4)... (until n-x =< 0).",
+        "instruction 1": "Identify the input parameter as an integer n and define an integer i to iterate from 0 to n // 2.",
+        "instruction 2": "Use a loop to calculate the sum (n - 2*i) for each iteration of i, and return the total sum."
+    },
+    {
+        "task_id": 165,
+        "prompt": "Write a function to count the number of characters in a string that occur at the same position in the string as in the English alphabet (case insensitive).",
+        "instruction 1": "Identify the input parameter as a string and convert it to lowercase to compare with the English alphabet, then iterate through each character and its index in the string.",
+        "instruction 2": "Check if the character matches with the corresponding character in the English alphabet (ignoring case) and count the occurrences if they match, then return the count."
+    },
+    {
+        "task_id": 166,
+        "prompt": "Write a function that counts the number of pairs of integers in a list that xor to an even number.",
+        "instruction 1": "Identify the input parameter as a list of integers and initialize a counter variable to track the number of pairs.",
+        "instruction 2": "Iterate over the list and use the XOR operator to calculate the result of the pair, if the result is even, increment the counter, and finally return the count."
+    },
+    {
+        "task_id": 167,
+        "prompt": "Write a python function to find the smallest power of 2 greater than or equal to n.",
+        "instruction 1": "Identify the input parameter as an integer n and calculate the floor logarithm base 2 of n using the `math.log2()` function to get the power of 2.",
+        "instruction 2": "Return the result of the logarithm as an integer and add 1 to it to get the smallest power of 2 greater than or equal to n."
+    },
+    {
+        "task_id": 168,
+        "prompt": "Write a function to count the number of occurrences of a number in a given list.",
+        "instruction 1": "Identify the input parameters as a list of numbers and the number to be counted.",
+        "instruction 2": "Use a loop to iterate through the list and count the occurrences of the specified number using an integer variable to keep track of the count."
+    },
+    {
+        "task_id": 170,
+        "prompt": "Write a function to find the sum of numbers in a list within a range specified by two indices.",
+        "instruction 1": "Identify the input parameters as a list of numbers and two integers representing the start and end indices that specify the range.",
+        "instruction 2": "Use Python's list slicing to extract the sublist between the specified indices and return the sum of the elements in that sublist using the `sum()` function"
+    },
+    {
+        "task_id": 171,
+        "prompt": "Write a function to find the perimeter of a regular pentagon from the length of its sides.",
+        "instruction 1": "Identify the input parameter as the length of one side of the pentagon, and use geometric formulas to calculate the perimeter of the regular polygon.",
+        "instruction 2": "Calculate the perimeter using the formula 5 * side_length, where side_length is the length of one side of the pentagon, and return the result."
+    },
+    {
+        "task_id": 172,
+        "prompt": "Write a function to count the number of occurence of the string 'std' in a given string.",
+        "instruction 1": "Identify the input parameter as a string and search for the substring 'std' within it.",
+        "instruction 2": "Use the `count()` method to count the number of occurrences of the substring 'std' in the input string and return the count."
+    },
+    {
+        "task_id": 222,
+        "prompt": "Write a function to check if all the elements in tuple have same data type or not.",
+        "instruction 1": "Identify the input parameter as a tuple and initialize a flag to True, assuming all elements have the same data type.",
+        "instruction 2": "Use a loop to iterate through the tuple, and return False if it finds an element with a different data type; otherwise, return the initially set flag."
+    },
+    {
+        "task_id": 223,
+        "prompt": "Write a function that takes in a sorted array, its length (n), and an element and returns whether the element is the majority element in the given sorted array. (The majority element is the element that occurs more than n/2 times.)",
+        "instruction 1": "Identify the input parameters as a sorted list, its length, and the target element, and check if the target element occurs more than n/2 times in the list",
+        "instruction 2": "Use a two-pointer technique: one starting from the beginning, and the other from the end, moving towards the center, counting the occurrences of the target element, and return True if the count is more than n/2, False otherwise"
+    },
+    {
+        "task_id": 224,
+        "prompt": "Write a python function to count the number of set bits (binary digits with value 1) in a given number.",
+        "instruction 1": "Identify the input parameter as an integer representing the number and initialize a variable to hold the count of set bits.",
+        "instruction 2": "Use bitwise operations to extract the least significant bit of the number and count the number of times this operation returns a non-zero value, and return the count."
+    },
+    {
+        "task_id": 226,
+        "prompt": "Write a python function to remove the characters which have odd index values of a given string.",
+        "instruction 1": "Use Python's slicing to extract the even indexed characters from the input string by specifying the slice range as start=0, stop=len(string), step=2.",
+        "instruction 2": "Join the extracted even indexed characters together using Python's `join` function to return the resulting string without odd indexed characters."
+    },
+    {
+        "task_id": 227,
+        "prompt": "Write a function to find minimum of three numbers.",
+        "instruction 1": "Identify the input parameters as three numbers a, b, and c",
+        "instruction 2": "Return the smallest of the three numbers using a comparison operation"
+    },
+    {
+        "task_id": 230,
+        "prompt": "Write a function that takes in a string and character, replaces blank spaces in the string with the character, and returns the string.",
+        "instruction 1": "Identify the input parameters as a string and a character, and initialize an empty string to store the result.",
+        "instruction 2": "Use a loop to iterate over the input string, replacing each blank space with the given character, then return the modified string."
+    },
+    {
+        "task_id": 232,
+        "prompt": "Write a function that takes in a list and an integer n and returns a list containing the n largest items from the list.",
+        "instruction 1": "Identify the input parameters as a list of numbers and an integer n that specifies the number of largest items to return.",
+        "instruction 2": "Use the built-in Python functions `sorted()` and `reverse=True` to sort the list in descending order and then slice it using list slicing to get the first n elements, returning the result."
+    },
+    {
+        "task_id": 233,
+        "prompt": "Write a function to find the lateral surface area of a cylinder.",
+        "instruction 1": "Diagnose the problem by identifying the input parameters as the radius of the circle at the base and height of the cylinder, then define the lateral surface area formula.",
+        "instruction 2": "Implement the formula using Python, setting up the calculation for the curved surface area and adding the top and bottom circle areas, then return the total result."
+    },
+    {
+        "task_id": 234,
+        "prompt": "Write a function to find the volume of a cube given its side length.",
+        "instruction 1": "Identify the input parameter as the side length of the cube and calculate the volume using the formula V = s^3, where V is the volume and s is the side length.",
+        "instruction 2": "Return the calculated volume as the output of the function."
+    },
+    {
+        "task_id": 235,
+        "prompt": "Write a python function to set all even bits of a given number.",
+        "instruction 1": "Identify the input parameter as an integer and use bitwise operators to set all even bits to 1 and all odd bits to 0.",
+        "instruction 2": "Use the XOR operator to reset the bits of the number with the result of the bitwise AND operation of the number and a binary number with all even bits set to 1."
+    },
+    {
+        "task_id": 237,
+        "prompt": "Write a function that takes in a list of tuples and returns a dictionary mapping each unique tuple to the number of times it occurs in the list.",
+        "instruction 1": "Identify the input parameter as a list of tuples and use a dictionary to count the occurrences of each tuple.",
+        "instruction 2": "Use a loop to iterate through the list and update the dictionary values, and use the `defaultdict` from the `collections` module to avoid `KeyError` when initializing the dictionary."
+    },
+    {
+        "task_id": 238,
+        "prompt": "Write a python function to count the number of non-empty substrings of a given string.",
+        "instruction 1": "Identify the input parameter as a string and initialize a counter variable to zero.",
+        "instruction 2": "Use a loop to iterate through the string, initializing a substring variable to the current character, and increment the counter for each non-empty substring found."
+    },
+    {
+        "task_id": 239,
+        "prompt": "Write a function that takes in positive integers m and n and finds the number of possible sequences of length n, such that each element is a positive integer and is greater than or equal to twice the previous element but less than or equal to m.",
+        "instruction 1": "Identify the input parameters as positive integers m and n and initialize a variable to store the count of possible sequences.",
+        "instruction 2": "Use a loop to iterate from 1 to m and check if the current number is greater than or equal to 2 times the previous number and less than or equal to m, increasing the count of possible sequences if it is, and finally return the count."
+    },
+    {
+        "task_id": 240,
+        "prompt": "Write a function that takes in two lists and replaces the last element of the first list with the elements of the second list.",
+        "instruction 1": "Identify the input parameters as two lists and the target list's index, assuming the last element is the one being replaced.",
+        "instruction 2": "Use list concatenation to merge the second list into the first, and then return the resulting list."
+    },
+    {
+        "task_id": 242,
+        "prompt": "Write a function to count the total number of characters in a string.",
+        "instruction 1": "Identify the input parameter as a string, which is the input to be analyzed.",
+        "instruction 2": "Use the built-in `len()` function on the input string to calculate and return the total number of characters in the string."
+    },
+    {
+        "task_id": 244,
+        "prompt": "Write a python function to find the next perfect square greater than a given number.",
+        "instruction 1": "Identify the input parameter as an integer representing the given number and initialize a variable to the square root of the given number.",
+        "instruction 2": "Use a loop to increment the integer from the square root of the given number until it becomes the square root of the next perfect square, and return the perfect square."
+    },
+    {
+        "task_id": 245,
+        "prompt": "Write a function that takes an array and finds the maximum sum of a bitonic subsequence for the given array, where a sequence is bitonic if it is first increasing and then decreasing.",
+        "instruction 1": "Identify the input parameter as an array and initialize variables to store the maximum sum and bitonic sequence.",
+        "instruction 2": "Implement a dynamic programming approach to find the maximum sum of a bitonic subsequence by iterating over the array and updating the maximum sum and sequence values accordingly."
+    },
+    {
+        "task_id": 247,
+        "prompt": "Write a function to find the length of the longest palindromic subsequence in the given string.",
+        "instruction 1": "Identify the input parameter as a string, and initialize variables to store the longest palindromic subsequence length and a 2D table to store the dynamic programming results.",
+        "instruction 2": "Use dynamic programming to fill the table, comparing pairs of characters in the string and finding the maximum length of the palindromic subsequence ending at each position, then return the maximum value in the table as the length of the longest palindromic subsequence."
+    },
+    {
+        "task_id": 250,
+        "prompt": "Write a python function that takes in a tuple and an element and counts the occcurences of the element in the tuple.",
+        "instruction 1": "Identify the input parameters as a tuple and an element, and count the number of occurrences of the element within the tuple using a loop or list comprehension.",
+        "instruction 2": "Use Python's `count()` method or list comprehension to iterate through the tuple and compare each element to the specified element, then return the count of matches."
+    },
+    {
+        "task_id": 251,
+        "prompt": "Write a function that takes in a list and an element and inserts the element before each element in the list, and returns the resulting list.",
+        "instruction 1": "Identify the input parameters as a list and an element, and initialize an empty list to store the modified list",
+        "instruction 2": "Use a loop to iterate over the input list, inserting the element before each element, and append the modified list to the result list"
+    },
+    {
+        "task_id": 252,
+        "prompt": "Write a python function to convert complex numbers to polar coordinates.",
+        "instruction 1": "Identify the input parameter as a complex number and use the built-in `math.hypot` function to calculate the magnitude (r) and the `math.atan2` function to calculate the phase (theta) of the complex number.",
+        "instruction 2": "Return the polar coordinates as a tuple of (r, theta) or use the `cmath.polar` function to convert the complex number to polar coordinates directly."
+    },
+    {
+        "task_id": 253,
+        "prompt": "Write a python function that returns the number of integer elements in a given list.",
+        "instruction 1": "Identify the input as a list of elements and count the number of integers in the list using a loop or list comprehension.",
+        "instruction 2": "Return the count of integers as an integer value, possibly using the `isinstance()` function to check for integer types."
+    },
+    {
+        "task_id": 255,
+        "prompt": "Write a function that takes in a list and length n, and generates all combinations (with repetition) of the elements of the list and returns a list with a tuple for each combination.",
+        "instruction 1": "Identify the input parameters as a list of elements and an integer n that represents the length of the combinations, and initialize an empty list to store the combinations.",
+        "instruction 2": "Use the `itertools.product` function to generate all combinations of the list with repetition to the specified length `n`, and return the result as a list of tuples in the combinations."
+    },
+    {
+        "task_id": 256,
+        "prompt": "Write a python function that takes in a non-negative number and returns the number of prime numbers less than the given non-negative number.",
+        "instruction 1": "Identify the input parameter as a non-negative integer and initialize a counter variable to track the number of prime numbers less than the given number.",
+        "instruction 2": "Use a loop to iterate from 2 to the given number, check if the number is prime using a logical condition, and increment the counter if it is prime, then return the total count."
+    },
+    {
+        "task_id": 257,
+        "prompt": "Write a function that takes in two numbers and returns a tuple with the second number and then the first number.",
+        "instruction 1": "Identify the input parameters as two numbers and convert them into variables.",
+        "instruction 2": "Construct the tuple by adding the second number first and then the first number using the tuple syntax and return it"
+    },
+    {
+        "task_id": 259,
+        "prompt": "Write a function to maximize the given two tuples.",
+        "instruction 1": "Identify the input parameters as two tuples representing numerical values and determine if they should be unmodified or treated as single numbers.",
+        "instruction 2": "Compare the two tuples using the `max()` function, which compares tuples by their first element, then by their second, third, and so on, and return the tuple with the greater values."
+    },
+    {
+        "task_id": 260,
+        "prompt": "Write a function to find the nth newman–shanks–williams prime number.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the index of the Newman-Sheykh-Wilson prime number and find the previous smallest number",
+        "instruction 2": "Use a loop to generate numbers from 1 and for each number, check if it is prime using a prime checking function (keeping track of the current smallest 'a' and applying the formula a+λn*(n+1)) and if yes, update 'a' and return the value as the nth Newman-Sheykh-Wilson prime number"
+    },
+    {
+        "task_id": 261,
+        "prompt": "Write a function that takes in two tuples and performs mathematical division operation element-wise across the given tuples.",
+        "instruction 1": "Identify the input parameters as two tuples of numbers and implement a loop to iterate over each element of the tuples, dividing the corresponding elements and storing the results in a new list.",
+        "instruction 2": "Return the resulting list, which is the element-wise division of the input tuples, and handle potential ZeroDivisionError for division by zero by either skipping such elements or replacing the result with a chosen default value, such as 0."
+    },
+    {
+        "task_id": 262,
+        "prompt": "Write a function that takes in a list and an integer L and splits the given list into two parts where the length of the first part of the list is L, and returns the resulting lists in a tuple.",
+        "instruction 1": "Identify the input parameters as a list of elements and an integer L, and declare two empty lists to hold the two parts of the original list.",
+        "instruction 2": "Use conditional statement to check if the length of the list is less than or equal to L, and return a tuple containing the original list if true, otherwise slice the list into two parts with the first part having length L, and return the resulting tuple."
+    },
+    {
+        "task_id": 264,
+        "prompt": "Write a function to calculate a dog's age in dog's years.",
+        "instruction 1": "Define the input parameter as dog's current age, breed, and name to determine the equivalent age in dog years based on adult and puppy ages for each breed.",
+        "instruction 2": "Use a dictionary to map the breed to its corresponding adult and puppy years, calculate the age in dog years based on the age and breed, and return the result."
+    },
+    {
+        "task_id": 265,
+        "prompt": "Write a function that takes in a list and an integer n and splits a list for every nth element, returning a list of the resulting lists.",
+        "instruction 1": "Identify the input parameters as a list of numbers and an integer n, and initialize an empty list to store the resulting lists of sublists. Then, use a for loop to iterate over the input list and split it into sublists of length n.",
+        "instruction 2": "Use list slicing to extract the sublist from the input list starting from the current index to the next nth index, and append this sublist to the result list. Continue the process until the input list is exhausted."
+    },
+    {
+        "task_id": 266,
+        "prompt": "Write a function to find the lateral surface area of a cube given its side length.",
+        "instruction 1": "Identify the input parameter as the side length of the cube and calculate its lateral surface area using the formula 4 * side^2.",
+        "instruction 2": "Return the calculated lateral surface area as the output of the function."
+    },
+    {
+        "task_id": 267,
+        "prompt": "Write a python function that takes in an integer n and returns the sum of the squares of the first n odd natural numbers.",
+        "instruction 1": "Define a variable to store the sum of the squares and start a loop from 1 to n with an increment of 2 (to consider odd numbers) and calculate the square of the current iteration, adding it to the initial sum.",
+        "instruction 2": "Return the final sum obtained in the loop."
+    },
+    {
+        "task_id": 268,
+        "prompt": "Write a function to find the n'th star number.",
+        "instruction 1": "Identify the input parameter as an integer n and calculate the formula for the nth star number, which is the sum of all primes up to the nth star number itself.",
+        "instruction 2": "Use a loop to generate the sequence of primes, add them up, and compare the sum to n. If the sum equals or exceeds n, return the current prime number as the nth star number; otherwise, increment n and continue the process."
+    },
+    {
+        "task_id": 269,
+        "prompt": "Write a function to find the ascii value of a character.",
+        "instruction 1": "Identify the input parameter as a single character and cast it to an integer using the built-in `ord()` function.",
+        "instruction 2": "Return the result of the `ord()` function as the ASCII value of the character."
+    },
+    {
+        "task_id": 270,
+        "prompt": "Write a python function to find the sum of even numbers at even positions of a list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and initialize an empty variable to store the sum of even numbers at even positions.",
+        "instruction 2": "Use a loop to iterate over the list, check if the index is even and the corresponding value is even, then add it to the sum, and finally return the sum."
+    },
+    {
+        "task_id": 271,
+        "prompt": "Write a python function that takes in an integer n and finds the sum of the first n even natural numbers that are raised to the fifth power.",
+        "instruction 1": "Identify the input parameter as an integer n and initialize a variable to store the sum, then use a loop to iterate from 2 to 2*n with a step size of 2, raising each number to the power of 5 and adding it to the sum.",
+        "instruction 2": "Return the final sum after the loop iteration is completed."
+    },
+    {
+        "task_id": 272,
+        "prompt": "Write a function that takes in a list of tuples and returns a list containing the rear element of each tuple.",
+        "instruction 1": "Identify the input parameter as a list of tuples and specify the index 1 as the rear element of each tuple, since Python touples are 0-indexed.",
+        "instruction 2": "Use a list comprehension to iterate over the list of tuples and extract the rear element of each tuple, which can be done by accessing the elements at index 1, then return the resulting list."
+    },
+    {
+        "task_id": 273,
+        "prompt": "Write a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index.",
+        "instruction 1": "Identify the input parameters as two tuples of numbers and store their elements in separate variables.",
+        "instruction 2": "Use a loop to iterate over the input tuples, subtract the corresponding elements of the second tuple from the elements of the first tuple, and return a new tuple containing the results."
+    },
+    {
+        "task_id": 274,
+        "prompt": "Write a python function that takes in a positive integer n and finds the sum of even index binomial coefficients.",
+        "instruction 1": "Identify the input parameter as a positive integer n and use the math.comb function from the math module to calculate the binomial coefficients.",
+        "instruction 2": "Use a loop to iterate over the range of binomial coefficients, selecting only those at even indices, and sum them up, returning the total sum."
+    },
+    {
+        "task_id": 276,
+        "prompt": "Write a function that takes in the radius and height of a cylinder and returns the the volume.",
+        "instruction 1": "Identify the input parameters as the radius and height of the cylinder.",
+        "instruction 2": "Calculate the volume of the cylinder using the formula πr^2*h, where r is the radius and h is the height, and return the result."
+    },
+    {
+        "task_id": 277,
+        "prompt": "Write a function that takes in a dictionary and integer n and filters the dictionary to only include entries with values greater than or equal to n.",
+        "instruction 1": "Identify the input parameters as a dictionary and an integer n, and iterate through the dictionary to filter its key-value pairs.",
+        "instruction 2": "Use a conditional statement to check if the value of each pair is greater than or equal to n, and if true, include it in the filtered dictionary, otherwise, exclude it."
+    },
+    {
+        "task_id": 278,
+        "prompt": "Write a function to find the number of elements that occurs before the tuple element in the given tuple.",
+        "instruction 1": "Identify the input parameters as a tuple and some other number that represents the second element to be searched for, then initialize a counter.",
+        "instruction 2": "Iterate over the tuple using the index and value, increment the counter for each element that is less than the second element, then return the counter."
+    },
+    {
+        "task_id": 279,
+        "prompt": "Write a function to find the nth decagonal number.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the position of the decagonal number to be found, and calculate the nth decagonal number using the formula for decagonal numbers.",
+        "instruction 2": "Implement the formula using Python code, calculating the value of the decagonal number as (6n^2 - n) // 2 and return the result."
+    },
+    {
+        "task_id": 280,
+        "prompt": "Write a function that takes in an array and element and returns a tuple containing a boolean that indicates if the element is in the array and the index position of the element (or -1 if the element is not found).",
+        "instruction 1": "Identify the function's parameters as a list of elements and a target element, and initialize variables to track the result and index.",
+        "instruction 2": "Use a loop to iterate through the list and check if the target element is found; if it is, return a tuple containing True and its index; otherwise, return a tuple containing False and -1."
+    },
+    {
+        "task_id": 281,
+        "prompt": "Write a python function to check if the elements of a given list are unique or not.",
+        "instruction 1": "Identify the input parameter as a list and sort it in ascending order.",
+        "instruction 2": "Check if the sorted list contains any duplicate elements by iterating through it and comparing each element with the previous one; return True if no duplicates are found and False otherwise."
+    },
+    {
+        "task_id": 282,
+        "prompt": "Write a function to subtract two lists element-wise.",
+        "instruction 1": "Identify the input parameters as two lists of numbers, and implement the subtraction operation by comparing corresponding elements and subtracting the elements from the first list from the elements in the second list.",
+        "instruction 2": "Use a list comprehension or a loop to perform the element-wise subtraction, generating a new list with the results, and return this new list."
+    },
+    {
+        "task_id": 283,
+        "prompt": "Write a python function takes in an integer and check whether the frequency of each digit in the integer is less than or equal to the digit itself.",
+        "instruction 1": "Identify the input parameter as an integer and convert it into a string to iterate through each character representing a digit",
+        "instruction 2": "Use a loop to count the frequency of each digit in the integer, comparing it to the digit itself and return a boolean indicating whether the condition is satisfied for all digits"
+    },
+    {
+        "task_id": 284,
+        "prompt": "Write a function that takes in a list and element and checks whether all items in the list are equal to the given element.",
+        "instruction 1": "Identify the input parameters as a list of elements and the target element to be checked.",
+        "instruction 2": "Use a loop to iterate through the list and check if all elements are equal to the target element, returning a boolean value indicating whether the condition is true."
+    },
+    {
+        "task_id": 285,
+        "prompt": "Write a function that checks whether a string contains the 'a' character followed by two or three 'b' characters.",
+        "instruction 1": "Identify the function input as a string and use the `in` operator to check if the string contains the sequence 'ab' or 'abbb'.",
+        "instruction 2": "Use Python's `in` operator to check if the length of the sequence is exactly 3 and dynamically structure the search pattern with uppercase 'b's or lowercase 'b's to accommodate both cases, then return a boolean value indicating whether the condition is met."
+    },
+    {
+        "task_id": 286,
+        "prompt": "Write a function to find the largest sum of a contiguous array in the modified array which is formed by repeating the given array k times.",
+        "instruction 1": "Identify the input parameters as a list of numbers and an integer k that represents the number of times the array is repeated, then calculate the modified array by concatenating the original array k times.",
+        "instruction 2": "Use a loop to slide a window of different lengths over the modified array, calculate the sum of each window, and keep track of the maximum sum found."
+    },
+    {
+        "task_id": 287,
+        "prompt": "Write a python function takes in an integer n and returns the sum of squares of first n even natural numbers.",
+        "instruction 1": "Identify the input parameter as an integer n and initialize a variable to store the sum of squares of even numbers from 1 to n.",
+        "instruction 2": "Use a loop to iterate over the range of even numbers from 1 to n, square each number, and add it to the sum variable, then return the sum."
+    },
+    {
+        "task_id": 290,
+        "prompt": "Write a function to find the list of maximum length in a list of lists.",
+        "instruction 1": "Identify the input as a list of lists and iterate through each sublist to find its length",
+        "instruction 2": "Keep track of the maximum length encountered so far and return this maximum length"
+    },
+    {
+        "task_id": 292,
+        "prompt": "Write a python function to find quotient of two numbers (rounded down to the nearest integer).",
+        "instruction 1": "Define two input parameters as numbers and implement integer division to find the quotient, truncating the result if necessary.",
+        "instruction 2": "Use the built-in `//` operator for integer division and the `truncate()` function to round down the result, if necessary, and return the value."
+    },
+    {
+        "task_id": 293,
+        "prompt": "Write a function to find the third side of a right angled triangle.",
+        "instruction 1": "Identify the input parameters as the lengths of the two shorter sides (hypotenuse, a, b) of the right-angled triangle.",
+        "instruction 2": "Use the Pythagorean theorem to calculate the length of the third side (c) as the square root of the sum of the squares of the other two sides."
+    },
+    {
+        "task_id": 294,
+        "prompt": "Write a function to find the maximum value in a given heterogeneous list.",
+        "instruction 1": "Identify the input parameter as a list of mixed data types and assume it will contain at least one numeric value.",
+        "instruction 2": "Use a conditional statement to iterate through the list, checking if each element is an integer or float, and keep track of the maximum value found."
+    },
+    {
+        "task_id": 296,
+        "prompt": "Write a python function to count inversions in an array.",
+        "instruction 1": "Identify the input parameter as a list of integers and initialize an empty counter variable to track the number of inversions.",
+        "instruction 2": "Use a loop to iterate over the input list, comparing each pair of adjacent elements to count the number of inversions, and return the total count of inversions."
+    },
+    {
+        "task_id": 297,
+        "prompt": "Write a function to flatten a given nested list structure.",
+        "instruction 1": "Write a recursive function that takes a list as input and checks if the input is a nested list, if so, append each element to a result list, if not, return the input.",
+        "instruction 2": "If the input list is not empty, iterate over its elements, if an element is a list, recursively call the function with that element, otherwise, append it to the result list, and finally return the result list."
+    },
+    {
+        "task_id": 299,
+        "prompt": "Write a function to calculate the maximum aggregate from the list of tuples.",
+        "instruction 1": "Identify the input parameter as a list of tuples, and assume each tuple contains two numeric values, one representing the max value and one representing the min value, and identify the goal as finding the maximum of these maximum values.",
+        "instruction 2": "Use a list comprehension or a loop to iterate over the list of tuples, and for each tuple, return the maximum value, then use Python's built-in `max()` function to find the overall maximum from the list of maximum values."
+    },
+    {
+        "task_id": 300,
+        "prompt": "Write a function to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits.",
+        "instruction 1": "Write a recursive function to generate all binary sequences of length 2n, considering the base case when n is 0 and each sequence has only one binary digit 0 or 1.",
+        "instruction 2": "Implement a loop to check the condition that the sum of the first n bits is the same as the sum of the last n bits, and count the number of sequences that satisfy this condition."
+    },
+    {
+        "task_id": 301,
+        "prompt": "Write a function to find the depth of a dictionary.",
+        "instruction 1": "Identify the input parameter as a dictionary and define a variable to track the depth, initializing it to 1.",
+        "instruction 2": "Use a recursive function to iterate through the dictionary's items, incrementing the depth variable at each level, and return the maximum depth encountered."
+    },
+    {
+        "task_id": 305,
+        "prompt": "Write a function to return two words from a list of words starting with letter 'p'.",
+        "instruction 1": "Identify the input parameter as a list of words, and filter the list to include only those words that start with the letter 'p'.",
+        "instruction 2": "Use a loop to iterate over the filtered list and return a list of the first two words that meet the condition."
+    },
+    {
+        "task_id": 306,
+        "prompt": "Write a function to find the maximum sum of increasing subsequence from prefix until ith index and also including a given kth element which is after i, i.e., k > i .",
+        "instruction 1": "Identify the input parameters as a list of numbers and the indices i and k, where i represents the starting index and k is the kth element to include in the subsequence.",
+        "instruction 2": "Use dynamic programming to find the maximum sum of increasing subsequence and update the maximum sum for each index until i, then include the kth element and return the maximum sum."
+    },
+    {
+        "task_id": 308,
+        "prompt": "Write a function to find the specified number of largest products from two given lists, selecting one factor from each list.",
+        "instruction 1": "Identify the input parameters as two lists of numbers and the specified number of largest products to find.",
+        "instruction 2": "Use the `itertools` module to generate all possible pairs of elements from the two lists, calculate the product of each pair, find the `specified_number` largest products, and return them."
+    },
+    {
+        "task_id": 309,
+        "prompt": "Write a python function to find the maximum of two numbers.",
+        "instruction 1": "Identify the input parameters as two numbers, a and b, and determine which is greater.",
+        "instruction 2": "Return the maximum number using the greater operator (>), assigning the result to the function return value."
+    },
+    {
+        "task_id": 310,
+        "prompt": "Write a function to convert a given string to a tuple of characters.",
+        "instruction 1": "Identify the input parameter as a string and convert it to a tuple using the built-in Python function `tuple()` with the string as the argument.",
+        "instruction 2": "Return the resulting tuple with the characters of the original string"
+    },
+    {
+        "task_id": 311,
+        "prompt": "Write a python function to set the left most unset bit.",
+        "instruction 1": "Identify the input parameter as an integer value and determine the leftmost unset bit using bitwise operations (e.g., bitwise AND with -1).",
+        "instruction 2": "Use bitwise OR operation to set the leftmost unset bit to 1 and return the updated value."
+    },
+    {
+        "task_id": 312,
+        "prompt": "Write a function to find the volume of a cone.",
+        "instruction 1": "Identify the input parameters as the radius of the cone and its height, and define the mathematical formula to calculate the volume of a cone.",
+        "instruction 2": "Implement the formula to calculate the volume using the `math` module for mathematical operations and return the calculated volume."
+    },
+    {
+        "task_id": 388,
+        "prompt": "Write a python function to find the highest power of 2 that is less than or equal to n.",
+        "instruction 1": "Identify the input parameter as an integer n and convert it to a binary string to find the highest power of 2 that is less than or equal to n.",
+        "instruction 2": "Use a loop to iterate over the binary string from right to left, tracking the previous 1 position and incrementing the counter when a 1 is found, until you find a 0 or the loop ends, then return the counter as the highest power of 2."
+    },
+    {
+        "task_id": 389,
+        "prompt": "Write a function to find the n'th lucas number.",
+        "instruction 1": "Define the function to receive an integer n as input, and initialize the first two Lucas numbers as 2 and 1.",
+        "instruction 2": "Use a loop to calculate the next Lucas number as the sum of the previous two, and return the n'th Lucas number."
+    },
+    {
+        "task_id": 390,
+        "prompt": "Write a function to apply a given format string to all of the elements in a list.",
+        "instruction 1": "Identify the input parameters as a list of elements and a format string, then iterate over the list using a loop to access each element.",
+        "instruction 2": "Use the `format()` function or f-string formatting to apply the format string to each element and return the list of formatted strings."
+    },
+    {
+        "task_id": 391,
+        "prompt": "Write a function to convert more than one list to nested dictionary.",
+        "instruction 1": "Identify the input parameters as a list of lists and use a loop to iterate through each sublist, treating it as a key-value pair where the index of the sublist in the main list becomes the key and the sublist elements become the corresponding values in the main dictionary.",
+        "instruction 2": "Use a nested dictionary comprehension to create a dictionary where each key is the index of the sublist and its corresponding value is another dictionary created by combining the elements of the sublist as key-value pairs."
+    },
+    {
+        "task_id": 392,
+        "prompt": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).",
+        "instruction 1": "Identify the input parameter as an integer n and define a function that calculates the maximum sum using the given equation as the recursive formula.",
+        "instruction 2": "Use Python's math library or recursion to calculate the function values for the given equation and apply the formula to reduce the problem size until reaching a base case, then return the maximum sum."
+    },
+    {
+        "task_id": 394,
+        "prompt": "Write a function to check if given tuple contains no duplicates.",
+        "instruction 1": "Identify the input parameter as a tuple and convert it to a set to remove duplicates, then compare the set to the original tuple.",
+        "instruction 2": "Return a boolean value indicating whether the original tuple and the set have the same length, implying that the tuple has no duplicates."
+    },
+    {
+        "task_id": 395,
+        "prompt": "Write a python function to find the first non-repeated character in a given string.",
+        "instruction 1": "Identify the input parameter as a string and create a dictionary to store character frequencies.",
+        "instruction 2": "Iterate through the string, incrementing character frequencies in the dictionary, and return the first character with a frequency of 1."
+    },
+    {
+        "task_id": 397,
+        "prompt": "Write a function to find the median of three numbers.",
+        "instruction 1": "Identify three input parameters as integers representing the three numbers, and assume that they are unique.",
+        "instruction 2": "Sort the input numbers in ascending order and return the middle value as the median if the input numbers are in an odd count, or the average of the two middle values if the input numbers are in an even count."
+    },
+    {
+        "task_id": 398,
+        "prompt": "Write a function to compute the sum of digits of each number of a given list.",
+        "instruction 1": "Identify the input parameter as a list of integers, and initialize an empty list to store the sums of digits for each number.",
+        "instruction 2": "Use a loop to iterate over the input list, for each number, calculate the sum of its digits using recursion or a loop, and append the result to the sum list."
+    },
+    {
+        "task_id": 404,
+        "prompt": "Write a python function to find the minimum of two numbers.",
+        "instruction 1": "Identify the input parameters as two numbers, x and y.",
+        "instruction 2": "Return the smaller of the two input values using the `min()` function"
+    },
+    {
+        "task_id": 405,
+        "prompt": "Write a function to check whether an element exists within a tuple.",
+        "instruction 1": "Define the input parameter as a tuple and an element to check, and then iterate over the tuple to search for the element's presence.",
+        "instruction 2": "Use an if-else statement to check if the element exists in the tuple, returning a boolean value indicating its presence or absence."
+    },
+    {
+        "task_id": 406,
+        "prompt": "Write a python function to find whether the parity of a given number is odd.",
+        "instruction 1": "Identify the input parameter as an integer that represents the number, and use the modulo operator to determine whether the remainder is 0 or not, which indicates whether the number is even or odd.",
+        "instruction 2": "Return a boolean value (True for odd, False for even) based on the result of the logical operator (or ternary operator) that checks the parity, using a condition to evaluate the remainder."
+    },
+    {
+        "task_id": 409,
+        "prompt": "Write a function to find the minimum product from the pairs of tuples within a given list.",
+        "instruction 1": "Use a list comprehension to extract all pairs of tuples from the input list and calculate their products using the multiplication operation.",
+        "instruction 2": "Return the minimum product from the calculated products using the built-in `min()` function along with the `key` argument to specify the multiplication product as the key for comparison."
+    },
+    {
+        "task_id": 410,
+        "prompt": "Write a function to find the minimum value in a given heterogeneous list.",
+        "instruction 1": "Identify the input parameter as a heterogeneous list of any type, and assume that the list can contain integers, floats, strings, or any other dissimilar data types.",
+        "instruction 2": "Use a Python built-in function `min()` with the `key` argument set to `None` or omitting it altogether to find the minimum value in the list without considering the data types and return it."
+    },
+    {
+        "task_id": 412,
+        "prompt": "Write a python function to remove odd numbers from a given list.",
+        "instruction 1": "Identify the input parameter as a list of integers and use a list comprehension to create a new list containing only the even numbers from the original list.",
+        "instruction 2": "Return the new list of even numbers."
+    },
+    {
+        "task_id": 413,
+        "prompt": "Write a function to extract the nth element from a given list of tuples.",
+        "instruction 1": "Identify the input parameter as a list of tuples and an integer n, and extract the nth tuple from the list",
+        "instruction 2": "Access the nth element of the extracted tuple using indexing, i.e., tuple_list[n-1][index], where index is the element index within the tuple"
+    },
+    {
+        "task_id": 414,
+        "prompt": "Write a python function to check whether any value in a sequence exists in a sequence or not.",
+        "instruction 1": "Identify the input parameters as two lists or sequences and check if at least one value exists in both sequences using a loop or the `in` keyword.",
+        "instruction 2": "Use a loop or the `in` keyword to iterate and check the existence of at least one value from the first sequence in the second sequence, or vice versa, and return a boolean value indicating the presence or absence of at least one matching value."
+    },
+    {
+        "task_id": 415,
+        "prompt": "Write a python function to find a pair with highest product from a given array of integers.",
+        "instruction 1": "Identify the input parameter as a list of integers and initialize two variables to store the maximum and minimum pair product values.",
+        "instruction 2": "Iterate through the list, updating the maximum and minimum pair product values by deducing all possible pairs and comparing their absolute values to find the pair with the highest product."
+    },
+    {
+        "task_id": 418,
+        "prompt": "Write a python function to find the element of a list having maximum length.",
+        "instruction 1": "Identify the input parameter as a list of lists and iterate through the list to find the inner list with the maximum length.",
+        "instruction 2": "Return the maximum length found or the corresponding inner list."
+    },
+    {
+        "task_id": 419,
+        "prompt": "Write a function to round every number of a given list of numbers and print the total sum multiplied by the length of the list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and define an initial variable for the total sum.",
+        "instruction 2": "Use a loop to iterate through the list, round each number, and add it to the total sum, finally print the total sum multiplied by the length of the list."
+    },
+    {
+        "task_id": 420,
+        "prompt": "Write a python function to find the cube sum of first n even natural numbers.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the number of even natural numbers, and initialize an empty list to store the even numbers and their cubes.",
+        "instruction 2": "Use a loop to iterate from 2 to 2*n+2, extract even numbers and cube them, then return the sum of these cube sums using the `sum()` function."
+    },
+    {
+        "task_id": 421,
+        "prompt": "Write a function to concatenate each element of tuple by the delimiter.",
+        "instruction 1": "Identify the input parameter as a tuple and a delimiter, and extract the tuple elements.",
+        "instruction 2": "Use a loop to concatenate each element of the tuple with the delimiter using the `+` operator."
+    },
+    {
+        "task_id": 422,
+        "prompt": "Write a python function to find the average of cubes of first n natural numbers.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the number of natural numbers to find the average of, and calculate the cube of each natural number from 1 to n.",
+        "instruction 2": "Use a loop to calculate the sum of the cubes of the first n natural numbers, then divide the sum by n to find the average and return the result."
+    },
+    {
+        "task_id": 424,
+        "prompt": "Write a function to extract only the rear index element of each string in the given tuple.",
+        "instruction 1": "Split each string in the tuple into a list and extract the last element from each list.",
+        "instruction 2": "Return a new tuple containing the rear index elements of each string."
+    },
+    {
+        "task_id": 425,
+        "prompt": "Write a function to count the number of sublists containing a particular element.",
+        "instruction 1": "Identify the input parameter as a list of lists and the target element to be counted.",
+        "instruction 2": "Use a loop to iterate over the sublists and count the number of occurrences of the target element using a counter variable or a `sum()` function and return the count."
+    },
+    {
+        "task_id": 426,
+        "prompt": "Write a function to filter odd numbers.",
+        "instruction 1": "Identify the input parameter as a list of numbers and use a loop to iterate through each element in the list.",
+        "instruction 2": "Check if each element is odd by using the modulus operator % 2 and return a new list containing only the odd numbers."
+    },
+    {
+        "task_id": 427,
+        "prompt": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.",
+        "instruction 1": "Identify the input parameter as a string date in the format yyyy-mm-dd and split it into day, month, and year.",
+        "instruction 2": "Reverse the order of the day, month, and year and concatenate them with hyphens to form the desired output date in dd-mm-yyyy format."
+    },
+    {
+        "task_id": 428,
+        "prompt": "Write a function to sort the given array by using shell sort.",
+        "instruction 1": "Implement the shell sort algorithm by iteratively sorting subarrays of the given array with a gap size that decreases by half at each step.",
+        "instruction 2": "Use the Python list comprehension to iterate over the array and sort the elements in each subarray, updating the original array, until the gap size is 1, indicating the entire array is sorted."
+    },
+    {
+        "task_id": 429,
+        "prompt": "Write a function to extract the elementwise and tuples from the given two tuples.",
+        "instruction 1": "Identify two input parameters as tuples, and extract each tuple's individual elements, storing them as separate lists.",
+        "instruction 2": "Use a loop to iterate through the elements of the two lists in parallel, concatenating each corresponding element pair into a new tuple and returning the resulting list of tuples."
+    },
+    {
+        "task_id": 430,
+        "prompt": "Write a function to find the directrix of a parabola.",
+        "instruction 1": "Identify the input parameter as a dictionary containing the coefficients A, B, and C of a parabola equation with the standard form Ax^2 + Bx + C = 0.",
+        "instruction 2": "Use the coefficients to calculate the directrix coordinates (x, y) using the formula x = (-B) / (2*A) and y = (A*x^2 - C) / A, then return the coordinates as a tuple or list."
+    },
+    {
+        "task_id": 432,
+        "prompt": "Write a function to find the median length of a trapezium.",
+        "instruction 1": "Identify the input parameters as the lengths of the parallel sides and the height of the trapezium, and calculate the area using the formula (1/2) * (a + b) * h, where a and b are the parallel sides and h is the height.",
+        "instruction 2": "Find the median of the lengths by sorting the list of lengths in ascending order and selecting the middle value (ignoring the middle value if there are an even number of lengths)"
+    },
+    {
+        "task_id": 433,
+        "prompt": "Write a function to check whether the entered number is greater than the elements of the given array.",
+        "instruction 1": "Identify the input parameters as a list of numbers and a single number to be checked, and retrieve the elements of the given array.",
+        "instruction 2": "Use a loop to iterate over the given array and compare each element with the entered number, returning True if all elements are less than the entered number, and False otherwise."
+    },
+    {
+        "task_id": 435,
+        "prompt": "Write a python function to find the last digit of a given number.",
+        "instruction 1": "Identify the input parameter as an integer and calculate the modulus of the number with 10 to get the last digit.",
+        "instruction 2": "Return the result of the modulus calculation as the last digit of the number."
+    },
+    {
+        "task_id": 436,
+        "prompt": "Write a python function to return the negative numbers in a list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and filter out the numbers that are not negative.",
+        "instruction 2": "Use a list comprehension or the built-in filter function to create a new list containing only the negative numbers from the original list."
+    },
+    {
+        "task_id": 437,
+        "prompt": "Write a function to remove odd characters in a string.",
+        "instruction 1": "Identify the input parameter as a string and convert it to a sequence of characters, then iterate over the sequence to check if each character is odd or even.",
+        "instruction 2": "Use a conditional statement to remove the odd characters by filtering out them or replacing them with an empty string, and return the resulting string with only even characters"
+    },
+    {
+        "task_id": 439,
+        "prompt": "Write a function to join a list of multiple integers into a single integer.",
+        "instruction 1": "Identify the input parameter as a list of integers.",
+        "instruction 2": "Use the `int` constructor or the `join` method with an empty string and the `longint.AsTI"
+    },
+    {
+        "task_id": 440,
+        "prompt": "Write a function to find the first adverb and their positions in a given sentence.",
+        "instruction 1": "Identify the input as a string representing the sentence, and split the sentence into words using spaces as separators.",
+        "instruction 2": "Use a loop to iterate through the words, check if each word is an adverb by checking if it ends with '-ly', and if so, record its position and the word in a list, returning the list containing adverb and their positions."
+    },
+    {
+        "task_id": 441,
+        "prompt": "Write a function to find the surface area of a cube of a given size.",
+        "instruction 1": "Identify the input parameter as the size of the cube, use it to calculate the surface area of the cube using the formula 6 * side^2, where side is the length of each side of the cube.",
+        "instruction 2": "Return the calculated surface area."
+    },
+    {
+        "task_id": 445,
+        "prompt": "Write a function to perform index wise multiplication of tuple elements in the given two tuples.",
+        "instruction 1": "Identify the input parameters as two tuples and the elements within the tuples to perform index-wise multiplication.",
+        "instruction 2": "Use a zip() function to pair elements from the input tuples and multiply corresponding elements together, then use a list comprehension to convert the results into a new tuple."
+    },
+    {
+        "task_id": 446,
+        "prompt": "Write a python function to count the occurence of all elements of list in a tuple.",
+        "instruction 1": "Identify the input parameters as a list and a tuple, and initialize an empty dictionary to store the count of each element in the tuple.",
+        "instruction 2": "Use a loop to iterate over the elements of the tuple and increment the count for each element in the dictionary using the `get()` method, then return the dictionary."
+    },
+    {
+        "task_id": 447,
+        "prompt": "Write a function to find cubes of individual elements in a list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and iterate through each element to calculate its cube.",
+        "instruction 2": "Use the `**` operator to raise each element to the power of 3 and return a new list containing the results."
+    },
+    {
+        "task_id": 448,
+        "prompt": "Write a function to calculate the sum of perrin numbers.",
+        "instruction 1": "Identify the input parameter as an integer start, and initialize a list to store the Perrin numbers. Calculate the first two Perrin numbers manually, and then use a loop to generate and append more Perrin numbers based on the recurrence relation.",
+        "instruction 2": "Use a loop to iterate over the list of Perrin numbers, starting from the start index, and return the sum of the Perrin numbers up to that point using the `sum()` function."
+    },
+    {
+        "task_id": 450,
+        "prompt": "Write a function to extract specified size of strings from a given list of string values.",
+        "instruction 1": "Identify the input parameters as a list of strings and an integer size that specifies the desired string length, then filter the list to only include strings with the specified length.",
+        "instruction 2": "Use a list comprehension or a for loop to iterate through the filtered list and return the extracted strings"
+    },
+    {
+        "task_id": 451,
+        "prompt": "Write a function to remove all whitespaces from the given string.",
+        "instruction 1": "Identify the input parameter as a string and initialize an empty string to store the result.",
+        "instruction 2": "Use Python's string methods to remove all whitespaces from the input string and return the resulting string."
+    },
+    {
+        "task_id": 453,
+        "prompt": "Write a python function to find the sum of even factors of a number.",
+        "instruction 1": "Specify the function parameter as an integer and initialize an empty variable to store the sum of even factors.",
+        "instruction 2": "Use a loop to iterate from 1 to the number, check if the current factor is even and less than the number, then add it to the sum."
+    },
+    {
+        "task_id": 454,
+        "prompt": "Write a function that matches a word containing 'z'.",
+        "instruction 1": "Identify the input parameter as a list or string containing words and filter the words that contain the character 'z',",
+        "instruction 2": "Use a loop or list comprehension to iterate through the list of words and return the filtered list of words that contain 'z'."
+    },
+    {
+        "task_id": 455,
+        "prompt": "Write a function to check whether the given month number contains 31 days or not.",
+        "instruction 1": "Identify the input parameter as an integer representing the month number, and determine whether this month has 31 days based on the calendar.",
+        "instruction 2": "Use an if-else statement to return True if the month number is January, March, May, July, August, October, or December, and False otherwise."
+    },
+    {
+        "task_id": 456,
+        "prompt": "Write a function to reverse each string in a given list of string values.",
+        "instruction 1": "Identify the input parameter as a list of strings.",
+        "instruction 2": "Use a loop to iterate over the list and apply the ` reversed()` function to each string in the list, then return the resulting list of reversed strings."
+    },
+    {
+        "task_id": 457,
+        "prompt": "Write a python function to find the sublist having minimum length.",
+        "instruction 1": "Find all sublists in the given list, calculate their lengths and a tuple with sublist and length for each, then return the sublist with the minimum length.",
+        "instruction 2": "Use Python's built-in functions list comprehension and min to generate the tuple, and lambda function to get the sublist with the smallest length."
+    },
+    {
+        "task_id": 458,
+        "prompt": "Write a function to find the area of a rectangle.",
+        "instruction 1": "Identify the input parameters as the length and width of the rectangle.",
+        "instruction 2": "Return the product of the length and width using the multiplication operator (*) and return the result as the area."
+    },
+    {
+        "task_id": 459,
+        "prompt": "Write a function to remove uppercase substrings from a given string.",
+        "instruction 1": " Identify the input parameter as a string, and iterate through each substring of the string to check if it is all uppercase.",
+        "instruction 2": "Use if-else condition to handle the case where the substring is all uppercase, by replacing it with an empty string."
+    },
+    {
+        "task_id": 460,
+        "prompt": "Write a python function to get the first element of each sublist.",
+        "instruction 1": "Identify the input parameter as a list of lists (sublists) and iterate over the outer list using a loop or function.",
+        "instruction 2": "Use list indexing to extract the first element of each sublist and store it in a new list, which can be returned as the result."
+    },
+    {
+        "task_id": 462,
+        "prompt": "Write a function to find all possible combinations of the elements of a given list.",
+        "instruction 1": "Identify the input parameter as a list of elements and use the `itertools` module to generate all possible combinations of the list's elements.",
+        "instruction 2": "Use a loop to iterate over the combinations and return them as a list, ensuring that duplicate-free combinations are included in the result."
+    },
+    {
+        "task_id": 463,
+        "prompt": "Write a function to find the maximum product subarray of the given array.",
+        "instruction 1": "Identify the input parameter as a list of integers representing the array and initialize variables to store the maximum product and minimum product as 1.",
+        "instruction 2": "Iterate over the array, updating the maximum product and minimum product for each element by considering the current maximum product, current minimum product, current element value, and result of multiplying maximum product and current element value."
+    },
+    {
+        "task_id": 465,
+        "prompt": "Write a function to drop empty items from a given dictionary.",
+        "instruction 1": "Identify the input parameter as a dictionary and filter out items with empty or nonexistent values.",
+        "instruction 2": "Use Python's dictionary comprehension to create a new dictionary with only the remaining non-empty items and return the filtered dictionary."
+    },
+    {
+        "task_id": 468,
+        "prompt": "Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array.",
+        "instruction 1": "Identify the input parameter as a list of numbers and initialize an empty variable to store the maximum product, then iterate through the list to find the increasing subsequences and compute their products.",
+        "instruction 2": "Return the maximum product found in the increasing subsequences using a loop and update the maximum product accordingly, checking if the current product is greater than the stored maximum."
+    },
+    {
+        "task_id": 470,
+        "prompt": "Write a function to find the pairwise addition of the neighboring elements of the given tuple.",
+        "instruction 1": "Identify the input parameter as a tuple and assume it contains elements that can be pairwise added.",
+        "instruction 2": "Use a for loop to iterate over the tuple, adding each element with its neighboring element and store the result in a new tuple or list."
+    },
+    {
+        "task_id": 471,
+        "prompt": "Write a python function to find the product of the array multiplication modulo n.",
+        "instruction 1": "Identify the input parameters as a list of integers and the integer n, and define a variable to store the product result, initializing it to 1.",
+        "instruction 2": "Use a loop to iterate through the list, multiplying the product result with each element modulo n, and return the final product result."
+    },
+    {
+        "task_id": 472,
+        "prompt": "Write a python function to check whether the given list contains consecutive numbers or not.",
+        "instruction 1": "Identify the input parameter as a list of numbers and sort the list to check for consecutive numbers.",
+        "instruction 2": "Use a loop to compare each pair of adjacent elements in the sorted list; if the first element is equal to the second minus one, return True, otherwise, return False."
+    },
+    {
+        "task_id": 473,
+        "prompt": "Write a function to find the tuple intersection of elements in the given tuple list irrespective of their order.",
+        "instruction 1": "Identify the input as a list of tuples and convert it into a set of tuples, and then convert it back to a tuple of sets to group duplicate tuples.",
+        "instruction 2": "Use the `set.intersection()` function to find the intersection of all sets in the tuple of sets and convert the result to a tuple."
+    },
+    {
+        "task_id": 474,
+        "prompt": "Write a function to replace characters in a string.",
+        "instruction 1": "Identify the input parameters as a string to manipulate and a dictionary mapping old characters to new characters.",
+        "instruction 2": "Use a loop to iterate over the string, replacing old characters with their corresponding new characters using the specified dictionary and return the modified string."
+    },
+    {
+        "task_id": 475,
+        "prompt": "Write a function to sort a dictionary by value.",
+        "instruction 1": "Use a built-in Python function to convert the dictionary into a list of tuples of key-value pairs, then sort it based on the value in descending order.",
+        "instruction 2": "Return the sorted list of tuples and use a dictionary comprehension to convert the sorted list back into a dictionary, maintaining the original keys and the sorted order."
+    },
+    {
+        "task_id": 476,
+        "prompt": "Write a python function to find the sum of the largest and smallest value in a given array.",
+        "instruction 1": "Identify the input parameter as a list of numbers and find the minimum and maximum values to extract the smallest and largest values in the list.",
+        "instruction 2": "Use the `min()` and `max()` functions to find the smallest and largest values and return their sum as the result."
+    },
+    {
+        "task_id": 477,
+        "prompt": "Write a python function to convert the given string to lower case.",
+        "instruction 1": "Identify the input parameter as a string and use the built-in string method lower() to convert it to lowercase.",
+        "instruction 2": "Return the converted string or assign it to a variable for further processing, as needed."
+    },
+    {
+        "task_id": 478,
+        "prompt": "Write a function to remove lowercase substrings from a given string.",
+        "instruction 1": "Identify the input parameter as a string and initialize an empty string to store the result.",
+        "instruction 2": "Use a loop to iterate over the input string, identifying and removing lowercase substrings by checking the lowercase of each character, and append the remaining uppercase characters or unchanged non-lowercase characters to the result string."
+    },
+    {
+        "task_id": 479,
+        "prompt": "Write a python function to find the first digit of a given number.",
+        "instruction 1": "Identify the input parameter as an integer and convert the integer into a string to extract its first digit.",
+        "instruction 2": "Use string slicing to extract the first character of the string representation of the integer and convert it back to an integer to return the first digit."
+    },
+    {
+        "task_id": 554,
+        "prompt": "Write a python function which takes a list of integers and only returns the odd ones.",
+        "instruction 1": "Identify the input parameter as a list of integers and write a conditional statement to filter out the even numbers.",
+        "instruction 2": "Use a list comprehension or a for loop to iterate through the list, check each number for oddity, and return a new list containing only the odd numbers."
+    },
+    {
+        "task_id": 555,
+        "prompt": "Write a python function to find the difference between the sum of cubes of the first n natural numbers and the sum of the first n natural numbers.",
+        "instruction 1": "Identify the input parameter as an integer n representing the number of natural numbers, and find the sum of cubes of the first n natural numbers using the formula sum((i**(n+1)-1)/n).",
+        "instruction 2": "Calculate the sum of the first n natural numbers using the formula n*(n+1)/2, and then return the difference between the sum of cubes and the sum of natural numbers."
+    },
+    {
+        "task_id": 556,
+        "prompt": "Write a python function to count the number of pairs whose xor value is odd.",
+        "instruction 1": "Identify the input as a list of integers and initialize a counter to zero.",
+        "instruction 2": "Loop through each pair of numbers in the list, calculate their xor value, and increment the counter if the value is odd."
+    },
+    {
+        "task_id": 557,
+        "prompt": "Write a function to toggle the case of all characters in a string.",
+        "instruction 1": "Convert the input string to a character list and iterate over the list to toggle the case of each character using built-in string and character manipulation functions.",
+        "instruction 2": "Join the modified character list back into a string and return the resulting string with toggled case."
+    },
+    {
+        "task_id": 558,
+        "prompt": "Write a python function to find the sum of the per-digit difference between two integers.",
+        "instruction 1": "Identify the input parameters as two integers and initialize variables to store each integer as a string and a list to store the digit differences.",
+        "instruction 2": "Use a loop to iterate through each digit of both integers, subtract the corresponding digits and add the results to a total sum, then return the sum."
+    },
+    {
+        "task_id": 559,
+        "prompt": "Write a function to find the sum of the largest contiguous sublist in the given list.",
+        "instruction 1": "Identify the input parameter as a list and initialize variables to represent the maximum sum and current sum, then iterate through the list to find the maximum sum of a contiguous sublist.",
+        "instruction 2": "Update the maximum sum if the current sum is greater, and reset the current sum and start index if the current sum becomes negative, returning the maximum sum found."
+    },
+    {
+        "task_id": 560,
+        "prompt": "Write a function to find the union of the elements of two given tuples and output them in sorted order.",
+        "instruction 1": "Identify the input parameters as two tuples, and extract their elements into two separate lists.",
+        "instruction 2": "Use Python's set union method to find the union of the two lists, convert it to a list, sort it, and return the sorted list."
+    },
+    {
+        "task_id": 562,
+        "prompt": "Write a python function to find the length of the longest sublists.",
+        "instruction 1": "Identify the input parameter as a list of lists, where each sublist contains integers, and calculate the length of each sublist.",
+        "instruction 2": "Return the maximum length of the sublists using the `max()` function, with the key argument set to `len`"
+    },
+    {
+        "task_id": 563,
+        "prompt": "Write a function to extract values between quotation marks from a string.",
+        "instruction 1": "Identify the input parameter as a string and iterate through each character in the string.",
+        "instruction 2": "Use a conditional statement to check if the character is a quotation mark and capture the substring between the quotation marks if it is, then return the extracted values."
+    },
+    {
+        "task_id": 564,
+        "prompt": "Write a python function which takes a list of integers and counts the number of possible unordered pairs where both elements are unequal.",
+        "instruction 1": "Define the function to count the number of unordered pairs with unequal elements by calculating the combination of the list length and then subtracting half the length.",
+        "instruction 2": "Use the `math.comb` function to calculate the combination of the list length and then subtract half the length, returning the result."
+    },
+    {
+        "task_id": 565,
+        "prompt": "Write a python function to split a string into characters.",
+        "instruction 1": "Identify the input parameter as a string to be split into characters.",
+        "instruction 2": "Use a Python list comprehension to iterate over each character in the string and add them to a new list, then return the list."
+    },
+    {
+        "task_id": 566,
+        "prompt": "Write a function to get the sum of the digits of a non-negative integer.",
+        "instruction 1": "Identify the input parameter as a non-negative integer, and extract its digits using the built-in function `int()`",
+        "instruction 2": "Use a loop to iterate over the extracted digits, sum them up using the `+` operator, and return the total sum"
+    },
+    {
+        "task_id": 567,
+        "prompt": "Write a function to check whether a specified list is sorted or not.",
+        "instruction 1": "Identify the input parameter as a list of numbers and compare each element to the previous one to determine if the list is in ascending or descending order.",
+        "instruction 2": "Use a conditional statement to check if the list is sorted, returning True for a sorted list and False otherwise."
+    },
+    {
+        "task_id": 568,
+        "prompt": "Write a function to create a list of N empty dictionaries.",
+        "instruction 1": "Identify the input parameter as an integer N that specifies the number of dictionaries to create, and initialize an empty list.",
+        "instruction 2": "Use a loop to create N empty dictionaries using the dictionary constructor and append it to the list."
+    },
+    {
+        "task_id": 569,
+        "prompt": "Write a function to sort each sublist of strings in a given list of lists.",
+        "instruction 1": "Take the input parameter as a list of lists, where each sublist contains strings to be sorted, and modify the sublists in place using Python's list.sort() function.",
+        "instruction 2": "Use a loop to iterate through the sublists, calling the list.sort() function on each sublist and return the modified original list."
+    },
+    {
+        "task_id": 572,
+        "prompt": "Write a python function to remove duplicate numbers from a given number of lists.",
+        "instruction 1": "Define a function that takes a variable number of list arguments, and flatten the lists into a single list.",
+        "instruction 2": "Use a set to remove duplicates from the flattened list and return the result."
+    },
+    {
+        "task_id": 573,
+        "prompt": "Write a python function to calculate the product of the unique numbers in a given list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and use a set to store the unique elements, then convert the set back to a list",
+        "instruction 2": "Use a loop to iterate over the list of unique numbers and use the `math.prod()` function (or a for loop with multiplication) to calculate the product of the numbers"
+    },
+    {
+        "task_id": 576,
+        "prompt": "Write a python function to check whether a list is sublist of another or not.",
+        "instruction 1": "Function parameters: two lists (main_list and sub_list) to be compared; Identify the elements of sub_list in main_list and check if they appear in the same order.",
+        "instruction 2": "Use Python's built-in set operations: convert the sub_list and main_list to sets, check if the set of sub_list is a subset of the set of main_list, if true, return True, otherwise return False."
+    },
+    {
+        "task_id": 577,
+        "prompt": "Write a python function to find the last digit in factorial of a given number.",
+        "instruction 1": "The input parameter should be an integer representing the number for which to find the last digit of its factorial.",
+        "instruction 2": "Calculate the factorial of the input number using a loop or recursion, then use the modulus operator to get the last digit of the result."
+    },
+    {
+        "task_id": 578,
+        "prompt": "Write a function to interleave 3 lists of the same length into a single flat list.",
+        "instruction 1": "Identify the input as three lists of the same length containing the elements to be interleaved, and initialize an empty list to store the result.",
+        "instruction 2": "Use Python's zip function to transpose the input lists into tuples and concatenate them into a single list using the * operator, then use the list comprehension to flatten the tuples into a single list."
+    },
+    {
+        "task_id": 579,
+        "prompt": "Write a function to find the dissimilar elements in the given two tuples.",
+        "instruction 1": "Identify the input parameters as two tuples and initialize empty sets to store similar and dissimilar elements.",
+        "instruction 2": "Compare the two tuples using a loop, add elements present in one tuple but not the other to the set of dissimilar elements, and then return the set."
+    },
+    {
+        "task_id": 580,
+        "prompt": "Write a function to remove uneven elements in the nested mixed tuple.",
+        "instruction 1": "Identify the input parameter as a tuple containing mixed elements, including integers and other tuples, and extract all the nested tuples within the main tuple.",
+        "instruction 2": "Use recursive function calls to extract the individual elements from the nested tuples, then filter out the odd numbers and return a new tuple containing only the even numbers."
+    },
+    {
+        "task_id": 581,
+        "prompt": "Write a python function to find the surface area of a square pyramid with a given base edge and height.",
+        "instruction 1": "Identify the input parameter as the base edge and height of the square pyramid.",
+        "instruction 2": "Calculate the slant height using the Pythagorean theorem, then calculate the surface area as the sum of the area of the base and the areas of the four triangles forming the sides, using the formula for the area of a triangle."
+    },
+    {
+        "task_id": 583,
+        "prompt": "Write a function which returns nth catalan number.",
+        "instruction 1": "Identify the input parameter as an integer n, and use the mathematical definition of the nth Catalan number as 2*(2*n)!/((n+1)!*n!), which calculates the Catalan number based on the factorial function.",
+        "instruction 2": "Implement the calculation using Python's `math.factorial` function and return the calculated Catalan number."
+    },
+    {
+        "task_id": 585,
+        "prompt": "Write a function to find the n most expensive items in a given dataset.",
+        "instruction 1": "Identify the input parameters as a list of dictionaries representing the dataset, where each dictionary contains 'price' and 'item' keys, and define a variable to store the n most expensive items.",
+        "instruction 2": "Use the built-in `sorted` function in combination with the `reverse` argument set to `True` to sort the dataset in descending order of prices, then return the first n items in the sorted list."
+    },
+    {
+        "task_id": 586,
+        "prompt": "Write a python function to split a list at the nth eelment and add the first part to the end.",
+        "instruction 1": "Identify the input parameters as a list and an integer n that represents the position at which to split the list.",
+        "instruction 2": "Use Python's list slicing to split the list into two parts at the specified position, add the second part to the end of the first part, and return the modified list."
+    },
+    {
+        "task_id": 587,
+        "prompt": "Write a function to convert a list to a tuple.",
+        "instruction 1": "Identify the input parameter as a list and use the `tuple()` function to convert it to a tuple.",
+        "instruction 2": "Return the converted tuple"
+    },
+    {
+        "task_id": 588,
+        "prompt": "Write a python function to find the difference between largest and smallest value in a given list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and initialize the minimum and maximum values within the list, then use these values to calculate the difference.",
+        "instruction 2": "Return the calculated difference either directly or in a separate function, ensuring that the maximum value is subtracted from the minimum value to get the required difference."
+    },
+    {
+        "task_id": 589,
+        "prompt": "Write a function to find perfect squares between two given numbers.",
+        "instruction 1": "Identify the input parameters as two integers, low and high, that represent the range within which to find perfect squares, and initialize an empty list to store the result.",
+        "instruction 2": "Use a loop to iterate over the range from the square root of low to the square root of high, and for each number, check if it's a perfect square by squaring the number with itself, then append the square to the list if it's within the range."
+    },
+    {
+        "task_id": 590,
+        "prompt": "Write a function to convert polar coordinates to rectangular coordinates.",
+        "instruction 1": "Identify the input parameters as a radius and an angle in radians, and calculate the x and y coordinates using the conversion formula: x = r * cos(a) and y = r * sin(a).",
+        "instruction 2": "Return the converted rectangular coordinates as a tuple or list in the format (x, y)."
+    },
+    {
+        "task_id": 591,
+        "prompt": "Write a python function to interchange the first and last elements in a list.",
+        "instruction 1": "Identify the input parameter as a list of elements and assign the first and last elements to separate variables.",
+        "instruction 2": "Swap the values of the first and last elements in the list using tuple assignment and then return the modified list."
+    },
+    {
+        "task_id": 592,
+        "prompt": "Write a python function to find the sum of the product of consecutive binomial co-efficients.",
+        "instruction 1": "Identify the input parameter as a pair of integers n and m that represent the terms in the binomial expansion, and initialize a list to store the coefficients.",
+        "instruction 2": "Use a nested loop to calculate the product of consecutive coefficients from the list, stopping at the calculated term's index, and return the sum of the products."
+    },
+    {
+        "task_id": 593,
+        "prompt": "Write a function to remove leading zeroes from an ip address.",
+        "instruction 1": "Identify the input parameter as a string representing an IP address and extract each octet (group of four numbers separated by dots) into a list.",
+        "instruction 2": "Use a loop to iterate through the list of octets, remove leading zeroes from each number using string methods, and join the modified octets back into a string with dots in between, returning the resulting IP address."
+    },
+    {
+        "task_id": 594,
+        "prompt": "Write a function to find the difference of the first even and first odd number of a given list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and separate the numbers into two separate lists, one for even numbers and one for odd numbers.",
+        "instruction 2": "Find the first elements of the even and odd lists and subtract the first odd number from the first even number to find the difference, then return the result."
+    },
+    {
+        "task_id": 596,
+        "prompt": "Write a function to find the size in bytes of the given tuple.",
+        "instruction 1": "Assume the input parameter is a tuple and use the built-in function `sys.getsizeof` to calculate its size in bytes.",
+        "instruction 2": "Return the size of the tuple as an integer, rounded to the nearest whole number, using the `round` function with a precision of zero."
+    },
+    {
+        "task_id": 597,
+        "prompt": "Write a function to find kth element from the given two sorted arrays.",
+        "instruction 1": "Identify the input parameters as two sorted lists of numbers and an integer k that represents the position of the desired element.",
+        "instruction 2": "Use a comparison-based approach, starting from the beginning of both lists, to find the kth element by comparing the current elements of both lists and selecting the smaller one, and return the selected element."
+    },
+    {
+        "task_id": 598,
+        "prompt": "Write a function to check whether the given number is armstrong or not.",
+        "instruction 1": "Identify the input parameter as an integer representing the number to check for armstrong numbers and calculate its individual digits.",
+        "instruction 2": "Use a loop to calculate the sum of the cube of each digit, then compare it with the original number; if they are equal, return True, otherwise return False."
+    },
+    {
+        "task_id": 599,
+        "prompt": "Write a function to find sum and average of first n natural numbers.",
+        "instruction 1": "Identify the input parameter n as an integer that represents the first n natural numbers, and initialize variables to store the sum and count of numbers.",
+        "instruction 2": "Use a loop to iterate from 1 to n, updating the sum and count variables, then calculate and return the sum and average."
+    },
+    {
+        "task_id": 600,
+        "prompt": "Write a python function to check whether the given number is even or not.",
+        "instruction 1": "Identify the input parameter as an integer number to be checked and determine if it is even or not.",
+        "instruction 2": "Use the modulus operator to check if the remainder when the number is divided by 2 is 0, and if it is, return a boolean value indicating that the number is even, otherwise return a boolean value indicating that the number is odd."
+    },
+    {
+        "task_id": 602,
+        "prompt": "Write a python function to find the first repeated character in a given string.",
+        "instruction 1": "Identify the input parameter as a string, and initialize an empty dictionary to keep track of characters and their counts.",
+        "instruction 2": "Iterate over the string, incrementing the count of each character in the dictionary. Once a character is encountered that already exists in the dictionary, return that character as the first repeated character."
+    },
+    {
+        "task_id": 603,
+        "prompt": "Write a function to get all lucid numbers smaller than or equal to a given integer.",
+        "instruction 1": "Identify the input parameter as an integer n, and initialize an empty set to store lucid numbers.",
+        "instruction 2": "Use a loop to check if a number from 1 to n is a lucid number (i.e., where the sum of its proper divisors excluding the number itself is equal to the number), and add it to the set if it is, then return the set of lucid numbers."
+    },
+    {
+        "task_id": 604,
+        "prompt": "Write a function to reverse words seperated by spaces in a given string.",
+        "instruction 1": "Split the input string into a list of words using the split() method and a space character as the separator.",
+        "instruction 2": "Use the reverse() method to reverse the list of words and then join the reversed list back into a string using the join() method with a space character as the separator."
+    },
+    {
+        "task_id": 605,
+        "prompt": "Write a function to check if the given integer is a prime number.",
+        "instruction 1": "Identify the input parameter as an integer number to check for primality, and consider it as a suspect number.",
+        "instruction 2": "Use a loop to check divisibility of the suspect number by any number from 2 to the square root of the suspect number, and return True if it's not divisible by any of these numbers, indicating it's a prime number."
+    },
+    {
+        "task_id": 606,
+        "prompt": "Write a function to convert degrees to radians.",
+        "instruction 1": "Identify the input parameter as a degree value and import the math module.",
+        "instruction 2": "Use the radians() function from the math module to convert the input degree value to radians and return the result."
+    },
+    {
+        "task_id": 607,
+        "prompt": "Write a function to search a string for a regex pattern. The function should return the matching subtring, a start index and an end index.",
+        "instruction 1": "Import the `re` module and define a function with an input parameter for the string to be searched and another for the regex pattern. Use the `re.search()` function to find the first occurrence of the pattern in the string.",
+        "instruction 2": "Use the `start()` and `end()` methods to get the start and end indices of the match, and return the match itself, the start index and the end index."
+    },
+    {
+        "task_id": 608,
+        "prompt": "Write a python function to find nth bell number.",
+        "instruction 1": "Define a recursive function to compute the n-th Bell number using the recursive formula and initialize a variable to store the base case",
+        "instruction 2": "Implement the recursive function to calculate the n-th Bell number using the formula and sum the results of the previous n-1 Bell numbers"
+    },
+    {
+        "task_id": 610,
+        "prompt": "Write a python function which takes a list and returns a list with the same elements, but the k'th element removed.",
+        "instruction 1": "Identify the input parameter as a list and the integer k that represents the index to be removed.",
+        "instruction 2": "Use list slicing to create a new list with the same elements as the input list, but exclude the k'th element."
+    },
+    {
+        "task_id": 611,
+        "prompt": "Write a function which given a matrix represented as a list of lists returns the max of the n'th column.",
+        "instruction 1": "Identify the input parameter as a 2D list representing the matrix, and identify the column index 'n' as an integer.",
+        "instruction 2": "Use a Python list comprehension to extract the 'n'th column from the matrix, then use the built-in max() function to find the maximum value in the column and return the result."
+    },
+    {
+        "task_id": 612,
+        "prompt": "Write a python function which takes a list of lists, where each sublist has two elements, and returns a list of two lists where the first list has the first element of each sublist and the second one has the second.",
+        "instruction 1": "Identify the input as a list of lists, where each sublist has two elements, and separate the sublists into two distinct lists, one for the first elements and one for the second elements.",
+        "instruction 2": "Return these two separate lists as the result"
+    },
+    {
+        "task_id": 614,
+        "prompt": "Write a function to find the cumulative sum of all the values that are present in the given tuple list.",
+        "instruction 1": "Identify the input parameter as a list of tuples, where each tuple contains integer values, and initialize a variable to store the cumulative sum.",
+        "instruction 2": "Use a loop to iterate over the tuple list, calculate the cumulative sum by adding each tuple's values to the previous sum, and return the final cumulative sum."
+    },
+    {
+        "task_id": 615,
+        "prompt": "Write a function which takes a tuple of tuples and returns the average value for each tuple as a list.",
+        "instruction 1": "Identify the input as a tuple of tuples, and extract each inner tuple as a sub-list and its corresponding average value.",
+        "instruction 2": "Use a loop to iterate over the input tuple, calculate the average value for each inner tuple using the `sum()` and `len()` functions, and append the resulting average values to a list."
+    },
+    {
+        "task_id": 616,
+        "prompt": "Write a function which takes two tuples of the same length and performs the element wise modulo.",
+        "instruction 1": "Identify the input parameters as two tuples of the same length and create a loop to iterate over the tuples simultaneously.",
+        "instruction 2": "Use Python's list comprehension to perform the element-wise modulo operation by applying the modulo operator (%) to each corresponding element in the tuples, and return the resulting tuple."
+    },
+    {
+        "task_id": 618,
+        "prompt": "Write a function to divide two lists element wise.",
+        "instruction 1": "Identify the two input parameters as two lists of same length and corresponding elements to be divided element-wise.",
+        "instruction 2": "Use Python's list comprehension to create a new list of results by dividing corresponding elements from the two input lists, and return the resulting list."
+    },
+    {
+        "task_id": 619,
+        "prompt": "Write a function to move all the numbers to the end of the given string.",
+        "instruction 1": "Identify the input parameter as a string and separate the characters into two lists, one for non-numeric characters and one for numeric characters.",
+        "instruction 2": "Concatenate the non-numeric character list and the numeric character list with a space separator to get the resulting string."
+    },
+    {
+        "task_id": 620,
+        "prompt": "Write a function to find the size of the largest subset of a list of numbers so that every pair is divisible.",
+        "instruction 1": "Identify the input parameter as a list of numbers and initialize an empty variable to store the largest subset size.",
+        "instruction 2": "Use a loop to iterate through the list, and for each number, find the largest subset size of previously found divisible subset that the current number can be added to, and update the largest subset size if necessary."
+    },
+    {
+        "task_id": 622,
+        "prompt": "Write a function to find the median of two sorted lists of same size.",
+        "instruction 1": "Identify the input parameters as two lists of numbers of the same size, and verify that they are sorted in ascending order.",
+        "instruction 2": "Merge the two lists into a single sorted list and calculate the median using Python's built-in `sorted()` function and indexing."
+    },
+    {
+        "task_id": 623,
+        "prompt": "Write a function to compute the n-th power of each number in a list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and the integer n that represents the power to which each number should be raised.",
+        "instruction 2": "Use a list comprehension to apply the power operation to each number in the list and return the resulting list of n-th powers."
+    },
+    {
+        "task_id": 624,
+        "prompt": "Write a python function to convert a given string to uppercase.",
+        "instruction 1": "Identify the input parameter as a string to be converted to uppercase.",
+        "instruction 2": "Use the `upper()` method to convert the entire string to uppercase and return the result."
+    },
+    {
+        "task_id": 626,
+        "prompt": "Write a python function to find the area of the largest triangle that can be inscribed in a semicircle with a given radius.",
+        "instruction 1": "Identify the input parameter as the radius of the semicircle and calculate the length of the semicircle's diameter and radius",
+        "instruction 2": "find the exterior angle of the inscribed triangle."
+    },
+    {
+        "task_id": 628,
+        "prompt": "Write a function to replace all spaces in the given string with '%20'.",
+        "instruction 1": "Identify the input parameter as a string and replace all spaces in the string with '%20'.",
+        "instruction 2": "Use Python's string replace method to replace all spaces in the string with '%20' and return the modified string."
+    },
+    {
+        "task_id": 629,
+        "prompt": "Write a python function to find even numbers from a list of numbers.",
+        "instruction 1": "Identify the input parameter as a list of numbers and filter out the numbers that are not even by checking if the remainder when divided by 2 is 0.",
+        "instruction 2": "Use a list comprehension to create a new list that contains only the even numbers and return the resulting list of even numbers."
+    },
+    {
+        "task_id": 630,
+        "prompt": "Write a function to extract all the adjacent coordinates of the given coordinate tuple.",
+        "instruction 1": "Identify the input parameter as a tuple representing the coordinate (x, y) and extract the corresponding values.",
+        "instruction 2": "Use conditional statements to return a list of adjacent coordinates, including the current coordinate, checking for left, right, top, and bottom adjacent positions, using the respective adjustments to the x and y values (+1 for right, -1 for left, 0 for stays the same, respectively)."
+    },
+    {
+        "task_id": 631,
+        "prompt": "Write a function to replace whitespaces with an underscore and vice versa in a given string.",
+        "instruction 1": "Define a function with a string parameter, and split it into a list of characters.",
+        "instruction 2": "Loop through the list of characters, replace whitespaces with underscores, and underscore characters with spaces, then join the modified characters back into a string."
+    },
+    {
+        "task_id": 632,
+        "prompt": "Write a python function to move all zeroes to the end of the given list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and separate the non-zero elements from the zero elements.",
+        "instruction 2": "Use Python's list comprehension or the `sorted()` function to gather the non-zero elements together and then concatenate the gathered non-zero elements with the gathered zero elements in the original list."
+    },
+    {
+        "task_id": 633,
+        "prompt": "Write a python function to find the sum of xor of all pairs of numbers in the given list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and initialize a variable to store the sum of XOR of all pairs.",
+        "instruction 2": "Use a loop to iterate through each pair of numbers in the list, calculate their XOR with a bitwise XOR operator, and add the result to the sum variable."
+    },
+    {
+        "task_id": 635,
+        "prompt": "Write a function to sort the given list.",
+        "instruction 1": "Identify the input parameter as a list and recognize that it needs to be sorted in ascending order by default.",
+        "instruction 2": "Use Python's built-in `sort()` function or related functions such as `sorted()` to arrange the elements of the list in ascending order and return the sorted list."
+    },
+    {
+        "task_id": 637,
+        "prompt": "Write a function to check whether the given amount has no profit and no loss",
+        "instruction 1": "Identify the input parameter as a list of stock prices and calculate the difference between each consecutive pair of prices, finding the maximum profit and loss.",
+        "instruction 2": "Check if the maximum profit is greater than or equal to the maximum loss, and return True if there is no profit and no loss, and False otherwise."
+    },
+    {
+        "task_id": 638,
+        "prompt": "Write a function to calculate the wind chill index rounded to the next integer given the wind velocity in km/h and a temperature in celsius.",
+        "instruction 1": "Identify the input parameters as wind velocity in km/h and temperature in Celsius, and calculate the wind chill index according to the wind chill formula.",
+        "instruction 2": "Use the calculated wind chill index and the `round()` function to round the result to the next integer and return it."
+    },
+    {
+        "task_id": 639,
+        "prompt": "Write a function to sum the length of the names of a given list of names after removing the names that start with a lowercase letter.",
+        "instruction 1": "Extract the input parameter as a list of strings representing names, and iterate to filter out names starting with a lowercase letter.",
+        "instruction 2": "Calculate the length of each remaining name using the len() function, sum the lengths using the sum() function, and return the result."
+    },
+    {
+        "task_id": 641,
+        "prompt": "Write a function to find the nth nonagonal number.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the position of the nonagonal number and use the formula for calculating nonagonal numbers (summation of the first n odd numbers).",
+        "instruction 2": "Implement the formula in the function, using Python's built-in math functions to calculate the sum and return the result as the nth nonagonal number."
+    },
+    {
+        "task_id": 643,
+        "prompt": "Write a function that checks if a strings contains 'z', except at the start and end of the word.",
+        "instruction 1": "Identify the input parameter as a string and convert it to lowercase for case-insensitive comparison.",
+        "instruction 2": "Check if the string contains 'z' between its first and last characters using string slicing and the `in` operator, and return `True` if it does, and `False` otherwise."
+    },
+    {
+        "task_id": 644,
+        "prompt": "Write a python function to reverse an array upto a given position.",
+        "instruction 1": "Identify the input parameters as a list and the position up to which the array needs to be reversed.",
+        "instruction 2": "Use Python's list slicing to reverse the specified range of elements and combine the original and reversed parts of the list to create the resulting list."
+    },
+    {
+        "task_id": 720,
+        "prompt": "Write a function to add a dictionary to the tuple. The output should be a tuple.",
+        "instruction 1": "Identify the input parameter as a tuple and a dictionary to be added as a new element to the tuple.",
+        "instruction 2": "Use the '+' operator to concatenate the tuple with the dictionary, converting the dictionary to an immutable type by passing it to the tuple constructor."
+    },
+    {
+        "task_id": 721,
+        "prompt": "Given a square matrix of size N*N given as a list of lists, where each cell is associated with a specific cost. A path is defined as a specific sequence of cells that starts from the top-left cell move only right or down and ends on bottom right cell. We want to find a path with the maximum average over all existing paths. Average is computed as total cost divided by the number of cells visited in the path.",
+        "instruction 1": "Identify the input parameter as a 2D list representing the square matrix of size N*N, where each cell is associated with a specific cost, and initialize variables to keep track of the total cost and the count of cells for the maximum average path.",
+        "instruction 2": "Use a dynamic programming approach to explore all possible paths, calculate the total cost and cell count for each path, update the maximum average path if a better one is found, and return the maximum average path."
+    },
+    {
+        "task_id": 722,
+        "prompt": "The input is given as - a dictionary with a student name as a key and a tuple of float (student_height, student_weight) as a value, - minimal height, - minimal weight. Write a function to filter students that have height and weight above the minimum.",
+        "instruction 1": "Identify the input parameters as a dictionary with student data, a tuple of minimal height and weight, and initialize an empty list to store the filtered students.",
+        "instruction 2": "Use a loop to iterate through the dictionary, check if each student's height and weight are above the minimal values, and if so, add the student's name to the filtered list."
+    },
+    {
+        "task_id": 723,
+        "prompt": "The input is defined as two lists of the same length. Write a function to count indices where the lists have the same values.",
+        "instruction 1": "Identify the input parameters as two lists of the same length and initialize a variable to store the count of indices with matching elements.",
+        "instruction 2": "Use a loop to iterate over the elements of both lists, compare the elements at the same indices, and increment the count variable when they match, then return the count."
+    },
+    {
+        "task_id": 724,
+        "prompt": "Write a function that takes base and power as arguments and calculate the sum of all digits of the base to the specified power.",
+        "instruction 1": "Define the function with two arguments base and power and calculate the value of base to the power using the pow() function, then convert the result to a string and extract each digit using the map() function with an integer conversion and the sum() function to sum up the digits.",
+        "instruction 2": "Return the sum of the digits as the function result, taking into account the converted string from the previous step."
+    },
+    {
+        "task_id": 725,
+        "prompt": "Write a function to extract values between quotation marks \" \" of the given string.",
+        "instruction 1": "Identify the input parameter as a string and assume it may contain multiple sequences of characters within quotation marks.",
+        "instruction 2": "Use Python's `re` module and the `findall` function to find all occurrences of quotation marks and extract the characters within them."
+    },
+    {
+        "task_id": 726,
+        "prompt": "Write a function that takes as input a tuple of numbers (t_1,...,t_{N+1}) and returns a tuple of length N where the i-th element of the tuple is equal to t_i * t_{i+1}.",
+        "instruction 1": "Identify the input as a tuple of numbers and specify the expected output tuple, and initialize an empty tuple to store the result.",
+        "instruction 2": "Use a loop to iterate over the input tuple, calculate each element in the output tuple as the product of adjacent elements in the input tuple, and append the result to the output tuple."
+    },
+    {
+        "task_id": 728,
+        "prompt": "Write a function takes as input two lists [a_1,...,a_n], [b_1,...,b_n] and returns [a_1+b_1,...,a_n+b_n].",
+        "instruction 1": "Identify the input parameters as two lists of numbers and calculate the sum of corresponding elements from the two lists.",
+        "instruction 2": "Use a loop to iterate over the indices of the lists, add corresponding elements from the two lists, and return the resulting list of sums using list comprehension."
+    },
+    {
+        "task_id": 730,
+        "prompt": "Write a function to remove consecutive duplicates of a given list.",
+        "instruction 1": "Identify the input as a list and use a for loop to iterate through the list, wherein each iteration, check if the current element is the same as the previous one.",
+        "instruction 2": "If the current element is the same as the previous one, skip it and increment the loop counter; otherwise, append the current element to a new list, and return this new list."
+    },
+    {
+        "task_id": 731,
+        "prompt": "Write a function to find the lateral surface area of a cone given radius r and the height h.",
+        "instruction 1": "Identify the input parameters as the radius r and the height h, and calculate the slant height l using the Pythagorean theorem.",
+        "instruction 2": "Use the formula for the lateral surface area of a cone, which is πr(l+r), to calculate the area and return it."
+    },
+    {
+        "task_id": 732,
+        "prompt": "Write a function to replace all occurrences of spaces, commas, or dots with a colon.",
+        "instruction 1": "Parse the input string and identify all the characters that are not letters or digits, namely spaces, commas, and dots.",
+        "instruction 2": "Replace each of these characters with a colon using Python's string replace() function."
+    },
+    {
+        "task_id": 733,
+        "prompt": "Write a function to find the index of the first occurrence of a given number in a sorted array.",
+        "instruction 1": "Identify the input parameters as a list and an integer number, where the list is sorted in ascending order and the integer is the target number.",
+        "instruction 2": "Use a binary search algorithm to find the index of the target number in the sorted list, returning the index if found, or -1 if not found."
+    },
+    {
+        "task_id": 734,
+        "prompt": "Write a python function to find sum of products of all possible sublists of a given list. https://www.geeksforgeeks.org/sum-of-products-of-all-possible-subarrays/",
+        "instruction 1": "Identify the input parameter as a list of numbers, and consider all possible sublists of the input list, including empty and single-element sublists.",
+        "instruction 2": "Use nested loops to generate and calculate the sum of products of all sublists, using the built-in `math.prod()` function for multiplying the elements of each sublist."
+    },
+    {
+        "task_id": 735,
+        "prompt": "Write a python function to toggle bits of the number except the first and the last bit. https://www.geeksforgeeks.org/toggle-bits-number-expect-first-last-bits/",
+        "instruction 1": "Identify the input parameter as an integer that represents the number to be modified, and use bitwise operations to toggle the bits except the first and the last.",
+        "instruction 2": "Use bitwise operators to toggle the bits at positions [1, n-2] (where n is the number of bits) and return the modified number."
+    },
+    {
+        "task_id": 736,
+        "prompt": "Write a function to locate the left insertion point for a specified value in sorted order. https://www.w3resource.com/python-exercises/data-structures-and-algorithms/python-data-structure-exercise-24.php",
+        "instruction 1": "Identify the input parameters as a sorted list of numbers and a target value to find the left insertion point for.",
+        "instruction 2": "Use Python's binary search algorithm to find the leftmost index where the target value could be inserted into the sorted list without disturbing the order of the other elements, and return this index."
+    },
+    {
+        "task_id": 737,
+        "prompt": "Write a function to check whether the given string is starting with a vowel or not using regex.",
+        "instruction 1": "Identify the input parameter as a string and use the re module for regular expressions, importing it at the beginning of the code if necessary.",
+        "instruction 2": "Use a regular expression pattern to match the start of the string with a vowel (a, e, i, o, u) and return True if the pattern matches, False otherwise."
+    },
+    {
+        "task_id": 739,
+        "prompt": "Write a python function to find the index of smallest triangular number with n digits. https://www.geeksforgeeks.org/index-of-smallest-triangular-number-with-n-digits/",
+        "instruction 1": "Identify the input parameter as an integer n that represents the number of digits required in the triangular number, and calculate the series of triangular numbers until the number with n digits is found.",
+        "instruction 2": "Use a loop to compare the length of the string representation of each triangular number to the input n, and return the index of the first triangular number that has n digits."
+    },
+    {
+        "task_id": 740,
+        "prompt": "Write a function to convert the given tuple to a key-value dictionary using adjacent elements. https://www.geeksforgeeks.org/python-convert-tuple-to-adjacent-pair-dictionary/",
+        "instruction 1": "Identify the input parameter as a tuple and traverse it, consider the adjacent elements as key-value pairs to create a dictionary.",
+        "instruction 2": "Use a loop to iterate over the tuple, assigning each element as the key and the next element as the value, and add this key-value pair to the dictionary, then return the dictionary."
+    },
+    {
+        "task_id": 741,
+        "prompt": "Write a python function to check whether all the characters are same or not.",
+        "instruction 1": "Identify the input parameter as a single string that represents the text to check.",
+        "instruction 2": "Compare all characters in the string using Python's built-in `set` type, which keeps unique characters, and check if the length of the set is equal to 1, indicating all characters are the same."
+    },
+    {
+        "task_id": 742,
+        "prompt": "Write a function to caluclate the area of a tetrahedron.",
+        "instruction 1": "Identify the input parameters as the lengths of the tetrahedron's edges and the function should use Heron's formula to calculate the area of the triangular base and then calculate the volume of the tetrahedron using the area and the height.",
+        "instruction 2": "Use the formula (1/3) * sqrt(area * height) to calculate the volume, where area is the triangular base area and height is the height from the apex to the base of the tetrahedron."
+    },
+    {
+        "task_id": 743,
+        "prompt": "Write a function to rotate a given list by specified number of items to the right direction. https://www.geeksforgeeks.org/python-program-right-rotate-list-n/",
+        "instruction 1": "Identify the input parameters as a list of elements and the number of positions to shift the elements to the right, and implement the rotation operation using list slicing and concatenation.",
+        "instruction 2": "Concatenate the reverse of the list up to the length of the number of positions to shift with the rest of the original list to achieve the right rotation and return the resulting list."
+    },
+    {
+        "task_id": 744,
+        "prompt": "Write a function to check if the given tuple has any none value or not.",
+        "instruction 1": "Identify the input parameter as a tuple and check if any element in the tuple is None.",
+        "instruction 2": "Use the built-in 'any()' function in combination with the 'is None' operator to determine if any element in the tuple is None and return the result."
+    },
+    {
+        "task_id": 745,
+        "prompt": "Write a function to find numbers within a given range from startnum ti endnum where every number is divisible by every digit it contains. https://www.w3resource.com/python-exercises/lambda/python-lambda-exercise-24.php",
+        "instruction 1": "Define a function that takes two integers, startnum and endnum, as input, and initialize an empty list to store the numbers that meet the condition.",
+        "instruction 2": "Use a loop to iterate over the range of numbers from startnum to endnum, check if each number is divisible by every digit it contains using the modulo operator and recursion or a while loop, and add the qualified numbers to the list, then return the list."
+    },
+    {
+        "task_id": 748,
+        "prompt": "Write a function to put spaces between words starting with capital letters in a given string.",
+        "instruction 1": "Identify the input parameter as a string and iterate through each character in the string.",
+        "instruction 2": "If the character is uppercase, replace it with the character, a space, and the lowercase version of the character using string concatenation or the `join()` function."
+    },
+    {
+        "task_id": 749,
+        "prompt": "Write a function to sort a given list of strings of numbers numerically. https://www.geeksforgeeks.org/python-sort-numeric-strings-in-a-list/",
+        "instruction 1": "Use the built-in `key` function of the `sorted` function to specify a conversion function for the sorting, converting each string element to an integer using the `int` function.",
+        "instruction 2": "Pass the list of strings to the `sorted` function, specifying the `key` function as the conversion function, and return the sorted list."
+    },
+    {
+        "task_id": 750,
+        "prompt": "Write a function to add the given tuple to the given list.",
+        "instruction 1": "Identify the input parameters as a list and a tuple to be added, and the function should extend the list by appending the tuple elements.",
+        "instruction 2": "Use the `extend()` method of the list to add the tuple elements to the list."
+    },
+    {
+        "task_id": 751,
+        "prompt": "Write a function to check if the given array represents min heap or not. https://www.geeksforgeeks.org/how-to-check-if-a-given-array-represents-a-binary-heap/",
+        "instruction 1": "Identify the input parameter as a list representing the binary heap and use a loop to traverse the array, checking if each parent node's value is less than or equal to its child nodes' values.",
+        "instruction 2": "If the traversal is completed without finding a parent node with a value greater than one of its child nodes, return True to indicate that the array represents a min heap; otherwise, return False."
+    },
+    {
+        "task_id": 752,
+        "prompt": "Write a function to find the nth jacobsthal number. https://www.geeksforgeeks.org/jacobsthal-and-jacobsthal-lucas-numbers/ 0, 1, 1, 3, 5, 11, 21, 43, 85, 171, 341, 683, 1365, 2731, ...",
+        "instruction 1": "Identify the input parameter as an integer n that represents the position of the Jacobsthal number to find, and initialize a variable to store the result.",
+        "instruction 2": "Use a loop to calculate each Jacobsthal number based on the recurrence relation J(n) = J(n-1) + 2*J(n-1) + 1, starting from J(0) and J(1), and return the nth Jacobsthal number."
+    },
+    {
+        "task_id": 753,
+        "prompt": "Write a function to find minimum k records from tuple list. https://www.geeksforgeeks.org/python-find-minimum-k-records-from-tuple-list/ - in this case a verbatim copy of test cases",
+        "instruction 1": "Identify the input parameter as a list of tuples, sort the list in ascending order based on the kth element of each tuple, and select the first k elements.",
+        "instruction 2": "Use Python's built-in `sorted()` function to sort the list and return the first k elements using slicing."
+    },
+    {
+        "task_id": 754,
+        "prompt": "We say that an element is common for lists l1, l2, l3 if it appears in all three lists under the same index. Write a function to find common elements from three lists. The function should return a list.",
+        "instruction 1": "Identify the input parameters as three lists, l1, l2, l3, and iterate through each list to check for common elements at the same index.",
+        "instruction 2": "Use an if condition to check if an element is present at the same index in all three lists, and if true, add it to the result list; finally, return the list of common elements."
+    },
+    {
+        "task_id": 755,
+        "prompt": "Write a function to find the second smallest number in a list.",
+        "instruction 1": "Identify the input parameter as a list of numbers and sort the list in ascending order.",
+        "instruction 2": "Return the second element of the sorted list if the list has at least two elements, else return None."
+    },
+    {
+        "task_id": 757,
+        "prompt": "Write a function to count the pairs of reverse strings in the given string list. https://www.geeksforgeeks.org/python-program-to-count-the-pairs-of-reverse-strings/",
+        "instruction 1": "Identify the input parameter as a list of strings and initialize an empty counter for counting the pairs of reverse strings.",
+        "instruction 2": "Use a loop to iterate over the input list, reverse each string, compare it with the original string, and increment the counter if they are identical pair of reverse strings."
+    },
+    {
+        "task_id": 758,
+        "prompt": "Write a function to count lists within a list. The function should return a dictionary where every list is converted to a tuple and the value of such tuple is the number of its occurencies in the original list.",
+        "instruction 1": "Identify the input parameter as a list containing lists and initialize an empty dictionary to store the count of each list's tuple",
+        "instruction 2": "Use a loop to iterate over the input list and check if each element is already a tuple, convert it to a tuple if not, increase its count in the dictionary, and return the resulting dictionary"
+    },
+    {
+        "task_id": 759,
+        "prompt": "Write a function to check whether a given string is a decimal number with a precision of 2.",
+        "instruction 1": "Identify the input parameter as a string and use regular expressions to check if the string matches the pattern of a decimal number with 2 digits after the decimal point.",
+        "instruction 2": "Use the `re` module and `match` function to check if the pattern matches, returning `True` if it's a valid decimal number and `False` otherwise."
+    },
+    {
+        "task_id": 760,
+        "prompt": "Write a python function to check whether a list of numbers contains only one distinct element or not.",
+        "instruction 1": "Identify the input parameter as a list of numbers and use Python's built-in set function to find the number of unique elements in the list, then compare it to the length of the list.",
+        "instruction 2": "Return a boolean value indicating whether the length of the set is equal to 1 or not, representing whether the list contains only one distinct element."
+    },
+    {
+        "task_id": 762,
+        "prompt": "Write a function to check whether the given month number contains 30 days or not. Months are given as number from 1 to 12.",
+        "instruction 1": "Identify the input parameter as an integer between 1 and 12 representing a month number, and consider the month having 30 days if it is 2, 4, 6, 9, or 11, or not having 30 days otherwise.",
+        "instruction 2": "Return a Boolean value (True or False) indicating whether the given month has 30 days or not, using conditional logic to determine this based on the identified months with 30 days."
+    },
+    {
+        "task_id": 763,
+        "prompt": "Write a python function to find the minimum difference between any two elements in a given array. https://www.geeksforgeeks.org/find-minimum-difference-pair/",
+        "instruction 1": "Sort the input array and initialize a variable to store the minimum difference.",
+        "instruction 2": "Iterate through the sorted array, comparing adjacent elements and updating the minimum difference if a smaller difference is found."
+    },
+    {
+        "task_id": 764,
+        "prompt": "Write a python function to count number of digits in a given string.",
+        "instruction 1": "Identify the input parameter as a string and extract its characters individually.",
+        "instruction 2": "Use a loop to iterate over the characters, check if each character is a digit using the `isdigit()` function, and keep a count of the total digits found"
+    },
+    {
+        "task_id": 765,
+        "prompt": "Write a function to find nth polite number. geeksforgeeks.org/n-th-polite-number/",
+        "instruction 1": "John Polley-ors can be computed using\\nthe sum of the factors of the given number. Write a function that takes an integer n as an input and returns the nth polite number.",
+        "instruction 2": "Implement a function that utilises a loop to calculate the sum of the factors for each number starting from 1, until the nth polite number is reached and returned."
+    },
+    {
+        "task_id": 766,
+        "prompt": "Write a function to return a list of all pairs of consecutive items in a given list.",
+        "instruction 1": "Identify the input parameter as a list of elements and initialize an empty list to store the pairs of consecutive items.",
+        "instruction 2": "Use a loop to iterate through the list, pairing each element with the next one, and append these pairs to the result list."
+    },
+    {
+        "task_id": 767,
+        "prompt": "Write a python function to count the number of pairs whose sum is equal to ‘sum’. The funtion gets as input a list of numbers and the sum,",
+        "instruction 1": "Identify the input parameters as a list of numbers and a target sum, and define a variable to store the count of pairs.",
+        "instruction 2": "Use a loop to iterate through the list, and for each number, use another loop to check if the difference between the target sum and the current number exists in the list, incrementing the count if it does."
+    },
+    {
+        "task_id": 769,
+        "prompt": "Write a python function to get the difference between two lists.",
+        "instruction 1": "Identify the input parameters as two lists and calculate the difference between them.",
+        "instruction 2": "Use the `set` data structure to find the symmetric difference between the two lists, then convert the result back to a list and return it."
+    },
+    {
+        "task_id": 770,
+        "prompt": "Write a python function to find the sum of fourth power of first n odd natural numbers.",
+        "instruction 1": "Identify the input parameter as an integer n that represents the number of odd natural numbers, and initialize a variable to 0 to store the sum of their fourth powers.",
+        "instruction 2": "Use a loop to iterate from 1 to n, calculate the fourth power of each odd number, add it to the sum, and return the total sum."
+    },
+    {
+        "task_id": 771,
+        "prompt": "Write a function to check if the given expression is balanced or not. https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/",
+        "instruction 1": "Identify the input parameter as a string representing the arithmetic expression, initialize an empty stack, and iterate over the expression to push opening parentheses to the stack and pop them when a closing parenthesis is encountered.",
+        "instruction 2": "Check if the stack is empty after iterating over the entire expression; if it is empty, the expression is balanced, otherwise, it's not."
+    },
+    {
+        "task_id": 772,
+        "prompt": "Write a function to remove all the words with k length in the given string.",
+        "instruction 1": "Identify the input parameter as a string and an integer k, and consider splitting the string into words.",
+        "instruction 2": "Use a loop to iterate over the words, check their length, and use a list comprehension to filter out the words of length k and concatenate the remaining words into a new string."
+    },
+    {
+        "task_id": 773,
+        "prompt": "Write a function to find the occurrence and position of the substrings within a string. Return None if there is no match.",
+        "instruction 1": "Identify the input parameters as a string and a list of substrings, then iterate through the list to find matches and their positions within the string",
+        "instruction 2": "Use the string's `find()` method to locate the start index of each match, and the `str.startswith()` method to verify the match, then return the matches and their positions if found, or None if no matches exist"
+    },
+    {
+        "task_id": 775,
+        "prompt": "Write a python function to check whether every odd index contains odd numbers of a given list.",
+        "instruction 1": "Check if the input is a list of numbers and identify the index that is odd, ",
+        "instruction 2": "Use a conditional statement to check if the element at the identified index is odd and return a boolean value depending on the result."
+    },
+    {
+        "task_id": 777,
+        "prompt": "Write a python function to find the sum of non-repeated elements in a given list.",
+        "instruction 1": "Identify the input as a list of numbers and convert it to a set to remove duplicates, then create a set for storing non-repeated elements.",
+        "instruction 2": "Use a list comprehension to iterate through the original list and check if each element is in the set or not, if not add it to the new list, then use the sum() function to calculate the sum of unique elements."
+    },
+    {
+        "task_id": 778,
+        "prompt": "Write a function to pack consecutive duplicates of a given list elements into sublists.",
+        "instruction 1": "Identify the input parameter as a list of elements and initialize an empty list to store the result, then iterate over the input list using an index variable to check if the current element is equal to the previous one.",
+        "instruction 2": "If the current element is equal to the previous one, append it to the last sublist, otherwise, append a new sublist containing the current element to the result list."
+    },
+    {
+        "task_id": 780,
+        "prompt": "Write a function to find the combinations of sums with tuples in the given tuple list. https://www.geeksforgeeks.org/python-combinations-of-sum-with-tuples-in-tuple-list/",
+        "instruction 1": "Identify the input parameter as a list of tuples and the target sum value, then initialize an empty list to store the combinations.",
+        "instruction 2": "Use Python's itertools.combinations function to generate all combinations of tuples from the given list, filter the combinations that meet the target sum, and return the resulting list of combinations."
+    },
+    {
+        "task_id": 781,
+        "prompt": "Write a python function to check whether the count of divisors is even. https://www.w3resource.com/python-exercises/basic/python-basic-1-exercise-24.php",
+        "instruction 1": "Identify the input parameter as an integer number that represents the number to check for even divisors.",
+        "instruction 2": "Define a function that counts the number of divisors of the given number and returns True if the count is even, and False otherwise."
+    },
+    {
+        "task_id": 782,
+        "prompt": "Write a python function to find the sum of all odd length subarrays. https://www.geeksforgeeks.org/sum-of-all-odd-length-subarrays/",
+        "instruction 1": "Identify the input parameter as a list of numbers and initialize a variable to store the sum of all odd length subarrays.",
+        "instruction 2": "Use two nested loops to generate all subarrays with length from 1 to the maximum length of the input list, and add up the elements of the odd-length subarrays using the `sum()` function."
+    },
+    {
+        "task_id": 784,
+        "prompt": "Write a function to find the product of first even and odd number of a given list.",
+        "instruction 1": "Identify the input parameter as a list of numbers, iterate through the list to find the first even and first odd numbers, and store them in separate variables.",
+        "instruction 2": "Use the `*` operator to multiply the stored even and odd numbers, and return the product."
+    },
+    {
+        "task_id": 785,
+        "prompt": "Write a function to convert tuple string to integer tuple.",
+        "instruction 1": "Split the input string tuple into substrings by comma separators and map each substring to an integer using the `int()` function, then combine the results into a tuple.",
+        "instruction 2": "Use Python's built-in `eval()` function to convert the tuple of strings to a tuple of integers, or define a function to achieve this conversion manually."
+    },
+    {
+        "task_id": 786,
+        "prompt": "Write a function to locate the right insertion point for a specified value in sorted order.",
+        "instruction 1": "Identify the input parameters as a sorted list or array and the value to be inserted, then determine whether the value should be inserted at the beginning or end of the list based on its relation to the first and last elements.",
+        "instruction 2": "Implement a binary search algorithm to find the insertion point by iterating and comparing the value to the middle element of the list, adjusting the search range accordingly until the insertion point is found."
+    },
+    {
+        "task_id": 787,
+        "prompt": "Write a function that matches a string that has an a followed by three 'b'.",
+        "instruction 1": "Identify the input parameter as a string and use regular expression pattern matching with the pattern 'a...b{3}' to check if the string matches the specified pattern.",
+        "instruction 2": "Use the `re.search()` function to perform the pattern matching and return a boolean value indicating whether the string matches the pattern or not."
+    },
+    {
+        "task_id": 788,
+        "prompt": "Write a function to create a new tuple from the given string and list.",
+        "instruction 1": "Identify the input parameters as a string and a list, and use the `split()` function to convert the string into a tuple, then concatenate the list and the resulting tuple with the `+` operator.",
+        "instruction 2": "Return the new tuple created in instruction 1 as the output of the function."
+    },
+    {
+        "task_id": 790,
+        "prompt": "Write a python function to check whether every even index contains even numbers of a given list.",
+        "instruction 1": "Extract a list of indices and numbers from the input and highlight those at even indices.",
+        "instruction 2": "Use a loop to iterate through the list, checking each even-indexed element to see if it is even and returning a boolean value indicating whether all even-indexed elements are even."
+    },
+    {
+        "task_id": 791,
+        "prompt": "Write a function to remove tuples from the given tuple.",
+        "instruction 1": "Identify the input as a tuple of tuples and specify the elements to be removed as a list of indices or tuple indices.",
+        "instruction 2": "Use list comprehension or the built-in `dict.get` method to create a new tuple by excluding the specified elements from the original tuple."
+    },
+    {
+        "task_id": 792,
+        "prompt": "Write a python function to count the number of lists in a given number of lists.",
+        "instruction 1": "Identify the input parameter as a list of lists and count the number of inner lists within it.",
+        "instruction 2": "Use a variable to initialize a count to 0 and iterate through the outer list using a loop, incrementing the count for each inner list found."
+    },
+    {
+        "task_id": 793,
+        "prompt": "Write a python function to find the last position of an element in a sorted array.",
+        "instruction 1": "Identify the input parameter as a sorted list of numbers and the target element to be found, then find the start and end indices of the target element in the list using the `index()` function.",
+        "instruction 2": "Use Python's list slicing to return the index of the last occurrence of the target element in the list, adjusted by subtracting 1 from the end index found in the previous step, if multiple occurrences of the target element exist in the list."
+    },
+    {
+        "task_id": 794,
+        "prompt": "Write a function that matches a string that has an 'a' followed by anything, ending in 'b'.",
+        "instruction 1": "Use Python's `re` module and its `match` function to compile a regular expression pattern that matches the string with 'a' followed by any characters and ending with 'b'.",
+        "instruction 2": "Use the `match` method to search for the pattern in the input string and return a match object; check if the match object is not None indicating a successful match and apply the pattern's group(1) to get the matched characters in between 'a' and 'b'."
+    },
+    {
+        "task_id": 796,
+        "prompt": "Write function to find the sum of all items in the given dictionary.",
+        "instruction 1": "Identify the input parameter as a dictionary and iterate over its items using the .items() method or .keys() and .values() methods to access the keys and values.",
+        "instruction 2": "Use a loop to calculate and add up the values in the dictionary, possibly using the sum() function or manually by accumulating the sum using a variable."
+    },
+    {
+        "task_id": 797,
+        "prompt": "Write a python function to find the sum of all odd natural numbers within the range l and r.",
+        "instruction 1": "Identify the input parameters as two integers l and r that represent the lower and upper bounds of the range, and initialize a variable to store the sum of odd numbers.",
+        "instruction 2": "Use a loop to iterate from l to r and add each odd number to the sum variable, then return the sum."
+    },
+    {
+        "task_id": 798,
+        "prompt": "Write a python function to find the sum of an array.",
+        "instruction 1": "Identify the input parameter as a list of numbers, and initialize a variable to zero to store the sum.",
+        "instruction 2": "Use a loop to iterate through the list, adding each element to the sum and returning the accumulated sum using the `sum()` function or a manual loop."
+    },
+    {
+        "task_id": 799,
+        "prompt": "Write a function to that rotate left bits by d bits a given number. We assume that the number is 32 bit.",
+        "instruction 1": "Identify the input parameter as a 32-bit integer and the shift value d as an integer, then use bitwise left shift operator '< shift' to rotate the bits of the number to the left by d positions.",
+        "instruction 2": "Use the bitwise AND operator '&' to clip the result to the 32-bit integer range, ensuring no loss of information, and return the resulting rotated integer."
+    },
+    {
+        "task_id": 800,
+        "prompt": "Write a function to remove all whitespaces from a string.",
+        "instruction 1": "Identify the input parameter as a string and initialize an empty string to store the result.",
+        "instruction 2": "Use Python's string methods (e.g., replace(), isalpha(), and join()) to iterate through the input string, replacing whitespaces with an empty string and concatenate the resulting characters into the output string."
+    },
+    {
+        "task_id": 801,
+        "prompt": "Write a python function to count the number of equal numbers from three given integers.",
+        "instruction 1": "Identify the input parameters as three integers and compare them to count the number of equal values.",
+        "instruction 2": "Use if-else or conditional statements to check for each pair of input integers if they are equal, incrementing a counter if true, and return the total count."
+    },
+    {
+        "task_id": 803,
+        "prompt": "Write a function to check whether the given number is a perfect square or not. https://www.geeksforgeeks.org/check-if-given-number-is-perfect-square-in-cpp/",
+        "instruction 1": "Identify the input parameter as an integer representing the given number and initialize an empty integer variable to store its square root.",
+        "instruction 2": "Use the math.sqrt function to calculate the square root of the given number, and check if it's an integer; if it is, return True indicating the number is a perfect square, else return False."
+    },
+    {
+        "task_id": 804,
+        "prompt": "Write a function to check whether the product of numbers in a list is even or not.",
+        "instruction 1": "Identify the input parameter as a list of numbers, and initialize a variable to store the product of the numbers in the list.",
+        "instruction 2": "Calculate the product of the numbers in the list using the `math.prod()` function and check if the result is even by using the modulus operator `% 2 == 0"
+    },
+    {
+        "task_id": 805,
+        "prompt": "Write a function that returns the list in a list of lists whose sum of elements is the highest.",
+        "instruction 1": "Sort the list of lists by the sum of elements in each sublist in descending order, then return the first sublist.",
+        "instruction 2": "Use the built-in functions sum() to calculate the sum of elements in each sublist and sorted() to sort the list of lists based on the sums."
+    },
+    {
+        "task_id": 806,
+        "prompt": "Write a function to find maximum run of uppercase characters in the given string.",
+        "instruction 1": "Identify the input parameter as a string and initialize a variable to track the maximum run length and another variable to reset for the current run length.",
+        "instruction 2": "Iterate over the string, and when encountering a uppercase character, increment the current run length, otherwise reset it; keep track of the maximum run length and return it."
+    },
+    {
+        "task_id": 807,
+        "prompt": "Write a python function to find the first odd number in a given list of numbers.",
+        "instruction 1": "Identify the input parameter as a list of numbers and iterate through the list to find the first odd number.",
+        "instruction 2": "Use a conditional statement to check if each number is odd; if it is, return the number; otherwise, continue iterating until the first odd number is found."
+    },
+    {
+        "task_id": 808,
+        "prompt": "Write a function to check if the given tuples contain the k or not.",
+        "instruction 1": "Identify the input parameters as a list of tuples and an integer k, then iterate through each tuple and check if it contains the value k.",
+        "instruction 2": "Use a list comprehension or iteration to check if any tuple in the list contains the value k, and return a boolean value indicating the result."
+    },
+    {
+        "task_id": 809,
+        "prompt": "Write a function to check if each element of second tuple is smaller than its corresponding element in the first tuple.",
+        "instruction 1": "Take two tuples as input parameters and iterate through each pair of corresponding elements.",
+        "instruction 2": "Compare each pair of elements using less than operator (), and return True if all comparisons are True, and False otherwise."
+    }
+]

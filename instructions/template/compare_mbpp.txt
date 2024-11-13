@@ -1,6 +1,32 @@
-As a proficient python programming linguist, your task content is to dig the gap between the wrong code and the right code. Combined with the code requirements in the prompt, you need to pick out the key sentences in the wrong code that are closely related to the code-generated reasoning and lead the reasoning process in the wrong direction. I will provide you with the correct code and the original prompt for reference. Please note that you can only output the exact same sentence as the error code with no additional words.
-The answer must be in plain text JSON format without any additional words, with the “key” being the sentence number and the “value” including the key sentence from the error code.
+As a proficient Python programmer, your task is to identify the differences between the incorrect and correct code. Specifically, extract the key elements from the incorrect answer that led to errors in code implementation. Focus on sentences directly linked to the steps where the code generation process deviated from the intended approach. We will provide you with the original requirements, code snippets, and the correct solutions for reference. Your response should consist solely of the key part from the incorrect code that illustrate the reasoning errors—exclude any additional commentary.
+
+Return your response in plain text JSON format, listing each key code with its sequence number as the “key” and the corresponding code from the incorrect code as the “value”.
+
+Here are two examples:
+
+Prompt: Write a function to find the minimum cost path to reach (m, n) from (0, 0) for the given cost matrix cost[][] and a position (m, n) in cost[][].
+Correct code: R = 3 C = 3 def min_cost(cost, m, n): tc = [[0 for x in range(C)] for x in range(R)] tc[0][0] = cost[0][0] for i in range(1, m+1): tc[i][0] = tc[i-1][0] + cost[i][0] for j in range(1, n+1): tc[0][j] = tc[0][j-1] + cost[0][j] for i in range(1, m+1): for j in range(1, n+1): tc[i][j] = min(tc[i-1][j-1], tc[i-1][j], tc[i][j-1]) + cost[i][j] return tc[m][n]
+Wrong code: def min_cost(cost, m, n):\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if i == 1 and j == 1:\n                dp[i][j] = cost[i - 1][j - 1]\n            else:\n                dp[i][j] = cost[i - 1][j - 1] + min(dp[i - 1][j], dp[i][j - 1])\n    return dp[m][n]\n
+Key code: {
+    "1": "dp = [[0] * (n + 1) for _ in range(m + 1)]",
+    "2": "for i in range(1, m + 1):",
+    "3": "if i == 1 and j == 1: dp[i][j] = cost[i - 1][j - 1]",
+    "4": "dp[i][j] = cost[i - 1][j - 1] + min(dp[i - 1][j], dp[i][j - 1])"
+}
+
+Prompt: Write a function to find the number of ways to fill it with 2 x 1 dominoes for the given 3 x n board.
+Correct code: def count_ways(n): A = [0] * (n + 1) B = [0] * (n + 1) A[0] = 1 A[1] = 0 B[0] = 0 B[1] = 1 for i in range(2, n+1): A[i] = A[i - 2] + 2 * B[i - 1] B[i] = A[i - 1] + B[i - 2] return A[n]
+Wrong code: def count_ways(n):\n    if n < 2:\n        return 1\n    if n == 2:\n        return 2\n    ways = [0]*(n+1)\n    ways[0] = 1\n    ways[1] = 1\n    ways[2] = 2\n    for i in range(3, n+1):\n        ways[i] = ways[i-1] + ways[i-2]\n    return ways[n]\n
+Key code: {
+    "1": "if n < 2: return 1",
+    "2": "if n == 2: return 2",
+    "3": "ways = [0]*(n+1)",
+    "4": "for i in range(3, n+1): ways[i] = ways[i-1] + ways[i-2]"
+}
+
+Please analyze the key code in the following wrong code based on the instructions and examples above.
 
 Prompt: {prompt}
 Correct code: {answer}
 Wrong code: {generated}
+Key code: 

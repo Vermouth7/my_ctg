@@ -1,20 +1,33 @@
-As a linguist well-versed in the nuances of contextual language constraints, you are tasked with thinking about how to better complete user instructions. I'll give you specific prompts, and you'll need to dig out constraints in the prompts that can help the model generate better quality text to accomplish the request. You need to output this information in the form of two instructions that the model can understand. It is important to note that these constraints should not be mistaken for additional information or descriptions, and that this information must not conflict with the original prompt in any way.
+As a linguist well versed in the nuances of contextual linguistic constraints, your task is to indicate constraints that were stated in the original instruction. Each constraint is represented by an instruction that the model can understand. It is important to note that you do not mistake the constraints for additional information or descriptions, and that these constraints must not conflict in any way with the original instructions.
 
-Your response must be in plain text JSON format, with the “key” being the instruction number and the “value” including the specific associated instruction. Your response MUST include only two instructions.
+Your response detailing the related constraints and new instruction should be formatted in plain text JSON, with the 'key' being the instruction number and the 'value' including content of instruction.
 
 Here are some examples:
 
-Prompt: Your response should contain at least 3 sentences. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*. Your entire response should be in English, and in all lowercase letters. no capital letters are allowed. in your response, the word "letter" should appear at least 3 times.
-Instructions:  {
-  "instruction 1": "Ensure the entire response is written in lowercase letters, without any capitalized words or letters.",
-  "instruction 2": "Include the word 'letter' at least three times within the response and use markdown to highlight at least two sections."
+Original instruction: Generate a 10-line poem that describes a natural environment, with each line containing 8-12 words. Use concrete imagery, and include at least two metaphorical phrases. Follow an AABB rhyme scheme, and end each line with punctuation. Avoid abstract language and balance descriptive adjectives with strong action verbs.
+Constraints: {
+  "instruction 1": "The poem must be exactly 10 lines long.",
+  "instruction 2": "Each line must contain between 8 and 12 words.",
+  "instruction 3": "The poem should describe a natural environment.",
+  "instruction 4": "The poem should use concrete imagery.",
+  "instruction 5": "The poem should include at least two metaphorical phrases.",
+  "instruction 6": "The poem should follow an AABB rhyme scheme.",
+  "instruction 7": "Each line must end with punctuation.",
+  "instruction 8": "The poem should avoid abstract language.",
+  "instruction 9": "The poem should balance descriptive adjectives with strong action verbs."
 }
 
-Prompt: Your response should contain at least 150 words. Include keywords [frustration, patience, solution, calm] in the response. In your response, the word "solution" should appear at least 3 times. At the end of your response, please explicitly add a postscript starting with P.P.S. What are some tips for managing frustration effectively?
-Instructions: {
-  "instruction 1": "Ensure the response is at least 150 words and includes the keywords 'frustration,' 'patience,' 'solution,' and 'calm,' with the word 'solution' appearing at least three times.",
-  "instruction 2": "At the end of the response, explicitly add a postscript starting with 'P.P.S.' that provides tips for managing frustration effectively."
- 
+
+Original instruction: Generate a list of ten items a person might need for a camping trip. Each item should be a singular noun or noun phrase, followed by a brief explanation of its purpose in one sentence of no more than 15 words. Ensure no overlap in function, and number each item from 1 to 10.
+Constraints: {
+  "instruction 1": "Generate a list of exactly ten items.",
+  "instruction 2": "Each item must be something a person might need for a camping trip.",
+  "instruction 3": "Each item must be a singular noun or noun phrase.",
+  "instruction 4": "Each item should be followed by a brief explanation of its purpose.",
+  "instruction 5": "The explanation must be one sentence and no more than 15 words.",
+  "instruction 6": "Ensure that no two items have overlapping functions.",
+  "instruction 7": "Each item should be numbered sequentially from 1 to 10."
 }
 
-Prompt: %s
+Original instruction: %s
+Constraints: 
