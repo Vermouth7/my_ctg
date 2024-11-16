@@ -1,45 +1,40 @@
+import argparse
 import os
 
 os.environ['CUDA_VISIBLE_DEVICES']='0'
-import argparse
 import json
-import re
 import time
 
 import numpy as np
+import pandas as pd
 import torch
-import torch.nn.functional as F
 from batch_repe import repe_pipeline_registry
-from datasets import load_dataset
+from mmlu_categories import categories, subcategories
 from tqdm import tqdm
-from transformers import AutoModel, AutoTokenizer, LlamaForCausalLM, pipeline
+from transformers import AutoTokenizer, LlamaForCausalLM, pipeline
 from utils import *
-from vllm import LLM, SamplingParams
 
 repe_pipeline_registry()
-device = torch.device("cuda")
+
 choices = ["A", "B", "C", "D"]
+device = torch.device("cuda")
 
 def process_data(sample):
     res={}
     res['sub_ins']=[]
     res['sub_ins'].append(sample['instruction 1'])
     res['sub_ins'].append(sample['instruction 2'])
-    
     return res
-
-def get_split_hs(model,tokenizer,):
+def get_split_hs(model,tokenizer,file_path):
     all_hiddens= []
-    
-    with open(os.path.join("/home/chh/repos/my_ctg/instructions/mmlu/abstract_algebra_2steps_llama.json"), 'r', encoding='utf-8') as input_file:
+    with open(file_path, 'r', encoding='utf-8') as input_file:
         data=json.load(input_file)
         
     for sample in tqdm(data, desc=f"Processing dataset", unit="line"):
         res=process_data(sample)
-        
         hidden_states_list = []
         for sub_instruction in res['sub_ins']:
-            sub_instruction=prompt_template(tokenizer=tokenizer,message=sub_instruction)
+            # sub_instruction=prompt_template(tokenizer=tokenizer,message=sub_instruction)
             inputs = tokenizer(sub_instruction, return_tensors='pt')
             inputs.to(device)
             with torch.no_grad():
@@ -56,19 +51,100 @@ def get_split_hs(model,tokenizer,):
         average_hidden_state = torch.mean(hidden_states_tensor, dim=0)
         average_hidden_state = average_hidden_state.squeeze(0)
         all_hiddens.append(average_hidden_state)
-    all_hiddens=torch.stack(all_hiddens)
+    all_hiddens=torch.stack(all_hiddens) # data 33 4096
     return all_hiddens
 
+def format_subject(subject):
+    l = subject.split("_")
+    s = ""
+    for entry in l:
+        s += " " + entry
+    return s
 
-def CTG_hs(args):
-    tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
-    model = LlamaForCausalLM.from_pretrained(args.model_path, torch_dtype=torch.bfloat16).to(device)
 
-    tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
-    model = model.eval()
-    start_time = time.time()
-        
-    # best_layer = get_insert_layer(model,tokenizer,task,output)
+def format_example(df, idx, include_answer=True):
+    prompt = df.iloc[idx, 0]
+    k = df.shape[1] - 2
+    for j in range(k):
+        prompt += "\n{}. {}".format(choices[j], df.iloc[idx, j + 1])
+    prompt += "\nAnswer:"
+    if include_answer:
+        prompt += " {}\n\n".format(df.iloc[idx, k + 1])
+    return prompt
+
+
+def gen_prompt(train_df, subject, k=-1):
+    prompt = "The following are multiple choice questions (with answers) about {}.\n\n".format(
+        format_subject(subject)
+    )
+    if k == -1:
+        k = train_df.shape[0]
+    for i in range(k):
+        prompt += format_example(train_df, i)
+    return prompt
+
+
+@torch.no_grad()
+def eval_baseline(args, subject, model, tokenizer, dev_df, test_df):
+    cors = []
+    all_probs = []
+    answers = choices[: test_df.shape[1] - 2]
+
+    for i in range(test_df.shape[0]):
+        # get prompt and make sure it fits
+        k = args.ntrain
+        prompt_end = format_example(test_df, i, include_answer=False)
+        train_prompt = gen_prompt(dev_df, subject, k)
+        prompt = train_prompt + prompt_end
+        input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
+
+        while input_ids.shape[-1] > 2048:
+            k -= 1
+            train_prompt = gen_prompt(dev_df, subject, k)
+            prompt = train_prompt + prompt_end
+            input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
+
+        label = test_df.iloc[i, test_df.shape[1] - 1]
+        logits = model(
+            input_ids=input_ids,
+        ).logits[:,-1].flatten()
+
+        probs = (
+            torch.nn.functional.softmax(
+                torch.tensor(
+                    [
+                        logits[tokenizer("A").input_ids[-1]],
+                        logits[tokenizer("B").input_ids[-1]],
+                        logits[tokenizer("C").input_ids[-1]],
+                        logits[tokenizer("D").input_ids[-1]],
+                    ]
+                ),
+                dim=0,
+            )
+            .detach()
+            .cpu()
+            .to(torch.float32)
+            .numpy()
+        )
+        pred = {0: "A", 1: "B", 2: "C", 3: "D"}[np.argmax(probs)]
+
+        cor = pred == label
+        cors.append(cor)
+        all_probs.append(probs)
+
+    acc = np.mean(cors)
+    cors = np.array(cors)
+
+    all_probs = np.array(all_probs)
+    print("Average accuracy {:.3f} - {}".format(acc, subject))
+
+    return cors, acc, all_probs
+
+@torch.no_grad()
+def eval_ctg(args, subject, model, tokenizer, dev_df, test_df):
+    cors = []
+    all_probs = []
+    answers = choices[: test_df.shape[1] - 2]
     
     insert_layer=[18]
 
@@ -84,144 +160,147 @@ def CTG_hs(args):
         layers=insert_layer,
         device=device)
     
+    split_hiddens= get_split_hs(model,tokenizer,'/home/chh/repos/my_ctg/instructions/mmlu/{}_2steps_llama.json'.format(subject))
     
-    
-    run_results = []
-    batch_size = 2
-    test_data=[]
-    split_hiddens= get_split_hs(model,tokenizer)
-    prompt="The following are multiple choice questions about {label}. You MUST write the answer as 'A', 'B', 'C' or 'D' after '####'.\nQuestion: {question}\nChoices: {choice}\nAnswer:"
-    with open(os.path.join("/home/chh/repos/my_ctg/instructions/mmlu/abstract_algebra_2steps_llama.json".format()), 'r', encoding='utf-8') as test_file:
-        test_data = json.load(test_file)
-    for i in test_data:
-        choices_string=' '.join([f"({choices[i]}) {choice}" for i, choice in enumerate(i['choices'])])
-        i['new_q']=prompt_template(tokenizer,prompt.format(label=i['subject'],question=i['question'],choice=choices_string))
-    
-    ### COT
-    # train_data=load_dataset("/data1/chh/datasets/openai/mmlu",'main')
-    # train_data=train_data['train'].to_pandas().to_dict(orient='records')
-    # for i in test_data:
-    #     i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
-    
-    batches_test = [test_data[i:i + batch_size] for i in range(0, len(test_data), batch_size)]
-    batches_hidden=[split_hiddens[i:i + batch_size] for i in range(0,split_hiddens.shape[0], batch_size)]
-
-    for index,item in enumerate(tqdm(batches_test, desc="Processing prompts")):
-        inputs=[i['new_q'] for i in item]
-        vector=batches_hidden[index]
+    for i in range(test_df.shape[0]):
+        # get prompt and make sure it fits
+        k = args.ntrain
+        prompt_end = format_example(test_df, i, include_answer=False)
+        train_prompt = gen_prompt(dev_df, subject, k)
+        prompt = train_prompt + prompt_end
+        # print(prompt)
+        # if the result is not good, please try use chat template
+        # prompt=prompt_template(tokenizer=tokenizer,message=prompt)
         
-        res = control_pipeline(inputs, activations=vector,token_pos=-1,batch_size=batch_size, max_new_tokens=args.max_length)
+        input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
+
+        while input_ids.shape[-1] > 2048:
+            k -= 1
+            train_prompt = gen_prompt(dev_df, subject, k)
+            prompt = train_prompt + prompt_end
+            input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
+
+        label = test_df.iloc[i, test_df.shape[1] - 1]
         
-        res = [item[0]['generated_text'] for item in res]
-        for r,i in zip(res,item):
-            run_results.append({'question':i['question'],'choices':i['choices'],'answer':i['answer'],'generated_text':r})
-    
-    with open(args.output_folder, 'w', encoding='utf-8') as output_file:
-        json.dump(run_results, output_file, ensure_ascii=False, indent=4)
+        logits = control_pipeline.get_next_token(input_ids, activations=split_hiddens[i].unsqueeze(0),token_pos=-1)
 
+        probs = (
+            torch.nn.functional.softmax(
+                torch.tensor(
+                    [
+                        logits[tokenizer("A").input_ids[-1]],
+                        logits[tokenizer("B").input_ids[-1]],
+                        logits[tokenizer("C").input_ids[-1]],
+                        logits[tokenizer("D").input_ids[-1]],
+                    ]
+                ),
+                dim=0,
+            )
+            .detach()
+            .cpu()
+            .to(torch.float32)
+            .numpy()
+        )
+        pred = {0: "A", 1: "B", 2: "C", 3: "D"}[np.argmax(probs)]
 
+        cor = pred == label
+        cors.append(cor)
+        all_probs.append(probs)
 
-    end_time = time.time()
-    print("total run time %.2f" % (end_time - start_time))
+    acc = np.mean(cors)
+    cors = np.array(cors)
 
-def vllm_gen(args):
-    sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=args.max_length)
-    model=LLM(model=args.model_path,gpu_memory_utilization=0.90)
+    all_probs = np.array(all_probs)
+    print("Average accuracy {:.3f} - {}".format(acc, subject))
+
+    return cors, acc, all_probs
+
+def main(args):
+
     tokenizer = AutoTokenizer.from_pretrained(args.model_path,padding_side='left')
+    model = LlamaForCausalLM.from_pretrained(args.model_path, torch_dtype=torch.bfloat16).to(device)
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
-    run_results = []
-    batch_size = 1
-    test_data=[]
-    # prompt="The following are multiple choice questions about {label}.Your answer must include only options without any other description, such as (A),(B),(C) or (D).\nQuestion: {question}\nChoices: {choice}\nAnswer:"
-    prompt="The following are multiple choice questions about {label}. You MUST write the answer after '####'.\nQuestion: {question}\nChoices: {choice}\nAnswer:"
+    model = model.eval()
     
-    with open(os.path.join("/home/chh/repos/my_ctg/instructions/mmlu/abstract_algebra_2steps_llama.json".format()), 'r', encoding='utf-8') as test_file:
-        test_data = json.load(test_file)
-    # train_data = load_dataset("/data1/chh/datasets/lighteval/mmlu",'abstract_algebra')['test']
-    # train_data=train_data['train'].to_pandas().to_dict(orient='records')
+    subjects = sorted(
+        [
+            f.split("_test.csv")[0]
+            for f in os.listdir(os.path.join(args.data_dir, "test"))
+            if "_test.csv" in f
+        ]
+    )
+    
+    if not os.path.exists(args.save_dir):
+        os.makedirs(args.save_dir)
+    if not os.path.exists(os.path.join(args.save_dir, "results_{}".format(args.model))):
+        os.makedirs(os.path.join(args.save_dir, "results_{}".format(args.model)))
 
-    for i in test_data:
-        choices_string=' '.join([f"({choices[i]}) {choice}" for i, choice in enumerate(i['choices'])])
-        i['new_q']=prompt_template(tokenizer,prompt.format(label=i['subject'],question=i['question'],choice=choices_string))
-        # i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
-    inputs=[i['new_q'] for i in test_data]
-    
-     
-    outputs = model.generate(inputs, sampling_params)
-    res = [item.outputs[0].text for item in outputs]
+    all_cors = []
+    subcat_cors = {
+        subcat: [] for subcat_lists in subcategories.values() for subcat in subcat_lists
+    }
+    cat_cors = {cat: [] for cat in categories}
+
+    for subject in subjects:
+        dev_df = pd.read_csv(
+            os.path.join(args.data_dir, "dev", subject + "_dev.csv"), header=None
+        )[: args.ntrain]
+        test_df = pd.read_csv(
+            os.path.join(args.data_dir, "test", subject + "_test.csv"), header=None
+        )
         
-    for r,i in zip(res,test_data):
-        run_results.append({'question':i['question'],'choices':i['choices'],'answer':i['answer'],'generated_text': r})
-    
-    with open(args.output_folder, 'w', encoding='utf-8') as output_file:
-        json.dump(run_results, output_file, ensure_ascii=False, indent=4)
+        if args.mode=='baseline':
+            cors, acc, probs = eval_baseline(args, subject, model, tokenizer, dev_df, test_df)
+        elif args.mode=='ctg':
+            cors, acc, probs = eval_ctg(args, subject, model, tokenizer, dev_df, test_df)
+            
+        subcats = subcategories[subject]
+        for subcat in subcats:
+            subcat_cors[subcat].append(cors)
+            for key in categories.keys():
+                if subcat in categories[key]:
+                    cat_cors[key].append(cors)
+        all_cors.append(cors)
 
-def format_subject(subject):
-    l = subject.split("_")
-    s = ""
-    for entry in l:
-        s += " " + entry
-    return s
+        test_df["{}_correct".format(args.model)] = cors
+        for j in range(probs.shape[1]):
+            choice = choices[j]
+            test_df["{}_choice{}_probs".format(args.model, choice)] = probs[:, j]
+        test_df.to_csv(
+            os.path.join(
+                args.save_dir, "results_{}".format(args.model), "{}.csv".format(subject)
+            ),
+            index=None,
+        )
 
-def format_example(df, idx, include_answer=True):
-    prompt = df.iloc[idx, 0]
-    k = df.shape[1] - 2
-    for j in range(k):
-        prompt += "\n{}. {}".format(choices[j], df.iloc[idx, j+1])
-    prompt += "\nAnswer:"
-    if include_answer:
-        prompt += " {}\n\n".format(df.iloc[idx, k + 1])
-    return prompt
+    for subcat in subcat_cors:
+        subcat_acc = np.mean(np.concatenate(subcat_cors[subcat]))
+        print("Average accuracy {:.3f} - {}".format(subcat_acc, subcat))
 
-def gen_prompt(train_df, subject, k=-1):
-    prompt = "The following are multiple choice questions (with answers) about {}.\n\n".format(format_subject(subject))
-    if k == -1:
-        k = train_df.shape[0]
-    for i in range(k):
-        prompt += format_example(train_df, i)
-    return prompt
-    
-def extract_ans_from_response(answer):
-    for char in answer:
-        if char in {'A', 'B', 'C', 'D'}:
-            return char
-    return None
+    for cat in cat_cors:
+        cat_acc = np.mean(np.concatenate(cat_cors[cat]))
+        print("Average accuracy {:.3f} - {}".format(cat_acc, cat))
+    weighted_acc = np.mean(np.concatenate(all_cors))
+    print("Average accuracy: {:.3f}".format(weighted_acc))
 
-def eval_func(args):
-    with open(args.eval_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    correct_count = 0
-    total_count = len(data)
-
-    for i, record in enumerate(data):
-        answer_idx = record.get('answer', '')
-        reference = record.get('generated_text', '')
-
-        answer_number = choices[answer_idx]
-        reference_number = extract_ans_from_response(reference)
-
-        if answer_number == reference_number:
-            correct_count += 1
-
-    accuracy = correct_count / total_count * 100
-    print(f"Acc: {accuracy:.2f}%")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
-
-    # parser.add_argument('--model_path', type=str, default='/data1/chh/models/model_sft/llama3-8b/merge/qwen/sft3')
-    parser.add_argument('--output_folder', type=str, default='./results/mmlu/baseline.json')
-    parser.add_argument('--seed', type=int, default=42)
-    parser.add_argument('--max_length', type=int, default=200)
-    
-    parser.add_argument('--eval_file',type=str,default='./results/mmlu/baseline.json')
+    parser.add_argument("--ntrain", "-k", type=int, default=0)
+    parser.add_argument("--data_dir", "-d", type=str, default="/data1/chh/datasets/lighteval/data")
+    parser.add_argument("--save_dir", "-s", type=str, default="results/mmlu/baseline")
+    parser.add_argument(
+        "--model_path",
+        "-m",
+        type=str,
+        default="/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="Meta-Llama-3-8B-Instruct",
+    )
+    parser.add_argument("--mode",type=str,default='baseline')
     
     args = parser.parse_args()
-    set_seed(args)
-    
-    
-    # CTG_hs(args)
-    vllm_gen(args)
-    eval_func(args)
+    main(args) 

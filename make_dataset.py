@@ -121,10 +121,10 @@ def extract(args):
     data=data_gsm8k+data_math
     positive_samples = []
     negative_samples = []
-    
+    prompt='Please judge whether to execute activation editing according to the following text, if so please output 1, otherwise output 0. You must not output any other text.\nText to be judged: {}'
     for item in data:
         if item['result']==1:
-            negative_samples.append({'instruction':item['generated_text'],'output':"0" })
+            negative_samples.append({'instruction':prompt.format(item['generated_text']),'output':"0" })
             continue
         content=item['key']
         # json_start = content.find('{')
@@ -147,7 +147,7 @@ def extract(args):
         
         if answer:
             sentences=list(answer.values())
-            positive_samples.append({'instruction':sentences[0],'output':"1" })
+            positive_samples.append({'instruction':prompt.format(sentences[0]),'output':"1" })
                 
     positive_count = len(positive_samples)
     print(positive_count)

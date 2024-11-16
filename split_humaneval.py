@@ -17,14 +17,14 @@ from vllm import LLM, SamplingParams
 random.seed(42)
 
 
-# sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=256)
-# model=LLM(model='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct',gpu_memory_utilization=0.90)
-# tokenizer = AutoTokenizer.from_pretrained('/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
+sampling_params = SamplingParams(temperature=0.6, top_p=0.9,max_tokens=256)
+model=LLM(model='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct',gpu_memory_utilization=0.90)
+tokenizer = AutoTokenizer.from_pretrained('/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
 template=None
 with open('/home/chh/repos/my_ctg/instructions/template/con_template_humaneval.txt','r',encoding='utf-8') as f:
     template=f.read()
 
-ds = read_problems()
+ds = read_problems() 
 
 
 new_data=[]    
@@ -78,41 +78,41 @@ for task_id in ds:
             
 #             # print(item)
 
-with open('./instructions/humaneval/humaneval_2steps_llama_2.json', 'w', encoding='utf-8') as output_file:
+with open('./instructions/humaneval/humaneval_2steps_llama.json', 'w', encoding='utf-8') as output_file:
     json.dump(new_data, output_file, ensure_ascii=False, indent=4)
 
 print("Data processed and saved successfully!")
 
     
-with open('./instructions/humaneval/humaneval_2steps_llama_2.json', 'r', encoding='utf-8') as output_file:
-    data=json.load(output_file)
-openai_api_key = "ak-Lfu504S5OrzjNvivYYdY6E8xvn1hiTY42texx7WvTIojB9MC"
-openai_api_base = "https://api.nextapi.fun"
-for item in tqdm(data):
-    if ('instruction 1' not in item) or ('instruction 2' not in item):
-        ins=template%(item['prompt'])
-        client = OpenAI(base_url=openai_api_base,api_key=openai_api_key)
-        response = client.chat.completions.create(
-            model='gpt-4o-mini',
-            messages=[{
-                'role': 'user',
-                'content': ins,
-            }],
-        )
-        content = response.choices[0].message.content
-        answer=None
-        try:
-            if content.startswith("```json"): # remove markdown, used for gpt-4 turbo
-                content = content[7:-3].strip()
-                answer = json.loads(content)
-            else:
-                answer = json.loads(content)
-        except Exception as e:
-                print(f"json failed to parse: {e}")
-                print(f"content: {content}")
-        if answer:
-            item['instruction 1']=answer['instruction 1']
-            item['instruction 2']=answer['instruction 2']
+# with open('./instructions/humaneval/humaneval_2steps_llama.json', 'r', encoding='utf-8') as output_file:
+#     data=json.load(output_file)
+# openai_api_key = "ak-Lfu504S5OrzjNvivYYdY6E8xvn1hiTY42texx7WvTIojB9MC"
+# openai_api_base = "https://api.nextapi.fun"
+# for item in tqdm(data):
+#     if ('instruction 1' not in item) or ('instruction 2' not in item):
+#         ins=template%(item['prompt'])
+#         client = OpenAI(base_url=openai_api_base,api_key=openai_api_key)
+#         response = client.chat.completions.create(
+#             model='gpt-4o-mini',
+#             messages=[{
+#                 'role': 'user',
+#                 'content': ins,
+#             }],
+#         )
+#         content = response.choices[0].message.content
+#         answer=None
+#         try:
+#             if content.startswith("```json"): # remove markdown, used for gpt-4 turbo
+#                 content = content[7:-3].strip()
+#                 answer = json.loads(content)
+#             else:
+#                 answer = json.loads(content)
+#         except Exception as e:
+#                 print(f"json failed to parse: {e}")
+#                 print(f"content: {content}")
+#         if answer:
+#             item['instruction 1']=answer['instruction 1']
+#             item['instruction 2']=answer['instruction 2']
             
-with open('./instructions/humaneval/humaneval_2steps_llama_2.json', 'w', encoding='utf-8') as output_file:
-    json.dump(data, output_file, ensure_ascii=False, indent=4)
+# with open('./instructions/humaneval/humaneval_2steps_llama.json', 'w', encoding='utf-8') as output_file:
+#     json.dump(data, output_file, ensure_ascii=False, indent=4)
