@@ -26,8 +26,8 @@
     },
     {
         "prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
-        "instruction 1": "W",
-        "instruction 2": "Include exactly three bullet points in the response, formatted with markdown using "
+        "instruction 1": "Create a dialogue between two characters, one in a ball gown and the other in sweats, as they prepare for a nightly event.",
+        "instruction 2": "Ensure the response includes exactly three bullet points generated in markdown format, each indicated with '* ' followed by the content of the point."
     },
     {
         "prompt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
@@ -206,8 +206,8 @@
     },
     {
         "prompt": "Write a poem about two people who meet in a coffee shop and end your entire response with the exact phrase \"Is there anything else I can help with?\"",
-        "instruction 1": "Write a poem about two people meeting in a coffee shop, and ensure the response ends with the exact phrase 'Is there anything else I can help with?'",
-        "instruction 2": "None"
+        "instruction 1": "Craft a poem that captures the meeting of two people in a coffee shop, focusing on descriptive and emotive language.",
+        "instruction 2": "Conclude the entire response with the exact phrase 'Is there anything else I can help with?'"
     },
     {
         "prompt": "How many feet off the ground was the tallest skyscraper in the world in 2000? Please include only the main points in your answer. Finish your response with the exact phrase of \"Is there anything else I can help with?\" with no other words after the word \"with\". Mention the word \"skyscraper\" for at least 8 times.",

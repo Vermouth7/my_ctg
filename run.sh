@@ -58,20 +58,19 @@
 #     --gen_kwargs max_gen_toks=512 \
 #     --discriminator /data1/chh/my_ctg/classifier/gsm8k/logistic_regression_model7.pkl
 
-CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --num_processes=2 --main_process_port 29501 -m lm_eval --model hf_wrap \
+CUDA_VISIBLE_DEVICES=2,3,4,5 accelerate launch --num_processes=4 --main_process_port 29501 -m lm_eval --model hf_wrap \
     --model_args pretrained=/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct \
     --tasks ifeval \
     --batch_size 1 \
     --num_fewshot 0 \
     --output_path /home/chh/repos/my_ctg/results/ifeval/ \
     --log_samples \
-    --my_mode 2 \
+    --my_mode 1 \
     --apply_chat_template \
     --insert_layers [3] \
     --normalize \
     --operator 'replace' \
-    --split_file /home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_4.json \
-    --discriminator /data1/chh/my_ctg/classifier/gsm8k/logistic_regression_model6.pkl
+    --split_file /home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_2.json 
 
 
 # CUDA_VISIBLE_DEVICES=4,5,6,7 accelerate launch --num_processes=4 --main_process_port 29501 -m lm_eval --model hf_wrap \
