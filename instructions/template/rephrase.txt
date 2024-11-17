@@ -1,0 +1,6 @@
+You are a linguist with expertise in rephrasing. Your task is to integrate the following two instructions into the original prompt in a way that ensures they are fluent, and coherent with the existing content. It is essential to preserve the original meaning and requirements of the prompt without introducing any conflicts or changes. If the original prompt is a code snippet, you must change only the contents of the comment section. Please reply only to the rewritten prompt without any other text.  Please note that your task is to rewrite the instructions, please do not complete the tasks in the instructions.
+
+Original prompt: %s
+Instruction 1: %s
+Instruction 2: %s
+New prompt:
