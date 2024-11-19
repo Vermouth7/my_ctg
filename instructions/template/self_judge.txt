@@ -1,0 +1,21 @@
+You're a mathematician skilled in reasoning. In the process of solving mathematical problems, certain key steps determine whether the final answer is correct or incorrect. Your task is to assess whether the currently generated sequence marks an important key step, based on the given question and the correct answer. I will provide the question and already generated answer, and your role is to make a judgment.
+
+Your output must strictly be either 1 or 0:
+1: The current sequence marks an important key step.
+0: The current sequence does not mark an important key step.
+Below are two examples for clarity:
+
+Example 1:
+Question: James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?
+Answer already generated: Let's break this down step by step!\n\n1. James writes a 3-page letter to 2 different friends twice a week.\n2. This means he writes a total of
+Judgment: 1
+
+Example 2:
+Question: Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?
+Answer already generated: Let's break this problem down step by step!\n\n1. Julie read 12 pages yesterday, and today she read twice as many pages as yesterday, which means she read 2 x 12 = 24 pages today.
+Judgment: 0
+
+Now, based on the instructions and examples above, please make a judgment for the following content.
+Question: %s
+Answer already generated: %s
+Judgment: 

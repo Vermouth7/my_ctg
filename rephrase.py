@@ -14,14 +14,10 @@ from vllm import LLM, SamplingParams
 
 random.seed(42)
 
-
-# sampling_params = SamplingParams(max_tokens=256)
-# model=LLM(model='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct',gpu_memory_utilization=0.90)
-# tokenizer = AutoTokenizer.from_pretrained('/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
 template=None
 with open('/home/chh/repos/my_ctg/instructions/template/rephrase.txt','r',encoding='utf-8') as f:
     template=f.read()
-with open('/home/chh/repos/my_ctg/instructions/ifeval/ifeval_2steps_llama_2.json','r',encoding='utf-8') as f:
+with open('/home/chh/repos/my_ctg/instructions/humaneval/humaneval_2steps_llama.json','r',encoding='utf-8') as f:
     ins=json.load(f)
 
 ds = load_dataset("/data1/chh/datasets/google/IFEval")
@@ -56,6 +52,7 @@ for item in tqdm(ins):
     content = response.choices[0].message.content
     print(content)
     answer={}
+    answer['task_id']=item['task_id']
     answer['prompt']=item['prompt']
     answer['instruction 1']=item['instruction 1']
     answer['instruction 2']=item['instruction 2']
@@ -63,7 +60,7 @@ for item in tqdm(ins):
     new_data.append(answer)
             
 
-with open('./instructions/ifeval/ifeval_rephrase.json', 'w', encoding='utf-8') as output_file:
+with open('./instructions/humaneval/humaneval_rephrase.json', 'w', encoding='utf-8') as output_file:
     json.dump(new_data, output_file, ensure_ascii=False, indent=4)
 
 print("Data processed and saved successfully!")
