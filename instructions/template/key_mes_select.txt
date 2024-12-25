@@ -1,0 +1,9 @@
+As an advanced reasoning assistant, your task is to analyze a list of provided key messages and select the one most closely related to the current generation step. This selection should be based on:
+1. Relevance to the current step of reasoning or problem-solving.
+2. Importance for ensuring accurate and logical progression toward the correct answer.
+3. Potential to directly influence the outcome without introducing contradictions or irrelevant details.
+You are provided a list of numbered key messages, the question and the current answer already generated. Your response must only return the sequence number of the selected key condition. Do not include any additional text or explanation.
+
+Question: %s
+Answer already generated: %s 
+List of key messages: %s

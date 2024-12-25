@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES']='1'
+os.environ['CUDA_VISIBLE_DEVICES']='2'
 
 import re
 import time
@@ -61,15 +61,17 @@ def gen(args):
     tokenizer.pad_token_id = tokenizer.eos_token_id if tokenizer.pad_token_id is None else tokenizer.pad_token_id
     model.generation_config.pad_token_id = tokenizer.pad_token_id
     run_results = []
-    batch_size = 2
+    batch_size = 4
     test_data=[]
-    prompt="You're a mathematician who's good at reasoning. Answer the following questions using detailed reasoning steps, and you MUST write the answer as an integer after '####'.\nQuestion: {question}"
+    prompt='Given the following problem, reason and give a final answer to the problem.\nProblem:{}\nYour response should end with "The final answer is [answer]" where [answer] is the response to the problem.'
     
-    train_data=load_dataset("/data1/chh/datasets/openai/gsm8k",'main')
-    train_data=train_data['train'].to_pandas().to_dict(orient='records')[:5000]
+    # train_data=load_dataset("/data1/chh/datasets/openai/gsm8k",'main')
+    # train_data=train_data['train'].to_pandas().to_dict(orient='records')[:5000]
+    with open('/home/chh/repos/my_ctg/results/gsm8k_act/train_wrong.json','r',encoding='utf-8') as f:
+        train_data=json.load(f)
     for i in train_data:
-        # i['new_q']=prompt_template(tokenizer,prompt.format(question=i['question']))
-        i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
+        i['new_q']=prompt_template(tokenizer,prompt.format(i['question']))
+        # i['new_q']=nshot_chats(tokenizer,nshot_data=train_data, n=8, question=i['question'])
         
     inputs=[i['new_q'] for i in train_data]
     
@@ -79,7 +81,7 @@ def gen(args):
         input_ids = encodings['input_ids'][i:i+batch_size]
         attention_mask = encodings['attention_mask'][i:i+batch_size]
         outputs = model.generate(input_ids, attention_mask=attention_mask,
-                                 max_new_tokens=args.max_length,
+                                 max_new_tokens=512,
                                  return_dict_in_generate=True,
                                  output_hidden_states=True)
         
@@ -117,7 +119,18 @@ def extract_ans_from_response(answer: str, eos=None):
         return int(answer)
     except ValueError:
         return answer
-
+def extract_final_answer(text):
+    """
+    Extracts the numeric answer from the text that starts with 'The final answer is'.
+    :param text: Input text containing the calculation and final answer.
+    :return: The extracted numeric answer as a float or integer.
+    """
+    match = re.search(r'The final answer is[\s\$]*([\d.,]+)\.?', text)  # Added optional trailing period
+    if match:
+        # Clean the number (remove commas if any) and convert it to float or int
+        number = match.group(1).replace(',', '')
+        return number
+    return None  # Return None if no match found
 def eval_func(args):
     with open(args.eval_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -130,13 +143,15 @@ def eval_func(args):
         reference = record.get('generated_text', '')
 
         answer_number = extract_ans_from_response(answer)
-        reference_number = extract_ans_from_response(reference)
-
-        if answer_number == reference_number:
-            correct_count += 1
-            record['result']=1
+        reference_number = extract_final_answer(reference)
+        if reference_number:
+            if str(answer_number) == reference_number:
+                correct_count += 1
+                record['result']=1
+            else:
+                record['result']=0
         else:
-            record['result']=0
+            record['result']=9
 
     accuracy = correct_count / total_count * 100
     print(f"Acc: {accuracy:.2f}%")
@@ -211,9 +226,9 @@ def extract_hs(args):
     
     for item in data:
         if item['result']==1:
-            for i in range(0,train_data[item['id']].shape[0]):
-                sample_data = train_data[item['id']][i]
-                negative_samples.append((sample_data, 0))
+            # for i in range(0,train_data[item['id']].shape[0]):
+            #     sample_data = train_data[item['id']][i]
+            #     negative_samples.append((sample_data, 0))
             continue
         content=item['key']
         # json_start = content.find('{')
@@ -262,12 +277,13 @@ def extract_hs(args):
             #         negative_samples.append((sample_data, 0))
     positive_count = len(positive_samples)
     print(positive_count)
-    print(len(negative_samples))
-    if len(negative_samples) > positive_count:
-        negative_samples = random.sample(negative_samples, positive_count)
+    # print(len(negative_samples))
+    # if len(negative_samples) > positive_count:
+    #     negative_samples = random.sample(negative_samples, positive_count)
     
-    dataset = positive_samples + negative_samples
-    random.shuffle(dataset)
+    # dataset = positive_samples + negative_samples
+    # random.shuffle(dataset)
+    dataset = positive_samples
     
     inputs = [sample[0] for sample in dataset]
     labels = [sample[1] for sample in dataset]
@@ -277,7 +293,25 @@ def extract_hs(args):
     
     torch.save((inputs_tensor, labels_tensor), args.classifier_data)
         
+def extract_hs_correct(args):
+    train_data=torch.load(args.original_data)
+    negative_samples=[]
+    data_ids=[52, 136, 564, 612, 836, 900, 984, 1216, 1380, 1460, 1648, 1696, 1916, 2120, 2176, 2236, 2444, 2556, 2692, 3008, 3244, 3848, 4024, 4368, 4552, 4636, 4720, 4892, 5392, 5444, 5536, 5952, 5976, 6028, 6220, 6224, 6228, 6232, 6236, 6244, 6252, 4988, 6096, 181, 777, 849, 857, 977, 1417, 1661, 1973, 2193, 2277, 2337, 2349, 2481, 2645, 3293, 3337, 3345, 3437, 3537, 3645, 3841, 3853, 4025, 4337, 4473, 4569, 5073, 5089, 5233, 5313, 5405, 5633, 5809, 6077, 6197, 6221, 6225, 6229, 6233, 6237, 6241, 6245, 6, 174, 222, 250, 638, 1090, 1218, 1438, 1446, 1514, 1594, 1754, 1862, 1898, 1922, 2022, 2462, 2522, 2610, 2722, 2754, 2758, 2770, 3346, 3362, 3558, 3842, 3970, 4282, 4486, 4618, 5130, 5134, 5198, 5326, 5478, 5506, 5518, 5638, 5886, 6030, 6042, 6102, 6182, 6222, 6226, 6230, 6234, 6246, 6250, 207, 411, 559, 679, 967, 1035, 1103, 1335, 1959, 2175, 2211, 2271, 2399, 2427, 2459, 2519, 2615, 3067, 3079, 3155, 3211, 3499, 3735, 3759, 3779, 3847, 4159, 4355, 4395, 4543, 4823, 4831, 5187, 5411, 6003, 6159, 6179, 6219, 6223, 6227, 6231, 6235, 6239, 6247, 6251]
+    for item in data_ids:
+        
+        for i in range(0,train_data[item].shape[0]):
+            sample_data = train_data[item][i]
+            negative_samples.append((sample_data, 0))
 
+    print(len(negative_samples))
+    inputs = [sample[0] for sample in negative_samples]
+    labels = [sample[1] for sample in negative_samples]
+    
+    inputs_tensor = torch.stack(inputs)
+    labels_tensor = torch.tensor(labels)
+    
+    torch.save((inputs_tensor, labels_tensor), args.classifier_data)
+    
 def train_classifier_LR(args):
     data=torch.load(args.classifier_data)
     features, labels = data  
@@ -346,11 +380,11 @@ if __name__ == "__main__":
     parser.add_argument('--model_path', type=str, default='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--max_length', type=int, default=512)
-    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res2.json')
-    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res2.json')
-    parser.add_argument('--original_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/demo2.pt')
-    parser.add_argument('--classifier_data',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/train7.pt')
-    parser.add_argument('--classifier',type=str,default='/home/chh/repos/my_ctg/sft/classifier/gsm8k/logistic_regression_model5.pkl')
+    parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res_wrong.json')
+    parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res_wrong.json')
+    parser.add_argument('--original_data',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/demo_wrong.pt')
+    parser.add_argument('--classifier_data',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/train_stage1.pt')
+    parser.add_argument('--classifier',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/logistic_regression_model11.pkl')
     
     
     args = parser.parse_args()
@@ -360,6 +394,7 @@ if __name__ == "__main__":
     # eval_func(args)
     # comparison(args)
     extract_hs(args)
+    # extract_hs_correct(args)
     # train_classifier_LR(args)
     # train_classifier_mlp(args) 
     

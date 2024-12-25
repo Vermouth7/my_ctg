@@ -1,21 +1,31 @@
-As an expert in mathematical reasoning, your task is to analyze questions to identify the essential conditions that can improve the model's reasoning toward the correct answer. Extract the critical conditions embedded in the question that guide the reasoning process, and present them as two model-understandable instructions. I will provide the original question along with an example. Be mindful, these key conditions should not introduce additional information or instructions beyond what the question implies. And the extracted conditions must not contradict any information given in the question.
+As an expert in mathematical reasoning, your task is to analyze questions and identify the essential points that guide the model's reasoning toward the correct answer. Extract the critical insights embedded in the question and rewrite them as concise, model-understandable instructions. Present the extracted instructions explicitly in a list format [ ]. Each item in the list should represent a distinct reasoning step or critical piece of information derived directly from the question.
 
-Respond in plain text JSON format, with each "key" representing an instruction number, and each "value" detailing the corresponding key insights. Your response must contain exactly two instructions.
+Requirements:
+1. Ensure each item is presented in list format [ ].
+2. Do not introduce new information beyond what is implied in the question.
+3. Ensure all extracted instructions align with and do not contradict the question's content.
 
-Here are two examples:
+Example 1:
+Question: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?
+Instructions:
+[
+"1. Natalia sold 48 clips in April.",
+"2. Natalia sold half as many clips in May as she did in April.",
+"3. Calculate the total by summing the number of clips sold in April and May."
+]
 
-Question: How many positive integers $n$ less than 100 have a corresponding integer $m$ divisible by 3 such that the roots of $x^2-nx+m=0$ are consecutive positive integers?
-Instructions:  {
-  "instruction 1": "The roots of the quadratic equation must be consecutive positive integers, meaning they differ by exactly 1.",
-  "instruction 2": "The discriminant of the quadratic equation must be a perfect square for the roots to be integers."
-}
+Example 2:
+Question: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?
+Instructions:
+[
+"1. Weng earns $12 per hour for babysitting.",
+"2. Weng babysat for 50 minutes yesterday.",
+"3. Convert 50 minutes to a fraction of an hour for calculation.",
+"4. Multiply the hourly rate by the fraction of an hour to find the earnings."
+]
 
-Question: If $f(x)=ax+b$ and $f^{-1}(x)=bx+a$ with $a$ and $b$ real, what is the value of $a+b$?
-Instructions: {
-  "instruction 1": "The function and its inverse must satisfy the relationship $f(f^{-1}(x)) = x$ for all $x$.",
-  "instruction 2": "The coefficients $a$ and $b$ must satisfy the conditions that allow both $f(x)$ and $f^{-1}(x)$ to be valid linear functions, meaning the determinant formed by $a$ and $b$ must not be zero."
-}
+Your task:
 
-Based on the above description and examples, please analyze the key messages of the following questions.
+Analyze the key messages of the following question and rewrite the instructions in the same list format:
 Question: %s
-Instructions: 
+Instructions:

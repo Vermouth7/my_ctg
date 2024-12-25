@@ -288,18 +288,6 @@ def extract_hs(args):
                     positive_samples.append((sample_data, 1))
                 matched_positions.append((start, end))
             
-            # current_pos = 0
-            # for start, end in matched_positions:
-            #     if current_pos < start:
-            #         for i in range(current_pos, start):
-            #             sample_data = train_data[item['id']][i]
-            #             negative_samples.append((sample_data, 0))
-            #     current_pos = end
-                
-            # if current_pos < train_data[item['id']].shape[0]:
-            #     for i in range(current_pos, train_data[item['id']].shape[0]):
-            #         sample_data = train_data[item['id']][i]
-            #         negative_samples.append((sample_data, 0))
     positive_count = len(positive_samples)
     print(positive_count)
     print(len(negative_samples))
@@ -328,18 +316,53 @@ def sliding_window_mean(features, window_size=3):
 
 def train_classifier_LR(args):
     data=torch.load(args.classifier_data)
-    data_stage1=torch.load('/data1/chh/my_ctg/classifier/gsm8k/train7.pt')
+    # data_stage1=torch.load('/data1/chh/my_ctg/classifier/gsm8k/train7.pt')
+    neg_data=torch.load('/data1/chh/my_ctg/classifier/gsm8k/train_neg.pt')
+    
     features1, labels1 = data
-    features2, labels2 = data_stage1
+    # features2, labels2 = data_stage1
+    neg_features, neg_labels = neg_data
 
-    features_combined = torch.cat((features1, features2), dim=0)
-    labels_combined = torch.cat((labels1, labels2), dim=0)
+
+    # features_combined = torch.cat((features1, features2), dim=0)
+    # labels_combined = torch.cat((labels1, labels2), dim=0)
+
     
+    # non_zero_indices = labels_combined != 0
+    # features_combined = features_combined[non_zero_indices]
+    # labels_combined = labels_combined[non_zero_indices]
+
+    
+    # label_1_count = (labels_combined == 1).sum()
+
+    
+    # num_new_neg = int(label_1_count * 0.5)
+
+    
+    # assert num_new_neg <= len(neg_features), "neg_data 的数据不足以满足需要"
+
+    
+    # new_neg_features = neg_features[:num_new_neg]
+    # new_neg_labels = neg_labels[:num_new_neg]
+    label_1_count = (labels1 == 1).sum().item()
+
+    # 确定负样本需要的数量
+    num_new_neg = label_1_count
+
+    # 如果负样本数量不足，抛出错误；否则裁剪负样本
+    assert num_new_neg <= len(neg_features), "neg_data 的数据不足以满足需要"
+    new_neg_features = neg_features[:num_new_neg]
+    new_neg_labels = neg_labels[:num_new_neg]
+    features_combined = torch.cat((features1, new_neg_features), dim=0)
+    labels_combined = torch.cat((labels1, new_neg_labels), dim=0)
     features_combined = features_combined.to(torch.float32).cpu().numpy()  # (num_samples, 4096)
-    labels_combined = labels_combined.cpu().numpy()      # (num_samples,)
-    
-    features_combined = sliding_window_mean(features_combined, window_size=3)
-    labels_combined = labels_combined[2:]
+    labels_combined = labels_combined.cpu().numpy()     
+    # 打印结果统计
+    print(f"最终标签为 0 的数据数量: {(labels_combined == 0).sum()}")
+    print(f"最终标签为 1 的数据数量: {(labels_combined == 1).sum()}")
+
+    # features_combined = sliding_window_mean(features_combined, window_size=3)
+    # labels_combined = labels_combined[2:]
     
     X_train, X_test, y_train, y_test = train_test_split(features_combined, labels_combined, test_size=0.2, random_state=42)
 
@@ -434,8 +457,8 @@ if __name__ == "__main__":
     parser.add_argument('--eval_file',type=str,default='./results/gsm8k_act/res2_stage2.json')
     parser.add_argument('--output_folder', type=str, default='./results/gsm8k_act/res2_stage2.json')
     parser.add_argument('--original_data',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/demo2_stage2.pt')
-    parser.add_argument('--classifier_data',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/train6.pt')
-    parser.add_argument('--classifier',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/logistic_regression_model7.pkl')
+    parser.add_argument('--classifier_data',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/train_stage1.pt')
+    parser.add_argument('--classifier',type=str,default='/data1/chh/my_ctg/classifier/gsm8k/logistic_regression_model10.pkl')
     
     
     args = parser.parse_args()

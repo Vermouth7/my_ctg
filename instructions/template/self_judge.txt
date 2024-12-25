@@ -1,19 +1,35 @@
 You're a mathematician skilled in reasoning. In the process of solving mathematical problems, certain key steps determine whether the final answer is correct or incorrect. Your task is to assess whether the currently generated sequence marks an important key step, based on the given question and the correct answer. I will provide the question and already generated answer, and your role is to make a judgment.
 
-Your output must strictly be either 1 or 0:
-1: The current sequence marks an important key step.
-0: The current sequence does not mark an important key step.
-Below are two examples for clarity:
+Your output must strictly be either Yes or No:
+Yes: The current sequence marks an important key step.
+No: The current sequence does not mark an important key step.
 
-Example 1:
+Below are a few examples of typical key step scenarios for your reference, but your decision-making scope includes more than just these.
+
+Scenarios 1, a calculation process is involved:
 Question: James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?
 Answer already generated: Let's break this down step by step!\n\n1. James writes a 3-page letter to 2 different friends twice a week.\n2. This means he writes a total of
-Judgment: 1
+Judgment: Yes
 
-Example 2:
+Scenarios 2, misunderstanding the proportional relationship.:
+Question: If Pam is currently twice as young as Rena is, and in 10 years Rena will be 5 years older than her, how old is Pam now?
+Answer already generated: Let's break this down step by step!\n\nLet Pam's current age be P and Rena's current age be R.
+Judgment: Yes
+
+Scenarios 3, ignoring the initial progress:
+Question: Chris wants to hold his breath underwater for 90 straight seconds so he starts training each day. On the first day, he holds it for 10 seconds. On the second day, he holds it for 20 seconds. On the third day, he holds it for 30 seconds. After realizing that he can hold it for ten extra seconds each day, he realizes he can calculate how many days it is until he reaches 90 if he keeps up the same pace. So how many days until he can hold his breath for 90 seconds?
+Answer already generated: Let's analyze Chris's progress:\n\nDay 1: 10 seconds\nDay 2: 10 + 10 = 20 seconds\nDay 3: 20 + 10 = 30 seconds\n\nChris is increasing his holding time by 10 seconds each day. To find out how many days it will take him to reach 90 seconds, we can set up an equation:\n\nInitial value + (Number of days x Increase per day) = Target value\n10 + (x x 10) = 90
+Judgment: Yes
+
+Scenarios 4, validate the final result with the problem's context:
+Question: Mary just arrived at the beach. She has 4 times as many towels as Frances does. The total weight of their towels is 60 pounds. If Mary has 24 towels, how much do Frances's towels weigh in ounces?
+Answer already generated: "Let's start by using the information that Mary has 4 times as many towels as Frances. If Mary has 24 towels, then Frances has 24/4 = 6 towels.\n\nThe total weight of their towels is 60 pounds, and Mary has 24 towels. So, the weight of Mary's towels is:\n\n24 towels x (weight per towel) = 60 pounds\n\nTo find the weight per towel, we can divide both sides by 24:\n\n(weight per towel) = 60 pounds / 24 = 2.5
+Judgment: Yes
+
+Scenarios 5, correct reasoning process:
 Question: Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?
 Answer already generated: Let's break this problem down step by step!\n\n1. Julie read 12 pages yesterday, and today she read twice as many pages as yesterday, which means she read 2 x 12 = 24 pages today.
-Judgment: 0
+Judgment: No
 
 Now, based on the instructions and examples above, please make a judgment for the following content.
 Question: %s

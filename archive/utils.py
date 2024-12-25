@@ -1692,6 +1692,7 @@ class GenerationMixin:
         constraints=None,
         my_model=None,
         my_tokenizer=None,
+        questions=None,
         **kwargs,
     ) -> Union[GenerateOutput, torch.LongTensor]:
         r"""
@@ -2130,6 +2131,48 @@ class GenerationMixin:
                     streamer=streamer,
                     tokenizer=my_tokenizer,
                     my_model=my_model,
+                    **model_kwargs,
+                )
+            elif mode==9:
+                result = self.my_sample_prompt_edit(
+                    input_ids,
+                    logits_processor=prepared_logits_processor,
+                    stopping_criteria=prepared_stopping_criteria,
+                    generation_config=generation_config,
+                    synced_gpus=synced_gpus,
+                    streamer=streamer,
+                    discriminator=discriminator,
+                    tokenizer=my_tokenizer,
+                    my_model=my_model,
+                    question=questions,
+                    **model_kwargs,
+                )
+            elif mode==10:
+                result = self.my_sample_key_mes(
+                    input_ids,
+                    logits_processor=prepared_logits_processor,
+                    stopping_criteria=prepared_stopping_criteria,
+                    generation_config=generation_config,
+                    synced_gpus=synced_gpus,
+                    streamer=streamer,
+                    discriminator=discriminator,
+                    tokenizer=my_tokenizer,
+                    my_model=my_model,
+                    question=questions,
+                    **model_kwargs,
+                )
+            elif mode==11:
+                result = self.my_sample_key_mes_2(
+                    input_ids,
+                    logits_processor=prepared_logits_processor,
+                    stopping_criteria=prepared_stopping_criteria,
+                    generation_config=generation_config,
+                    synced_gpus=synced_gpus,
+                    streamer=streamer,
+                    discriminator=discriminator,
+                    tokenizer=my_tokenizer,
+                    my_model=my_model,
+                    question=questions,
                     **model_kwargs,
                 )
         elif generation_mode in (GenerationMode.BEAM_SAMPLE, GenerationMode.BEAM_SEARCH):
@@ -3232,19 +3275,23 @@ class GenerationMixin:
             return None
         def chat_gpt(text):
             from openai import OpenAI
+            
             openai_api_key = "ak-Lfu504S5OrzjNvivYYdY6E8xvn1hiTY42texx7WvTIojB9MC"
             openai_api_base = "https://api.nextapi.fun"
-
-            client = OpenAI(base_url=openai_api_base,api_key=openai_api_key)
-            response = client.chat.completions.create(
-                model='gpt-4o-mini',
-                messages=[{
-                    'role': 'user',
-                    'content': text,
-                }],
-            )
-            content = response.choices[0].message.content
-            return content
+            try:
+                client = OpenAI(base_url=openai_api_base,api_key=openai_api_key)
+                response = client.chat.completions.create(
+                    model='gpt-4o-mini',
+                    messages=[{
+                        'role': 'user',
+                        'content': text,
+                    }],
+                )
+                content = response.choices[0].message.content
+                return content
+            except Exception as e:
+                print(e)
+                return '0'
         # init values
         pad_token_id = generation_config._pad_token_tensor
         output_attentions = generation_config.output_attentions
@@ -3288,7 +3335,7 @@ class GenerationMixin:
             model_inputs.update({"output_hidden_states": output_hidden_states} if output_hidden_states else {})
             with open('/home/chh/repos/my_ctg/instructions/template/upper_bound.txt','r',encoding='utf-8') as f:
                 template=f.read()
-            with open('/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_llama_5.json','r',encoding='utf-8') as f:
+            with open('/home/chh/repos/my_ctg/instructions/gsm8k/upperbound.json','r',encoding='utf-8') as f:
                 split_file=json.load(f)
             # forward pass to get next token
             outputs = self(**model_inputs,edit=False,return_dict=True)
@@ -3297,6 +3344,7 @@ class GenerationMixin:
                 decoded_text = tokenizer.decode(input_ids[0][original_len:], skip_special_tokens=True)
                 question=tokenizer.decode(input_ids[0][:original_len], skip_special_tokens=True)
                 question=extract_problem(question)
+                answer=""
                 for i in split_file:
                     if i['question']==question:
                         answer=i['answer']
@@ -3567,6 +3615,694 @@ class GenerationMixin:
         else:
             return input_ids
     
+    def my_sample_prompt_edit(
+        self,
+        input_ids: torch.LongTensor,
+        logits_processor: LogitsProcessorList,
+        stopping_criteria: StoppingCriteriaList,
+        generation_config: GenerationConfig,
+        synced_gpus: bool,
+        streamer: Optional["BaseStreamer"],
+        discriminator,
+        tokenizer,
+        my_model,
+        question,
+        **model_kwargs,
+    ) -> Union[GenerateNonBeamOutput, torch.LongTensor]:
+        # init values
+        def extract_problem(text):
+            
+            match = re.search(r"Problem:(.*?)(?=Your response)", text, re.DOTALL)
+            if match:
+                problem = match.group(1).strip()  
+                return problem
+            return None
+        pad_token_id = generation_config._pad_token_tensor
+        output_attentions = generation_config.output_attentions
+        output_hidden_states = generation_config.output_hidden_states
+        output_scores = generation_config.output_scores
+        output_logits = generation_config.output_logits
+        return_dict_in_generate = generation_config.return_dict_in_generate
+        max_length = generation_config.max_length
+        has_eos_stopping_criteria = any(hasattr(criteria, "eos_token_id") for criteria in stopping_criteria)
+        do_sample = generation_config.do_sample
+
+        # init attention / hidden states / scores tuples
+        scores = () if (return_dict_in_generate and output_scores) else None
+        raw_logits = () if (return_dict_in_generate and output_logits) else None
+        decoder_attentions = () if (return_dict_in_generate and output_attentions) else None
+        cross_attentions = () if (return_dict_in_generate and output_attentions) else None
+        decoder_hidden_states = () if (return_dict_in_generate and output_hidden_states) else None
+
+        # if model is an encoder-decoder, retrieve encoder attention weights and hidden states
+        if return_dict_in_generate and self.config.is_encoder_decoder:
+            encoder_attentions = model_kwargs["encoder_outputs"].get("attentions") if output_attentions else None
+            encoder_hidden_states = (
+                model_kwargs["encoder_outputs"].get("hidden_states") if output_hidden_states else None
+            )
+
+        # keep track of which sequences are already finished
+        batch_size, cur_len = input_ids.shape
+        _, original_len = input_ids.shape
+        this_peer_finished = False
+        unfinished_sequences = torch.ones(batch_size, dtype=torch.long, device=input_ids.device)
+        model_kwargs = self._get_initial_cache_position(input_ids, model_kwargs)
+        with open('/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_2steps_llama_5.json','r',encoding='utf-8') as f:
+            split_file=json.load(f)
+        while self._has_unfinished_sequences(
+            this_peer_finished, synced_gpus, device=input_ids.device, cur_len=cur_len, max_length=max_length
+        ):
+            # prepare model inputs
+            model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs)
+
+            # prepare variable output controls (note: some models won't accept all output controls)
+            model_inputs.update({"output_attentions": output_attentions} if output_attentions else {})
+            model_inputs.update({"output_hidden_states": output_hidden_states} if output_hidden_states else {})
+
+            # forward pass to get next token
+            outputs = self(**model_inputs,edit=False,return_dict=True)
+            last_token=outputs.hidden_states[-1][:,-1].to(torch.float32).cpu().numpy()
+            classifier=joblib.load(discriminator)
+            pred=classifier.predict(last_token)
+            # print(pred)
+            if pred.any():
+                template='Given the following problem, reason and give a final answer to the problem.\nProblem:{}\nPlease note that you may need to use the following two key messages during the generation process: 1.{}\n2.{}\nYour response should end with "The final answer is [answer]" where [answer] is the response to the problem.'
+                
+                for i in split_file:
+                    if i['question']==question:
+                        prompt=template.format(question,i['instruction 1'],i['instruction 2'])
+                
+                messages = [{"role": "user", "content": prompt}]
+                new_input=tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=True,
+                    add_generation_prompt=True,
+                    return_tensors="pt"
+                ).to(my_model.model.device)
+                new_input = torch.cat([new_input[0], input_ids[0][original_len:]], dim=-1)
+                new_input = new_input.unsqueeze(0)
+                model_inputs = self.prepare_inputs_for_generation(new_input, **model_kwargs)
+                model_inputs['past_key_values']=None
+                model_inputs['attention_mask']=None
+                model_inputs['position_ids']=None
+                model_inputs['cache_position']=None
+                edited_outputs = self(**model_inputs,edit=False,return_dict=True)
+                outputs=edited_outputs
+                
+            
+            if synced_gpus and this_peer_finished:
+                continue  # don't waste resources running the code we don't need
+
+            # Clone is needed to avoid keeping a hanging ref to outputs.logits which may be very large for first iteration
+            # (the clone itself is always small)
+            next_token_logits = outputs.logits.clone()[:, -1, :].float()
+
+            # pre-process distribution
+            next_token_scores = logits_processor(input_ids, next_token_logits)
+
+            # Store scores, attentions and hidden_states when required
+            if return_dict_in_generate:
+                if output_scores:
+                    scores += (next_token_scores,)
+                if output_logits:
+                    raw_logits += (next_token_logits,)
+                if output_attentions:
+                    decoder_attentions += (
+                        (outputs.decoder_attentions,) if self.config.is_encoder_decoder else (outputs.attentions,)
+                    )
+                    if self.config.is_encoder_decoder:
+                        cross_attentions += (outputs.cross_attentions,)
+
+                if output_hidden_states:
+                    decoder_hidden_states += (
+                        (outputs.decoder_hidden_states,)
+                        if self.config.is_encoder_decoder
+                        else (outputs.hidden_states,)
+                    )
+
+            # token selection
+            if do_sample:
+                probs = nn.functional.softmax(next_token_scores, dim=-1)
+                # TODO (joao): this OP throws "skipping cudagraphs due to ['incompatible ops']", find solution
+                next_tokens = torch.multinomial(probs, num_samples=1).squeeze(1)
+            else:
+                next_tokens = torch.argmax(next_token_scores, dim=-1)
+
+            # finished sentences should have their next token be a padding token
+            if has_eos_stopping_criteria:
+                next_tokens = next_tokens * unfinished_sequences + pad_token_id * (1 - unfinished_sequences)
+
+            # update generated ids, model inputs, and length for next step
+            input_ids = torch.cat([input_ids, next_tokens[:, None]], dim=-1)
+            if streamer is not None:
+                streamer.put(next_tokens.cpu())
+            model_kwargs = self._update_model_kwargs_for_generation(
+                outputs,
+                model_kwargs,
+                is_encoder_decoder=self.config.is_encoder_decoder,
+            )
+
+            unfinished_sequences = unfinished_sequences & ~stopping_criteria(input_ids, scores)
+            this_peer_finished = unfinished_sequences.max() == 0
+            cur_len += 1
+
+            # This is needed to properly delete outputs.logits which may be very large for first iteration
+            # Otherwise a reference to outputs is kept which keeps the logits alive in the next iteration
+            del outputs
+
+        if streamer is not None:
+            streamer.end()
+
+        if return_dict_in_generate:
+            if self.config.is_encoder_decoder:
+                return GenerateEncoderDecoderOutput(
+                    sequences=input_ids,
+                    scores=scores,
+                    logits=raw_logits,
+                    encoder_attentions=encoder_attentions,
+                    encoder_hidden_states=encoder_hidden_states,
+                    decoder_attentions=decoder_attentions,
+                    cross_attentions=cross_attentions,
+                    decoder_hidden_states=decoder_hidden_states,
+                    past_key_values=model_kwargs.get("past_key_values"),
+                )
+            else:
+                return GenerateDecoderOnlyOutput(
+                    sequences=input_ids,
+                    scores=scores,
+                    logits=raw_logits,
+                    attentions=decoder_attentions,
+                    hidden_states=decoder_hidden_states,
+                    past_key_values=model_kwargs.get("past_key_values"),
+                )
+        else:
+            return input_ids
+    
+    def my_sample_key_mes(
+        self,
+        input_ids: torch.LongTensor,
+        logits_processor: LogitsProcessorList,
+        stopping_criteria: StoppingCriteriaList,
+        generation_config: GenerationConfig,
+        synced_gpus: bool,
+        streamer: Optional["BaseStreamer"],
+        discriminator,
+        tokenizer,
+        my_model,
+        question,
+        **model_kwargs,
+    ) -> Union[GenerateNonBeamOutput, torch.LongTensor]:
+        # init values
+        def extract_bracket_content(text):
+            pattern = r'\[([^\[\]]*)\]'  
+            matches = re.findall(pattern, text)
+            return matches
+        pad_token_id = generation_config._pad_token_tensor
+        output_attentions = generation_config.output_attentions
+        output_hidden_states = generation_config.output_hidden_states
+        output_scores = generation_config.output_scores
+        output_logits = generation_config.output_logits
+        return_dict_in_generate = generation_config.return_dict_in_generate
+        max_length = generation_config.max_length
+        has_eos_stopping_criteria = any(hasattr(criteria, "eos_token_id") for criteria in stopping_criteria)
+        do_sample = generation_config.do_sample
+
+        # init attention / hidden states / scores tuples
+        scores = () if (return_dict_in_generate and output_scores) else None
+        raw_logits = () if (return_dict_in_generate and output_logits) else None
+        decoder_attentions = () if (return_dict_in_generate and output_attentions) else None
+        cross_attentions = () if (return_dict_in_generate and output_attentions) else None
+        decoder_hidden_states = () if (return_dict_in_generate and output_hidden_states) else None
+
+        # if model is an encoder-decoder, retrieve encoder attention weights and hidden states
+        if return_dict_in_generate and self.config.is_encoder_decoder:
+            encoder_attentions = model_kwargs["encoder_outputs"].get("attentions") if output_attentions else None
+            encoder_hidden_states = (
+                model_kwargs["encoder_outputs"].get("hidden_states") if output_hidden_states else None
+            )
+
+        # keep track of which sequences are already finished
+        batch_size, cur_len = input_ids.shape
+        _, original_len = input_ids.shape
+        this_peer_finished = False
+        unfinished_sequences = torch.ones(batch_size, dtype=torch.long, device=input_ids.device)
+        model_kwargs = self._get_initial_cache_position(input_ids, model_kwargs)
+        with open('/home/chh/repos/my_ctg/instructions/math/math_message_4.json','r',encoding='utf-8') as f:
+            split_file=json.load(f)
+        key_mes=[]
+        # for i in split_file:
+        #     if i['question']==question:
+        #         key_mes=i['list']
+        # for i in split_file:
+        #     if i['question']==question:
+        #         for k,v in i.items():
+        #             if k!= 'question' and k!='answer':
+        #                 key_mes.append(v)
+        for i in split_file:
+            if i['problem'] in question:
+                key_mes=i['list']
+        count=0
+        while self._has_unfinished_sequences(
+            this_peer_finished, synced_gpus, device=input_ids.device, cur_len=cur_len, max_length=max_length
+        ):
+            # prepare model inputs
+            model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs)
+
+            # prepare variable output controls (note: some models won't accept all output controls)
+            model_inputs.update({"output_attentions": output_attentions} if output_attentions else {})
+            model_inputs.update({"output_hidden_states": output_hidden_states} if output_hidden_states else {})
+
+            # forward pass to get next token
+            
+            # print(pred)
+            # if count==10:
+            #     with open('/home/chh/repos/my_ctg/instructions/template/key_mes_gen.txt','r',encoding='utf-8') as f:
+            #         template_gen=f.read()
+            #     decoded_text = tokenizer.decode(input_ids[0][original_len:], skip_special_tokens=True)
+                
+            #     prompt=template_gen%(question,decoded_text)
+                
+            #     messages = [{"role": "user", "content": prompt}]
+            #     new_mes=tokenizer.apply_chat_template(
+            #         messages,
+            #         tokenize=True,
+            #         add_generation_prompt=True,
+            #         return_tensors="pt"
+            #     ).to(my_model.model.device)
+            #     output_ids = my_model.generate(
+            #         input_ids=new_mes,
+            #         max_new_tokens=50
+            #     )
+            #     new_mes_gen = tokenizer.decode(output_ids[0][new_mes.shape[-1]:], skip_special_tokens=True)
+            #     pattern = r"\[(.*?)\]"
+            #     match = re.search(pattern, new_mes_gen)
+
+            #     if match:
+            #         new_mes_gen=match.group(1)
+            #         if len(new_mes_gen)>2 and new_mes_gen not in key_mes:
+            #             key_mes.append(str(len(key_mes)+1)+'. '+new_mes_gen)
+            #     count=0
+            if input_ids[0][original_len:].numel()!=0:
+                with open('/home/chh/repos/my_ctg/instructions/template/key_mes_select.txt','r',encoding='utf-8') as f:
+                    template_select=f.read()
+                decoded_text = tokenizer.decode(input_ids[0][original_len:], skip_special_tokens=True)
+                if decoded_text[-1]=='.':
+                    with open('/home/chh/repos/my_ctg/instructions/template/key_mes_gen.txt','r',encoding='utf-8') as f:
+                        template_gen=f.read()
+                    
+                    prompt=template_gen%(question,decoded_text)
+                    
+                    messages = [{"role": "user", "content": prompt}]
+                    new_mes=tokenizer.apply_chat_template(
+                        messages,
+                        tokenize=True,
+                        add_generation_prompt=True,
+                        return_tensors="pt"
+                    ).to(my_model.model.device)
+                    output_ids = my_model.generate(
+                        input_ids=new_mes,
+                        max_new_tokens=50
+                    )
+                    new_mes_gen = tokenizer.decode(output_ids[0][new_mes.shape[-1]:], skip_special_tokens=True)
+                    pattern = r"\[(.*?)\]"
+                    match = re.search(pattern, new_mes_gen)
+
+                    if match:
+                        new_mes_gen=match.group(1)
+                        if len(new_mes_gen)>2 and new_mes_gen not in key_mes:
+                            key_mes.append(str(len(key_mes)+1)+'. '+new_mes_gen)
+                prompt_select=template_select%(question,decoded_text, "\n".join(key_mes))
+                
+                messages = [{"role": "user", "content": prompt_select}]
+                judge_ids=tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=True,
+                    add_generation_prompt=True,
+                    return_tensors="pt"
+                ).to(my_model.model.device)
+                output_ids = my_model.generate(
+                    input_ids=judge_ids,
+                    max_new_tokens=1
+                )
+                generated_text = tokenizer.decode(output_ids[0][judge_ids.shape[-1]:], skip_special_tokens=True)
+                # print(generated_text)
+                try:
+                    mes_index = int(generated_text[0]) - 1
+                except (ValueError, IndexError):
+                    mes_index = 0
+                # if len(key_mes)==0:
+                #     print(question)
+                if len(key_mes)==0:
+                    selection='None'
+                elif mes_index>=0 and mes_index<len(key_mes):
+                    selection=key_mes[mes_index]
+                else:
+                    selection=key_mes[0]
+                # template='Given the following problem, reason and give a final answer to the problem.\nProblem:{}\nPlease note that you may need to use the following key message during the generation process: {}\nYour response should end with "The final answer is [answer]" where [answer] is the response to the problem.'
+                template="Solve the following math problem efficiently and clearly:\n\n- For simple problems (2 steps or fewer):\nProvide a concise solution with minimal explanation.\n\n- For complex problems (3 steps or more):\nUse this step-by-step format:\n\n## Step 1: [Concise description]\n[Brief explanation and calculations]\n\n## Step 2: [Concise description]\n[Brief explanation and calculations]\n\n...\n\nRegardless of the approach, always conclude with:\n\nTherefore, the final answer is: $\\boxed{{answer}}$. I hope it is correct.\n\nWhere [answer] is just the final number or expression that solves the problem.\n\nProblem:{}\nPlease note that you may need to use the following key message during the generation process: {}\n"
+                prompt=template.format(question,selection)
+                
+                messages = [{"role": "user", "content": prompt}]
+                new_input=tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=True,
+                    add_generation_prompt=True,
+                    return_tensors="pt"
+                ).to(my_model.model.device)
+                new_input = torch.cat([new_input[0], input_ids[0][original_len:]], dim=-1)
+                new_input = new_input.unsqueeze(0)
+                model_inputs = self.prepare_inputs_for_generation(new_input, **model_kwargs)
+                model_inputs['past_key_values']=None
+                model_inputs['attention_mask']=None
+                model_inputs['position_ids']=None
+                model_inputs['cache_position']=None
+                outputs = self(**model_inputs,edit=False,return_dict=True)
+                count+=1
+            else:
+                outputs = self(**model_inputs,edit=False,return_dict=True)
+                count+=1
+            
+            if synced_gpus and this_peer_finished:
+                continue  # don't waste resources running the code we don't need
+
+            # Clone is needed to avoid keeping a hanging ref to outputs.logits which may be very large for first iteration
+            # (the clone itself is always small)
+            next_token_logits = outputs.logits.clone()[:, -1, :].float()
+
+            # pre-process distribution
+            next_token_scores = logits_processor(input_ids, next_token_logits)
+
+            # Store scores, attentions and hidden_states when required
+            if return_dict_in_generate:
+                if output_scores:
+                    scores += (next_token_scores,)
+                if output_logits:
+                    raw_logits += (next_token_logits,)
+                if output_attentions:
+                    decoder_attentions += (
+                        (outputs.decoder_attentions,) if self.config.is_encoder_decoder else (outputs.attentions,)
+                    )
+                    if self.config.is_encoder_decoder:
+                        cross_attentions += (outputs.cross_attentions,)
+
+                if output_hidden_states:
+                    decoder_hidden_states += (
+                        (outputs.decoder_hidden_states,)
+                        if self.config.is_encoder_decoder
+                        else (outputs.hidden_states,)
+                    )
+
+            # token selection
+            if do_sample:
+                probs = nn.functional.softmax(next_token_scores, dim=-1)
+                # TODO (joao): this OP throws "skipping cudagraphs due to ['incompatible ops']", find solution
+                next_tokens = torch.multinomial(probs, num_samples=1).squeeze(1)
+            else:
+                next_tokens = torch.argmax(next_token_scores, dim=-1)
+
+            # finished sentences should have their next token be a padding token
+            if has_eos_stopping_criteria:
+                next_tokens = next_tokens * unfinished_sequences + pad_token_id * (1 - unfinished_sequences)
+
+            # update generated ids, model inputs, and length for next step
+            input_ids = torch.cat([input_ids, next_tokens[:, None]], dim=-1)
+            if streamer is not None:
+                streamer.put(next_tokens.cpu())
+            model_kwargs = self._update_model_kwargs_for_generation(
+                outputs,
+                model_kwargs,
+                is_encoder_decoder=self.config.is_encoder_decoder,
+            )
+
+            unfinished_sequences = unfinished_sequences & ~stopping_criteria(input_ids, scores)
+            this_peer_finished = unfinished_sequences.max() == 0
+            cur_len += 1
+
+            # This is needed to properly delete outputs.logits which may be very large for first iteration
+            # Otherwise a reference to outputs is kept which keeps the logits alive in the next iteration
+            del outputs
+
+        if streamer is not None:
+            streamer.end()
+
+        if return_dict_in_generate:
+            if self.config.is_encoder_decoder:
+                return GenerateEncoderDecoderOutput(
+                    sequences=input_ids,
+                    scores=scores,
+                    logits=raw_logits,
+                    encoder_attentions=encoder_attentions,
+                    encoder_hidden_states=encoder_hidden_states,
+                    decoder_attentions=decoder_attentions,
+                    cross_attentions=cross_attentions,
+                    decoder_hidden_states=decoder_hidden_states,
+                    past_key_values=model_kwargs.get("past_key_values"),
+                )
+            else:
+                return GenerateDecoderOnlyOutput(
+                    sequences=input_ids,
+                    scores=scores,
+                    logits=raw_logits,
+                    attentions=decoder_attentions,
+                    hidden_states=decoder_hidden_states,
+                    past_key_values=model_kwargs.get("past_key_values"),
+                )
+        else:
+            return input_ids
+    
+    def my_sample_key_mes_2(
+        self,
+        input_ids: torch.LongTensor,
+        logits_processor: LogitsProcessorList,
+        stopping_criteria: StoppingCriteriaList,
+        generation_config: GenerationConfig,
+        synced_gpus: bool,
+        streamer: Optional["BaseStreamer"],
+        discriminator,
+        tokenizer,
+        my_model,
+        question,
+        **model_kwargs,
+    ) -> Union[GenerateNonBeamOutput, torch.LongTensor]:
+        # init values
+        def extract_bracket_content(text):
+            pattern = r'\[([^\[\]]*)\]'  
+            matches = re.findall(pattern, text)
+            return matches
+        pad_token_id = generation_config._pad_token_tensor
+        output_attentions = generation_config.output_attentions
+        output_hidden_states = generation_config.output_hidden_states
+        output_scores = generation_config.output_scores
+        output_logits = generation_config.output_logits
+        return_dict_in_generate = generation_config.return_dict_in_generate
+        max_length = generation_config.max_length
+        has_eos_stopping_criteria = any(hasattr(criteria, "eos_token_id") for criteria in stopping_criteria)
+        do_sample = generation_config.do_sample
+
+        # init attention / hidden states / scores tuples
+        scores = () if (return_dict_in_generate and output_scores) else None
+        raw_logits = () if (return_dict_in_generate and output_logits) else None
+        decoder_attentions = () if (return_dict_in_generate and output_attentions) else None
+        cross_attentions = () if (return_dict_in_generate and output_attentions) else None
+        decoder_hidden_states = () if (return_dict_in_generate and output_hidden_states) else None
+
+        # if model is an encoder-decoder, retrieve encoder attention weights and hidden states
+        if return_dict_in_generate and self.config.is_encoder_decoder:
+            encoder_attentions = model_kwargs["encoder_outputs"].get("attentions") if output_attentions else None
+            encoder_hidden_states = (
+                model_kwargs["encoder_outputs"].get("hidden_states") if output_hidden_states else None
+            )
+
+        # keep track of which sequences are already finished
+        batch_size, cur_len = input_ids.shape
+        _, original_len = input_ids.shape
+        this_peer_finished = False
+        unfinished_sequences = torch.ones(batch_size, dtype=torch.long, device=input_ids.device)
+        model_kwargs = self._get_initial_cache_position(input_ids, model_kwargs)
+        with open('/home/chh/repos/my_ctg/instructions/gsm8k/gsm8k_message.json','r',encoding='utf-8') as f:
+            split_file=json.load(f)
+        key_mes=[]
+        # for i in split_file:
+        #     if i['question']==question:
+        #         key_mes=i['list']
+        
+        count=0
+        while self._has_unfinished_sequences(
+            this_peer_finished, synced_gpus, device=input_ids.device, cur_len=cur_len, max_length=max_length
+        ):
+            # prepare model inputs
+            model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs)
+
+            # prepare variable output controls (note: some models won't accept all output controls)
+            model_inputs.update({"output_attentions": output_attentions} if output_attentions else {})
+            model_inputs.update({"output_hidden_states": output_hidden_states} if output_hidden_states else {})
+
+            # forward pass to get next token
+            
+            if input_ids[0][original_len:].numel()!=0:
+                with open('/home/chh/repos/my_ctg/instructions/template/key_mes_select.txt','r',encoding='utf-8') as f:
+                    template_select=f.read()
+                decoded_text = tokenizer.decode(input_ids[0][original_len:], skip_special_tokens=True)
+                if decoded_text[-1]=='.':
+                    with open('/home/chh/repos/my_ctg/instructions/template/key_mes_gen.txt','r',encoding='utf-8') as f:
+                        template_gen=f.read()
+                    
+                    prompt=template_gen%(question,decoded_text)
+                    
+                    messages = [{"role": "user", "content": prompt}]
+                    new_mes=tokenizer.apply_chat_template(
+                        messages,
+                        tokenize=True,
+                        add_generation_prompt=True,
+                        return_tensors="pt"
+                    ).to(my_model.model.device)
+                    output_ids = my_model.generate(
+                        input_ids=new_mes,
+                        max_new_tokens=50
+                    )
+                    new_mes_gen = tokenizer.decode(output_ids[0][new_mes.shape[-1]:], skip_special_tokens=True)
+                    pattern = r"\[(.*?)\]"
+                    match = re.search(pattern, new_mes_gen)
+
+                    if match:
+                        new_mes_gen=match.group(1)
+                        if len(new_mes_gen)>2 and new_mes_gen not in key_mes:
+                            key_mes.append(str(len(key_mes)+1)+'. '+new_mes_gen)
+                if key_mes:
+                    prompt_select=template_select%(question,decoded_text, "\n".join(key_mes))
+                    
+                    messages = [{"role": "user", "content": prompt_select}]
+                    judge_ids=tokenizer.apply_chat_template(
+                        messages,
+                        tokenize=True,
+                        add_generation_prompt=True,
+                        return_tensors="pt"
+                    ).to(my_model.model.device)
+                    output_ids = my_model.generate(
+                        input_ids=judge_ids,
+                        max_new_tokens=1
+                    )
+                    generated_text = tokenizer.decode(output_ids[0][judge_ids.shape[-1]:], skip_special_tokens=True)
+                    # print(generated_text)
+                    try:
+                        mes_index = int(generated_text[0]) - 1
+                    except (ValueError, IndexError):
+                        mes_index = 0
+                    if mes_index>=0 and mes_index<len(key_mes):
+                        selection=key_mes[mes_index]
+                    else:
+                        selection=key_mes[0]
+                    template='Given the following problem, reason and give a final answer to the problem.\nProblem:{}\nPlease note that you may need to use the following key message during the generation process: {}\nYour response should end with "The final answer is [answer]" where [answer] is the response to the problem.'
+                    prompt=template.format(question,selection)
+                    messages = [{"role": "user", "content": prompt}]
+                    new_input=tokenizer.apply_chat_template(
+                        messages,
+                        tokenize=True,
+                        add_generation_prompt=True,
+                        return_tensors="pt"
+                    ).to(my_model.model.device)
+                    new_input = torch.cat([new_input[0], input_ids[0][original_len:]], dim=-1)
+                    new_input = new_input.unsqueeze(0)
+                    model_inputs = self.prepare_inputs_for_generation(new_input, **model_kwargs)
+                    model_inputs['past_key_values']=None
+                    model_inputs['attention_mask']=None
+                    model_inputs['position_ids']=None
+                    model_inputs['cache_position']=None
+                    
+                outputs = self(**model_inputs,edit=False,return_dict=True)
+
+            else:
+                outputs = self(**model_inputs,edit=False,return_dict=True)
+                
+            
+            if synced_gpus and this_peer_finished:
+                continue  # don't waste resources running the code we don't need
+
+            # Clone is needed to avoid keeping a hanging ref to outputs.logits which may be very large for first iteration
+            # (the clone itself is always small)
+            next_token_logits = outputs.logits.clone()[:, -1, :].float()
+
+            # pre-process distribution
+            next_token_scores = logits_processor(input_ids, next_token_logits)
+
+            # Store scores, attentions and hidden_states when required
+            if return_dict_in_generate:
+                if output_scores:
+                    scores += (next_token_scores,)
+                if output_logits:
+                    raw_logits += (next_token_logits,)
+                if output_attentions:
+                    decoder_attentions += (
+                        (outputs.decoder_attentions,) if self.config.is_encoder_decoder else (outputs.attentions,)
+                    )
+                    if self.config.is_encoder_decoder:
+                        cross_attentions += (outputs.cross_attentions,)
+
+                if output_hidden_states:
+                    decoder_hidden_states += (
+                        (outputs.decoder_hidden_states,)
+                        if self.config.is_encoder_decoder
+                        else (outputs.hidden_states,)
+                    )
+
+            # token selection
+            if do_sample:
+                probs = nn.functional.softmax(next_token_scores, dim=-1)
+                # TODO (joao): this OP throws "skipping cudagraphs due to ['incompatible ops']", find solution
+                next_tokens = torch.multinomial(probs, num_samples=1).squeeze(1)
+            else:
+                next_tokens = torch.argmax(next_token_scores, dim=-1)
+
+            # finished sentences should have their next token be a padding token
+            if has_eos_stopping_criteria:
+                next_tokens = next_tokens * unfinished_sequences + pad_token_id * (1 - unfinished_sequences)
+
+            # update generated ids, model inputs, and length for next step
+            input_ids = torch.cat([input_ids, next_tokens[:, None]], dim=-1)
+            if streamer is not None:
+                streamer.put(next_tokens.cpu())
+            model_kwargs = self._update_model_kwargs_for_generation(
+                outputs,
+                model_kwargs,
+                is_encoder_decoder=self.config.is_encoder_decoder,
+            )
+
+            unfinished_sequences = unfinished_sequences & ~stopping_criteria(input_ids, scores)
+            this_peer_finished = unfinished_sequences.max() == 0
+            cur_len += 1
+
+            # This is needed to properly delete outputs.logits which may be very large for first iteration
+            # Otherwise a reference to outputs is kept which keeps the logits alive in the next iteration
+            del outputs
+
+        if streamer is not None:
+            streamer.end()
+
+        if return_dict_in_generate:
+            if self.config.is_encoder_decoder:
+                return GenerateEncoderDecoderOutput(
+                    sequences=input_ids,
+                    scores=scores,
+                    logits=raw_logits,
+                    encoder_attentions=encoder_attentions,
+                    encoder_hidden_states=encoder_hidden_states,
+                    decoder_attentions=decoder_attentions,
+                    cross_attentions=cross_attentions,
+                    decoder_hidden_states=decoder_hidden_states,
+                    past_key_values=model_kwargs.get("past_key_values"),
+                )
+            else:
+                return GenerateDecoderOnlyOutput(
+                    sequences=input_ids,
+                    scores=scores,
+                    logits=raw_logits,
+                    attentions=decoder_attentions,
+                    hidden_states=decoder_hidden_states,
+                    past_key_values=model_kwargs.get("past_key_values"),
+                )
+        else:
+            return input_ids
+        
     def _has_unfinished_sequences(
         self,
         this_peer_finished: bool,

@@ -1,0 +1,20 @@
+As a Python code expert, you are tasked with determining how best to complete the code based on the given requirements. I will provide you with specific code requirements or code snippet hints, and you will need to think about the specific steps to complete the code so that the model can generate the correct Python code. Your output should be structured as two distinct instructions that the model understands, and these instructions include specific step-by-step planning. It is vital that these instructions avoid additional information or interpretation and do not contradict the original requirements in any way.
+
+Your response must be in plain text JSON format, with the “key” representing the instruction number and the “value” containing the corresponding essential information. Your response MUST include exactly two instructions.
+
+Here are two examples:
+
+Prompt: Write a python function to calculate the sum of the numbers in a list between the indices of a specified range.
+Instructions:  {
+  "instruction 1": "Identify the input parameters as a list of numbers and the start and end indices that specify the range.",
+  "instruction 2": "Use Python's list slicing to extract the sublist between the specified indices and return the sum of the elements in that sublist using the `sum()` function."
+}
+
+Prompt: Write a function to generate a square matrix filled with elements from 1 to n raised to the power of 2 in spiral order.
+Instructions: {
+  "instruction 1": "Identify the input parameter as an integer n that represents the size of the matrix, and initialize an empty n x n matrix filled with zeros.",
+  "instruction 2": "Use a loop to iterate and fill the matrix in a spiral order, starting from the outermost layer and moving inward, assigning numbers from 1 to n^2, then return the filled matrix."
+}
+
+Based on the description and example above, please provide two key messages for the following prompt. You must only output the content in json format without any additional words or comments.
+Prompt: %s

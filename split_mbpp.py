@@ -5,7 +5,7 @@ import random
 
 import regex as re
 
-os.environ['CUDA_VISIBLE_DEVICES']='0'
+os.environ['CUDA_VISIBLE_DEVICES']='3'
 from datasets import load_dataset
 from human_eval.data import read_problems, write_jsonl
 from openai import OpenAI
@@ -20,14 +20,16 @@ random.seed(42)
 # sampling_params = SamplingParams(max_tokens=512)
 # model=LLM(model='/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct',gpu_memory_utilization=0.90)
 # tokenizer = AutoTokenizer.from_pretrained('/data1/chh/models/meta-llama/Meta-Llama-3-8B-Instruct')
-# template=None
-with open('/home/chh/repos/my_ctg/instructions/template/con_template_humaneval.txt','r',encoding='utf-8') as f:
+template=None
+with open('/home/chh/repos/my_ctg/instructions/template/con_template_mbpp.txt','r',encoding='utf-8') as f:
     template=f.read()
 
 ds = load_dataset('/data1/chh/datasets/evalplus/mbppplus',split='test')
 
 new_data=[]    
-input_string=[]
+# with open('./instructions/mbpp/mbpp_2steps_llama_.json', 'r', encoding='utf-8') as output_file:
+#     new_data=json.load(output_file)
+# input_string=[]
 # for i in ds:
 #     input_string.append(prompt_template(tokenizer,template%(i['prompt'])))
 # outputs=model.generate(input_string,sampling_params)
@@ -47,40 +49,41 @@ for d in ds:
 
 
 # for item in new_data:
-#     split_content = item.get('split', '')
-#     split_content.strip()
-#     json_match = re.search(r'Instructions:\s*(\{(?:[^{}]|(?1))*\})', split_content, re.DOTALL)
+#     if 'split' in item.keys():
+#         split_content = item.get('split', '')
+#         split_content.strip()
+#         split_content=split_content+'}'
+#         json_match = re.search(r'\{.*?\}', split_content, re.DOTALL)
 
-    # if json_match:
-    #     json_text = json_match.group(1)
-        
-    #     try:
-    #         json_data = json.loads(json_text)
+#         if json_match:
+#             json_text = json_match.group(0)
             
-    #         if json_data and 'instruction 1' in json_data.keys() and 'instruction 2' in json_data.keys():
-    #             item['instruction 1'] = json_data['instruction 1']
-    #             item['instruction 2'] = json_data['instruction 2']
-    #             del item['split']
-    #     except json.JSONDecodeError:
-    # pattern_1 = r'"instruction 1":\s*"(.*?)"'
-    # pattern_2 = r'"instruction 2":\s*"(.*?)"'
-    
-    # instruction_1 = re.search(pattern_1, item['split'])
-    # instruction_2 = re.search(pattern_2, item['split'])
-    # if instruction_1 and instruction_2:
-    #     item['instruction 1']=instruction_1.group(1)
-    #     item['instruction 2']=instruction_2.group(1) 
-    #     del item['split']
-            
-            # print(item)
+#             try:
+#                 json_data = json.loads(json_text)
+                
+#                 if json_data and 'instruction 1' in json_data.keys() and 'instruction 2' in json_data.keys():
+#                     item['instruction 1'] = json_data['instruction 1']
+#                     item['instruction 2'] = json_data['instruction 2']
+#                     del item['split']
+#             except json.JSONDecodeError:
+#                 pattern_1 = r'"instruction 1":\s*"(.*?)"'
+#                 pattern_2 = r'"instruction 2":\s*"(.*?)"'
+                
+#                 instruction_1 = re.search(pattern_1, item['split'])
+#                 instruction_2 = re.search(pattern_2, item['split'])
+#                 if instruction_1 and instruction_2:
+#                     item['instruction 1']=instruction_1.group(0)
+#                     item['instruction 2']=instruction_2.group(0) 
+#                     del item['split']
 
-with open('./instructions/mbpp/mbpp_2steps_llama.json', 'w', encoding='utf-8') as output_file:
+
+with open('./instructions/mbpp/mbpp_2steps_llama_3.json', 'w', encoding='utf-8') as output_file:
     json.dump(new_data, output_file, ensure_ascii=False, indent=4)
 
 print("Data processed and saved successfully!")
 
     
-with open('./instructions/mbpp/mbpp_2steps_llama.json', 'r', encoding='utf-8') as output_file:
+with open('./instructions/mbpp/mbpp_2steps_llama_3.json', 'r', encoding='utf-8') as output_file:
     data=json.load(output_file)
 openai_api_key = "ak-2sXdY35hDbXmfIypzn3rx2H9HNM0UcfQIgehhcnqDxzpKJR4"
 openai_api_base = "https://api.nextapi.fun"
@@ -110,5 +113,5 @@ for item in tqdm(data):
             item['instruction 1']=answer['instruction 1']
             item['instruction 2']=answer['instruction 2']
             
-with open('./instructions/mbpp/mbpp_2steps_llama.json', 'w', encoding='utf-8') as output_file:
+with open('./instructions/mbpp/mbpp_2steps_llama_3.json', 'w', encoding='utf-8') as output_file:
     json.dump(data, output_file, ensure_ascii=False, indent=4)
